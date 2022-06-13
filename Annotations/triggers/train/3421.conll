@@ -1,0 +1,20 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	21	DESC
+I-LivingStatus	22	29	shelter
+
+O	30	31	+
+B-Tobacco	32	35	tob
+
+O	36	38	no
+B-Drug	39	47	illicits
+O	48	51	per
+O	52	54	pt
+
+O	55	56	h
+O	56	57	/
+O	57	58	o
+B-Alcohol	59	66	alcohol
+I-Alcohol	67	70	use

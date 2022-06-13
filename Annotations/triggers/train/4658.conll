@@ -1,0 +1,93 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+O	23	24	'
+O	24	25	s
+O	26	34	daughter
+O	35	38	has
+O	39	44	moved
+O	45	49	back
+O	50	52	to
+O	53	54	[
+O	54	55	*
+O	55	56	*
+O	56	61	State
+O	62	65	350
+O	65	66	*
+O	66	67	*
+O	67	68	]
+O	69	71	to
+B-LivingStatus	72	76	live
+O	77	81	with
+
+O	82	85	her
+O	85	86	.
+
+O	87	90	She
+O	91	95	does
+O	96	99	not
+O	100	103	use
+O	104	107	any
+O	108	118	assistance
+O	119	121	to
+O	122	130	ambulate
+O	131	133	at
+O	134	142	baseline
+O	143	146	and
+
+O	147	149	is
+O	150	154	very
+O	155	161	active
+O	161	162	.
+
+O	163	166	She
+O	167	170	has
+O	171	176	never
+B-Tobacco	177	183	smoked
+O	184	187	and
+B-Alcohol	188	194	drinks
+O	195	199	wine
+O	200	204	only
+
+O	205	217	occasionally
+O	217	218	.
+
+O	219	222	Her
+O	223	230	husband
+O	231	235	died
+O	236	240	when
+O	241	244	she
+O	245	248	was
+O	249	251	40
+O	252	257	years
+O	258	261	old
+O	261	262	.
+
+O	263	266	She
+
+O	267	270	had
+O	271	272	4
+O	273	281	children
+O	282	286	that
+O	287	290	she
+O	291	297	raised
+O	298	303	alone
+O	303	304	,
+O	305	308	and
+B-Employment	309	315	worked
+O	316	325	packaging
+
+O	326	332	frozen
+O	333	338	foods
+O	338	339	.
+
+O	340	343	Her
+O	344	352	youngest
+O	353	356	son
+O	357	361	died
+O	362	363	5
+O	364	369	years
+O	370	373	ago
+O	373	374	.

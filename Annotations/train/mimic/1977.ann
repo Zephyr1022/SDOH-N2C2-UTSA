@@ -1,0 +1,23 @@
+T1	Tobacco 202 209	Tobacco
+T2	Drug 188 193	Drugs
+T3	Alcohol 175 179	EtOH
+T4	StatusTime 211 217	Denies
+T5	StatusTime 195 201	Denies
+T6	StatusTime 181 187	Denies
+T7	LivingStatus 22 27	Lives
+T8	StatusTime 22 27	Lives
+T9	TypeLiving 28 40	with her son
+T10	Employment 66 76	Occupation
+T11	StatusEmploy 147 155	retiring
+T12	Type 119 139	a grinder and sander
+E1	Tobacco:T1 Status:T4
+E2	Drug:T2 Status:T5
+E3	Alcohol:T3 Status:T6
+E4	LivingStatus:T7 Type:T9 Status:T8
+E5	Employment:T10 Type:T12 Status:T11
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 with_family
+A6	StatusEmployVal T11 retired

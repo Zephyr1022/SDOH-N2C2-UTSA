@@ -1,0 +1,11 @@
+HABITS: 
+Tobacco Use: 1 cigarette/week   Alcohol Use: none   Drug Use: + MJ: 1gram/week. No IVDU 
+
+SOCIAL HISTORY: 
+Residence: [LOCATION] with mom
+Doesn't work. Goes to [LOCATION] vocational tech. Wants to be a writter.
+HABITS:
+Tobacco Use: 1 cigarette/week   Alcohol Use: none   Drug Use: Marijuana, smokes 1g/week 
+
+SOCIAL HISTORY: 
+Lives with mother off [LOCATION]. Is attending [LOCATION] school to become a writer.

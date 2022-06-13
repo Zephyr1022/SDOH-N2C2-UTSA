@@ -1,0 +1,11 @@
+T3	Drug 26 30	IVDU
+T4	StatusTime 31 36	hx of
+T5	Method 26 30	IVDU
+T6	LivingStatus 17 25	homeless
+T7	TypeLiving 17 25	homeless
+T1	StatusTime 17 25	homeless
+E2	Drug:T3 Status:T4 Method:T5
+E3	LivingStatus:T6 Type:T7 Status:T1
+A2	StatusTimeVal T4 past
+A3	TypeLivingVal T7 homeless
+A1	StatusTimeVal T1 current

@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	denies
+T3	Alcohol 30 41	Alcohol Use
+T4	StatusTime 43 49	denies
+T5	Drug 52 60	Drug Use
+T6	StatusTime 62 68	denies
+T7	LivingStatus 87 92	Lives
+T8	TypeLiving 107 122	with a roommate
+T9	StatusTime 87 92	Lives
+T10	Type 277 288	an engineer
+T11	StatusEmploy 294 311	no longer working
+T12	Employment 304 311	working
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Type:T8 Status:T9
+E5	Employment:T12 Status:T11 Type:T10
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	TypeLivingVal T8 with_others
+A5	StatusTimeVal T9 current
+A6	StatusEmployVal T11 unemployed

@@ -1,0 +1,40 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	25	in
+O	26	27	[
+O	27	35	LOCATION
+O	35	36	]
+O	37	41	with
+O	42	49	husband
+O	49	50	,
+O	51	52	[
+O	52	56	NAME
+O	56	57	]
+O	58	59	-
+O	60	70	supportive
+O	71	78	remains
+O	79	81	at
+O	82	89	bedside
+
+O	90	93	Has
+O	94	95	a
+O	96	99	dog
+
+O	100	107	History
+O	108	110	of
+O	111	121	occasional
+O	122	131	marijuana
+O	132	135	use
+
+O	136	138	No
+O	139	146	history
+O	147	149	of
+O	150	161	significant
+B-Alcohol	162	169	alcohol
+I-Alcohol	170	173	use
+O	173	174	,
+O	175	179	none
+O	180	189	currently

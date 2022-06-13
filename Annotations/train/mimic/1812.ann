@@ -1,0 +1,31 @@
+T1	LivingStatus 44 59	currently lives
+T2	TypeLiving 60 78	with her boyfriend
+T3	StatusTime 44 53	currently
+T4	Employment 79 89	Occupation
+T5	StatusEmploy 91 110	previously employed
+T6	Type 114 129	a house painter
+T7	Alcohol 130 134	EtOH
+T8	StatusTime 136 140	none
+T9	Drug 141 146	Drugs
+T10	Type 151 172	cocaine and IV heroin
+T11	Method 163 165	IV
+T12	StatusTime 147 150	h/o
+T13	Tobacco 208 215	Tobacco
+T14	StatusTime 217 221	Quit
+T15	Tobacco 273 278	smoke
+T16	Amount 279 286	1.5 ppd
+T17	Duration 287 291;292 295	x 35 yrs
+T18	StatusTime 265 272	Used to
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Alcohol:T7 Status:T8
+E4	Drug:T9 Type:T10 Method:T11 Status:T12
+E5	Tobacco:T13 Status:T14
+E6	Tobacco:T15 Amount:T16 Duration:T17 Status:T18
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T12 past
+A6	StatusTimeVal T14 past
+A7	StatusTimeVal T18 past

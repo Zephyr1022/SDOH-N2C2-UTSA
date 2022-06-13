@@ -1,0 +1,41 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	denies
+B-Alcohol	30	37	Alcohol
+I-Alcohol	38	41	Use
+O	41	42	:
+O	43	44	"
+O	44	48	quit
+O	49	50	4
+O	51	57	months
+O	58	61	ago
+O	61	62	"
+O	65	69	Drug
+O	70	73	Use
+O	73	74	:
+O	75	81	denies
+
+O	83	89	SOCIAL
+O	90	97	HISTORY
+O	97	98	:
+
+O	100	105	Lives
+O	106	110	with
+O	111	112	a
+O	113	119	friend
+O	120	122	in
+O	123	124	[
+O	124	132	LOCATION
+O	132	133	]
+O	133	134	.
+
+O	136	140	Does
+O	141	144	not
+O	145	149	work
+O	150	152	is
+O	153	155	on
+O	156	166	disability

@@ -1,0 +1,29 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-Tobacco	17	24	Tobacco
+I-Tobacco	25	28	use
+O	28	29	:
+
+O	31	37	Former
+O	38	44	Smoker
+O	44	45	:
+O	46	50	quit
+O	51	52	a
+O	53	57	year
+O	58	61	ago
+O	61	62	.
+
+B-Alcohol	64	71	Alcohol
+I-Alcohol	72	75	use
+O	75	76	:
+O	77	87	Occasional
+O	87	88	.
+
+B-Drug	90	94	Drug
+I-Drug	95	98	use
+O	98	99	:
+
+O	101	107	Denies
+O	107	108	.

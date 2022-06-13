@@ -1,0 +1,93 @@
+O	0	6	Social
+O	7	14	history
+O	14	15	:
+
+O	16	23	Tobacco
+O	23	24	:
+O	25	28	few
+O	29	39	cigarettes
+O	40	43	per
+O	44	47	day
+
+B-Alcohol	48	55	Alcohol
+O	55	56	:
+O	57	58	1
+O	58	59	-
+O	59	60	2
+O	61	67	drinks
+O	68	71	per
+O	72	76	week
+
+O	77	82	Drugs
+O	82	83	:
+O	84	90	denies
+
+O	92	97	Lives
+O	98	100	in
+O	101	102	[
+O	102	110	LOCATION
+O	110	111	]
+O	112	116	with
+O	117	120	her
+O	121	128	husband
+O	129	132	and
+O	133	134	2
+O	135	143	children
+
+O	144	150	Social
+O	151	158	history
+O	158	159	:
+
+O	160	167	Tobacco
+O	167	168	:
+O	169	172	few
+O	173	183	cigarettes
+O	184	187	per
+O	188	191	day
+
+B-Alcohol	192	199	Alcohol
+O	199	200	:
+O	201	202	1
+O	202	203	-
+O	203	204	2
+O	205	211	drinks
+O	212	215	per
+O	216	220	week
+
+O	221	226	Drugs
+O	226	227	:
+O	228	234	denies
+
+O	236	241	Lives
+O	242	244	in
+O	245	246	[
+O	246	254	LOCATION
+O	254	255	]
+O	256	260	with
+O	261	264	her
+O	265	272	husband
+O	273	276	and
+O	277	278	2
+O	279	287	children
+
+O	288	294	Social
+O	295	302	history
+O	302	303	:
+
+O	304	311	Tobacco
+O	311	312	:
+O	313	319	denies
+
+B-Alcohol	320	327	Alcohol
+O	327	328	:
+O	329	335	denies
+
+O	336	341	Drugs
+O	341	342	:
+O	343	349	denies
+
+O	351	356	Lives
+O	357	359	in
+O	360	361	[
+O	361	369	LOCATION
+O	369	370	]

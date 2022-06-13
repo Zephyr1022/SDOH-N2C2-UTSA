@@ -1,0 +1,14 @@
+T1	Tobacco 49 60	Tobacco use
+T2	StatusTime 62 65	Yes
+T3	Alcohol 68 79	Alcohol use
+T4	StatusTime 81 87	Denies
+T5	Drug 90 98	Drug use
+T6	StatusTime 100 104	Quit
+T7	Method 114 118	IVDU
+T8	History 129 141	6 months ago
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6 History:T8 Method:T7
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 past

@@ -1,0 +1,29 @@
+T1	Employment 335 342	Retired
+T2	Type 348 365	electronics plant
+T3	StatusEmploy 335 342	Retired
+T4	Alcohol 268 276	EtOH use
+T6	StatusTime 257 276	Infrequent EtOH use
+T7	Amount 278 286	1drink/6
+T8	Frequency 284 293	/6 months
+T9	Tobacco 192 199	smoking
+T10	StatusTime 187 191	Quit
+T11	History 200 213	in [**2102**]
+T12	Tobacco 215 221	smoked
+T13	StatusTime 215 221	smoked
+T14	Amount 222 228	2.5ppd
+T15	History 229 239	x 40 years
+T16	LivingStatus 16 21	Lives
+T17	StatusTime 16 21	Lives
+T18	TypeLiving 73 105;106 131	with [**Age over 90 **] year old aunt and multiple cousins
+E1	Employment:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Status:T6 Amount:T7 Frequency:T8
+E3	Tobacco:T9 Status:T10 History:T11
+E4	Tobacco:T12 Status:T13 Amount:T14 History:T15 Amount2:T5
+E5	LivingStatus:T16 Type:T18 Status:T17
+A1	StatusEmployVal T3 retired
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T10 past
+A5	StatusTimeVal T13 past
+A6	StatusTimeVal T17 current
+A7	TypeLivingVal T18 with_family
+T5	Amount 241 246	100py

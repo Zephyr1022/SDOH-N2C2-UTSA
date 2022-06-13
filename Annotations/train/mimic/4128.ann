@@ -1,0 +1,23 @@
+T1	Tobacco 66 73	tbx use
+T2	StatusTime 53 65	Denies hx of
+T3	Alcohol 87 91	EtOH
+T4	StatusTime 74 86	Denies hx of
+T5	Drug 99 107	illicits
+T6	Type 99 107	illicits
+T7	StatusTime 92 98	Denies
+T8	Employment 108 120	Not employed
+T9	StatusEmploy 122 135	on disability
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T7 Type:T6
+E4	Employment:T8 Status:T9
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T7 none
+A4	StatusEmployVal T9 on_disability
+T10	LivingStatus 17 22	Lives
+E5	LivingStatus:T10 Status:T12 Type:T11
+T11	TypeLiving 37 52	#5 in apartment
+A5	TypeLivingVal T11 with_others
+T12	StatusTime 17 22	Lives
+A6	StatusTimeVal T12 current

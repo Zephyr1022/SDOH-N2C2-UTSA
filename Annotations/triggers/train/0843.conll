@@ -1,0 +1,20 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	20	High
+I-Employment	21	27	School
+I-Employment	28	35	Student
+O	35	36	.
+
+O	38	41	She
+O	42	48	denies
+B-Tobacco	49	56	tobacco
+O	56	57	,
+B-Alcohol	58	65	alcohol
+O	65	66	,
+O	67	70	and
+B-Drug	71	75	drug
+
+B-Drug	76	80	uses
+O	80	81	.

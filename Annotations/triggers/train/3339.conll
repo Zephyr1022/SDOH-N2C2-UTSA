@@ -1,0 +1,23 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	16	23	Staying
+O	24	26	at
+O	27	33	Aurora
+O	34	39	House
+O	40	47	Shelter
+
+O	48	54	Denies
+B-Tobacco	55	62	tobacco
+O	62	63	/
+B-Alcohol	63	67	EtOH
+O	67	68	/
+B-Drug	68	72	drug
+I-Drug	73	76	use
+
+O	77	79	No
+O	80	87	tobacco
+O	88	90	in
+O	91	95	last
+O	96	100	year

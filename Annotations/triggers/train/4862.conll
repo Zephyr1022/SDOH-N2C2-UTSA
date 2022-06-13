@@ -1,0 +1,85 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	in
+O	25	32	nursing
+O	33	37	home
+O	37	38	.
+
+O	39	46	History
+O	47	49	of
+B-Tobacco	50	57	tobacco
+O	57	58	,
+B-Alcohol	59	63	EtOH
+O	64	67	and
+B-Drug	68	72	drug
+I-Drug	73	78	abuse
+O	78	79	.
+
+O	80	83	She
+O	84	86	is
+O	87	97	originally
+O	98	102	from
+O	103	104	[
+O	104	105	*
+O	105	106	*
+O	106	111	State
+O	112	116	3908
+O	116	117	*
+O	117	118	*
+O	118	119	]
+O	119	120	.
+
+O	121	124	She
+B-Employment	125	131	worked
+O	132	134	as
+O	135	137	an
+O	138	152	administrative
+
+O	153	162	assistant
+O	163	167	when
+O	168	171	she
+O	172	175	was
+O	176	183	younger
+O	183	184	,
+O	185	188	but
+O	189	191	is
+O	192	195	now
+O	196	198	on
+O	199	203	SSDI
+O	204	205	(
+O	205	208	for
+
+O	209	210	?
+O	210	223	schizophrenia
+O	224	227	and
+O	228	235	seizure
+O	236	244	disorder
+O	244	245	)
+O	245	246	.
+
+O	248	255	Patient
+O	255	256	'
+O	256	257	s
+O	258	266	daughter
+O	266	267	,
+
+O	268	269	[
+O	269	270	*
+O	270	271	*
+O	271	275	Name
+O	276	277	(
+O	277	279	NI
+O	279	280	)
+O	281	285	4850
+O	285	286	*
+O	286	287	*
+O	287	288	]
+O	288	289	,
+O	290	292	is
+O	293	301	involved
+O	302	304	in
+O	305	309	care
+O	309	310	.

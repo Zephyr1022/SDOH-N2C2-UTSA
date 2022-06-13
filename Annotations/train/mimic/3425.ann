@@ -1,0 +1,21 @@
+T1	LivingStatus 17 35	Currently homeless
+T2	StatusTime 17 35	Currently homeless
+T3	TypeLiving 17 35	Currently homeless
+T4	Employment 51 72	Not currently working
+T5	StatusEmploy 51 72	Not currently working
+T6	Tobacco 82 93	tobacco use
+T7	StatusTime 73 81	Endorses
+T8	Alcohol 102 109	alcohol
+T9	Drug 113 122	marijuana
+T10	Type 113 122	marijuana
+T11	StatusTime 95 101	denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T7
+E4	Alcohol:T8 Status:T11
+E5	Drug:T9 Type:T10 Status:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T7 current
+A5	StatusTimeVal T11 none

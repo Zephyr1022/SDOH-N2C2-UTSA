@@ -1,0 +1,7 @@
+HABITS: 
+Tob: denies
+EtOH: denies
+Drugs: denies 
+
+SOCIAL HISTORY: 
+Originally from [LOCATION], [LOCATION]. Spanish speaking with some English. Works as prep cook but lost job due to frequent HA in [DATE]. Was living in apartment, but unable to pay rent after losing job and became homeless. Currently staying in shelter on [LOCATION]

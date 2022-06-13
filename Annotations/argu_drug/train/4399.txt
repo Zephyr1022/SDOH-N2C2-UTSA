@@ -1,0 +1,12 @@
+Social History: Immigrated from [LOCATION] in 1990s.  Long smoking history.  No drug use, scant alcohol use.  
+
+Physical Exam
+
+Vitals (Most recent and 24 hour range.) 
+Date	Result	Last	MIN	  -  MAX
+[DATE] 10:00	Temp C: 	38.5	37.1	  -  38.5
+[DATE] 10:00	HR: 	97	75	  -  109
+[DATE] 10:00	RR: 	19	14	  -  22
+[DATE] 10:00	SBP Non-Inv: 	123	123	  -  168
+[DATE] 10:00	DBP Non-Inv: 	79	79	  -  104
+[DATE] 08:12	MAP Non-Inv: 	97	97	  -  97

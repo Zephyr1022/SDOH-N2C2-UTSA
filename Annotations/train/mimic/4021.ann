@@ -1,0 +1,11 @@
+T1	LivingStatus 49 65	Living situation
+T2	TypeLiving 74 79	alone
+T3	StatusTime 68 73	Lives
+T7	Alcohol 110 121	Alcohol use
+T8	Type 123 127	beer
+T12	StatusTime 123 127	beer
+E1	LivingStatus:T1 Type:T2 Status:T3
+E3	Alcohol:T7 Type:T8 Status:T12
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A5	StatusTimeVal T12 current

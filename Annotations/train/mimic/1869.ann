@@ -1,0 +1,26 @@
+T4	Employment 161 174;175 182	currently not working
+T3	StatusEmploy 161 174;175 182	currently not working
+T10	Tobacco 288 303	Tobacco history
+T11	Amount 323 330	3 packs
+T12	Type 334 338	cigs
+T13	Frequency 339 347	per week
+T14	StatusTime 305 322	Wife and pt share
+T15	Alcohol 350 354	ETOH
+T16	StatusTime 374 378	quit
+T18	History 379 389	14 yrs ago
+T19	Drug 392 405	Illicit drugs
+T20	Type 392 399	Illicit
+T21	StatusTime 408 412	None
+E3	Employment:T4 Status:T3
+E4	Tobacco:T10 Status:T14 Amount:T11 Type:T12 Frequency:T13
+E5	Alcohol:T15 Status:T16 History:T18
+E6	Drug:T19 Type:T20 Status:T21
+A1	StatusEmployVal T3 unemployed
+A4	StatusTimeVal T14 current
+A5	StatusTimeVal T16 past
+A7	StatusTimeVal T21 none
+T1	Employment 132 140	Disabled
+E1	Employment:T1 Type:T2 Status:T5
+T2	Type 141 159	sheet metal worker
+T5	StatusEmploy 132 140	Disabled
+A2	StatusEmployVal T5 on_disability

@@ -1,0 +1,33 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	23	1
+O	23	24	-
+O	24	25	2
+O	26	29	per
+O	30	33	day
+O	34	35	+
+O	36	44	nicotine
+O	45	50	patch
+B-Alcohol	53	60	Alcohol
+I-Alcohol	61	64	Use
+O	64	65	:
+O	66	72	denies
+B-Drug	75	79	Drug
+I-Drug	80	83	Use
+O	83	84	:
+O	85	91	denies
+
+O	93	99	SOCIAL
+O	100	107	HISTORY
+O	107	108	:
+
+O	110	113	Son
+B-LivingStatus	114	119	lives
+O	120	122	at
+O	123	126	her
+O	127	132	house
+O	132	133	.

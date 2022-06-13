@@ -1,0 +1,189 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	22	Former
+I-Employment	23	33	operations
+I-Employment	34	45	coordinator
+O	45	46	,
+O	47	58	supervising
+O	59	60	a
+O	61	69	mailroom
+O	69	70	.
+
+O	71	80	Completed
+O	81	82	2
+O	83	86	yrs
+O	87	89	of
+O	90	97	college
+O	97	98	.
+
+O	100	103	Has
+O	104	105	1
+O	106	113	brother
+O	114	116	in
+O	117	118	[
+O	118	119	*
+O	119	120	*
+O	120	124	Name
+O	125	126	(
+O	126	128	NI
+O	128	129	)
+O	130	134	7661
+O	134	135	*
+O	135	136	*
+O	136	137	]
+O	138	141	and
+O	142	143	1
+
+O	144	150	sister
+O	151	153	in
+O	154	155	[
+O	155	156	*
+O	156	157	*
+O	157	162	State
+O	163	168	26110
+O	168	169	*
+O	169	170	*
+O	170	171	]
+O	171	172	;
+O	173	179	father
+O	180	182	in
+O	183	190	upstate
+O	191	193	NY
+O	193	194	.
+
+O	195	198	Has
+O	199	203	been
+B-Tobacco	204	211	smoking
+O	212	213	2
+
+O	214	219	packs
+O	220	223	per
+O	224	227	day
+O	228	229	x
+O	230	231	1
+O	232	236	year
+O	237	240	and
+O	241	242	1
+O	243	246	ppd
+O	247	248	x
+O	249	251	34
+O	252	255	yrs
+O	256	259	for
+O	260	265	total
+O	266	268	of
+O	269	271	of
+
+O	272	278	36pack
+O	278	279	-
+O	279	284	years
+O	284	285	.
+
+O	286	292	Denies
+O	293	300	history
+O	301	303	of
+B-Drug	304	308	IVDU
+O	308	309	.
+
+O	311	318	History
+O	319	321	of
+B-Alcohol	322	327	heavy
+I-Alcohol	328	335	alcohol
+
+B-Alcohol	336	339	use
+O	339	340	.
+
+B-Drug	342	347	Prior
+I-Drug	348	357	marijuana
+O	357	358	,
+O	359	363	none
+O	364	367	for
+O	368	371	the
+O	372	376	last
+O	377	382	three
+O	383	388	years
+O	388	389	.
+
+O	391	400	Currently
+
+O	401	403	is
+B-LivingStatus	404	412	homeless
+O	412	413	,
+O	414	425	frequenting
+O	426	427	[
+O	427	428	*
+O	428	429	*
+O	429	437	Location
+O	438	439	(
+O	439	441	un
+O	441	442	)
+O	443	444	*
+O	444	445	*
+O	445	446	]
+O	446	451	after
+O	452	457	being
+O	458	464	thrown
+
+O	465	468	out
+O	469	471	of
+O	472	477	detox
+O	478	481	for
+O	482	490	stealing
+O	491	492	$
+O	492	493	1
+O	493	494	.
+O	494	496	25
+O	496	497	;
+O	498	502	then
+O	503	509	thrown
+O	510	513	out
+O	514	516	of
+O	517	521	half
+O	521	522	-
+O	522	525	way
+
+O	526	531	house
+O	531	532	:
+O	533	534	"
+O	534	538	just
+O	539	546	started
+O	547	554	nipping
+O	554	555	"
+O	556	559	and
+O	560	562	it
+O	563	572	escalated
+O	572	573	.
+
+O	575	580	Would
+O	581	585	like
+O	586	590	very
+
+O	591	595	much
+O	596	598	to
+O	599	606	restart
+O	607	612	detox
+O	613	620	because
+O	621	624	was
+O	625	629	able
+O	630	632	to
+O	633	635	be
+O	636	641	sober
+O	642	645	for
+O	646	650	over
+O	651	652	1
+
+O	653	657	year
+O	657	658	.
+O	658	659	.
+
+O	661	664	Did
+O	665	668	not
+O	669	673	want
+O	674	680	anyone
+O	681	689	notified
+O	690	692	he
+O	693	696	was
+O	697	699	in
+O	700	708	hospital
+O	708	709	.

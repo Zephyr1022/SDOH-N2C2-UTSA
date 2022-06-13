@@ -1,0 +1,5 @@
+HABITS: 
+Per review of her medical record, the patient previosuly smoked "a long time" with approximately 4 packs a day but stopped smoked 6 years ago. She denies drinking alcohol or using any other substances. 
+
+SOCIAL HISTORY: 
+The patient lives in [LOCATION] with her huband and is a retired nurse.

@@ -1,0 +1,39 @@
+O	0	5	SocHx
+O	5	6	:
+
+O	8	13	Lives
+O	14	16	in
+O	17	18	[
+O	18	26	LOCATION
+O	26	27	]
+O	28	29	-
+O	30	33	has
+O	34	35	"
+O	35	41	entire
+O	42	47	floor
+O	48	50	of
+O	51	56	house
+O	57	59	to
+O	60	67	himself
+O	67	68	"
+
+O	69	70	1
+O	70	71	-
+O	71	72	2
+B-Alcohol	73	79	drinks
+O	80	83	per
+O	84	87	day
+O	87	88	,
+O	89	93	last
+O	94	97	was
+O	98	102	this
+O	103	110	morning
+
+O	111	113	no
+O	114	121	tobacco
+
+O	122	128	single
+
+O	129	130	+
+O	131	138	medical
+O	139	148	marijuana

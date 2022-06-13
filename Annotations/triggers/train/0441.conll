@@ -1,0 +1,72 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	26	Occupation
+O	26	27	:
+O	28	38	automobile
+O	39	47	detailer
+O	48	51	and
+O	52	61	substance
+O	62	67	abuse
+O	68	77	counselor
+
+B-Drug	78	83	Drugs
+O	83	84	:
+O	85	87	Hx
+O	88	92	IVDU
+O	92	93	,
+O	94	98	drug
+O	98	99	/
+O	99	108	substance
+O	109	113	free
+O	114	115	x
+O	116	117	9
+O	118	123	years
+O	123	124	.
+
+B-Tobacco	125	132	Tobacco
+O	132	133	:
+O	134	138	1ppd
+
+B-Alcohol	139	146	Alcohol
+O	146	147	:
+O	148	150	Hx
+O	151	155	ETOH
+O	156	161	abuse
+
+O	162	167	Other
+O	167	168	:
+B-LivingStatus	169	174	Lives
+O	175	180	alone
+O	180	181	,
+O	182	184	no
+O	185	189	pets
+O	189	190	.
+
+O	192	195	Has
+O	196	197	a
+O	198	202	very
+O	203	213	supportive
+O	214	224	girlfriend
+
+O	225	228	who
+O	229	231	is
+O	232	235	HCV
+O	236	244	positive
+O	244	245	.
+
+O	246	249	Has
+O	250	251	a
+O	252	254	22
+O	255	257	yr
+O	258	261	old
+O	262	270	daughter
+O	271	274	and
+O	275	282	reports
+O	283	287	good
+
+O	288	300	relationship
+O	301	305	with
+O	306	309	her
+O	309	310	.

@@ -1,0 +1,18 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	25	in
+O	26	27	[
+O	27	35	LOCATION
+O	35	36	]
+O	36	37	.
+
+O	38	44	Denies
+O	45	52	current
+B-Alcohol	53	60	alcohol
+O	61	63	or
+O	64	71	tobacco
+O	72	75	use
+O	75	76	.

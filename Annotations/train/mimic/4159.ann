@@ -1,0 +1,17 @@
+T1	Employment 51 58	retired
+T2	StatusEmploy 51 58	retired
+T3	Alcohol 71 75	EtOH
+T4	Drug 79 87	drug use
+T5	StatusTime 60 95	Denies any EtOH or drug use x 41 mo
+T6	History 88 95	x 41 mo
+T7	LivingStatus 17 22	lives
+T8	StatusTime 17 22	lives
+T9	TypeLiving 32 41	@ shelter
+E1	Employment:T1 Status:T2
+E2	Alcohol:T3 Status:T5 History:T6
+E3	Drug:T4 Status:T5 History:T6
+E4	LivingStatus:T7 Status:T8 Type:T9
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 current
+A4	TypeLivingVal T9 homeless

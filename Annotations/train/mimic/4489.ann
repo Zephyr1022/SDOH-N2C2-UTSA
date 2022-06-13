@@ -1,0 +1,12 @@
+T1	Drug 23 35	IV drug user
+T2	Method 23 25	IV
+T3	StatusTime 16 22	Active
+T4	Type 41 56	methamphetamine
+T5	Tobacco 67 72	smoke
+T6	Alcohol 82 89	alcohol
+T7	StatusTime 58 66	does not
+E1	Drug:T1 Method:T2 Status:T3 Type:T4
+E2	Tobacco:T5 Status:T7
+E3	Alcohol:T6 Status:T7
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T7 none

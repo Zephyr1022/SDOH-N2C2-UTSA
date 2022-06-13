@@ -1,0 +1,34 @@
+T1	LivingStatus 120 125	lives
+T2	StatusTime 120 125	lives
+T3	TypeLiving 126 149	in transitional housing
+T4	Employment 151 161	Unemployed
+T5	StatusEmploy 151 161	Unemployed
+T6	StatusTime 216 220	quit
+T7	Tobacco 206 209	Tob
+T8	History 221 227	[DATE]
+T9	Alcohol 243 247	EtOH
+T11	Duration 229 241	6years total
+T12	Drug 259 263	Drug
+T13	StatusTime 265 268	h/o
+T15	Employment 61 71	Unemployed
+T16	StatusEmploy 61 71	Unemployed
+T17	LivingStatus 30 35	lives
+T18	TypeLiving 36 59	in transitional housing
+T19	StatusTime 30 35	lives
+T20	StatusTime 243 257	EtOH- socially
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Status:T5
+E3	Tobacco:T7 Status:T6 History:T8 Duration:T11
+E4	Alcohol:T9 Status:T20
+E5	Drug:T12 Status:T13
+E6	Employment:T15 Status:T16
+E7	LivingStatus:T17 Type:T18 Status:T19
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T6 past
+A6	StatusTimeVal T13 past
+A8	StatusEmployVal T16 unemployed
+A9	TypeLivingVal T18 homeless
+A10	StatusTimeVal T19 current
+A11	StatusTimeVal T20 current

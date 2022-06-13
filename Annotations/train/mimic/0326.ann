@@ -1,0 +1,6 @@
+T1	LivingStatus 19 24	lives
+T2	StatusTime 19 24	lives
+T3	TypeLiving 25 37	with husband
+E1	LivingStatus:T1 Type:T3 Status:T2
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family

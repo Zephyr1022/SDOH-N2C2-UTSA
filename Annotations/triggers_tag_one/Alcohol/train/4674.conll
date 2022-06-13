@@ -1,0 +1,168 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	The
+O	20	27	patient
+O	28	33	works
+O	34	36	as
+O	37	38	a
+O	39	44	house
+O	45	52	painter
+O	52	53	,
+O	54	57	but
+O	58	61	has
+O	62	70	recently
+O	71	76	found
+O	77	79	it
+
+O	80	89	difficult
+O	90	92	to
+O	93	96	get
+O	97	101	work
+O	101	102	.
+
+O	103	106	The
+O	107	114	patient
+O	115	120	lives
+O	121	123	in
+O	124	125	[
+O	125	126	*
+O	126	127	*
+O	127	135	Location
+O	136	138	47
+O	138	139	*
+O	139	140	*
+O	140	141	]
+O	142	146	with
+O	147	150	his
+
+O	151	161	girlfriend
+O	162	166	with
+O	167	171	whom
+O	172	174	he
+O	175	178	has
+O	179	180	a
+O	181	191	monogamous
+O	192	204	relationship
+O	204	205	.
+
+O	206	209	The
+
+O	210	217	patient
+O	218	221	has
+O	222	228	smoked
+O	229	232	one
+O	233	237	pack
+O	238	239	a
+O	240	243	day
+O	244	251	tobacco
+O	252	255	for
+
+O	256	258	20
+O	259	264	years
+O	264	265	.
+
+O	266	268	He
+O	269	273	quit
+O	274	281	tobacco
+O	282	283	"
+O	283	287	cold
+O	288	289	[
+O	289	290	*
+O	290	291	*
+O	291	298	Country
+O	299	303	1073
+O	303	304	*
+O	304	305	*
+O	305	306	]
+O	306	307	"
+O	308	312	last
+O	313	317	year
+O	318	321	for
+O	322	327	about
+
+O	328	333	three
+O	334	340	months
+O	340	341	.
+
+O	342	349	However
+O	349	350	,
+O	351	353	he
+O	354	357	has
+O	358	363	since
+O	364	371	resumed
+O	372	379	smoking
+O	379	380	.
+
+O	381	384	The
+O	385	392	patient
+
+O	393	397	also
+B-Alcohol	398	404	drinks
+O	405	410	about
+O	411	412	[
+O	412	413	*
+O	413	414	*
+O	414	415	3
+O	415	416	-
+O	416	418	15
+O	418	419	*
+O	419	420	*
+O	420	421	]
+O	422	429	glasses
+O	430	432	of
+O	433	437	beer
+O	438	440	or
+O	441	445	hard
+O	446	452	liquor
+O	453	456	per
+O	457	462	night
+O	462	463	.
+
+O	464	467	The
+O	468	475	patient
+O	476	478	is
+O	479	487	hesitant
+O	488	490	to
+O	491	494	cut
+O	495	499	down
+O	500	503	his
+B-Alcohol	504	511	alcohol
+I-Alcohol	512	515	use
+O	516	520	even
+O	521	527	though
+
+O	528	530	he
+O	531	536	knows
+O	537	539	it
+O	540	542	is
+O	543	546	not
+O	547	551	good
+O	552	555	for
+O	556	559	his
+O	560	565	liver
+O	565	566	.
+
+O	567	570	The
+O	571	578	patient
+O	579	583	used
+O	584	586	to
+O	587	590	use
+
+O	591	598	cocaine
+O	599	602	and
+O	603	611	believes
+O	612	616	that
+O	617	619	he
+O	620	630	contracted
+O	631	640	hepatitis
+O	641	642	C
+O	643	647	from
+
+O	648	649	"
+O	649	656	sharing
+O	657	663	straws
+O	663	664	.
+
+O	665	666	"

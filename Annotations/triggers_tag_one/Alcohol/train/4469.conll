@@ -1,0 +1,97 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	25	in
+O	26	27	[
+O	27	35	LOCATION
+O	35	36	]
+O	36	37	,
+O	38	41	her
+O	42	48	friend
+O	49	50	[
+O	50	54	NAME
+O	54	55	]
+O	56	57	(
+O	57	60	LPN
+O	60	61	)
+O	62	70	recently
+O	71	76	moved
+O	77	79	in
+O	80	84	with
+O	85	88	her
+O	89	91	to
+O	92	98	assist
+O	99	103	with
+O	104	108	care
+O	109	118	including
+O	119	127	mobility
+O	127	128	,
+O	129	139	medication
+O	140	150	management
+O	150	151	.
+
+O	152	156	Uses
+O	157	163	walker
+O	164	167	for
+O	168	178	ambulation
+O	178	179	.
+
+O	180	183	Two
+O	184	188	dogs
+O	189	191	at
+O	192	196	home
+O	197	199	no
+O	200	205	other
+O	206	210	pets
+O	210	211	.
+
+O	212	218	Worked
+O	219	221	as
+O	222	230	computer
+O	231	241	programmer
+O	241	242	,
+O	243	246	not
+O	247	256	currently
+O	257	264	working
+O	264	265	.
+
+O	266	271	Never
+O	272	278	smoker
+O	279	288	including
+O	289	291	MJ
+O	291	292	.
+
+O	293	299	Denies
+O	300	305	drugs
+O	305	306	.
+
+O	307	313	Drinks
+B-Alcohol	314	318	ETOH
+O	319	324	maybe
+O	325	329	once
+O	330	335	every
+O	336	337	3
+O	338	344	months
+O	344	345	.
+
+O	346	352	Single
+O	353	355	no
+O	356	364	children
+O	364	365	.
+
+O	366	370	LNOK
+O	371	373	is
+O	374	377	her
+O	378	385	brother
+O	385	386	.
+
+O	387	389	No
+O	390	400	designated
+O	401	406	hDPOA
+O	407	410	but
+O	411	421	interested
+O	422	424	in
+O	425	437	establishing
+O	437	438	.

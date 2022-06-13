@@ -1,0 +1,47 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	20	wife
+O	21	25	died
+O	26	27	3
+O	28	33	weeks
+O	34	37	ago
+O	37	38	.
+
+O	39	42	Has
+O	43	46	six
+O	47	55	children
+O	56	57	(
+O	57	61	five
+O	62	71	duaghters
+O	71	72	,
+O	73	76	one
+
+O	77	80	son
+O	80	81	)
+O	82	85	all
+O	86	90	very
+O	91	99	involved
+O	100	102	in
+O	103	107	care
+O	107	108	.
+
+O	109	111	No
+O	112	113	h
+O	113	114	/
+O	114	115	o
+B-Tobacco	116	119	TOB
+O	120	122	or
+B-Drug	123	131	illicits
+O	131	132	,
+B-Alcohol	133	139	social
+
+B-Alcohol	140	144	ETOH
+O	145	147	in
+O	148	152	past
+O	152	153	.
+
+B-LivingStatus	154	159	Lives
+O	160	165	alone
+O	165	166	.

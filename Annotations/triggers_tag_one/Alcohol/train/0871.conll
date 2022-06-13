@@ -1,0 +1,20 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+O	29	31	is
+O	32	33	a
+O	34	41	retired
+O	42	51	secretary
+O	51	52	.
+
+O	54	57	She
+
+O	58	62	does
+O	63	66	not
+O	67	70	use
+B-Alcohol	71	78	alcohol
+O	79	81	or
+O	82	89	tobacco
+O	89	90	.

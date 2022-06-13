@@ -1,0 +1,28 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Residence
+O	26	27	:
+
+O	29	37	Homeless
+O	37	38	.
+
+O	40	50	Employment
+O	50	51	:
+
+O	53	63	Unemployed
+O	63	64	.
+
+O	66	73	Tobacco
+O	74	77	use
+O	77	78	:
+
+O	80	86	Denies
+O	86	87	.
+
+B-Alcohol	89	96	Alcohol
+I-Alcohol	97	100	use
+O	100	101	:
+O	102	108	denies
+O	108	109	.

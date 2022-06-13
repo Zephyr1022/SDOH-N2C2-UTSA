@@ -1,0 +1,35 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	27	with
+O	28	31	mom
+O	32	35	and
+O	36	39	dad
+
+O	40	47	Patient
+O	48	53	works
+O	54	56	as
+O	57	67	pharmacist
+O	68	70	at
+O	71	72	[
+O	72	80	LOCATION
+O	80	81	]
+
+B-Alcohol	82	86	EtOH
+O	86	87	:
+O	88	89	1
+O	90	95	glass
+O	96	98	of
+O	99	103	wine
+O	104	105	a
+O	106	111	month
+
+O	112	119	Tobacco
+O	119	120	:
+O	121	127	denies
+
+O	128	136	Illicits
+O	136	137	:
+O	138	144	denies

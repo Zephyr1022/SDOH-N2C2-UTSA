@@ -1,0 +1,15 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	She
+O	21	25	does
+O	26	29	not
+O	30	35	drink
+B-Alcohol	36	43	alcohol
+O	44	47	and
+O	48	50	is
+O	51	54	not
+O	55	56	a
+
+B-Tobacco	57	66	nonsmoker
+O	66	67	.

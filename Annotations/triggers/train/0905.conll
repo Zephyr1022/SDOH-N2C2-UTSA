@@ -1,0 +1,30 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	24	recently
+O	25	30	moved
+O	31	33	to
+O	34	40	Bosotn
+O	41	43	to
+O	44	48	dual
+O	48	49	-
+O	49	51	dx
+O	52	57	house
+O	57	58	.
+O	60	66	former
+B-Alcohol	67	71	EtOh
+O	72	73	&
+B-Drug	74	78	drug
+
+B-Drug	79	84	abuse
+O	85	86	(
+O	86	93	cocaine
+O	94	95	&
+O	96	102	heroin
+O	102	103	)
+O	103	104	.
+
+O	106	109	Not
+B-Employment	110	117	working
+O	117	118	.

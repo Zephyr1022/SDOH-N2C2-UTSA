@@ -1,0 +1,37 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	Denies
+B-Alcohol	31	38	Alcohol
+I-Alcohol	39	42	Use
+O	42	43	:
+O	44	45	1
+O	45	46	-
+O	46	47	2
+O	48	55	glasses
+O	56	59	per
+O	60	65	month
+O	68	72	Drug
+O	73	76	Use
+O	76	77	:
+O	78	84	Denies
+
+O	86	92	SOCIAL
+O	93	100	HISTORY
+O	100	101	:
+
+O	103	112	Residence
+O	112	113	:
+O	114	115	[
+O	115	123	LOCATION
+O	123	124	]
+O	124	125	;
+O	126	129	has
+O	130	133	son
+O	134	136	in
+O	137	138	[
+O	138	146	LOCATION
+O	146	147	]

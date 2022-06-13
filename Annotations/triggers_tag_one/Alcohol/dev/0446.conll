@@ -1,0 +1,23 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	No
+O	19	26	smoking
+
+O	27	34	History
+O	35	37	of
+B-Alcohol	38	42	ETOH
+I-Alcohol	43	48	abuse
+O	48	49	,
+O	50	52	40
+O	53	57	days
+O	58	63	sober
+
+O	64	69	Crack
+O	70	77	Cocaine
+O	78	83	abuse
+O	83	84	,
+O	85	87	40
+O	88	92	days
+O	93	98	sober

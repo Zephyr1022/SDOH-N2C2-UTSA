@@ -1,0 +1,15 @@
+T1	Drug 77 85	Drug Use
+T2	Tobacco 9 20	Tobacco Use
+T3	Alcohol 45 56	Alcohol Use
+T4	StatusTime 22 28	smokes
+T5	Amount 29 36	1 cigar
+T6	Frequency 36 40	/day
+T7	Type 31 36	cigar
+T8	StatusTime 58 63	Hx of
+T10	StatusTime 87 93	Denies
+E1	Drug:T1 Status:T10
+E2	Tobacco:T2 Status:T4 Type:T7 Amount:T5 Frequency:T6
+E3	Alcohol:T3 Status:T8
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T8 past
+A4	StatusTimeVal T10 none

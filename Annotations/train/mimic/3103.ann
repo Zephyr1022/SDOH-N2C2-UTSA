@@ -1,0 +1,24 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 23	N
+T3	Alcohol 26 37	Alcohol Use
+T4	StatusTime 47 52	sober
+T5	History 42 46	17mo
+T6	Drug 56 64	Drug Use
+T7	StatusTime 66 67	N
+T8	LivingStatus 86 91	Lives
+T9	StatusTime 86 91	Lives
+T10	TypeLiving 95 115	transitional housing
+T11	Alcohol 169 182	alcohol abuse
+T13	StatusTime 165 168	h/o
+T14	History 193 206	for 17 months
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4 History:T5
+E3	Drug:T6 Status:T7
+E4	LivingStatus:T8 Status:T9 Type:T10
+E5	Alcohol:T11 Status:T13 History:T14
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T10 with_others
+A7	StatusTimeVal T13 past

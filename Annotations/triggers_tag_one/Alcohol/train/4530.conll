@@ -1,0 +1,62 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Works
+O	22	24	as
+O	25	26	a
+O	27	32	mover
+O	33	36	and
+O	37	42	truck
+O	43	49	driver
+O	49	50	.
+
+O	51	53	He
+O	54	59	lives
+O	60	65	alone
+O	65	66	.
+
+O	67	73	Mother
+O	73	74	,
+
+O	75	81	sister
+O	82	85	and
+O	86	93	friends
+O	94	97	are
+O	98	106	involved
+O	107	110	and
+O	111	117	appear
+O	118	120	to
+O	121	123	be
+O	124	130	living
+O	131	135	with
+
+O	136	139	him
+O	139	140	.
+
+O	142	148	Mother
+O	149	153	with
+O	154	155	a
+O	156	167	significant
+O	168	179	psychiatric
+O	180	187	history
+O	188	190	as
+O	191	195	well
+O	195	196	.
+
+O	198	200	He
+
+O	201	210	continues
+O	211	213	to
+O	214	218	deny
+O	219	226	tobacco
+O	226	227	,
+B-Alcohol	229	236	alcohol
+O	236	237	,
+O	238	243	other
+O	244	252	illicits
+O	253	262	including
+
+O	263	269	opioid
+O	270	275	abuse
+O	275	276	.

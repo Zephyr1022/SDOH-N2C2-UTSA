@@ -1,0 +1,17 @@
+T1	LivingStatus 54 59	lived
+T2	StatusTime 43 53	previously
+T8	StatusEmploy 171 188	previously worked
+T9	Type 225 236	a machinist
+T4	LivingStatus 142 155;156 166	extended care facilities
+T5	StatusTime 116 129	more recently
+T7	Employment 171 188	previously worked
+T6	TypeLiving 139 155;156 166	in extended care facilities
+T3	TypeLiving 60 79	alone independently
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Employment:T7 Status:T8 Type:T9
+A1	StatusTimeVal T2 past
+A5	StatusEmployVal T8 unemployed
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 with_others
+A2	TypeLivingVal T3 alone

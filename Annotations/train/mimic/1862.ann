@@ -1,0 +1,30 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 32	with: Wife
+T3	StatusTime 16 21	Lives
+T4	Employment 60 70	Occupation
+T5	Type 72 80	Musician
+T6	StatusEmploy 72 80	Musician
+T7	Tobacco 81 91	Cigarettes
+T8	Type 81 91	Cigarettes
+T9	StatusTime 93 113	Smoked no [] yes [X]
+T10	History 129 139	[**2091**]
+T11	Duration 149 150;151 157	x 27 yrs
+T12	Amount 144 148	1ppd
+T13	Alcohol 158 162	ETOH
+T14	Amount 183 199	[**3-5**] drinks
+T15	Frequency 199 204	/week
+T16	StatusTime 183 208	[**3-5**] drinks/week [X]
+T17	Drug 227 243	Illicit drug use
+T18	Type 227 234	Illicit
+T19	StatusTime 245 251	Denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Type:T8 Status:T9 History:T10 Amount:T12 Duration:T11
+E4	Alcohol:T13 Amount:T14 Status:T16 Frequency:T15
+E5	Drug:T17 Type:T18 Status:T19
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T6 employed
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T16 current
+A6	StatusTimeVal T19 none

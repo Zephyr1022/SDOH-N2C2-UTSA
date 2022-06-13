@@ -1,0 +1,56 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	26	2ppd
+O	27	36	currently
+O	36	37	,
+O	38	41	has
+O	42	46	been
+O	47	53	smoker
+O	54	59	since
+O	60	65	teens
+
+B-Alcohol	66	73	Alcohol
+I-Alcohol	74	77	Use
+O	77	78	:
+O	79	86	Reports
+O	87	91	past
+O	92	97	abuse
+O	97	98	,
+O	99	103	less
+O	104	112	recently
+O	113	116	but
+O	117	120	BAL
+O	121	123	on
+O	124	131	arrival
+O	132	135	228
+
+B-Drug	136	140	Drug
+I-Drug	141	144	Use
+O	144	145	:
+O	146	148	MJ
+O	148	149	,
+O	150	156	denies
+O	157	163	others
+
+O	165	171	SOCIAL
+O	172	179	HISTORY
+O	179	180	:
+
+B-LivingStatus	182	187	Lives
+O	188	190	in
+O	191	192	[
+O	192	200	LOCATION
+O	200	201	]
+O	202	206	with
+O	207	215	roommate
+
+O	216	225	Unmarried
+O	226	230	with
+O	231	241	girlfriend
+
+B-Employment	242	244	On
+I-Employment	245	248	SSI

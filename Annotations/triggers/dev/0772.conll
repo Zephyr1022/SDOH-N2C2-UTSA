@@ -1,0 +1,90 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	Mr
+O	18	19	.
+O	20	21	[
+O	21	22	*
+O	22	23	*
+O	23	28	Known
+O	29	37	lastname
+O	38	42	3265
+O	42	43	*
+O	43	44	*
+O	44	45	]
+O	46	48	is
+O	49	56	married
+O	57	61	with
+O	62	70	children
+O	70	71	.
+
+O	73	75	He
+O	76	81	comes
+O	82	86	from
+O	87	88	[
+O	88	89	*
+O	89	90	*
+O	90	98	Hospital
+O	99	102	100
+O	102	103	*
+O	103	104	*
+O	104	105	]
+
+O	106	111	Rehab
+O	111	112	.
+
+O	114	116	He
+O	117	119	is
+O	120	128	bedbound
+O	129	133	from
+O	134	137	his
+O	138	140	C5
+O	140	141	-
+O	141	143	C7
+O	144	150	spinal
+O	151	155	cord
+O	156	162	injury
+O	163	166	but
+O	167	170	has
+
+O	171	179	movement
+O	180	182	of
+O	183	186	his
+O	187	191	left
+O	192	196	hand
+O	197	200	and
+O	201	208	minimal
+O	209	217	movement
+O	218	220	of
+O	221	224	his
+O	225	230	right
+
+O	231	235	hand
+O	235	236	,
+O	237	242	which
+O	243	245	is
+O	246	251	fused
+O	251	252	.
+
+O	254	256	He
+O	257	261	used
+O	262	264	to
+B-Employment	265	269	work
+O	270	272	as
+O	273	274	a
+O	275	284	carpenter
+O	285	290	prior
+O	291	293	to
+
+O	294	297	the
+O	298	304	injury
+O	304	305	.
+
+O	307	309	He
+O	310	316	denies
+B-Tobacco	317	324	smoking
+O	325	327	or
+B-Alcohol	328	332	etoh
+I-Alcohol	333	336	use
+O	336	337	.

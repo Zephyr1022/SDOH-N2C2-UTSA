@@ -1,0 +1,25 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	Lives
+O	23	28	alone
+O	29	31	in
+O	32	44	transitional
+O	45	52	housing
+
+B-Tobacco	53	59	Smoker
+O	60	61	-
+O	61	62	-
+O	63	70	however
+O	71	75	hasn
+O	75	76	'
+O	76	77	t
+O	78	82	been
+O	83	90	smoking
+O	91	99	recently
+
+O	100	102	No
+O	103	115	recreational
+B-Drug	116	120	drug
+I-Drug	121	124	use

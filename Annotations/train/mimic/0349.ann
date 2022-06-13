@@ -1,0 +1,15 @@
+T3	TypeLiving 33 57	at [**Hospital **] rehab
+T4	StatusTime 60 62	No
+T5	Tobacco 63 70	tobacco
+T6	Alcohol 72 76	EtOH
+T1	LivingStatus 16 32	Currently living
+T2	StatusTime 16 32	Currently living
+T7	Drug 78 85;86 94	illicit drug use
+T8	Type 78 85	illicit
+E2	Tobacco:T5 Status:T4
+E3	Alcohol:T6 Status:T4
+E1	LivingStatus:T1 Status:T2 Type:T3
+E4	Drug:T7 Status:T4 Type:T8
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T4 none
+A1	StatusTimeVal T2 current

@@ -1,0 +1,32 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+O	29	32	has
+O	33	34	a
+O	35	41	remote
+B-Tobacco	42	49	tobacco
+I-Tobacco	50	57	history
+O	57	58	.
+
+O	59	61	He
+O	62	64	is
+B-Employment	65	66	a
+I-Employment	67	74	retired
+I-Employment	75	84	carpenter
+O	84	85	.
+
+O	87	89	He
+B-Alcohol	90	96	drinks
+O	97	101	only
+O	102	114	occasionally
+O	114	115	.
+
+O	117	119	He
+
+B-LivingStatus	120	125	lives
+O	126	130	with
+O	131	134	his
+O	135	139	wife
+O	139	140	.

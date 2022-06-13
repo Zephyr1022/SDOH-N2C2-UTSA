@@ -1,0 +1,19 @@
+T1	Tobacco 30 41	Tobacco Use
+T2	StatusTime 43 56	Not currently
+T3	StatusTime 88 101	Not currently
+T4	Alcohol 75 86	Alcohol Use
+T5	Drug 120 128	Drug Use
+T6	Type 134 141	cocaine
+T7	StatusTime 130 133	h/o
+T8	LivingStatus 231 240	Residence
+T9	TypeLiving 242 254	Group Health
+T10	StatusTime 242 254	Group Health
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T4 Status:T3
+E3	Drug:T5 Status:T7 Type:T6
+E4	LivingStatus:T8 Type:T9 Status:T10
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T3 none
+A3	StatusTimeVal T7 current
+A4	TypeLivingVal T9 with_others
+A5	StatusTimeVal T10 current

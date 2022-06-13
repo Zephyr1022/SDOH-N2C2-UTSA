@@ -1,0 +1,46 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	-
+O	17	22	Lives
+O	23	28	alone
+
+O	29	30	-
+O	30	37	Tobacco
+O	38	45	history
+O	45	46	:
+O	47	49	50
+O	50	54	year
+O	55	62	smoking
+O	63	70	history
+O	71	73	of
+O	74	87	approximately
+O	88	89	1
+
+O	90	94	pack
+O	94	95	/
+O	95	99	week
+O	99	100	,
+O	101	105	quit
+O	106	109	one
+O	110	114	year
+O	115	118	ago
+
+O	119	120	-
+B-Alcohol	120	124	ETOH
+O	124	125	:
+O	126	136	occasional
+O	137	138	1
+O	138	139	-
+O	139	140	2
+O	141	147	drinks
+O	148	150	on
+O	151	154	the
+O	155	162	weekend
+
+O	163	164	-
+O	164	171	Illicit
+O	172	177	drugs
+O	177	178	:
+O	179	183	none

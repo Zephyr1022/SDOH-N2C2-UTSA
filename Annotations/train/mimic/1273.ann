@@ -1,0 +1,24 @@
+T1	Tobacco 9 20	Tobacco Use
+T3	StatusTime 22 28	Smoked
+T2	Duration 29 67	for about 28 years, from ages 13 to 41
+T4	Alcohol 71 82	Alcohol Use
+T5	StatusTime 84 88	Quit
+T6	History 89 107	about 40 years ago
+T7	Tobacco 127 134	smoking
+T8	StatusTime 122 126	quit
+T9	Drug 138 146	Drug Use
+T10	StatusTime 148 152	None
+T11	LivingStatus 172 181	Residence
+T12	TypeLiving 189 220	with children and grandchildren
+T13	StatusTime 183 188	Lives
+E1	Tobacco:T1 Status:T3 Duration:T2
+E2	Alcohol:T4 Status:T5 History:T6
+E3	Tobacco:T7 Status:T8 History:T6
+E4	Drug:T9 Status:T10
+E5	LivingStatus:T11 Type:T12 Status:T13
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 past
+A4	StatusTimeVal T10 none
+A5	TypeLivingVal T12 with_family
+A6	StatusTimeVal T13 current

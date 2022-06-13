@@ -1,0 +1,22 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Denies
+B-Tobacco	23	30	smoking
+O	30	31	,
+B-Alcohol	32	39	alcohol
+I-Alcohol	40	43	use
+O	43	44	,
+B-Drug	45	57	recreational
+I-Drug	58	62	drug
+I-Drug	63	66	use
+O	66	67	.
+
+B-LivingStatus	68	73	Lives
+O	74	76	at
+
+O	77	81	home
+O	82	86	with
+O	87	91	wife
+O	91	92	.

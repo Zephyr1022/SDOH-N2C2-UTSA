@@ -1,0 +1,13 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Tobacco	16	18	Ex
+I-Tobacco	18	19	-
+I-Tobacco	19	25	Smoker
+O	25	26	,
+B-Drug	27	29	IV
+I-Drug	30	34	drug
+I-Drug	35	39	user
+O	39	40	,
+B-Alcohol	41	45	EtOH

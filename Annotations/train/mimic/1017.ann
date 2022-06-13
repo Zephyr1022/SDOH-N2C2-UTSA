@@ -1,0 +1,17 @@
+T1	Tobacco 28 35	smoking
+T2	StatusTime 20 27	stopped
+T3	History 36 48	30 years ago
+T4	Alcohol 53 59	drinks
+T5	StatusTime 53 59	drinks
+T6	Amount 60 97	one glass of [**Doctor First Name **]
+T7	Frequency 98 105	per day
+T8	LivingStatus 126 131	lives
+T9	StatusTime 126 131	lives
+T10	TypeLiving 132 137	alone
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Alcohol:T4 Status:T5 Amount:T6 Frequency:T7
+E3	LivingStatus:T8 Status:T9 Type:T10
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T9 current
+A4	TypeLivingVal T10 alone

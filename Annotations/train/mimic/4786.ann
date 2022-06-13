@@ -1,0 +1,14 @@
+T1	Employment 201 207	ran an
+T2	StatusEmploy 201 207	ran an
+T3	Type 208 226	appliance business
+T4	Duration 227 241	for many years
+T5	Tobacco 271 276	smoke
+T6	Alcohol 289 302	drink alcohol
+T7	StatusTime 263 270	did not
+E1	Employment:T1 Type:T3 Status:T2 Duration:T4
+E2	Tobacco:T5 Status:T7
+E3	Alcohol:T6 Status2:T8
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T7 none
+T8	StatusTime 277 285	nor does
+A3	StatusTimeVal T8 none

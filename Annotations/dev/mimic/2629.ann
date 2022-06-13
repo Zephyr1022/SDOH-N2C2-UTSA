@@ -1,0 +1,19 @@
+T1	Tobacco 182 196	Smoking status
+T2	StatusTime 198 205	Current
+T3	Frequency 206 215	Every Day
+T4	Tobacco 254 261	tobacco
+T5	Method 244 253	Smokeless
+T6	StatusTime 263 273	Never Used
+T7	Alcohol 278 289	Alcohol use
+T8	StatusTime 290 293	Yes
+T9	Tobacco 224 233	Packs/day
+T10	Amount 235 239	0.50
+T11	StatusTime 224 239	Packs/day: 0.50
+E1	Tobacco:T1 Status:T2 Frequency:T3
+E2	Tobacco:T4 Method:T5 Status:T6
+E3	Alcohol:T7 Status:T8
+E4	Tobacco:T9 Status:T11 Amount:T10
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T11 current

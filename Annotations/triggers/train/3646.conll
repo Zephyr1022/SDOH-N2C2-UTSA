@@ -1,0 +1,26 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	denies
+B-Alcohol	31	38	Alcohol
+I-Alcohol	39	42	Use
+O	42	43	:
+O	44	50	social
+O	53	57	Drug
+O	58	61	Use
+O	61	62	:
+O	63	70	unclear
+
+O	72	78	SOCIAL
+O	79	86	HISTORY
+O	86	87	:
+
+B-LivingStatus	89	98	Residence
+O	98	99	:
+O	100	106	housed
+O	106	107	,
+O	108	113	lives
+O	114	119	alone

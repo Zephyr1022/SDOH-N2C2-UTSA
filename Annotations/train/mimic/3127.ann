@@ -1,0 +1,24 @@
+T2	TypeLiving 15 23	homeless
+T4	LivingStatus 15 23	homeless
+T6	StatusTime 5 14	Currently
+T7	Tobacco 66 73	Tobacco
+T8	Amount 74 81	2-3 cid
+T9	Type 78 81	cid
+T10	Frequency 81 85	/day
+T11	Duration 87 96	+ 50 year
+T12	StatusTime 74 85	2-3 cid/day
+T13	Alcohol 120 124	ETOH
+T14	StatusTime 127 131	none
+T15	Drug 132 137	Drugs
+T16	Type 162 169	cocaine
+T17	History 179 185	[DATE]
+T18	StatusTime 156 161	prior
+E2	LivingStatus:T4 Status:T6 Type:T2
+E3	Tobacco:T7 Amount:T8 Frequency:T10 Type:T9 Duration:T11 Status:T12
+E4	Alcohol:T13 Status:T14
+E5	Drug:T15 Status:T18 Type:T16 History:T17
+A1	TypeLivingVal T2 homeless
+A4	StatusTimeVal T6 current
+A5	StatusTimeVal T12 current
+A6	StatusTimeVal T14 none
+A7	StatusTimeVal T18 past

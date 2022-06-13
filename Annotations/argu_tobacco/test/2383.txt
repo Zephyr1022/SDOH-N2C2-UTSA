@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use:none   Alcohol Use: none   Drug Use: none
+
+SOCIAL HISTORY: 
+Patient living with Son in [LOCATION], originally from [LOCATION] here for past 20 years. Is divorced, ex husband lives in [LOCATION]. Works in a daycare. Has Had 3 children.

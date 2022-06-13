@@ -1,0 +1,5 @@
+T3	Employment 179 206	a elementary school teacher
+T4	Type 179 206	a elementary school teacher
+T5	StatusEmploy 175 178	Was
+E2	Employment:T3 Type:T4 Status:T5
+A1	StatusEmployVal T5 unemployed

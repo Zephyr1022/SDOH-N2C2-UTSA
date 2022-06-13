@@ -1,0 +1,9 @@
+T1	Tobacco 50 57	smoking
+T2	StatusTime 28 46	denies any history
+T3	Alcohol 79 86	alcohol
+T4	Drug 97 117	any other substances
+E1	Tobacco:T1 Status:T2 Type:T5
+E2	Alcohol:T3 Status:T2
+E3	Drug:T4 Status:T2
+A1	StatusTimeVal T2 none
+T5	Type 58 68	cigarettes

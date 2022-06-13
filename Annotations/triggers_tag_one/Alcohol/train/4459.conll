@@ -1,0 +1,55 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	23	0
+O	23	24	.
+O	24	29	25ppd
+O	30	31	x
+O	32	37	15yrs
+B-Alcohol	40	47	Alcohol
+I-Alcohol	48	51	Use
+O	51	52	:
+O	53	57	none
+O	60	64	Drug
+O	65	68	Use
+O	68	69	:
+O	70	74	none
+
+O	77	83	SOCIAL
+O	84	91	HISTORY
+O	91	92	:
+
+O	94	101	Married
+O	101	102	,
+O	103	106	his
+O	107	111	wife
+O	112	113	[
+O	113	117	NAME
+O	117	118	]
+O	119	130	accompanies
+O	131	134	him
+O	135	137	in
+O	138	141	the
+O	142	144	ED
+
+O	146	155	Residence
+O	155	156	:
+O	157	162	Lives
+O	163	165	in
+O	166	167	[
+O	167	175	LOCATION
+O	175	176	]
+O	176	177	.
+
+O	178	182	From
+O	183	184	[
+O	184	192	LOCATION
+O	192	193	]
+O	194	196	in
+O	197	198	[
+O	198	206	LOCATION
+O	206	207	]
+O	207	208	.

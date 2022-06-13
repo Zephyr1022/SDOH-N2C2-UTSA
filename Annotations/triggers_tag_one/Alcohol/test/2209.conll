@@ -1,0 +1,35 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	27	with
+O	28	32	wife
+O	33	36	and
+O	37	42	adult
+O	43	46	son
+O	47	49	in
+O	50	51	[
+O	51	59	LOCATION
+O	59	60	]
+O	60	61	.
+
+O	63	70	Tobacco
+O	71	74	use
+O	74	75	:
+
+O	77	83	Denies
+O	83	84	.
+
+O	86	93	Alcohol
+O	94	97	use
+O	97	98	:
+O	99	105	denies
+O	105	106	.
+
+O	108	112	Drug
+O	113	116	use
+O	116	117	:
+
+O	118	124	Denies
+O	124	125	.

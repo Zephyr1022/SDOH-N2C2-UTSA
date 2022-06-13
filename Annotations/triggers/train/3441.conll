@@ -1,0 +1,45 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	15	Denies
+O	16	19	any
+B-Tobacco	20	27	tobacco
+I-Tobacco	28	31	use
+O	32	35	and
+O	36	44	endorses
+B-Alcohol	45	51	remote
+I-Alcohol	52	60	alcholol
+I-Alcohol	61	64	use
+O	64	65	.
+
+O	67	73	SOCIAL
+O	74	81	HISTORY
+O	81	82	:
+
+B-Employment	85	92	Retired
+O	93	96	and
+B-LivingStatus	97	102	lives
+O	103	105	in
+O	106	107	[
+O	107	115	LOCATION
+O	115	116	]
+O	117	121	with
+O	122	125	her
+O	126	133	husband
+O	134	137	and
+O	138	141	two
+O	142	146	dogs
+O	146	147	.
+
+O	149	152	She
+O	153	156	has
+O	157	160	two
+O	161	170	daughters
+O	171	174	and
+O	175	176	a
+O	177	180	son
+O	180	181	,
+O	182	185	who
+O	186	192	passed
+O	193	197	away
+O	197	198	.

@@ -1,0 +1,19 @@
+T1	Drug 21 29	IV drugs
+T2	Type 21 23	IV
+T3	StatusTime 16 20	Uses
+T4	LivingStatus 31 49	currently homeless
+T5	StatusTime 31 49	currently homeless
+T6	TypeLiving 31 49	currently homeless
+T7	Tobacco 91 98	smoking
+T8	StatusTime 80 90	no current
+T9	Alcohol 110 117	alcohol
+T10	StatusTime 103 109	denies
+E1	Drug:T1 Type:T2 Status:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Status:T10
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 homeless
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T10 none

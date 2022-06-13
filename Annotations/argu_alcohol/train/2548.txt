@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: 
+Alcohol Use:
+Drug Use:
+
+SOCIAL HISTORY: 
+Residence: _

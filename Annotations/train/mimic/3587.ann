@@ -1,0 +1,28 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Duration 31 39	longterm
+T3	StatusTime 57 65	recently
+T4	Amount 66 71	4 cig
+T5	Frequency 71 75	/day
+T6	Alcohol 79 90	Alcohol Use
+T7	StatusTime 93 106	used to drink
+T8	Drug 133 141	Drug Use
+T9	StatusTime 143 149	denies
+T10	LivingStatus 200 218	previously resided
+T11	StatusTime 200 210	previously
+T12	TypeLiving 222 236	the [LOCATION]
+T13	History 237 249	until [DATE]
+T14	LivingStatus 494 501	resided
+T15	TypeLiving 505 529	Washington Care Services
+T16	StatusTime 494 501	resided
+E1	Tobacco:T1 Duration:T2 Status:T3 Amount:T4 Frequency:T5
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Status:T9
+E4	LivingStatus:T10 Status:T11 Type:T12 History:T13
+E5	LivingStatus:T14 Type:T15 Status:T16
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T11 past
+A5	TypeLivingVal T12 with_others
+A6	TypeLivingVal T15 with_others
+A7	StatusTimeVal T16 current

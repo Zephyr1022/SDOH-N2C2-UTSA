@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: Denies  Alcohol Use: Denies   Drug Use: Denies
+
+SOCIAL HISTORY: 
+Lives in downtown [LOCATION] with her mother. Originally from [LOCATION], moved to [LOCATION] 2 years ago.
+She works at [LOCATION], she is currently on leave of absence.

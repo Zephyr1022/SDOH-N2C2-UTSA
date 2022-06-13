@@ -1,0 +1,26 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	not
+O	20	26	smoker
+O	26	27	,
+B-Alcohol	28	32	etoh
+O	32	33	,
+O	34	41	illicit
+O	42	46	drug
+O	47	50	use
+O	50	51	.
+O	53	60	retired
+O	61	68	teacher
+O	68	69	.
+
+O	70	75	lives
+
+O	76	81	alone
+O	81	82	.
+O	83	86	has
+O	87	91	help
+O	92	96	from
+O	97	100	son
+O	100	101	.

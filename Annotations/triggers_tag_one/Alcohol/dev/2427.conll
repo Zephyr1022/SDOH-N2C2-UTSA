@@ -1,0 +1,50 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	20	The
+O	21	28	patient
+O	29	32	was
+O	33	35	in
+O	36	37	[
+O	37	45	LOCATION
+O	45	46	]
+O	47	51	with
+O	52	55	his
+O	56	62	sister
+O	62	63	.
+
+O	65	71	Smokes
+O	72	73	1
+O	73	74	/
+O	74	75	2
+O	76	80	pack
+O	81	84	per
+O	85	88	day
+O	88	89	.
+
+O	91	93	He
+O	94	98	also
+O	99	105	smokes
+O	106	115	marijuana
+O	115	116	.
+
+O	120	121	A
+O	122	125	few
+B-Alcohol	126	135	alcoholic
+O	136	142	drinks
+O	143	146	per
+O	147	151	week
+O	152	156	less
+O	157	161	than
+O	162	163	5
+O	163	164	.
+
+O	166	168	He
+O	169	177	endorses
+O	178	188	occasional
+O	189	196	cocaine
+O	197	200	use
+O	200	201	.
+
+O	203	206	in0

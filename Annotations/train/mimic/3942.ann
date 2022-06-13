@@ -1,0 +1,19 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 37 42	2 cig
+T3	Frequency 42 46	/day
+T4	Type 39 42	cig
+T5	Duration 47 65	over the past year
+T6	StatusTime 47 65	over the past year
+T7	Alcohol 68 79	Alcohol Use
+T8	StatusTime 81 87	denies
+T9	Drug 90 98	Drug Use
+T10	StatusTime 100 131	denies IVDU in the past 3 years
+E1	Tobacco:T1 Type:T4 Amount:T2 Frequency:T3 Duration:T5 Status:T6 Amount2:T13
+E2	Alcohol:T7 Status:T8
+E3	Drug:T9 Status:T10 Method:T11 History:T12
+A1	StatusTimeVal T6 current
+A2	StatusTimeVal T8 past
+A3	StatusTimeVal T10 past
+T11	Method 107 111	IVDU
+T12	History 112 131	in the past 3 years
+T13	Amount 22 35	30 pack years

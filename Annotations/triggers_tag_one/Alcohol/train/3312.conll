@@ -1,0 +1,53 @@
+O	0	2	SH
+O	2	3	:
+
+O	5	10	Lives
+O	11	15	with
+O	16	23	partner
+O	24	26	of
+O	27	29	30
+O	30	35	years
+O	36	38	in
+O	39	40	[
+O	40	48	LOCATION
+O	48	49	]
+O	49	50	,
+O	51	52	[
+O	52	60	LOCATION
+O	60	61	]
+O	61	62	.
+
+O	63	65	He
+O	66	69	has
+O	70	72	an
+O	73	77	11th
+O	78	83	grade
+O	84	93	education
+O	93	94	.
+
+O	96	102	Smokes
+O	103	104	1
+O	104	105	/
+O	105	106	2
+O	107	110	PPD
+O	110	111	,
+O	112	115	has
+O	116	123	greater
+O	124	128	than
+O	129	131	25
+O	132	136	year
+O	137	144	smoking
+O	145	152	history
+O	152	153	.
+
+O	155	159	Past
+O	160	167	history
+O	168	170	of
+B-Alcohol	171	181	alcoholism
+O	181	182	.
+
+O	183	189	Denies
+O	190	197	illicit
+O	198	202	drug
+O	203	206	use
+O	206	207	.

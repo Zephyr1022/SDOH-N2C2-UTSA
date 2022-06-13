@@ -1,0 +1,156 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+O	29	34	lives
+O	35	37	in
+O	38	39	[
+O	39	40	*
+O	40	41	*
+O	41	49	Location
+O	50	54	5110
+O	54	55	*
+O	55	56	*
+O	56	57	]
+O	58	62	with
+O	63	66	his
+O	67	71	wife
+
+O	72	75	but
+O	76	78	is
+O	79	85	moving
+O	86	88	to
+O	89	90	[
+O	90	91	*
+O	91	92	*
+O	92	96	Name
+O	97	98	(
+O	98	100	NI
+O	100	101	)
+O	102	106	1474
+O	106	107	*
+O	107	108	*
+O	108	109	]
+O	110	114	this
+O	115	119	week
+O	119	120	.
+
+O	122	124	He
+O	125	131	smokes
+O	132	136	five
+O	137	139	to
+O	140	143	six
+
+O	144	154	cigarettes
+O	155	156	a
+O	157	160	day
+O	160	161	.
+
+O	163	165	He
+O	166	169	use
+O	170	172	to
+O	173	178	smoke
+O	179	180	1
+O	180	181	.
+O	181	182	5
+O	183	188	packs
+O	189	192	per
+O	193	196	day
+O	197	200	for
+O	201	203	30
+
+O	204	209	years
+O	209	210	.
+
+O	212	214	He
+O	215	217	is
+O	218	219	a
+O	220	226	former
+B-Alcohol	227	236	alcoholic
+O	236	237	,
+O	238	247	currently
+O	248	251	off
+B-Alcohol	252	259	ethanol
+O	260	263	but
+
+O	264	268	does
+O	269	273	have
+O	274	276	an
+O	277	287	occasional
+O	288	292	beer
+O	292	293	.
+
+O	295	297	He
+O	298	301	has
+O	302	303	a
+O	304	311	history
+O	312	314	of
+O	315	320	being
+O	321	323	in
+
+O	324	338	detoxification
+O	338	339	.
+
+O	341	343	No
+O	344	355	intravenous
+O	356	360	drug
+O	361	364	use
+O	364	365	.
+
+O	367	372	Vital
+O	373	378	signs
+O	379	381	on
+
+O	382	391	admission
+O	392	400	revealed
+O	401	402	a
+O	403	414	temperature
+O	415	417	of
+O	418	420	98
+O	420	421	.
+O	421	422	4
+O	422	423	,
+O	424	429	blood
+O	430	438	pressure
+
+O	439	441	of
+O	442	445	120
+O	445	446	/
+O	446	448	66
+O	448	449	,
+O	450	455	heart
+O	456	460	rate
+O	461	463	of
+O	464	466	80
+O	466	467	,
+O	468	480	respirations
+O	481	483	of
+O	484	486	17
+O	486	487	,
+O	488	494	oxygen
+
+O	495	505	saturation
+O	506	508	of
+O	509	512	100
+O	512	513	%
+O	514	516	on
+O	517	518	2
+O	519	525	liters
+O	526	531	nasal
+O	532	539	cannula
+O	539	540	.
+
+O	542	544	He
+O	545	548	was
+O	549	551	on
+O	552	553	a
+
+O	554	563	lidocaine
+O	564	568	drip
+O	569	571	at
+O	572	573	2
+O	574	576	mg
+O	577	580	per
+O	581	587	minute
+O	587	588	.

@@ -1,0 +1,23 @@
+T1	Drug 308 317	marijuana
+T2	StatusTime 303 307	uses
+T3	Type 308 317	marijuana
+T4	Tobacco 265 272	smoking
+T5	StatusTime 244 272	has resumed starting smoking
+T6	Amount 273 287	4-5 cigarettes
+T7	Type 277 287	cigarettes
+T8	Frequency 288 293	a day
+T9	Drug 213 219	heroin
+T10	Method 220 232	intranasally
+T11	Type 213 219	heroin
+T12	StatusTime 198 212	has been using
+E1	Drug:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 Amount:T6 Type:T7 Frequency:T8
+E3	Drug:T9 Type:T11 Method:T10 Status:T12
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T12 current
+T13	StatusTime 325 331	denies
+A4	StatusTimeVal T13 none
+T14	Drug 332 346	other illicits
+E4	Drug:T14 Type:T15 Status:T13
+T15	Type 332 346	other illicits

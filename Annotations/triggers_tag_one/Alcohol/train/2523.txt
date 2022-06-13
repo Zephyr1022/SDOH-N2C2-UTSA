@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: No   Alcohol Use: No   Drug Use: No,  Not sexually active
+
+SOCIAL HISTORY: 
+Lives with her half sister, who raised her starting from age 2 after she was abandoned by her biologic mother. Lived in [LOCATION] the past 7 years, arriving in 2009. Grew up in [LOCATION]. Was a student previously, but had to quit in [DATE] in the setting of medical illness. She enjoys studying and had wanted to be a doctor. Her sister is a psychologist.

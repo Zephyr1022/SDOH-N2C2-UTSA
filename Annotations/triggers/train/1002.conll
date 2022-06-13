@@ -1,0 +1,49 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Father
+O	23	27	died
+O	28	30	of
+O	31	40	emphysema
+O	40	41	.
+
+O	42	48	Mother
+O	49	53	died
+O	54	56	at
+O	57	60	age
+O	61	62	[
+O	62	63	*
+O	63	64	*
+O	64	67	Age
+O	68	72	over
+O	73	75	90
+O	76	77	*
+O	77	78	*
+O	78	79	]
+O	79	80	.
+
+O	81	86	There
+O	87	89	is
+O	90	92	no
+
+O	93	98	known
+O	99	106	history
+O	107	109	of
+O	110	116	kidney
+O	117	119	or
+O	120	122	GU
+O	123	128	tract
+O	129	138	disorders
+O	138	139	;
+O	140	145	there
+O	146	154	likewise
+O	155	157	is
+
+O	159	161	no
+O	162	167	known
+O	168	175	history
+O	176	178	of
+O	179	187	platelet
+O	188	197	disorders
+O	197	198	.

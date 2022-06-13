@@ -1,0 +1,32 @@
+T1	LivingStatus 82 100;101 106	[**Hospital 100**] Rehab
+T2	StatusTime 70 81	has been at
+T3	TypeLiving 82 100;101 106	[**Hospital 100**] Rehab
+T4	Duration 107 136	since discharge on [**4-13**]
+T5	LivingStatus 19 24	lived
+T6	StatusTime 19 24	lived
+T7	TypeLiving 25 30	alone
+T8	Tobacco 170 177	tobacco
+T9	StatusTime 190 194	quit
+T10	History 195 204	3 yrs ago
+T11	Amount 178 189	69 pack yrs
+T12	Alcohol 215 223	drinking
+T13	StatusTime 206 214	Has been
+T14	Duration 224 233;234 252	since his divorce 25 yrs ago
+T15	Amount 253 264	1/2-1 liter
+T16	Type 265 269	wine
+T17	Frequency 270 272	qd
+T18	Alcohol 278 289	hard liquor
+T19	Type 278 289	hard liquor
+T20	StatusTime 275 277	No
+E1	LivingStatus:T1 Status:T2 Type:T3 Duration:T4
+E2	LivingStatus:T5 Status:T6 Type:T7
+E3	Tobacco:T8 Amount:T11 Status:T9 History:T10
+E4	Alcohol:T12 Status:T13 Duration:T14 Amount:T15 Type:T16 Frequency:T17
+E5	Alcohol:T18 Type:T19 Status:T20
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T6 past
+A4	TypeLivingVal T7 alone
+A5	StatusTimeVal T9 past
+A6	StatusTimeVal T13 current
+A7	StatusTimeVal T20 none

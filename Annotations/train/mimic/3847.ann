@@ -1,0 +1,22 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 37 44	1/2 ppd
+T3	Alcohol 47 58	Alcohol Use
+T4	StatusTime 22 25	yes
+T5	Amount 60 79	less than one drink
+T6	Frequency 80 87	per day
+T7	StatusTime 60 87	less than one drink per day
+T8	Drug 89 97	Drug Use
+T9	Type 99 109	herion use
+T10	StatusTime 99 109	herion use
+T11	LivingStatus 130 139	Residence
+T12	TypeLiving 141 178	boyfriends and moms and sisters place
+T13	StatusTime 141 178	boyfriends and moms and sisters place
+E1	Tobacco:T1 Amount:T2 Status:T4
+E2	Alcohol:T3 Amount:T5 Frequency:T6 Status:T7
+E3	Drug:T8 Type:T9 Status:T10
+E4	LivingStatus:T11 Type:T12 Status:T13
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T10 current
+A4	TypeLivingVal T12 with_family
+A5	StatusTimeVal T13 current

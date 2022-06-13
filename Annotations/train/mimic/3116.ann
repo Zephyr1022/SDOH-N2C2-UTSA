@@ -1,0 +1,21 @@
+T1	LivingStatus 11 17	living
+T2	TypeLiving 18 30	with parents
+T3	StatusTime 7 10	Was
+T4	Employment 85 92	On SSDi
+T5	StatusEmploy 85 92	On SSDi
+T6	Tobacco 97 100	tob
+T7	Alcohol 102 106	EtOH
+T8	StatusTime 94 96	No
+T9	StatusTime 108 114	Denies
+T10	Type 115 128	other opiates
+T11	Drug 115 128	other opiates
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T8
+E4	Alcohol:T7 Status:T8
+E5	Drug:T11 Type:T10 Status:T9
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 past
+A3	StatusEmployVal T5 on_disability
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T9 none

@@ -1,0 +1,20 @@
+T1	LivingStatus 17 29	incarcerated
+T2	StatusTime 17 29	incarcerated
+T3	TypeLiving 17 29	incarcerated
+T4	Tobacco 30 48	occasional tobacco
+T6	StatusTime 30 48	occasional tobacco
+T7	Alcohol 52 56	etoh
+T8	StatusTime 49 51	no
+T9	Drug 64 71	heroine
+T10	Type 64 71	heroine
+T11	StatusTime 72 79	in past
+T12	Method 57 63	smoked
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T6
+E3	Alcohol:T7 Status:T8
+E4	Drug:T9 Method:T12 Type:T10 Status:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A4	StatusTimeVal T6 current
+A5	StatusTimeVal T8 none
+A6	StatusTimeVal T11 past

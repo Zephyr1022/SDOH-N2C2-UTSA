@@ -1,0 +1,14 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+O	17	22	Lives
+O	23	25	in
+O	26	33	private
+O	34	43	residence
+O	43	44	.
+
+O	46	52	Denies
+B-Drug	53	60	illicit
+I-Drug	61	65	drug
+I-Drug	66	69	use
+O	69	70	.

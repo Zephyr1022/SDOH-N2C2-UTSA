@@ -1,0 +1,24 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	quit
+T3	History 27 38	6 years ago
+T4	Alcohol 40 51	Alcohol Use
+T5	StatusTime 53 59	denies
+T6	Drug 62 70	Drug Use
+T7	StatusTime 72 78	denies
+T10	LivingStatus 118 123	Lives
+T11	StatusTime 118 123	Lives
+T12	TypeLiving 124 136	w/ boyfriend
+T13	Employment 160 164	work
+T14	StatusEmploy 152 164	used to work
+T15	History 187 207	since she got cancer
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Status:T7
+E5	LivingStatus:T10 Status:T11 Type:T12
+E6	Employment:T13 Status:T14 History:T15
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 with_others
+A6	StatusEmployVal T14 unemployed

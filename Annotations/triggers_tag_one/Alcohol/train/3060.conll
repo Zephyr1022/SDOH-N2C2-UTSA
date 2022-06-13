@@ -1,0 +1,20 @@
+O	0	6	Social
+O	7	9	Hx
+O	9	10	:
+
+B-Alcohol	11	15	ETOH
+O	16	17	_
+O	17	21	none
+
+O	22	29	Tobacco
+O	30	34	none
+
+O	35	40	Drugs
+O	41	45	none
+
+O	47	57	Employment
+O	58	59	_
+
+O	60	66	Living
+O	67	76	Situation
+O	77	78	_

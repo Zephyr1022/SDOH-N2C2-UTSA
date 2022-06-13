@@ -1,0 +1,35 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	15	Unable
+O	16	18	to
+O	19	25	obtain
+O	26	29	due
+O	30	32	to
+O	33	40	patient
+O	41	50	condition
+
+O	52	58	SOCIAL
+O	59	66	HISTORY
+O	66	67	:
+
+O	69	70	[
+O	70	71	x
+O	71	72	]
+O	73	79	Unable
+O	80	82	to
+O	83	89	Obtain
+O	90	93	due
+O	94	96	to
+O	97	104	Patient
+O	105	114	Condition
+
+B-LivingStatus	115	124	Residence
+O	124	125	:
+O	126	133	Swedish
+O	134	141	Medical
+
+O	142	149	Visited
+O	150	156	weekly
+O	157	159	by
+O	160	168	daughter

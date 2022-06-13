@@ -1,0 +1,19 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	17	22	Lives
+O	23	27	with
+O	28	36	daughter
+O	37	40	who
+O	41	43	is
+O	44	51	primary
+O	52	61	caretaker
+O	61	62	.
+
+O	64	70	Denies
+B-Drug	71	76	drugs
+O	76	77	,
+B-Tobacco	78	85	tobacco
+O	85	86	,
+B-Alcohol	87	94	alcohol

@@ -1,0 +1,49 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	denies
+O	30	37	Alcohol
+O	38	41	Use
+O	41	42	:
+O	43	49	denies
+O	52	56	Drug
+O	57	60	Use
+O	60	61	:
+O	62	68	denies
+
+O	70	76	SOCIAL
+O	77	84	HISTORY
+O	84	85	:
+
+O	87	92	Lives
+O	93	95	in
+O	96	97	[
+O	97	105	LOCATION
+O	105	106	]
+O	107	111	with
+O	112	115	her
+O	116	124	daughter
+O	124	125	.
+
+O	126	136	Originally
+O	137	141	from
+O	142	143	[
+O	143	151	LOCATION
+O	151	152	]
+O	152	153	,
+O	154	163	preferred
+O	164	172	language
+O	173	180	Spanish
+O	180	181	.
+
+O	182	185	Has
+O	186	187	4
+O	188	193	adult
+O	194	202	children
+O	203	206	and
+O	207	208	8
+O	209	222	grandchildren
+O	222	223	.

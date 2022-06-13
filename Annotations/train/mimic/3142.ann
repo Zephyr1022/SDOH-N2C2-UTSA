@@ -1,0 +1,33 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 23	_
+T3	Alcohol 26 37	Alcohol Use
+T4	StatusTime 39 40	_
+T5	Drug 43 51	Drug Use
+T6	StatusTime 53 54	_
+T7	Drug 105 123	cocaine and heroin
+T9	Type 105 123	cocaine and heroin
+T10	Tobacco 126 132	Smokes
+T11	Amount 133 138	5 cig
+T12	StatusTime 126 132	Smokes
+T13	Frequency 139 146	per day
+T14	Alcohol 152 159	alcohol
+T15	StatusTime 149 151	No
+T16	LivingStatus 225 234	Residence
+T17	TypeLiving 246 262	in medical motel
+T18	StatusTime 240 245	Lives
+T19	StatusTime 85 104	Intermittently uses
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	Drug:T7 Type:T9 Status:T19
+E5	Tobacco:T10 Amount:T11 Status:T12 Frequency:T13
+E6	Alcohol:T14 Status:T15
+E7	LivingStatus:T16 Type:T17 Status:T18
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T12 current
+A5	StatusTimeVal T15 none
+A6	TypeLivingVal T17 with_others
+A7	StatusTimeVal T18 current
+A8	StatusTimeVal T19 current

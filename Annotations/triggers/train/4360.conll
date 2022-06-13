@@ -1,0 +1,44 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Residence
+O	26	27	:
+
+O	29	36	Private
+O	37	46	residence
+O	46	47	.
+
+B-LivingStatus	49	55	Living
+I-LivingStatus	56	65	situation
+O	65	66	:
+
+O	68	73	Lives
+O	74	78	with
+O	79	87	children
+O	87	88	.
+
+O	90	100	Employment
+O	100	101	:
+O	101	102	.
+
+B-Tobacco	104	111	Tobacco
+I-Tobacco	112	115	use
+O	115	116	:
+
+O	118	124	Former
+O	125	131	smoker
+O	131	132	.
+
+B-Alcohol	134	141	Alcohol
+I-Alcohol	142	145	use
+O	145	146	:
+O	147	153	denies
+O	153	154	.
+
+B-Drug	156	160	Drug
+I-Drug	161	164	use
+O	164	165	:
+
+O	167	173	Denies
+O	173	174	.

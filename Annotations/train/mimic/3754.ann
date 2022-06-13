@@ -1,0 +1,29 @@
+T1	Tobacco 8 19	Tobacco Use
+T2	StatusTime 21 27	denies
+T3	Alcohol 30 41	Alcohol Use
+T4	StatusTime 43 49	denies
+T5	Drug 50 58	Drug Use
+T6	Type 70 79	marijuana
+T7	StatusTime 60 69	has tried
+T8	Drug 105 119	other drug use
+T10	StatusTime 102 104	no
+T11	LivingStatus 137 142	Lives
+T12	StatusTime 137 142	Lives
+T13	TypeLiving 151 187	with his mother, sister, and brother
+T14	Employment 297 306	At school
+T15	StatusEmploy 307 315	studying
+T16	Type 322 329	a nurse
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T7 Type:T6 History:T17
+E4	Drug:T8 Status:T10
+E5	LivingStatus:T11 Status:T12 Type:T13
+E6	Employment:T14 Status:T15 Type:T16
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T12 current
+A6	TypeLivingVal T13 with_family
+A7	StatusEmployVal T15 student
+T17	History 80 100	about two months ago

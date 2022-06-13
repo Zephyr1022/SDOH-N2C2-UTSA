@@ -1,0 +1,82 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	29	current
+O	30	31	1
+O	31	32	/
+O	32	33	2
+O	34	37	ppd
+O	38	39	x
+O	40	44	gt40
+O	45	50	years
+O	50	51	.
+
+O	52	56	Quit
+O	57	60	for
+O	61	62	1
+O	63	67	year
+O	68	72	then
+O	73	80	started
+O	81	86	again
+O	87	88	1
+O	88	89	-
+O	89	90	2
+O	91	97	months
+O	98	101	ago
+O	102	103	(
+O	103	105	he
+O	106	110	gets
+O	111	116	bored
+O	117	119	in
+O	120	123	the
+O	124	130	winter
+O	130	131	)
+
+B-Alcohol	132	139	Alcohol
+I-Alcohol	140	143	Use
+O	143	144	:
+O	145	155	occasional
+O	155	156	,
+O	157	160	not
+O	161	166	heavy
+
+O	167	171	Drug
+O	172	175	Use
+O	175	176	:
+O	177	183	remote
+
+O	185	191	SOCIAL
+O	192	199	HISTORY
+O	199	200	:
+
+O	202	211	Residence
+O	211	212	:
+O	213	218	Lives
+O	219	221	at
+O	222	226	gt50
+O	227	231	male
+O	232	236	home
+O	236	237	.
+
+O	238	246	Sexually
+O	247	253	active
+O	254	258	with
+O	259	266	females
+O	266	267	.
+
+O	268	271	Has
+O	272	280	lifelong
+O	281	288	partner
+O	288	289	,
+O	290	291	[
+O	291	295	NAME
+O	295	296	]
+O	296	297	.
+
+O	298	304	Remote
+O	305	308	STD
+O	309	316	history
+O	316	317	.

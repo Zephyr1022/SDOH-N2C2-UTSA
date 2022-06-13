@@ -1,0 +1,16 @@
+SH:
+Denies use of alcohol
+Smokes 2 cigarettes per day, has done this on and off for years
+Denies use of illicits
+
+Vitals (Most recent and 24 hour range.) 
+Date	Result	Last	MIN	  -  MAX
+[DATE] 14:31	Temp C: 	37.6	37.6	  -  37.6
+[DATE] 14:31	HR: 	91	91	  -  91
+[DATE] 14:31	RR: 	18	18	  -  18
+[DATE] 14:31	SBP Non-Inv: 	136	136	  -  136
+[DATE] 14:31	DBP Non-Inv: 	71	71	  -  71
+SH:
+Denies use of alcohol
+Smokes 2 cigarettes per day, has done this on and off for years
+Denies use of illicits

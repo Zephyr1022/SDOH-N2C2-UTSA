@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: Pt quit 50 years ago. 2.5 pack year history.
+Alcohol Use: Denies. 
+Drug Use: Denies.
+
+SOCIAL HISTORY: 
+Patient lives in the [LOCATION] area with her daughter, daughter's partner, and two grandchildren. Her daughter works from home, and Pt also has an in-home nurse for 5 hours per day. She has two sons that also live in the area and are involved in her care. She is orginally from [LOCATION] and [LOCATION], and the remainder of her family lives abroad. She used to live independently with her husband who passed away two years ago. After her husband passed away, the Pt's health began to deteriorate.

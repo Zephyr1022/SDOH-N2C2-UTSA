@@ -1,0 +1,33 @@
+T1	Drug 284 288	IVDU
+T2	StatusTime 290 296	denies
+T3	Tobacco 261 268	Smoking
+T4	StatusTime 270 282	since age 15
+T5	Duration 270 282	since age 15
+T6	Alcohol 188 192	EtOH
+T7	Amount 194 203	12 drinks
+T8	Frequency 203 207	/day
+T9	Duration 208 222	for many years
+T10	StatusTime 224 237	now abstinent
+T11	History 238 259	since [**2147-10-2**]
+T12	LivingStatus 19 24	lives
+T13	StatusTime 19 24	lives
+T14	TypeLiving 48 61	with his wife
+T15	Employment 105 110;111 124	owned a flower shop
+T16	Type 105 110;111 124	owned a flower shop
+T17	StatusEmploy 105 110;111 145	owned a flower shop which they just sold
+T18	StatusEmploy 147 159	Used to work
+T19	Type 160 175;176 186	for the federal government
+T20	Employment 155 159	work
+E1	Drug:T1 Status:T2
+E2	Tobacco:T3 Duration:T5 Status:T4
+E3	Alcohol:T6 Amount:T7 Frequency:T8 Duration:T9 Status:T10 History:T11
+E4	LivingStatus:T12 Status:T13 Type:T14
+E5	Employment:T15 Type:T16 Status:T17
+E6	Employment:T20 Status:T18 Type:T19
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T10 past
+A4	StatusTimeVal T13 current
+A5	TypeLivingVal T14 with_family
+A6	StatusEmployVal T17 unemployed
+A7	StatusEmployVal T18 unemployed

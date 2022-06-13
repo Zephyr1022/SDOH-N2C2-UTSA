@@ -1,0 +1,182 @@
+O	0	6	SOCIAL
+O	6	7	:
+
+O	8	17	Currently
+O	18	25	without
+O	26	27	a
+B-LivingStatus	28	32	home
+O	33	38	after
+O	39	48	splitting
+O	49	51	up
+O	52	56	with
+O	57	60	his
+O	61	71	Girlfriend
+O	72	79	staying
+O	80	84	with
+O	85	92	friends
+
+O	93	94	-
+O	94	95	-
+B-Tobacco	96	99	Tob
+O	99	100	:
+O	101	106	Using
+O	107	108	e
+O	108	109	-
+O	109	112	cig
+O	112	113	,
+O	114	119	prior
+O	120	129	extensive
+O	130	137	history
+O	138	140	of
+O	141	148	smoking
+
+O	149	150	-
+O	150	151	-
+B-Alcohol	152	156	EtOH
+O	156	157	:
+O	158	164	Denies
+
+O	165	166	-
+O	166	167	-
+B-Drug	168	176	Illicits
+O	176	177	:
+O	178	184	Denies
+
+O	186	197	MEDICATIONS
+O	198	199	(
+O	199	203	HOME
+O	203	204	)
+O	204	205	:
+
+O	206	209	Per
+O	210	215	Chart
+O	216	222	Review
+O	223	224	(
+O	224	227	pnt
+O	228	233	could
+O	234	237	not
+O	238	245	confirm
+O	245	246	)
+
+O	247	248	-
+O	248	249	-
+O	250	261	Acteaminoph
+O	262	267	325mg
+O	268	270	Q4
+O	271	274	PRN
+
+O	275	276	-
+O	276	277	-
+O	278	281	Vit
+O	282	283	C
+
+O	284	285	-
+O	285	286	-
+O	287	290	ASA
+O	291	295	81mg
+O	296	298	PO
+O	299	303	QDay
+
+O	304	305	-
+O	305	306	-
+O	307	317	Carvedilol
+O	318	319	6
+O	319	320	.
+O	320	324	25mg
+O	325	328	BID
+
+O	329	330	-
+O	330	331	-
+O	332	342	Cephalexin
+O	343	348	100mg
+O	349	352	BID
+
+O	353	354	-
+O	354	355	-
+O	356	366	Citalopram
+O	367	369	20
+O	370	374	QDay
+
+O	375	376	-
+O	376	377	-
+O	378	388	Clonazepam
+O	389	392	1mg
+O	393	396	BID
+O	397	398	(
+O	398	406	CONTRACT
+O	406	407	)
+
+O	408	409	-
+O	409	410	-
+O	411	422	Doxycycline
+O	423	428	100mg
+O	429	432	BID
+
+O	433	434	-
+O	434	435	-
+O	436	445	Enalapril
+O	446	447	5
+O	448	450	mg
+O	451	454	BID
+
+O	455	456	-
+O	456	457	-
+O	458	465	Ferrous
+O	466	473	Sulfate
+O	474	479	324mg
+O	480	483	TID
+
+O	484	485	-
+O	485	486	-
+O	487	497	Furosemide
+O	498	502	20mg
+O	503	507	QDAy
+
+O	508	509	-
+O	509	510	-
+O	511	521	Gabapentin
+O	522	528	1200mg
+O	529	532	TID
+
+O	533	534	-
+O	534	535	-
+O	536	542	Aspart
+O	543	544	8
+O	545	550	units
+O	551	554	TID
+O	555	558	QAC
+
+O	559	560	-
+O	560	561	-
+O	562	570	Glargine
+O	571	573	35
+O	574	579	units
+O	580	583	QHS
+
+O	584	585	-
+O	585	586	-
+O	587	596	Oxycodone
+O	597	600	5mg
+O	601	605	Tabs
+O	606	607	9
+O	608	613	total
+O	614	616	in
+O	617	618	a
+O	619	622	day
+O	623	624	(
+O	624	632	Contract
+O	632	633	)
+
+O	634	635	-
+O	635	636	-
+O	637	646	Potassium
+O	647	655	Chloride
+O	656	661	20meq
+O	662	666	QDAy
+
+O	667	668	-
+O	668	669	-
+O	670	681	Simvastatin
+O	682	684	40
+O	685	687	mg
+O	688	691	QHS

@@ -1,0 +1,96 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	27	Transferred
+O	28	32	from
+O	33	34	[
+O	34	35	*
+O	35	36	*
+O	36	45	Hospital1
+O	46	47	*
+O	47	48	*
+O	48	49	]
+O	50	59	Inpatient
+O	60	71	Psychiatric
+O	72	80	facility
+O	80	81	,
+
+O	82	87	where
+O	88	90	he
+O	91	94	was
+O	95	103	admitted
+O	104	106	on
+O	107	108	[
+O	108	109	*
+O	109	110	*
+O	110	114	2113
+O	114	115	-
+O	115	116	8
+O	116	117	-
+O	117	119	11
+O	119	120	*
+O	120	121	*
+O	121	122	]
+O	122	123	.
+
+O	124	130	Unable
+O	131	133	to
+O	134	140	obtain
+O	141	152	information
+
+O	153	158	about
+O	159	166	tobacco
+O	166	167	,
+O	168	175	alcohol
+O	175	176	,
+O	177	179	or
+O	180	188	illicits
+O	188	189	.
+
+O	190	195	Prior
+O	196	198	to
+O	199	208	inpatient
+
+O	209	224	hospitalization
+O	225	228	was
+O	229	235	living
+O	236	238	in
+O	239	240	a
+O	241	246	group
+O	247	251	home
+O	252	255	but
+O	256	268	hospitalized
+O	269	271	as
+
+O	272	277	above
+
+O	279	282	Has
+O	283	287	been
+B-LivingStatus	288	294	living
+O	295	297	in
+O	298	301	his
+O	302	309	current
+O	310	315	group
+O	316	320	home
+O	321	324	for
+O	325	328	the
+
+O	329	333	past
+O	334	336	22
+O	337	342	years
+O	342	343	.
+
+O	344	346	He
+O	347	351	goes
+O	352	354	to
+O	355	356	a
+O	357	369	recreational
+O	370	378	facility
+O	379	381	in
+O	382	385	the
+O	386	393	daytime
+
+O	394	397	and
+B-Employment	398	406	receives
+I-Employment	407	411	SSDI

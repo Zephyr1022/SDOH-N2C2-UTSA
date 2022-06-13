@@ -1,0 +1,59 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	Pt
+O	19	21	is
+O	22	28	single
+O	29	32	and
+B-LivingStatus	33	38	lives
+O	39	41	at
+O	42	46	home
+O	46	47	.
+
+B-Tobacco	49	55	Smokes
+O	56	60	1ppd
+O	61	64	for
+O	65	67	10
+O	68	71	yrs
+O	71	72	.
+
+O	73	76	Occ
+O	76	77	.
+
+B-Alcohol	78	82	EtOH
+
+O	83	85	No
+B-Drug	86	91	drugs
+O	92	101	currently
+O	101	102	.
+
+O	103	106	Has
+O	107	108	h
+O	108	109	/
+O	109	110	o
+B-Drug	111	120	oxycodone
+I-Drug	121	130	addiction
+O	130	131	,
+O	132	135	but
+O	136	139	now
+O	140	142	in
+O	143	145	NA
+
+O	146	149	for
+O	150	151	2
+O	152	155	yrs
+O	155	156	.
+
+O	157	164	Reports
+O	165	167	no
+O	168	175	current
+O	176	179	use
+O	179	180	,
+O	181	189	although
+B-Drug	190	193	tox
+I-Drug	194	200	screen
+O	201	207	argues
+
+O	208	217	otherwise
+O	217	218	.

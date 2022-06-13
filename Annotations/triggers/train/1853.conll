@@ -1,0 +1,100 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Drug	16	29	Polysubstance
+I-Drug	30	39	substance
+O	40	44	with
+O	45	51	heroin
+O	51	52	,
+O	53	68	benzodiazepines
+O	68	69	,
+O	70	77	cocaine
+O	77	78	,
+
+O	79	82	and
+B-Alcohol	83	90	alcohol
+O	90	91	.
+
+O	92	94	He
+O	95	97	is
+B-Employment	98	107	currently
+I-Employment	108	118	unemployed
+O	119	122	and
+O	123	126	may
+O	127	129	be
+B-LivingStatus	130	138	homeless
+O	138	139	,
+O	140	143	but
+
+O	144	150	states
+O	151	153	he
+B-LivingStatus	154	159	lives
+O	160	164	with
+O	165	172	parents
+O	172	173	.
+
+O	174	176	He
+O	177	180	may
+O	181	183	or
+O	184	187	may
+O	188	191	not
+O	192	194	be
+O	195	202	married
+
+O	203	204	(
+O	204	210	denies
+O	211	213	it
+O	213	214	)
+O	214	215	.
+
+O	216	218	He
+O	219	222	has
+O	223	224	a
+O	225	232	partner
+O	233	234	(
+O	234	238	wife
+O	238	239	,
+O	240	242	ex
+O	243	247	wife
+O	247	248	?
+O	248	249	)
+O	250	254	with
+O	255	259	whom
+O	260	262	he
+
+O	263	269	shares
+O	270	271	a
+O	272	273	4
+O	274	278	year
+O	279	282	old
+O	283	286	son
+O	286	287	.
+
+O	288	296	Released
+O	297	301	from
+O	302	308	prison
+O	309	311	in
+O	312	313	[
+O	313	314	*
+O	314	315	*
+O	315	317	10
+O	317	318	-
+O	318	320	26
+O	320	321	*
+O	321	322	*
+O	322	323	]
+O	323	324	.
+
+O	325	327	In
+O	328	331	the
+
+O	332	336	past
+O	337	339	he
+O	340	343	has
+B-Employment	344	350	worked
+O	351	353	as
+O	354	355	a
+O	356	359	car
+O	360	370	technician
+O	370	371	.

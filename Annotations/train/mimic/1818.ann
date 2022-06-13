@@ -1,0 +1,20 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 23 34	with sister
+T3	StatusTime 17 22	Lives
+T4	Employment 63 73	unemployed
+T5	StatusEmploy 63 73	unemployed
+T6	Tobacco 96 107	tobacco use
+T7	StatusTime 76 92	Positive history
+T8	Alcohol 141 148	alcohol
+T10	StatusTime 130 140	Occasional
+T11	Amount 149 173	approximately two drinks
+T12	Frequency 174 181	per day
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T7
+E4	Alcohol:T8 Status:T10 Amount:T11 Frequency:T12
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T7 past
+A6	StatusTimeVal T10 current

@@ -1,0 +1,32 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	Lives
+O	23	25	at
+O	26	30	home
+O	30	31	,
+O	32	37	cares
+O	38	41	for
+O	42	43	a
+O	44	50	friend
+O	51	53	at
+O	54	58	home
+O	58	59	.
+
+O	60	66	Friend
+O	67	68	[
+O	68	72	NAME
+O	72	73	]
+O	74	76	in
+O	77	81	room
+O	82	86	with
+O	87	90	him
+O	90	91	.
+
+B-Tobacco	92	98	Smokes
+O	98	99	,
+O	100	106	denies
+B-Alcohol	107	111	EtOH
+O	111	112	/
+B-Drug	112	120	illicits

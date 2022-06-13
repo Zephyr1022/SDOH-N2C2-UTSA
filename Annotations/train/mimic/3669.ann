@@ -1,0 +1,30 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	LivingStatus 157 166	Residence
+T3	TypeLiving 178 216	a progressive assisted living facility
+T4	StatusTime 168 174	living
+T5	Type 22 33	smoked pipe
+T6	Duration 34 42	30 years
+T7	Amount 43 47	once
+T8	Frequency 48 55	nightly
+T9	StatusTime 22 55	smoked pipe 30 years once nightly
+T10	Alcohol 70 81	Alcohol Use
+T11	StatusTime 83 89	Drinks
+T12	Amount 90 113	small amount of red win
+T13	Frequency 114 119	daily
+T14	Drug 122 130	Drug Use
+T15	StatusTime 132 138	Denies
+T16	Employment 399 405	Worked
+T17	StatusEmploy 399 405	Worked
+T18	Type 409 418	ship yard
+E1	Tobacco:T1 Type:T5 Duration:T6 Amount:T7 Frequency:T8 Status:T9
+E2	LivingStatus:T2 Type:T3 Status:T4
+E3	Alcohol:T10 Status:T11 Amount:T12 Frequency:T13 Type:T19
+E4	Drug:T14 Status:T15
+E5	Employment:T16 Status:T17 Type:T18
+A1	TypeLivingVal T3 with_others
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T11 current
+A5	StatusTimeVal T15 none
+A6	StatusEmployVal T17 unemployed
+T19	Type 110 113	win

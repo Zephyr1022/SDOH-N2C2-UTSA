@@ -1,0 +1,39 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	11	No
+B-Tobacco	12	19	tobacco
+O	19	20	,
+O	21	23	no
+B-Alcohol	24	28	EtOH
+O	28	29	,
+O	30	34	rare
+B-Drug	35	37	MJ
+O	37	38	,
+O	39	41	no
+B-Drug	42	50	illicits
+
+O	52	58	SOCIAL
+O	59	66	HISTORY
+O	66	67	:
+
+B-LivingStatus	69	74	Lives
+O	75	79	with
+O	80	83	his
+O	84	88	wife
+O	89	93	here
+O	94	96	in
+O	97	98	[
+O	98	106	LOCATION
+O	106	107	]
+O	107	108	.
+
+O	110	112	He
+O	113	115	is
+B-Employment	116	117	a
+I-Employment	118	125	student
+O	126	128	in
+O	129	130	[
+O	130	140	PROFESSION
+O	140	141	]
+O	141	142	.

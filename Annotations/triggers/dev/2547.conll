@@ -1,0 +1,45 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	26	Quit
+O	27	29	17
+O	30	35	years
+O	36	39	ago
+B-Alcohol	42	49	Alcohol
+I-Alcohol	50	53	Use
+O	53	54	:
+O	55	61	Denies
+B-Drug	64	68	Drug
+I-Drug	69	72	Use
+O	72	73	:
+O	74	80	Denies
+
+O	82	88	SOCIAL
+O	89	96	HISTORY
+O	96	97	:
+
+O	99	100	[
+O	100	101	_
+O	101	102	]
+O	103	109	Unable
+O	110	112	to
+O	113	119	Obtain
+O	120	123	due
+O	124	126	to
+O	127	134	Patient
+O	135	144	Condition
+
+B-LivingStatus	145	154	Residence
+O	154	155	:
+O	156	161	Lives
+O	162	166	with
+O	167	173	spouse
+O	173	174	.
+
+O	175	179	Does
+O	180	183	not
+O	184	189	drive
+O	189	190	.

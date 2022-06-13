@@ -1,0 +1,20 @@
+T1	Alcohol 24 29	beers
+T2	Amount 22 29	2 beers
+T3	Type 24 29	beers
+T4	Frequency 30 35	daily
+T5	StatusTime 30 35	daily
+T6	Tobacco 44 51	tobacco
+T7	Drug 55 68	illicit drugs
+T8	Type 55 62	illicit
+T9	StatusTime 37 43	denies
+T10	LivingStatus 87 96	Residence
+T11	TypeLiving 98 106	homeless
+T12	StatusTime 98 106	homeless
+E1	Alcohol:T1 Amount:T2 Type:T3 Frequency:T4 Status:T5
+E2	Tobacco:T6 Status:T9
+E3	Drug:T7 Type:T8 Status:T9
+E4	LivingStatus:T10 Status:T12 Type:T11
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T9 none
+A3	TypeLivingVal T11 homeless
+A4	StatusTimeVal T12 current

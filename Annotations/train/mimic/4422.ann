@@ -1,0 +1,25 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 65 81	currently smokes
+T3	Amount 82 90	4-5 cigs
+T4	Frequency 90 94	/day
+T5	Type 86 90	cigs
+T6	Duration 38 60	off and on since age 5
+T7	Alcohol 99 110	Alcohol Use
+T8	StatusTime 112 136	Last drink 2-3 years ago
+T9	History 123 136	2-3 years ago
+T10	Drug 139 147	Drug Use
+T11	Type 160 180	psychodelic mushroom
+T12	History 185 195	in the 60s
+T13	StatusTime 185 195	in the 60s
+T14	LivingStatus 344 361	currently staying
+T15	StatusTime 344 361	currently staying
+T16	TypeLiving 362 381	at a friend's place
+E1	Tobacco:T1 Duration:T6 Status:T2 Type:T5 Amount:T3 Frequency:T4
+E2	Alcohol:T7 History:T9 Status:T8
+E3	Drug:T10 Type:T11 Status:T13 History:T12
+E4	LivingStatus:T14 Status:T15 Type:T16
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T8 past
+A3	StatusTimeVal T13 past
+A4	StatusTimeVal T15 current
+A5	TypeLivingVal T16 with_others

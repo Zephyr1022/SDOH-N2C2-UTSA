@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: no   Alcohol Use: no   Drug Use: mj daily
+
+SOCIAL HISTORY: 
+[_] Unable to Obtain due to Patient Condition
+Residence: lives in [LOCATION] with GF

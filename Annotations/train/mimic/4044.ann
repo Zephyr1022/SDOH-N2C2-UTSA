@@ -1,0 +1,23 @@
+T1	Drug 17 28	IVDU heroin
+T2	Type 22 28	heroin
+T3	Method 17 21	IVDU
+T4	StatusTime 30 64	recently started tx with methadone
+T7	Drug 88 90	MJ
+T5	StatusTime 85 87	no
+T6	Type 88 108	MJ or other illicits
+T8	LivingStatus 109 117	homeless
+T9	TypeLiving 109 117	homeless
+T10	StatusTime 109 117	homeless
+E1	Drug:T1 Method:T3 Type:T2 Status:T4
+E3	Drug:T7 Type:T6 Status:T5
+E2	LivingStatus:T8 Type:T9 Status:T10
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T5 none
+A3	TypeLivingVal T9 homeless
+A4	StatusTimeVal T10 current
+T11	LivingStatus 130 137	respite
+E4	LivingStatus:T11 Type:T13 Status:T12
+T12	StatusTime 119 126	staying
+A5	StatusTimeVal T12 current
+T13	TypeLiving 130 137	respite
+A6	TypeLivingVal T13 with_others

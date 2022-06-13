@@ -1,0 +1,25 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	lives
+O	23	25	in
+O	26	31	house
+O	31	32	,
+O	34	35	2
+O	36	42	months
+O	43	46	ago
+O	47	51	with
+O	52	63	renovations
+O	64	67	and
+O	68	72	lots
+O	73	75	of
+O	76	80	dust
+O	80	81	.
+
+O	83	85	no
+B-Tobacco	86	93	tobacco
+B-Alcohol	94	101	alcohol
+O	102	104	or
+B-Drug	105	110	drugs
+O	110	111	.

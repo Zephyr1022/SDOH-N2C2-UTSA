@@ -1,0 +1,11 @@
+T1	Type 61 76	methamphetamine
+T3	Drug 61 80	methamphetamine use
+T4	StatusTime 53 80	Regular methamphetamine use
+T5	Alcohol 93 100	alcohol
+T6	Tobacco 104 111	tobacco
+T7	StatusTime 83 92	No recent
+E1	Drug:T3 Type:T1 Status:T4
+E2	Alcohol:T5 Status:T7
+E3	Tobacco:T6 Status:T7
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T7 past

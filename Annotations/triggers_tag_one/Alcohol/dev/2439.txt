@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: denies  Alcohol Use: 1 glass wine /day   Drug Use: denies
+
+SOCIAL HISTORY: 
+Lives with husband in [LOCATION] [LOCATION].  
+Good family support. currently staying at Swedish First Hill in [LOCATION] while husband gets cancer Surg at [LOCATION]

@@ -1,0 +1,35 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	23	Living
+I-LivingStatus	24	33	situation
+O	33	34	:
+
+O	36	43	Staying
+O	44	46	at
+O	47	54	William
+O	55	60	Booth
+O	61	68	shelter
+
+O	70	79	Substance
+O	80	83	use
+O	83	84	:
+
+O	85	89	Half
+O	90	94	pack
+O	95	98	per
+O	99	102	day
+B-Tobacco	103	109	smoker
+O	110	113	for
+O	114	116	25
+O	117	122	years
+O	122	123	,
+O	124	130	denies
+B-Drug	131	136	other
+I-Drug	137	141	drug
+I-Drug	142	145	use
+O	145	146	,
+B-Alcohol	147	157	occasional
+I-Alcohol	158	165	alcohol
+I-Alcohol	166	169	use

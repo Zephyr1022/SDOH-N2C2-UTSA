@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: Denies   Alcohol Use: has not used alcohol since [DATE]   Drug Use: Denies
+
+SOCIAL HISTORY: 
+Lives in [LOCATION] with daughter 18 and son 15, who has autism. She is twice divorced. Not currently working. Friend [NAME] has been helping her recently.

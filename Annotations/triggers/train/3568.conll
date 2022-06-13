@@ -1,0 +1,45 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	26	none
+B-Alcohol	29	36	Alcohol
+I-Alcohol	37	40	Use
+O	40	41	:
+O	42	52	occasional
+O	53	57	beer
+O	57	58	,
+O	59	63	very
+O	64	71	limited
+O	72	77	since
+O	78	79	[
+O	79	83	DATE
+O	83	84	]
+B-Drug	87	91	Drug
+I-Drug	92	95	Use
+O	95	96	:
+O	97	101	none
+
+O	103	109	SOCIAL
+O	110	117	HISTORY
+O	117	118	:
+
+B-LivingStatus	120	125	Lives
+O	126	128	in
+O	129	130	[
+O	130	138	LOCATION
+O	138	139	]
+O	140	144	with
+O	145	148	his
+O	149	155	fiance
+O	155	156	.
+
+B-Employment	157	162	Owner
+O	163	165	of
+O	166	167	[
+O	167	175	LOCATION
+O	175	176	]
+O	177	184	company
+O	184	185	.

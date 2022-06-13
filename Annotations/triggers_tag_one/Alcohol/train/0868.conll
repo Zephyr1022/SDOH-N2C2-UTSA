@@ -1,0 +1,28 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	24	Married
+O	24	25	,
+O	26	33	retired
+O	34	44	accountant
+O	45	49	with
+O	50	53	six
+
+O	54	62	children
+O	62	63	.
+
+O	65	67	He
+O	68	74	denies
+O	75	78	any
+O	79	86	tobacco
+O	87	90	use
+O	90	91	,
+O	92	93	2
+O	94	96	to
+O	97	98	3
+B-Alcohol	99	106	alcohol
+I-Alcohol	107	113	drinks
+
+O	114	117	per
+O	118	122	week
+O	122	123	.

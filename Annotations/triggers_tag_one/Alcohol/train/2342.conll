@@ -1,0 +1,18 @@
+O	0	2	SH
+O	2	3	:
+O	4	9	Lives
+O	10	23	independently
+O	23	24	.
+
+O	25	27	No
+O	28	35	tobacco
+O	35	36	,
+B-Alcohol	37	41	ETOH
+O	41	42	,
+O	43	51	illicits
+O	51	52	.
+
+O	53	61	Previous
+O	62	66	IVDU
+O	67	69	hx
+O	69	70	.

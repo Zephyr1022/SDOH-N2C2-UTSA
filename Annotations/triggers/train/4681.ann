@@ -1,0 +1,13 @@
+T1	LivingStatus 204 217	incarceration
+T4	LivingStatus 268 282	incarcerations
+T7	Drug 321 330	DXM abuse
+T14	Drug 489 492	DXM
+T18	Drug 545 569	ketamine, LSD, mushrooms
+T21	Alcohol 606 610	etoh
+T23	Tobacco 650 656	smoker
+T28	Drug 686 695	drug-free
+T30	Tobacco 804 811	smoking
+T32	Drug 831 844;845 857	marijuana and amphetamines
+T36	Alcohol 869 875	Drinks
+T41	Drug 903 905;906 911	IV drugs
+T44	Drug 918 932	cough medicine

@@ -1,0 +1,75 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	boyfriend
+O	27	31	with
+O	32	35	URI
+
+B-LivingStatus	36	42	living
+O	43	45	in
+O	46	51	hotel
+
+O	52	53	2
+O	54	58	kids
+O	59	62	via
+O	63	70	vaginal
+O	71	81	deliveries
+O	81	82	,
+O	83	91	daughter
+O	92	96	borm
+O	97	99	in
+O	100	104	1980
+O	105	108	and
+O	109	113	1990
+
+O	114	121	history
+O	122	124	of
+B-Tobacco	125	132	tobacco
+I-Tobacco	133	136	use
+O	136	137	,
+O	138	139	1
+O	139	140	/
+O	140	141	2
+O	142	145	ppd
+O	146	149	x30
+O	150	155	years
+O	155	156	,
+O	157	163	unable
+O	164	166	to
+O	167	172	smoke
+O	173	177	over
+O	178	182	past
+O	183	187	week
+
+O	188	194	smokes
+B-Drug	195	204	marijuana
+O	204	205	,
+O	206	207	1
+O	208	212	time
+O	213	216	per
+O	217	222	month
+
+O	224	231	history
+O	232	234	of
+O	235	242	smoking
+B-Drug	243	247	meth
+O	247	248	,
+O	249	253	last
+O	254	257	use
+O	258	259	a
+O	260	263	few
+O	264	269	weeks
+O	270	273	ago
+O	273	274	,
+O	275	281	smokes
+B-Drug	282	286	meth
+
+O	288	294	denies
+B-Drug	295	299	IVDU
+
+O	300	306	drinks
+B-Alcohol	307	311	etoh
+O	312	314	1x
+O	315	318	per
+O	319	324	month

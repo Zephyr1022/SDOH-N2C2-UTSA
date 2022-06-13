@@ -1,0 +1,59 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+O	16	19	per
+O	20	25	chart
+O	26	32	review
+O	33	36	and
+O	37	46	confirmed
+O	47	51	with
+O	52	54	pt
+
+O	55	57	Pt
+B-LivingStatus	58	63	lived
+O	64	66	in
+O	67	68	[
+O	68	76	LOCATION
+O	76	77	]
+O	78	82	with
+O	83	86	her
+O	87	94	friends
+O	94	95	.
+
+O	96	98	No
+O	99	104	clear
+O	105	114	discharge
+O	115	123	location
+O	124	134	identified
+O	135	137	at
+O	138	142	this
+O	143	147	time
+O	147	148	.
+
+O	149	151	Pt
+O	152	158	states
+O	159	162	she
+O	163	168	needs
+O	169	171	to
+O	172	179	discuss
+O	180	184	with
+O	185	188	her
+O	189	195	family
+
+B-Alcohol	197	201	EtoH
+O	201	202	:
+O	204	209	Prior
+O	210	212	ED
+O	213	223	admissions
+O	224	225	w
+O	225	226	/
+O	227	239	intoxication
+O	240	245	noted
+
+O	246	253	Tobacco
+O	253	254	:
+O	255	262	unknown
+
+O	263	271	Illicits
+O	271	272	:
+O	274	281	unknown

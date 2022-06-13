@@ -1,0 +1,89 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	24	in
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	36	Location
+O	37	41	1468
+O	41	42	*
+O	42	43	*
+O	43	44	]
+O	44	45	.
+
+O	46	52	Single
+O	52	53	.
+
+O	54	56	No
+O	57	65	children
+O	65	66	.
+
+O	67	69	No
+B-Alcohol	70	74	etoh
+O	75	84	currently
+O	84	85	,
+
+O	86	87	"
+O	87	95	socially
+O	95	96	"
+O	97	99	in
+O	100	103	the
+O	104	108	past
+O	108	109	.
+
+O	110	112	No
+O	113	120	tobacco
+O	121	123	or
+O	124	128	drug
+O	129	134	abuse
+O	134	135	.
+
+O	136	142	Denied
+O	143	146	any
+O	147	149	IV
+
+O	150	154	drug
+O	155	160	abuse
+O	160	161	.
+
+O	162	165	She
+O	166	168	is
+O	169	170	a
+O	171	179	training
+O	180	191	coordinator
+O	192	195	for
+O	196	204	fidelity
+
+O	205	216	investments
+O	216	217	.
+
+O	218	221	She
+O	222	224	is
+O	225	232	engaged
+O	233	235	to
+O	236	238	be
+O	239	246	married
+O	247	250	and
+O	251	255	will
+O	256	258	be
+O	259	266	married
+O	267	269	in
+
+O	270	271	[
+O	271	272	*
+O	272	273	*
+O	273	281	Location
+O	282	283	(
+O	283	285	un
+O	285	286	)
+O	287	291	5354
+O	291	292	*
+O	292	293	*
+O	293	294	]
+O	295	297	in
+O	298	299	3
+O	300	305	weeks
+O	305	306	.

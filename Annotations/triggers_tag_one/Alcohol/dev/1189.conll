@@ -1,0 +1,82 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	Not
+O	20	29	currently
+O	30	37	working
+O	37	38	,
+O	39	43	used
+O	44	46	to
+O	47	51	work
+O	52	54	in
+O	55	68	manufacturing
+O	68	69	.
+
+O	70	72	Hi
+O	73	78	lives
+
+O	79	83	with
+O	84	87	his
+O	88	92	wife
+O	93	96	and
+O	97	100	has
+O	101	110	daughters
+O	111	117	living
+O	118	124	nearby
+O	125	128	and
+O	129	131	in
+O	132	133	[
+O	133	134	*
+O	134	135	*
+O	135	139	Name
+O	140	141	(
+O	141	143	NI
+O	143	144	)
+O	145	148	108
+O	148	149	*
+O	149	150	*
+O	150	151	]
+O	151	152	.
+
+O	153	159	Former
+O	160	166	smoker
+O	166	167	,
+O	168	172	quit
+O	173	174	>
+O	175	176	1
+O	177	181	year
+O	182	185	ago
+O	185	186	.
+
+O	187	189	No
+B-Alcohol	190	197	alochol
+O	197	198	.
+
+O	200	207	Married
+O	208	211	and
+O	212	217	lives
+O	218	222	with
+O	223	226	his
+O	227	233	family
+O	233	234	.
+
+O	235	237	20
+O	238	242	pack
+O	242	243	-
+O	243	247	year
+O	248	255	history
+
+O	256	258	ex
+O	258	259	-
+O	259	265	smoker
+O	266	269	who
+O	270	274	quit
+O	275	277	20
+O	278	283	years
+O	284	287	ago
+O	287	288	.
+
+O	289	291	No
+B-Alcohol	292	299	alcohol
+O	299	300	.

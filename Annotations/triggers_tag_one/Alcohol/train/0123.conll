@@ -1,0 +1,24 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Social
+O	23	30	history
+O	31	33	is
+O	34	45	significant
+O	46	53	tobacco
+O	54	55	-
+O	56	60	quit
+O	61	62	4
+O	63	69	months
+O	70	73	ago
+
+O	74	76	He
+O	77	83	smoked
+O	84	89	1pack
+O	90	93	per
+O	94	98	week
+O	98	99	.
+
+O	100	106	Denies
+B-Alcohol	107	111	ETOH

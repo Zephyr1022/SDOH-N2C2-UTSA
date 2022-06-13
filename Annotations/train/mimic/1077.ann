@@ -1,0 +1,17 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 48 59	with family
+T4	Tobacco 64 71	tobacco
+T5	Alcohol 76 89	alcohol abuse
+T6	StatusTime 61 63	No
+T7	Employment 137 146;147 157	a retired accountant
+T8	StatusEmploy 137 146;147 157	a retired accountant
+T9	Type 137 146;147 157	a retired accountant
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T6
+E3	Alcohol:T5 Status:T6
+E4	Employment:T7 Status:T8 Type:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T6 none
+A4	StatusEmployVal T8 retired

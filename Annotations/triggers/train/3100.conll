@@ -1,0 +1,67 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	25	not
+O	26	35	discussed
+O	35	36	-
+O	36	43	parents
+O	44	51	present
+
+O	52	59	Alcohol
+O	60	63	Use
+O	63	64	:
+O	65	68	not
+O	69	78	discussed
+O	78	79	-
+O	79	85	family
+O	86	93	present
+
+O	94	98	Drug
+O	99	102	Use
+O	102	103	:
+O	104	107	not
+O	108	117	discussed
+O	117	118	-
+O	118	124	family
+O	125	132	present
+
+O	134	138	will
+O	139	146	discuss
+O	147	153	habits
+O	154	162	tomorrow
+O	163	165	AM
+
+O	167	173	SOCIAL
+O	174	181	HISTORY
+O	181	182	:
+
+B-LivingStatus	185	190	Lives
+O	191	193	at
+O	194	198	home
+O	199	203	with
+O	204	207	his
+O	208	215	parents
+O	216	218	in
+O	219	220	[
+O	220	228	LOCATION
+O	228	229	]
+O	230	233	and
+O	234	235	"
+O	235	240	doesn
+O	240	241	'
+O	241	242	t
+O	243	245	do
+O	246	250	much
+O	250	251	.
+
+O	252	253	"
+O	254	262	Endorses
+B-Employment	263	266	not
+I-Employment	267	274	working
+O	275	277	in
+O	278	283	about
+O	284	285	2
+O	286	291	years

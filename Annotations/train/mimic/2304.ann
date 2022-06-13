@@ -1,0 +1,25 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 58 63	2 ppd
+T3	History 22 33	gt 60 years
+T4	Duration 35 47	for 21 years
+T5	StatusTime 51 57	smoked
+T6	Alcohol 64 75	Alcohol Use
+T8	StatusTime 77 85	socially
+T9	Drug 87 95	Drug Use
+T10	StatusTime 97 101	none
+T11	Employment 179 193	a state police
+T13	Duration 194 206	for 21 years
+T12	StatusEmploy 175 178	was
+T14	Employment 240 248	retiring
+T15	StatusEmploy 216 233	continued to work
+E1	Tobacco:T1 Amount:T2 History:T3 Duration:T4 Status:T5
+E2	Alcohol:T6 Status:T8
+E3	Drug:T9 Status:T10
+E4	Employment:T11 Duration:T13 Status:T12 Type:T7
+E5	Employment:T14 Status:T15
+A1	StatusTimeVal T5 past
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T10 none
+A5	StatusEmployVal T12 unemployed
+A6	StatusEmployVal T15 employed
+T7	Type 179 193	a state police

@@ -1,0 +1,95 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	She
+O	20	22	is
+O	23	32	immigrant
+O	33	37	from
+O	38	39	[
+O	39	40	*
+O	40	41	*
+O	41	48	Country
+O	49	54	16573
+O	54	55	*
+O	55	56	*
+O	56	57	]
+O	58	61	who
+O	62	66	used
+O	67	69	to
+O	70	72	be
+B-Employment	73	80	nursing
+I-Employment	81	85	aide
+O	85	86	.
+
+O	88	91	She
+
+O	92	94	no
+O	95	101	longer
+B-Employment	102	107	works
+O	107	108	.
+
+O	109	112	She
+B-LivingStatus	113	118	lives
+O	119	123	with
+O	124	127	her
+O	128	134	sister
+O	135	138	and
+O	139	142	son
+O	142	143	.
+
+O	144	145	[
+O	145	146	*
+O	146	147	*
+O	147	151	Name
+O	152	153	(
+O	153	155	NI
+O	155	156	)
+O	157	158	*
+O	158	159	*
+O	159	160	]
+O	161	167	recent
+
+O	168	173	trips
+O	174	178	back
+O	179	181	to
+O	182	183	[
+O	183	184	*
+O	184	185	*
+O	185	192	Country
+O	193	198	16573
+O	198	199	*
+O	199	200	*
+O	200	201	]
+O	201	202	.
+
+O	203	213	Immigrated
+O	214	216	in
+O	217	218	[
+O	218	219	*
+O	219	220	*
+O	220	224	2077
+O	224	225	*
+O	225	226	*
+O	226	227	]
+O	227	228	.
+
+O	229	232	She
+O	233	239	denies
+O	240	243	any
+
+B-Tobacco	244	251	tobacco
+O	251	252	,
+B-Alcohol	253	257	etoh
+O	257	258	,
+O	259	261	or
+B-Drug	262	267	drugs
+O	267	268	.
+
+O	269	280	Independent
+O	281	283	in
+O	284	288	ADLs
+O	289	298	including
+
+O	299	309	ambulation
+O	309	310	.

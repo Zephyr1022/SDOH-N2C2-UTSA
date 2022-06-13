@@ -1,0 +1,43 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	24	at
+O	25	29	YMCA
+O	29	30	.
+
+B-Alcohol	31	35	EtOH
+O	36	37	-
+O	38	44	denies
+O	44	45	.
+
+O	46	54	Illicits
+O	55	56	-
+O	57	64	cocaine
+O	64	65	,
+O	66	70	last
+O	71	74	use
+O	75	84	yesterday
+O	84	85	.
+
+O	86	87	+
+O	87	94	Tobacco
+O	95	97	hx
+O	98	99	(
+O	99	106	unclear
+O	107	109	if
+O	110	117	current
+O	117	118	)
+O	118	119	.
+
+O	120	123	Has
+O	124	127	one
+O	128	132	24yo
+O	133	136	son
+O	136	137	.
+
+O	138	140	Hx
+O	141	143	TB
+O	144	152	exposure
+O	152	153	.

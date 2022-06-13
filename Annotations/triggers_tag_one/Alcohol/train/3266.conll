@@ -1,0 +1,45 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	25	in
+O	26	27	[
+O	27	35	LOCATION
+O	35	36	]
+O	36	37	.
+
+O	38	45	Staying
+O	46	50	with
+O	51	57	friend
+O	58	60	in
+O	61	65	town
+O	65	66	.
+
+O	69	75	Enjoys
+O	76	88	snowboarding
+O	88	89	.
+
+O	91	98	Tobacco
+O	98	99	:
+O	100	104	quit
+O	105	109	2014
+O	109	110	,
+O	111	121	priviously
+O	122	123	~
+O	123	128	10cig
+O	128	129	/
+O	129	132	day
+
+B-Alcohol	133	137	EtOH
+O	137	138	:
+O	139	145	denies
+
+O	146	155	Marijuana
+O	155	156	:
+O	157	161	rare
+O	161	162	,
+O	163	170	medical
+O	171	179	marijuna
+O	180	183	for
+O	184	188	pain

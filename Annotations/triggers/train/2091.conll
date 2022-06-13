@@ -1,0 +1,89 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Married
+O	23	24	,
+B-LivingStatus	25	30	lives
+O	31	35	with
+O	36	40	wife
+O	40	41	.
+
+O	42	43	3
+O	44	53	daughters
+O	54	57	and
+O	58	59	1
+O	60	63	son
+O	63	64	.
+
+B-Tobacco	65	71	Smokes
+O	72	73	[
+O	73	74	*
+O	74	75	*
+O	75	76	1
+O	76	77	-
+O	77	79	18
+O	79	80	*
+O	80	81	*
+O	81	82	]
+O	83	87	pack
+O	88	90	of
+O	91	96	small
+O	97	103	cigars
+O	104	107	per
+O	108	111	day
+O	112	115	for
+O	116	123	several
+O	124	129	years
+O	129	130	,
+
+B-Tobacco	131	141	previously
+I-Tobacco	142	148	smoked
+O	149	159	cigarettes
+O	160	165	since
+O	166	168	he
+O	169	172	was
+O	173	178	young
+O	178	179	.
+
+O	180	190	Previously
+B-Alcohol	191	192	a
+
+B-Alcohol	193	198	heavy
+I-Alcohol	199	206	drinker
+O	207	210	but
+O	211	215	quit
+O	216	218	24
+O	219	224	years
+O	225	228	ago
+O	228	229	.
+
+O	230	232	No
+B-Drug	233	238	drugs
+O	238	239	.
+
+B-Employment	240	245	Works
+O	246	248	as
+O	249	251	an
+
+O	252	260	engineer
+O	261	264	for
+O	265	266	[
+O	266	267	*
+O	267	268	*
+O	268	275	Company
+O	276	281	11293
+O	281	282	*
+O	282	283	*
+O	283	284	]
+O	284	285	.
+
+O	286	295	Completed
+O	296	305	schooling
+O	306	313	through
+O	314	319	trade
+O	320	326	school
+
+O	327	330	and
+O	331	342	specialized
+O	343	355	certificates

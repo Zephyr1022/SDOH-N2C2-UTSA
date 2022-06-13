@@ -1,0 +1,66 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Alcohol	16	20	EtOH
+O	21	22	-
+O	23	24	2
+O	25	32	glasses
+O	33	35	of
+O	36	40	wine
+O	40	41	/
+O	41	46	night
+O	46	47	.
+
+O	48	55	Tobacco
+O	56	57	-
+O	58	62	none
+O	62	63	.
+
+O	64	66	No
+O	67	69	IV
+O	69	70	,
+O	71	78	illicit
+O	78	79	,
+
+O	80	82	or
+O	83	89	herbal
+O	90	94	drug
+O	95	98	use
+O	98	99	.
+
+O	100	105	Lives
+O	106	110	with
+O	111	115	wife
+O	116	118	on
+O	119	120	[
+O	120	121	*
+O	121	122	*
+O	122	126	Name
+O	127	128	(
+O	128	130	NI
+O	130	131	)
+O	132	136	6687
+O	136	137	*
+O	137	138	*
+O	138	139	]
+O	139	140	,
+O	141	152	independent
+O	153	155	in
+
+O	156	157	[
+O	157	158	*
+O	158	159	*
+O	159	163	Name
+O	164	165	(
+O	165	167	NI
+O	167	168	)
+O	169	174	12210
+O	174	175	*
+O	175	176	*
+O	176	177	]
+O	177	178	.
+
+O	179	186	Retired
+O	187	196	fisherman
+O	196	197	.

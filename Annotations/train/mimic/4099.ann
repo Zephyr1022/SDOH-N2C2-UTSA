@@ -1,0 +1,24 @@
+T1	Alcohol 8 12	etoh
+T2	StatusTime 5 7	no
+T3	StatusTime 14 24	prior  use
+T4	Drug 28 46	cocaine and heroin
+T5	Drug 62 68	heroin
+T6	Type 62 68	heroin
+T7	StatusTime 69 91	within the last 7 days
+T8	Drug 106 113	cocaine
+T9	Type 106 113	cocaine
+T10	StatusTime 93 105	has not used
+T11	History 114 130	since early 2011
+T12	Amount 132 144	25 pack-year
+T13	Tobacco 145 160	smoking history
+T14	StatusTime 132 160	25 pack-year smoking history
+E1	Alcohol:T1 Status:T2
+E2	Drug:T4 Status:T3
+E3	Drug:T5 Status:T7 Type:T6
+E4	Drug:T8 Status:T10 Type:T9 History:T11
+E5	Tobacco:T13 Amount:T12 Status:T14
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T3 past
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T10 past
+A5	StatusTimeVal T14 current

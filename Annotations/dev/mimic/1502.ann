@@ -1,0 +1,10 @@
+T1	Tobacco 38 41	cig
+T2	Type 38 41	cig
+T3	StatusTime 17 37	reports to have quit
+T4	Drug 66 79	crack/cocaine
+T5	Type 66 79	crack/cocaine
+T6	StatusTime 42 60	reports to abstain
+E1	Tobacco:T1 Type:T2 Status:T3
+E2	Drug:T4 Type:T5 Status:T6
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T6 past

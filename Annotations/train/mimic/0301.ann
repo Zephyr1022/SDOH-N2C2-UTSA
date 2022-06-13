@@ -1,0 +1,21 @@
+T1	Tobacco 56 67	tobacco use
+T2	StatusTime 41 52	is positive
+T3	Frequency 122 129	per day
+T4	Tobacco 98 104	smokes
+T6	History 140 161	two to three days ago
+T7	StatusTime 135 139	quit
+T8	Alcohol 187 194	alcohol
+T5	StatusTime 180 186	drinks
+T10	Employment 200 205	works
+T11	Type 209 218	a plumber
+T14	Duration 68 82	times 40 years
+T12	StatusEmploy 200 205	works
+T15	Amount 105 115;116 121	one to two packs
+E1	Tobacco:T1 Status:T2 Duration:T14
+E2	Tobacco:T4 Frequency:T3 History:T6 Amount:T15 Status:T7
+E3	Alcohol:T8 Status:T5
+E4	Employment:T10 Type:T11 Status:T12
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T7 past
+A2	StatusTimeVal T5 current
+A5	StatusEmployVal T12 employed

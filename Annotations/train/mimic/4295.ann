@@ -1,0 +1,16 @@
+T1	LivingStatus 17 23	Housed
+T2	TypeLiving 27 62	Salvation Army William Booth Center
+T3	StatusTime 17 23	Housed
+T4	Alcohol 99 103	EtOH
+T5	StatusTime 88 98	no current
+T6	Drug 118 120	MJ
+T7	Type 118 120	MJ
+T8	StatusTime 105 111	former
+T9	Frequency 112 117	daily
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Type:T7 Frequency:T9 Status:T8
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T8 past

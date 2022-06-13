@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: denies   Alcohol Use: occasional   Drug Use: denies
+
+SOCIAL HISTORY: 
+Residence: Lives in  [LOCATION], single

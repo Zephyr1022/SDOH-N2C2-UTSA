@@ -1,0 +1,21 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-Tobacco	17	20	Non
+I-Tobacco	20	21	-
+I-Tobacco	21	27	smoker
+O	27	28	,
+O	29	35	denies
+B-Alcohol	36	40	EtOH
+O	40	41	,
+O	42	48	denies
+O	49	54	other
+B-Drug	55	59	drug
+I-Drug	60	63	use
+
+O	64	69	Lives
+O	70	72	in
+O	73	74	[
+O	74	82	LOCATION
+O	82	83	]

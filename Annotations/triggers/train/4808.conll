@@ -1,0 +1,28 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	in
+O	25	26	W
+O	27	31	Mass
+O	32	43	withhusband
+O	44	46	of
+O	47	49	13
+O	50	55	years
+O	55	56	.
+
+O	57	59	10
+O	60	64	year
+O	65	66	h
+O	66	67	/
+O	67	68	o
+B-Tobacco	69	76	smoking
+O	76	77	.
+
+O	78	85	College
+O	86	94	educated
+O	94	95	.
+
+B-Employment	96	104	Engineer
+O	104	105	.

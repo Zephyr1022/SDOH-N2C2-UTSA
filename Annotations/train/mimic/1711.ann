@@ -1,0 +1,16 @@
+T1	LivingStatus 211 227	currently living
+T2	StatusTime 211 227	currently living
+T3	TypeLiving 228 239	with mother
+T4	Drug 308 316	Drug use
+T6	Duration 317 325;326 332	began as a teen
+T7	Type 363 385;386 407	cocaine, LSD, ecstasy, marijuana, and heroin
+T8	Alcohol 429 442	alcohol abuse
+T9	StatusTime 422 428	denies
+T10	StatusTime 308 325;326 332	Drug use began as a teen
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Drug:T4 Status:T10 Duration:T6 Type:T7
+E3	Alcohol:T8 Status:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T10 current

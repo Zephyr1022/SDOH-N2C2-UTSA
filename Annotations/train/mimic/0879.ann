@@ -1,0 +1,6 @@
+T1	LivingStatus 28 33	lives
+T2	TypeLiving 34 63	at [**Hospital6 58387**] Home
+T3	StatusTime 28 33	lives
+E1	LivingStatus:T1 Type:T2 Status:T3
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current

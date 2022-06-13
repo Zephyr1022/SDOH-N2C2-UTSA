@@ -1,0 +1,44 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	On
+O	19	29	disability
+O	29	30	,
+O	31	41	previously
+O	42	48	worked
+O	49	51	in
+O	52	59	finance
+O	59	60	.
+
+O	61	64	MSM
+O	65	70	lives
+O	71	75	with
+
+O	76	83	partner
+O	83	84	,
+O	85	91	Denies
+O	92	99	tobacco
+O	99	100	/
+O	100	104	IVDU
+O	104	105	.
+
+B-Alcohol	106	112	Drinks
+O	113	114	5
+O	115	120	vodka
+O	121	127	drinks
+O	127	128	/
+O	128	131	day
+O	131	132	.
+
+O	133	139	Tattoo
+
+O	140	144	from
+O	145	146	[
+O	146	147	*
+O	147	148	*
+O	148	152	2178
+O	152	153	*
+O	153	154	*
+O	154	155	]
+O	155	156	.

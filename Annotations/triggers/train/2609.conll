@@ -1,0 +1,13 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	16	21	Stays
+O	22	24	in
+O	25	27	an
+O	28	37	apartment
+
+O	38	44	Smokes
+B-Drug	45	50	crack
+I-Drug	51	58	cocaine
+O	59	68	regularly

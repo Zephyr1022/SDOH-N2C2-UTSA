@@ -1,0 +1,26 @@
+T1	LivingStatus 24 30	living
+T2	TypeLiving 31 70	in guest house of her parent's property
+T3	StatusTime 24 30	living
+T4	Employment 179 194	Retired Realtor
+T5	StatusEmploy 179 194	Retired Realtor
+T6	Type 179 194	Retired Realtor
+T7	Amount 210 214	2ppd
+T8	Duration 233 240	>45 yrs
+T9	Tobacco 205 208	tob
+T10	Alcohol 241 245	EtoH
+T11	StatusTime 246 252	denies
+T12	StatusTime 210 214	2ppd
+T13	Drug 253 261	illicits
+T14	Type 253 261	illicits
+T15	StatusTime 263 269	denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T6 Status:T5
+E3	Tobacco:T9 Amount:T7 Duration:T8 Status:T12
+E4	Alcohol:T10 Status:T11
+E5	Drug:T13 Status:T15 Type:T14
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T11 none
+A5	StatusTimeVal T12 current
+A6	StatusTimeVal T15 none

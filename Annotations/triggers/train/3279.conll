@@ -1,0 +1,24 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	currently
+O	27	29	at
+B-LivingStatus	30	35	Aegis
+I-LivingStatus	36	44	Callahan
+I-LivingStatus	45	50	House
+
+O	51	52	h
+O	52	53	/
+O	53	54	o
+B-Alcohol	55	62	alcohol
+I-Alcohol	63	68	abuse
+
+B-Drug	69	79	occasional
+I-Drug	80	83	THC
+
+O	84	90	denies
+B-Drug	91	99	illicits
+
+O	100	101	+
+B-Tobacco	101	104	tob

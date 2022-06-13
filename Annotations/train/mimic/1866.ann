@@ -1,0 +1,27 @@
+T1	Employment 32 37	Works
+T2	Type 38 46	at shaws
+T3	StatusEmploy 32 37	Works
+T4	LivingStatus 48 53	lives
+T5	TypeLiving 54 59	alone
+T6	StatusTime 48 53	lives
+T7	Amount 148 161	[**1-6**] ppd
+T8	Tobacco 148 161	[**1-6**] ppd
+T9	Duration 162 176	since teenager
+T10	StatusTime 162 176	since teenager
+T11	Alcohol 179 186	Alcohol
+T12	StatusTime 196 206	last drink
+T13	History 207 216	5 yrs ago
+T14	Drug 219 227	Illicits
+T15	Type 219 227	Illicits
+T16	StatusTime 229 233	none
+E1	Employment:T1 Type:T2 Status:T3
+E2	LivingStatus:T4 Type:T5 Status:T6
+E3	Tobacco:T8 Amount:T7 Duration:T9 Status:T10
+E4	Alcohol:T11 Status:T12 History:T13
+E5	Drug:T14 Type:T15 Status:T16
+A1	StatusEmployVal T3 employed
+A2	TypeLivingVal T5 alone
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T12 past
+A6	StatusTimeVal T16 none

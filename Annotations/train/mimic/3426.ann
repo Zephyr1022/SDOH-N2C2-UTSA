@@ -1,0 +1,26 @@
+T1	Tobacco 8 15	Tobacco
+T2	StatusTime 17 25	+smoking
+T3	Frequency 26 40	once in awhile
+T4	Alcohol 41 45	EtOH
+T5	StatusTime 48 52	none
+T6	Drug 53 58	Drugs
+T7	Type 61 63	MJ
+T8	Frequency 64 78	once is awhile
+T9	StatusTime 64 78	once is awhile
+T10	Drug 87 98	other drugs
+T12	StatusTime 80 86	Denies
+T13	Drug 148 169	MJ laced with cocaine
+T14	Type 148 169	MJ laced with cocaine
+T15	Method 190 196	smoked
+T16	StatusTime 113 138	cocaine in his tox screen
+E1	Tobacco:T1 Status:T2 Frequency:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Type:T7 Frequency:T8 Status:T9
+E4	Drug:T10 Status:T12
+E5	Drug:T13 Type:T14 Status:T16 Method:T15 Type2:T17
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T12 none
+A5	StatusTimeVal T16 current
+T17	Type 113 120	cocaine

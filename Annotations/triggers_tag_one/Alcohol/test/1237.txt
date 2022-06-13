@@ -1,0 +1,7 @@
+HABITS: 
+Per admit note from [DATE]
+Tobacco Use: Denies   Alcohol Use: Denies   Drug Use: Denies
+
+SOCIAL HISTORY: 
+Per admit note from [DATE]
+Lives in [LOCATION] with her girlfriend in a mobile home

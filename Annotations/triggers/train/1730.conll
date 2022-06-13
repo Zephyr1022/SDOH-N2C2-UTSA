@@ -1,0 +1,73 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	She
+O	20	29	currently
+O	30	35	lives
+O	36	38	in
+O	39	40	[
+O	40	41	*
+O	41	42	*
+O	42	50	Location
+O	51	55	8985
+O	55	56	*
+O	56	57	*
+O	57	58	]
+O	58	59	,
+O	60	61	[
+O	61	62	*
+O	62	63	*
+O	63	68	State
+O	69	72	350
+O	72	73	*
+O	73	74	*
+O	74	75	]
+O	75	76	.
+
+O	78	81	She
+O	82	84	is
+
+O	85	92	married
+O	93	97	with
+O	98	101	two
+O	102	111	daughters
+O	112	115	who
+O	116	119	are
+O	120	127	healthy
+O	127	128	.
+
+O	130	133	She
+B-Tobacco	134	140	smokes
+O	141	144	one
+O	145	147	to
+
+O	148	151	two
+O	152	157	packs
+O	158	161	per
+O	162	165	day
+O	166	169	for
+O	170	173	the
+O	174	178	past
+O	179	181	21
+O	182	187	years
+O	187	188	.
+
+B-Alcohol	190	196	Social
+I-Alcohol	197	204	alcohol
+I-Alcohol	205	208	use
+O	208	209	.
+
+O	210	212	No
+B-Drug	213	217	drug
+I-Drug	218	221	use
+O	221	222	.
+
+O	224	227	She
+O	228	230	is
+B-Employment	231	240	currently
+I-Employment	241	251	unemployed
+O	252	255	and
+O	256	259	not
+O	260	262	on
+O	263	273	disability

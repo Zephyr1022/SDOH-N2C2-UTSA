@@ -1,0 +1,18 @@
+T1	LivingStatus 21 26	lives
+T2	StatusTime 21 26	lives
+T3	TypeLiving 27 53;54 62	with her husband and three children
+T4	Employment 72 83	a housewife
+T5	StatusEmploy 72 83	a housewife
+T6	Tobacco 89 96	smoking
+T7	StatusTime 86 88	No
+T8	Alcohol 99 113	Social alcohol
+T9	StatusTime 99 113	Social alcohol
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T7
+E4	Alcohol:T8 Status:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 homemaker
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T9 current

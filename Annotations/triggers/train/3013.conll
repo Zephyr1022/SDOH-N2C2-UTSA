@@ -1,0 +1,24 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-Drug	17	21	IVDU
+O	21	22	-
+O	23	29	heroin
+O	29	30	,
+O	31	35	meth
+O	35	36	,
+O	37	43	benzos
+O	45	46	(
+O	46	51	clean
+O	52	53	x
+O	54	55	3
+O	56	62	months
+O	62	63	)
+
+O	64	73	methadone
+O	73	74	-
+O	75	77	70
+O	77	78	/
+O	78	81	day
+O	82	85	per

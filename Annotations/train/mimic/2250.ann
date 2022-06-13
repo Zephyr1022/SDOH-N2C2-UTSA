@@ -1,0 +1,27 @@
+T1	Tobacco 9 20	Tobacco Use
+T3	StatusTime 27 38	current use
+T4	Amount 40 53	approx 55pyhx
+T2	Alcohol 56 67	Alcohol Use
+T5	StatusTime 69 75	denies
+T6	Drug 90 98	Drug Use
+T7	StatusTime 100 106	denies
+T8	Method 107 111	IVDU
+T9	Drug 124 139	opioid pill use
+T10	Type 124 139	opioid pill use
+T11	StatusTime 113 123	history of
+T12	History 163 174	for 8 years
+T13	LivingStatus 193 198	Lives
+T14	TypeLiving 199 241	with husband [NAME] and two granddaughters
+T15	StatusTime 193 198	Lives
+E1	Tobacco:T1 Status:T3 Amount:T4 Amount2:T16
+E2	Alcohol:T2 Status:T5
+E3	Drug:T6 Status:T7 Method:T8
+E4	Drug:T9 Type:T10 Status:T11 History:T12
+E5	LivingStatus:T13 Type:T14 Status:T15
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T11 past
+A5	TypeLivingVal T14 with_family
+A6	StatusTimeVal T15 current
+T16	Amount 22 26	1ppd

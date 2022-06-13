@@ -1,0 +1,58 @@
+O	0	2	SH
+O	2	3	:
+
+O	4	14	Previously
+O	15	21	worked
+O	22	24	as
+O	25	26	a
+O	27	31	cook
+O	31	32	,
+O	33	38	since
+O	39	43	laid
+O	44	47	off
+
+O	48	55	Married
+O	55	56	,
+O	57	60	but
+O	61	70	separated
+
+O	71	76	Lives
+O	77	81	with
+O	82	88	friend
+
+O	89	93	From
+O	94	95	[
+O	95	103	LOCATION
+O	103	104	]
+
+O	105	111	Family
+O	112	118	speaks
+O	119	120	[
+O	120	128	LOCATION
+O	128	129	]
+
+B-Alcohol	130	138	Previous
+I-Alcohol	139	144	heavy
+I-Alcohol	145	149	EtOH
+O	150	151	-
+O	152	153	2
+O	153	154	-
+O	154	155	3
+O	156	162	drinks
+O	162	163	/
+O	163	168	daily
+O	168	169	,
+O	170	174	none
+O	175	179	last
+O	180	183	two
+O	184	190	months
+
+O	191	195	1PPD
+O	196	197	x
+O	198	200	30
+O	201	206	years
+
+O	207	209	No
+O	210	215	other
+O	216	220	drug
+O	221	224	use

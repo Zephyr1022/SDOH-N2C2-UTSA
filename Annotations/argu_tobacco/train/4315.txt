@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: None  Alcohol Use: none  Drug Use: none
+SOCIAL HISTORY: 
+Married with  2yo daughter They live in [LOCATION], [LOCATION]. 
+He is an assistant professor at [LOCATION] but is currently on leave.

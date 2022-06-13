@@ -1,0 +1,19 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Retired
+O	24	42	gasterenterologist
+O	42	43	.
+
+O	44	50	Former
+O	51	57	smoker
+O	57	58	.
+
+B-Alcohol	59	62	Occ
+I-Alcohol	63	67	EtOH
+O	67	68	.
+
+O	69	71	No
+O	72	76	IVDA
+O	76	77	.

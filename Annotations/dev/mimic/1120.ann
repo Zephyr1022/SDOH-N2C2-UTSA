@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 27	alone
+T3	StatusTime 16 21	Lives
+T7	Alcohol 372 376	EtOH
+T8	StatusTime 378 382	none
+T9	Tobacco 384 391	Tobacco
+T10	StatusTime 421 425	quit
+T11	History 426 434;435 438	20 years ago
+T12	Amount 400 412	20 pack year
+T13	Drug 440 448	Illicits
+T14	Type 440 448	Illicits
+T15	StatusTime 450 456	Denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E3	Alcohol:T7 Status:T8
+E4	Tobacco:T9 Amount:T12 Status:T10 History:T11
+E5	Drug:T13 Status:T15 Type:T14
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T10 past
+A6	StatusTimeVal T15 none

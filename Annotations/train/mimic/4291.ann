@@ -1,0 +1,28 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 27	never
+T3	Alcohol 30 41	Alcohol Use
+T4	StatusTime 43 49	denies
+T5	Drug 52 60	Drug Use
+T6	StatusTime 62 68	denies
+T7	Employment 87 102	Formerly worked
+T8	Type 106 141	VP for external affairs for company
+T9	StatusEmploy 153 159	retire
+T10	History 160 167	in 2013
+T11	LivingStatus 213 218	Lives
+T12	TypeLiving 261 271	by herself
+T13	StatusTime 213 218	Lives
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	Employment:T7 Type:T8 Status:T9 History:T10
+E5	LivingStatus:T11 Type:T12 Status:T13
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	StatusEmployVal T9 retired
+A5	TypeLivingVal T12 alone
+A6	StatusTimeVal T13 current
+T14	StatusEmploy 198 211	on disability
+A7	StatusEmployVal T14 on_disability
+T15	Employment 198 211	on disability
+E6	Employment:T15 Status:T14

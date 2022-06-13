@@ -1,0 +1,11 @@
+HABITS: 
+Tobacco Use: quit 5 years ago, smoked 1/2ppd x21 yrs (10.5 py)
+Alcohol Use: not since surgery (previously 2 beers nightly)   
+Drug Use: no IVDU, intermittently smokes MJ for analgesia
+
+SOCIAL HISTORY: 
+[_] Unable to Obtain due to Patient Condition
+Residence: [LOCATION], [LOCATION]
+Lives with dad
+Has lived in [LOCATION] for last 20 years, never traveled outside of the country
+He is [LOCATION] and [LOCATION] (Dad is [LOCATION])

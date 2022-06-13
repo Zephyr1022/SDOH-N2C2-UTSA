@@ -1,0 +1,35 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	19	10
+O	20	24	pack
+O	24	25	/
+O	25	29	year
+B-Tobacco	30	37	smoking
+I-Tobacco	38	45	history
+O	45	46	,
+O	47	52	quite
+O	53	55	gt
+O	56	58	20
+O	59	64	years
+O	65	68	ago
+
+O	69	73	Rare
+O	73	74	/
+O	74	84	occasional
+B-Alcohol	85	92	alcohol
+I-Alcohol	93	96	use
+
+O	97	103	Remote
+B-Drug	104	113	marijuana
+I-Drug	114	117	use
+
+B-LivingStatus	118	123	Lives
+O	124	126	in
+O	127	128	[
+O	128	136	LOCATION
+O	136	137	]
+O	138	142	with
+O	143	146	her
+O	147	154	husband

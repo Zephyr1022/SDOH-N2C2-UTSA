@@ -1,0 +1,16 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Married
+O	24	28	with
+O	29	34	three
+O	35	43	children
+O	44	47	and
+B-Employment	48	54	worked
+O	55	57	as
+O	58	59	a
+O	60	66	lawyer
+O	66	67	,
+B-Alcohol	68	72	rare
+I-Alcohol	73	80	alcohol

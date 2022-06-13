@@ -1,0 +1,47 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	-
+B-Alcohol	18	22	EtOH
+O	22	23	:
+O	24	35	significant
+O	36	43	history
+O	43	44	,
+O	45	51	denies
+O	52	61	currently
+
+O	62	63	-
+B-Tobacco	64	71	Tobacco
+O	71	72	:
+O	73	84	significant
+O	85	92	history
+O	92	93	,
+O	94	100	denies
+O	101	110	currently
+
+O	111	112	-
+B-Drug	113	121	Illicits
+O	121	122	:
+O	123	134	significant
+O	135	142	history
+O	143	149	heroin
+O	150	154	IVDU
+O	155	158	and
+O	159	163	meth
+O	163	164	,
+O	165	171	denies
+O	172	181	currently
+
+O	182	183	-
+B-LivingStatus	184	190	Living
+I-LivingStatus	191	200	Situation
+O	200	201	:
+O	202	206	jail
+O	206	207	,
+O	208	217	generally
+O	218	223	stays
+O	224	226	at
+O	227	231	City
+O	232	236	Hall
+O	237	244	shelter

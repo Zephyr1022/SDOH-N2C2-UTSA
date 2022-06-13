@@ -1,0 +1,35 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	8	14	Unable
+O	15	17	to
+O	18	24	obtain
+O	25	34	secondary
+O	35	37	to
+O	38	45	patient
+O	46	52	status
+
+O	53	59	SOCIAL
+O	60	67	HISTORY
+O	67	68	:
+
+O	70	71	[
+O	71	72	x
+O	72	73	]
+O	74	80	Unable
+O	81	83	to
+O	84	90	Obtain
+O	91	94	due
+O	95	97	to
+O	98	105	Patient
+O	106	115	Condition
+
+O	116	125	Residence
+O	125	126	:
+O	127	133	Unable
+O	134	136	to
+O	137	143	obtain
+O	144	153	secondary
+O	154	156	to
+O	157	164	patient
+O	165	171	status

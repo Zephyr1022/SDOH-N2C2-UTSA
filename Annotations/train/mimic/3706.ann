@@ -1,0 +1,60 @@
+T1	LivingStatus 17 25	Homeless
+T2	StatusTime 17 25	Homeless
+T3	TypeLiving 17 25	Homeless
+T4	LivingStatus 27 33	Living
+T5	StatusTime 47 56	currently
+T6	TypeLiving 34 46	at a shelter
+T7	Employment 58 65	Working
+T8	StatusEmploy 58 65	Working
+T9	Type 69 81	a [LOCATION]
+T10	Tobacco 125 131	smoker
+T11	Amount 119 124	1 ppd
+T12	StatusTime 111 118	Current
+T13	Alcohol 132 139	Alcohol
+T15	StatusTime 141 151	occasional
+T16	Drug 152 157	Drugs
+T17	StatusTime 159 163	none
+T18	LivingStatus 164 172	Homeless
+T19	StatusTime 164 172	Homeless
+T20	TypeLiving 164 172	Homeless
+T21	LivingStatus 174 180	Living
+T22	StatusTime 194 203	currently
+T23	TypeLiving 181 193	at a shelter
+T24	Employment 205 212	Working
+T26	Type 216 228	a [LOCATION]
+T25	StatusEmploy 205 212	Working
+T27	Amount 238 243	1 ppd
+T28	Tobacco 244 250	smoker
+T29	StatusTime 230 237	Current
+T30	Alcohol 251 258	Alcohol
+T32	StatusTime 260 270	occasional
+T33	Drug 271 276	Drugs
+T34	StatusTime 278 282	none
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Employment:T7 Status:T8 Type:T9
+E4	Tobacco:T10 Amount:T11 Status:T12
+E5	Alcohol:T13 Status:T15
+E6	Drug:T16 Status:T17
+E7	LivingStatus:T18 Status:T19 Type:T20
+E8	LivingStatus:T21 Type:T23 Status:T22
+E9	Employment:T24 Status:T25 Type:T26
+E10	Tobacco:T28 Amount:T27 Status:T29
+E11	Alcohol:T30 Status:T32
+E12	Drug:T33 Status:T34
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 homeless
+A5	StatusEmployVal T8 employed
+A6	StatusTimeVal T12 current
+A8	StatusTimeVal T15 current
+A9	StatusTimeVal T17 none
+A10	StatusTimeVal T19 current
+A11	TypeLivingVal T20 homeless
+A12	StatusTimeVal T22 current
+A13	TypeLivingVal T23 homeless
+A14	StatusEmployVal T25 employed
+A15	StatusTimeVal T29 current
+A17	StatusTimeVal T32 current
+A18	StatusTimeVal T34 none

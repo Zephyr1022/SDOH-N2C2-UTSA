@@ -1,0 +1,15 @@
+T1	LivingStatus 36 41	lived
+T2	TypeLiving 56 68	with husband
+T3	StatusTime 36 41	lived
+T4	Tobacco 618 625	tobacco
+T5	Alcohol 626 633	alcohol
+T6	Drug 634 642	illicits
+T7	Type 634 642	illicits
+T8	StatusTime 611 617	denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T8
+E3	Alcohol:T5 Status:T8
+E4	Drug:T6 Type:T7 Status:T8
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 past
+A3	StatusTimeVal T8 none

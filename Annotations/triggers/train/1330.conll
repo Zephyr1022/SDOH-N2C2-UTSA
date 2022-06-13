@@ -1,0 +1,47 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	10	-
+B-Tobacco	10	17	Tobacco
+I-Tobacco	18	21	Use
+O	21	22	:
+O	23	27	none
+O	28	35	current
+O	36	38	or
+O	39	45	former
+
+O	49	50	-
+B-Alcohol	50	57	Alcohol
+I-Alcohol	58	61	Use
+O	61	62	:
+O	63	67	none
+
+O	71	72	-
+B-Drug	72	76	Drug
+I-Drug	77	80	Use
+O	80	81	:
+O	82	86	none
+O	86	87	,
+O	88	90	no
+O	91	95	IVDU
+
+O	97	103	SOCIAL
+O	104	111	HISTORY
+O	111	112	:
+
+O	114	115	-
+B-Employment	115	121	Former
+I-Employment	122	128	police
+I-Employment	129	136	officer
+
+O	137	138	-
+B-LivingStatus	138	143	Lives
+O	144	146	at
+O	147	151	home
+O	152	157	alone
+
+O	158	159	-
+O	159	165	Mother
+O	166	168	is
+O	169	172	ICU
+O	173	178	nurse

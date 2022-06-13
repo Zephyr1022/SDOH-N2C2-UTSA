@@ -1,0 +1,41 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	15	Smokes
+O	16	17	1
+O	17	18	/
+O	18	19	2
+O	20	23	ppd
+O	23	24	;
+O	25	30	lower
+O	31	35	than
+O	36	46	previously
+O	46	47	,
+O	48	54	smoker
+O	55	56	x
+O	57	59	40
+O	59	60	+
+O	61	66	years
+
+B-Alcohol	67	74	Minimal
+I-Alcohol	75	82	alcohol
+
+O	84	90	SOCIAL
+O	91	98	HISTORY
+O	98	99	:
+
+O	101	106	Lives
+O	107	109	at
+O	110	115	Bread
+O	116	118	of
+O	119	123	Life
+O	124	131	shelter
+
+O	132	135	Son
+O	136	141	lives
+O	142	149	locally
+O	149	150	,
+O	151	154	but
+O	155	167	relationship
+O	168	170	is
+O	171	179	strained

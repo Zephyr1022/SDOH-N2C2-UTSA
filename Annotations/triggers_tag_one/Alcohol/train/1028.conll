@@ -1,0 +1,47 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	23	Remote
+O	24	31	tobacco
+O	32	35	use
+O	35	36	.
+
+O	38	40	He
+O	41	47	smoked
+O	48	51	one
+O	52	54	to
+O	55	58	two
+
+O	59	64	packs
+O	65	68	per
+O	69	72	day
+O	73	78	times
+O	79	81	35
+O	82	87	years
+O	87	88	.
+
+O	90	92	He
+O	93	97	quit
+O	98	111	approximately
+O	112	117	eight
+
+O	118	123	years
+O	124	127	ago
+O	127	128	.
+
+O	130	132	He
+O	133	137	quit
+B-Alcohol	138	145	alcohol
+I-Alcohol	146	149	use
+O	150	152	13
+O	153	158	years
+O	159	162	ago
+O	162	163	.
+
+O	165	167	He
+O	168	173	lives
+O	174	178	with
+
+O	179	182	his
+O	183	186	son
+O	186	187	.

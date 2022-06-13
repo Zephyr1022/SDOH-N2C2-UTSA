@@ -1,0 +1,25 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	15	unable
+O	16	18	to
+O	19	25	obtain
+
+O	27	33	SOCIAL
+O	34	41	HISTORY
+O	41	42	:
+
+O	44	45	[
+O	45	46	x
+O	46	47	]
+O	48	54	Unable
+O	55	57	to
+O	58	64	Obtain
+O	65	68	due
+O	69	71	to
+O	72	79	Patient
+O	80	89	Condition
+
+B-LivingStatus	90	99	Residence
+O	99	100	:
+O	101	104	SNF

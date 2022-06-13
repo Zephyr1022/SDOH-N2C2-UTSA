@@ -1,0 +1,59 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	The
+O	20	27	patient
+O	28	30	is
+O	31	35	from
+O	36	37	[
+O	37	38	*
+O	38	39	*
+O	39	47	Location
+O	48	49	(
+O	49	51	un
+O	51	52	)
+O	53	57	4708
+O	57	58	*
+O	58	59	*
+O	59	60	]
+O	60	61	.
+
+O	62	65	She
+O	66	71	moved
+O	72	74	to
+O	75	78	the
+O	79	80	U
+O	80	81	.
+O	81	82	S
+O	82	83	.
+
+O	84	86	11
+O	87	92	years
+
+O	93	96	ago
+O	96	97	.
+
+O	98	101	She
+O	102	104	is
+O	105	112	married
+O	113	116	and
+O	117	120	has
+O	121	124	two
+O	125	133	children
+O	133	134	.
+
+O	135	138	She
+O	139	145	denies
+O	146	150	past
+O	151	153	or
+
+O	154	161	current
+B-Tobacco	162	169	tobacco
+O	169	170	,
+B-Alcohol	171	175	etoh
+O	176	178	or
+B-Drug	179	186	illicit
+I-Drug	187	191	drug
+I-Drug	192	195	use
+O	195	196	.

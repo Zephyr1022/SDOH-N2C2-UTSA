@@ -1,0 +1,41 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 47	0.25 - 0.5 ppd x 17 years
+T3	Amount 22 36	0.25 - 0.5 ppd
+T4	Duration 37 47	x 17 years
+T5	Alcohol 50 61	Alcohol Use
+T6	StatusTime 63 69	Denies
+T7	Drug 72 80	Drug Use
+T8	Type 82 91	Marijuana
+T9	StatusTime 82 91	Marijuana
+T10	Method 118 124	smokes
+T11	Amount 125 136	small pinch
+T12	Frequency 137 144	per day
+T13	Drug 158 182	other recreational drugs
+T14	Type 158 176	other recreational
+T15	StatusTime 147 157	Denies any
+T16	Employment 305 334	Receives permanent disability
+T17	StatusEmploy 305 334	Receives permanent disability
+T18	LivingStatus 201 210	Residence
+T19	TypeLiving 212 222	[LOCATION]
+T20	Duration 223 235	since [DATE]
+T21	StatusTime 212 235	[LOCATION] since [DATE]
+T22	LivingStatus 237 242	lived
+T23	StatusTime 237 242	lived
+T24	TypeLiving 243 252	with aunt
+E1	Tobacco:T1 Amount:T3 Status:T2 Duration:T4
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Type:T8 Status:T9 Method:T10 Amount:T11 Frequency:T12 History:T25
+E4	Drug:T13 Type:T14 Status:T15
+E5	Employment:T16 Status:T17
+E6	LivingStatus:T18 Type:T19 Status:T21 Duration:T20
+E7	LivingStatus:T22 Status:T23 Type:T24
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T15 none
+A5	StatusEmployVal T17 on_disability
+A6	TypeLivingVal T19 with_others
+A7	StatusTimeVal T21 current
+A8	StatusTimeVal T23 past
+A9	TypeLivingVal T24 with_family
+T25	History 103 116	1.5 weeks ago

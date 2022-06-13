@@ -1,0 +1,95 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	He
+O	19	21	is
+O	22	23	a
+O	24	25	1
+O	25	26	.
+O	26	27	5
+O	28	31	ppd
+B-Tobacco	32	38	smoker
+O	38	39	.
+
+O	40	42	He
+O	43	50	stopped
+O	51	54	for
+O	55	56	1
+O	57	61	year
+O	61	62	,
+O	63	66	but
+O	67	76	restarted
+O	77	78	1
+
+O	79	83	year
+O	84	87	ago
+O	87	88	,
+O	89	97	previous
+O	98	100	to
+O	101	105	this
+O	106	108	he
+B-Tobacco	109	115	smoked
+O	116	119	for
+O	120	122	24
+O	123	128	years
+O	128	129	.
+
+O	130	132	He
+O	133	140	reports
+
+O	141	151	occasional
+B-Alcohol	152	156	ETOH
+O	156	157	.
+
+O	158	162	Used
+B-Drug	163	170	cocaine
+O	171	181	frequently
+O	182	185	but
+O	186	190	none
+O	191	193	in
+O	194	195	1
+O	196	200	year
+O	200	201	.
+
+O	202	205	His
+
+O	206	209	HCP
+O	210	212	is
+O	213	216	his
+O	217	227	girlfriend
+O	228	229	[
+O	229	230	*
+O	230	231	*
+O	231	237	Doctor
+O	238	243	First
+O	244	248	Name
+O	249	252	553
+O	252	253	*
+O	253	254	*
+O	254	255	]
+O	256	260	with
+O	261	265	whom
+O	266	268	he
+B-LivingStatus	269	274	lives
+O	275	277	in
+O	278	279	[
+O	279	280	*
+O	280	281	*
+O	281	285	Name
+O	286	287	(
+O	287	289	NI
+O	289	290	)
+O	291	295	3786
+O	295	296	*
+O	296	297	*
+O	297	298	]
+O	298	299	.
+
+O	300	302	He
+
+O	303	305	is
+B-Employment	306	307	a
+I-Employment	308	320	construction
+I-Employment	321	327	worker
+O	327	328	.

@@ -1,0 +1,4 @@
+Soc Hx: works at [LOCATION]; has missed some work.
+Outpatient Medications Prior to Visit   Medication Sig Dispense Refill   • Acyclovir 400 MG Oral Tab Take 1 tablet (400 mg) by mouth 3 times a day. Take for 5 days. (Patient not taking: Reported on [DATE]) 15 tablet 6
+ No facility-administered medications prior to visit.
+  Review of patient's allergies indicates: Allergies   Allergen Reactions   • Soy [Isoflavones (Soy)] Swelling   • Wheat Swelling

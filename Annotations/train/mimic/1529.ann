@@ -1,0 +1,15 @@
+T1	Tobacco 32 35	tob
+T2	StatusTime 30 31	+
+T3	Alcohol 39 43	etoh
+T4	StatusTime 36 38	no
+T5	Drug 48 52	ivdu
+T6	Type 53 59	heroin
+T7	StatusTime 61 70	remission
+T8	History 71 80	x 2 weeks
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Type:T6 Status:T7 History:T8 Method:T9
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T7 past
+T9	Method 48 52	ivdu

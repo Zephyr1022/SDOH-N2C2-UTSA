@@ -1,0 +1,61 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	23	1
+O	24	27	ppd
+O	28	31	x30
+O	32	37	years
+
+B-Alcohol	39	46	Alcohol
+I-Alcohol	47	50	Use
+O	50	51	:
+O	52	53	6
+O	53	54	-
+O	54	55	8
+O	56	61	beers
+O	61	62	/
+O	62	65	day
+O	66	67	x
+O	68	72	many
+O	73	78	years
+
+B-Drug	79	83	Drug
+I-Drug	84	87	Use
+O	87	88	:
+O	89	99	Occasional
+O	100	109	marijuana
+O	109	110	,
+B-Drug	111	118	cocaine
+O	119	121	in
+O	122	125	his
+O	126	131	youth
+O	131	132	,
+O	133	135	no
+B-Drug	136	140	IVDU
+
+O	142	148	SOCIAL
+O	149	156	HISTORY
+O	156	157	:
+
+B-LivingStatus	159	168	Currently
+I-LivingStatus	169	176	staying
+O	177	179	at
+O	180	185	Union
+O	186	192	Gospel
+O	193	200	Mission
+O	200	201	.
+
+B-Employment	203	205	On
+I-Employment	206	216	disability
+O	217	220	x10
+O	221	226	years
+O	227	230	for
+O	231	236	given
+O	237	238	"
+O	238	244	health
+O	245	251	issues
+O	251	252	"
+O	252	253	.

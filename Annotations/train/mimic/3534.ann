@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	none
+T3	Alcohol 30 41	Alcohol Use
+T4	StatusTime 43 47	none
+T5	Drug 51 59	Drug Use
+T6	StatusTime 61 65	none
+T7	Employment 112 117	works
+T8	Type 118 123	in IT
+T9	StatusEmploy 112 117	works
+T10	LivingStatus 134 140	living
+T11	StatusTime 134 140	living
+T12	TypeLiving 141 166	in Swedish Medical Center
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	Employment:T7 Type:T8 Status:T9
+E5	LivingStatus:T10 Status:T11 Type:T12
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	StatusEmployVal T9 employed
+A5	StatusTimeVal T11 current
+A6	TypeLivingVal T12 with_others

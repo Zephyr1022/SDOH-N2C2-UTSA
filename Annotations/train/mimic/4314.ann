@@ -1,0 +1,22 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	Denies
+T3	Alcohol 32 43	Alcohol Use
+T4	StatusTime 45 51	Denies
+T5	Drug 55 63	Drug Use
+T6	StatusTime 65 71	Denies
+T7	LivingStatus 90 95	Lives
+T8	TypeLiving 104 122	with her boyfriend
+T9	StatusTime 90 95	Lives
+T10	Employment 132 149	Previously worked
+T11	StatusEmploy 132 149	Previously worked
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Type:T8 Status:T9
+E5	Employment:T10 Status:T11
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	TypeLivingVal T8 with_others
+A5	StatusTimeVal T9 current
+A6	StatusEmployVal T11 unemployed

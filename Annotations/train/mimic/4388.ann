@@ -1,0 +1,34 @@
+T1	LivingStatus 202 207	lives
+T2	StatusTime 202 207	lives
+T3	TypeLiving 222 248	with his long-term partner
+T4	Employment 164 187	retired produce manager
+T5	StatusEmploy 164 187	retired produce manager
+T6	Type 164 187	retired produce manager
+T7	Drug 129 137	illicits
+T8	Type 129 137	illicits
+T9	StatusTime 139 149	remote use
+T10	History 150 163	in the 1960's
+T11	Alcohol 89 100	alcohol use
+T12	Tobacco 17 24	tobacco
+T13	Type 37 43	cigars
+T15	StatusTime 26 43	occasional cigars
+T16	StatusTime 102 117	none at present
+T17	StatusTime 45 68	former cigarette smoker
+T18	Tobacco 45 68	former cigarette smoker
+T19	Type 52 61	cigarette
+T20	Tobacco 81 88	tobacco
+T21	Method 73 80	chewing
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Type:T6 Status:T5
+E3	Drug:T7 Status:T9 Type:T8 History:T10
+E4	Alcohol:T11 Status:T16
+E5	Tobacco:T12 Type:T13 Status:T15
+E6	Tobacco:T18 Type:T19 Status:T17
+E7	Tobacco:T20 Method:T21 Status:T17
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T9 past
+A6	StatusTimeVal T15 current
+A7	StatusTimeVal T16 none
+A8	StatusTimeVal T17 past

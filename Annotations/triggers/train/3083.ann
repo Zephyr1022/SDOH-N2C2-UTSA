@@ -1,0 +1,4 @@
+T3	Tobacco 129 136	tobacco
+T4	Alcohol 141 149	EtOH use
+T5	Drug 154 167	illicits/IVDU
+T8	LivingStatus 16 32	Currently living

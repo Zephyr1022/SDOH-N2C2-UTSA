@@ -1,0 +1,23 @@
+T1	Tobacco 76 83	Tobacco
+T2	StatusTime 84 85	+
+T3	Alcohol 86 93	Alcohol
+T4	StatusTime 95 104	1-2/month
+T5	Frequency 98 104	/month
+T6	Amount 95 98	1-2
+T7	Drug 112 119	THC use
+T8	Type 112 115	THC
+T9	StatusTime 105 111	Denies
+T10	Drug 17 28	Meth/heroin
+T11	Frequency 34 39	daily
+T12	StatusTime 17 39	Meth/heroin IVDU daily
+T13	Type 17 28	Meth/heroin
+T14	Method 42 59	IVs into femorals
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Amount:T6 Status:T4 Frequency:T5
+E3	Drug:T7 Type:T8 Status:T9
+E4	Drug:T10 Type:T13 Status:T12 Frequency:T11 Method:T14 Method2:T15
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T12 current
+T15	Method 29 33	IVDU

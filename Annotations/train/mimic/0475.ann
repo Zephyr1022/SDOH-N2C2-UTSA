@@ -1,0 +1,16 @@
+T1	StatusTime 61 65	quit
+T2	Tobacco 18 33	Tobacco history
+T3	Amount 42 49	2.5 PPD
+T4	Duration 50 60	x 36 years
+T5	History 74 76;77 87	in [**2121**]
+T6	Alcohol 90 94	ETOH
+T7	StatusTime 96 102	denies
+T8	Drug 126 139	Illicit drugs
+T9	Type 126 133	Illicit
+T10	StatusTime 141 147	denies
+E1	Tobacco:T2 Amount:T3 Duration:T4 Status:T1 History:T5
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Type:T9 Status:T10
+A1	StatusTimeVal T1 past
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T10 none

@@ -1,0 +1,21 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	25	Cannabis
+O	26	29	and
+O	30	46	methamphetamines
+O	47	50	are
+B-Drug	51	56	drugs
+I-Drug	57	59	of
+I-Drug	60	66	choice
+O	66	67	,
+O	68	72	uses
+B-Drug	73	77	meth
+O	78	80	IV
+
+O	81	88	unclear
+O	89	96	tobacco
+
+O	97	104	unclear
+O	105	109	EtOH

@@ -1,0 +1,38 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	21	27	Smoked
+O	28	32	from
+O	33	35	20
+O	36	41	years
+O	42	44	of
+O	45	48	age
+O	49	53	1PPD
+O	54	59	until
+O	60	61	[
+O	61	65	DATE
+O	65	66	]
+B-Alcohol	68	75	Alcohol
+I-Alcohol	76	79	Use
+O	79	80	:
+O	81	87	denies
+O	88	92	Drug
+O	93	96	Use
+O	96	97	:
+O	98	104	denies
+
+O	106	112	SOCIAL
+O	113	120	HISTORY
+O	120	121	:
+
+O	123	128	Lives
+O	129	133	with
+O	134	138	wife
+
+O	140	147	Retired
+O	148	149	[
+O	149	159	PROFESSION
+O	159	160	]

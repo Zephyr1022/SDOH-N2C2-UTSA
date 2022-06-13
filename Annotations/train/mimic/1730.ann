@@ -1,0 +1,19 @@
+T1	Tobacco 134 140	smokes
+T2	StatusTime 134 140	smokes
+T3	Amount 141 147;148 157	one to two packs
+T4	Frequency 158 165	per day
+T5	Duration 166 187	for the past 21 years
+T6	Alcohol 190 208	Social alcohol use
+T7	StatusTime 190 208	Social alcohol use
+T9	Drug 213 221	drug use
+T10	StatusTime 210 212	No
+T11	Employment 231 251	currently unemployed
+T12	StatusEmploy 231 251	currently unemployed
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4 Duration:T5
+E2	Alcohol:T6 Status:T7
+E3	Drug:T9 Status:T10
+E4	Employment:T11 Status:T12
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T7 current
+A4	StatusTimeVal T10 none
+A5	StatusEmployVal T12 unemployed

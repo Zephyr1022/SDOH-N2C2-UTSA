@@ -1,0 +1,59 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	use
+O	20	21	:
+O	22	28	former
+
+B-Alcohol	29	36	Alcohol
+I-Alcohol	37	40	use
+O	40	41	:
+O	42	48	denies
+O	49	52	any
+O	53	60	current
+O	61	64	use
+
+O	65	71	SOCIAL
+O	72	79	HISTORY
+O	79	80	:
+
+B-LivingStatus	82	91	Residence
+O	91	92	:
+O	93	98	lives
+O	99	104	alone
+O	105	107	in
+O	108	111	apt
+O	112	114	in
+O	115	116	[
+O	116	124	LOCATION
+O	124	125	]
+
+O	126	135	Ambulates
+O	136	140	with
+O	141	145	cane
+O	146	152	around
+O	153	162	apartment
+O	162	163	,
+O	164	168	also
+O	169	173	uses
+O	174	189	powerwheelchair
+O	190	192	in
+O	193	199	public
+
+O	200	209	Caretaker
+O	210	211	[
+O	211	215	NAME
+O	215	216	]
+O	217	218	(
+O	218	220	at
+O	221	228	bedside
+O	228	229	)
+O	230	235	helps
+O	236	239	him
+O	240	244	with
+O	245	252	various
+O	253	258	IADLs
+O	258	259	,
+O	260	269	including
+O	270	274	meds

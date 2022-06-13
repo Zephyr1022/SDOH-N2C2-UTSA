@@ -1,0 +1,86 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	19	Absolutely
+B-Alcohol	20	22	no
+I-Alcohol	23	30	alcohol
+I-Alcohol	31	36	since
+O	37	38	[
+O	38	42	DATE
+O	42	43	]
+O	43	44	,
+O	45	53	although
+O	54	55	[
+O	55	63	LOCATION
+O	63	64	]
+O	65	74	indicates
+O	75	80	since
+O	81	82	[
+O	82	86	DATE
+O	86	87	]
+
+B-Tobacco	89	93	Rare
+I-Tobacco	94	104	cigarettes
+O	105	110	maybe
+O	111	112	2
+O	112	113	-
+O	113	114	3
+O	115	120	times
+O	121	122	a
+O	123	128	month
+
+B-Drug	129	133	Rare
+I-Drug	134	143	marijuana
+O	144	149	maybe
+O	150	154	once
+O	155	156	a
+O	157	162	month
+O	162	163	,
+O	164	168	none
+O	169	171	in
+O	172	175	the
+O	176	180	last
+O	181	185	week
+
+O	188	194	SOCIAL
+O	195	202	HISTORY
+O	202	203	:
+
+B-LivingStatus	205	210	Lives
+O	211	213	at
+O	214	218	home
+O	219	223	with
+O	224	225	a
+O	226	230	long
+O	230	231	-
+O	231	235	time
+O	236	242	friend
+O	242	243	.
+
+O	244	247	Son
+O	248	252	also
+O	253	258	lives
+O	259	261	in
+O	262	266	same
+O	267	274	complex
+O	275	278	and
+O	279	285	checks
+O	286	288	on
+O	289	292	her
+O	293	298	daily
+O	298	299	.
+
+O	301	312	Independent
+O	313	317	with
+O	318	328	medication
+O	329	339	management
+O	339	340	,
+O	341	345	meal
+O	346	357	preparation
+O	357	358	,
+O	359	362	etc
+O	362	363	.
+
+O	364	369	Fully
+O	370	380	ambulatory
+O	380	381	.

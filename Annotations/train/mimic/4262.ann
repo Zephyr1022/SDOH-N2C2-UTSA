@@ -1,0 +1,28 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 60 79	with his girlfriend
+T3	StatusTime 17 22	Lives
+T4	Employment 102 109	working
+T5	Type 113 122	a athlete
+T6	StatusEmploy 81 84	was
+T7	Duration 123 144	for the last 5 months
+T8	LivingStatus 180 184	live
+T9	TypeLiving 185 204	with his girlfriend
+T10	StatusTime 146 154	Plans to
+T11	Tobacco 400 409	nonsmoker
+T12	StatusTime 400 409	nonsmoker
+T13	Alcohol 418 422	EtOH
+T14	Drug 427 435	drug use
+T15	StatusTime 411 417	denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T5 Status:T6 Duration:T7
+E3	LivingStatus:T8 Type:T9 Status:T10
+E4	Tobacco:T11 Status:T12
+E5	Alcohol:T13 Status:T15
+E6	Drug:T14 Status:T15
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T6 unemployed
+A4	TypeLivingVal T9 with_others
+A5	StatusTimeVal T10 future
+A6	StatusTimeVal T12 none
+A7	StatusTimeVal T15 none

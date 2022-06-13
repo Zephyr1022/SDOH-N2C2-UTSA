@@ -1,0 +1,48 @@
+T1	LivingStatus 17 49	Compass Housing Alliance shelter
+T2	StatusTime 17 49	Compass Housing Alliance shelter
+T3	StatusTime 114 137	Compass Housing shelter
+T4	LivingStatus 114 137	Compass Housing shelter
+T5	TypeLiving 17 49	Compass Housing Alliance shelter
+T6	TypeLiving 114 137	Compass Housing shelter
+T7	Amount 51 59	1/2 pack
+T8	Frequency 60 65	daily
+T9	Amount 139 147	1/2 pack
+T10	Frequency 148 153	daily
+T11	Tobacco 66 72	smoker
+T12	Tobacco 154 160	smoker
+T13	StatusTime 51 65	1/2 pack daily
+T14	StatusTime 139 153	1/2 pack daily
+T15	Amount 74 80	1 pint
+T16	Amount 162 168	1 pint
+T17	Frequency 81 86	daily
+T18	Frequency 169 174	daily
+T19	Type 87 98	hard liquor
+T20	Type 175 186	hard liquor
+T21	Alcohol 180 186	liquor
+T22	Alcohol 92 98	liquor
+T23	Drug 194 198	IVDU
+T24	Drug 107 111	IVDU
+T25	Method 194 198	IVDU
+T26	Method 107 111	IVDU
+T27	StatusTime 100 106	denies
+T28	StatusTime 187 193	denies
+T29	StatusTime 74 86	1 pint daily
+T30	StatusTime 162 174	1 pint daily
+E1	LivingStatus:T1 Status:T2 Type:T5
+E2	LivingStatus:T4 Status:T3 Type:T6
+E3	Tobacco:T11 Frequency:T8 Amount:T7 Status:T13
+E4	Tobacco:T12 Frequency:T10 Amount:T9 Status:T14
+E5	Alcohol:T21 Type:T20 Frequency:T18 Amount:T16 Status:T30
+E6	Alcohol:T22 Type:T19 Frequency:T17 Amount:T15 Status:T29
+E7	Drug:T23 Status:T28 Method:T25
+E8	Drug:T24 Method:T26 Status:T27
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T3 current
+A3	TypeLivingVal T5 homeless
+A4	TypeLivingVal T6 homeless
+A5	StatusTimeVal T13 current
+A6	StatusTimeVal T14 current
+A7	StatusTimeVal T27 none
+A8	StatusTimeVal T28 none
+A9	StatusTimeVal T29 current
+A10	StatusTimeVal T30 current

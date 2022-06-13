@@ -1,0 +1,18 @@
+T1	LivingStatus 16 24	Homeless
+T2	TypeLiving 16 24	Homeless
+T3	StatusTime 16 24	Homeless
+T4	Tobacco 27 34	Tobacco
+T5	Amount 53 59	1/2ppd
+T6	StatusTime 60 69	currently
+T7	Drug 128 136	Illicits
+T8	Type 138 149	MJ, cocaine
+T9	Duration 150 160	this  year
+T10	StatusTime 150 160	this  year
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Amount:T5 Status:T6 Amount2:T11
+E3	Drug:T7 Type:T8 Duration:T9 Status:T10
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T10 current
+T11	Amount 36 48	80 pack year

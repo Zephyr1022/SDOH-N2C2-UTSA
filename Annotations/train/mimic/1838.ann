@@ -1,0 +1,25 @@
+T1	Employment 30 36	worked
+T2	Type 40 92	the [**University/College 14925**]Finance Department
+T3	Duration 93 105	for 42 years
+T4	StatusEmploy 30 36	worked
+T5	LivingStatus 147 152	Lives
+T6	TypeLiving 153 155;156 163	on her own
+T7	StatusTime 147 152	Lives
+T8	Tobacco 231 246	Tobacco history
+T9	StatusTime 248 254	denied
+T10	Alcohol 256 260	ETOH
+T11	StatusTime 262 268	denied
+T12	Drug 270 283	Illicit drugs
+T13	Type 270 277	Illicit
+T14	StatusTime 285 291	denied
+E1	Employment:T1 Type:T2 Duration:T3 Status:T4
+E2	LivingStatus:T5 Type:T6 Status:T7
+E3	Tobacco:T8 Status:T9
+E4	Alcohol:T10 Status:T11
+E5	Drug:T12 Type:T13 Status:T14
+A1	StatusEmployVal T4 unemployed
+A2	TypeLivingVal T6 alone
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T11 none
+A6	StatusTimeVal T14 none

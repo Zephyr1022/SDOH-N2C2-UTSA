@@ -1,0 +1,23 @@
+O	0	6	Habits
+O	6	7	:
+O	8	15	Tobacco
+O	15	16	:
+O	17	23	denies
+O	23	24	;
+B-Alcohol	25	29	ETOH
+O	29	30	:
+O	31	41	previously
+O	42	52	occasional
+O	53	56	use
+O	56	57	;
+O	58	66	Illicits
+O	66	67	:
+O	68	74	denies
+
+O	76	82	Family
+O	83	90	History
+
+O	91	97	Father
+O	97	98	:
+O	99	107	prostate
+O	108	110	CA

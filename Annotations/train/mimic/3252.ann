@@ -1,0 +1,21 @@
+T1	Alcohol 88 92	etoh
+T2	StatusTime 87 92	+etoh
+T4	Tobacco 106 113	tobacco
+T5	StatusTime 105 113	+tobacco
+T6	LivingStatus 128 136	homeless
+T7	StatusTime 128 136	homeless
+T8	TypeLiving 128 136	homeless
+T9	Drug 34 42	drug use
+T10	StatusTime 17 23	+prior
+T11	Method 24 33	injection
+T12	Type 44 50	heroin
+T13	History 61 73	4 months ago
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T4 Status:T5
+E3	LivingStatus:T6 Status:T7 Type:T8
+E4	Drug:T9 Method:T11 Status:T10 Type:T12 History:T13
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T7 current
+A5	TypeLivingVal T8 homeless
+A6	StatusTimeVal T10 past

@@ -1,0 +1,44 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	25	Visiting
+O	26	32	friend
+O	33	35	in
+O	36	37	[
+O	37	45	LOCATION
+O	45	46	]
+O	46	47	.
+
+O	48	58	Originally
+O	59	63	from
+O	64	65	[
+O	65	73	LOCATION
+O	73	74	]
+
+B-Employment	75	82	Student
+O	83	84	-
+O	85	94	currently
+O	95	104	sophomore
+O	105	107	in
+O	108	115	college
+
+B-Tobacco	116	122	Smokes
+O	123	135	ocassionally
+
+B-Alcohol	136	140	EtOH
+O	141	143	up
+O	144	146	to
+O	147	148	8
+O	149	154	beers
+O	155	156	a
+O	157	162	night
+O	162	163	,
+O	164	165	a
+O	166	169	few
+O	170	175	times
+O	176	179	per
+O	180	184	week
+
+O	185	191	Denies
+B-Drug	192	196	IVDU

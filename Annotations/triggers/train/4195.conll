@@ -1,0 +1,48 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	15	Denies
+B-Tobacco	16	23	tobacco
+O	24	26	or
+B-Drug	27	34	illicit
+I-Drug	35	40	drugs
+
+B-Alcohol	41	52	Occassional
+I-Alcohol	53	60	alcohol
+I-Alcohol	61	64	use
+
+O	66	72	SOCIAL
+O	73	80	HISTORY
+O	80	81	:
+
+B-Employment	83	90	College
+I-Employment	91	98	student
+O	98	99	.
+
+O	101	106	Wants
+O	107	109	to
+O	110	112	be
+O	113	114	a
+O	115	120	nurse
+O	121	133	practitioner
+
+B-LivingStatus	134	139	Lives
+O	140	142	in
+O	143	144	a
+O	145	153	sorority
+
+O	154	158	From
+O	159	160	[
+O	160	168	LOCATION
+O	168	169	]
+O	169	170	.
+
+O	172	178	Family
+O	179	182	all
+O	183	185	in
+O	186	187	[
+O	187	195	LOCATION
+O	195	196	]
+O	196	197	,
+O	198	202	none
+O	203	208	local

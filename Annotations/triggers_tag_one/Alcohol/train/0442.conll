@@ -1,0 +1,24 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	lives
+O	22	23	w
+O	23	24	/
+O	25	29	wife
+O	30	33	and
+O	34	42	children
+
+O	43	45	40
+O	46	48	pk
+O	49	53	year
+O	54	60	smoker
+O	60	61	-
+O	62	66	quit
+O	67	68	8
+O	69	72	mos
+O	73	76	ago
+O	76	77	.
+
+O	78	80	No
+B-Alcohol	81	85	ETOH

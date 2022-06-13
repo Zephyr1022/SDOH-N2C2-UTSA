@@ -1,0 +1,35 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	23	x
+B-Alcohol	26	33	Alcohol
+I-Alcohol	34	37	Use
+O	37	38	:
+O	39	40	5
+O	41	47	voldka
+O	48	54	drinks
+O	55	60	daily
+B-Drug	63	67	Drug
+I-Drug	68	71	Use
+O	71	72	:
+O	73	77	none
+O	78	81	per
+O	82	86	wife
+
+O	89	95	SOCIAL
+O	96	103	HISTORY
+O	103	104	:
+
+O	106	107	[
+O	107	108	x
+O	108	109	]
+O	110	116	Unable
+O	117	119	to
+O	120	126	Obtain
+O	127	130	due
+O	131	133	to
+O	134	141	Patient
+O	142	151	Condition

@@ -1,0 +1,8 @@
+T1	Alcohol 17 28	Alcohol use
+T2	Drug 49 57	Drug use
+T3	StatusTime 30 46	known dependence
+T5	StatusTime 60 66	Denies
+E1	Alcohol:T1 Status:T3
+E2	Drug:T2 Status:T5
+A1	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none

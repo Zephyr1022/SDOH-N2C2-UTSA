@@ -1,0 +1,24 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 32	remote use
+T3	Alcohol 35 46	Alcohol Use
+T5	StatusTime 48 58	occasional
+T6	Drug 59 76	social   Drug Use
+T7	Type 59 65	social
+T8	StatusTime 78 84	denies
+T9	LivingStatus 112 119	staying
+T11	TypeLiving 123 137	Overlake house
+T10	StatusTime 112 119	staying
+T12	Employment 170 176	worked
+T13	StatusEmploy 159 169	Previously
+T14	Type 177 189	construction
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T5
+E3	Drug:T6 Type:T7 Status:T8
+E4	LivingStatus:T9 Type:T11 Status:T10
+E5	Employment:T12 Type:T14 Status:T13
+A1	StatusTimeVal T2 past
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T8 none
+A5	TypeLivingVal T11 with_others
+A6	StatusTimeVal T10 current
+A7	StatusEmployVal T13 unemployed

@@ -1,0 +1,82 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+B-LivingStatus	29	34	lives
+O	35	40	alone
+O	40	41	.
+
+O	43	45	He
+O	46	49	has
+O	50	55	three
+
+O	56	64	children
+O	64	65	.
+
+O	67	70	His
+O	71	79	daughter
+O	80	82	is
+O	83	84	[
+O	84	85	*
+O	85	86	*
+O	86	90	Name
+O	91	92	(
+O	92	94	NI
+O	94	95	)
+O	96	100	5969
+O	100	101	*
+O	101	102	*
+O	102	103	]
+O	104	105	(
+O	105	114	telephone
+O	115	121	number
+
+O	122	123	[
+O	123	124	*
+O	124	125	*
+O	125	134	Telephone
+O	134	135	/
+O	135	138	Fax
+O	139	140	(
+O	140	141	1
+O	141	142	)
+O	143	148	15292
+O	148	149	*
+O	149	150	*
+O	150	151	]
+O	151	152	)
+O	152	153	.
+
+O	155	158	The
+O	159	166	patient
+O	167	169	is
+O	170	179	separated
+O	180	184	from
+O	185	188	his
+O	189	193	wife
+O	193	194	.
+
+O	196	197	[
+O	197	198	*
+O	198	199	*
+O	199	203	Name
+O	204	205	(
+O	205	207	NI
+O	207	208	)
+O	209	210	*
+O	210	211	*
+O	211	212	]
+
+O	213	219	drinks
+O	220	222	no
+B-Alcohol	223	230	alcohol
+O	230	231	.
+
+O	233	235	He
+O	236	240	quit
+B-Tobacco	241	248	tobacco
+O	249	251	20
+O	252	257	years
+O	258	261	ago
+O	261	262	.

@@ -1,0 +1,31 @@
+T1	LivingStatus 29 34	lives
+T2	TypeLiving 51 61	by himself
+T3	StatusTime 29 34	lives
+T4	Employment 70 90	currently unemployed
+T5	StatusEmploy 80 90	unemployed
+T6	Alcohol 103 111	drinking
+T7	Amount 112 139	approximately three glasses
+T8	Type 143 147	wine
+T9	Frequency 148 156	per week
+T10	StatusTime 103 111	drinking
+T11	Type 169 178	marijuana
+T12	Drug 169 178	marijuana
+T13	Method 162 168	smokes
+T14	Frequency 179 188	every day
+T15	Tobacco 200 211	tobacco use
+T16	StatusTime 193 199	denies
+T17	Drug 215 235	intravenous drug use
+T18	Method 215 226	intravenous
+T19	StatusTime 162 168	smokes
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Alcohol:T6 Amount:T7 Type:T8 Frequency:T9 Status:T10
+E4	Drug:T12 Type:T11 Method:T13 Frequency:T14 Status:T19
+E5	Tobacco:T15 Status:T16
+E6	Drug:T17 Method:T18 Status:T16
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T16 none
+A6	StatusTimeVal T19 current

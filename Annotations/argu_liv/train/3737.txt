@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: _None   Alcohol Use: _no current   Drug Use: _no
+
+SOCIAL HISTORY: 
+[_] Unable to Obtain due to Patient Condition
+Residence: _  
+Lives with wife in [LOCATION]. Formerly worked as a consultant.

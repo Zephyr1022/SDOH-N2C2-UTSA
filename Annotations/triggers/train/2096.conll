@@ -1,0 +1,77 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Married
+O	23	24	.
+
+O	26	32	Spends
+O	33	36	the
+O	37	40	day
+O	41	45	with
+O	46	49	her
+O	50	56	mother
+O	57	61	when
+O	62	65	her
+O	66	73	husband
+O	74	76	is
+
+O	77	84	working
+O	85	86	-
+O	87	89	in
+O	90	93	the
+O	94	98	past
+O	99	101	he
+O	102	108	worked
+O	109	113	from
+O	114	117	3pm
+O	118	120	to
+O	121	125	11pm
+O	125	126	.
+
+O	128	131	She
+O	132	136	used
+O	137	139	to
+
+B-Employment	140	144	work
+O	145	148	for
+O	149	151	an
+O	152	161	insurance
+O	162	169	company
+O	170	172	as
+O	173	175	an
+O	176	189	administrator
+O	189	190	,
+O	191	194	but
+O	195	202	stopped
+
+O	203	206	due
+O	207	209	to
+O	210	216	sexual
+O	217	227	harassment
+O	227	228	.
+
+O	229	232	Met
+O	233	236	her
+O	237	244	current
+O	245	252	husband
+O	253	254	8
+O	255	260	years
+O	261	264	ago
+O	264	265	.
+
+B-Tobacco	266	273	Tobacco
+O	274	275	-
+O	276	282	denies
+O	282	283	.
+
+B-Alcohol	284	288	EtOH
+O	289	290	-
+O	291	297	denies
+O	297	298	.
+
+B-Drug	299	303	Drug
+I-Drug	304	307	use
+O	308	309	-
+O	310	316	denies
+O	316	317	.

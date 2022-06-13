@@ -1,0 +1,57 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	26	None
+O	26	27	,
+O	28	35	briefly
+O	36	38	in
+O	39	42	20s
+
+B-Alcohol	43	50	Alcohol
+I-Alcohol	51	54	Use
+O	54	55	:
+O	56	60	Rare
+
+B-Drug	61	65	Drug
+I-Drug	66	69	Use
+O	69	70	:
+O	71	77	Edible
+O	78	86	cannibis
+O	87	96	otherwise
+O	97	103	denies
+
+O	105	111	SOCIAL
+O	112	119	HISTORY
+O	119	120	:
+
+B-LivingStatus	122	131	Residence
+O	131	132	:
+O	133	138	Lives
+O	139	141	in
+O	142	143	[
+O	143	151	LOCATION
+O	151	152	]
+O	152	153	.
+
+O	155	160	Lives
+O	161	165	with
+O	166	167	2
+O	168	178	housemates
+O	178	179	,
+O	180	184	none
+O	185	189	sick
+O	189	190	.
+
+B-Employment	192	197	Works
+O	198	200	as
+O	201	203	an
+O	204	214	operations
+O	215	223	director
+O	224	228	with
+O	229	230	[
+O	230	238	LOCATION
+O	238	239	]
+O	239	240	.

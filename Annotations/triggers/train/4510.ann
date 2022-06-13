@@ -1,0 +1,5 @@
+T1	LivingStatus 16 21	Lives
+T4	Alcohol 161 165	ETOH
+T5	Drug 167 189	IVDU, or illicit drugs
+T8	Tobacco 192 207	Smoking history
+T10	Employment 210 218;219 226	Disabled on SSDI

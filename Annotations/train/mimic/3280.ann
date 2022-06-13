@@ -1,0 +1,36 @@
+T1	LivingStatus 18 35	Marginally housed
+T2	StatusTime 18 35	Marginally housed
+T3	TypeLiving 18 35	Marginally housed
+T4	Tobacco 37 44	Tobacco
+T5	StatusTime 45 55	1/2ppd x5y
+T6	Amount 45 51	1/2ppd
+T7	Duration 52 55	x5y
+T8	Alcohol 57 73	Rare alcohol use
+T9	StatusTime 57 73	Rare alcohol use
+T11	Drug 166 177	IV meth use
+T12	StatusTime 160 165	prior
+T13	Method 166 168	IV
+T14	Type 169 173	meth
+T15	Drug 104 111	cocaine
+T16	StatusTime 97 103	snorts
+T17	Method 97 103	snorts
+T18	Type 104 111	cocaine
+T19	Frequency 112 126	a few times/wk
+T20	StatusTime 74 80	Smokes
+T21	Method 74 80	Smokes
+T22	Type 81 95	meth and crack
+T23	Drug 81 95	meth and crack
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 Amount:T6 Duration:T7
+E3	Alcohol:T8 Status:T9
+E4	Drug:T11 Type:T14 Method:T13 Status:T12
+E5	Drug:T15 Method:T17 Status:T16 Type:T18 Frequency:T19 History:T10
+E6	Drug:T23 Type:T22 Status:T20 Method:T21
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T9 current
+A6	StatusTimeVal T12 past
+A7	StatusTimeVal T16 current
+A8	StatusTimeVal T20 current
+T10	History 148 158	1 week ago

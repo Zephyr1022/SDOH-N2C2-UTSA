@@ -1,0 +1,24 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Tobacco	18	25	Tobacco
+I-Tobacco	26	29	use
+O	29	30	:
+O	31	34	Yes
+
+B-Alcohol	35	42	Alcohol
+I-Alcohol	43	46	use
+O	46	47	:
+O	48	54	Denies
+
+B-Drug	55	59	Drug
+I-Drug	60	63	use
+O	63	64	:
+O	65	72	Injects
+O	73	79	heroin
+
+B-LivingStatus	80	88	Homeless
+O	88	89	,
+O	90	97	staying
+O	98	105	outside

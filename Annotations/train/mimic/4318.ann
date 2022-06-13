@@ -1,0 +1,27 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 26	2ppd
+T3	StatusTime 28 46	last cigarette use
+T4	History 53 59	[DATE]
+T5	Alcohol 63 74	Alcohol Use
+T7	StatusTime 76 86	long hx of
+T8	Drug 133 141	Drug Use
+T9	Type 149 167	cocaine and heroin
+T10	StatusTime 175 184	last used
+T11	History 185 196	~4weeks ago
+T12	Method 198 210	primarily IM
+T13	Employment 230 240	Unemployed
+T14	StatusEmploy 230 240	Unemployed
+T15	LivingStatus 242 247	lives
+T16	TypeLiving 251 276	assisted living apartment
+T17	StatusTime 242 247	lives
+E1	Tobacco:T1 Amount:T2 Status:T3 History:T4
+E2	Alcohol:T5 Status:T7
+E3	Drug:T8 History:T11 Type:T9 Status:T10 Method:T12
+E4	Employment:T13 Status:T14
+E5	LivingStatus:T15 Type:T16 Status:T17
+A1	StatusTimeVal T3 past
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T10 past
+A5	StatusEmployVal T14 unemployed
+A6	TypeLivingVal T16 with_others
+A7	StatusTimeVal T17 current

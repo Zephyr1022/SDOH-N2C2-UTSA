@@ -1,0 +1,38 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	23	Retired
+O	23	24	.
+
+O	25	30	Lives
+O	31	41	separately
+O	42	46	from
+O	47	54	husband
+O	55	56	[
+O	56	57	*
+O	57	58	*
+O	58	62	Name
+O	63	64	(
+O	64	66	NI
+O	66	67	)
+O	68	72	4468
+O	72	73	*
+O	73	74	*
+O	74	75	]
+O	75	76	.
+
+O	78	85	History
+O	86	88	of
+
+B-Tobacco	89	96	smoking
+O	96	97	.
+
+O	99	102	She
+O	103	109	denied
+O	110	113	any
+B-Alcohol	114	118	EtOH
+O	119	121	or
+B-Drug	122	126	drug
+I-Drug	127	130	use
+O	130	131	.

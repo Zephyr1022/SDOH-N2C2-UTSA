@@ -1,0 +1,27 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	23	Living
+O	24	33	situation
+O	33	34	:
+
+O	36	45	Currently
+O	46	48	in
+O	49	53	jail
+
+O	55	64	Substance
+O	65	68	use
+O	68	69	:
+
+O	70	76	Denies
+O	77	84	smoking
+O	84	85	,
+B-Alcohol	86	94	drinking
+O	94	95	,
+O	96	98	or
+O	99	111	recreational
+O	112	116	drug
+O	117	120	use
+O	121	130	currently
+O	130	131	.

@@ -1,0 +1,128 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	SH
+O	18	19	:
+O	20	22	He
+B-LivingStatus	23	28	lives
+O	29	31	in
+O	32	33	[
+O	33	34	*
+O	34	35	*
+O	35	43	Location
+O	44	48	3786
+O	48	49	*
+O	49	50	*
+O	50	51	]
+O	52	56	with
+O	57	60	his
+O	61	67	sister
+O	67	68	,
+O	69	70	[
+O	70	71	*
+O	71	72	*
+O	72	76	Name
+O	77	78	(
+O	78	80	NI
+O	80	81	)
+O	82	83	*
+O	83	84	*
+O	84	85	]
+O	85	86	,
+O	87	90	who
+
+O	91	95	came
+O	96	100	with
+O	101	104	him
+O	105	107	to
+O	108	111	his
+O	112	117	visit
+O	118	123	today
+O	123	124	.
+
+O	126	128	He
+O	129	132	was
+O	133	137	also
+O	138	149	accompanied
+O	150	152	by
+
+O	153	156	his
+
+O	157	164	brother
+O	165	166	[
+O	166	167	*
+O	167	168	*
+O	168	172	Name
+O	173	174	(
+O	174	176	NI
+O	176	177	)
+O	178	179	*
+O	179	180	*
+O	180	181	]
+O	181	182	.
+
+O	184	185	[
+O	185	186	*
+O	186	187	*
+O	187	192	Name2
+O	193	194	(
+O	194	196	NI
+O	196	197	)
+O	198	199	*
+O	199	200	*
+O	200	201	]
+O	202	206	does
+O	207	210	not
+B-Tobacco	211	216	smoke
+O	217	219	or
+B-Alcohol	220	225	drink
+O	225	226	.
+
+O	228	230	He
+O	231	235	used
+O	236	238	to
+B-Tobacco	239	244	smoke
+
+O	245	246	a
+
+O	247	253	couple
+O	254	256	of
+O	257	262	packs
+O	263	264	a
+O	265	268	day
+O	269	272	for
+O	273	275	40
+O	276	281	years
+O	281	282	.
+
+O	284	286	He
+O	287	289	is
+B-Employment	290	299	currently
+I-Employment	300	302	on
+
+B-Employment	303	313	disability
+O	313	314	.
+
+O	316	318	He
+O	319	323	used
+O	324	326	to
+B-Employment	327	331	work
+O	332	335	for
+O	336	339	the
+O	340	344	City
+O	345	347	of
+O	348	349	[
+O	349	350	*
+O	350	351	*
+O	351	360	Hospital1
+O	361	362	8
+O	362	363	*
+O	363	364	*
+O	364	365	]
+O	366	368	in
+O	369	374	their
+
+O	375	385	Sanitation
+O	386	396	Department
+O	396	397	.

@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: No   Alcohol Use: No   Drug Use: No
+
+SOCIAL HISTORY: 
+[_] Unable to Obtain due to Patient Condition
+Residence: Lives with wife.

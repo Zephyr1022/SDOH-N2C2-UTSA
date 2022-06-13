@@ -1,0 +1,9 @@
+T1	LivingStatus 16 21	Lives
+T4	LivingStatus 118 120;121 125	in jail
+T9	Employment 67 75	laid off
+T13	Drug 433 449	opiate addiction
+T17	Drug 522 547;548 557	heroin (IV), morphine and oxycodone
+T20	Alcohol 648 659	alcohol use
+T22	Tobacco 661 667	smokes
+T26	Drug 691 715	marijuana or cocaine use
+T29	Drug 724 733	benzo use

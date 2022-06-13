@@ -1,0 +1,55 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	in
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	37	Hospital3
+O	38	39	*
+O	39	40	*
+O	40	41	]
+O	42	46	with
+O	47	55	roommate
+O	55	56	,
+B-Tobacco	57	63	smoked
+O	64	65	1
+O	66	69	PPD
+O	70	73	for
+O	74	76	35
+
+O	77	82	years
+O	82	83	,
+O	84	89	still
+O	90	97	smoking
+O	97	98	,
+O	99	103	quit
+B-Alcohol	104	112	drinking
+O	113	114	4
+O	114	115	-
+O	115	116	5
+O	117	122	years
+O	123	126	ago
+O	126	127	,
+O	128	132	used
+O	133	135	to
+O	136	141	drink
+
+O	142	150	socially
+O	150	151	,
+O	152	154	no
+B-Drug	155	159	IVDU
+O	159	160	,
+O	161	164	but
+O	165	168	has
+O	169	174	tried
+B-Drug	175	182	cocaine
+O	183	187	once
+O	187	188	.
+
+O	189	191	Is
+O	192	202	wheelchair
+
+O	203	212	dependent

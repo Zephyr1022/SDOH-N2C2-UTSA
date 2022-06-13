@@ -1,0 +1,44 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	remote
+O	28	29	~
+O	29	33	15pk
+O	33	34	-
+O	34	38	year
+O	39	46	history
+B-Alcohol	49	56	Alcohol
+I-Alcohol	57	60	Use
+O	60	61	:
+O	62	66	rare
+B-Drug	69	73	Drug
+I-Drug	74	77	Use
+O	77	78	:
+O	79	80	h
+O	80	81	/
+O	81	82	o
+O	83	90	cocaine
+O	91	94	use
+O	95	97	in
+O	98	102	2004
+O	102	103	,
+O	104	110	denies
+O	111	114	any
+O	115	125	recurrence
+
+O	127	133	SOCIAL
+O	134	141	HISTORY
+O	141	142	:
+
+B-LivingStatus	144	154	Previously
+I-LivingStatus	155	160	lived
+O	161	165	with
+O	166	173	roomate
+O	173	174	.
+
+O	175	178	Has
+O	179	180	5
+O	181	189	children

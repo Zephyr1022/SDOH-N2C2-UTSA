@@ -1,0 +1,31 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	remote
+O	23	24	h
+O	24	25	/
+O	25	26	o
+O	27	29	of
+B-Tobacco	30	37	tobacco
+O	37	38	,
+O	39	43	quit
+O	44	49	years
+O	50	53	ago
+O	53	54	.
+
+O	55	57	no
+B-Alcohol	58	62	etoh
+O	62	63	/
+B-Drug	63	68	drugs
+O	68	69	.
+
+B-LivingStatus	70	75	Lives
+O	76	78	in
+
+O	79	81	an
+O	82	90	assisted
+O	90	91	-
+O	91	97	living
+O	98	106	facility
+O	106	107	.

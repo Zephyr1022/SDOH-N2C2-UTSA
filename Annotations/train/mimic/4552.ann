@@ -1,0 +1,36 @@
+T1	Employment 140 143;144 164	not   currently employed
+T2	StatusEmploy 140 143;144 164	not   currently employed
+T3	Type 112 131	a catering business
+T4	Tobacco 183 188	smoke
+T5	StatusTime 170 188	Continues to smoke
+T6	Amount 189 204;205 214	approximately 1 cigarette
+T7	Type 205 214	cigarette
+T8	Frequency 215 220	a day
+T9	Duration 236 257	for the past 24 years
+T10	Alcohol 270 290	significant ETOH use
+T11	StatusTime 304 332	last drink was many ears ago
+T12	StatusTime 408 413	sober
+T13	Duration 382 393	for 2 years
+T14	History 414 425	for 3 years
+T15	Drug 355 363	drug use
+T16	Method 365 367	IV
+T17	LivingStatus 602 607	lives
+T18	StatusTime 602 607	lives
+T19	TypeLiving 616 640	with her 23 year old son
+T20	LivingStatus 662 676	rehabilitation
+T21	StatusTime 649 658	currently
+T22	TypeLiving 662 676	rehabilitation
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 Amount:T6 Type:T7 Frequency:T8 Duration:T9
+E3	Alcohol:T10 Status:T11
+E4	Drug:T15 Method:T16 Duration:T13 Status:T12 History:T14
+E5	LivingStatus:T17 Status:T18 Type:T19
+E6	LivingStatus:T20 Type:T22 Status:T21
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T11 past
+A4	StatusTimeVal T12 past
+A5	StatusTimeVal T18 current
+A6	TypeLivingVal T19 with_family
+A7	StatusTimeVal T21 current
+A8	TypeLivingVal T22 with_others

@@ -1,0 +1,31 @@
+T1	Tobacco 24 29	1 PPD
+T2	Amount 24 29	1 PPD
+T3	StatusTime 24 40	1 PPD x 10 years
+T4	History 30 40	x 10 years
+T5	Drug 42 46	IVDA
+T6	Type 42 46	IVDA
+T7	StatusTime 49 54	clean
+T8	History 55 67	for 8 months
+T9	Drug 74 81;82 85	cocaine use
+T10	StatusTime 69 73	past
+T11	Type 74 81	cocaine
+T12	Alcohol 92 103	alcohol use
+T13	StatusTime 87 91	past
+T14	LivingStatus 105 110	lives
+T15	StatusTime 105 110	lives
+T16	TypeLiving 111 116	alone
+T17	Employment 118 128	unemployed
+T18	StatusEmploy 118 128	unemployed
+E1	Tobacco:T1 Amount:T2 Status:T3 History:T4
+E2	Drug:T5 Type:T6 Status:T7 History:T8
+E3	Drug:T9 Type:T11 Status:T10
+E4	Alcohol:T12 Status:T13
+E5	LivingStatus:T14 Status:T15 Type:T16
+E6	Employment:T17 Status:T18
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T10 past
+A4	StatusTimeVal T13 past
+A5	StatusTimeVal T15 current
+A6	TypeLivingVal T16 alone
+A7	StatusEmployVal T18 unemployed

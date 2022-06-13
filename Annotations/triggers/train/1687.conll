@@ -1,0 +1,8 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	18	.
+O	18	20	no
+B-Drug	21	25	drug
+I-Drug	26	29	use

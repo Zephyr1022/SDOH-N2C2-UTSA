@@ -1,0 +1,21 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	25	homeless
+O	25	26	,
+O	27	35	applying
+O	36	39	for
+O	40	47	section
+O	48	49	8
+O	50	57	housing
+
+B-Tobacco	58	62	smok
+O	63	64	1
+O	65	68	ppd
+O	68	69	,
+O	70	76	deneis
+O	77	80	all
+B-Alcohol	81	88	alcohol
+O	89	92	and
+B-Drug	93	98	drugs

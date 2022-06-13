@@ -1,0 +1,26 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+O	16	23	History
+O	24	26	of
+O	27	29	IV
+O	30	34	drug
+O	35	38	use
+O	38	39	,
+O	40	44	none
+O	45	48	for
+O	49	55	months
+O	55	56	.
+
+O	58	62	Uses
+O	63	78	methamphetamine
+O	78	79	,
+O	80	88	homeless
+O	88	89	.
+
+B-Alcohol	91	97	Drinks
+O	98	99	3
+O	100	105	beers
+O	106	109	per
+O	110	113	day
+O	113	114	.

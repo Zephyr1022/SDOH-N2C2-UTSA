@@ -1,0 +1,21 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	20	Long
+O	21	28	history
+O	29	31	of
+B-Alcohol	32	36	EtOH
+I-Alcohol	37	42	abuse
+O	42	43	,
+O	44	46	no
+O	47	54	current
+O	55	62	smoking
+O	63	70	history
+O	70	71	,
+O	72	77	works
+O	78	80	as
+
+O	81	85	yard
+O	86	97	maintenance
+O	98	104	worker

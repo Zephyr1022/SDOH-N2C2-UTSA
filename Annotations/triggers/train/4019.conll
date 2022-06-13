@@ -1,0 +1,32 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	25	Homeless
+
+O	27	32	Daily
+B-Tobacco	33	42	cigarette
+I-Tobacco	43	49	smoker
+
+O	50	56	Denies
+B-Alcohol	57	61	ETOH
+
+O	62	67	Daily
+B-Drug	68	74	heroin
+O	75	85	injections
+O	85	86	.
+
+O	88	91	Has
+O	92	96	been
+O	97	105	muscling
+B-Drug	106	112	heroin
+O	113	118	since
+O	119	124	right
+O	125	130	groin
+O	131	138	abscess
+O	139	148	developed
+O	149	151	in
+O	152	153	[
+O	153	157	DATE
+O	157	158	]
+O	158	159	.

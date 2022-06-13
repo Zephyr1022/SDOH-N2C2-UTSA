@@ -1,0 +1,37 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	16	25	Currently
+I-LivingStatus	26	34	homeless
+O	34	35	,
+O	36	43	staying
+O	44	48	with
+O	49	56	friends
+O	57	59	in
+O	60	61	[
+O	61	69	LOCATION
+O	69	70	]
+
+O	71	77	Denies
+O	78	81	any
+B-Alcohol	82	86	EtOH
+O	87	92	since
+O	93	97	2011
+
+O	98	105	History
+O	106	108	of
+B-Tobacco	109	116	tobacco
+I-Tobacco	117	120	use
+O	120	121	,
+O	122	131	currently
+O	132	133	<
+O	133	134	1
+O	134	135	/
+O	135	136	4
+O	137	140	ppd
+
+O	141	147	Denies
+B-Drug	148	153	other
+I-Drug	154	158	drug
+I-Drug	159	162	use

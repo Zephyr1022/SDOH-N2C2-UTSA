@@ -1,0 +1,46 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+B-LivingStatus	24	29	lives
+O	30	32	in
+O	33	34	a
+O	35	39	long
+O	40	44	term
+O	45	49	care
+O	50	58	facility
+O	59	60	(
+O	60	61	[
+O	61	62	*
+O	62	63	*
+O	63	71	Location
+O	72	73	(
+O	73	75	un
+O	75	76	)
+O	77	80	169
+O	80	81	*
+O	81	82	*
+O	82	83	]
+O	83	84	)
+
+O	85	95	Wheelchair
+O	96	98	to
+O	99	107	ambulate
+
+O	108	118	Volunteers
+O	119	121	at
+O	122	123	[
+O	123	124	*
+O	124	125	*
+O	125	134	Hospital6
+O	135	139	4620
+O	139	140	*
+O	140	141	*
+O	141	142	]
+
+O	143	144	0
+B-Tobacco	145	152	Tobacco
+
+O	153	154	0
+B-Alcohol	155	159	ETOH

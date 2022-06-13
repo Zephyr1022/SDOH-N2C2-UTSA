@@ -1,0 +1,11 @@
+T1	Alcohol 100 108	drinking
+T2	Drug 113 134	recreational drug use
+T3	Type 113 125	recreational
+T4	StatusTime 93 144	Denies drinking, or recreational drug use currently
+T5	Tobacco 155 162	smoking
+T6	StatusTime 146 154	Endorses
+E1	Alcohol:T1 Status:T4
+E2	Drug:T2 Type:T3 Status:T4
+E3	Tobacco:T5 Status:T6
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T6 current

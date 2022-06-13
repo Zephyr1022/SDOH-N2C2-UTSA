@@ -1,0 +1,85 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	Pt
+O	19	24	works
+O	25	27	as
+O	28	29	a
+O	30	39	machinist
+O	39	40	,
+O	41	45	used
+O	46	48	to
+O	49	54	smoke
+O	55	56	[
+O	56	57	*
+O	57	58	*
+O	58	59	4
+O	59	60	-
+O	60	62	17
+O	62	63	*
+O	63	64	*
+O	64	65	]
+O	66	76	cigarettes
+O	77	78	a
+O	79	82	day
+O	83	86	for
+
+O	87	89	30
+O	89	90	+
+O	91	96	years
+O	96	97	,
+O	98	102	quit
+O	103	104	2
+O	105	110	weeks
+O	111	114	ago
+O	114	115	.
+
+O	116	124	Endorses
+O	125	129	only
+O	130	140	occasional
+B-Alcohol	141	145	EtoH
+O	145	146	,
+
+O	147	153	denies
+O	154	166	recreational
+O	167	171	drug
+O	172	175	use
+O	175	176	.
+
+O	177	179	Pt
+O	180	189	emigrated
+O	190	192	to
+O	193	196	the
+O	197	199	US
+O	200	204	from
+
+O	205	206	[
+O	206	207	*
+O	207	208	*
+O	208	215	Country
+O	216	220	3992
+O	220	221	*
+O	221	222	*
+O	222	223	]
+O	224	226	in
+O	227	230	the
+O	231	236	early
+O	237	240	80s
+O	240	241	.
+
+O	242	247	Lives
+O	248	250	at
+O	251	255	home
+O	256	260	with
+O	261	265	wife
+O	266	269	and
+O	270	273	two
+
+O	274	282	children
+O	282	283	,
+O	284	288	aged
+O	289	290	8
+O	290	291	,
+O	291	293	11
+O	293	294	.

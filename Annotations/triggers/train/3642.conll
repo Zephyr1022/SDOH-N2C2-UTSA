@@ -1,0 +1,47 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	18	h
+O	18	19	/
+O	19	20	o
+B-Drug	21	25	IVDU
+O	25	26	,
+O	27	32	clean
+O	33	36	for
+O	37	38	8
+O	39	45	months
+O	45	46	,
+O	47	53	tested
+O	54	62	negative
+O	63	66	for
+O	67	70	HIV
+O	71	75	when
+O	76	78	he
+O	79	83	quit
+
+O	84	86	on
+O	87	96	methadone
+O	97	108	maintenance
+
+O	109	115	denies
+B-Alcohol	116	123	alcohol
+O	123	124	,
+B-Tobacco	125	132	tobacco
+O	132	133	,
+O	134	136	or
+O	137	144	current
+B-Drug	145	149	drug
+I-Drug	150	153	use
+
+B-LivingStatus	154	159	Lives
+O	160	162	in
+O	163	167	Hope
+O	168	173	Place
+O	174	181	Shelter
+O	181	182	,
+O	183	189	states
+O	190	196	people
+O	197	200	are
+O	201	207	always
+O	208	212	sick

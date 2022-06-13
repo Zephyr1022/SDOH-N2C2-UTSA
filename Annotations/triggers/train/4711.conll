@@ -1,0 +1,85 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+O	24	27	has
+O	28	29	a
+O	30	36	remote
+O	37	44	history
+O	45	47	of
+B-LivingStatus	48	54	living
+O	55	57	in
+O	58	59	a
+O	60	67	shelter
+O	67	68	.
+
+O	69	74	Prior
+O	75	77	to
+
+O	78	81	her
+O	82	91	admission
+O	92	95	she
+O	96	99	was
+B-LivingStatus	100	106	living
+O	107	111	with
+O	112	121	boyfriend
+O	121	122	.
+
+O	123	126	She
+O	127	134	reports
+O	135	136	a
+
+O	137	143	remote
+O	144	151	history
+O	152	154	of
+O	155	163	spending
+O	164	165	9
+O	166	172	months
+O	173	175	in
+O	176	182	prison
+O	183	186	for
+O	187	190	OUI
+O	190	191	.
+
+O	193	196	She
+
+O	197	204	reports
+O	205	208	her
+B-Alcohol	209	219	alcoholism
+O	220	225	began
+O	226	228	at
+O	229	232	the
+O	233	236	age
+O	237	239	of
+O	240	242	37
+O	243	248	after
+O	249	255	sexual
+
+O	256	263	assault
+O	263	264	.
+
+O	266	269	She
+O	270	276	denies
+O	277	282	abuse
+O	283	285	of
+O	286	289	any
+B-Drug	290	297	illicit
+I-Drug	298	303	drugs
+O	303	304	.
+
+O	306	309	She
+O	310	317	reports
+
+O	318	321	she
+O	322	327	began
+B-Tobacco	328	335	smoking
+O	336	341	three
+O	342	348	months
+O	349	352	ago
+O	353	356	and
+O	357	359	is
+O	360	366	trying
+O	367	369	to
+O	370	374	quit
+O	374	375	.

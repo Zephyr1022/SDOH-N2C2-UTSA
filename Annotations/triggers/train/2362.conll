@@ -1,0 +1,25 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	26	Residence
+B-LivingStatus	27	32	lives
+O	33	37	with
+O	38	41	his
+O	42	45	mom
+O	46	49	and
+O	50	56	sister
+O	56	57	.
+
+B-Alcohol	58	65	Alcohol
+O	66	72	rarely
+O	72	73	.
+
+O	74	81	Smoking
+O	82	86	rare
+B-Drug	87	96	marijuana
+I-Drug	97	100	use
+O	100	101	.
+
+B-Drug	102	106	IVDU
+O	107	113	denies
+O	113	114	.

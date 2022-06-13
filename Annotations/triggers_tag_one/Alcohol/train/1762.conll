@@ -1,0 +1,61 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	-
+O	18	25	Married
+O	26	30	with
+O	31	32	4
+O	33	41	children
+
+O	42	43	-
+O	44	49	Works
+O	50	52	in
+O	53	54	a
+O	55	63	chemical
+O	64	71	company
+
+O	72	73	-
+O	74	81	Tobacco
+O	81	82	:
+O	83	89	Smokes
+O	90	91	2
+O	92	94	to
+O	95	96	3
+O	97	107	cigarettes
+O	108	109	a
+O	110	113	day
+O	114	117	for
+O	118	121	the
+O	122	126	past
+O	127	129	20
+O	130	135	years
+O	135	136	,
+
+O	137	141	quit
+O	142	143	5
+O	144	148	days
+O	149	152	ago
+
+O	153	154	-
+B-Alcohol	155	162	Alcohol
+O	162	163	:
+O	164	166	pt
+O	167	173	states
+O	174	178	that
+O	179	181	he
+O	182	185	has
+O	186	189	not
+O	190	195	drank
+O	196	203	alcohol
+O	204	206	in
+O	207	209	20
+O	209	210	-
+O	210	212	30
+
+O	213	218	years
+
+O	219	220	-
+O	221	225	IVDU
+O	225	226	:
+O	227	233	denies

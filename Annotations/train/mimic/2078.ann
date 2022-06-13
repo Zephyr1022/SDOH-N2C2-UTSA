@@ -1,0 +1,28 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 33	w/ a friend
+T4	Employment 56 60	work
+T5	StatusEmploy 48 55	Used to
+T6	Type 74 75;76 88	a tire-changer
+T7	Tobacco 124 135	tobacco use
+T8	StatusTime 117 123	Denies
+T9	Alcohol 151 155	EtOH
+T10	Drug 159 170	cocaine use
+T11	Type 159 166	cocaine
+T12	StatusTime 137 150	Denies recent
+T13	Frequency 183 188	daily
+T14	History 216 228	6 months ago
+T15	Alcohol 189 197	EtOH use
+T16	StatusTime 198 200;201 205	in past
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Status:T12
+E5	Drug:T10 Type:T11 Status:T12
+E6	Alcohol:T15 Frequency:T13 Status:T16 History:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T12 past
+A6	StatusTimeVal T16 past

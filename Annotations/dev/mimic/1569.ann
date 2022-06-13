@@ -1,0 +1,25 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 23 43	in private residence
+T3	StatusTime 17 22	Lives
+T4	Tobacco 51 67	tobacco products
+T5	StatusTime 44 50	Denies
+T6	Alcohol 75 79	ETOH
+T7	StatusTime 68 74	Denies
+T8	Drug 87 100	illicit drugs
+T9	StatusTime 80 86	Denies
+T10	Type 87 94	illicit
+T11	Drug 108 117	marijuana
+T12	Method 101 107	Smokes
+T13	Type 108 117	marijuana
+T14	StatusTime 101 107	Smokes
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Type:T10 Status:T9
+E5	Drug:T11 Type:T13 Method:T12 Status:T14
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T9 none
+A6	StatusTimeVal T14 current

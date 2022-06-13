@@ -1,0 +1,60 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	Pt
+O	19	21	is
+B-Employment	22	30	disabled
+O	30	31	,
+O	32	38	former
+O	39	44	truck
+O	45	51	driver
+O	51	52	.
+
+O	54	56	He
+O	57	60	has
+O	61	65	been
+B-LivingStatus	66	72	living
+O	73	75	in
+O	76	77	a
+
+O	78	83	rehab
+O	84	92	facility
+O	93	98	since
+O	99	100	[
+O	100	101	*
+O	101	102	*
+O	102	103	6
+O	103	104	-
+O	104	106	11
+O	106	107	*
+O	107	108	*
+O	108	109	]
+O	109	110	;
+O	111	113	he
+O	114	121	reprots
+O	122	123	a
+O	124	126	20
+O	127	131	pack
+O	132	136	year
+B-Tobacco	137	144	smoking
+
+B-Tobacco	145	152	history
+O	153	156	and
+O	157	166	currently
+B-Tobacco	167	173	smokes
+O	174	177	one
+O	178	182	pack
+O	182	183	/
+O	183	186	day
+O	186	187	.
+
+O	189	191	He
+O	192	198	denies
+B-Alcohol	199	203	etoh
+O	204	207	and
+
+O	208	215	illicit
+B-Drug	216	220	drug
+I-Drug	221	224	use
+O	224	225	.

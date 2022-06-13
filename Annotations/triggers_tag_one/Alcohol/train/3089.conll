@@ -1,0 +1,32 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	16	17	,
+B-Alcohol	18	25	Alcohol
+O	25	26	,
+O	27	31	Drug
+O	32	35	Use
+O	35	36	:
+O	37	43	denies
+O	44	47	all
+
+O	49	55	SOCIAL
+O	56	63	HISTORY
+O	63	64	:
+
+O	66	75	Residence
+O	75	76	:
+O	77	82	lives
+O	83	87	with
+O	88	92	wife
+O	93	96	and
+O	97	101	wife
+O	101	102	’
+O	102	103	s
+O	104	105	2
+O	106	114	children
+O	114	115	,
+O	116	119	has
+O	120	125	grown
+O	126	135	daughters

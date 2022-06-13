@@ -1,0 +1,14 @@
+T1	Tobacco 12 13	T
+T2	Drug 14 15	D
+T3	Alcohol 16 17	E
+T4	StatusTime 9 11	No
+T5	LivingStatus 82 91	Residence
+T6	StatusTime 100 115	assisted living
+T7	TypeLiving 100 115	assisted living
+E1	Tobacco:T1 Status:T4
+E2	Drug:T2 Status:T4
+E3	Alcohol:T3 Status:T4
+E4	LivingStatus:T5 Status:T6 Type:T7
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T6 current
+A3	TypeLivingVal T7 with_others

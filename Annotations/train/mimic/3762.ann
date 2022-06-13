@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	denies
+T3	Alcohol 46 57	Alcohol Use
+T4	StatusTime 59 65	denies
+T5	Drug 81 89	Drug Use
+T6	StatusTime 91 97	denies
+T7	LivingStatus 132 141	Residence
+T8	StatusTime 143 148	Lives
+T9	TypeLiving 149 167	with two roommates
+T10	Employment 169 174	Works
+T11	StatusEmploy 169 174	Works
+T12	Type 178 198	a speech pathologist
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Status:T8 Type:T9
+E5	Employment:T10 Status:T11 Type:T12
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 with_others
+A6	StatusEmployVal T11 employed

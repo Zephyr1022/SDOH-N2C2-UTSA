@@ -1,0 +1,33 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 23 31	in an RV
+T3	StatusTime 17 22	Lives
+T4	Employment 62 72	Unemployed
+T5	StatusEmploy 62 72	Unemployed
+T6	Tobacco 74 81	tobacco
+T7	StatusTime 73 74	+
+T8	Alcohol 83 87	etoh
+T9	StatusTime 82 83	+
+T10	Drug 96 99	thc
+T11	Type 96 99	thc
+T13	Drug 104 123	methamphetamine use
+T14	Type 104 123	methamphetamine use
+T15	StatusTime 100 103	h/o
+T16	StatusTime 95 99	+thc
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T7
+E4	Alcohol:T8 Status:T9
+E5	Drug:T10 Type:T11 Status:T16
+E6	Drug:T13 Status:T15 Type:T14
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T7 current
+A5	StatusTimeVal T9 current
+A7	StatusTimeVal T15 current
+A8	StatusTimeVal T16 current
+T12	Drug 128 139	cocaine use
+E7	Drug:T12 Type:T17 Status:T18
+T17	Type 128 135	cocaine
+T18	StatusTime 124 127	h/o
+A6	StatusTimeVal T18 current

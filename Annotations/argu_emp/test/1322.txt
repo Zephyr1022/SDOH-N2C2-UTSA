@@ -1,0 +1,4 @@
+HABITS: 
+Tobacco Use: none   Alcohol Use: none   Drug Use: none
+
+SOCIAL HISTORY:

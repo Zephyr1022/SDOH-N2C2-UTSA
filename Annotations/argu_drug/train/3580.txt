@@ -1,0 +1,9 @@
+HABITS: 
+Tobacco Use: past smoker 3 years 1-2 cigs per day Alcohol Use: never  Drug Use: never drug use
+
+SOCIAL HISTORY: 
+Lives in [LOCATION]
+Has a dog as a pet. Used to have a cat and a snake which are gone now
+Originally from [LOCATION], in [LOCATION] since 1984
+Used to work at a steel factory, currently not working
+2 to 3 years ago went to [LOCATION]

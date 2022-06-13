@@ -1,0 +1,18 @@
+T1	StatusTime 22 28	Denies
+T2	Tobacco 9 20	Tobacco Use
+T3	Alcohol 31 42	Alcohol Use
+T4	StatusTime 44 50	Denies
+T5	Drug 53 61	Drug Use
+T6	StatusTime 63 69	Denies
+T7	LivingStatus 89 98	Residence
+T8	TypeLiving 106 135	with wife and supportive kids
+T9	StatusTime 100 105	Lives
+E1	Tobacco:T2 Status:T1
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Type:T8 Status:T9
+A1	StatusTimeVal T1 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	TypeLivingVal T8 with_family
+A5	StatusTimeVal T9 current

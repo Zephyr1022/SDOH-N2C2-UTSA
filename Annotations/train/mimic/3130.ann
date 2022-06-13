@@ -1,0 +1,26 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 36 62	with his mother and father
+T3	StatusTime 16 21	Lives
+T4	Tobacco 197 200	Tob
+T5	StatusTime 201 205	XNeg
+T6	Alcohol 209 213	ETOH
+T7	StatusTime 215 219	XNeg
+T8	Drug 225 229	IVDU
+T9	Method 225 229	IVDU
+T10	StatusTime 232 236	XNeg
+T11	Alcohol 283 290	alcohol
+T12	Drug 295 300	drugs
+T13	Type 312 348	hallucinogenic mushrooms and opioids
+T14	StatusTime 261 277	has experimented
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Method:T9 Status:T10
+E5	Alcohol:T11 Status:T14
+E6	Drug:T12 Type:T13 Status:T14
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T10 none
+A6	StatusTimeVal T14 past

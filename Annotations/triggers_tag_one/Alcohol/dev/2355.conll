@@ -1,0 +1,24 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	24	Student
+O	25	27	at
+O	28	29	[
+O	29	37	LOCATION
+O	37	38	]
+O	38	39	,
+O	40	47	studies
+O	48	52	math
+O	52	53	.
+
+O	55	61	Denies
+O	62	65	tob
+O	66	68	or
+O	69	73	drug
+O	74	77	use
+O	77	78	.
+
+O	80	83	Occ
+B-Alcohol	84	88	etoh
+O	88	89	.

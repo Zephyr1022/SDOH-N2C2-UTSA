@@ -1,0 +1,27 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	Quit
+T3	History 27 37	40+yrs ago
+T4	Duration 39 47	40yr use
+T5	Alcohol 51 62	Alcohol Use
+T7	Amount 76 85	few beers
+T8	Frequency 86 95	per month
+T9	Drug 98 106	Drug Use
+T10	StatusTime 108 112	none
+T11	Employment 131 138	Retired
+T12	StatusEmploy 131 138	Retired
+T13	Type 140 163	sold bar code equipment
+T14	LivingStatus 165 170	Lives
+T15	TypeLiving 185 194	with wife
+T16	StatusTime 165 170	Lives
+T20	StatusTime 64 74	occasional
+E1	Tobacco:T1 Status:T2 History:T3 Duration:T4
+E2	Alcohol:T5 Amount:T7 Frequency:T8 Status:T20
+E3	Drug:T9 Status:T10
+E4	Employment:T11 Status:T12 Type:T13
+E5	LivingStatus:T14 Type:T15 Status:T16
+A1	StatusTimeVal T2 past
+A3	StatusTimeVal T10 none
+A4	StatusEmployVal T12 retired
+A5	TypeLivingVal T15 with_family
+A6	StatusTimeVal T16 current
+A8	StatusTimeVal T20 current

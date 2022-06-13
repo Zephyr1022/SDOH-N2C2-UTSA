@@ -1,0 +1,84 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+O	29	32	has
+O	33	34	a
+O	35	43	previous
+O	44	47	100
+O	48	52	pack
+O	53	57	year
+
+O	58	65	history
+O	66	68	of
+B-Tobacco	69	76	smoking
+O	76	77	.
+
+O	79	81	He
+O	82	86	quit
+O	87	89	in
+O	90	91	[
+O	91	92	*
+O	92	93	*
+O	93	97	2115
+O	97	98	*
+O	98	99	*
+O	99	100	]
+O	100	101	.
+
+O	103	105	He
+O	106	109	has
+O	110	112	an
+O	113	123	occasional
+
+B-Alcohol	124	133	alcoholic
+I-Alcohol	134	142	beverage
+O	142	143	,
+O	144	157	approximately
+O	158	159	3
+O	160	166	drinks
+O	167	170	per
+O	171	175	week
+O	175	176	.
+
+O	178	180	He
+
+B-LivingStatus	181	186	lives
+O	187	189	in
+O	190	191	a
+O	192	202	retirement
+O	203	207	home
+O	208	212	with
+O	213	216	his
+O	217	221	wife
+O	221	222	.
+
+O	224	231	However
+O	231	232	,
+O	233	235	he
+O	236	238	is
+
+O	239	246	looking
+O	247	251	into
+O	252	253	[
+O	253	254	*
+O	254	255	*
+O	255	264	Hospital3
+O	265	266	*
+O	266	267	*
+O	267	268	]
+O	269	271	in
+O	272	273	[
+O	273	274	*
+O	274	275	*
+O	275	280	State
+O	281	285	1727
+O	285	286	*
+O	286	287	*
+O	287	288	]
+O	289	295	closer
+O	296	298	to
+O	299	302	his
+O	303	311	daughter
+O	311	312	.

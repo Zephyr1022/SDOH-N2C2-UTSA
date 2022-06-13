@@ -1,0 +1,21 @@
+T1	LivingStatus 25 31	living
+T2	TypeLiving 32 37	alone
+T3	StatusTime 17 37	reports living alone
+T4	StatusTime 38 47	Reports +
+T5	Tobacco 47 54	tobacco
+T6	Duration 55 67	for 20 years
+T7	Amount 69 77	3/4 pack
+T8	Frequency 78 85	per day
+T9	Alcohol 101 105	etoh
+T10	StatusTime 86 92	denies
+T11	Drug 114 122	illicits
+T12	StatusTime 107 113	denies
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Tobacco:T5 Duration:T6 Status:T4 Amount:T7 Frequency:T8
+E3	Alcohol:T9 Status:T10
+E4	Drug:T11 Status:T12
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T4 current
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T12 none

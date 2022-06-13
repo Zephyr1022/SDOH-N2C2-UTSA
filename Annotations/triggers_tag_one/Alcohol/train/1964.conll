@@ -1,0 +1,117 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	26	with
+O	27	28	"
+O	28	34	cousin
+O	34	35	"
+O	35	36	.
+
+O	37	49	Undocumented
+O	49	50	/
+O	50	57	illegal
+O	58	67	immigrant
+O	67	68	.
+
+O	69	77	Exposure
+
+O	78	85	history
+O	86	95	uncertain
+O	95	96	.
+
+O	97	101	Said
+O	102	105	one
+B-Alcohol	106	110	beer
+O	111	114	per
+O	115	118	day
+O	118	119	,
+O	120	123	but
+O	124	131	friends
+O	132	136	said
+O	137	141	more
+
+O	142	146	like
+O	147	153	bottle
+O	154	156	of
+O	157	158	[
+O	158	159	*
+O	159	160	*
+O	160	164	Name
+O	165	166	(
+O	166	168	NI
+O	168	169	)
+O	170	175	91320
+O	175	176	*
+O	176	177	*
+O	177	178	]
+B-Alcohol	179	182	rum
+O	183	186	per
+O	187	190	day
+O	190	191	.
+
+O	192	198	Friend
+O	199	204	notes
+O	205	209	that
+O	210	213	she
+O	214	220	talked
+
+O	222	224	to
+O	225	228	him
+O	229	230	a
+O	231	234	few
+O	235	239	days
+O	240	243	ago
+O	244	249	about
+O	250	257	getting
+O	258	262	into
+O	263	264	a
+O	265	272	program
+O	273	275	to
+O	276	280	quit
+
+O	281	289	drinking
+O	289	290	,
+O	291	295	said
+O	296	299	she
+O	300	305	would
+O	306	310	pray
+O	311	314	for
+O	315	318	him
+O	319	322	and
+O	323	328	wants
+O	329	332	him
+O	333	335	to
+O	336	339	see
+O	340	341	a
+
+O	342	348	doctor
+O	349	352	for
+O	353	356	his
+O	357	359	BP
+O	359	360	/
+O	360	366	health
+O	366	367	.
+
+O	368	371	She
+O	372	378	agrees
+O	379	381	he
+O	382	385	may
+O	386	390	have
+O	391	396	tried
+O	397	399	to
+O	400	404	quit
+O	404	405	,
+
+O	406	410	cold
+O	410	411	-
+O	411	412	[
+O	412	413	*
+O	413	414	*
+O	414	421	Country
+O	422	426	1073
+O	426	427	*
+O	427	428	*
+O	428	429	]
+O	429	430	.

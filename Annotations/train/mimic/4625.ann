@@ -1,0 +1,34 @@
+T1	LivingStatus 16 32	Currently living
+T2	StatusTime 16 25	Currently
+T3	TypeLiving 36 40	LTAC
+T4	Employment 42 48	Worked
+T5	Type 52 73	a management position
+T6	StatusEmploy 42 48	Worked
+T7	LivingStatus 201 205	live
+T8	TypeLiving 183 200	He and his family
+T9	StatusTime 201 205	live
+T10	Tobacco 256 267	tobacco use
+T11	StatusTime 245 255	No current
+T12	Tobacco 273 290	previously smoked
+T13	StatusTime 295 299	quit
+T14	History 300 312	15 years ago
+T15	Amount 321 333;334 341	20-pack-year history
+T16	Alcohol 346 351	drank
+T17	Type 360 368	martinis
+T18	Amount 352 368	several martinis
+T19	Frequency 369 374	a day
+T20	StatusTime 346 351	drank
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	LivingStatus:T7 Type:T8 Status:T9
+E4	Tobacco:T10 Status:T11
+E5	Tobacco:T12 Status:T13 History:T14 Amount:T15
+E6	Alcohol:T16 Type:T17 Amount:T18 Frequency:T19 Status:T20
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T6 unemployed
+A4	TypeLivingVal T8 with_family
+A5	StatusTimeVal T9 current
+A6	StatusTimeVal T11 current
+A7	StatusTimeVal T13 past
+A8	StatusTimeVal T20 past

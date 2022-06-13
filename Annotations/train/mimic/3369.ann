@@ -1,0 +1,17 @@
+T1	Tobacco 86 93	smoking
+T2	LivingStatus 27 35	homeless
+T3	TypeLiving 27 35	homeless
+T4	StatusTime 17 26	Currently
+T5	StatusTime 76 85	Currently
+T6	Alcohol 98 109	alcohol use
+T7	StatusTime 95 97	no
+T8	Drug 111 121	heroin use
+T9	Type 111 117	heroin
+E1	Tobacco:T1 Status:T5
+E2	LivingStatus:T2 Status:T4 Type:T3
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Status:T7 Type:T9
+A1	TypeLivingVal T3 homeless
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T7 none

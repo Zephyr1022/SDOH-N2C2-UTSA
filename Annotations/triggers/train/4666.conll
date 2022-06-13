@@ -1,0 +1,35 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	Per
+O	20	27	records
+O	27	28	,
+O	29	36	history
+O	37	39	of
+B-Alcohol	40	44	EtOH
+I-Alcohol	45	50	abuse
+O	50	51	,
+O	52	60	recently
+O	61	66	sober
+O	67	70	and
+O	71	79	followed
+
+O	80	82	by
+O	83	93	psychiatry
+O	93	94	.
+
+O	95	97	No
+B-Drug	98	100	IV
+I-Drug	101	106	drugs
+O	106	107	,
+B-LivingStatus	108	113	lived
+O	114	118	with
+O	119	127	daughter
+O	128	131	who
+O	132	140	recently
+
+O	141	145	left
+O	146	149	for
+O	150	157	college
+O	157	158	.

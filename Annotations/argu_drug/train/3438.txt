@@ -1,0 +1,7 @@
+HABITS: 
+No Tobacco/ Alcohol/ Drug Use
+
+SOCIAL HISTORY: 
+Lives with wife at [NAME], has a daughter in [LOCATION] and son in [LOCATION]. Per PCP Note,
+"Last name is pronounced "[NAME]". Taught history for [PROFESSION] for [LOCATION] Schools. Lives with wife full time in [NAME] assisted living in [LOCATION]. (previously splitting time 6 months / 6 months between [LOCATION] and [LOCATION]) Two kids, daughter [NAME] in [LOCATION], son [NAME] on [LOCATION] [LOCATION].
+"

@@ -1,0 +1,41 @@
+T1	Tobacco 9 15	Smokes
+T2	Amount 16 23	1/2 ppd
+T3	Duration 25 36	all my life
+T4	StatusTime 9 15	Smokes
+T5	Drug 38 42	IVDU
+T6	Method 38 42	IVDU
+T7	StatusTime 44 52	last use
+T8	History 53 64	2 years ago
+T9	Type 66 72	heroin
+T10	Drug 120 137	crack smoking use
+T11	Type 120 125	crack
+T12	StatusTime 108 119	more recent
+T13	Drug 186 197	MJ last use
+T14	Type 186 188	MJ
+T15	StatusTime 199 212	the other day
+T16	Alcohol 173 177	beer
+T17	Type 173 177	beer
+T18	Amount 171 177	1 beer
+T19	Frequency 178 185	per day
+T20	StatusTime 155 170	there"--reports
+T21	LivingStatus 232 237	Lives
+T22	TypeLiving 238 253	with his mother
+T23	StatusTime 232 237	Lives
+T24	Employment 268 278	Unemployed
+T25	StatusEmploy 268 278	Unemployed
+E1	Tobacco:T1 Amount:T2 Duration:T3 Status:T4
+E2	Drug:T5 Method:T6 Status:T7 History:T8 Type:T9
+E3	Drug:T10 Type:T11 Status:T12
+E4	Drug:T13 Type:T14 Status:T15
+E5	Alcohol:T16 Type:T17 Amount:T18 Frequency:T19 Status:T20 Type2:T26
+E6	LivingStatus:T21 Type:T22 Status:T23
+E7	Employment:T24 Status:T25
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T12 current
+A4	StatusTimeVal T15 current
+A5	StatusTimeVal T20 current
+A6	TypeLivingVal T22 with_family
+A7	StatusTimeVal T23 current
+A8	StatusEmployVal T25 unemployed
+T26	Type 141 145	beer

@@ -1,0 +1,85 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	26	Occupation
+O	26	27	:
+O	28	30	ED
+O	31	41	technician
+O	42	44	in
+O	45	46	[
+O	46	47	*
+O	47	48	*
+O	48	57	Hospital1
+O	58	62	2436
+O	62	63	*
+O	63	64	*
+O	64	65	]
+O	65	66	.
+
+O	67	76	Currently
+O	77	86	separated
+
+O	87	92	after
+O	93	101	marriage
+O	102	105	for
+O	106	108	37
+O	109	114	years
+O	114	115	.
+
+O	116	117	h
+O	117	118	/
+O	118	119	o
+O	120	126	travel
+O	127	129	to
+O	130	131	[
+O	131	132	*
+O	132	133	*
+O	133	140	Country
+O	141	146	13622
+O	146	147	*
+O	147	148	*
+O	148	149	]
+O	150	158	Republic
+O	158	159	,
+
+O	160	168	diarrhea
+O	169	174	after
+O	175	178	the
+O	179	184	visit
+O	184	185	.
+
+O	186	196	Substances
+O	196	197	:
+O	198	199	+
+B-Tobacco	200	207	tobacco
+O	208	209	(
+O	209	210	4
+O	211	215	pack
+O	216	221	years
+O	221	222	,
+
+O	223	227	quit
+O	228	230	in
+O	231	238	college
+O	238	239	)
+O	239	240	,
+O	241	242	+
+B-Alcohol	243	247	EtOH
+O	248	249	(
+O	249	253	none
+O	254	263	currently
+O	263	264	,
+O	265	270	drank
+O	271	273	in
+O	274	281	college
+O	281	282	)
+O	282	283	,
+O	284	285	-
+
+B-Drug	286	290	IVDU
+I-Drug	291	293	or
+I-Drug	294	301	illicit
+I-Drug	302	306	drug
+I-Drug	307	310	use
+O	310	311	.

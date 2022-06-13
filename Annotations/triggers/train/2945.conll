@@ -1,0 +1,13 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-Drug	17	21	IVDU
+
+O	22	28	Denies
+B-Alcohol	29	36	alcohol
+
+O	38	46	Recently
+O	47	57	discharged
+O	58	62	from
+B-LivingStatus	63	70	respite

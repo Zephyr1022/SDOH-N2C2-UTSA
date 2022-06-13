@@ -1,0 +1,15 @@
+T1	LivingStatus 17 25	Homeless
+T2	TypeLiving 17 25	Homeless
+T3	StatusTime 17 25	Homeless
+T4	Alcohol 35 46	ETOH misuse
+T7	StatusTime 27 46	Chronic ETOH misuse
+T8	Drug 48 55	cocaine
+T9	Type 48 55	cocaine
+T10	StatusTime 48 55	cocaine
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Alcohol:T4 Status:T7
+E3	Drug:T8 Status:T10 Type:T9
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A4	StatusTimeVal T7 current
+A5	StatusTimeVal T10 current

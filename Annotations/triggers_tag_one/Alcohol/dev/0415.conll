@@ -1,0 +1,47 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+O	29	33	quit
+O	34	41	smoking
+O	42	52	cigarettes
+O	53	55	15
+O	56	61	years
+
+O	62	65	ago
+O	65	66	.
+
+O	68	71	She
+O	72	75	has
+O	76	77	a
+O	78	85	history
+O	86	88	of
+B-Alcohol	89	94	heavy
+I-Alcohol	95	102	alcohol
+I-Alcohol	103	114	consumption
+O	115	117	in
+O	118	121	the
+
+O	122	126	past
+O	126	127	,
+O	128	131	but
+O	132	136	none
+O	137	140	for
+O	141	144	the
+O	145	149	past
+O	150	152	13
+O	153	158	years
+O	158	159	.
+
+O	161	164	She
+O	165	167	is
+O	168	169	a
+O	170	176	former
+
+O	177	185	employee
+O	186	188	of
+O	189	192	the
+O	193	198	state
+O	199	206	lottery
+O	206	207	.

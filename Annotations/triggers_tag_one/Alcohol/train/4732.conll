@@ -1,0 +1,49 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	27	alone
+O	27	28	,
+O	29	35	though
+O	36	39	her
+O	40	48	neighbor
+O	49	50	[
+O	50	51	*
+O	51	52	*
+O	52	56	Name
+O	57	58	(
+O	58	60	NI
+O	60	61	)
+O	62	63	*
+O	63	64	*
+O	64	65	]
+O	66	68	is
+O	69	76	closely
+O	77	85	involved
+O	86	88	in
+
+O	89	92	her
+O	93	97	care
+O	97	98	.
+
+O	99	106	History
+O	107	109	of
+O	110	117	cocaine
+O	118	121	use
+O	122	125	and
+B-Alcohol	126	133	alcohol
+I-Alcohol	134	139	abuse
+O	139	140	.
+
+O	141	149	Endorses
+
+O	150	157	current
+O	158	166	sobriety
+O	166	167	.
+
+O	168	178	Unemployed
+O	179	182	and
+O	183	185	on
+O	186	196	disability
+O	196	197	.

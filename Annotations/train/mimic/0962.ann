@@ -1,0 +1,13 @@
+T1	Tobacco 127 138	tobacco use
+T2	StatusTime 124 126	No
+T3	StatusTime 140 142	No
+T4	Alcohol 155 162	ethanol
+T6	Employment 16 55	Acting Chief of Surgery, trauma surgeon
+T7	Type 16 55	Acting Chief of Surgery, trauma surgeon
+T8	StatusEmploy 16 55	Acting Chief of Surgery, trauma surgeon
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T4 Status:T3
+E3	Employment:T6 Status:T8 Type:T7
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T3 none
+A4	StatusEmployVal T8 employed

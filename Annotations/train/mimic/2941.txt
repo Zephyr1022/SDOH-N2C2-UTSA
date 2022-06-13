@@ -1,0 +1,5 @@
+HABITS: 
+Denies tobacco, EtOH, or illicits. 
+
+SOCIAL HISTORY: 
+Lives in [LOCATION].  Works for [LOCATION]

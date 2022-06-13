@@ -1,0 +1,20 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	50
+O	19	23	pack
+O	24	28	year
+B-Tobacco	29	36	tobacco
+O	36	37	,
+O	38	42	quit
+O	43	45	25
+O	46	50	yres
+O	51	54	ago
+
+O	55	57	no
+B-Alcohol	58	65	alcohol
+
+O	66	68	no
+B-Drug	69	76	illicit
+I-Drug	77	82	drugs

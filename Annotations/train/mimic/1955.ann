@@ -1,0 +1,13 @@
+T1	Tobacco 130 137	tobacco
+T3	StatusTime 140 150	occasional
+T4	Drug 152 157	drugs
+T6	Type 171 173	MJ
+T7	Employment 17 35	in culinary school
+T8	StatusEmploy 17 35	in culinary school
+T9	StatusTime 160 170	occasional
+E1	Tobacco:T1 Status:T3
+E2	Drug:T4 Type:T6 Status:T9
+E3	Employment:T7 Status:T8
+A2	StatusTimeVal T3 current
+A4	StatusEmployVal T8 student
+A5	StatusTimeVal T9 current

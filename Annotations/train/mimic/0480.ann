@@ -1,0 +1,9 @@
+T1	Alcohol 39 53	heavy ETOH use
+T3	StatusTime 39 53	heavy ETOH use
+T4	Amount 16 29	>50 pack year
+T5	Tobacco 30 33	tob
+T6	StatusTime 16 29	>50 pack year
+E1	Alcohol:T1 Status:T3
+E2	Tobacco:T5 Status:T6 Amount:T4
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 current

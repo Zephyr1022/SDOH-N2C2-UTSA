@@ -1,0 +1,80 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	24	Divorced
+O	24	25	.
+
+O	26	29	Son
+O	30	34	died
+O	35	36	4
+O	37	42	years
+O	43	46	ago
+O	47	51	from
+O	52	66	cardiomyopathy
+O	66	67	.
+
+O	68	71	Has
+O	72	75	one
+
+O	76	84	daughter
+O	84	85	.
+
+O	86	96	Previously
+B-LivingStatus	97	102	lived
+O	103	108	alone
+O	109	112	and
+O	113	116	was
+O	117	128	independent
+O	129	131	in
+O	132	136	ADLS
+O	136	137	;
+
+O	138	146	recently
+O	147	149	in
+O	150	155	rehab
+O	156	159	but
+O	160	164	back
+O	165	167	at
+O	168	172	home
+O	172	173	.
+
+O	174	184	Previously
+B-Tobacco	185	191	smoked
+O	191	192	,
+O	193	196	one
+
+B-Alcohol	197	206	alcoholic
+O	207	212	drink
+O	213	216	per
+O	217	221	week
+O	222	225	and
+O	226	227	[
+O	227	228	*
+O	228	229	*
+O	229	234	Month
+O	234	235	/
+O	235	239	Year
+O	240	241	(
+O	241	242	2
+O	242	243	)
+O	244	245	*
+O	245	246	*
+O	246	247	]
+O	248	255	illicit
+O	256	260	drug
+O	261	264	use
+O	264	265	.
+
+B-Employment	266	276	Previously
+
+B-Employment	277	283	worked
+O	284	286	as
+O	287	289	an
+O	290	294	aide
+O	295	297	in
+O	298	305	nursing
+O	306	311	homes
+O	312	315	and
+O	316	325	hospitals
+O	325	326	.

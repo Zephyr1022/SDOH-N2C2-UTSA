@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: denies  Alcohol Use: denies   Drug Use: denies
+
+SOCIAL HISTORY: 
+Lives in Health and Rehabilitation of North Seattle here in [LOCATION]. Worked as a street performer in [LOCATION] until 2014. Wife died of liver disease in [DATE].

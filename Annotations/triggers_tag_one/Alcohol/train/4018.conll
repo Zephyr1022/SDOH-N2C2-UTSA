@@ -1,0 +1,40 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	24	Tobacco
+O	24	25	:
+O	26	27	+
+
+B-Alcohol	28	35	Alcohol
+O	35	36	:
+O	37	38	3
+O	38	39	-
+O	39	40	4
+O	41	46	times
+O	47	48	a
+O	49	53	week
+
+O	54	56	IV
+O	57	61	drug
+O	62	65	use
+O	66	81	methamphetamine
+O	82	83	-
+O	84	92	relapsed
+O	93	94	3
+O	95	99	days
+O	100	103	ago
+O	104	108	once
+
+O	109	112	Has
+O	113	117	been
+O	118	124	living
+O	125	127	at
+O	128	132	YMCA
+O	133	142	Emergency
+O	143	150	shelter
+O	151	154	for
+O	155	158	the
+O	159	163	last
+O	164	167	few
+O	168	174	months

@@ -1,0 +1,5 @@
+HABITS: 
+[_] Unable to Obtain due to Patient Condition
+
+SOCIAL HISTORY: 
+Resides at the [LOCATION] at [LOCATION], [LOCATION].

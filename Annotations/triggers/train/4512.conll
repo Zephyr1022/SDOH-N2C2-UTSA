@@ -1,0 +1,84 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+O	29	32	was
+O	33	41	recently
+O	42	49	widowed
+O	49	50	,
+B-LivingStatus	51	56	lives
+O	57	61	with
+
+O	62	65	his
+O	66	74	children
+O	74	75	,
+B-Tobacco	76	82	smokes
+O	83	92	currently
+O	93	96	one
+O	96	97	-
+O	97	101	half
+O	102	106	pack
+O	107	110	per
+O	111	114	day
+O	114	115	,
+O	116	119	but
+
+O	120	124	used
+O	125	127	to
+B-Tobacco	128	133	smoke
+O	134	135	2
+O	135	136	-
+O	136	137	3
+O	138	143	packs
+O	144	147	per
+O	148	151	day
+O	151	152	.
+
+O	154	160	Denies
+O	161	164	any
+O	165	176	significant
+
+B-Alcohol	177	184	alcohol
+O	185	191	intake
+O	192	193	(
+O	193	199	states
+O	200	202	he
+O	203	206	has
+O	207	209	an
+O	210	220	occasional
+O	221	226	drink
+O	226	227	)
+O	227	228	.
+
+B-Employment	230	235	Works
+
+O	236	245	currently
+O	245	246	,
+O	247	254	pushing
+O	255	260	carts
+O	261	263	at
+O	264	267	the
+O	268	272	Stop
+O	273	276	and
+O	277	281	Shop
+O	281	282	,
+O	283	289	though
+
+B-Employment	290	298	formerly
+I-Employment	299	305	worked
+O	306	308	as
+O	309	310	a
+O	311	318	painter
+O	319	321	of
+O	322	326	both
+O	327	337	billboards
+O	338	341	and
+O	342	347	homes
+O	347	348	.
+
+O	349	351	He
+O	352	358	denies
+O	359	362	any
+B-Drug	363	367	IVDA
+O	367	368	.

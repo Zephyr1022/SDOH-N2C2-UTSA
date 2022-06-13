@@ -1,0 +1,50 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	The
+O	20	27	patient
+O	28	30	is
+B-Tobacco	31	32	a
+I-Tobacco	33	39	former
+I-Tobacco	40	46	smoker
+O	47	50	and
+O	51	57	smoked
+O	58	61	for
+O	62	67	about
+O	68	70	20
+O	71	76	years
+O	76	77	,
+
+O	78	81	one
+O	82	86	pack
+O	87	88	a
+O	89	92	day
+O	92	93	.
+
+O	95	98	She
+O	99	103	quit
+B-Tobacco	104	111	smoking
+O	112	117	about
+O	118	120	20
+O	121	126	years
+O	127	130	ago
+O	130	131	.
+
+O	133	136	She
+O	137	139	is
+
+O	140	147	widowed
+O	147	148	.
+
+B-LivingStatus	150	155	Lives
+O	156	158	in
+O	159	165	senior
+O	166	173	housing
+O	174	179	close
+O	180	182	to
+O	183	191	daughter
+O	191	192	'
+O	192	193	s
+O	194	198	home
+O	198	199	.

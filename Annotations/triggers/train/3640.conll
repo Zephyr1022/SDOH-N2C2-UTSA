@@ -1,0 +1,32 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	23	denies
+B-Tobacco	24	31	tobacco
+O	31	32	,
+O	33	37	rare
+B-Alcohol	38	45	alcohol
+O	45	46	,
+O	47	53	denies
+B-Drug	54	59	drugs
+O	59	60	.
+
+B-LivingStatus	61	66	Lives
+O	67	69	in
+O	70	71	[
+O	71	79	LOCATION
+O	79	80	]
+O	81	85	with
+O	86	89	her
+O	90	97	husband
+O	98	101	and
+O	102	109	special
+O	110	115	needs
+O	116	124	daughter
+O	124	125	.
+
+B-Employment	126	130	Full
+I-Employment	131	135	time
+I-Employment	136	139	mom
+O	139	140	.

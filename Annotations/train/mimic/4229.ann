@@ -1,0 +1,28 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 56	denies current use, hx tobacco use
+T3	Alcohol 59 70	Alcohol Use
+T4	StatusTime 72 86	no current use
+T5	Drug 89 97	Drug Use
+T6	StatusTime 99 105	denies
+T7	LivingStatus 188 193	Lives
+T8	StatusTime 188 193	Lives
+T9	TypeLiving 194 210	at Rainier House
+T10	Employment 230 247	Previously worked
+T11	StatusEmploy 230 247	Previously worked
+T12	Type 251 263	a steel mill
+T13	Employment 290 296	worked
+T14	StatusEmploy 290 296	worked
+T15	Type 300 307	a plant
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Status:T8 Type:T9
+E5	Employment:T10 Status:T11 Type:T12
+E6	Employment:T13 Status:T14 Type:T15
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 homeless
+A6	StatusEmployVal T11 unemployed
+A7	StatusEmployVal T14 unemployed

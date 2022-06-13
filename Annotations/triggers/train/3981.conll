@@ -1,0 +1,37 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	Lives
+O	23	25	in
+O	26	35	apartment
+O	36	38	in
+O	39	40	[
+O	40	48	LOCATION
+O	48	49	]
+O	50	54	with
+O	55	57	SO
+O	57	58	.
+
+B-Employment	59	68	Currently
+I-Employment	69	79	unemployed
+O	79	80	.
+
+B-Alcohol	81	88	Alcohol
+O	88	89	:
+O	90	96	denies
+O	96	97	;
+B-Tobacco	98	108	Cigarettes
+O	108	109	:
+O	110	111	1
+O	111	112	/
+O	112	113	2
+O	114	117	ppd
+O	117	118	;
+B-Drug	119	124	Drugs
+O	124	125	:
+O	126	132	heroin
+O	132	133	,
+O	134	137	occ
+O	138	145	muscles
+O	145	146	.

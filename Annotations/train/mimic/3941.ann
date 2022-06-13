@@ -1,0 +1,28 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 33	half a pack
+T3	Frequency 34 41	per day
+T4	Duration 42 57	for 20-30 years
+T5	StatusTime 22 57	half a pack per day for 20-30 years
+T6	Alcohol 60 71	Alcohol Use
+T7	StatusTime 73 79	denies
+T8	Drug 82 90	Drug Use
+T9	StatusTime 92 98	active
+T10	Method 99 101	IV
+T11	Type 102 108	heroin
+T12	LivingStatus 127 135	Homeless
+T13	StatusTime 127 135	Homeless
+T14	TypeLiving 127 135	Homeless
+T15	Employment 175 179	work
+T16	StatusEmploy 167 174	Used to
+T17	Type 183 196	fishing boats
+E1	Tobacco:T1 Amount:T2 Frequency:T3 Status:T5 Duration:T4
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Status:T9 Method:T10 Type:T11
+E4	LivingStatus:T12 Status:T13 Type:T14
+E5	Employment:T15 Status:T16 Type:T17
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T13 current
+A5	TypeLivingVal T14 homeless
+A6	StatusEmployVal T16 unemployed

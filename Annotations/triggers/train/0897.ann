@@ -1,0 +1,5 @@
+T1	Tobacco 75 81	smoked
+T3	Alcohol 97 104;105 108	alcohol use
+T6	Drug 113 126	illicit drugs
+T9	LivingStatus 173 178	Lives
+T12	Employment 212 219	Retired

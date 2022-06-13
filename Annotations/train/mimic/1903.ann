@@ -1,0 +1,14 @@
+T1	Alcohol 85 93	drinking
+T2	Tobacco 98 105	smoking
+T3	StatusTime 80 84	Quit
+T4	History 106 119	20+ years ago
+T5	Amount 162 177	25 pack year hx
+T6	Employment 180 186	Worked
+T7	Type 204 213;214 227	a 5th-6th grade teacher
+T8	Duration 187 200	for 30+ years
+T9	StatusEmploy 180 186	Worked
+E1	Alcohol:T1 Status:T3 History:T4
+E2	Tobacco:T2 Status:T3 History:T4 Amount:T5
+E3	Employment:T6 Type:T7 Duration:T8 Status:T9
+A1	StatusTimeVal T3 past
+A2	StatusEmployVal T9 unemployed

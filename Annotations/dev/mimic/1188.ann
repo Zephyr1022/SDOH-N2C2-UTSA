@@ -1,0 +1,16 @@
+T1	Tobacco 22 30	a smoker
+T2	StatusTime 19 21	is
+T3	Amount 93 100	3 packs
+T4	Frequency 101 108	per day
+T5	Amount 124 136	7 cigarettes
+T6	Frequency 137 142	a day
+T7	Tobacco 63 73	cigarettes
+T8	StatusTime 39 59	decreased the amount
+T9	Alcohol 158 165	alcohol
+T10	StatusTime 155 187	no alcohol since [**2129-12-8**]
+E1	Tobacco:T1 Status:T2 Amount:T5 Frequency:T6
+E2	Tobacco:T7 Status:T8 Amount:T3 Frequency:T4
+E3	Alcohol:T9 Status:T10
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T8 past
+A3	StatusTimeVal T10 past

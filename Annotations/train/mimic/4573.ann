@@ -1,0 +1,11 @@
+T1	LivingStatus 63 68	lives
+T2	StatusTime 63 68	lives
+T3	TypeLiving 69 73;74 82	with daugther
+T4	Employment 148 174	Former psych social worker
+T5	StatusEmploy 148 174	Former psych social worker
+T6	Type 148 174	Former psych social worker
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed

@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: 0   Alcohol Use: 0   Drug Use: marijuana
+
+SOCIAL HISTORY: 
+Lives alone in house in [LOCATION]
+Works as a cook in a bar

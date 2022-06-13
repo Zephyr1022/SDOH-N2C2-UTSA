@@ -1,0 +1,28 @@
+T1	LivingStatus 23 28	lives
+T2	StatusTime 23 28	lives
+T3	TypeLiving 52 67	with his sister
+T4	Tobacco 239 244	smoke
+T5	StatusTime 231 238	used to
+T6	Amount 245 246;247 262	a couple of packs
+T7	Frequency 263 268	a day
+T8	Duration 269 281	for 40 years
+T9	Alcohol 220 225	drink
+T10	StatusTime 202 210	does not
+T11	Employment 290 302;303 313	currently on disability
+T12	StatusEmploy 290 302;303 313	currently on disability
+T13	Type 340 374;375 396	City of [**Hospital1 8**] in their Sanitation Department
+T14	Employment 327 331	work
+T15	StatusEmploy 319 331	used to work
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 Amount:T6 Frequency:T7 Duration:T8
+E3	Alcohol:T9 Status:T10
+E4	Employment:T11 Status:T12
+E5	Employment:T14 Status:T15 Type:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T10 none
+A5	StatusEmployVal T12 on_disability
+A6	StatusEmployVal T15 unemployed
+T16	Tobacco 211 216	smoke
+E6	Tobacco:T16 Status:T10

@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: denies  Alcohol Use: "quit 4 months ago"   Drug Use: denies
+
+SOCIAL HISTORY: 
+Lives with a friend in [LOCATION].  Does not work is on disability

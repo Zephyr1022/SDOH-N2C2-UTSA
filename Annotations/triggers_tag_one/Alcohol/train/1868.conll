@@ -1,0 +1,73 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	26	with
+O	27	34	elderly
+O	35	41	mother
+O	41	42	.
+
+O	43	44	[
+O	44	45	*
+O	45	46	*
+O	46	50	Name
+O	51	52	(
+O	52	54	NI
+O	54	55	)
+O	56	60	1139
+O	60	61	*
+O	61	62	*
+O	62	63	]
+O	63	64	:
+O	65	67	40
+O	68	72	pack
+O	72	73	-
+O	73	77	year
+O	78	82	quit
+O	83	84	[
+O	84	85	*
+O	85	86	*
+O	86	90	2176
+O	90	91	*
+O	91	92	*
+O	92	93	]
+O	93	94	,
+B-Alcohol	95	99	ETOH
+
+O	100	104	none
+
+O	105	113	Exposure
+O	113	114	:
+O	117	120	has
+O	121	127	worked
+O	128	132	with
+O	133	140	nuclear
+O	141	148	weapons
+O	149	152	and
+O	153	155	on
+O	156	161	ships
+O	162	167	while
+
+O	168	170	in
+O	171	174	the
+O	175	178	Air
+O	179	184	Force
+
+O	186	196	Occupation
+O	196	197	:
+O	198	205	Retired
+O	205	206	,
+O	207	217	previously
+O	218	224	worked
+O	225	227	in
+O	228	239	advertising
+O	239	240	,
+O	241	244	was
+O	245	249	also
+
+O	250	251	a
+
+O	252	255	jet
+O	256	262	engine
+O	263	271	mechanic

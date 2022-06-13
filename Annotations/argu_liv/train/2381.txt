@@ -1,0 +1,6 @@
+HABITS: 
+Unable to obtain 2/2 patient condition
+
+SOCIAL HISTORY: 
+[X] Unable to Obtain due to Patient Condition
+Previously documented to be homeless

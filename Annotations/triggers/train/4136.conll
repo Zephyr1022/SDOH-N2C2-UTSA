@@ -1,0 +1,17 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	18	$
+O	18	20	40
+O	20	21	-
+O	21	22	$
+O	22	24	50
+B-Drug	25	31	heroin
+O	31	32	/
+O	32	33	d
+
+B-LivingStatus	34	39	lives
+O	40	42	in
+O	43	46	his
+O	47	50	car

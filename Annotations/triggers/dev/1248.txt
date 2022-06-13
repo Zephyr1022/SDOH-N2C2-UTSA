@@ -1,0 +1,19 @@
+Social History: The patient is a retired nurse from Swedish Medical Center. 
+Residence: [LOCATION]
+Family: She has been divorced for 9 years but currently has a partner with whom she lives in [LOCATION]
+Tobacco: none
+ETOH: none
+Drugs: none
+
+Scheduled Medications
+No Scheduled Medications Found.
+
+Infusions
+No Infusion Medications Found.
+
+PRN Medications
+No PRN Medications Found.
+
+Vitals (Most recent and 24 hour range.) 
+
+I&O Data

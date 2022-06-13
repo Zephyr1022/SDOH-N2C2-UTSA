@@ -1,0 +1,25 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 28 42	briefly in 20s
+T3	Alcohol 43 54	Alcohol Use
+T4	StatusTime 56 60	Rare
+T6	Drug 61 69	Drug Use
+T7	Type 78 86	cannibis
+T8	Method 71 77	Edible
+T9	StatusTime 71 86	Edible cannibis
+T10	LivingStatus 122 131	Residence
+T11	StatusTime 155 160	Lives
+T12	TypeLiving 161 178	with 2 housemates
+T13	Employment 192 197	Works
+T14	StatusEmploy 192 197	Works
+T15	Type 201 223	an operations director
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T6 Method:T8 Status:T9 Type:T7
+E4	LivingStatus:T10 Status:T11 Type:T12
+E5	Employment:T13 Status:T14 Type:T15
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 current
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T11 current
+A6	TypeLivingVal T12 with_others
+A7	StatusEmployVal T14 employed

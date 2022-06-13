@@ -1,0 +1,37 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	27	31	wife
+
+B-Employment	32	39	Retired
+O	40	41	[
+O	41	42	*
+O	42	43	*
+O	43	47	Name
+O	48	49	(
+O	49	51	NI
+O	51	52	)
+O	53	54	*
+O	54	55	*
+O	55	56	]
+
+O	57	63	Remote
+B-Tobacco	64	71	tobacco
+O	71	72	-
+O	72	76	quit
+O	77	78	[
+O	78	79	*
+O	79	80	*
+O	80	84	2141
+O	84	85	*
+O	85	86	*
+O	86	87	]
+
+B-Alcohol	88	98	Occasional
+I-Alcohol	99	103	wine
+O	104	105	w
+O	105	106	/
+O	106	112	dinner

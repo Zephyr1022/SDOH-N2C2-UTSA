@@ -1,0 +1,28 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 28	alone
+T4	LivingStatus 61 68	staying
+T5	StatusTime 33 77	currently has her adult son staying with her
+T6	TypeLiving 33 77	currently has her adult son staying with her
+T7	Tobacco 134 140	smoker
+T8	Amount 120 133	>40 pack year
+T9	StatusTime 120 133	>40 pack year
+T10	Alcohol 156 164	EtOH use
+T11	Drug 168 176	drug use
+T12	StatusTime 142 155	Denies recent
+T13	Drug 195 206	cocaine use
+T14	Type 195 202	cocaine
+T15	StatusTime 207 218	in the past
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Amount:T8 Status:T9
+E4	Alcohol:T10 Status:T12
+E5	Drug:T11 Status:T12
+E6	Drug:T13 Type:T14 Status:T15
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 with_family
+A5	StatusTimeVal T9 current
+A6	StatusTimeVal T12 past
+A7	StatusTimeVal T15 past

@@ -1,0 +1,137 @@
+O	0	6	Habits
+O	6	7	:
+B-Tobacco	7	14	Tobacco
+O	14	15	:
+O	16	17	D
+O	17	18	/
+O	18	19	C
+O	20	24	1978
+
+B-Alcohol	26	30	Etoh
+O	30	31	:
+O	32	38	Denies
+
+B-Drug	39	43	IVDU
+O	43	44	:
+O	45	51	Denies
+
+B-Drug	52	59	Cocaine
+O	59	60	:
+O	61	67	former
+O	68	75	without
+O	76	77	x
+O	78	79	1
+O	80	84	year
+O	85	88	per
+O	89	95	clinic
+O	96	100	note
+O	100	101	.
+
+O	102	104	Pt
+O	105	111	thinks
+O	112	114	he
+O	115	118	may
+O	119	123	have
+O	124	128	used
+O	129	134	about
+O	135	136	3
+O	136	137	-
+O	137	138	4
+O	139	143	days
+O	144	147	ago
+O	147	148	,
+O	149	152	but
+O	153	156	can
+O	156	157	'
+O	157	158	t
+O	159	167	remember
+
+O	169	175	Family
+O	176	183	History
+
+O	184	190	Denies
+O	191	192	h
+O	192	193	/
+O	193	194	o
+O	195	201	kidney
+O	202	209	disease
+
+O	211	217	Review
+O	218	220	of
+O	221	228	Systems
+
+O	230	231	A
+O	232	240	complete
+O	241	244	ROS
+O	245	248	was
+O	249	258	performed
+O	259	262	and
+O	263	265	is
+O	266	268	as
+O	269	272	per
+O	273	276	HPI
+O	276	277	,
+O	278	279	o
+O	279	280	/
+O	280	281	w
+O	282	290	negative
+
+O	292	298	Vitals
+O	299	300	(
+O	300	304	Most
+O	305	311	recent
+O	312	315	and
+O	316	318	24
+O	319	323	hour
+O	324	329	range
+O	329	330	.
+O	330	331	)
+
+O	333	334	[
+O	334	338	DATE
+O	338	339	]
+O	340	342	22
+O	342	343	:
+O	343	345	15
+O	346	348	O2
+O	349	352	Sat
+O	352	353	:
+O	355	357	97
+
+O	358	359	[
+O	359	363	DATE
+O	363	364	]
+O	365	367	22
+O	367	368	:
+O	368	370	15
+O	371	373	O2
+O	374	382	Delivery
+O	383	389	Device
+O	389	390	:
+O	392	396	Room
+O	397	400	air
+
+O	402	413	Respiratory
+O	414	418	Data
+O	419	420	(
+O	420	424	Most
+O	425	431	recent
+O	432	435	and
+O	436	438	24
+O	439	443	hour
+O	444	449	range
+O	449	450	.
+O	450	451	)
+
+O	453	457	Date
+O	458	459	[
+O	459	463	DATE
+O	463	464	]
+O	465	467	22
+O	467	468	:
+O	468	470	15
+
+O	472	473	I
+O	473	474	&
+O	474	475	O
+O	476	480	Data

@@ -1,0 +1,8 @@
+T1	Tobacco 20 27	tobacco
+T2	StatusTime 17 19	No
+T3	Alcohol 29 47	occasional alcohol
+T5	StatusTime 29 47	occasional alcohol
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T5
+A1	StatusTimeVal T2 none
+A3	StatusTimeVal T5 current

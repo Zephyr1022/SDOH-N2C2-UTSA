@@ -1,0 +1,4 @@
+T1	Tobacco 28 43	smoking history
+T2	StatusTime 25 27	no
+E1	Tobacco:T1 Status:T2
+A1	StatusTimeVal T2 none

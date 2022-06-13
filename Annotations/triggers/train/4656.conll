@@ -1,0 +1,52 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Social
+O	23	30	History
+O	30	31	:
+B-LivingStatus	32	37	Lives
+O	38	43	alone
+O	44	48	with
+O	49	50	1
+O	51	54	dog
+O	55	56	-
+B-Employment	57	59	on
+I-Employment	60	70	disability
+O	70	71	.
+
+B-Tobacco	73	79	Smokes
+
+O	80	81	1
+
+O	82	85	PPD
+O	86	89	for
+O	90	92	30
+O	92	93	~
+O	93	95	40
+O	96	101	years
+O	102	105	but
+O	106	111	would
+O	112	116	like
+O	117	119	to
+O	120	124	quit
+O	124	125	.
+
+O	127	131	Also
+O	132	135	has
+O	136	140	been
+B-Alcohol	141	146	sober
+
+O	147	150	for
+O	151	156	close
+O	157	159	to
+O	160	161	1
+O	162	166	year
+O	167	170	and
+O	171	177	denies
+O	178	181	any
+O	182	189	current
+B-Drug	190	197	illicit
+I-Drug	198	202	drug
+I-Drug	203	206	use
+O	206	207	.

@@ -1,0 +1,37 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	29	current
+O	30	32	38
+O	33	35	py
+O	36	43	smoking
+O	44	51	history
+O	54	61	Alcohol
+O	62	65	Use
+O	65	66	:
+O	67	71	quit
+O	72	73	8
+O	74	79	years
+O	80	83	ago
+O	86	90	Drug
+O	91	94	Use
+O	94	95	:
+O	96	102	denies
+
+O	104	110	SOCIAL
+O	111	118	HISTORY
+O	118	119	:
+
+O	121	122	[
+O	122	123	x
+O	123	124	]
+O	125	131	Unable
+O	132	134	to
+O	135	141	Obtain
+O	142	145	due
+O	146	148	to
+O	149	156	Patient
+O	157	166	Condition

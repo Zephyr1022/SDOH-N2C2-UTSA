@@ -1,0 +1,12 @@
+T1	LivingStatus 53 61	homeless
+T2	TypeLiving 53 61	homeless
+T3	StatusTime 53 61	homeless
+T4	Drug 62 88	IV heroin and narcotic use
+T5	Method 62 64	IV
+T6	Type 65 84	heroin and narcotic
+T7	StatusTime 62 88	IV heroin and narcotic use
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Drug:T4 Method:T5 Type:T6 Status:T7
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T7 current

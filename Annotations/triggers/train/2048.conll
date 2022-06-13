@@ -1,0 +1,90 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	He
+B-LivingStatus	19	24	lives
+O	25	29	with
+O	30	33	his
+O	34	38	wife
+O	39	41	in
+O	42	43	[
+O	43	44	*
+O	44	45	*
+O	45	49	Name
+O	50	51	(
+O	51	53	NI
+O	53	54	)
+O	55	59	2312
+O	59	60	*
+O	60	61	*
+O	61	62	]
+O	62	63	.
+
+O	65	67	He
+O	68	71	has
+O	72	76	been
+B-Employment	77	79	on
+I-Employment	80	90	disability
+
+O	91	96	since
+O	97	98	[
+O	98	99	*
+O	99	100	*
+O	100	104	2097
+O	104	105	*
+O	105	106	*
+O	106	107	]
+O	108	111	due
+O	112	114	to
+O	115	125	neuropathy
+O	126	129	and
+O	130	135	liver
+O	136	143	disease
+O	143	144	.
+
+O	146	153	History
+O	154	156	of
+
+B-Alcohol	157	164	alcohol
+I-Alcohol	165	170	abuse
+O	170	171	,
+O	172	180	drinking
+O	181	182	[
+O	182	183	*
+O	183	184	*
+O	184	185	8
+O	185	186	-
+O	186	187	8
+O	187	188	*
+O	188	189	*
+O	189	190	]
+O	191	197	drinks
+O	197	198	/
+O	198	201	day
+O	202	205	for
+O	206	210	many
+O	211	216	years
+O	216	217	,
+O	218	220	no
+O	221	225	ETOH
+
+O	226	227	x
+O	228	229	2
+O	230	235	month
+O	235	236	.
+
+O	237	239	He
+O	240	245	never
+B-Tobacco	246	252	smoked
+O	252	253	.
+
+O	254	260	Denies
+B-Drug	261	263	IV
+I-Drug	264	269	drugs
+O	270	272	or
+B-Drug	273	280	illicit
+I-Drug	281	286	drugs
+
+O	287	291	ever
+O	291	292	.

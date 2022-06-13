@@ -1,0 +1,43 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Currently
+B-LivingStatus	27	33	living
+O	34	36	at
+O	37	40	her
+O	41	47	father
+O	47	48	'
+O	48	49	s
+O	49	50	,
+O	51	54	but
+O	55	61	unable
+O	62	64	to
+O	65	71	return
+O	71	72	.
+
+O	74	77	She
+O	78	85	injects
+O	86	88	is
+O	89	93	much
+O	94	98	aero
+O	99	101	in
+O	102	105	his
+O	106	114	possible
+O	115	120	every
+O	121	124	day
+O	124	125	.
+
+O	127	135	Endorses
+O	136	140	very
+O	141	145	rare
+B-Drug	146	155	marijuana
+O	156	159	and
+O	160	166	denies
+B-Alcohol	167	174	alcohol
+O	174	175	.
+
+O	177	180	She
+O	181	183	is
+B-Employment	184	194	unemployed
+O	194	195	.

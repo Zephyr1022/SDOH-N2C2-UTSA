@@ -1,0 +1,34 @@
+O	0	5	SocHx
+O	5	6	:
+
+O	7	13	Denies
+O	14	20	active
+B-Tobacco	21	24	cig
+O	24	25	,
+B-Alcohol	26	30	EtOH
+O	31	33	or
+B-Drug	34	41	illicit
+I-Drug	42	46	drug
+I-Drug	47	50	use
+O	50	51	.
+
+O	52	54	Hx
+O	55	57	of
+B-Tobacco	58	65	smoking
+I-Tobacco	66	70	cigs
+O	71	74	and
+B-Alcohol	75	82	alcohol
+O	82	83	.
+
+O	84	89	Lives
+O	90	92	in
+O	93	94	a
+O	95	100	house
+O	101	103	in
+O	104	105	[
+O	105	113	LOCATION
+O	113	114	]
+O	114	115	,
+O	116	117	[
+O	117	125	LOCATION
+O	125	126	]

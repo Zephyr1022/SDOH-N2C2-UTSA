@@ -1,0 +1,60 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-Tobacco	17	24	Tobacco
+I-Tobacco	25	28	Use
+O	28	29	:
+O	30	35	prior
+O	36	42	smoker
+O	42	43	,
+O	44	45	1
+O	46	50	pack
+O	51	56	every
+O	57	58	3
+O	59	63	days
+O	63	64	.
+
+O	65	74	Abstinent
+O	75	76	x
+O	77	78	3
+O	79	82	yrs
+O	82	83	.
+
+B-Alcohol	87	94	Alcohol
+I-Alcohol	95	98	Use
+O	98	99	:
+O	100	106	denies
+O	107	110	any
+O	111	115	ETOH
+O	116	119	use
+
+B-Drug	123	127	Drug
+I-Drug	128	131	Use
+O	131	132	:
+O	133	139	denies
+O	140	143	any
+O	144	152	illicits
+
+B-LivingStatus	154	159	Lives
+O	160	162	in
+O	163	164	[
+O	164	172	LOCATION
+O	172	173	]
+O	174	178	with
+O	179	185	fiance
+O	185	186	.
+
+B-Employment	187	192	Works
+O	193	195	as
+O	196	197	a
+O	198	204	tattoo
+O	205	211	artist
+O	211	212	.
+
+O	213	221	Finished
+O	222	224	2y
+O	225	227	of
+O	228	232	high
+O	233	239	school
+O	239	240	.

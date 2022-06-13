@@ -1,0 +1,37 @@
+T1	LivingStatus 105 110	lived
+T2	TypeLiving 111 116	alone
+T3	StatusTime 105 110	lived
+T4	LivingStatus 16 30	Home situation
+T5	TypeLiving 54 57	SNF
+T6	StatusTime 32 41	Currently
+T7	Employment 395 403	Vocation
+T8	Type 405 431	Fiscal administrative work
+T9	StatusEmploy 405 431	Fiscal administrative work
+T10	Alcohol 579 583	EtOH
+T12	Frequency 609 624	on the weekends
+T13	StatusTime 585 593	Endorses
+T15	Alcohol 687 694	alcohol
+T16	StatusTime 673 686	No history of
+T17	Drug 707 712	Drugs
+T18	StatusTime 714 720	Denies
+T19	Tobacco 721 731	Cigarettes
+T20	Type 721 731	Cigarettes
+T21	Amount 733 745	20 pack year
+T22	StatusTime 763 767	quit
+T23	History 768 779	7 years ago
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	LivingStatus:T4 Type:T5 Status:T6
+E3	Employment:T7 Type:T8 Status:T9
+E4	Alcohol:T10 Frequency:T12 Status:T13
+E5	Alcohol:T15 Status:T16
+E6	Drug:T17 Status:T18
+E7	Tobacco:T19 Type:T20 Amount:T21 Status:T22 History:T23
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 past
+A3	TypeLivingVal T5 with_others
+A4	StatusTimeVal T6 current
+A5	StatusEmployVal T9 employed
+A7	StatusTimeVal T13 current
+A9	StatusTimeVal T16 none
+A10	StatusTimeVal T18 none
+A11	StatusTimeVal T22 past

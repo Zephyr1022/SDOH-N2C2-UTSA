@@ -1,0 +1,40 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 30	in tent
+T4	Drug 59 65	heroin
+T5	Type 59 65	heroin
+T6	Method 66 70	IVDU
+T7	Frequency 53 58	Daily
+T8	StatusTime 53 58	Daily
+T9	Alcohol 101 105	etoh
+T10	Drug 107 120	other ilicits
+T11	Type 107 120	other ilicits
+T12	StatusTime 86 100	Denies current
+T13	LivingStatus 188 193	Lives
+T14	StatusTime 188 193	Lives
+T15	TypeLiving 194 201	in tent
+T16	Drug 230 236	heroin
+T17	Method 237 241	IVDU
+T18	Type 230 236	heroin
+T19	Frequency 224 229	Daily
+T20	StatusTime 224 229	Daily
+T21	Alcohol 264 268	etoh
+T22	Drug 270 283	other ilicits
+T23	Type 270 283	other ilicits
+T24	StatusTime 249 263	Denies current
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Drug:T4 Type:T5 Frequency:T7 Method:T6 Status:T8
+E3	Alcohol:T9 Status:T12
+E4	Drug:T10 Type:T11 Status:T12
+E5	LivingStatus:T13 Status:T14 Type:T15
+E6	Drug:T16 Type:T18 Status:T20 Frequency:T19 Method:T17
+E7	Alcohol:T21 Status:T24
+E8	Drug:T22 Type:T23 Status:T24
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T12 past
+A5	StatusTimeVal T14 current
+A6	TypeLivingVal T15 homeless
+A7	StatusTimeVal T20 current
+A8	StatusTimeVal T24 past

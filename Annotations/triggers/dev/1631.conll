@@ -1,0 +1,11 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	23	Denies
+B-Tobacco	24	31	tobacco
+O	31	32	,
+B-Alcohol	33	40	alcohol
+O	40	41	,
+B-Drug	42	46	drug
+I-Drug	47	50	use

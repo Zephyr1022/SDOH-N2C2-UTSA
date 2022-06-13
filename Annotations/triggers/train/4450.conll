@@ -1,0 +1,60 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	26	quit
+O	27	36	yesterday
+O	36	37	,
+O	38	42	1ppd
+O	43	44	x
+O	45	49	40yr
+B-Alcohol	52	59	Alcohol
+I-Alcohol	60	63	Use
+O	63	64	:
+O	65	69	none
+
+B-Drug	73	77	Drug
+I-Drug	78	81	Use
+O	81	82	:
+O	83	89	States
+O	90	98	previous
+O	99	108	marijuana
+O	109	112	use
+O	112	113	.
+
+O	114	121	Refuses
+O	122	124	to
+O	125	132	discuss
+O	133	136	any
+O	137	142	other
+O	143	148	prior
+O	149	152	use
+O	152	153	.
+
+O	154	159	Chart
+O	160	166	review
+O	167	172	shows
+B-Drug	173	178	prior
+I-Drug	179	186	cocaine
+O	187	191	utox
+O	191	192	+
+
+O	194	200	SOCIAL
+O	201	208	HISTORY
+O	208	209	:
+
+B-LivingStatus	211	217	Living
+O	218	220	by
+O	221	227	heself
+O	228	230	at
+O	231	235	Mary
+O	235	236	'
+O	236	237	s
+O	238	243	Place
+O	244	251	Shelter
+O	252	254	in
+O	255	256	[
+O	256	264	LOCATION
+O	264	265	]

@@ -1,0 +1,70 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	He
+O	19	27	recently
+O	28	32	quit
+O	33	40	smoking
+O	41	47	cigars
+O	47	48	,
+O	49	54	which
+O	55	57	he
+O	58	62	took
+O	63	65	up
+O	66	67	a
+O	68	71	few
+O	72	77	years
+
+O	78	81	ago
+O	82	87	after
+O	88	96	quitting
+O	97	107	cigarettes
+O	107	108	,
+O	109	114	which
+O	115	117	he
+O	118	121	had
+O	122	128	smoked
+O	129	134	since
+O	135	138	the
+O	139	142	age
+
+O	143	145	of
+O	146	148	15
+O	148	149	.
+
+O	151	153	He
+O	154	163	continues
+O	164	166	to
+B-Alcohol	167	172	drink
+O	173	174	a
+O	175	181	couple
+O	182	184	of
+O	185	191	drinks
+O	192	197	every
+O	198	203	other
+
+O	204	207	day
+O	207	208	.
+
+O	209	211	He
+O	212	214	is
+O	215	223	divorced
+O	223	224	.
+
+O	225	227	He
+O	228	234	served
+O	235	237	in
+O	238	241	the
+O	242	246	Navy
+O	247	250	for
+O	251	254	two
+O	255	260	years
+O	261	263	on
+O	264	265	a
+
+O	266	270	ship
+O	271	273	in
+O	274	277	the
+O	278	291	Mediterranean
+O	291	292	.

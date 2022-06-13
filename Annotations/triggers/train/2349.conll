@@ -1,0 +1,46 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	26	Currently
+I-LivingStatus	27	35	homeless
+O	35	36	,
+O	37	42	stays
+O	43	45	in
+O	46	47	a
+O	48	52	camp
+O	52	53	.
+
+O	54	60	Smokes
+O	60	61	/
+O	61	63	IV
+B-Drug	64	71	cocaine
+I-Drug	71	72	/
+I-Drug	72	87	methamphetamine
+O	87	88	,
+O	89	93	last
+O	94	97	use
+O	98	99	a
+O	100	103	few
+O	104	110	nights
+O	111	114	ago
+O	114	115	.
+
+O	116	122	Denies
+B-Drug	123	136	intramuscular
+I-Drug	137	140	use
+O	140	141	.
+
+B-Tobacco	142	148	Smokes
+O	149	150	1
+O	150	151	/
+O	151	152	4
+O	153	156	ppd
+O	157	159	of
+O	160	170	cigarettes
+O	170	171	.
+
+O	172	178	Denies
+B-Alcohol	179	186	alcohol
+I-Alcohol	187	190	use
+O	190	191	.

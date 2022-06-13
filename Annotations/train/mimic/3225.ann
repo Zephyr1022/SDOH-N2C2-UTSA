@@ -1,0 +1,20 @@
+T1	LivingStatus 34 42	homeless
+T2	StatusTime 44 50	living
+T3	TypeLiving 51 106	with friends, rarely/never in shelters or on the street
+T4	Duration 108 125	for the past year
+T5	Tobacco 126 133	tobacco
+T7	StatusTime 142 156	in high school
+T8	Alcohol 157 161	EtOH
+T9	StatusTime 163 167	none
+T10	Drug 169 177	illicits
+T11	Type 179 197	cocaine and heroin
+T12	StatusTime 179 197	cocaine and heroin
+E1	LivingStatus:T1 Status:T2 Type:T3 Duration:T4
+E2	Tobacco:T5 Status:T7
+E3	Alcohol:T8 Status:T9
+E4	Drug:T10 Status:T12 Type:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A4	StatusTimeVal T7 past
+A5	StatusTimeVal T9 none
+A6	StatusTimeVal T12 current

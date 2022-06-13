@@ -1,0 +1,72 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	He
+O	19	22	has
+O	23	29	mother
+O	30	33	and
+O	34	41	brother
+O	42	45	who
+O	46	50	live
+O	51	59	together
+O	60	64	with
+O	65	69	whom
+O	70	72	he
+O	73	76	has
+
+O	77	82	close
+O	83	91	contacts
+O	91	92	.
+
+O	93	96	The
+O	97	104	patient
+O	105	112	reports
+O	113	117	that
+O	118	121	his
+O	122	128	father
+O	129	133	died
+O	134	136	of
+O	137	138	a
+
+O	139	150	amyotrophic
+O	151	158	lateral
+O	159	168	sclerosis
+O	169	171	in
+O	172	173	[
+O	173	174	*
+O	174	175	*
+O	175	179	2065
+O	179	180	*
+O	180	181	*
+O	181	182	]
+O	182	183	.
+
+O	184	193	Currently
+O	194	196	he
+O	197	199	is
+
+B-Employment	200	210	unemployed
+O	210	211	.
+
+O	212	214	He
+O	215	218	did
+O	219	227	complete
+O	228	232	some
+O	233	240	college
+O	240	241	,
+O	242	245	his
+O	246	253	closest
+O	254	262	supports
+
+O	263	266	are
+O	267	270	his
+O	271	277	family
+O	278	281	and
+O	282	287	staff
+O	288	295	members
+O	296	298	at
+O	299	302	his
+O	303	308	group
+O	309	313	home
+O	313	314	.

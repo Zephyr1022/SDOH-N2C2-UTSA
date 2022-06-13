@@ -1,0 +1,12 @@
+T1	LivingStatus 59 64	LIves
+T2	TypeLiving 79 92	with his wife
+T3	StatusTime 59 64	LIves
+T4	Employment 152 160	the army
+T5	Type 166 173	a pilot
+T6	Duration 140 148	20 years
+T7	StatusEmploy 134 139	spent
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T5 Duration:T6 Status:T7
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T7 unemployed

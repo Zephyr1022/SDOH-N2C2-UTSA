@@ -1,0 +1,32 @@
+T1	LivingStatus 24 29	lives
+T2	StatusTime 24 29	lives
+T3	TypeLiving 54 89	with wife and their 15-year old son
+T4	Employment 98 111	On disability
+T5	StatusEmploy 98 111	On disability
+T6	Tobacco 117 123	smoked
+T7	Amount 124 137	[**2-2**] ppd
+T8	Duration 143 153	x 30 years
+T9	Type 138 142	cigs
+T10	StatusTime 159 163	quit
+T11	History 164 175	for 7 years
+T12	Alcohol 231 235	EtOH
+T14	StatusTime 236 243	in past
+T15	Drug 248 252	IVDU
+T16	StatusTime 245 247	No
+T17	StatusTime 204 210	smokes
+T18	Type 213 217	cigs
+T19	Tobacco 213 217	cigs
+T20	Amount 211 224	3 cigs - 1PPD
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Amount:T7 Type:T9 Duration:T8 Status:T10 History:T11
+E4	Alcohol:T12 Status:T14
+E5	Drug:T15 Status:T16
+E6	Tobacco:T19 Status:T17 Type:T18 Amount:T20
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 on_disability
+A4	StatusTimeVal T10 past
+A6	StatusTimeVal T14 past
+A7	StatusTimeVal T16 none
+A8	StatusTimeVal T17 current

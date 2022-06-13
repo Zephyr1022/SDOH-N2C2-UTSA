@@ -1,0 +1,68 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	Rents
+I-LivingStatus	23	24	a
+I-LivingStatus	25	29	room
+O	30	35	alone
+O	35	36	.
+
+O	37	41	Does
+O	42	45	not
+O	46	50	work
+O	50	51	.
+
+B-Employment	52	54	On
+I-Employment	55	65	disability
+O	65	66	.
+
+O	67	75	Endorses
+B-Tobacco	76	83	smoking
+O	84	94	cigarettes
+O	94	95	,
+O	96	101	about
+O	102	103	1
+O	104	108	pack
+O	109	112	per
+O	113	117	week
+O	117	118	.
+
+O	119	126	Reports
+B-Alcohol	127	135	drinking
+O	136	137	2
+O	137	138	-
+O	138	139	4
+O	140	149	alcoholic
+O	150	159	beverages
+O	160	163	per
+O	164	169	month
+O	170	174	when
+O	175	178	she
+O	179	183	goes
+O	184	187	out
+O	188	192	with
+O	193	200	friends
+O	201	203	if
+O	204	207	she
+O	208	210	is
+O	211	218	feeling
+O	219	223	well
+O	223	224	.
+
+O	225	233	Endorses
+B-Drug	234	243	marijuana
+I-Drug	244	247	use
+O	248	252	once
+O	253	256	per
+O	257	262	month
+O	263	265	on
+O	266	273	average
+O	273	274	.
+
+O	275	281	Denies
+O	282	285	any
+O	286	293	history
+O	294	296	of
+B-Drug	297	301	IVDU
+O	301	302	.

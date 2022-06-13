@@ -1,0 +1,41 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Residence
+O	26	27	:
+
+O	29	36	Private
+O	37	46	residence
+O	46	47	.
+
+B-LivingStatus	49	55	Living
+I-LivingStatus	56	65	situation
+O	65	66	:
+
+O	68	73	Lives
+O	74	78	with
+O	79	85	others
+O	85	86	.
+
+O	88	95	Tobacco
+O	96	99	use
+O	99	100	:
+
+O	102	112	Cigarettes
+O	112	113	:
+O	113	114	.
+
+B-Alcohol	116	123	Alcohol
+I-Alcohol	124	127	use
+O	127	128	:
+O	129	133	beer
+O	133	134	.
+
+B-Drug	136	140	Drug
+I-Drug	141	144	use
+O	144	145	:
+
+O	147	163	Methamphetamines
+O	163	164	:
+O	164	165	.

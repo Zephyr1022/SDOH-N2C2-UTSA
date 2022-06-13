@@ -1,0 +1,208 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	Per
+O	20	30	psychology
+O	31	35	note
+O	36	37	[
+O	37	38	*
+O	38	39	*
+O	39	40	6
+O	40	41	-
+O	41	43	18
+O	43	44	*
+O	44	45	*
+O	45	46	]
+O	46	47	:
+
+O	48	52	Born
+O	53	59	oldest
+O	60	62	of
+O	63	66	two
+O	66	67	,
+O	68	71	has
+O	72	74	13
+O	75	77	yr
+O	78	81	old
+O	82	86	half
+O	87	93	sister
+O	93	94	,
+O	95	98	her
+
+O	99	105	mother
+O	106	112	raised
+O	113	117	both
+O	118	120	of
+O	121	125	them
+O	126	128	on
+O	129	132	her
+O	133	136	own
+O	136	137	.
+
+O	138	141	Was
+O	142	143	a
+O	144	149	happy
+O	150	153	kid
+O	153	154	,
+O	155	158	but
+
+O	159	168	difficult
+O	169	175	during
+O	176	180	teen
+O	181	186	years
+O	186	187	.
+
+O	188	192	They
+O	193	198	moved
+O	199	205	around
+O	206	207	a
+O	208	211	lot
+O	211	212	,
+O	213	217	seem
+O	218	220	to
+
+O	221	225	have
+O	226	229	had
+O	230	242	considerable
+O	243	253	relational
+O	254	257	and
+O	258	267	financial
+O	268	274	tumult
+O	275	281	during
+O	282	285	her
+
+O	286	295	childhood
+O	295	296	.
+
+O	297	305	Finished
+O	306	310	high
+O	311	317	school
+O	318	321	but
+O	322	325	was
+O	326	329	not
+O	330	331	a
+O	332	336	good
+O	337	344	student
+O	344	345	.
+
+O	346	353	Started
+O	354	363	radiology
+O	364	371	program
+O	371	372	,
+O	373	380	dropped
+O	381	384	out
+O	384	385	,
+O	386	390	then
+O	391	399	finished
+O	400	404	hair
+
+O	405	412	styling
+O	413	419	school
+O	419	420	,
+O	421	424	but
+O	425	432	stopped
+O	433	437	this
+O	438	441	due
+O	442	444	to
+O	445	448	MVC
+O	449	450	2
+O	451	454	yrs
+O	455	458	ago
+O	458	459	.
+
+O	460	463	Has
+O	464	467	had
+
+O	468	478	boyfriends
+O	478	479	,
+O	480	485	broke
+O	486	488	up
+O	489	493	with
+O	494	497	one
+O	498	500	in
+O	501	505	past
+O	506	510	year
+O	510	511	,
+O	512	516	also
+O	517	528	miscarriage
+
+O	529	536	several
+O	537	543	months
+O	544	547	ago
+O	547	548	.
+
+O	549	557	Recently
+O	558	563	moved
+O	564	569	again
+O	569	570	,
+O	571	573	is
+B-LivingStatus	574	580	living
+O	581	585	with
+O	586	589	her
+
+O	590	596	mother
+O	596	597	.
+
+O	598	599	[
+O	599	600	*
+O	600	601	*
+O	601	605	Name
+O	606	607	(
+O	607	609	NI
+O	609	610	)
+O	611	612	*
+O	612	613	*
+O	613	614	]
+O	615	619	been
+O	620	621	a
+O	622	626	more
+O	627	630	and
+O	631	635	less
+O	636	641	heavy
+B-Alcohol	642	649	drinker
+O	649	650	,
+O	651	660	depending
+O	661	663	on
+O	664	667	her
+
+O	668	672	mood
+O	672	673	,
+O	674	677	has
+O	678	679	h
+O	679	680	/
+O	680	681	o
+O	682	685	DWI
+O	686	688	in
+O	689	693	past
+O	694	697	few
+O	698	704	months
+O	704	705	.
+
+O	706	714	Question
+O	715	717	of
+B-Drug	718	727	oxycontin
+
+B-Drug	728	733	abuse
+
+O	734	738	over
+O	739	743	past
+O	744	745	2
+O	746	749	yrs
+O	749	750	.
+
+O	751	757	Remote
+O	758	760	hx
+O	761	763	of
+O	764	779	experimentation
+O	780	784	with
+B-Drug	785	790	other
+I-Drug	791	796	drugs
+O	796	797	,
+
+O	798	801	but
+O	802	804	no
+O	805	810	abuse
+O	810	811	/
+O	811	821	dependence
+O	821	822	.

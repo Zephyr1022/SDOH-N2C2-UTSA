@@ -1,0 +1,7 @@
+T1	Tobacco 83 90	tobacco
+T2	Drug 92 103	MJ, and PCP
+T3	Type 92 103	MJ, and PCP
+T4	StatusTime 62 79	Prior endorsement
+E1	Tobacco:T1 Status:T4
+E2	Drug:T2 Type:T3 Status:T4
+A1	StatusTimeVal T4 past

@@ -1,0 +1,21 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	married
+O	23	24	,
+B-Employment	25	31	worked
+O	32	34	in
+O	35	41	retail
+O	41	42	,
+B-Tobacco	43	49	smoked
+O	50	51	>
+O	51	53	40
+O	54	59	years
+O	60	63	ago
+O	63	64	,
+O	65	67	no
+B-Alcohol	68	72	EToH
+O	73	75	or
+
+B-Drug	76	81	drugs

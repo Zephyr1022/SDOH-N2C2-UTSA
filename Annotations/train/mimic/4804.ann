@@ -1,0 +1,26 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 27	alone
+T4	Alcohol 138 142	ETOH
+T5	Drug 145 166	VDU, or illicit drugs
+T6	Method 144 148	IVDU
+T8	Type 153 160	illicit
+T9	StatusTime 131 137	Denies
+T10	Amount 176 188	3 cigarettes
+T11	Frequency 188 192	/day
+T12	Tobacco 169 175	Smoked
+T13	StatusTime 169 175	Smoked
+T14	Type 178 188	cigarettes
+T15	Employment 195 203	Disabled
+T16	StatusEmploy 195 203	Disabled
+T17	History 212 228	since [**2140**]
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T9
+E3	Drug:T5 Status:T9 Type2:T8 Method:T6
+E5	Tobacco:T12 Status:T13 Amount:T10 Type:T14 Frequency:T11
+E6	Employment:T15 Status:T16 History:T17
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T13 past
+A5	StatusEmployVal T16 on_disability

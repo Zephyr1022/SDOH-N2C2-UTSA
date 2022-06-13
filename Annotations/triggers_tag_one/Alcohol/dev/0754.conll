@@ -1,0 +1,71 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	She
+O	20	22	is
+O	23	33	originally
+O	34	38	from
+O	39	42	the
+O	43	44	[
+O	44	45	*
+O	45	46	*
+O	46	53	Country
+O	54	59	31115
+O	59	60	*
+O	60	61	*
+O	61	62	]
+O	63	65	in
+O	66	67	[
+O	67	68	*
+O	68	69	*
+O	69	73	2092
+O	73	74	*
+O	74	75	*
+O	75	76	]
+O	76	77	,
+O	78	83	lives
+O	84	88	with
+
+O	89	96	husband
+O	96	97	.
+
+O	98	105	Married
+O	105	106	.
+
+O	107	113	Worked
+O	114	116	at
+O	117	118	[
+O	118	119	*
+O	119	120	*
+O	120	124	Last
+O	125	129	Name
+O	130	131	(
+O	131	133	un
+O	133	134	)
+O	135	140	59330
+O	140	141	*
+O	141	142	*
+O	142	143	]
+O	143	144	.
+
+O	145	152	Husband
+O	153	158	works
+O	159	161	in
+O	162	170	shipping
+
+O	171	180	warehouse
+O	180	181	.
+
+O	182	184	No
+O	185	192	smoking
+O	192	193	,
+B-Alcohol	194	201	alcohol
+O	201	202	,
+O	203	205	or
+O	206	213	illicit
+O	214	218	drug
+O	219	222	use
+O	222	223	.
+
+O	224	225	.

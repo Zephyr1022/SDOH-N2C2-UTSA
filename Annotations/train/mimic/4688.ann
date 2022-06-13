@@ -1,0 +1,5 @@
+T1	Tobacco 18 33	Tobacco history
+T2	Amount 35 48	[**1-5**] ppd
+T3	StatusTime 35 48	[**1-5**] ppd
+E1	Tobacco:T1 Amount:T2 Status:T3
+A1	StatusTimeVal T3 current

@@ -1,0 +1,87 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	Mr
+O	18	19	.
+O	20	21	[
+O	21	22	*
+O	22	23	*
+O	23	28	Known
+O	29	37	lastname
+O	38	43	64313
+O	43	44	*
+O	44	45	*
+O	45	46	]
+B-Employment	47	57	previously
+I-Employment	58	64	worked
+O	65	67	as
+O	68	69	a
+O	70	78	painting
+O	79	89	contractor
+O	90	93	but
+O	94	97	has
+
+O	98	101	not
+O	102	108	worked
+O	109	112	for
+O	113	116	the
+O	117	121	last
+O	122	123	3
+O	124	129	years
+O	129	130	.
+
+O	132	134	He
+O	135	137	is
+O	138	143	still
+B-Alcohol	144	152	drinking
+O	153	154	a
+O	155	158	few
+
+O	159	164	beers
+O	165	168	per
+O	169	173	week
+O	174	177	but
+O	178	181	did
+O	182	185	not
+O	186	194	quantify
+O	195	202	exactly
+O	203	206	his
+O	207	214	alcohol
+O	215	221	intake
+O	221	222	.
+
+O	223	225	He
+O	226	230	used
+O	231	233	to
+B-Tobacco	234	239	smoke
+O	240	241	2
+O	242	247	packs
+O	248	251	per
+O	252	255	day
+O	256	259	but
+B-Tobacco	260	269	currently
+I-Tobacco	270	276	smokes
+O	277	282	about
+O	283	284	1
+
+O	285	289	pack
+O	290	293	per
+O	294	297	day
+O	297	298	.
+
+O	300	302	He
+O	303	305	is
+O	306	314	divorced
+O	315	319	with
+O	320	321	3
+O	322	330	children
+O	331	335	ages
+O	336	338	14
+O	338	339	,
+O	340	342	12
+O	342	343	,
+O	344	347	and
+
+O	348	350	11
+O	350	351	.

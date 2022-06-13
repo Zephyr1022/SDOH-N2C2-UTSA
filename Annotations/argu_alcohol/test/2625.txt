@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: Denies   Alcohol Use: Denies   Drug Use: Denies
+
+SOCIAL HISTORY: 
+Residence: Lives independently in [LOCATION].  Patient has friends locally, but is independent in her ADLs, and IADLs.

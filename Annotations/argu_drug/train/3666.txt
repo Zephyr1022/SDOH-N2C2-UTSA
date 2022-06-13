@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: 0.5 PPD for 4 years (quit in 2005)
+Alcohol Use: few glasses of wine with dinner most nights
+Drug Use: denies
+
+SOCIAL HISTORY: 
+Lives with friend, [NAME], in [LOCATION], [LOCATION]. Works as a mechnical engineer  for [LOCATION]. Travels frequently for her job and has been in [LOCATION] and [LOCATION] over the past year. No TB exposures.

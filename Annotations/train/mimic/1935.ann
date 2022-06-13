@@ -1,0 +1,16 @@
+T1	LivingStatus 25 31	living
+T2	TypeLiving 32 54	at [**Hospital1 599**]
+T3	Duration 55 66	for 4 years
+T4	StatusTime 16 31	Has been living
+T5	Alcohol 274 278	EtOH
+T6	Tobacco 279 286	tobacco
+T7	Drug 287 295	illicits
+T8	Type 287 295	illicits
+T9	StatusTime 271 273	No
+E1	LivingStatus:T1 Type:T2 Status:T4 Duration:T3
+E2	Alcohol:T5 Status:T9
+E3	Tobacco:T6 Status:T9
+E4	Drug:T7 Status:T9 Type:T8
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T9 none

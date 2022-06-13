@@ -1,0 +1,57 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	17	23	Visual
+O	24	33	initially
+O	34	38	with
+O	39	43	mild
+O	44	51	reports
+O	52	55	she
+B-LivingStatus	56	63	staying
+O	64	68	with
+O	69	76	friends
+
+O	77	80	The
+O	81	88	patient
+O	89	91	is
+O	92	93	a
+O	94	101	history
+O	102	104	of
+O	105	113	recently
+O	113	114	.
+
+O	115	118	The
+O	119	126	patient
+O	127	133	denies
+O	134	137	any
+O	138	144	recent
+B-Tobacco	145	154	cigarette
+O	155	157	or
+B-Drug	158	162	IVDU
+O	162	163	.
+
+O	166	169	ROS
+
+O	171	172	A
+O	173	181	complete
+O	182	185	ROS
+O	186	189	was
+O	190	199	performed
+O	200	203	and
+O	204	206	is
+O	207	215	negative
+O	215	216	,
+O	217	223	except
+O	224	229	where
+O	230	235	noted
+O	236	238	in
+O	239	242	the
+O	243	248	above
+O	249	252	ROS
+O	253	255	or
+O	256	259	HPI
+O	259	260	.
+
+O	263	271	Physical
+O	272	276	Exam

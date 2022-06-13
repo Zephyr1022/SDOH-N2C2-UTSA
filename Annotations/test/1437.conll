@@ -1,0 +1,32 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	Denies
+
+O	29	36	Alcohol
+O	37	40	Use
+O	40	41	:
+O	42	48	Denies
+
+O	49	53	Drug
+O	54	57	Use
+O	57	58	:
+O	59	65	Denies
+
+O	67	73	SOCIAL
+O	74	81	HISTORY
+O	81	82	:
+
+O	84	89	Lives
+O	90	92	in
+O	93	94	[
+O	94	102	LOCATION
+O	102	103	]
+O	104	108	with
+O	109	112	his
+O	113	120	adopted
+O	121	128	brother
+O	128	129	.

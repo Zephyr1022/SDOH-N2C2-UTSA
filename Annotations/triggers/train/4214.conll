@@ -1,0 +1,46 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Residence
+O	26	27	:
+
+O	29	36	Private
+O	37	46	residence
+O	46	47	.
+
+B-Employment	49	59	Employment
+O	59	60	:
+
+O	62	70	Employed
+O	70	71	.
+
+B-Tobacco	73	80	Tobacco
+I-Tobacco	81	84	use
+O	84	85	:
+
+O	87	93	Denies
+O	93	94	.
+
+B-Alcohol	96	103	Alcohol
+I-Alcohol	104	107	use
+O	107	108	:
+O	109	113	wine
+O	113	114	,
+O	115	120	since
+O	121	124	occ
+O	125	131	social
+O	132	135	use
+O	136	137	2
+O	137	138	-
+O	138	140	3x
+O	140	141	/
+O	141	145	week
+O	145	146	.
+
+B-Drug	148	152	Drug
+I-Drug	153	156	use
+O	156	157	:
+
+O	158	164	Denies
+O	164	165	.

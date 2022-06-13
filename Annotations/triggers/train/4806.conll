@@ -1,0 +1,49 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	17	19	He
+B-Employment	20	26	worked
+O	27	30	for
+O	31	32	a
+O	33	38	small
+O	39	46	company
+O	47	52	doing
+O	53	61	computer
+O	62	73	programming
+O	73	74	.
+
+O	75	77	He
+
+O	78	84	denies
+B-Tobacco	85	92	tobacco
+I-Tobacco	93	96	use
+O	96	97	.
+
+O	98	101	Has
+O	102	106	used
+B-Drug	107	116	marijuana
+O	117	119	in
+O	120	123	the
+O	124	128	past
+O	128	129	,
+O	130	133	but
+O	134	140	denies
+
+B-Drug	141	143	IV
+I-Drug	144	148	drug
+I-Drug	149	152	use
+O	152	153	.
+
+O	154	156	He
+O	157	161	uses
+B-Alcohol	162	172	occasional
+I-Alcohol	173	180	alcohol
+O	180	181	,
+O	182	188	though
+O	189	193	none
+
+O	194	199	since
+O	200	203	his
+O	204	213	diagnosis
+O	213	214	.

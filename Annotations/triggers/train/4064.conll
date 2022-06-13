@@ -1,0 +1,26 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	23	Living
+I-LivingStatus	24	33	situation
+O	33	34	:
+
+O	36	41	Union
+O	42	48	Gospel
+O	49	56	Shelter
+
+O	57	66	Substance
+O	67	70	use
+O	70	71	:
+
+O	72	73	+
+B-Alcohol	74	78	ETOH
+O	78	79	,
+O	80	86	denies
+B-Tobacco	87	94	smoking
+O	95	97	or
+B-Drug	98	101	rec
+I-Drug	102	107	drugs
+
+O	108	109	_

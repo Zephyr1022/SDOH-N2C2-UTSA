@@ -1,0 +1,41 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	26	Unemployed
+I-Employment	27	36	currently
+O	36	37	.
+
+O	38	42	Quit
+B-Tobacco	43	50	smoking
+O	51	52	[
+O	52	53	*
+O	53	54	*
+O	54	58	2113
+O	58	59	-
+O	59	60	8
+O	60	61	-
+O	61	62	5
+O	62	63	*
+O	63	64	*
+O	64	65	]
+O	65	66	,
+O	67	70	but
+O	71	74	had
+O	75	76	a
+
+O	77	79	90
+O	80	84	pack
+O	85	89	year
+O	90	97	history
+O	98	103	prior
+O	103	104	.
+
+O	106	109	Has
+O	110	111	2
+B-Alcohol	112	121	alcoholic
+I-Alcohol	122	131	beverages
+O	132	135	per
+
+O	136	141	night
+O	141	142	.

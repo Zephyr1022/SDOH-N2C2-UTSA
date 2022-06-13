@@ -1,0 +1,5 @@
+T1	StatusTime 30 32	no
+T2	Drug 33 41	illicits
+T3	Type 33 41	illicits
+E1	Drug:T2 Type:T3 Status:T1
+A1	StatusTimeVal T1 none

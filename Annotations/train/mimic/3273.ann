@@ -1,0 +1,34 @@
+T1	LivingStatus 40 47	housing
+T2	StatusTime 22 31	currently
+T3	TypeLiving 32 47	without housing
+T4	LivingStatus 57 64	staying
+T5	StatusTime 54 64	is staying
+T6	TypeLiving 65 97	on the couch of a friend from AA
+T7	Employment 108 115	working
+T8	StatusEmploy 182 196	recently fired
+T9	Type 119 139	a home health worker
+T10	Tobacco 203 209	smokes
+T11	StatusTime 203 209	smokes
+T12	Amount 210 219	1/2-1 PPD
+T13	Duration 220 228	x 40 yrs
+T14	Drug 231 249	Former heroin user
+T15	StatusTime 231 249	Former heroin user
+T16	Type 238 244	heroin
+T17	History 261 271	20 yrs ago
+T18	Alcohol 274 278	EtOH
+T19	StatusTime 279 288	last used
+T20	History 289 295	[DATE]
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Employment:T7 Type:T9 Status:T8
+E4	Tobacco:T10 Status:T11 Amount:T12 Duration:T13
+E5	Drug:T14 Status:T15 Type:T16 History:T17
+E6	Alcohol:T18 Status:T19 History:T20
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 homeless
+A5	StatusEmployVal T8 unemployed
+A6	StatusTimeVal T11 current
+A7	StatusTimeVal T15 past
+A8	StatusTimeVal T19 past

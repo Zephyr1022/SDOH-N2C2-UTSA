@@ -1,0 +1,55 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	She
+O	20	23	has
+O	24	25	4
+O	26	34	children
+O	35	38	and
+O	39	40	4
+O	41	54	grandchildren
+O	54	55	.
+
+O	57	60	She
+O	61	63	is
+O	64	65	a
+O	66	73	retired
+O	74	80	travel
+
+O	81	82	[
+O	82	83	*
+O	83	84	*
+O	84	90	Doctor
+O	91	95	Last
+O	96	100	Name
+O	101	104	360
+O	104	105	*
+O	105	106	*
+O	106	107	]
+O	107	108	.
+
+O	110	117	Tobacco
+O	117	118	:
+O	120	124	quit
+O	125	132	tobacco
+O	133	135	14
+O	136	141	years
+O	142	145	ago
+O	145	146	,
+O	147	149	80
+O	149	150	-
+O	150	154	plus
+O	154	155	-
+O	155	159	pack
+O	159	160	-
+O	160	164	year
+
+O	165	172	history
+O	172	173	.
+
+B-Alcohol	175	179	ETOH
+O	179	180	:
+O	182	192	occasional
+O	193	200	ethanol
+O	200	201	.

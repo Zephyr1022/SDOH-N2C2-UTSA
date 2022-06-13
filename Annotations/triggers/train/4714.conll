@@ -1,0 +1,46 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+B-LivingStatus	24	29	lives
+O	30	34	with
+O	35	38	her
+O	39	46	husband
+O	47	50	and
+O	51	54	two
+O	55	59	sons
+O	59	60	.
+
+O	61	64	She
+O	65	68	has
+O	69	70	a
+O	71	73	30
+O	74	77	ppy
+
+B-Tobacco	78	85	tobacco
+O	86	88	hx
+O	88	89	,
+O	90	93	and
+O	94	103	recurrent
+B-Alcohol	104	111	alcohol
+O	112	117	abuse
+O	117	118	.
+
+O	120	123	She
+O	124	127	has
+O	128	136	presenty
+O	137	141	been
+
+O	142	147	sober
+O	148	151	for
+O	152	153	8
+O	154	160	months
+O	160	161	,
+O	162	164	is
+O	165	173	involved
+O	174	176	in
+O	177	179	AA
+O	180	183	and
+O	184	191	therapy
+O	191	192	.

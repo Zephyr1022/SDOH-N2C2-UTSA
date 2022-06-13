@@ -1,0 +1,128 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	His
+O	20	22	is
+O	23	32	currently
+O	33	35	on
+O	36	46	disability
+O	47	52	after
+O	53	62	suffering
+O	63	64	a
+O	65	69	neck
+O	70	76	injury
+O	77	79	at
+
+O	80	84	work
+O	85	86	a
+O	87	93	number
+O	94	96	of
+O	97	102	years
+O	103	106	ago
+O	107	108	(
+O	108	111	hit
+O	112	114	by
+O	115	116	[
+O	116	117	*
+O	117	118	*
+O	118	124	Doctor
+O	125	129	Last
+O	130	134	Name
+O	135	139	9808
+O	139	140	*
+O	140	141	*
+O	141	142	]
+O	142	143	)
+O	143	144	.
+
+O	146	148	He
+O	149	152	has
+O	153	155	no
+O	156	166	neurologic
+
+O	167	175	deficits
+O	175	176	.
+
+O	178	180	He
+O	181	187	spends
+O	188	191	his
+O	192	196	days
+B-Alcohol	197	205	drinking
+O	206	210	beer
+O	211	212	(
+O	212	213	4
+O	213	214	-
+O	214	215	5
+O	216	222	drinks
+O	223	226	per
+O	227	230	day
+O	230	231	)
+
+O	232	235	and
+O	236	243	smoking
+O	244	253	marijuana
+O	254	256	as
+O	257	261	well
+O	262	264	as
+O	265	271	taking
+O	272	276	care
+O	277	279	of
+O	280	283	his
+O	284	292	children
+O	292	293	.
+
+O	294	296	He
+O	297	301	does
+O	302	305	not
+O	306	309	use
+O	310	313	any
+O	314	324	additional
+O	325	335	substances
+O	335	336	.
+
+O	338	340	He
+O	341	344	has
+O	345	347	no
+O	348	355	history
+O	356	358	of
+
+O	359	365	severe
+O	366	373	alcohol
+O	374	384	withdrawal
+O	385	387	or
+O	388	396	delerium
+O	397	404	tremens
+O	404	405	.
+
+O	407	409	No
+O	410	417	history
+O	418	420	of
+
+O	421	431	withdrawal
+O	432	440	seizures
+O	440	441	.
+
+O	443	450	Unknown
+O	451	455	time
+O	456	458	of
+O	459	463	last
+O	464	469	drink
+O	469	470	,
+O	471	477	likely
+
+O	478	487	yesterday
+O	487	488	.
+
+O	489	491	He
+O	492	498	smokes
+O	499	500	1
+O	500	501	-
+O	501	502	2
+O	503	508	packs
+O	509	512	per
+O	513	516	day
+O	517	520	for
+O	521	523	30
+O	524	529	years
+O	529	530	.

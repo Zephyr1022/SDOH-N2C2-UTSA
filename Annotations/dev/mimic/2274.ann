@@ -1,0 +1,25 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 27	never
+T3	Alcohol 31 42	Alcohol Use
+T4	Frequency 47 55	per year
+T5	Amount 44 46	1x
+T6	StatusTime 57 67	none since
+T7	Drug 87 95	Drug Use
+T8	StatusTime 97 103	denies
+T9	LivingStatus 122 131	Residence
+T10	TypeLiving 139 148	with wife
+T11	StatusTime 133 138	Lives
+T12	Employment 165 182	Previously worked
+T13	Type 186 195	cabinetry
+T14	StatusEmploy 197 212	now not working
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Amount:T5 Frequency:T4 Status:T6
+E3	Drug:T7 Status:T8
+E4	LivingStatus:T9 Type:T10 Status:T11
+E5	Employment:T12 Type:T13 Status:T14
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T8 none
+A4	TypeLivingVal T10 with_family
+A5	StatusTimeVal T11 current
+A6	StatusEmployVal T14 unemployed

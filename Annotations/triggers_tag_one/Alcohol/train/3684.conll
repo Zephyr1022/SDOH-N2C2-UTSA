@@ -1,0 +1,39 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	denies
+B-Alcohol	30	37	Alcohol
+I-Alcohol	38	41	Use
+O	41	42	:
+O	43	49	denies
+O	52	56	Drug
+O	57	60	Use
+O	60	61	:
+O	62	72	occasional
+O	73	82	marijuana
+
+O	84	90	SOCIAL
+O	91	98	HISTORY
+O	98	99	:
+
+O	101	110	Residence
+O	110	111	:
+O	112	114	Is
+O	115	116	a
+O	117	123	senior
+O	124	126	in
+O	127	134	college
+O	135	137	at
+O	138	139	[
+O	139	147	LOCATION
+O	147	148	]
+O	148	149	.
+
+O	150	155	Lives
+O	156	158	in
+O	159	161	an
+O	162	171	apartment
+O	171	172	.

@@ -1,0 +1,21 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	23	Living
+I-LivingStatus	24	33	situation
+O	33	34	:
+
+O	36	47	transiently
+O	48	54	housed
+
+B-Drug	57	66	Substance
+I-Drug	67	70	use
+O	70	71	:
+
+O	72	78	Denies
+O	79	83	IVDU
+O	84	86	in
+O	87	91	last
+O	92	99	several
+O	100	106	months

@@ -1,0 +1,113 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+O	29	34	lives
+O	35	39	with
+O	40	43	his
+O	44	48	wife
+O	49	52	and
+
+O	53	61	daughter
+O	61	62	,
+O	63	65	is
+O	66	67	a
+O	68	75	retired
+O	76	84	salesman
+O	84	85	.
+
+O	87	90	Has
+O	91	92	a
+O	93	96	100
+O	97	101	pack
+O	102	106	year
+O	107	114	smoking
+
+O	115	122	history
+O	122	123	.
+
+O	125	127	He
+O	128	132	quit
+O	133	135	in
+O	136	137	[
+O	137	138	*
+O	138	139	*
+O	139	143	2192
+O	143	144	*
+O	144	145	*
+O	145	146	]
+O	146	147	.
+
+O	149	155	Denies
+B-Alcohol	156	163	alcohol
+I-Alcohol	164	167	use
+O	167	168	.
+
+O	170	172	On
+O	173	182	admission
+O	183	185	to
+O	186	189	the
+O	190	199	Emergency
+O	200	204	Room
+O	204	205	,
+O	206	211	vital
+O	212	217	signs
+O	218	222	were
+O	223	225	as
+
+O	226	236	previously
+O	237	242	noted
+O	243	252	including
+O	253	254	a
+O	255	266	temperature
+O	267	269	of
+O	270	272	98
+O	272	273	.
+O	273	274	5
+O	274	275	,
+O	276	281	blood
+
+O	282	290	pressure
+O	291	294	111
+O	294	295	/
+O	295	297	55
+O	297	298	,
+O	299	304	pulse
+O	305	307	of
+O	308	310	59
+O	310	311	,
+O	312	315	and
+O	316	323	patient
+O	324	326	is
+O	327	333	sating
+O	334	336	96
+O	336	337	%
+O	338	340	on
+
+O	341	345	room
+O	346	349	air
+O	349	350	.
+
+O	352	356	This
+O	357	359	is
+O	360	361	a
+O	362	369	elderly
+O	370	379	gentleman
+O	380	384	pale
+O	385	387	in
+O	388	390	no
+O	391	396	acute
+
+O	397	405	distress
+O	405	406	.
+
+O	408	413	HEENT
+O	413	414	:
+O	416	428	Conjunctivae
+O	429	433	were
+O	434	438	pale
+O	438	439	,
+O	440	442	no
+O	443	450	icterus
+O	450	451	.

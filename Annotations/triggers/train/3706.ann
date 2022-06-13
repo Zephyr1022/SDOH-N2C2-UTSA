@@ -1,0 +1,12 @@
+T1	LivingStatus 17 25	Homeless
+T4	LivingStatus 27 33	Living
+T7	Employment 58 65	Working
+T10	Tobacco 125 131	smoker
+T13	Alcohol 132 139	Alcohol
+T16	Drug 152 157	Drugs
+T18	LivingStatus 164 172	Homeless
+T21	LivingStatus 174 180	Living
+T24	Employment 205 212	Working
+T28	Tobacco 244 250	smoker
+T30	Alcohol 251 258	Alcohol
+T33	Drug 271 276	Drugs

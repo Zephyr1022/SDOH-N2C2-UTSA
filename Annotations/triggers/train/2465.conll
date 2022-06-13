@@ -1,0 +1,36 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	28	Complicated
+O	29	35	social
+O	36	45	situation
+O	45	46	,
+O	47	50	has
+O	51	57	become
+B-LivingStatus	58	66	homeless
+O	66	67	.
+
+O	68	71	She
+O	72	74	is
+O	75	84	currently
+O	85	93	sleeping
+O	94	96	on
+O	97	100	her
+O	101	108	friends
+O	109	114	cough
+O	114	115	,
+O	116	122	hoping
+O	123	125	to
+O	126	129	get
+O	130	133	her
+O	134	137	own
+O	138	147	apartment
+O	148	152	soon
+O	152	153	.
+
+O	154	157	She
+O	158	164	denies
+O	165	170	toxic
+O	171	177	habits
+O	177	178	.

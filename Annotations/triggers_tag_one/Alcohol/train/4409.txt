@@ -1,0 +1,9 @@
+HABITS: 
+Tobacco Use: Smokes 4-5 cigarettes per day for past year   
+Alcohol Use: quit drinking one month ago, didn't drink that much previously, maybe one beer per day   
+Drug Use: smokes marijuana daily, past cocaine use by snorting last used couple months ago
+
+SOCIAL HISTORY: 
+He is originally from [LOCATION], [LOCATION] but moved to [LOCATION] and then moved to [LOCATION] a few months ago.
+Had been living in [LOCATION] with daughter's mom but recently had falling out, so now is living with his sister in [LOCATION]. 
+Works at a school in the automotive workshop. Also works at [LOCATION] on [DATE].

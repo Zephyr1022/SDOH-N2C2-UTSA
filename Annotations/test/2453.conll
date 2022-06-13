@@ -1,0 +1,39 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	27	Daily
+O	28	37	cigarette
+O	38	41	use
+
+O	45	52	Alcohol
+O	53	56	Use
+O	56	57	:
+O	58	59	6
+O	59	60	-
+O	60	62	18
+O	63	68	beers
+O	69	74	daily
+
+O	75	79	Drug
+O	80	83	Use
+O	83	84	:
+O	85	95	Occasional
+O	96	103	cocaine
+
+O	105	111	SOCIAL
+O	112	119	HISTORY
+O	119	120	:
+
+O	122	128	Living
+O	129	131	on
+O	132	135	the
+O	136	143	streets
+O	143	144	,
+O	145	151	drinks
+O	152	157	daily
+O	158	160	as
+O	161	166	above
+O	166	167	.

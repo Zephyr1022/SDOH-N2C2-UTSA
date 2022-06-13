@@ -1,0 +1,40 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	26	None
+O	29	36	Alcohol
+O	37	40	Use
+O	40	41	:
+O	42	46	Rare
+O	48	52	Drug
+O	53	56	Use
+O	56	57	:
+O	58	62	None
+
+O	64	70	SOCIAL
+O	71	78	HISTORY
+O	78	79	:
+
+O	81	86	Lives
+O	87	91	with
+O	92	93	a
+O	94	101	roomate
+O	102	104	in
+O	105	106	[
+O	106	114	LOCATION
+O	114	115	]
+O	115	116	.
+
+O	117	119	He
+O	120	122	is
+O	123	128	going
+O	129	131	to
+O	132	138	school
+O	139	141	to
+O	142	148	become
+O	149	150	a
+O	151	154	MSW
+O	154	155	.

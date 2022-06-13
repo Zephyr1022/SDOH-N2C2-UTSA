@@ -1,0 +1,26 @@
+T1	Alcohol 144 155	alcohol use
+T2	StatusTime 135 143	endorses
+T3	History 181 199	in the last 4 days
+T4	Tobacco 216 223	tobacco
+T5	Method 208 215	smoking
+T6	StatusTime 201 207	Denies
+T7	Tobacco 240 247	tobacco
+T8	Method 257 264	chewing
+T9	StatusTime 225 239	endorses using
+T10	Drug 278 282	IVDU
+T11	StatusTime 271 277	denies
+T12	LivingStatus 354 361	shelter
+T13	TypeLiving 354 361	shelter
+T14	StatusTime 336 361	thrown out of his shelter
+E1	Alcohol:T1 Status:T2 History:T3
+E2	Tobacco:T4 Method:T5 Status:T6
+E3	Tobacco:T7 Status:T9 Method:T8
+E4	Drug:T10 Status:T11 Method:T17
+E5	LivingStatus:T12 Type:T13 Status:T14
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T11 none
+A5	TypeLivingVal T13 homeless
+A6	StatusTimeVal T14 current
+T17	Method 278 282	IVDU

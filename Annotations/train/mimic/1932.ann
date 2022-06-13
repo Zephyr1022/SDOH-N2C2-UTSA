@@ -1,0 +1,30 @@
+T1	Employment 22 30	disabled
+T2	StatusEmploy 22 30	disabled
+T3	LivingStatus 66 72	living
+T4	StatusTime 66 72	living
+T5	TypeLiving 73 77;78 92	in a rehab facility
+T6	Duration 93 109	since [**6-11**]
+T7	Tobacco 167 173	smokes
+T8	StatusTime 167 173	smokes
+T9	Amount 174 182	one pack
+T10	Frequency 182 186	/day
+T11	Tobacco 137 144;145 152	smoking history
+T12	Amount 124 136	20 pack year
+T13	StatusTime 124 136	20 pack year
+T14	Alcohol 199 203	etoh
+T15	Drug 216 224	drug use
+T16	Type 208 215	illicit
+T17	StatusTime 192 198	denies
+E1	Employment:T1 Status:T2 Type:T19
+E2	LivingStatus:T3 Type:T5 Status:T4 Duration:T6
+E3	Tobacco:T7 Amount:T9 Frequency:T10 Status:T8
+E4	Tobacco:T11 Status:T13 Amount:T12
+E5	Alcohol:T14 Status:T17
+E6	Drug:T15 Type:T16 Status:T17
+A1	StatusEmployVal T2 on_disability
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T5 with_others
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T13 current
+A6	StatusTimeVal T17 past
+T19	Type 32 51	former truck driver

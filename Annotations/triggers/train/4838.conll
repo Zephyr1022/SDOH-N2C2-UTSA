@@ -1,0 +1,129 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+B-LivingStatus	24	29	lives
+O	30	34	with
+O	35	38	her
+O	39	46	husband
+O	47	50	and
+O	51	54	son
+O	54	55	.
+
+O	57	60	She
+O	61	63	is
+B-Employment	64	73	currently
+
+B-Employment	74	84	unemployed
+O	85	88	but
+O	89	92	was
+O	93	98	being
+O	99	106	trained
+O	107	109	as
+O	110	111	a
+O	112	116	drug
+O	117	120	and
+O	121	128	alcohol
+
+O	129	138	counselor
+O	138	139	.
+
+O	140	143	She
+O	144	150	admits
+O	151	153	to
+O	154	156	an
+O	157	166	extensive
+O	167	174	history
+O	175	177	of
+B-Drug	178	187	substance
+I-Drug	188	193	abuse
+
+O	194	198	that
+O	199	209	ultimately
+O	210	218	resulted
+O	219	221	in
+O	222	225	her
+O	226	232	arrest
+O	233	234	5
+O	235	240	years
+O	241	244	ago
+O	244	245	.
+
+O	246	249	She
+O	250	253	was
+
+O	254	259	under
+O	260	265	state
+O	266	273	ordered
+O	274	278	drug
+O	279	286	testing
+O	287	290	and
+O	291	299	remained
+O	300	305	clean
+O	306	309	for
+O	310	313	the
+O	314	318	last
+
+O	319	320	5
+O	321	326	years
+O	326	327	.
+
+O	329	332	Her
+O	333	342	probation
+O	343	348	ended
+O	349	351	in
+O	352	353	[
+O	353	354	*
+O	354	355	*
+O	355	360	Month
+O	361	362	(
+O	362	366	only
+O	366	367	)
+O	368	371	956
+O	371	372	*
+O	372	373	*
+O	373	374	]
+O	374	375	.
+
+O	376	379	She
+O	380	386	denies
+O	387	390	any
+
+O	391	398	history
+O	399	401	of
+B-Drug	402	406	IVDU
+I-Drug	407	409	or
+I-Drug	410	420	intranasal
+I-Drug	421	425	drug
+I-Drug	426	429	use
+O	429	430	.
+
+O	431	434	She
+O	435	441	denies
+O	442	445	any
+O	446	452	recent
+
+B-Alcohol	453	460	alcohol
+I-Alcohol	461	464	use
+O	464	465	.
+
+O	467	470	She
+B-Tobacco	471	477	smokes
+O	478	484	nearly
+O	485	486	[
+O	486	487	*
+O	487	488	*
+O	488	490	12
+O	490	491	-
+O	491	493	15
+O	493	494	*
+O	494	495	*
+O	495	496	]
+O	497	501	pack
+O	502	505	per
+O	506	509	day
+O	510	511	x
+O	512	514	20
+O	515	520	years
+O	520	521	.

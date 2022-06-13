@@ -1,0 +1,37 @@
+T1	Employment 27 37	unemployed
+T2	StatusEmploy 27 37	unemployed
+T3	Type 91 102	the marines
+T4	LivingStatus 116 122	living
+T5	StatusTime 107 115	had been
+T6	TypeLiving 123 139	with his parents
+T7	Tobacco 150 156	Smokes
+T8	StatusTime 150 156	Smokes
+T9	Amount 157 161	1PPD
+T10	Type 162 172	cigarettes
+T11	Duration 173 184	for 5 years
+T12	Alcohol 193 200	alcohol
+T13	Drug 204 220	illicit drug use
+T14	Type 204 211	illicit
+T15	StatusTime 186 192	Denies
+T16	Drug 269 285	dextromethorphan
+T17	StatusTime 252 268	has been abusing
+T18	Type 269 285	dextromethorphan
+T19	Alcohol 328 332	ETOH
+T20	StatusTime 304 323	tox screen positive
+T21	Drug 337 346	marijuana
+T22	Type 337 346	marijuana
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8 Amount:T9 Type:T10 Duration:T11
+E4	Alcohol:T12 Status:T15
+E5	Drug:T13 Type:T14 Status:T15
+E6	Drug:T16 Type:T18 Status:T17
+E7	Alcohol:T19 Status:T20
+E8	Drug:T21 Type:T22 Status:T20
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T15 none
+A6	StatusTimeVal T17 current
+A7	StatusTimeVal T20 current

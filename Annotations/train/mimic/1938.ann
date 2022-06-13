@@ -1,0 +1,33 @@
+T1	Tobacco 19 26	smoking
+T2	StatusTime 16 18	No
+T3	Alcohol 28 44	Drinking history
+T4	Amount 46 61	1 case of beers
+T5	Frequency 62 67	a day
+T6	Duration 68 74;75 80	for 35 years
+T7	StatusTime 86 90	quit
+T8	History 100 111	3 years ago
+T9	Drug 202 218	illicit drug use
+T10	Type 202 209	illicit
+T11	StatusTime 195 201	Denies
+T12	LivingStatus 220 225	Lives
+T13	StatusTime 220 225	Lives
+T14	TypeLiving 226 231	alone
+T15	Employment 281 286	cooks
+T16	StatusEmploy 281 286	cooks
+T17	Type 281 335;336 347	cooks at a North Station facility that trains handicap individuals
+T18	Employment 357 363	worked
+T19	StatusEmploy 349 363	Has not worked
+T20	History 364 392	since the melanoma diagnosis
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Amount:T4 Frequency:T5 Duration:T6 Status:T7 History:T8
+E3	Drug:T9 Type:T10 Status:T11
+E4	LivingStatus:T12 Type:T14 Status:T13
+E5	Employment:T15 Status:T16 Type:T17
+E6	Employment:T18 History:T20 Status:T19
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T11 none
+A4	StatusTimeVal T13 current
+A5	TypeLivingVal T14 alone
+A6	StatusEmployVal T16 employed
+A7	StatusEmployVal T19 unemployed

@@ -1,0 +1,67 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Social
+O	23	30	History
+O	30	31	:
+
+O	32	39	Tobacco
+O	39	40	:
+O	41	45	1ppd
+O	46	47	x
+O	48	50	44
+O	51	56	years
+O	56	57	,
+O	58	62	quit
+O	63	64	[
+O	64	65	*
+O	65	66	*
+O	66	70	2170
+O	70	71	*
+O	71	72	*
+O	72	73	]
+
+B-Alcohol	74	81	Alcohol
+O	81	82	:
+O	83	93	occasional
+
+O	94	99	Lives
+O	100	104	with
+O	105	109	wife
+O	109	110	,
+O	111	114	has
+O	115	116	2
+O	117	122	young
+O	123	128	adult
+O	129	137	children
+
+O	138	148	Occupation
+O	148	149	:
+O	150	156	worked
+O	157	159	in
+O	160	161	a
+O	162	169	bindery
+O	170	180	department
+O	181	183	of
+O	184	185	a
+O	186	195	publisher
+O	195	196	,
+O	197	200	now
+
+O	201	203	on
+
+O	204	205	[
+O	205	206	*
+O	206	207	*
+O	207	213	Social
+O	214	222	Security
+O	223	229	Number
+O	230	235	76118
+O	235	236	*
+O	236	237	*
+O	237	238	]
+O	238	244	social
+O	245	253	security
+O	254	264	disability
+O	264	265	.

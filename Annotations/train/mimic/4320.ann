@@ -1,0 +1,14 @@
+T1	Tobacco 18 24	Smokes
+T2	StatusTime 18 24	Smokes
+T3	Type 25 35	cigarettes
+T4	Duration 40 62	approximately 6 months
+T5	History 63 80	over 20 years ago
+T6	Alcohol 98 105	alcohol
+T7	Drug 107 120	illicit drugs
+T8	Type 107 114	illicit
+T9	StatusTime 83 97	Denies current
+E1	Tobacco:T1 Status:T2 Type:T3 Duration:T4 History:T5
+E2	Alcohol:T6 Status:T9
+E3	Drug:T7 Type:T8 Status:T9
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T9 none

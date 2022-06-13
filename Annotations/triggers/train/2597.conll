@@ -1,0 +1,26 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-Tobacco	17	20	non
+I-Tobacco	21	27	smoker
+O	27	28	,
+O	29	31	no
+B-Tobacco	32	39	tobacco
+O	39	40	,
+O	41	43	no
+B-Drug	44	51	illicit
+I-Drug	52	56	drug
+I-Drug	57	60	use
+
+B-LivingStatus	61	66	lives
+O	67	71	with
+O	72	76	wife
+O	77	80	and
+O	81	84	two
+O	85	93	children
+
+O	94	100	father
+O	101	109	recently
+O	110	116	passed
+O	117	121	away

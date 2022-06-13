@@ -1,0 +1,91 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	20	Does
+O	21	24	not
+O	25	29	work
+O	30	33	due
+O	34	36	to
+O	37	38	"
+O	38	46	handicap
+O	46	47	,
+O	47	48	"
+O	49	54	which
+O	55	62	patient
+O	63	70	reports
+O	71	73	is
+
+O	74	81	chronic
+O	82	86	left
+O	87	90	hip
+O	91	95	pain
+O	96	100	from
+O	101	104	her
+O	105	110	prior
+O	111	114	hip
+O	115	126	replacement
+O	126	127	.
+
+O	128	133	Lives
+O	134	138	with
+
+O	139	142	her
+O	143	150	husband
+O	150	151	.
+
+O	152	158	Denies
+O	159	166	tobacco
+O	167	170	use
+O	170	171	.
+
+O	172	175	Has
+O	176	180	long
+O	181	188	history
+O	189	191	of
+B-Alcohol	192	196	EtOH
+I-Alcohol	197	202	abuse
+O	202	203	.
+
+O	204	207	Was
+O	208	213	sober
+O	214	217	for
+O	218	219	a
+O	220	223	few
+O	224	230	months
+O	230	231	,
+O	232	235	but
+O	236	243	started
+B-Alcohol	244	252	drinking
+O	253	258	again
+O	259	260	2
+O	261	266	weeks
+
+O	267	270	ago
+O	270	271	,
+O	272	274	up
+O	275	277	to
+O	278	280	10
+O	281	287	drinks
+O	288	293	daily
+O	294	295	(
+O	295	300	vodka
+O	300	301	)
+O	301	302	.
+
+O	303	307	Also
+O	308	316	endorses
+O	317	324	cocaine
+
+O	325	332	monthly
+O	332	333	,
+O	334	338	most
+O	339	347	recently
+O	348	349	2
+O	350	354	days
+O	355	358	ago
+O	358	359	.
+
+O	360	366	Denies
+O	367	371	IVDU
+O	371	372	.

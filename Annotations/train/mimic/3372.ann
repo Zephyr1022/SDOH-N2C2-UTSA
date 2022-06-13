@@ -1,0 +1,5 @@
+T1	StatusEmploy 27 71	a former [PROFESSION] and [PROFESSION] nurse
+T2	Type 27 71	a former [PROFESSION] and [PROFESSION] nurse
+T3	Employment 27 71	a former [PROFESSION] and [PROFESSION] nurse
+E1	Employment:T3 Type:T2 Status:T1
+A1	StatusEmployVal T1 unemployed

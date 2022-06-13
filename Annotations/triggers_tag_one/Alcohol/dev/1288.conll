@@ -1,0 +1,57 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	23	1
+O	23	24	/
+O	24	25	2
+O	26	30	pack
+O	31	34	per
+O	35	38	day
+O	39	42	x15
+O	43	48	years
+
+B-Alcohol	51	58	Alcohol
+I-Alcohol	59	62	Use
+O	62	63	:
+O	64	68	none
+
+O	72	76	Drug
+O	77	80	Use
+O	80	81	:
+O	82	83	h
+O	83	84	/
+O	84	85	o
+O	86	93	cocaine
+O	94	99	abuse
+O	99	100	,
+O	101	111	reportedly
+O	112	115	not
+O	116	121	since
+O	122	126	2010
+
+O	128	134	SOCIAL
+O	135	142	HISTORY
+O	142	143	:
+
+O	145	150	Lives
+O	151	153	in
+O	154	155	[
+O	155	163	LOCATION
+O	163	164	]
+O	165	167	by
+O	168	175	himself
+O	175	176	,
+O	177	184	present
+O	185	189	with
+O	190	193	his
+O	194	204	girlfriend
+O	205	206	[
+O	206	210	NAME
+O	210	211	]
+O	212	214	at
+O	215	218	the
+O	219	227	hospital
+O	227	228	.

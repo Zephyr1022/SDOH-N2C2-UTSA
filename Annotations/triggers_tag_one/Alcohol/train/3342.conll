@@ -1,0 +1,43 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	lives
+O	23	27	with
+O	28	36	roommate
+O	36	37	,
+O	38	44	single
+O	44	45	,
+O	46	48	on
+O	49	52	SSI
+O	53	54	x
+O	55	56	2
+O	57	62	years
+
+O	63	64	+
+O	65	71	smoker
+
+O	72	73	+
+B-Alcohol	74	81	alcohol
+O	82	83	2
+O	83	84	-
+O	84	85	3
+O	86	92	drinks
+O	92	93	,
+O	94	96	3x
+O	97	101	week
+
+O	102	103	+
+O	104	108	meth
+O	109	112	use
+O	112	113	,
+O	114	118	last
+O	119	123	used
+O	124	125	2
+O	126	130	days
+O	131	134	ago
+O	134	135	,
+O	136	140	uses
+O	141	145	with
+O	146	150	some
+O	151	161	regularity

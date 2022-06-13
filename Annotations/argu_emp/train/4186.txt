@@ -1,0 +1,10 @@
+HABITS: 
+Tobacco Use: x   Alcohol Use: occasional   Drug Use: denies
+
+SOCIAL HISTORY: 
+Complex social history. 
+- Was living at [LOCATION] ALF until early 2016. She was refused readmission with no clear reason. Outside hospital SW tried to apply again x 2 but was not approved. 
+- Decided to move to [LOCATION] to live with her son [DATE]. On arrival she was admitted to AFH instead, unclear if this occured after a hospitalization for stroke. 
+- Decided to move from [LOCATION] AFH to [LOCATION] with her daughter [DATE]. Her daughter reluctantly let her stay. 
+- Admitted to [NAME] [DATE]-[DATE] for dysarthria, diplopia, left sided weakness with negative stroke work up. Discharge delayed since it took time to convince daughter to take her mother back. Readmitted [DATE] for symptom recurrance, family refuse to take her back, discharged [DATE] to UGM
+- On arrival UGM states that they could not accomodate her and had her transition to [NAME]

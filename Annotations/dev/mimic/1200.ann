@@ -1,0 +1,15 @@
+T1	LivingStatus 21 26	lives
+T2	StatusTime 21 26	lives
+T3	TypeLiving 27 37	by herself
+T4	Alcohol 55 62	alcohol
+T5	Tobacco 66 77	tobacco use
+T6	Drug 85 96	IV drug use
+T7	Method 85 87	IV
+T8	StatusTime 44 50	denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T8
+E3	Tobacco:T5 Status:T8
+E4	Drug:T6 Status:T8 Method:T7
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T8 none

@@ -1,0 +1,51 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	24	Homeless
+O	24	25	,
+O	26	34	divorced
+O	34	35	.
+
+O	37	40	One
+O	41	49	daughter
+O	49	50	.
+
+B-Alcohol	52	58	Drinks
+O	59	60	[
+O	60	61	*
+O	61	62	*
+O	62	63	2
+O	63	64	-
+O	64	65	5
+O	65	66	*
+O	66	67	*
+O	67	68	]
+O	69	74	pints
+O	75	77	of
+O	78	83	vodka
+
+O	84	89	daily
+O	89	90	.
+
+O	92	96	Does
+O	97	100	not
+O	101	106	smoke
+O	106	107	.
+
+O	109	115	Remote
+O	116	123	history
+O	124	126	of
+O	127	134	smoking
+O	135	139	1ppw
+O	140	141	x
+O	142	143	8
+
+O	144	149	years
+O	149	150	.
+
+O	152	154	No
+O	155	162	illicit
+O	163	167	drug
+O	168	171	use
+O	171	172	.

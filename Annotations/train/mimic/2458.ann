@@ -1,0 +1,11 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 30	by self
+T4	StatusTime 32 38	denies
+T5	Drug 39 47	illicits
+T6	Type 39 47	illicits
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Drug:T5 Status:T4 Type:T6
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T4 none

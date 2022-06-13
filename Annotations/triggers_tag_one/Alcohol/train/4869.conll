@@ -1,0 +1,155 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	19	He
+O	20	25	lives
+O	26	31	alone
+O	31	32	.
+
+O	34	37	His
+O	38	48	girlfriend
+O	49	54	helps
+O	55	59	with
+
+O	60	63	his
+O	64	68	care
+O	68	69	.
+
+O	71	73	He
+O	74	80	denied
+O	81	88	history
+O	89	91	of
+O	92	99	cocaine
+O	99	100	.
+
+O	102	110	Positive
+O	111	118	history
+O	119	121	of
+
+O	122	131	marijuana
+O	132	135	use
+O	135	136	.
+
+O	138	140	He
+B-Alcohol	141	147	drinks
+O	148	161	approximately
+O	162	166	four
+O	167	176	alcoholic
+O	177	183	drinks
+
+O	184	187	per
+O	188	192	week
+O	192	193	.
+
+O	195	197	He
+O	198	200	is
+O	201	210	currently
+O	211	221	unemployed
+O	221	222	.
+
+O	224	231	Tobacco
+O	232	235	two
+O	236	241	weeks
+
+O	242	247	prior
+O	248	250	to
+O	251	260	admission
+O	260	261	;
+O	262	264	he
+O	265	270	using
+O	271	274	the
+O	275	283	Nicotine
+O	284	289	patch
+O	290	292	to
+O	293	297	help
+O	298	302	with
+
+O	303	307	that
+O	307	308	.
+
+O	310	321	Temperature
+O	322	324	96
+O	324	325	.
+O	325	326	3
+O	326	327	?
+O	327	328	?
+O	328	329	?
+O	329	330	?
+O	330	331	?
+
+O	332	333	?
+O	333	334	,
+O	335	340	pulse
+O	341	343	70
+O	343	344	,
+O	345	350	blood
+O	351	359	pressure
+O	360	362	74
+O	362	363	/
+O	363	365	43
+O	365	366	,
+
+O	367	379	respirations
+O	380	382	16
+O	382	383	,
+O	384	390	oxygen
+O	391	401	saturation
+O	402	405	100
+O	405	406	%
+O	406	407	,
+O	408	410	he
+O	411	419	received
+O	420	423	250
+O	424	426	cc
+
+O	427	429	of
+O	430	436	normal
+O	437	443	saline
+O	444	451	boluses
+O	452	457	which
+O	458	467	increased
+O	468	471	his
+O	472	477	blood
+O	478	486	pressure
+
+O	487	489	to
+O	490	492	80
+O	492	493	/
+O	493	495	50
+O	495	496	.
+
+O	498	500	He
+O	501	504	was
+O	505	510	given
+O	511	521	Kayexalate
+O	522	523	.
+O	523	524	.
+O	524	525	.
+
+O	526	527	p
+O	527	528	.
+O	528	529	o
+O	529	530	.
+
+O	531	532	x
+O	533	534	1
+O	534	535	.
+
+O	536	553	Electrocardiogram
+O	554	557	was
+O	558	564	normal
+O	565	570	sinus
+O	571	577	rhythm
+O	578	580	at
+O	581	583	70
+O	584	589	beats
+O	590	593	per
+
+O	594	600	minute
+O	600	601	,
+O	602	608	atrial
+O	609	614	paced
+O	614	615	,
+O	616	625	ventricle
+O	626	635	conducted
+O	635	636	.

@@ -1,0 +1,100 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Notable
+O	24	27	for
+O	28	29	2
+O	29	30	-
+O	30	31	3
+O	32	37	years
+O	38	40	of
+O	41	46	abuse
+O	47	49	of
+B-Drug	50	57	opioids
+I-Drug	58	61	and
+I-Drug	62	69	cocaine
+O	69	70	.
+
+O	72	75	Per
+O	76	79	the
+
+O	80	87	patient
+O	87	88	'
+O	88	89	s
+O	90	97	reports
+O	98	100	at
+O	101	102	[
+O	102	103	*
+O	103	104	*
+O	104	113	Hospital1
+O	114	115	*
+O	115	116	*
+O	116	117	]
+O	118	120	he
+O	121	125	does
+O	126	129	not
+O	130	134	feel
+B-Drug	135	142	cocaine
+O	143	145	is
+O	146	147	a
+
+O	148	155	problem
+O	156	162	though
+O	163	165	he
+O	166	169	was
+O	170	179	concerned
+O	180	185	about
+O	186	189	his
+B-Drug	190	196	opioid
+I-Drug	197	202	abuse
+O	202	203	.
+
+O	205	212	Unclear
+
+O	213	220	smoking
+O	221	228	history
+O	229	232	and
+O	233	240	alcohol
+O	241	246	abuse
+O	247	254	history
+O	254	255	.
+
+O	257	259	He
+B-LivingStatus	260	265	lives
+O	266	270	with
+O	271	274	his
+
+O	275	285	girlfriend
+O	286	288	in
+O	289	291	an
+O	292	301	apartment
+O	302	306	with
+O	307	312	their
+O	313	321	daughter
+O	321	322	.
+
+O	324	325	[
+O	325	326	*
+O	326	327	*
+O	327	331	Name
+O	332	333	(
+O	333	335	NI
+O	335	336	)
+O	337	338	*
+O	338	339	*
+O	339	340	]
+O	341	343	is
+
+B-Employment	344	354	unemployed
+O	354	355	.
+
+O	357	360	One
+O	361	366	other
+O	367	370	son
+O	371	374	who
+O	375	380	lives
+O	381	385	with
+O	386	389	his
+O	390	396	mother
+O	396	397	.

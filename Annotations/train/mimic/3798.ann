@@ -1,0 +1,35 @@
+T1	Drug 18 25	cocaine
+T2	StatusTime 27 31	quit
+T3	Type 18 25	cocaine
+T4	History 32 41	in [DATE]
+T5	Duration 63 73	for 15 yrs
+T6	Drug 178 184	heroin
+T7	Type 178 184	heroin
+T8	StatusTime 186 190	quit
+T10	Amount 202 208	a gram
+T11	Frequency 208 212	/day
+T12	Duration 220 229	for 10yrs
+T13	Drug 232 241	marijuana
+T14	Type 232 241	marijuana
+T15	StatusTime 243 247	quit
+T16	History 248 257	at age 14
+T17	Tobacco 268 275	smoking
+T18	StatusTime 263 267	quit
+T19	History 276 287	4 yrs prior
+T20	Amount 289 299	20 pack yr
+T21	Alcohol 305 325	moderate alcohol use
+T22	StatusTime 305 325	moderate alcohol use
+T24	Amount 327 337	1-2 drinks
+T25	Frequency 337 341	/day
+T26	Duration 342 352	for 10 yrs
+E1	Drug:T1 Type:T3 Status:T2 History:T4 Duration:T5
+E2	Drug:T6 Type:T7 Status:T8 Amount:T10 Frequency:T11 Duration:T12 History:T9
+E3	Drug:T13 Type:T14 Status:T15 History:T16
+E4	Tobacco:T17 Status:T18 History:T19 Amount:T20
+E5	Alcohol:T21 Status:T22 Amount:T24 Frequency:T25 Duration:T26
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T8 past
+A3	StatusTimeVal T15 past
+A4	StatusTimeVal T18 past
+A5	StatusTimeVal T22 current
+T9	History 191 200	in [DATE]

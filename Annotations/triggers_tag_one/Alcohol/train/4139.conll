@@ -1,0 +1,25 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	lives
+O	23	27	with
+O	28	37	caregiver
+O	37	38	,
+O	39	45	family
+O	46	48	in
+O	49	53	area
+O	53	54	,
+O	55	61	single
+O	61	62	,
+O	63	71	disabled
+
+O	72	74	ex
+O	74	75	-
+O	75	81	smoker
+
+O	82	88	denies
+B-Alcohol	89	96	alcohol
+O	97	99	or
+O	100	104	drug
+O	105	108	use

@@ -1,0 +1,20 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Social
+O	23	30	History
+O	30	31	:
+B-LivingStatus	32	37	Lives
+O	38	42	with
+O	43	50	husband
+O	51	54	and
+O	55	63	daughter
+O	63	64	.
+
+O	66	72	Denies
+B-Tobacco	73	80	tobacco
+
+O	81	84	and
+B-Alcohol	85	89	ETOH
+O	89	90	.

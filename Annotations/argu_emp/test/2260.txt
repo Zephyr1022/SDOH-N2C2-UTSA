@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: chewed tobacco x 20 years, quit [DATE]   Alcohol Use: has 3 drinks/day, quit [DATE]   Drug Use: Never
+
+SOCIAL HISTORY: 
+Lives alone. Has significant other, [NAME], who is present in ED.

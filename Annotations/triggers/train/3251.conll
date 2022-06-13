@@ -1,0 +1,20 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+O	16	17	[
+O	17	25	LOCATION
+O	25	26	]
+O	26	27	.
+
+O	28	39	Electrician
+O	40	42	by
+O	43	51	training
+O	52	55	but
+B-Employment	56	65	currently
+I-Employment	66	77	unemployeed
+O	77	78	.
+
+B-Tobacco	80	87	Tobacco
+O	87	88	:
+O	89	97	endorses
+O	97	98	.

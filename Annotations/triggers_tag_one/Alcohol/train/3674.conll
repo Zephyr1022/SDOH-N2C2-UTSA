@@ -1,0 +1,45 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	23	HABITS
+O	23	24	:
+
+O	26	34	Homeless
+O	35	36	x
+O	37	39	11
+O	40	45	years
+
+O	46	53	Tobacco
+O	54	57	Use
+O	57	58	:
+O	59	70	10cigaretes
+O	70	71	/
+O	71	74	day
+O	75	78	x30
+O	79	84	years
+
+B-Alcohol	86	93	Alcohol
+I-Alcohol	94	97	Use
+O	97	98	:
+O	99	107	endorses
+O	107	108	,
+O	109	113	with
+O	114	118	last
+O	119	124	drink
+O	125	130	today
+
+O	131	135	Drug
+O	136	139	Use
+O	139	140	:
+O	141	149	previous
+O	150	154	meth
+O	155	158	and
+O	159	166	cocaine
+O	167	170	use
+O	170	171	,
+O	172	178	states
+O	179	184	clean
+O	185	188	for
+O	189	190	2
+O	191	196	years

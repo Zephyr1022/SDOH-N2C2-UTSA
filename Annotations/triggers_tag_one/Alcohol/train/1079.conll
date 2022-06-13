@@ -1,0 +1,93 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	The
+O	20	27	patient
+O	28	34	worked
+O	35	37	as
+O	38	39	a
+O	40	45	nurse
+O	46	58	practitioner
+O	59	64	until
+O	65	66	[
+O	66	67	*
+O	67	68	*
+O	68	72	2159
+O	72	73	*
+O	73	74	*
+O	74	75	]
+O	76	80	when
+O	81	84	she
+
+O	85	94	developed
+O	95	99	back
+O	100	104	pain
+O	104	105	.
+
+O	106	109	She
+O	110	112	is
+O	113	119	single
+O	120	123	and
+O	124	129	lives
+O	130	134	with
+O	135	138	her
+O	139	145	sister
+O	145	146	.
+
+O	147	150	She
+O	151	154	has
+O	155	160	never
+O	161	165	been
+O	166	174	pregnant
+O	174	175	.
+
+O	176	179	She
+O	180	186	smokes
+O	187	191	half
+O	192	193	a
+O	194	198	pack
+O	199	201	of
+
+O	202	212	cigarettes
+O	213	214	a
+O	215	218	day
+O	218	219	.
+
+O	220	223	She
+O	224	227	has
+O	228	233	tried
+O	234	236	to
+O	237	241	quit
+O	241	242	.
+
+O	243	246	Has
+O	247	253	smoked
+O	254	257	for
+O	258	259	"
+O	259	263	many
+O	263	264	"
+
+O	265	270	years
+O	271	274	and
+O	275	278	was
+O	279	285	unable
+O	286	288	to
+O	289	297	quantify
+O	297	298	.
+
+O	299	302	She
+O	303	307	does
+O	308	311	not
+O	312	317	drink
+B-Alcohol	318	325	alcohol
+O	325	326	.
+
+O	327	330	She
+O	331	340	exercises
+O	341	350	regularly
+O	351	355	with
+O	356	357	a
+O	358	366	personal
+O	367	374	trainer
+O	374	375	.

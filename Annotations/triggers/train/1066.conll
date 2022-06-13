@@ -1,0 +1,27 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	27	alone
+O	28	30	in
+O	31	38	Mission
+O	39	43	park
+O	43	44	.
+
+O	45	47	No
+B-Alcohol	48	55	alcohol
+O	56	58	or
+B-Tobacco	59	66	smoking
+O	66	67	.
+
+O	68	74	Former
+
+O	75	89	administrative
+O	90	99	assistant
+O	100	103	for
+O	104	110	Lucent
+O	111	114	bur
+B-Employment	115	122	retired
+O	123	128	x7yrs
+O	128	129	.

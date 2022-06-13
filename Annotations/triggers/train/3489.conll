@@ -1,0 +1,44 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	23	Living
+I-LivingStatus	24	33	situation
+O	33	34	:
+
+O	36	47	transiently
+O	48	54	housed
+
+B-Employment	55	58	sex
+I-Employment	59	65	worker
+
+B-Drug	66	75	Substance
+I-Drug	76	79	use
+O	79	80	:
+
+O	81	85	IVDU
+O	86	92	heroin
+O	92	93	,
+O	94	95	+
+B-Drug	95	98	PSA
+
+O	99	105	SOCIAL
+O	106	113	HISTORY
+O	113	114	:
+
+B-LivingStatus	116	122	Living
+I-LivingStatus	123	132	situation
+O	132	133	:
+
+O	135	146	transiently
+O	147	153	housed
+
+B-Drug	154	163	Substance
+I-Drug	164	167	use
+O	167	168	:
+
+O	169	173	IVDU
+O	174	180	heroin
+O	180	181	,
+O	182	183	+
+B-Drug	183	186	PSA

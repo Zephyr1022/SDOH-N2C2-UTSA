@@ -1,0 +1,10 @@
+T1	Tobacco 130 136;137 143	Former smoker
+T2	StatusTime 130 136;137 143	Former smoker
+T3	LivingStatus 191 196	lives
+T4	StatusTime 191 196	lives
+T5	TypeLiving 186 199;200 204	wife lives at home
+E1	Tobacco:T1 Status:T2
+E2	LivingStatus:T3 Status:T4 Type:T5
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T5 with_family

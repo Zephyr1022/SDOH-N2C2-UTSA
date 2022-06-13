@@ -1,0 +1,15 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Tobacco	16	23	tobacco
+I-Tobacco	24	29	abuse
+
+O	30	38	question
+O	39	41	of
+B-Alcohol	42	49	alcohol
+I-Alcohol	50	55	abuse
+
+B-Employment	56	61	works
+O	62	64	as
+O	65	75	landscaper

@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: occasional, did not specify  Alcohol Use: occasional  Drug Use: marijuana
+
+SOCIAL HISTORY: 
+[X] Unable to Obtain due to Patient Condition
+Residence: _

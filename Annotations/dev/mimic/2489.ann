@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 31 42	Alcohol Use
+T3	StatusTime 22 28	denies
+T4	StatusTime 44 50	denies
+T5	Drug 53 61	Drug Use
+T6	StatusTime 63 69	denies
+T7	LivingStatus 88 94	Housed
+T8	TypeLiving 95 119	with her daughter in law
+T9	Employment 189 195	worked
+T10	StatusEmploy 178 195	Previously worked
+T11	Type 199 208	a factory
+T12	StatusTime 88 94	Housed
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T2 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Type:T8 Status:T12
+E5	Employment:T9 Type:T11 Status:T10
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	TypeLivingVal T8 with_family
+A5	StatusEmployVal T10 unemployed
+A6	StatusTimeVal T12 current

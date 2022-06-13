@@ -1,0 +1,22 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	16	18	No
+B-Alcohol	19	26	alcohol
+O	26	27	,
+B-Tobacco	28	35	tobacco
+O	35	36	,
+O	37	39	or
+B-Drug	40	44	drug
+I-Drug	45	48	use
+O	48	49	.
+
+B-LivingStatus	51	56	Lives
+O	57	61	with
+O	62	69	parents
+O	70	73	and
+B-Employment	74	78	goes
+I-Employment	79	81	to
+I-Employment	82	88	school
+O	88	89	.

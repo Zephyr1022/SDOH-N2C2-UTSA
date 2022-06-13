@@ -1,0 +1,31 @@
+T1	Employment 25 42	an office manager
+T2	Type 25 42	an office manager
+T4	Tobacco 49 55	smoked
+T5	Amount 56 59;60 65	1.5 packs
+T6	Frequency 66 73	per day
+T7	Duration 74 88	times 40 years
+T8	StatusTime 93 97	quit
+T9	History 98 113	nine months ago
+T10	LivingStatus 120 125	lives
+T11	StatusTime 120 125	lives
+T12	TypeLiving 126 142	with her husband
+T13	Alcohol 149 155	drinks
+T14	StatusTime 149 155	drinks
+T15	Amount 156 165	2 glasses
+T16	Type 169 173	wine
+T17	Frequency 174 177;178 181	per day
+T18	Drug 201 208	cocaine
+T19	Type 201 208	cocaine
+T20	StatusTime 188 200	does not use
+T3	StatusEmploy 22 24	is
+E1	Employment:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Amount:T5 Frequency:T6 Duration:T7 Status:T8 History:T9
+E3	LivingStatus:T10 Status:T11 Type:T12
+E4	Alcohol:T13 Status:T14 Amount:T15 Type:T16 Frequency:T17
+E5	Drug:T18 Type:T19 Status:T20
+A2	StatusTimeVal T8 past
+A3	StatusTimeVal T11 current
+A4	TypeLivingVal T12 with_family
+A5	StatusTimeVal T14 current
+A6	StatusTimeVal T20 none
+A1	StatusEmployVal T3 employed

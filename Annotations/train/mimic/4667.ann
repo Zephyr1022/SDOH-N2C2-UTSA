@@ -1,0 +1,6 @@
+T1	Alcohol 78 82	EtOH
+T2	Tobacco 87 100	tobacco abuse
+T4	StatusTime 67 77	History of
+E1	Alcohol:T1 Status:T4
+E2	Tobacco:T2 Status:T4
+A2	StatusTimeVal T4 current

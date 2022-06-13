@@ -1,0 +1,49 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	31	downtown
+O	32	38	Trying
+O	39	41	to
+O	42	48	enroll
+O	49	51	in
+O	52	58	online
+O	59	65	school
+O	65	66	.
+
+O	68	73	Prior
+B-Drug	74	83	oxycodone
+O	84	93	addiction
+O	93	94	,
+O	95	98	now
+O	99	101	on
+O	102	111	Methadone
+O	111	112	.
+
+O	113	119	Denies
+O	120	123	any
+O	124	129	other
+B-Drug	130	134	drug
+I-Drug	135	138	use
+O	138	139	.
+
+B-Tobacco	141	147	Smoked
+O	148	149	~
+O	149	150	1
+O	150	151	/
+O	151	156	2pack
+O	157	160	for
+O	161	163	15
+O	164	169	years
+O	169	170	,
+O	171	174	now
+O	175	179	quit
+O	179	180	.
+
+O	181	183	No
+B-Alcohol	184	191	alcohol
+O	192	193	(
+O	193	199	father
+O	200	209	alcoholic
+O	209	210	)

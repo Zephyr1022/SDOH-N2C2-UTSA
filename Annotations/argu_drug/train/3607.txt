@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: cig   Alcohol Use: occ   Drug Use: MJ
+
+SOCIAL HISTORY: 
+Residence: indepenent in apt

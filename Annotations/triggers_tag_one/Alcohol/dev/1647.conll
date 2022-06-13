@@ -1,0 +1,49 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Residence
+O	26	27	:
+
+O	29	35	Repite
+O	35	36	.
+
+O	38	45	Tobacco
+O	46	49	use
+O	49	50	:
+
+O	52	62	Cigarettes
+O	62	63	:
+O	64	65	0
+O	65	66	.
+O	66	67	5
+O	68	73	packs
+O	73	74	/
+O	75	78	day
+O	78	79	,
+O	80	85	since
+O	86	89	age
+O	90	92	15
+O	92	93	.
+
+B-Alcohol	95	102	Alcohol
+I-Alcohol	103	106	use
+O	106	107	:
+O	108	113	since
+O	114	124	occasional
+O	124	125	.
+
+O	127	131	Drug
+O	132	135	use
+O	135	136	:
+
+O	138	144	Denies
+O	144	145	.
+
+O	147	149	hx
+O	150	152	of
+O	153	157	IVDU
+O	158	164	heroin
+O	165	168	and
+O	169	184	methamphetamine
+O	184	185	.

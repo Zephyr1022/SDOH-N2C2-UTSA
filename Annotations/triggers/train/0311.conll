@@ -1,0 +1,100 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	25	Currently
+I-LivingStatus	26	38	incarcerated
+O	38	39	.
+
+B-Tobacco	40	47	Tobacco
+O	47	48	:
+O	49	51	30
+O	52	56	pack
+O	57	62	years
+O	62	63	.
+
+B-Alcohol	64	68	EtOH
+O	68	69	:
+O	70	75	Daily
+O	76	79	x40
+O	80	85	years
+O	85	86	.
+
+O	87	92	Prior
+B-Drug	93	99	heroin
+I-Drug	100	103	and
+I-Drug	104	105	?
+
+B-Drug	106	113	cocaine
+I-Drug	114	117	use
+O	117	118	,
+O	119	123	last
+O	124	127	use
+
+O	128	134	within
+O	135	138	one
+O	139	143	year
+O	143	144	.
+
+O	146	149	Per
+O	150	153	his
+O	154	160	guards
+O	160	161	,
+O	162	164	he
+B-LivingStatus	165	167	is
+I-LivingStatus	168	176	homeless
+O	177	180	and
+O	181	187	likely
+O	188	192	gets
+
+O	193	200	medical
+O	201	205	care
+O	206	208	at
+O	209	210	[
+O	210	211	*
+O	211	212	*
+O	212	221	Hospital1
+O	222	223	*
+O	223	224	*
+O	224	225	]
+O	225	226	.
+
+O	227	229	He
+O	230	233	has
+O	234	237	had
+O	238	246	multiple
+O	247	261	incarcerations
+O	262	264	in
+
+O	265	268	the
+O	269	273	past
+O	273	274	,
+O	275	282	usually
+O	283	284	3
+O	284	285	-
+O	285	286	6
+O	287	293	months
+O	294	298	long
+O	299	301	at
+O	302	303	a
+O	304	308	time
+O	308	309	,
+O	310	317	between
+O	318	323	which
+O	324	326	he
+
+O	327	334	returns
+O	335	337	to
+O	338	341	the
+O	342	349	streets
+O	350	353	and
+O	354	358	uses
+B-Alcohol	359	363	EtOH
+O	363	364	,
+B-Drug	365	372	cocaine
+O	372	373	,
+O	374	377	and
+B-Drug	378	384	heroin
+
+O	385	395	frequently
+O	395	396	.

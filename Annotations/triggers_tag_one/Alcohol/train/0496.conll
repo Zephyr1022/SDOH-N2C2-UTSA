@@ -1,0 +1,56 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	The
+O	20	27	patient
+O	28	36	achieved
+O	37	38	a
+O	39	43	high
+O	44	50	school
+O	51	60	education
+O	60	61	.
+
+O	62	65	She
+O	66	71	works
+O	72	74	as
+O	75	76	a
+O	77	85	customer
+O	86	93	service
+O	94	97	rep
+O	97	98	.
+
+O	100	103	She
+O	104	107	has
+O	108	113	three
+O	114	122	children
+O	122	123	.
+
+O	124	127	Her
+O	128	131	two
+O	132	136	sons
+O	137	142	still
+O	143	147	live
+O	148	152	with
+O	153	156	her
+O	157	160	and
+O	161	164	her
+O	165	172	husband
+O	172	173	.
+
+O	175	178	She
+O	179	185	smoked
+
+O	186	196	cigarettes
+O	197	199	in
+O	200	203	the
+O	204	211	distant
+O	212	216	past
+O	216	217	.
+
+O	219	222	She
+O	223	229	denies
+O	230	233	any
+B-Alcohol	234	241	alcohol
+I-Alcohol	242	248	intake
+O	248	249	.

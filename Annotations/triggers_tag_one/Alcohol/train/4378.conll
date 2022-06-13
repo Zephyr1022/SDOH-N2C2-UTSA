@@ -1,0 +1,34 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	18	2
+O	18	19	-
+O	19	20	3
+B-Alcohol	21	26	Beers
+O	27	30	per
+O	31	36	night
+
+O	37	38	+
+O	38	40	MJ
+O	41	44	use
+
+O	45	53	Previous
+O	54	60	smoker
+O	60	61	.
+
+O	62	64	10
+O	64	65	-
+O	65	69	15pk
+O	69	70	/
+O	70	72	yr
+O	72	73	.
+
+O	74	78	Quit
+O	79	83	10yr
+O	84	87	ago
+O	87	88	.
+
+O	90	95	Lives
+O	96	98	in
+O	99	106	shelter

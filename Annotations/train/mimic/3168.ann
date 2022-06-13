@@ -1,0 +1,11 @@
+T1	LivingStatus 54 60	Living
+T2	TypeLiving 91 107	with his Sponsor
+T3	Employment 23 33	Occupation
+T4	StatusEmploy 35 43	lost job
+T5	History 44 53	in [DATE]
+T6	StatusTime 62 69	staying
+E1	LivingStatus:T1 Type:T2 Status:T6
+E2	Employment:T3 Status:T4 History:T5
+A1	TypeLivingVal T2 with_others
+A2	StatusEmployVal T4 unemployed
+A3	StatusTimeVal T6 current

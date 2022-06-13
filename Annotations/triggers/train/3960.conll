@@ -1,0 +1,57 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	20	not
+O	21	30	currently
+O	31	38	smoking
+B-Drug	39	48	marijuana
+O	49	51	or
+O	52	60	drinking
+B-Alcohol	61	65	EtOH
+O	66	72	during
+O	73	82	pregnancy
+
+O	83	87	Last
+O	88	93	drink
+O	94	95	[
+O	95	99	DATE
+O	99	100	]
+O	100	101	;
+O	102	105	was
+O	106	113	smoking
+B-Drug	114	122	cannabis
+O	123	124	1
+O	124	125	-
+O	125	126	3
+O	127	132	times
+O	133	138	daily
+O	138	139	.
+
+O	140	142	Hx
+B-Drug	143	150	cocaine
+I-Drug	151	154	use
+O	154	155	,
+O	156	160	last
+O	161	162	[
+O	162	166	DATE
+O	166	167	]
+
+O	168	170	no
+B-Tobacco	171	178	tobacco
+
+O	179	187	unstable
+O	188	195	housing
+O	196	205	situation
+O	205	206	,
+B-LivingStatus	207	216	currently
+I-LivingStatus	217	224	staying
+O	225	229	with
+O	230	231	a
+O	232	238	friend
+O	239	241	in
+O	242	243	[
+O	243	251	LOCATION
+O	251	252	]
+
+B-Employment	253	263	unemployed

@@ -1,0 +1,54 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	He
+O	19	24	lives
+O	25	27	in
+O	28	30	JP
+O	31	34	and
+O	35	37	is
+O	38	45	married
+O	45	46	.
+
+O	47	49	He
+O	50	56	worked
+O	57	59	as
+O	60	61	a
+O	62	70	personal
+O	71	75	care
+
+O	76	85	attendant
+O	86	89	but
+O	90	92	is
+O	93	102	currenlty
+O	103	113	unemployed
+O	113	114	.
+
+O	116	118	No
+B-Alcohol	119	123	ETOH
+O	123	124	,
+B-Alcohol	125	132	alcohol
+O	133	135	or
+
+O	136	143	illicit
+O	144	148	drug
+O	149	152	use
+O	152	153	.
+
+O	155	157	Pt
+O	157	158	.
+O	159	162	has
+O	163	164	1
+O	165	170	child
+O	171	175	with
+O	176	180	this
+O	181	188	partner
+O	188	189	,
+O	190	191	2
+O	192	198	others
+
+O	199	203	with
+O	204	209	other
+O	210	218	partners
+O	218	219	.

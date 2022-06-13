@@ -1,0 +1,34 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	26	27	:
+O	27	32	Alone
+
+B-Employment	33	43	Occupation
+O	43	44	:
+O	44	50	Farmer
+O	50	51	,
+O	52	56	self
+O	56	57	-
+O	57	65	employed
+
+B-Tobacco	66	73	Tobacco
+O	73	74	:
+O	74	80	remote
+O	81	83	hx
+O	83	84	,
+O	85	88	not
+O	89	94	heavy
+
+B-Alcohol	95	99	ETOH
+O	99	100	:
+O	100	101	2
+O	102	107	beers
+O	107	108	/
+O	108	111	day
+O	112	113	x
+O	114	116	10
+O	117	122	years

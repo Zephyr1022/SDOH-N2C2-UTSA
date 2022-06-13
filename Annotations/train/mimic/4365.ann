@@ -1,0 +1,27 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 31 42	Alcohol Use
+T3	StatusTime 44 50	denies
+T4	StatusTime 22 28	denies
+T5	Drug 92 100	Drug Use
+T6	StatusTime 102 108	denies
+T7	StatusTime 65 68	h/o
+T8	Alcohol 69 73	etoh
+T10	StatusTime 119 122	h/o
+T11	Drug 123 129	opiate
+T13	Type 123 129	opiate
+T14	StatusTime 187 192	lives
+T15	TypeLiving 201 213	with her son
+T16	LivingStatus 187 192	lives
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T3
+E3	Drug:T5 Status:T6
+E4	Alcohol:T8 Status:T7
+E5	Drug:T11 Status:T10 Type:T13
+E6	LivingStatus:T16 Type:T15 Status:T14
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T7 past
+A6	StatusTimeVal T10 past
+A8	StatusTimeVal T14 current
+A9	TypeLivingVal T15 with_family

@@ -1,0 +1,26 @@
+T1	Employment 32 53	Retired social worker
+T2	StatusEmploy 32 53	Retired social worker
+T3	Type 32 53	Retired social worker
+T4	StatusTime 67 72	lives
+T5	LivingStatus 67 72	lives
+T6	TypeLiving 73 77;78 89	with her husband
+T7	Alcohol 121 131	alcoholism
+T8	StatusTime 136 140	quit
+T9	History 150 169	almost 30 yaers ago
+T11	Tobacco 178 184	smoker
+T12	StatusTime 186 190	quit
+T13	History 191 201	[**2175**]
+T14	Drug 219 224	drugs
+T15	StatusTime 203 205	No
+T16	Type 206 218	recreational
+E1	Employment:T1 Type:T3 Status:T2
+E2	LivingStatus:T5 Type:T6 Status:T4
+E3	Alcohol:T7 Status:T8 History:T9
+E4	Tobacco:T11 Status:T12 History:T13
+E5	Drug:T14 Status:T15 Type:T16
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T8 past
+A6	StatusTimeVal T12 past
+A7	StatusTimeVal T15 past

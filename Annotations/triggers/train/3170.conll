@@ -1,0 +1,92 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	24	Patient
+O	25	27	is
+B-LivingStatus	28	36	homeless
+O	36	37	,
+O	38	44	living
+O	45	47	in
+O	48	52	tent
+O	52	53	.
+
+B-Alcohol	55	59	EtOH
+O	59	60	-
+O	61	67	denies
+O	68	71	use
+O	72	75	for
+O	76	77	>
+O	77	78	4
+O	79	84	years
+O	84	85	.
+
+O	86	88	No
+O	89	94	prior
+O	95	97	hx
+O	98	100	of
+O	101	105	EtOH
+O	106	116	withdrawal
+O	116	117	.
+
+B-Drug	119	127	Illicits
+O	127	128	-
+O	129	136	reports
+O	137	142	prior
+O	143	145	IV
+O	146	152	heroin
+O	153	156	use
+O	157	159	in
+O	160	165	veins
+O	166	168	in
+O	169	172	arm
+O	172	173	.
+
+O	174	178	Last
+O	179	182	one
+O	183	187	year
+O	188	191	ago
+O	191	192	.
+
+O	193	199	Denies
+O	200	205	dirty
+O	206	212	needle
+O	213	216	use
+O	217	219	or
+O	220	227	sharing
+O	228	235	needles
+O	235	236	.
+
+O	237	240	Was
+O	241	243	on
+O	244	253	methadone
+O	254	257	for
+O	258	259	3
+O	260	266	months
+O	266	267	,
+O	268	270	no
+O	271	277	longer
+O	278	280	as
+O	281	282	"
+O	282	286	hard
+O	287	289	on
+O	290	294	body
+O	294	295	"
+
+B-Tobacco	296	303	Tobacco
+O	304	305	-
+O	306	310	uses
+O	311	312	1
+O	312	313	/
+O	313	314	2
+O	315	318	ppd
+O	319	320	x
+O	321	323	15
+O	324	329	years
+O	329	330	.
+
+O	331	341	Interested
+O	342	344	in
+O	345	353	nicotine
+O	354	365	replacement
+O	365	366	.

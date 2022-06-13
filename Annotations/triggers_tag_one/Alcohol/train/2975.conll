@@ -1,0 +1,70 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	25	in
+O	26	27	a
+O	28	34	rented
+O	35	39	room
+O	40	42	in
+O	43	44	a
+O	45	50	house
+O	51	55	with
+O	56	59	her
+O	60	67	husband
+O	67	68	.
+
+O	69	79	Unemployed
+O	79	80	.
+
+O	81	82	+
+O	82	89	tobacco
+O	90	91	-
+O	92	94	15
+O	94	95	+
+O	96	100	pack
+O	100	101	-
+O	101	105	year
+O	106	108	hx
+O	108	109	.
+
+O	110	111	+
+B-Alcohol	111	115	etoh
+O	116	117	-
+O	118	128	occasional
+O	128	129	,
+O	130	134	does
+O	135	138	not
+O	139	147	quantify
+O	147	148	.
+
+O	149	155	Smokes
+O	156	161	crack
+O	162	169	cocaine
+O	170	171	-
+O	172	176	last
+O	177	180	use
+O	181	182	4
+O	183	187	days
+O	188	191	ago
+O	191	192	,
+O	193	198	would
+O	199	203	like
+O	204	206	to
+O	207	211	quit
+O	211	212	.
+
+O	213	219	Denies
+O	220	223	any
+O	224	229	other
+O	230	234	drug
+O	235	238	use
+O	238	239	.
+
+O	240	246	Denies
+O	247	248	h
+O	248	249	/
+O	249	250	o
+O	251	255	IVDU
+O	255	256	.

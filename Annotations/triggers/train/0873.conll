@@ -1,0 +1,9 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	denies
+B-Alcohol	23	27	ETOH
+I-Alcohol	28	31	use
+
+B-Tobacco	32	41	nonsmoker

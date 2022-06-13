@@ -1,0 +1,23 @@
+T1	Type 263 279	Retired engineer
+T2	Employment 263 279	Retired engineer
+T3	StatusEmploy 263 279	Retired engineer
+T8	Drug 111 119	Illicits
+T9	Alcohol 80 84	EtOH
+T10	Tobacco 9 20	Tobacco Use
+T11	Type 111 119	Illicits
+T12	StatusTime 121 127	denies
+T14	Amount 86 110	occasional glass of wine
+T15	StatusTime 86 110	occasional glass of wine
+T16	StatusTime 37 41	quit
+T17	History 42 46	1984
+T18	Duration 48 54	12 yrs
+T19	Amount 56 63	1.5 ppd
+E1	Employment:T2 Type:T1 Status:T3
+E3	Drug:T8 Status:T12 Type:T11
+E4	Alcohol:T9 Amount:T14 Status:T15
+E5	Tobacco:T10 Status:T16 History:T17 Duration:T18 Amount:T19 Amount2:T4
+A1	StatusEmployVal T3 retired
+A3	StatusTimeVal T12 none
+A5	StatusTimeVal T15 current
+A6	StatusTimeVal T16 past
+T4	Amount 65 75	18 pack-yr

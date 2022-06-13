@@ -1,0 +1,32 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	26	Residence
+O	26	27	:
+
+O	29	37	Homeless
+O	37	38	.
+
+B-Employment	40	50	Employment
+O	50	51	:
+
+O	53	61	Employed
+O	62	65	day
+O	66	71	labor
+O	71	72	.
+
+B-Tobacco	74	81	Tobacco
+I-Tobacco	82	85	use
+O	85	86	:
+
+O	88	95	Chewing
+O	96	103	tobacco
+O	103	104	:
+O	104	105	.
+
+B-Alcohol	107	114	Alcohol
+I-Alcohol	115	118	use
+O	118	119	:
+O	120	127	spirits
+O	127	128	.

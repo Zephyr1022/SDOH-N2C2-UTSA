@@ -1,0 +1,22 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 24	No
+T3	Alcohol 26 37	Alcohol Use
+T4	StatusTime 39 67	1.5 bottles of whiskey daily
+T5	Amount 39 61	1.5 bottles of whiskey
+T6	Type 54 61	whiskey
+T7	Frequency 62 67	daily
+T8	Drug 69 77	Drug Use
+T9	StatusTime 79 99	Occasional Marijuana
+T10	Type 90 99	Marijuana
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Amount:T5 Status:T4 Type:T6 Frequency:T7
+E3	Drug:T8 Status:T9 Type:T10
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T9 current
+T11	LivingStatus 164 173	Residence
+E4	LivingStatus:T11 Status:T12 Type:T13
+T12	StatusTime 174 179	Lives
+A4	StatusTimeVal T12 current
+T13	TypeLiving 180 188	in woods
+A5	TypeLivingVal T13 homeless

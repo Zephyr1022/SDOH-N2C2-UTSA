@@ -1,0 +1,55 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	26	none
+B-Alcohol	29	36	Alcohol
+I-Alcohol	37	40	Use
+O	40	41	:
+O	42	46	none
+B-Drug	49	53	Drug
+I-Drug	54	57	Use
+O	57	58	:
+O	59	62	new
+O	63	72	marijuana
+O	73	80	product
+O	81	85	once
+O	86	90	last
+O	91	95	week
+
+O	97	103	SOCIAL
+O	104	111	HISTORY
+O	111	112	:
+
+B-LivingStatus	114	119	Lives
+O	120	124	with
+O	125	132	husband
+O	133	134	[
+O	134	138	NAME
+O	138	139	]
+O	140	142	in
+O	143	144	[
+O	144	152	LOCATION
+O	152	153	]
+O	153	154	.
+
+O	155	158	Has
+O	159	166	several
+O	167	175	children
+O	176	179	and
+O	180	181	2
+O	182	184	yo
+O	185	198	granddaughter
+O	198	199	.
+
+O	200	202	No
+O	203	209	longer
+B-Employment	210	217	working
+O	218	221	but
+O	222	227	helps
+O	228	232	care
+O	233	236	for
+O	237	247	grandchild
+O	247	248	.

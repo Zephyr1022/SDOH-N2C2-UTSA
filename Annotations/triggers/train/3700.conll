@@ -1,0 +1,72 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	denies
+
+B-Alcohol	32	39	Alcohol
+I-Alcohol	40	43	Use
+O	43	44	:
+O	45	51	denies
+
+B-Drug	55	59	Drug
+I-Drug	60	63	Use
+O	63	64	:
+O	65	71	denies
+
+O	73	79	SOCIAL
+O	80	87	HISTORY
+O	87	88	:
+
+O	90	96	States
+B-LivingStatus	97	106	currently
+I-LivingStatus	107	115	homeless
+O	116	118	in
+O	119	120	[
+O	120	128	LOCATION
+O	128	129	]
+O	130	133	but
+O	134	138	then
+O	139	143	says
+O	144	146	he
+O	147	150	has
+O	151	155	been
+O	156	163	staying
+O	164	166	in
+O	167	168	a
+O	169	174	house
+O	174	175	.
+
+O	176	183	Working
+O	184	186	on
+O	187	194	getting
+O	195	205	disability
+O	206	211	again
+O	211	212	.
+
+O	213	215	He
+O	216	222	states
+O	223	227	that
+O	228	230	he
+O	231	234	has
+O	235	240	three
+O	241	250	daughters
+O	251	254	who
+O	255	259	live
+O	260	264	with
+O	265	270	their
+O	271	277	mother
+O	278	280	in
+O	281	282	[
+O	282	290	LOCATION
+O	290	291	]
+O	291	292	.
+
+O	293	295	No
+O	296	302	family
+O	303	305	in
+O	306	309	the
+O	310	314	area
+O	314	315	.

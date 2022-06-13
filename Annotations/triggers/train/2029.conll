@@ -1,0 +1,91 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	26	Previously
+B-Employment	27	28	a
+I-Employment	29	35	school
+I-Employment	36	43	teacher
+O	44	45	-
+O	46	49	1st
+O	50	55	grade
+O	55	56	.
+
+O	57	62	Never
+O	63	70	married
+O	70	71	.
+
+O	72	74	No
+
+O	75	83	children
+O	83	84	.
+
+O	85	88	She
+O	89	91	is
+O	92	95	one
+O	96	98	of
+O	99	100	9
+O	101	109	children
+O	109	110	.
+
+B-LivingStatus	111	116	Lives
+O	117	121	with
+O	122	129	younger
+O	130	137	brother
+
+O	138	140	in
+O	141	142	[
+O	142	143	*
+O	143	144	*
+O	144	148	Name
+O	149	150	(
+O	150	152	NI
+O	152	153	)
+O	154	155	*
+O	155	156	*
+O	156	157	]
+O	157	158	.
+
+O	159	161	No
+B-Alcohol	162	166	EtOH
+O	167	169	or
+B-Tobacco	170	177	tobacco
+O	178	180	in
+O	181	183	15
+O	184	189	years
+O	189	190	,
+O	191	194	but
+O	195	198	was
+O	199	200	a
+O	201	207	social
+
+O	208	212	user
+O	213	215	of
+O	216	223	alcohol
+O	223	224	/
+O	224	231	tobacco
+O	231	232	.
+
+O	233	240	Brother
+O	241	245	does
+O	246	254	shopping
+O	254	255	,
+O	256	263	cooking
+O	263	264	,
+
+O	265	273	cleaning
+O	273	274	,
+O	275	282	laundry
+O	282	283	.
+
+O	284	290	During
+O	291	294	the
+O	295	298	day
+O	298	299	,
+O	300	303	she
+O	304	311	watches
+O	312	322	television
+O	323	326	and
+
+O	327	333	sleeps
+O	333	334	.

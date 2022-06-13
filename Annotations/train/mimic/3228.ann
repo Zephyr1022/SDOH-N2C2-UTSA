@@ -1,0 +1,31 @@
+T1	Employment 106 123	previously worked
+T2	StatusEmploy 142 152	unemployed
+T3	Type 127 133	retail
+T4	LivingStatus 171 176	lives
+T5	StatusTime 171 176	lives
+T6	TypeLiving 177 220	with her fiance and three teenage children
+T7	Tobacco 551 558	Tobacco
+T8	Amount 560 573	20+ pack year
+T9	StatusTime 574 584	history of
+T10	Alcohol 594 598	EtoH
+T11	StatusTime 600 606	denies
+T12	Drug 608 616	Illicits
+T13	Type 640 646	Heroin
+T14	StatusTime 618 623	Hx of
+T15	Drug 273 281	drug use
+T16	StatusTime 298 305	ongoing
+T17	Duration 306 332	for approximately 10 years
+E1	Employment:T1 Type:T3 Status:T2
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Amount:T8 Status:T9
+E4	Alcohol:T10 Status:T11
+E5	Drug:T12 Status:T14 Type:T13 Method:T18
+E6	Drug:T15 Status:T16 Duration:T17
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T11 none
+A6	StatusTimeVal T14 current
+A7	StatusTimeVal T16 current
+T18	Method 624 628	IVDA

@@ -1,0 +1,32 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 29	1/2 ppd
+T3	Duration 30 40	x 60 years
+T4	StatusTime 22 40	1/2 ppd x 60 years
+T5	Alcohol 43 54	Alcohol Use
+T7	StatusTime 56 62	rarely
+T8	Drug 65 73	Drug Use
+T10	History 88 99	2 years ago
+T11	StatusTime 88 99	2 years ago
+T12	Type 81 87	heroin
+T16	Drug 121 140	crack and marijuana
+T17	Type 121 140	crack and marijuana
+T18	StatusTime 141 149	recently
+T9	Method 75 79	IVDU
+T19	LivingStatus 214 223	Residence
+T20	StatusTime 225 230	lives
+T21	TypeLiving 231 246	with his mother
+T22	Employment 262 272	Unemployed
+T23	StatusEmploy 262 272	Unemployed
+E1	Tobacco:T1 Amount:T2 Duration:T3 Status:T4
+E2	Alcohol:T5 Status:T7
+E3	Drug:T8 Method:T9 Type:T12 Status:T11 History:T10
+E6	Drug:T16 Type:T17 Status:T18
+E4	LivingStatus:T19 Status:T20 Type:T21
+E7	Employment:T22 Status:T23
+A1	StatusTimeVal T4 current
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T11 past
+A6	StatusTimeVal T18 current
+A7	StatusTimeVal T20 current
+A8	TypeLivingVal T21 with_family
+A9	StatusEmployVal T23 unemployed

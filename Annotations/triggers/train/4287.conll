@@ -1,0 +1,25 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	24	in
+O	25	26	[
+O	26	34	LOCATION
+O	34	35	]
+O	35	36	,
+B-LivingStatus	37	42	stays
+O	43	45	at
+O	46	51	Union
+O	52	58	Gospel
+O	59	66	Mission
+O	66	67	.
+
+O	68	74	Denies
+B-Alcohol	75	79	ETOH
+O	79	80	,
+B-Drug	81	86	drugs
+O	86	87	,
+B-Tobacco	88	98	cigarettes
+O	99	108	currently
+O	108	109	.

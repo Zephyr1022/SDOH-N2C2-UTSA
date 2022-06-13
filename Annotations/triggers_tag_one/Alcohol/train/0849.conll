@@ -1,0 +1,59 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	She
+O	20	29	continued
+O	30	32	to
+O	33	38	smoke
+O	39	42	one
+O	43	45	to
+O	46	49	two
+O	50	55	packs
+O	56	58	of
+O	59	69	cigarettes
+O	69	70	/
+O	70	73	day
+O	74	79	until
+
+O	80	81	[
+O	81	82	*
+O	82	83	*
+O	83	88	Month
+O	89	90	(
+O	90	94	only
+O	94	95	)
+O	96	99	404
+O	99	100	*
+O	100	101	*
+O	101	102	]
+O	103	105	of
+O	106	110	this
+O	111	116	years
+O	116	117	.
+
+O	118	121	She
+O	122	124	is
+O	125	132	retired
+O	133	137	from
+O	138	141	the
+O	142	146	post
+O	147	153	office
+O	153	154	.
+
+O	155	158	She
+
+O	159	161	no
+O	162	168	longer
+O	169	175	drinks
+B-Alcohol	176	183	alcohol
+O	184	187	but
+O	188	191	has
+O	192	193	a
+O	194	200	remote
+O	201	208	history
+O	209	211	of
+B-Alcohol	212	219	alcohol
+
+B-Alcohol	220	225	abuse
+O	225	226	.

@@ -1,0 +1,83 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	Lives
+O	23	25	in
+O	26	30	tent
+O	31	37	camped
+O	38	40	by
+O	41	42	[
+O	42	50	LOCATION
+O	50	51	]
+O	51	52	.
+
+O	53	58	Daily
+B-Drug	59	65	heroin
+O	66	70	IVDU
+O	71	73	in
+O	74	75	[
+O	75	83	LOCATION
+O	83	84	]
+O	84	85	.
+
+O	86	92	Denies
+O	93	100	current
+B-Alcohol	101	105	etoh
+O	105	106	,
+B-Drug	107	112	other
+I-Drug	113	120	ilicits
+O	120	121	.
+
+O	122	126	Uses
+O	127	133	mostly
+O	134	139	clean
+O	140	147	needles
+O	147	148	,
+O	149	156	usually
+O	157	164	insulin
+O	164	165	.
+
+O	166	172	Denies
+O	173	178	blood
+O	179	186	sharing
+O	186	187	.
+
+B-LivingStatus	188	193	Lives
+O	194	196	in
+O	197	201	tent
+O	202	208	camped
+O	209	211	by
+O	212	213	[
+O	213	221	LOCATION
+O	221	222	]
+O	222	223	.
+
+O	224	229	Daily
+B-Drug	230	236	heroin
+O	237	241	IVDU
+O	242	244	in
+O	245	247	UE
+O	247	248	.
+
+O	249	255	Denies
+O	256	263	current
+B-Alcohol	264	268	etoh
+O	268	269	,
+B-Drug	270	275	other
+I-Drug	276	283	ilicits
+O	283	284	.
+
+O	285	289	Uses
+O	290	296	mostly
+O	297	302	clean
+O	303	310	needles
+O	310	311	,
+O	312	319	usually
+O	320	327	insulin
+O	327	328	.
+
+O	329	335	Denies
+O	336	341	blood
+O	342	350	shiaring
+O	350	351	.

@@ -1,0 +1,19 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 36	1-2 cigarettes
+T3	Frequency 37 52	when she drinks
+T4	Alcohol 55 66	Alcohol Use
+T5	Duration 68 81	since college
+T6	StatusTime 68 81	since college
+T8	StatusTime 22 52	1-2 cigarettes when she drinks
+T9	Drug 113 121	Drug Use
+T10	StatusTime 123 129	denies
+T11	Employment 169 179	Unemployed
+T12	StatusEmploy 169 179	Unemployed
+E1	Tobacco:T1 Amount:T2 Frequency:T3 Status:T8
+E2	Alcohol:T4 Duration:T5 Status:T6
+E3	Drug:T9 Status:T10
+E4	Employment:T11 Status:T12
+A1	StatusTimeVal T6 current
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T10 none
+A5	StatusEmployVal T12 unemployed

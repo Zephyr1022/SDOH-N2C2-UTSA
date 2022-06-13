@@ -1,0 +1,13 @@
+HABITS: 
+- Tobacco Use: 55 pack year 1 ppd
+- Alcohol Use: Binge drinks approximately 1 fifth of wildturkey once per month
+- Other Drug Use: 
+	* Remote history of recreational use of cocaine
+	* Endorses remote history of limited injection drug use
+
+SOCIAL HISTORY: 
+- Lives alone in an apartment in downtown [LOCATION] for 6 weeks, was previously homeless for 4 years. Retired 10 years ago/is on disability. 
+- Formerly a chef for employment.
+- Has lived in [LOCATION] for 35 years
+- never married, no children
+- 6 years in prison in the late 1970's

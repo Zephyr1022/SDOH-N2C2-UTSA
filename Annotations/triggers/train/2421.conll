@@ -1,0 +1,55 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	denies
+O	30	37	current
+O	38	41	use
+O	42	45	per
+O	46	51	chart
+O	52	58	review
+O	58	59	,
+O	60	68	previous
+O	69	71	50
+O	72	75	ppy
+
+B-Alcohol	76	83	Alcohol
+I-Alcohol	84	87	Use
+O	87	88	:
+O	89	90	1
+O	91	95	beer
+O	96	101	daily
+
+B-Drug	106	110	Drug
+I-Drug	111	114	Use
+O	114	115	:
+O	116	122	denies
+
+O	124	130	SOCIAL
+O	131	138	HISTORY
+O	138	139	:
+
+B-LivingStatus	141	146	Lives
+O	147	149	at
+O	150	154	home
+O	155	159	with
+O	160	163	his
+O	164	167	son
+O	167	168	.
+
+O	169	172	His
+O	173	176	son
+O	177	179	is
+O	180	183	his
+O	184	188	main
+O	189	193	care
+O	194	199	giver
+O	200	203	and
+O	204	206	is
+O	207	216	dependent
+O	217	219	on
+O	220	223	all
+O	224	228	ADLs
+O	228	229	.

@@ -1,0 +1,35 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 34	3 cigarettes
+T3	Frequency 34 38	/day
+T4	Type 24 34	cigarettes
+T5	StatusTime 22 38	3 cigarettes/day
+T6	Alcohol 59 70	Alcohol Use
+T8	StatusTime 72 78	rarely
+T9	Drug 79 87	Drug Use
+T10	Method 107 111	IVDU
+T11	Type 115 121	heroin
+T12	StatusTime 97 103	1x h/o
+T13	Frequency 97 103	1x h/o
+T14	Drug 171 207	methamphetamines and benzodiazepines
+T15	Type 171 207	methamphetamines and benzodiazepines
+T16	StatusTime 145 166	Utox has been postive
+T17	LivingStatus 243 250	homless
+T18	StatusTime 255 261	living
+T19	TypeLiving 265 282	the Clement Place
+T20	Employment 600 604	jobs
+T21	StatusEmploy 608 615	has had
+T22	Type 636 695	real estate, field training office, martial arts instructor
+E1	Tobacco:T1 Type:T4 Amount:T2 Status:T5 Frequency:T3 Amount2:T7
+E2	Alcohol:T6 Status:T8
+E3	Drug:T9 Frequency:T13 Status:T12 Method:T10 Type:T11
+E4	Drug:T14 Type:T15 Status:T16
+E5	LivingStatus:T17 Status:T18 Type:T19
+E6	Employment:T20 Status:T21 Type:T22
+A1	StatusTimeVal T5 current
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T12 current
+A5	StatusTimeVal T16 current
+A6	StatusTimeVal T18 current
+A7	TypeLivingVal T19 homeless
+A8	StatusEmployVal T21 unemployed
+T7	Amount 44 57	120 pack year

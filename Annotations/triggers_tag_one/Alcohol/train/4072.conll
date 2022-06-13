@@ -1,0 +1,45 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Residence
+O	26	27	:
+
+O	29	36	Shelter
+O	36	37	.
+
+O	39	45	Living
+O	46	55	situation
+O	55	56	:
+
+O	58	63	Lives
+O	64	69	alone
+O	69	70	.
+
+O	72	82	Employment
+O	82	83	:
+
+O	85	95	Unemployed
+O	95	96	.
+
+O	98	105	Tobacco
+O	106	109	use
+O	109	110	:
+
+O	112	122	Cigarettes
+O	122	123	:
+O	123	124	.
+
+B-Alcohol	126	133	Alcohol
+I-Alcohol	134	137	use
+O	137	138	:
+O	139	145	denies
+O	145	146	.
+
+O	148	152	Drug
+O	153	156	use
+O	156	157	:
+
+O	159	165	Heroin
+O	165	166	:
+O	166	167	.

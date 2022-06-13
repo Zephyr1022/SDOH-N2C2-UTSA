@@ -1,0 +1,9 @@
+HABITS: 
+Tobacco Use: Unable to assess
+Alcohol Use: Unable to assess
+Drug Use: Unable to assess
+
+SOCIAL HISTORY: 
+[X] Unable to Obtain due to Patient Condition
+
+Residence: Lives in [LOCATION] with family members including LNOK ([NAME], 19 year old daughter) and her foster sister, [NAME] (phone numbers at bottom of note.

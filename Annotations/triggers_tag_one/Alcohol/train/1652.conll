@@ -1,0 +1,39 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Residence
+O	26	27	:
+
+O	29	36	Private
+O	37	46	residence
+O	46	47	.
+
+O	49	55	Living
+O	56	65	situation
+O	65	66	:
+
+O	68	73	Lives
+O	74	78	with
+O	79	85	others
+O	85	86	.
+
+O	88	95	Tobacco
+O	96	99	use
+O	99	100	:
+
+O	102	108	Denies
+O	108	109	.
+
+B-Alcohol	111	118	Alcohol
+I-Alcohol	119	122	use
+O	122	123	:
+O	124	134	occasional
+O	134	135	.
+
+O	137	141	Drug
+O	142	145	use
+O	145	146	:
+
+O	148	154	Denies
+O	154	155	.

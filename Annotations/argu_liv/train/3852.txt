@@ -1,0 +1,9 @@
+HABITS:  
+The patient smokes 1.5 packs of cigarettes per day and has for the last 2 years but has been smoking at least a pack a day for 40 years.  She does not drink or use drugs. The patient lives in [LOCATION].  She is currently living with a friend.  She is currently not working but used to be a sales consultant.
+
+Review of Systems (please include 2 or more systems)
+a complete review of symptoms could not be performed due to patient's AMS 
+
+Vitals (Most recent and 24 hour range.) 
+
+I&O Data

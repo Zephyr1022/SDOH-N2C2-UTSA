@@ -1,0 +1,24 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	16	23	Compass
+O	24	31	Housing
+O	32	40	Alliance
+
+O	41	43	He
+O	44	50	denies
+O	51	57	recent
+O	58	67	injection
+O	68	72	drug
+O	73	76	use
+O	76	77	,
+O	79	81	He
+O	82	88	denies
+B-Alcohol	89	96	alcohol
+I-Alcohol	97	100	use
+
+O	101	105	Uses
+O	106	113	tobacco
+O	114	117	and
+O	118	127	marijuana

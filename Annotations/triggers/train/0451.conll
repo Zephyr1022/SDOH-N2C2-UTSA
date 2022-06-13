@@ -1,0 +1,8 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Denies
+B-Alcohol	23	27	ETOH
+O	27	28	,
+B-Tobacco	29	36	tobacco

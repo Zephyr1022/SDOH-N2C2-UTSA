@@ -1,0 +1,25 @@
+T1	LivingStatus 27 32	lives
+T2	StatusTime 27 32	lives
+T3	TypeLiving 33 38	alone
+T4	Employment 126 137	a homemaker
+T5	StatusEmploy 126 137	a homemaker
+T6	LivingStatus 143 149	living
+T7	TypeLiving 150 165	with her sister
+T8	StatusTime 139 149	Now living
+T9	Tobacco 222 229	Tobacco
+T10	StatusTime 232 243	past smoker
+T11	Amount 245 257	20 pack year
+T12	Alcohol 268 275	Alcohol
+T13	StatusTime 278 286	negative
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	LivingStatus:T6 Status:T8 Type:T7
+E4	Tobacco:T9 Status:T10 Amount:T11
+E5	Alcohol:T12 Status:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 homemaker
+A4	TypeLivingVal T7 with_family
+A5	StatusTimeVal T8 current
+A6	StatusTimeVal T10 past
+A7	StatusTimeVal T13 none

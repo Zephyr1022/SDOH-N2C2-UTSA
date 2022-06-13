@@ -1,0 +1,16 @@
+T1	Tobacco 44 50	Smokes
+T2	StatusTime 44 50	Smokes
+T3	Amount 51 63	4 cigarettes
+T4	Type 53 63	cigarettes
+T5	Frequency 64 71	per day
+T6	StatusTime 72 78	Denies
+T7	Alcohol 79 83	ETOH
+T8	Drug 84 104	Occasional marijuana
+T9	StatusTime 84 104	Occasional marijuana
+T10	Type 95 104	marijuana
+E1	Tobacco:T1 Status:T2 Amount:T3 Type:T4 Frequency:T5
+E2	Alcohol:T7 Status:T6
+E3	Drug:T8 Status:T9 Type:T10
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T9 current

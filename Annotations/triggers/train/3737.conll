@@ -1,0 +1,54 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	23	_
+O	23	27	None
+B-Alcohol	30	37	Alcohol
+I-Alcohol	38	41	Use
+O	41	42	:
+O	43	44	_
+O	44	46	no
+O	47	54	current
+B-Drug	57	61	Drug
+I-Drug	62	65	Use
+O	65	66	:
+O	67	68	_
+O	68	70	no
+
+O	72	78	SOCIAL
+O	79	86	HISTORY
+O	86	87	:
+
+O	89	90	[
+O	90	91	_
+O	91	92	]
+O	93	99	Unable
+O	100	102	to
+O	103	109	Obtain
+O	110	113	due
+O	114	116	to
+O	117	124	Patient
+O	125	134	Condition
+
+B-LivingStatus	135	144	Residence
+O	144	145	:
+O	146	147	_
+
+O	150	155	Lives
+O	156	160	with
+O	161	165	wife
+O	166	168	in
+O	169	170	[
+O	170	178	LOCATION
+O	178	179	]
+O	179	180	.
+
+B-Employment	181	189	Formerly
+I-Employment	190	196	worked
+O	197	199	as
+O	200	201	a
+O	202	212	consultant
+O	212	213	.

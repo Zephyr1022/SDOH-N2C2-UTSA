@@ -1,0 +1,33 @@
+T1	LivingStatus 18 27	Residence
+T2	StatusTime 29 36	Staying
+T3	TypeLiving 37 60	at Aurora House Shelter
+T4	Duration 61 73	since [DATE]
+T5	Employment 75 85	Occupation
+T6	StatusEmploy 105 122	Previously worked
+T7	Type 126 130	chef
+T8	Alcohol 146 153	Alcohol
+T9	StatusTime 155 191	Denies current use. History of abuse
+T10	Tobacco 194 201	Tobacco
+T11	StatusTime 203 215	Prior smoker
+T12	History 222 228	[DATE]
+T13	Amount 239 247	1/2 pack
+T14	Frequency 248 255	per day
+T15	Duration 256 265	x10 years
+T16	Drug 267 280	Illicit Drugs
+T18	StatusTime 333 346	Utox positive
+T19	Type 351 363	amphetamines
+E1	LivingStatus:T1 Status:T2 Type:T3 Duration:T4
+E2	Employment:T5 Status:T6 Type:T7
+E3	Alcohol:T8 Status:T9
+E4	Tobacco:T10 Status:T11 History:T12 Amount:T13 Frequency:T14 Duration:T15
+E5	Drug:T16 Status:T17
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusEmployVal T6 unemployed
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T11 past
+A6	StatusTimeVal T18 current
+T17	StatusTime 282 300	Denies current use
+A7	StatusTimeVal T17 past
+T20	Drug 308 327	polysubstance abuse
+E6	Drug:T20 Status:T18 Type:T19

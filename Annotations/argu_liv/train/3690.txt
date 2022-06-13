@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: Occasional smoker  Alcohol Use: Denies   Drug Use: Occasional marijuana
+
+SOCIAL HISTORY: 
+Ran away from parent's home in [LOCATION], [LOCATION] [DATE] after a dispute. Moved to [LOCATION] where a partner lived, but this relationship ended [DATE]. He then moved to [LOCATION], where he has been homeless for the last month. He is currently in the process of enrolling with Compass Housing for a case worker, and he is not interested in Social Work assistance here.

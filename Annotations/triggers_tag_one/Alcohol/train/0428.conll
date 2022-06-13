@@ -1,0 +1,22 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	27	alone
+O	28	29	(
+O	29	36	Widower
+O	36	37	)
+O	37	38	.
+
+O	39	46	Retired
+O	47	57	accountant
+O	57	58	.
+
+O	59	61	No
+O	62	69	tobacco
+O	70	72	or
+B-Alcohol	73	80	alcohol
+
+B-Alcohol	81	84	use
+O	84	85	.

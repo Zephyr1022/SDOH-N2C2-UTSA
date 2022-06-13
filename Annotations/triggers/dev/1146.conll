@@ -1,0 +1,11 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	SHx
+O	19	20	:
+O	21	23	no
+B-Tobacco	24	27	tob
+O	27	28	,
+O	29	31	no
+B-Alcohol	32	36	EtOH

@@ -1,0 +1,27 @@
+T1	LivingStatus 47 52	lives
+T2	StatusTime 47 52	lives
+T3	TypeLiving 53 71	with her boyfriend
+T4	Employment 157 180	currently on disability
+T5	StatusEmploy 157 180	currently on disability
+T6	Employment 222 228	worked
+T7	StatusEmploy 222 228	worked
+T8	Type 232 251	the service section
+T9	Tobacco 324 331	smoking
+T10	Type 274 284	Cigarettes
+T11	Amount 286 294	one pack
+T12	Frequency 295 302	per day
+T13	Duration 303 312	x34 years
+T14	StatusTime 314 323	currently
+T15	Alcohol 333 341	drinking
+T16	StatusTime 342 348	denied
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Status:T5
+E3	Employment:T6 Type:T8 Status:T7
+E4	Tobacco:T9 Status:T14 Duration:T13 Frequency:T12 Amount:T11 Type:T10
+E5	Alcohol:T15 Status:T16
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T5 on_disability
+A4	StatusEmployVal T7 unemployed
+A5	StatusTimeVal T14 current
+A6	StatusTimeVal T16 none

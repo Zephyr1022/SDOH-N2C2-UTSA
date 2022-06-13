@@ -1,0 +1,14 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	21	sees
+O	22	25	PCP
+O	26	28	at
+O	29	35	clinic
+O	36	38	in
+O	39	52	international
+O	53	61	district
+
+O	62	68	denies
+B-Drug	69	73	IVDA

@@ -1,0 +1,36 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Residence
+O	26	27	:
+
+O	29	36	Private
+O	37	46	residence
+O	46	47	.
+
+O	49	56	Tobacco
+O	57	60	use
+O	60	61	:
+O	62	65	Yes
+O	65	66	.
+
+B-Alcohol	68	75	Alcohol
+I-Alcohol	76	79	use
+O	79	80	:
+O	81	87	Denies
+O	87	88	.
+
+O	90	94	Drug
+O	95	98	use
+O	98	99	:
+O	100	104	Quit
+O	105	113	Previous
+O	114	118	IVDU
+O	118	119	,
+O	120	124	last
+O	125	128	use
+O	129	130	6
+O	131	137	months
+O	138	141	ago
+O	141	142	.

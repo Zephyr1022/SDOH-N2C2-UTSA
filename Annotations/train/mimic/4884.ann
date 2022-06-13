@@ -1,0 +1,19 @@
+T1	Alcohol 194 198	EtOH
+T2	Amount 235 241	1 pint
+T3	Type 242 247	vodka
+T4	Frequency 248 253	daily
+T5	Duration 254 257;258 265	for ~4 days
+T6	StatusTime 267 283	last drink today
+T7	Employment 482 486	SSDI
+T8	StatusEmploy 482 486	SSDI
+T9	Employment 555 561	worked
+T10	Duration 562 574	for 18 years
+T11	Type 578 593	a grocery store
+T12	StatusEmploy 603 606;607 607;608 614	not  worked
+T13	History 615 637	for the past few years
+E1	Alcohol:T1 Amount:T2 Type:T3 Frequency:T4 Duration:T5 Status:T6
+E2	Employment:T7 Status:T8
+E3	Employment:T9 Duration:T10 Type:T11 Status:T12 History:T13
+A1	StatusTimeVal T6 current
+A2	StatusEmployVal T8 on_disability
+A3	StatusEmployVal T12 unemployed

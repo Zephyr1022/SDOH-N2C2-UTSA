@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: Current smoker, 1/2 ppd, reports smoking for 'a long time'   
+Alcohol Use: Reports drinking 2 beers per day, has prior history of ETOH dependence, denies withdrawals   
+Drug Use: History of cocaine use, denies IVDU
+
+SOCIAL HISTORY: 
+Residence: staying at a shelter

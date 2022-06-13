@@ -1,0 +1,75 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Recent
+B-Drug	23	25	IV
+I-Drug	26	32	heroin
+I-Drug	33	36	and
+I-Drug	37	44	cocaine
+I-Drug	45	50	abuse
+O	51	52	.
+
+O	53	60	Inhaled
+B-Drug	61	68	cocaine
+O	69	71	as
+O	72	76	well
+O	76	77	.
+
+O	78	84	Denies
+B-Alcohol	85	89	EtOH
+O	90	93	and
+B-Tobacco	94	101	tobacco
+O	101	102	.
+
+B-LivingStatus	103	113	Previously
+
+B-LivingStatus	114	122	homeless
+O	122	123	,
+O	124	127	was
+O	128	130	in
+B-LivingStatus	131	138	section
+I-LivingStatus	139	140	8
+I-LivingStatus	141	148	housing
+O	149	156	unclear
+O	157	159	if
+O	160	165	still
+O	165	166	.
+
+O	167	169	He
+O	170	173	was
+
+O	174	183	convicted
+
+O	184	187	and
+B-LivingStatus	188	200	imprissioned
+O	201	204	for
+O	205	207	10
+O	208	213	years
+O	214	217	and
+O	218	226	declared
+O	227	235	innocent
+O	236	246	afterwards
+O	246	247	.
+
+O	248	251	His
+O	252	258	father
+O	259	263	died
+O	264	265	~
+O	265	266	[
+O	266	267	*
+O	267	268	*
+O	268	272	2122
+O	272	273	*
+O	273	274	*
+O	274	275	]
+O	276	281	which
+O	282	290	resulted
+O	291	293	in
+O	294	296	pt
+O	297	306	returning
+O	307	309	to
+B-Drug	310	314	drug
+
+B-Drug	315	318	use
+O	318	319	.

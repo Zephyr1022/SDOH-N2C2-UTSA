@@ -1,0 +1,16 @@
+T1	Employment 18 31	On disability
+T2	StatusEmploy 18 31	On disability
+T3	LivingStatus 47 52	Lives
+T4	TypeLiving 53 79	with son and grandchildren
+T5	StatusTime 47 52	Lives
+T6	Drug 109 118	marijuana
+T7	Type 109 118	marijuana
+T8	StatusTime 94 101	Used to
+E1	Employment:T1 Status:T2
+E2	LivingStatus:T3 Type:T4 Status:T5
+E3	Drug:T6 Type:T7 Status:T8 Method:T9
+A1	StatusEmployVal T2 on_disability
+A2	TypeLivingVal T4 with_family
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T8 past
+T9	Method 102 108	smokes

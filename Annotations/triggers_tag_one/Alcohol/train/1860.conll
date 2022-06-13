@@ -1,0 +1,48 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	24	recently
+O	25	29	lost
+O	30	33	job
+O	34	36	as
+O	37	41	chef
+O	41	42	;
+O	43	50	evicted
+O	51	56	today
+O	56	57	.
+
+O	58	60	No
+O	61	68	tobacco
+O	68	69	;
+O	70	71	6
+O	71	72	-
+O	72	74	12
+B-Alcohol	75	80	beers
+
+O	81	84	per
+O	85	88	day
+O	88	89	;
+O	90	92	no
+O	93	98	drugs
+O	98	99	.
+
+O	100	101	-
+O	102	109	Tobacco
+O	109	110	:
+O	111	113	no
+
+O	114	115	-
+B-Alcohol	116	123	Alcohol
+O	123	124	:
+O	125	126	6
+O	126	127	-
+O	127	129	12
+O	130	135	beers
+O	136	139	per
+O	140	143	day
+
+O	144	145	-
+O	146	154	Illicits
+O	154	155	:
+O	156	158	no

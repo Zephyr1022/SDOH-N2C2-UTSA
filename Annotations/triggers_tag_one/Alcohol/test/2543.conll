@@ -1,0 +1,45 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	23	_
+O	26	33	Alcohol
+O	34	37	Use
+O	37	38	:
+O	39	40	_
+O	43	47	Drug
+O	48	51	Use
+O	51	52	:
+O	53	54	_
+
+O	55	59	none
+O	60	65	since
+O	66	68	in
+O	69	75	prison
+O	75	76	,
+O	77	80	see
+O	81	84	hpi
+
+O	86	92	SOCIAL
+O	93	100	HISTORY
+O	100	101	:
+
+O	103	104	[
+O	104	105	_
+O	105	106	]
+O	107	113	Unable
+O	114	116	to
+O	117	123	Obtain
+O	124	127	due
+O	128	130	to
+O	131	138	Patient
+O	139	148	Condition
+
+O	149	158	Residence
+O	158	159	:
+O	160	161	_
+
+O	162	165	see
+O	166	169	hpi

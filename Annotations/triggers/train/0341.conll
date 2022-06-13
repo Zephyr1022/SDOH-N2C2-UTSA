@@ -1,0 +1,103 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	Was
+B-Employment	20	22	an
+I-Employment	23	35	officeworker
+I-Employment	36	37	(
+I-Employment	37	47	accountant
+I-Employment	47	48	)
+O	49	52	for
+O	53	66	International
+O	67	76	Harvester
+O	76	77	.
+
+B-LivingStatus	78	83	Lives
+O	84	88	with
+O	89	92	his
+O	93	97	wife
+O	98	100	in
+O	101	102	[
+O	102	103	*
+O	103	104	*
+O	104	108	Name
+O	109	110	(
+O	110	112	NI
+O	112	113	)
+O	114	117	577
+O	117	118	*
+O	118	119	*
+O	119	120	]
+O	120	121	.
+
+O	122	124	He
+O	125	131	denies
+O	132	139	current
+B-Tobacco	140	147	tobacco
+I-Tobacco	148	151	use
+O	151	152	.
+
+O	153	155	He
+O	156	160	quit
+B-Tobacco	161	168	smoking
+O	169	171	at
+O	172	175	age
+O	176	178	51
+O	178	179	.
+
+O	180	182	He
+B-Tobacco	183	189	smoked
+O	190	193	for
+O	194	199	40yrs
+O	200	201	(
+O	201	206	since
+O	207	210	age
+O	211	213	11
+O	213	214	)
+O	214	215	,
+
+O	216	221	about
+O	222	227	three
+O	228	233	packs
+O	234	237	per
+O	238	241	day
+O	242	243	(
+O	243	246	120
+O	247	251	pack
+O	251	252	/
+O	252	254	yr
+O	255	257	hx
+O	257	258	)
+O	258	259	.
+
+O	260	262	He
+O	263	270	reports
+O	271	277	social
+
+B-Alcohol	278	286	drinking
+O	286	287	,
+O	288	295	perhaps
+O	296	299	two
+O	300	309	cocktails
+O	310	313	per
+O	314	318	week
+O	319	323	when
+O	324	327	out
+O	328	331	for
+O	332	338	dinner
+O	338	339	.
+
+O	340	342	He
+
+O	343	349	denies
+O	350	357	illegal
+B-Drug	358	362	drug
+I-Drug	363	366	use
+O	367	369	or
+O	370	382	prescription
+B-Drug	383	387	drug
+I-Drug	388	393	abuse
+O	393	394	.
+
+O	395	396	.

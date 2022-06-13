@@ -1,0 +1,10 @@
+T1	Tobacco 55 65	Non-smoker
+T2	StatusTime 55 65	Non-smoker
+T3	LivingStatus 16 21	Lives
+T4	StatusTime 16 21	Lives
+T5	TypeLiving 22 53	at [**Hospital1 **] trach rehab
+E1	Tobacco:T1 Status:T2
+E2	LivingStatus:T3 Type:T5 Status:T4
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T5 with_others

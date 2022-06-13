@@ -1,0 +1,17 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+O	24	27	was
+O	28	29	a
+O	30	38	roommate
+O	38	39	.
+
+O	41	47	Denies
+B-Alcohol	48	55	alcohol
+O	55	56	,
+O	57	64	tobacco
+O	65	67	or
+O	68	76	illicits
+O	76	77	.

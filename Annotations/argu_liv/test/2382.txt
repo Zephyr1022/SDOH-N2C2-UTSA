@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: 88 pack year smoking history, quit 3 months ago. Alcohol Use: _   Drug Use: _
+
+SOCIAL HISTORY: 
+Lives in [LOCATION], with his partner. Works in construction. Has a daughter and son.

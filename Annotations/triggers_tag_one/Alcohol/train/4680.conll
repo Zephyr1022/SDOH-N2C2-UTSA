@@ -1,0 +1,193 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	Hx
+O	19	21	of
+B-Alcohol	22	26	etoh
+O	26	27	/
+O	27	34	cocaine
+O	35	40	abuse
+O	40	41	.
+
+O	42	51	Currently
+O	52	59	reports
+B-Alcohol	60	68	drinking
+O	69	70	a
+O	71	75	40oz
+O	76	78	of
+
+O	79	83	beer
+O	84	89	daily
+O	89	90	,
+O	91	94	and
+O	95	104	expressed
+O	105	111	desire
+O	112	114	to
+O	115	118	cut
+O	119	123	down
+O	124	126	in
+O	127	129	an
+O	130	136	effort
+O	137	139	to
+
+O	140	141	"
+O	141	146	clear
+O	147	150	her
+O	151	155	head
+O	155	156	.
+
+O	157	158	"
+O	159	165	Denies
+O	166	173	tobacco
+O	174	177	use
+O	177	178	.
+
+O	179	184	Moved
+O	185	188	out
+O	189	191	of
+O	192	195	DBT
+O	196	203	housing
+
+O	204	206	in
+O	207	208	[
+O	208	209	*
+O	209	210	*
+O	210	211	5
+O	211	212	-
+O	212	214	21
+O	214	215	*
+O	215	216	*
+O	216	217	]
+O	217	218	,
+O	219	228	currently
+O	229	234	lives
+O	235	237	in
+O	238	241	her
+O	242	245	own
+O	246	253	Section
+O	254	255	8
+O	256	265	apartment
+O	266	269	and
+
+O	270	278	supports
+O	279	286	herself
+O	287	291	with
+O	292	302	disability
+O	303	311	payments
+O	312	313	(
+O	313	323	depression
+O	323	324	)
+O	324	325	.
+
+O	326	329	Has
+O	330	334	been
+
+O	335	341	living
+O	342	346	with
+O	347	353	mother
+O	354	357	and
+O	358	364	caring
+O	365	368	for
+O	369	372	her
+O	372	373	.
+
+O	374	378	Will
+O	379	381	be
+O	382	388	moving
+O	389	393	back
+O	394	396	in
+
+O	397	401	with
+O	402	411	boyfriend
+O	412	416	soon
+O	416	417	.
+
+O	418	419	[
+O	419	420	*
+O	420	421	*
+O	421	426	Name2
+O	427	428	(
+O	428	430	NI
+O	430	431	)
+O	432	433	*
+O	433	434	*
+O	434	435	]
+O	436	438	hx
+O	439	441	of
+O	442	454	homelessness
+O	454	455	;
+O	456	464	sexually
+O	465	471	abused
+O	472	474	by
+
+O	475	476	a
+O	477	484	brother
+O	485	487	in
+O	488	497	childhood
+O	497	498	.
+
+O	499	506	Section
+O	507	508	8
+O	509	518	apartment
+O	518	519	.
+
+O	520	523	Has
+O	524	528	been
+
+O	529	535	living
+O	536	540	with
+O	541	547	mother
+O	548	551	and
+O	552	558	caring
+O	559	562	for
+O	563	566	her
+O	566	567	.
+
+O	568	572	Will
+O	573	575	be
+O	576	582	moving
+O	583	587	back
+O	588	590	in
+
+O	591	595	with
+O	596	605	boyfriend
+O	606	610	soon
+O	610	611	.
+
+O	612	614	hx
+O	615	627	homelessness
+
+O	629	630	-
+O	631	634	2nd
+O	635	641	oldest
+O	642	644	of
+O	645	646	9
+O	647	655	children
+O	655	656	,
+O	657	660	has
+O	661	662	a
+O	663	667	twin
+O	668	675	brother
+
+O	677	678	-
+O	679	682	was
+O	683	691	sexually
+O	692	698	abused
+O	699	701	by
+O	702	703	a
+O	704	711	brother
+O	712	714	in
+O	715	724	childhood
+
+O	726	727	-
+O	728	731	was
+O	732	734	in
+O	735	741	school
+O	742	750	training
+O	751	753	to
+O	754	760	become
+O	761	762	a
+O	763	769	mental
+O	770	776	health
+O	777	786	counselor

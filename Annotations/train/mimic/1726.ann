@@ -1,0 +1,17 @@
+T1	Tobacco 333 336	Tob
+T2	StatusTime 338 379	[**2-26**] ppd x 40-50y (~120 pack-years)
+T3	Amount 338 352	[**2-26**] ppd
+T4	Duration 353 361	x 40-50y
+T5	Alcohol 381 385	Etoh
+T6	StatusTime 430 437	stopped
+T7	History 461 474	in [**2132**]
+T8	Type 404 410	whisky
+T9	Drug 489 497	drug use
+T10	StatusTime 476 482	Denies
+E1	Tobacco:T1 Amount:T3 Duration:T4 Status:T2 Amount2:T11
+E2	Alcohol:T5 Type:T8 Status:T6 History:T7
+E3	Drug:T9 Status:T10
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T10 none
+T11	Amount 363 378	~120 pack-years

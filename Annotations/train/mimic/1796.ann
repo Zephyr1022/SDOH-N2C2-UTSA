@@ -1,0 +1,43 @@
+T1	Drug 785 810;811 826	cocaine, heroin, opiates, benzodiazepines
+T2	Type 785 810;811 826	cocaine, heroin, opiates, benzodiazepines
+T3	StatusTime 773 781	Past use
+T5	StatusTime 366 372	remote
+T6	Type 373 382	marijuana
+T7	Drug 373 386	marijuana use
+T4	Drug 395 399	IVDA
+T8	StatusTime 388 394	denies
+T9	Type 395 399	IVDA
+T10	Alcohol 235 239	ETOH
+T11	StatusTime 242 269	1/5th daily of hard liquour
+T12	Amount 242 247	1/5th
+T13	Frequency 248 253	daily
+T14	Type 257 269	hard liquour
+T15	Duration 289 296;297 299	since 9 yo
+T16	Tobacco 201 208	Tobacco
+T17	StatusTime 211 215	quit
+T18	History 224 234	1 week ago
+T19	Employment 185 199	an electrician
+T20	StatusEmploy 185 199	an electrician
+T21	Type 185 199	an electrician
+T22	TypeLiving 50 63	with his aunt
+T23	StatusTime 32 41	have been
+T24	LivingStatus 42 49	staying
+E1	Drug:T1 Type:T2 Status:T3
+E3	Drug:T7 Type:T6 Status:T5
+E2	Drug:T4 Type:T9 Status:T8
+E4	Alcohol:T10 Amount:T12 Status:T11 Frequency:T13 Type:T14 Duration:T15
+E5	Tobacco:T16 Status:T17 History:T18
+E6	Employment:T19 Status:T20 Type:T21
+E7	LivingStatus:T24 Status:T23 Type:T22
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T11 current
+A5	StatusTimeVal T17 past
+A6	StatusEmployVal T20 employed
+A7	TypeLivingVal T22 with_family
+A8	StatusTimeVal T23 current
+T25	Alcohol 169 177	drinking
+E8	Alcohol:T25 Status:T26
+T26	StatusTime 154 177	When he is not drinking
+A9	StatusTimeVal T26 current

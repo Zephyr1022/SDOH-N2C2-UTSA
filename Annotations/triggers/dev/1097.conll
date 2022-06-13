@@ -1,0 +1,91 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	-
+B-Tobacco	18	25	Tobacco
+O	25	26	:
+O	27	31	Mild
+O	32	35	use
+
+O	36	37	-
+B-Alcohol	38	45	Alcohol
+O	45	46	:
+O	48	52	Mild
+O	53	56	use
+
+O	57	58	-
+B-Drug	59	67	Illicits
+O	67	68	:
+O	70	76	Denies
+O	77	80	use
+
+O	81	83	SH
+O	83	84	:
+
+B-LivingStatus	85	90	Lives
+O	91	95	with
+O	96	103	parents
+O	104	107	who
+O	108	111	she
+O	112	121	describes
+O	122	124	as
+O	125	131	strict
+O	131	132	,
+O	133	136	but
+O	137	147	supportive
+O	147	148	.
+
+O	150	158	Recently
+O	159	164	lefft
+B-Employment	165	168	job
+O	169	171	in
+O	172	179	billing
+O	179	180	/
+O	180	184	desk
+O	185	189	work
+O	190	191	2
+O	192	197	weeks
+O	198	201	ago
+O	201	202	.
+
+B-Tobacco	203	209	Smokes
+O	210	211	[
+O	211	212	*
+O	212	213	*
+O	213	214	3
+O	214	215	-
+O	215	216	6
+O	216	217	*
+O	217	218	*
+O	218	219	]
+O	220	230	cigarettes
+O	230	231	/
+O	231	234	day
+O	234	235	.
+
+B-Alcohol	236	242	Drinks
+O	243	244	3
+O	245	250	times
+O	251	252	a
+O	253	257	week
+O	257	258	,
+O	259	260	4
+O	261	267	drinks
+O	268	270	at
+O	271	272	a
+O	273	277	time
+O	277	278	.
+
+B-Drug	279	288	Marijuana
+I-Drug	289	292	use
+O	292	293	,
+O	294	300	denies
+B-Drug	301	308	cocaine
+I-Drug	309	311	or
+I-Drug	312	317	other
+I-Drug	318	325	illicit
+I-Drug	326	329	use
+O	329	330	.
+
+O	331	332	.

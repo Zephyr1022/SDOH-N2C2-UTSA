@@ -1,0 +1,54 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+B-Tobacco	29	35	smokes
+O	36	39	one
+O	40	44	pack
+O	45	48	per
+O	49	52	day
+O	52	53	.
+
+O	55	57	He
+O	58	60	is
+
+O	61	68	married
+O	69	73	with
+O	74	76	an
+O	77	79	11
+O	80	84	year
+O	85	88	old
+O	89	97	daughter
+O	97	98	.
+
+O	100	101	[
+O	101	102	*
+O	102	103	*
+O	103	107	Name
+O	108	109	(
+O	109	111	NI
+O	111	112	)
+O	113	114	*
+O	114	115	*
+O	115	116	]
+B-Employment	117	122	works
+O	123	125	as
+O	126	127	a
+
+O	128	136	mechanic
+O	136	137	.
+
+O	139	141	He
+O	142	145	has
+O	146	147	a
+O	148	155	history
+O	156	158	of
+B-Alcohol	159	166	alcohol
+I-Alcohol	167	172	abuse
+O	173	176	and
+O	177	181	used
+B-Drug	182	189	cocaine
+
+O	190	202	occasionally
+O	202	203	.

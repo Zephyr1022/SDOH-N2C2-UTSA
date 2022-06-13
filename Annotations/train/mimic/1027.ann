@@ -1,0 +1,15 @@
+T1	LivingStatus 16 21	lives
+T2	StatusTime 16 21	lives
+T3	TypeLiving 22 35	in group home
+T4	Alcohol 40 44	etoh
+T5	StatusTime 37 50	no etoh since
+T6	Tobacco 51 65	[**6-11**] ppd
+T7	Amount 51 65	[**6-11**] ppd
+T8	StatusTime 51 65	[**6-11**] ppd
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5
+E3	Tobacco:T6 Status:T8 Amount:T7
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T8 current

@@ -1,0 +1,16 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 39	with his daughter
+T4	Tobacco 136 142	Smoked
+T5	StatusTime 136 142	Smoked
+T6	History 153 166	long time ago
+T7	Alcohol 188 194;195 207	drinks occasionally
+T8	StatusTime 188 194;195 207	drinks occasionally
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6 Type:T9
+E3	Alcohol:T7 Status:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T8 current
+T9	Type 143 152	cigarette

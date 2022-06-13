@@ -1,0 +1,38 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	Denies
+O	31	38	Alcohol
+O	39	42	Use
+O	42	43	:
+O	44	52	Socially
+O	55	59	Drug
+O	60	63	Use
+O	63	64	:
+O	65	71	Denies
+
+O	73	79	SOCIAL
+O	80	87	HISTORY
+O	87	88	:
+
+O	90	95	Lives
+O	96	98	in
+O	99	100	a
+O	101	111	retirement
+O	112	121	community
+O	121	122	.
+
+O	123	126	Has
+O	127	128	1
+O	129	132	son
+O	133	136	and
+O	137	138	1
+O	139	147	daughter
+O	147	148	.
+
+O	149	152	Not
+O	153	162	currently
+O	163	170	working

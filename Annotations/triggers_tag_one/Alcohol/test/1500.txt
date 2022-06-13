@@ -1,0 +1,8 @@
+Social History:
+Tobacco: Denies 
+EtOH: Denies
+Lives: [LOCATION], Housed
+Social History:
+Tobacco: Denies 
+EtOH: Denies
+Lives: [LOCATION], Housed

@@ -1,0 +1,24 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	16	21	Lives
+O	22	24	in
+O	25	31	senior
+O	32	39	housing
+
+O	40	44	Quit
+O	45	52	tobacco
+O	53	55	in
+O	56	60	1972
+
+O	61	63	No
+B-Alcohol	64	68	EtOH
+O	69	71	in
+O	72	76	past
+O	77	79	25
+O	80	85	years
+
+O	86	92	Denies
+O	93	97	drug
+O	98	101	use

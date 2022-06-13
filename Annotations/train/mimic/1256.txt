@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: denies   Alcohol Use: denies  Drug Use: denies
+
+SOCIAL HISTORY: 
+He is from [LOCATION] and homeless.  His parents passed away when he was little and he lived with his grandmparents until he was in his mid-20s when they passed away.  Per chart review, he is homeless.

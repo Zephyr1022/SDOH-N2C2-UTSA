@@ -1,0 +1,116 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	in
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	36	Location
+O	37	41	1411
+O	41	42	*
+O	42	43	*
+O	43	44	]
+O	45	49	with
+O	50	56	fiance
+O	57	60	and
+O	61	66	three
+O	67	75	children
+O	75	76	.
+
+O	77	80	The
+O	81	88	patient
+
+O	89	96	started
+B-Tobacco	97	104	smoking
+O	105	115	cigarettes
+O	116	118	at
+O	119	122	age
+O	123	125	13
+O	125	126	.
+
+B-Tobacco	127	128	~
+I-Tobacco	128	130	45
+I-Tobacco	130	131	-
+I-Tobacco	131	135	pack
+I-Tobacco	135	136	-
+I-Tobacco	136	140	year
+O	141	148	history
+O	148	149	.
+
+O	151	153	No
+
+O	154	161	history
+O	162	164	of
+B-Alcohol	165	172	alcohol
+I-Alcohol	173	176	use
+O	176	177	.
+
+O	179	182	She
+O	183	186	has
+O	187	188	a
+O	189	195	remote
+O	196	203	history
+O	204	206	of
+O	207	212	prior
+
+B-Drug	213	224	intravenous
+I-Drug	225	229	drug
+I-Drug	230	233	use
+O	234	237	and
+B-Drug	238	245	cocaine
+I-Drug	246	249	use
+O	249	250	.
+
+O	252	262	Originally
+O	263	267	from
+O	268	274	Sicily
+O	274	275	.
+
+O	276	281	Moved
+O	282	284	to
+O	285	288	USA
+O	289	291	in
+O	292	293	[
+O	293	294	*
+O	294	295	*
+O	295	299	2135
+O	299	300	*
+O	300	301	*
+O	301	302	]
+O	302	303	.
+
+O	304	307	She
+B-Employment	308	314	worked
+O	315	317	as
+O	318	319	a
+O	320	328	domestic
+O	329	336	cleaner
+O	337	340	and
+O	341	344	had
+
+O	345	349	some
+O	350	358	exposure
+O	359	361	to
+O	362	367	areas
+O	368	376	affected
+O	377	379	by
+O	380	388	asbestos
+O	389	392	and
+O	393	398	heavy
+O	399	408	chemicals
+O	408	409	.
+
+O	411	414	She
+B-Employment	415	424	currently
+I-Employment	425	427	is
+I-Employment	428	431	out
+I-Employment	432	434	of
+I-Employment	435	439	work
+O	440	443	and
+B-LivingStatus	444	450	living
+O	451	455	with
+O	456	462	family
+O	463	470	members
+O	470	471	.

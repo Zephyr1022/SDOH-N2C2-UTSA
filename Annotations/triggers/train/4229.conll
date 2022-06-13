@@ -1,0 +1,75 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	denies
+O	29	36	current
+O	37	40	use
+O	40	41	,
+O	42	44	hx
+O	45	52	tobacco
+O	53	56	use
+B-Alcohol	59	66	Alcohol
+I-Alcohol	67	70	Use
+O	70	71	:
+O	72	74	no
+O	75	82	current
+O	83	86	use
+B-Drug	89	93	Drug
+I-Drug	94	97	Use
+O	97	98	:
+O	99	105	denies
+
+O	107	113	SOCIAL
+O	114	121	HISTORY
+O	121	122	:
+
+O	124	129	Moved
+O	130	134	back
+O	135	143	recently
+O	144	148	from
+O	149	150	[
+O	150	158	LOCATION
+O	158	159	]
+O	159	160	.
+
+O	161	164	Has
+O	165	172	friends
+O	173	175	in
+O	176	177	[
+O	177	185	LOCATION
+O	185	186	]
+O	186	187	.
+
+B-LivingStatus	188	193	Lives
+O	194	196	at
+O	197	204	Rainier
+O	205	210	House
+O	210	211	.
+
+O	212	214	No
+O	215	224	permanent
+O	225	228	bed
+O	228	229	.
+
+B-Employment	230	240	Previously
+I-Employment	241	247	worked
+O	248	250	at
+O	251	252	a
+O	253	258	steel
+O	259	263	mill
+O	264	266	in
+O	267	270	the
+O	271	272	[
+O	272	276	DATE
+O	276	277	]
+O	277	278	.
+
+O	279	289	Afterwards
+B-Employment	290	296	worked
+O	297	299	at
+O	300	301	a
+O	302	307	plant
+O	307	308	.

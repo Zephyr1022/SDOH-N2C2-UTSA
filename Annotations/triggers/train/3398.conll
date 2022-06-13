@@ -1,0 +1,10 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	24	Patient
+O	25	28	has
+O	29	36	housing
+O	36	37	,
+B-Tobacco	38	47	cigarette
+O	48	58	dependence

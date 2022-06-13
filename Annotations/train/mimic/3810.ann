@@ -1,0 +1,33 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 44 48	quit
+T3	History 49 90	when he found out about his heart failure
+T4	Amount 22 34	20 pack year
+T5	Alcohol 91 102	Alcohol Use
+T6	StatusTime 133 137	quit
+T7	History 138 145	with HF
+T8	Amount 110 125	around a 6 pack
+T9	Frequency 126 131	a day
+T10	Drug 148 156	Drug Use
+T11	Type 158 173	Methamphetamine
+T12	Method 175 181	smoked
+T13	Duration 188 197	for years
+T14	StatusTime 198 236	until he found out about heart failure
+T15	History 198 236	until he found out about heart failure
+T16	LivingStatus 257 266	Residence
+T17	StatusTime 268 273	lives
+T18	TypeLiving 274 289	in DESC shelter
+T19	Duration 291 310	for the past 3 days
+T20	Employment 361 365	work
+T21	StatusEmploy 342 365	has been unable to work
+T22	History 366 399	since his heart failure diagnosis
+E1	Tobacco:T1 Amount:T4 Status:T2 History:T3
+E2	Alcohol:T5 Amount:T8 Frequency:T9 Status:T6 History:T7
+E3	Drug:T10 Type:T11 Method:T12 Duration:T13 Status:T14 History:T15
+E4	LivingStatus:T16 Status:T17 Type:T18 Duration:T19
+E5	Employment:T20 Status:T21 History:T22
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T14 past
+A4	StatusTimeVal T17 current
+A5	TypeLivingVal T18 homeless
+A6	StatusEmployVal T21 unemployed

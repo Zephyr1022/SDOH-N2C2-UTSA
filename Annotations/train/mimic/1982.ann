@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	lives
+T2	TypeLiving 22 46	with "significant other"
+T3	StatusTime 16 21	lives
+T4	Employment 66 76	employment
+T5	StatusEmploy 66 76	employment
+T6	Type 77 88	food broker
+T7	Tobacco 89 98	nonsmoker
+T8	StatusTime 89 98	nonsmoker
+T9	Amount 100 116	**2-11**] drinks
+T10	Frequency 117 122	/week
+T11	StatusTime 99 122	[**2-11**] drinks /week
+T12	Alcohol 110 116	drinks
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T6 Status:T5
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T12 Amount:T9 Status:T11 Frequency:T10
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T11 current

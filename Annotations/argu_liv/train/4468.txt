@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: 10 cig/day   Alcohol Use: 1 beer q hour   Drug Use: denies other drug use
+
+SOCIAL HISTORY: 
+Residence: homeless, mom lives in [LOCATION], stays with her sometimes, has 25yo daughter in [LOCATION]

@@ -1,0 +1,13 @@
+T1	Tobacco 25 32	smoking
+T2	Drug 34 39	drugs
+T3	Alcohol 41 48	alcohol
+T4	StatusTime 18 24	Denies
+T5	Alcohol 57 77	previously alcoholic
+T6	StatusTime 87 92	sober
+T7	History 93 111	for multiple years
+E1	Tobacco:T1 Status:T4
+E2	Drug:T2 Status:T4
+E3	Alcohol:T3 Status:T4
+E4	Alcohol:T5 Status:T6 History:T7
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T6 past

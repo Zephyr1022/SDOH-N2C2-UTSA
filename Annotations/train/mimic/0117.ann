@@ -1,0 +1,23 @@
+T1	Drug 16 41	IVDA and illicit drug use
+T2	StatusTime 75 77;78 98	up until day of surgery
+T3	Type 43 73	heroin, oxycontin, and cocaine
+T4	History 75 77;78 98	up until day of surgery
+T5	Employment 110 120	unemployed
+T6	StatusEmploy 100 120	Currently unemployed
+T7	Tobacco 143 149	Smokes
+T8	StatusTime 143 149	Smokes
+T9	Amount 150 154	1ppd
+T10	Duration 171 197	for approximately 30 years
+T11	Alcohol 202 206;207 210	etoh use
+T12	StatusTime 199 201	No
+T13	History 211 222	for 2 years
+E1	Drug:T1 Type:T3 Status:T2 History:T4 Type2:T14 Type3:T15
+E2	Employment:T5 Status:T6
+E3	Tobacco:T7 Amount:T9 Duration:T10 Status:T8
+E4	Alcohol:T11 Status:T12 History:T13
+A1	StatusTimeVal T2 current
+A2	StatusEmployVal T6 unemployed
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T12 past
+T14	Type 16 20	IVDA
+T15	Type 25 32	illicit

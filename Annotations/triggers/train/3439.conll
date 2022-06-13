@@ -1,0 +1,24 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	23	_
+O	23	24	X
+B-Alcohol	27	34	Alcohol
+I-Alcohol	35	38	Use
+O	38	39	:
+O	40	50	occasional
+B-Drug	51	55	Drug
+I-Drug	56	59	Use
+O	59	60	:
+O	61	62	X
+O	62	63	_
+
+O	65	71	SOCIAL
+O	72	79	HISTORY
+O	79	80	:
+
+B-Employment	82	89	Retired
+I-Employment	90	99	professor

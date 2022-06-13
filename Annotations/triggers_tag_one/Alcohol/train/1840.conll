@@ -1,0 +1,26 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Tobacco
+O	24	31	history
+O	31	32	:
+O	33	37	None
+
+B-Alcohol	38	42	ETOH
+O	42	43	:
+O	44	48	None
+
+O	49	56	Illicit
+O	57	62	drugs
+O	62	63	:
+O	64	68	None
+
+O	69	74	Lives
+O	75	77	by
+O	78	85	himself
+O	85	86	,
+O	87	97	unemployed
+O	98	107	secondary
+O	108	110	to
+O	111	121	disability

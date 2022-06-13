@@ -1,0 +1,31 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	lives
+O	23	31	downtown
+O	32	33	@
+O	34	41	shelter
+O	41	42	,
+O	43	49	single
+O	49	50	,
+B-Employment	51	58	retired
+
+O	60	66	Denies
+O	67	70	any
+B-Alcohol	71	75	EtOH
+O	76	78	or
+B-Drug	79	83	drug
+I-Drug	84	87	use
+O	88	89	x
+O	90	92	41
+O	93	95	mo
+O	95	96	.
+
+O	97	100	Has
+O	101	104	not
+O	105	109	been
+O	110	118	sexually
+O	119	125	active
+O	126	134	recently
+O	134	135	.

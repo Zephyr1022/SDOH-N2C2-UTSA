@@ -1,0 +1,89 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	20	Used
+O	21	23	to
+B-Employment	24	28	work
+O	29	32	for
+O	33	34	[
+O	34	35	*
+O	35	36	*
+O	36	43	Company
+O	44	49	25186
+O	49	50	*
+O	50	51	*
+O	51	52	]
+O	52	53	/
+O	53	54	[
+O	54	55	*
+O	55	56	*
+O	56	63	Company
+O	64	69	25187
+O	69	70	*
+O	70	71	*
+O	71	72	]
+O	73	75	in
+O	76	79	the
+O	80	86	claims
+
+O	87	97	department
+O	97	98	.
+
+O	99	101	Is
+O	102	109	married
+O	110	113	and
+O	114	119	likes
+O	120	122	to
+O	123	129	travel
+O	130	134	with
+O	135	138	his
+O	139	143	wife
+O	143	144	.
+
+O	145	148	One
+
+O	149	152	son
+O	153	156	who
+O	157	162	lives
+O	163	165	in
+O	166	167	[
+O	167	168	*
+O	168	169	*
+O	169	173	Name
+O	174	175	(
+O	175	177	NI
+O	177	178	)
+O	179	182	622
+O	182	183	*
+O	183	184	*
+O	184	185	]
+O	185	186	.
+
+B-Tobacco	187	193	Smoked
+O	194	195	2
+O	196	199	PPD
+O	200	203	for
+O	204	206	54
+O	207	212	years
+O	213	214	-
+O	215	223	recently
+
+O	225	229	quit
+O	229	230	.
+
+O	231	234	Has
+O	235	237	an
+O	238	248	occasional
+O	249	253	shot
+O	254	256	of
+B-Alcohol	257	261	ETOH
+O	262	264	on
+O	265	268	the
+O	269	277	weekends
+O	277	278	.
+
+O	279	285	Denies
+
+B-Drug	286	294	illicits
+O	294	295	.

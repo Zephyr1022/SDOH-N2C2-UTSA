@@ -1,0 +1,11 @@
+T1	Tobacco 73 80	tobacco
+T2	Drug 84 105	recreational drug use
+T3	Type 84 96	recreational
+T4	StatusTime 66 72	denies
+T5	Alcohol 124 159	very occasional alcohol consumption
+T7	StatusTime 115 123	endorses
+E1	Tobacco:T1 Status:T4
+E2	Drug:T2 Type:T3 Status:T4
+E3	Alcohol:T5 Status:T7
+A1	StatusTimeVal T4 none
+A3	StatusTimeVal T7 current

@@ -1,0 +1,23 @@
+T1	Tobacco 17 30	Former smoker
+T2	StatusTime 17 30	Former smoker
+T3	Duration 40 57	age 13 x 25 years
+T4	Amount 66 75	2-3 packs
+T5	Frequency 76 83	per day
+T6	Method 116 123	edibles
+T7	Type 106 115	marijuana
+T8	Drug 106 115	marijuana
+T9	StatusTime 101 105	Uses
+T10	Alcohol 140 151	alcohol use
+T12	StatusTime 129 139	Occasional
+T16	StatusEmploy 170 176	Worked
+T17	Employment 170 176	Worked
+T18	Type 177 225	at the local railroad doing mostly clerical work
+E1	Tobacco:T1 Status:T2 Duration:T3 Amount:T4 Frequency:T5 Amount2:T11
+E2	Drug:T8 Status:T9 Type:T7 Method:T6
+E3	Alcohol:T10 Status:T12
+E5	Employment:T17 Status:T16 Type:T18
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T9 current
+A4	StatusTimeVal T12 current
+A6	StatusEmployVal T16 unemployed
+T11	Amount 86 100	~75 pack years

@@ -1,0 +1,26 @@
+T1	LivingStatus 22 27	Lives
+T2	TypeLiving 28 42	with boyfriend
+T3	StatusTime 22 27	Lives
+T4	Employment 110 118	employed
+T5	StatusEmploy 99 109	Previously
+T6	Type 122 144	cleaning staff at bank
+T7	StatusTime 152 158	denies
+T8	StatusTime 168 174	denies
+T9	Drug 145 150	Drugs
+T10	Tobacco 159 166	Tobacco
+T11	Alcohol 175 182	Alcohol
+T12	Amount 184 190	1 pint
+T13	Type 194 199	vodka
+T14	Frequency 200 205	daily
+T15	StatusTime 184 205	1 pint of vodka daily
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Drug:T9 Status:T7
+E4	Tobacco:T10 Status:T8
+E5	Alcohol:T11 Amount:T12 Type:T13 Frequency:T14 Status:T15
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T8 none
+A6	StatusTimeVal T15 current

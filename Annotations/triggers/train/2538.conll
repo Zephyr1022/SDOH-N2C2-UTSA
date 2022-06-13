@@ -1,0 +1,88 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	24	20
+O	24	25	+
+O	26	30	pack
+O	31	35	year
+O	36	43	history
+O	43	44	.
+
+O	45	48	Not
+O	49	56	current
+O	57	63	smoker
+
+B-Alcohol	64	71	Alcohol
+I-Alcohol	72	75	Use
+O	75	76	:
+O	77	83	Denies
+O	84	91	current
+O	92	95	use
+O	95	96	,
+O	97	105	endorses
+O	106	114	moderate
+O	114	115	/
+O	115	120	heavy
+O	121	124	use
+O	125	127	in
+O	128	132	past
+O	132	133	.
+
+B-Drug	134	146	Recreational
+I-Drug	147	151	Drug
+I-Drug	152	155	Use
+O	155	156	:
+O	157	164	Regular
+O	165	174	marijuana
+O	175	178	use
+O	178	179	.
+
+O	182	188	SOCIAL
+O	189	196	HISTORY
+O	196	197	:
+
+O	199	200	-
+O	200	209	Estranged
+O	210	214	from
+O	215	217	ex
+O	217	218	-
+O	218	222	wife
+O	222	223	,
+O	224	232	daughter
+O	233	236	and
+O	237	240	son
+O	241	243	10
+O	244	249	years
+O	250	253	ago
+O	253	254	.
+
+O	255	261	Family
+O	262	267	lives
+O	268	270	in
+O	271	272	[
+O	272	280	LOCATION
+O	280	281	]
+O	281	282	.
+
+O	283	284	-
+B-Employment	284	285	[
+I-Employment	285	293	LOCATION
+I-Employment	293	294	]
+I-Employment	295	298	Vet
+O	298	299	,
+O	300	308	possible
+O	309	317	exposure
+O	318	320	to
+O	321	326	Agent
+O	327	333	Orange
+O	333	334	.
+
+B-LivingStatus	336	345	Residence
+O	345	346	:
+O	347	355	Shelters
+O	355	356	,
+O	357	363	hotels
+O	363	364	.

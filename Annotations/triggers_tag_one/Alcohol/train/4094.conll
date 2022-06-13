@@ -1,0 +1,31 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	25	in
+O	26	27	[
+O	27	35	LOCATION
+O	35	36	]
+
+O	37	42	Rides
+O	43	46	the
+O	47	50	bus
+
+O	51	52	h
+O	52	53	/
+O	53	54	o
+O	55	63	domestic
+O	64	72	violence
+
+O	73	79	Denies
+O	80	87	tobacco
+O	87	88	,
+B-Alcohol	89	93	etoh
+O	94	96	or
+O	97	104	illicit
+O	105	114	substance
+O	115	118	use
+O	119	121	at
+O	122	126	this
+O	127	131	time

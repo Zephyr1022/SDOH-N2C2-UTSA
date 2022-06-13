@@ -1,0 +1,13 @@
+T1	Employment 32 36	work
+T3	Type 49 60	an attorney
+T2	StatusEmploy 19 28	continues
+T4	StatusTime 223 233	no history
+T5	Tobacco 237 244	smoking
+T6	Alcohol 246 250	ETOH
+T7	Drug 254 262	illicits
+E1	Employment:T1 Type:T3 Status:T2
+E2	Tobacco:T5 Status:T4
+E3	Alcohol:T6 Status:T4
+E4	Drug:T7 Status:T4
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T4 none

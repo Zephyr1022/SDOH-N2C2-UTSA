@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: denies   Alcohol Use: denies   Drug Use: denies
+
+SOCIAL HISTORY: 
+Homeless currently but staying with friends. Lost his job at [LOCATION] several months ago. Currently working as a temp.

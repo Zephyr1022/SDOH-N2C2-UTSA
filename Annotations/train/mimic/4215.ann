@@ -1,0 +1,30 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 33	2 packs/day
+T3	Amount 22 29	2 packs
+T4	Frequency 29 33	/day
+T5	Duration 35 42	50 year
+T6	Alcohol 74 85	Alcohol Use
+T7	StatusTime 87 92	Sober
+T8	History 93 105	for 7 months
+T9	Amount 193 208	up to 10 drinks
+T10	Frequency 208 212	/day
+T11	Drug 215 223	Drug Use
+T12	StatusTime 278 299	denies any recent use
+T13	Type 266 276	everything
+T14	LivingStatus 319 324	Stays
+T15	StatusTime 319 324	Stays
+T16	TypeLiving 325 348	at Union Gospel shelter
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4 Duration:T5
+E2	Alcohol:T6 Status:T7 History:T8
+E3	Drug:T11 Type:T13 Status:T12 Method:T19
+E4	LivingStatus:T14 Status:T15 Type:T16
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T12 past
+A4	StatusTimeVal T15 current
+A5	TypeLivingVal T16 homeless
+T19	Method 245 249	IVDU
+T20	Alcohol 202 212	drinks/day
+E5	Alcohol:T20 Status:T21 Amount:T9 Frequency:T10
+T21	StatusTime 193 212	up to 10 drinks/day
+A6	StatusTimeVal T21 current

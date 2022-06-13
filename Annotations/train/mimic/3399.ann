@@ -1,0 +1,9 @@
+T1	Employment 81 91	Unemployed
+T2	StatusEmploy 81 91	Unemployed
+T3	Drug 96 108	opiate abuse
+T5	StatusTime 92 95	h/o
+T6	Type 96 102	opiate
+E1	Employment:T1 Status:T2
+E2	Drug:T3 Type:T6 Status:T5
+A1	StatusEmployVal T2 unemployed
+A3	StatusTimeVal T5 current

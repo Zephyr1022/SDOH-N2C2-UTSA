@@ -1,0 +1,99 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	27	Significant
+O	28	31	for
+O	32	35	the
+O	36	37	h
+O	37	38	/
+O	38	39	o
+B-Tobacco	40	47	tobacco
+I-Tobacco	48	51	use
+O	52	54	of
+O	55	57	15
+O	58	62	pack
+O	63	68	years
+O	68	69	,
+O	70	74	quit
+O	75	77	14
+
+O	78	83	years
+O	84	87	ago
+O	87	88	.
+
+O	89	94	There
+O	95	97	is
+O	98	100	no
+O	101	108	history
+O	109	111	of
+B-Alcohol	112	119	alcohol
+I-Alcohol	120	125	abuse
+O	125	126	.
+
+O	127	133	Denies
+B-Drug	134	138	IVDU
+O	139	141	or
+
+O	142	145	any
+O	146	148	hx
+O	149	151	of
+B-Drug	152	156	drug
+I-Drug	157	160	use
+O	160	161	.
+
+O	162	166	From
+O	167	168	[
+O	168	169	*
+O	169	170	*
+O	170	177	Country
+O	178	182	7192
+O	182	183	*
+O	183	184	*
+O	184	185	]
+O	185	186	,
+O	187	191	here
+O	192	195	for
+O	196	200	past
+O	201	203	20
+O	204	209	years
+O	209	210	,
+O	211	214	and
+
+O	215	217	he
+O	218	225	returns
+O	226	231	there
+O	232	240	annually
+O	241	243	to
+O	244	249	visit
+O	250	256	family
+O	256	257	.
+
+O	258	260	He
+B-LivingStatus	261	266	lives
+O	267	272	alone
+O	273	275	in
+
+O	276	277	[
+O	277	278	*
+O	278	279	*
+O	279	287	Location
+O	288	289	(
+O	289	291	un
+O	291	292	)
+O	293	297	2312
+O	297	298	*
+O	298	299	*
+O	299	300	]
+B-Employment	301	303	on
+I-Employment	304	314	disability
+O	314	315	,
+O	316	320	with
+O	321	328	brother
+O	329	334	close
+O	335	337	by
+O	337	338	.
+
+O	339	341	No
+O	342	346	pets
+O	346	347	.

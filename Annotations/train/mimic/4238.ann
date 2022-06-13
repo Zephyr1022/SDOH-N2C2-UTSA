@@ -1,0 +1,15 @@
+T1	Tobacco 9 24	10 pack year hx
+T2	Amount 9 21	10 pack year
+T3	StatusTime 9 24	10 pack year hx
+T4	Alcohol 26 36	last drink
+T5	StatusTime 26 48	last drink 2 weeks ago
+T6	LivingStatus 67 75	homeless
+T7	StatusTime 67 75	homeless
+T8	TypeLiving 67 75	homeless
+E1	Tobacco:T1 Status:T3 Amount:T2
+E2	Alcohol:T4 Status:T5
+E3	LivingStatus:T6 Status:T7 Type:T8
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T7 current
+A4	TypeLivingVal T8 homeless

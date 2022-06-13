@@ -1,0 +1,142 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	The
+O	20	27	patient
+O	28	30	is
+B-LivingStatus	31	40	currently
+I-LivingStatus	41	47	living
+O	48	50	in
+O	51	52	a
+O	53	60	trailer
+O	61	63	on
+O	64	67	his
+O	68	74	mother
+O	74	75	'
+O	75	76	s
+
+O	77	85	property
+O	86	88	in
+O	89	90	[
+O	90	91	*
+O	91	92	*
+O	92	100	Location
+O	101	106	23962
+O	106	107	*
+O	107	108	*
+O	108	109	]
+O	109	110	.
+
+O	112	118	Social
+O	119	127	stressor
+O	128	130	is
+O	131	135	that
+O	136	139	his
+O	140	146	mother
+O	147	149	is
+
+O	150	155	going
+O	156	158	to
+O	159	163	kick
+O	164	167	him
+O	168	171	out
+O	172	175	and
+O	176	178	he
+O	179	184	needs
+O	185	187	to
+O	188	192	find
+O	193	194	a
+O	195	198	new
+O	199	207	location
+O	208	211	for
+
+O	212	215	his
+O	216	223	trailer
+O	223	224	.
+
+O	226	229	The
+O	230	237	patient
+O	238	240	is
+B-Tobacco	241	250	currently
+I-Tobacco	251	258	smoking
+O	259	260	2
+O	261	266	packs
+O	267	270	per
+O	271	275	week
+O	275	276	,
+
+O	277	280	has
+O	281	292	significant
+B-Tobacco	293	300	tobacco
+I-Tobacco	301	308	history
+O	309	311	of
+O	312	313	1
+O	314	316	to
+O	317	318	2
+O	319	324	packs
+O	325	328	per
+O	329	332	day
+O	333	334	x
+O	335	337	30
+
+O	338	343	years
+O	343	344	.
+
+B-Alcohol	346	353	Alcohol
+I-Alcohol	354	357	use
+O	358	361	per
+O	362	365	HPI
+O	365	366	.
+
+O	368	370	No
+O	371	378	current
+B-Drug	379	381	IV
+I-Drug	381	382	,
+I-Drug	383	390	illicit
+I-Drug	391	393	or
+I-Drug	394	400	herbal
+
+B-Drug	401	405	drug
+I-Drug	406	409	use
+O	409	410	.
+
+O	412	414	He
+O	415	417	is
+O	418	421	not
+O	422	431	currently
+O	432	440	sexually
+O	441	447	active
+O	447	448	.
+
+O	450	452	He
+O	453	455	is
+B-Employment	456	458	on
+
+B-Employment	459	469	disability
+O	469	470	.
+
+O	472	480	Recently
+O	481	486	broke
+O	487	489	up
+O	490	494	with
+O	495	498	his
+O	499	508	girlfried
+O	508	509	,
+O	510	515	which
+O	516	518	is
+O	519	521	an
+
+O	522	532	additoinal
+O	533	541	stressor
+O	542	545	and
+O	546	557	contributed
+O	558	560	to
+O	561	564	his
+O	565	574	increased
+B-Drug	575	579	drug
+O	580	583	and
+
+B-Alcohol	584	592	alchohol
+I-Alcohol	593	596	use
+O	596	597	.

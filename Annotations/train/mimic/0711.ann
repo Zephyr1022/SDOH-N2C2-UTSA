@@ -1,0 +1,23 @@
+T1	Employment 148 155	Retired
+T2	StatusEmploy 148 155	Retired
+T3	Type 161 184	the embroidery business
+T4	LivingStatus 20 25	lived
+T5	TypeLiving 26 41	at Golden Rahab
+T6	StatusTime 42 66	since the past one month
+T7	Tobacco 189 196	tobacco
+T8	Alcohol 198 213	occasional ETOH
+T9	StatusTime 198 213	occasional ETOH
+T10	Drug 218 226	illicits
+T11	StatusTime 215 217	no
+T12	StatusTime 186 188	No
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T12
+E4	Alcohol:T8 Status:T9
+E5	Drug:T10 Status:T11
+A1	StatusEmployVal T2 retired
+A2	TypeLivingVal T5 with_others
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T11 none
+A6	StatusTimeVal T12 none

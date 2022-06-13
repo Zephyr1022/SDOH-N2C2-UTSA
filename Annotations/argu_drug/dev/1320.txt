@@ -1,0 +1,6 @@
+HABITS: 
+He is a former smoker. No alcohol use. 
+
+SOCIAL HISTORY: 
+[X] Unable to Obtain due to Patient Condition
+Pt was previously an engineer at [LOCATION] and lives in the [LOCATION] in a private residence.

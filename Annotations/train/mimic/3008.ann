@@ -1,0 +1,12 @@
+T1	Alcohol 23 28	beers
+T2	Frequency 29 34	daily
+T3	Amount 17 28	10-12 beers
+T4	StatusTime 29 34	daily
+T5	Drug 46 50	IVDU
+T6	Method 46 50	IVDU
+T7	StatusTime 55 70	currently sober
+E1	Alcohol:T1 Amount:T3 Frequency:T2 Status:T4 Type:T8
+E2	Drug:T5 Method:T6 Status:T7
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T7 past
+T8	Type 23 28	beers

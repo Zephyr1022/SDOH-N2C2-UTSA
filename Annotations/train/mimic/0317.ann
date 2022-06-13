@@ -1,0 +1,25 @@
+T1	Employment 36 40	work
+T2	StatusEmploy 28 35	used to
+T3	Type 44 53	a jeweler
+T4	LivingStatus 77 82	lives
+T5	StatusTime 77 82	lives
+T6	TypeLiving 83 99	with her husband
+T7	Tobacco 108 115	smoking
+T8	StatusTime 125 129	quit
+T9	History 130 137;138 147	over 40 years ago
+T10	Alcohol 160 164	ETOH
+T11	Drug 172 188	illicit drug use
+T12	Type 172 179	illicit
+T13	StatusTime 169 171	no
+T15	StatusTime 149 164	occasional ETOH
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8 History:T9
+E4	Alcohol:T10 Status:T15
+E5	Drug:T11 Type:T12 Status:T13
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T13 none
+A6	StatusTimeVal T15 current

@@ -1,0 +1,91 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Social
+O	23	30	history
+O	31	33	is
+O	34	45	significant
+O	46	49	for
+O	50	53	the
+O	54	62	presence
+O	63	65	of
+O	66	73	current
+
+B-Tobacco	74	81	tobacco
+I-Tobacco	82	85	use
+O	85	86	.
+
+O	87	92	There
+O	93	95	is
+O	96	98	no
+O	99	106	history
+O	107	109	of
+B-Alcohol	110	117	alcohol
+I-Alcohol	118	123	abuse
+O	123	124	.
+
+O	125	129	Also
+O	130	133	has
+
+O	134	141	history
+O	142	144	of
+B-Drug	145	149	IVDA
+O	150	153	but
+O	154	155	>
+O	155	156	8
+O	157	162	years
+O	163	166	ago
+O	166	167	.
+
+O	168	175	Reports
+O	176	181	being
+O	182	184	in
+O	185	188	the
+O	189	197	military
+
+O	198	201	and
+B-Employment	202	208	worked
+O	209	211	as
+O	212	213	a
+O	214	218	SEAL
+O	218	219	.
+
+B-LivingStatus	220	225	Lives
+O	226	231	alone
+O	232	235	but
+O	236	241	rents
+O	242	245	the
+O	246	255	apartment
+O	256	261	above
+
+O	262	265	him
+O	266	268	to
+O	269	270	a
+O	271	277	friend
+O	277	278	.
+
+O	280	281	[
+O	281	282	*
+O	282	283	*
+O	283	287	Name
+O	288	289	(
+O	289	291	NI
+O	291	292	)
+O	293	294	*
+O	294	295	*
+O	295	296	]
+O	297	299	is
+O	300	308	divorced
+O	309	312	and
+O	313	316	has
+O	317	320	two
+O	321	329	children
+O	330	334	that
+O	335	337	he
+
+O	338	341	has
+O	342	345	not
+O	346	354	recently
+O	355	359	seen
+O	359	360	.

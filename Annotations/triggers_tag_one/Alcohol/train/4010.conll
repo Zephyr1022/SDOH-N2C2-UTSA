@@ -1,0 +1,51 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	15	Smoked
+O	16	20	1ppd
+O	21	22	x
+O	23	25	20
+O	26	31	years
+O	31	32	,
+O	33	36	but
+O	37	40	has
+O	41	44	not
+O	45	51	smoked
+O	52	55	for
+O	56	59	the
+O	60	64	last
+O	65	70	month
+O	71	72	(
+O	72	84	incarcerated
+O	84	85	)
+O	85	86	.
+
+O	88	94	Denies
+B-Alcohol	95	102	alcohol
+I-Alcohol	103	106	use
+O	106	107	.
+
+O	109	119	Previously
+O	120	124	used
+O	125	132	cocaine
+O	133	136	and
+O	137	143	heroin
+O	144	150	though
+O	151	152	"
+O	152	155	not
+O	156	159	for
+O	160	164	some
+O	165	169	time
+O	169	170	,
+O	170	171	"
+O	172	174	on
+O	175	184	methadone
+O	184	185	.
+
+O	187	193	SOCIAL
+O	194	201	HISTORY
+O	201	202	:
+
+O	204	213	Currently
+O	214	226	incarcerated
+O	226	227	.

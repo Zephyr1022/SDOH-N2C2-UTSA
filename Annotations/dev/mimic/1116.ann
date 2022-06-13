@@ -1,0 +1,25 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 38	with his partner
+T4	Employment 90 115	Food service prep manager
+T5	StatusEmploy 90 115	Food service prep manager
+T6	Type 90 115	Food service prep manager
+T7	Tobacco 121 128	smoking
+T8	StatusTime 116 120	Quit
+T9	History 129 145	in [**8-/2194**]
+T10	Alcohol 150 154	EtOH
+T11	StatusTime 146 149	(-)
+T12	History 155 171	since [**2178**]
+T13	Drug 183 197	other drug use
+T14	StatusTime 172 182	Denies any
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8 History:T9
+E4	Alcohol:T10 Status:T11 History:T12
+E5	Drug:T13 Status:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T11 past
+A6	StatusTimeVal T14 none

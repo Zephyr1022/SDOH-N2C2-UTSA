@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: Patient denies smoking cigarettes but admits to daily chewing tobacco use. Alcohol Use: Denies for >2 years.  Drug Use: Denies.
+
+SOCIAL HISTORY: 
+Patient lives in [LOCATION], notes his brother-in-law lives in [LOCATION] area but otherwise family is distant to him (including his wife).

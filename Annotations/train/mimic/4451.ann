@@ -1,0 +1,29 @@
+T1	Tobacco 17 36	prior social smoker
+T2	StatusTime 17 36	prior social smoker
+T4	Alcohol 38 53	occasional EtOH
+T6	StatusTime 38 53	occasional EtOH
+T7	Drug 58 66	illicits
+T8	Type 58 66	illicits
+T9	StatusTime 55 57	no
+T10	Drug 68 77	marijuana
+T11	Type 68 77	marijuana
+T12	StatusTime 78 88	months ago
+T13	LivingStatus 89 94	lives
+T14	StatusTime 89 94	lives
+T15	TypeLiving 95 125	with brother and sister-in-law
+T16	Employment 152 170	operations manager
+T17	Type 152 170	operations manager
+T18	StatusEmploy 140 148	on leave
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T4 Status:T6
+E3	Drug:T7 Status:T9 Type:T8
+E4	Drug:T10 Type:T11 Status:T12
+E5	LivingStatus:T13 Status:T14 Type:T15
+E6	Employment:T16 Type:T17 Status:T18
+A1	StatusTimeVal T2 past
+A4	StatusTimeVal T6 current
+A5	StatusTimeVal T9 none
+A6	StatusTimeVal T12 current
+A7	StatusTimeVal T14 current
+A8	TypeLivingVal T15 with_family
+A9	StatusEmployVal T18 employed

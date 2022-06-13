@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: _   Alcohol Use: _   Drug Use: _
+
+SOCIAL HISTORY: 
+Currently living by self, denies any current smoking, drinking or drugs.

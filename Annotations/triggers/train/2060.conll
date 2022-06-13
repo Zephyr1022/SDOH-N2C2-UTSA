@@ -1,0 +1,31 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	26	27	:
+O	28	35	Married
+O	36	40	with
+O	41	42	3
+O	43	51	children
+
+B-Employment	52	62	Occupation
+O	62	63	:
+O	64	76	Construction
+
+B-Tobacco	77	84	Tobacco
+O	84	85	:
+O	86	89	one
+O	90	99	cigarette
+O	99	100	/
+O	100	103	day
+
+B-Alcohol	104	108	ETOH
+O	108	109	:
+O	110	111	3
+O	111	112	-
+O	112	113	4
+O	114	119	beers
+O	120	125	every
+O	126	133	evening

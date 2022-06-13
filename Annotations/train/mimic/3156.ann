@@ -1,0 +1,33 @@
+T1	LivingStatus 95 100	lives
+T2	StatusTime 95 100	lives
+T3	TypeLiving 171 184	in a 38 ft RV
+T4	Employment 429 437	Vocation
+T5	StatusEmploy 439 449	Unemployed
+T6	Type 470 500	construction, welding, fishing
+T7	Tobacco 526 537	Tobacco Use
+T8	Amount 539 546	1/2 ppd
+T9	Duration 547 557	x 60 years
+T10	StatusTime 539 546	1/2 ppd
+T11	Alcohol 560 571	Alcohol Use
+T13	StatusTime 573 579	rarely
+T14	Drug 582 590	Drug Use
+T15	Method 592 596	IVDU
+T16	Type 598 604	heroin
+T17	History 605 616	2 years ago
+T18	StatusTime 605 616	2 years ago
+T19	Drug 638 657	crack and marijuana
+T20	StatusTime 638 666	crack and marijuana recently
+T21	Type 638 657	crack and marijuana
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Amount:T8 Status:T10 Duration:T9
+E4	Alcohol:T11 Status:T13
+E5	Drug:T14 Method:T15 Type:T16 Status:T18 History:T17
+E6	Drug:T19 Type:T21 Status:T20
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T10 current
+A6	StatusTimeVal T13 current
+A7	StatusTimeVal T18 past
+A8	StatusTimeVal T20 current

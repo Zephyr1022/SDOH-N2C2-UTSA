@@ -1,0 +1,41 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	denies
+B-Alcohol	31	38	Alcohol
+I-Alcohol	39	42	Use
+O	42	43	:
+O	44	50	denies
+B-Drug	53	57	Drug
+I-Drug	58	61	Use
+O	61	62	:
+O	63	69	denies
+
+O	72	78	SOCIAL
+O	79	86	HISTORY
+O	86	87	:
+
+O	89	90	[
+O	90	91	_
+O	91	92	]
+O	93	99	Unable
+O	100	102	to
+O	103	109	Obtain
+O	110	113	due
+O	114	116	to
+O	117	124	Patient
+O	125	134	Condition
+
+B-LivingStatus	135	144	Residence
+O	144	145	:
+O	146	151	lives
+O	152	156	with
+O	157	161	wife
+O	162	165	and
+B-Employment	166	171	works
+O	172	186	intermittently
+O	187	189	in
+O	190	202	construction

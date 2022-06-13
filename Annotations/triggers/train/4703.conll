@@ -1,0 +1,84 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+B-Employment	17	27	Unemployed
+O	28	32	pipe
+O	33	41	designer
+O	41	42	.
+
+O	44	46	He
+O	47	50	has
+O	51	57	worked
+O	58	60	in
+
+O	61	70	shipyards
+O	71	77	before
+O	77	78	.
+
+O	80	82	He
+O	83	85	is
+O	86	93	married
+O	94	98	with
+O	99	104	three
+O	105	113	children
+O	113	114	.
+
+O	116	118	He
+
+O	119	124	lives
+O	125	127	in
+O	128	129	[
+O	129	130	*
+O	130	131	*
+O	131	140	Hospital1
+O	141	144	392
+O	144	145	*
+O	145	146	*
+O	146	147	]
+O	147	148	.
+
+O	150	152	He
+B-Tobacco	153	159	smoked
+O	160	165	three
+O	166	171	packs
+O	172	175	per
+O	176	179	day
+O	180	185	times
+O	186	192	twenty
+
+O	193	198	years
+O	198	199	,
+O	200	204	quit
+O	205	211	thirty
+O	212	217	three
+O	218	223	years
+O	224	227	ago
+O	227	228	.
+
+B-Alcohol	230	237	Alcohol
+O	238	243	abuse
+O	244	248	quit
+O	249	251	in
+
+O	252	253	[
+O	253	254	*
+O	254	255	*
+O	255	259	2169
+O	259	260	-
+O	260	261	3
+O	261	262	-
+O	262	264	14
+O	264	265	*
+O	265	266	*
+O	266	267	]
+O	267	268	.
+
+O	270	273	Use
+O	274	276	of
+O	277	280	one
+O	281	287	bottle
+O	288	290	of
+B-Alcohol	291	298	alcohol
+O	299	302	per
+O	303	306	day
+O	306	307	.

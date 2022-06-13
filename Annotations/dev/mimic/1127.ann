@@ -1,0 +1,6 @@
+T1	Tobacco 31 38	smoking
+T2	Alcohol 42 49	alcohol
+T3	StatusTime 24 30	denies
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T2 Status:T3
+A1	StatusTimeVal T3 none

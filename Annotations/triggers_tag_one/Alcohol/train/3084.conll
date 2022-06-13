@@ -1,0 +1,54 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	23	1
+O	23	24	/
+O	24	28	2ppd
+O	29	34	since
+O	35	40	young
+O	40	41	.
+
+O	42	46	Quit
+O	47	50	for
+O	51	53	10
+O	54	59	years
+O	60	62	at
+O	63	66	one
+O	67	73	period
+O	74	76	in
+O	77	81	time
+
+B-Alcohol	82	89	Alcohol
+I-Alcohol	90	93	Use
+O	93	94	:
+O	95	100	Never
+O	101	108	drinker
+
+O	109	113	Drug
+O	114	117	Use
+O	117	118	:
+O	119	124	Tried
+O	125	132	cocaine
+O	132	133	/
+O	133	137	meth
+O	137	138	.
+
+O	139	143	Been
+O	144	149	years
+
+O	151	157	SOCIAL
+O	158	165	HISTORY
+O	165	166	:
+
+O	168	173	Lives
+O	174	176	on
+O	177	180	own
+O	181	183	in
+O	184	185	[
+O	185	193	LOCATION
+O	193	194	]
+
+O	195	205	Unemployed

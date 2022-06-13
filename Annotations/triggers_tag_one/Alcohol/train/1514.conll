@@ -1,0 +1,21 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	18	24	Denies
+O	25	32	smoking
+O	32	33	,
+O	34	39	drugs
+O	39	40	,
+B-Alcohol	41	48	alcohol
+
+O	49	55	SOCIAL
+O	56	63	HISTORY
+O	63	64	:
+
+O	67	73	Denies
+O	74	81	smoking
+O	81	82	,
+O	83	88	drugs
+O	88	89	,
+B-Alcohol	90	97	alcohol

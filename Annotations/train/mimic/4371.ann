@@ -1,0 +1,44 @@
+T1	Drug 265 269	IVDU
+T2	Method 265 269	IVDU
+T3	StatusTime 247 261	Remote history
+T4	Drug 211 219	Drug Use
+T5	StatusTime 222 236	Denies current
+T6	Tobacco 9 20	Tobacco Use
+T7	Amount 22 34	15 pack year
+T8	StatusTime 44 48	quit
+T9	History 49 54	at 35
+T10	Type 66 81	e-cigarettes up
+T11	Alcohol 101 112	Alcohol Use
+T15	Amount 179 189	3-4 drinks
+T16	Frequency 190 208	over the past year
+T17	StatusTime 179 208	3-4 drinks over the past year
+T18	LivingStatus 288 294	Living
+T19	StatusTime 288 294	Living
+T20	TypeLiving 295 308	with a friend
+T21	Employment 347 353	worked
+T22	StatusEmploy 336 353	Previously worked
+T23	Type 357 383	metal fabrication on ships
+T24	Duration 384 396	for 40 years
+T25	Employment 398 405	Retired
+T26	History 406 410	2006
+T27	StatusEmploy 398 405	Retired
+E1	Drug:T1 Status:T3 Method:T2
+E2	Drug:T4 Status:T5
+E3	Tobacco:T6 Amount:T7 Status:T8 History:T9
+E4	Alcohol:T11 Status:T17 Frequency:T16 Amount:T15
+E6	LivingStatus:T18 Type:T20 Status:T19
+E7	Employment:T21 Status:T22 Type:T23 Duration:T24
+E8	Employment:T25 History:T26 Status:T27
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 past
+A6	StatusTimeVal T17 current
+A7	StatusTimeVal T19 current
+A8	TypeLivingVal T20 with_others
+A9	StatusEmployVal T22 unemployed
+A10	StatusEmployVal T27 retired
+T13	Tobacco 66 78	e-cigarettes
+E9	Tobacco:T13 Type:T10 Status:T29 History:T28
+T28	History 82 98	until 1 year ago
+T29	StatusTime 82 98	until 1 year ago
+A5	StatusTimeVal T29 past

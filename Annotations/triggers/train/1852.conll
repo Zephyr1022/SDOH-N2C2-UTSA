@@ -1,0 +1,51 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	She
+O	20	23	was
+O	24	28	very
+O	29	40	independent
+O	41	44	and
+B-LivingStatus	45	50	lived
+O	51	56	alone
+O	56	57	,
+O	58	65	widowed
+O	65	66	.
+
+O	68	71	She
+O	72	75	did
+O	76	79	not
+
+B-Employment	80	84	work
+O	84	85	.
+
+O	87	89	No
+B-Tobacco	90	91	T
+O	91	92	/
+B-Alcohol	92	93	A
+O	93	94	/
+B-Drug	94	95	D
+I-Drug	95	96	.
+
+O	98	101	Tox
+O	102	109	screens
+O	110	112	on
+O	113	122	admission
+O	123	127	were
+O	128	131	all
+O	132	140	negative
+O	140	141	.
+
+O	142	143	-
+O	144	147	She
+O	148	151	has
+O	152	153	2
+O	154	163	daughters
+O	164	167	and
+O	168	169	a
+O	170	173	son
+O	174	182	involved
+O	183	185	in
+O	186	195	decisions
+O	195	196	.

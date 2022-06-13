@@ -1,0 +1,13 @@
+T1	Tobacco 8 15	Tobacco
+T2	StatusTime 17 23	denies
+T3	Alcohol 25 29	ETOH
+T4	StatusTime 31 56	previously occasional use
+T6	Drug 58 66	Illicits
+T7	Type 58 66	Illicits
+T8	StatusTime 68 74	denies
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T6 Type:T7 Status:T8
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 past
+A4	StatusTimeVal T8 none

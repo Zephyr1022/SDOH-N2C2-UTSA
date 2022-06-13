@@ -1,0 +1,36 @@
+T1	LivingStatus 44 49	lives
+T2	StatusTime 44 49	lives
+T3	TypeLiving 50 75	in [**Location **] common
+T4	LivingStatus 16 24	Homeless
+T5	TypeLiving 16 24	Homeless
+T6	StatusTime 25 42	for past 16 years
+T7	Duration 25 42	for past 16 years
+T8	Alcohol 170 174	ETOH
+T9	Drug 176 199	cocaine, heroin, benzos
+T11	StatusTime 134 136	Hx
+T12	Alcohol 227 231	ETOH
+T13	StatusTime 233 239	drinks
+T14	Amount 240 253	3 pints vodka
+T15	Type 248 253	vodka
+T16	Frequency 254 259	a day
+T17	Tobacco 325 332	tobacco
+T19	Type 176 199	cocaine, heroin, benzos
+T20	Drug 290 308	heroin and cocaine
+T21	Type 290 308	heroin and cocaine
+T22	StatusTime 261 285	does not recall last use
+T18	StatusTime 310 324	Denies current
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Type:T5 Status:T6 Duration:T7
+E3	Alcohol:T8 Status:T11
+E4	Drug:T9 Status:T11 Type:T19
+E5	Alcohol:T12 Status:T13 Amount:T14 Type:T15 Frequency:T16
+E6	Tobacco:T17 Status:T18
+E7	Drug:T20 Type:T21 Status:T22
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	TypeLivingVal T5 homeless
+A4	StatusTimeVal T6 past
+A6	StatusTimeVal T11 current
+A7	StatusTimeVal T13 current
+A9	StatusTimeVal T22 past
+A8	StatusTimeVal T18 past

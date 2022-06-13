@@ -1,0 +1,26 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	20	The
+O	21	28	patient
+O	29	34	moved
+O	35	39	here
+O	40	44	from
+O	45	46	[
+O	46	54	LOCATION
+O	54	55	]
+O	56	57	a
+O	58	64	number
+O	65	67	of
+O	68	73	years
+O	74	77	ago
+O	77	78	.
+
+O	79	81	He
+O	82	88	denies
+B-Alcohol	89	96	alcohol
+O	97	100	and
+B-Drug	101	105	drug
+I-Drug	106	109	use
+O	109	110	.

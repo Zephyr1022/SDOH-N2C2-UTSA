@@ -1,0 +1,6 @@
+T1	LivingStatus 161 170	Residence
+T2	StatusTime 172 177	Lives
+T3	TypeLiving 192 211	with family members
+E1	LivingStatus:T1 Status:T2 Type:T3
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family

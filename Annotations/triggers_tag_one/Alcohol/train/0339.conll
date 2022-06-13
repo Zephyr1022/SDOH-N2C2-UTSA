@@ -1,0 +1,46 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Social
+O	23	25	Hx
+O	25	26	:
+
+O	27	34	Married
+O	34	35	,
+O	36	41	lives
+O	42	46	with
+O	47	54	husband
+O	54	55	.
+
+O	56	58	20
+O	59	64	years
+O	65	66	x
+O	67	68	1
+O	69	72	ppd
+O	73	81	tobbacco
+O	81	82	,
+O	83	87	quit
+O	88	90	15
+O	91	96	years
+O	97	100	ago
+O	100	101	.
+
+O	102	103	[
+O	103	104	*
+O	104	105	*
+O	105	106	4
+O	106	107	-
+O	107	108	6
+O	108	109	*
+O	109	110	*
+O	110	111	]
+O	112	119	glasses
+B-Alcohol	120	124	wine
+
+O	125	128	per
+O	129	133	week
+O	133	134	,
+O	135	141	denies
+O	142	146	IVDU
+O	146	147	.

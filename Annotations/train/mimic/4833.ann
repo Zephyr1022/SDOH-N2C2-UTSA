@@ -1,0 +1,5 @@
+T1	Employment 25 38	Self-employed
+T2	StatusEmploy 25 38	Self-employed
+T3	Type 39 47	courrier
+E1	Employment:T1 Status:T2 Type:T3
+A1	StatusEmployVal T2 employed

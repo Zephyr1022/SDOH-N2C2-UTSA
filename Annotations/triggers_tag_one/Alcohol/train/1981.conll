@@ -1,0 +1,37 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	26	unemployed
+O	26	27	,
+O	28	33	lives
+O	34	38	with
+O	39	42	son
+O	43	46	and
+O	47	53	mother
+O	54	59	lives
+O	60	68	upstairs
+O	68	69	.
+
+O	70	76	Smokes
+
+O	77	84	tobacco
+O	85	101	occasionsionally
+O	101	102	.
+
+O	103	110	Cocaine
+O	111	114	and
+O	115	122	heroine
+O	123	128	abuse
+O	129	131	in
+O	132	135	the
+O	136	140	past
+
+O	141	144	but
+O	145	151	denies
+O	152	158	recent
+O	159	162	use
+O	162	163	;
+O	164	170	denies
+B-Alcohol	171	175	etoh
+O	175	176	.

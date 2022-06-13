@@ -1,0 +1,10 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-Drug	17	21	Drug
+I-Drug	22	25	use
+O	25	26	:
+
+O	28	34	Denies
+O	34	35	.

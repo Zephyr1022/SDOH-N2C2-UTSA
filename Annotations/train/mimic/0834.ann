@@ -1,0 +1,36 @@
+T1	LivingStatus 23 28	lives
+T2	StatusTime 23 28	lives
+T3	TypeLiving 29 42	with his wife
+T7	Employment 191 206	a postal worker
+T8	StatusEmploy 176 190	was previously
+T9	Type 191 206	a postal worker
+T10	Employment 237 254	currently retired
+T11	StatusEmploy 237 254	currently retired
+T12	Tobacco 260 263	Tob
+T13	Amount 265 269	1ppd
+T14	Duration 270 279	x 44years
+T15	StatusTime 265 279	1ppd x 44years
+T16	Alcohol 284 288	EtOH
+T17	StatusTime 290 296	denies
+T18	Drug 301 317	Illicit drug use
+T19	Type 301 308	Illicit
+T20	StatusTime 319 325	denies
+T21	LivingStatus 326 331	Lives
+T22	StatusTime 326 331	Lives
+T23	TypeLiving 332 359	with mentally retarted wife
+E1	LivingStatus:T1 Status:T2 Type:T3
+E3	Employment:T7 Status:T8 Type:T9
+E4	Employment:T10 Status:T11
+E5	Tobacco:T12 Amount:T13 Duration:T14 Status:T15
+E6	Alcohol:T16 Status:T17
+E7	Drug:T18 Type:T19 Status:T20
+E8	LivingStatus:T21 Status:T22 Type:T23
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A4	StatusEmployVal T8 unemployed
+A5	StatusEmployVal T11 retired
+A6	StatusTimeVal T15 current
+A7	StatusTimeVal T17 none
+A8	StatusTimeVal T20 none
+A9	StatusTimeVal T22 current
+A10	TypeLivingVal T23 with_family

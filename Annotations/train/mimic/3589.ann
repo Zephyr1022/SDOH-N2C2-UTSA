@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 35	Former smoker
+T3	History 42 55	20+ years ago
+T4	Alcohol 58 69	Alcohol Use
+T5	StatusTime 71 80	Continued
+T7	Type 84 89	beers
+T8	Frequency 90 108	a few times a week
+T6	Amount 81 89	~5 beers
+T9	Drug 144 152	Drug Use
+T10	Type 154 180	Marijuana, distant cocaine
+T11	StatusTime 154 184	Marijuana, distant cocaine use
+T12	LivingStatus 203 208	Lives
+T13	TypeLiving 212 233	Cottage Grove shelter
+T14	StatusTime 234 243	currently
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Alcohol:T4 Status:T5 Type:T7 Amount:T6 Frequency:T8
+E3	Drug:T9 Type:T10 Status:T11
+E4	LivingStatus:T12 Type:T13 Status:T14
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T11 current
+A4	TypeLivingVal T13 homeless
+A5	StatusTimeVal T14 current

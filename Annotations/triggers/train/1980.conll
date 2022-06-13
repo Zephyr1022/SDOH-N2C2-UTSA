@@ -1,0 +1,34 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	The
+O	20	27	patient
+O	28	31	has
+O	32	33	a
+B-Tobacco	34	36	15
+I-Tobacco	37	41	pack
+I-Tobacco	42	46	year
+I-Tobacco	47	54	history
+O	54	55	.
+
+O	56	60	Quit
+B-Tobacco	61	68	smoking
+O	69	74	after
+O	75	79	CABG
+O	79	80	.
+
+B-Employment	81	87	Worked
+O	88	90	as
+O	91	100	bookmaker
+O	101	104	for
+O	105	111	sports
+O	112	120	gambling
+O	120	121	.
+
+O	122	124	No
+B-Alcohol	125	132	alcohol
+O	132	133	,
+O	134	136	no
+B-Drug	137	142	drugs
+O	142	143	.

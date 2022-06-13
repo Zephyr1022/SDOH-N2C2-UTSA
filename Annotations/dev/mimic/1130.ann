@@ -1,0 +1,28 @@
+T1	Tobacco 21 28	smoking
+T2	StatusTime 16 20	Quit
+T3	History 29 41	10 years ago
+T4	Alcohol 43 49	Drinks
+T5	Amount 50 57	1 glass
+T6	Type 61 65	port
+T7	Frequency 66 69;70 73	per day
+T8	StatusTime 43 49	Drinks
+T9	Drug 78 91	illicit drugs
+T10	Type 78 85	illicit
+T11	StatusTime 75 77	No
+T12	LivingStatus 93 98	Lives
+T13	TypeLiving 99 108	with wife
+T14	StatusTime 93 98	Lives
+T15	Employment 134 139	Works
+T16	Type 143 155	an Assistant
+T17	StatusEmploy 134 139	Works
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Alcohol:T4 Status:T8 Amount:T5 Type:T6 Frequency:T7
+E3	Drug:T9 Type:T10 Status:T11
+E4	LivingStatus:T12 Type:T13 Status:T14
+E5	Employment:T15 Type:T16 Status:T17
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T8 current
+A3	StatusTimeVal T11 none
+A4	TypeLivingVal T13 with_family
+A5	StatusTimeVal T14 current
+A6	StatusEmployVal T17 employed

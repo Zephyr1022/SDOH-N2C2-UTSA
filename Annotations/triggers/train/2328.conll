@@ -1,0 +1,40 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	Denies
+B-Alcohol	31	38	Alcohol
+I-Alcohol	39	42	Use
+O	42	43	:
+O	44	50	Denies
+B-Drug	53	57	Drug
+I-Drug	58	61	Use
+O	61	62	:
+O	63	69	Denies
+
+O	71	77	SOCIAL
+O	78	85	HISTORY
+O	85	86	:
+
+B-LivingStatus	89	98	Residence
+O	98	99	:
+O	100	105	Lives
+O	106	110	with
+O	111	115	wife
+O	116	119	and
+O	120	130	supportive
+O	131	135	kids
+O	136	138	in
+O	139	142	the
+O	143	147	area
+O	148	149	(
+O	149	152	has
+O	153	158	house
+O	158	159	)
+
+O	161	169	Disabled
+O	170	173	for
+O	174	178	many
+O	179	184	years

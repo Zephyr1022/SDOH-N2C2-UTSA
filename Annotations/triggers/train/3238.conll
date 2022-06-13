@@ -1,0 +1,24 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	Lives
+O	23	36	independently
+O	36	37	.
+
+B-Drug	38	44	Former
+I-Drug	45	52	cocaine
+I-Drug	53	57	user
+O	57	58	,
+O	59	65	denies
+O	66	73	current
+O	73	74	.
+
+O	75	82	Chronic
+O	83	87	pain
+O	88	90	on
+O	91	99	contract
+O	100	101	w
+O	101	102	/
+O	103	106	PCP
+O	106	107	.

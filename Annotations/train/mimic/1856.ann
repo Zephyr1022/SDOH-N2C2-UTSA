@@ -1,0 +1,15 @@
+T1	LivingStatus 25 33	homeless
+T3	StatusTime 16 24	Formerly
+T2	TypeLiving 25 33	homeless
+T4	Employment 63 68	Works
+T5	Type 97 112	in food service
+T6	StatusEmploy 63 68	Works
+T7	Tobacco 114 120	Smoker
+T8	StatusTime 114 120	Smoker
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T8
+A3	StatusTimeVal T3 past
+A1	TypeLivingVal T2 homeless
+A2	StatusEmployVal T6 employed
+A4	StatusTimeVal T8 current

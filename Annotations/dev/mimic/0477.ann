@@ -1,0 +1,20 @@
+T1	Tobacco 16 26	Cigarettes
+T2	Type 16 26	Cigarettes
+T3	StatusTime 28 33	Never
+T4	Employment 34 44	Occupation
+T5	StatusEmploy 46 52	worked
+T6	Type 56 64	a lawyer
+T7	LivingStatus 89 94	Lives
+T8	StatusTime 89 94	Lives
+T9	TypeLiving 95 106	With family
+T10	Alcohol 107 111	ETOH
+T11	StatusTime 113 115	No
+E1	Tobacco:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	LivingStatus:T7 Status:T8 Type:T9
+E4	Alcohol:T10 Status:T11
+A1	StatusTimeVal T3 none
+A2	StatusEmployVal T5 unemployed
+A3	StatusTimeVal T8 current
+A4	TypeLivingVal T9 with_family
+A5	StatusTimeVal T11 none

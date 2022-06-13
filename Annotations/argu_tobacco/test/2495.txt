@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: denies  Alcohol Use: three 24 oz beers/day Drug Use: denies 
+
+SOCIAL HISTORY: 
+lives in City Hall shelter. Originally from [LOCATION]. Lived in [LOCATION].

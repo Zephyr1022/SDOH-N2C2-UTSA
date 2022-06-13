@@ -1,0 +1,17 @@
+T1	Tobacco 57 68	a nonsmoker
+T2	StatusTime 57 68	a nonsmoker
+T3	Tobacco 409 423	Smoking status
+T4	StatusTime 425 438	Former Smoker
+T5	Tobacco 443 460	Smokeless tobacco
+T6	Method 443 452	Smokeless
+T7	StatusTime 462 472	Never Used
+T8	Alcohol 477 488	Alcohol use
+T9	StatusTime 489 491	No
+E1	Tobacco:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+E3	Tobacco:T5 Method:T6 Status:T7
+E4	Alcohol:T8 Status:T9
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T9 none

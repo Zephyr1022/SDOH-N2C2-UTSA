@@ -1,0 +1,63 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	24	in
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	36	Location
+O	37	38	(
+O	38	40	un
+O	40	41	)
+O	42	43	*
+O	43	44	*
+O	44	45	]
+O	46	48	in
+O	49	50	[
+O	50	51	*
+O	51	52	*
+O	52	60	Location
+O	61	65	1268
+O	65	66	*
+O	66	67	*
+O	67	68	]
+O	68	69	.
+
+O	70	77	Husband
+O	78	83	lives
+O	84	86	in
+O	87	88	[
+O	88	89	*
+O	89	90	*
+O	90	98	Location
+O	99	100	*
+O	100	101	*
+O	101	102	]
+
+O	103	104	x
+O	105	107	17
+O	108	113	years
+O	113	114	.
+
+O	115	117	No
+O	118	126	children
+O	126	127	.
+
+O	128	138	Previously
+O	139	143	used
+O	144	146	to
+B-Employment	147	151	work
+O	152	154	in
+O	155	164	Pathology
+O	164	165	.
+
+O	166	168	No
+B-Alcohol	169	173	EtOH
+O	173	174	,
+B-Tobacco	175	182	tobacco
+O	182	183	,
+O	184	186	or
+B-Drug	187	195	illicits
+O	195	196	.

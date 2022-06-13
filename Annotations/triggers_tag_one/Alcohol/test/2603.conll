@@ -1,0 +1,44 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	27	never
+
+O	31	38	Alcohol
+O	39	42	Use
+O	42	43	:
+O	44	46	no
+O	47	54	current
+O	54	55	,
+O	56	61	drank
+O	62	64	in
+O	65	69	past
+
+O	73	77	Drug
+O	78	81	Use
+O	81	82	:
+O	83	87	none
+
+O	89	95	SOCIAL
+O	96	103	HISTORY
+O	103	104	:
+
+O	106	115	Residence
+O	115	116	:
+O	117	122	Lives
+O	123	127	with
+O	128	135	partner
+O	136	139	and
+O	140	143	two
+O	144	152	children
+
+O	153	163	Employment
+O	163	164	:
+O	165	173	training
+O	174	176	at
+O	177	178	[
+O	178	186	LOCATION
+O	186	187	]
+O	188	194	school

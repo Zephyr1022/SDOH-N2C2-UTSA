@@ -1,0 +1,94 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	20	From
+O	21	24	the
+O	25	31	family
+O	31	32	,
+O	33	36	she
+O	37	41	says
+O	42	45	she
+O	46	49	and
+O	50	53	her
+O	54	61	husband
+
+O	62	71	estranged
+O	72	76	from
+O	77	80	her
+O	81	87	family
+O	87	88	.
+
+O	89	92	Her
+O	93	100	husband
+O	101	109	recently
+O	110	114	died
+O	115	118	and
+O	119	123	they
+
+B-LivingStatus	124	128	used
+I-LivingStatus	129	131	to
+I-LivingStatus	132	138	travel
+I-LivingStatus	139	142	all
+I-LivingStatus	143	147	over
+I-LivingStatus	148	151	the
+I-LivingStatus	152	159	country
+I-LivingStatus	160	162	in
+I-LivingStatus	163	164	a
+I-LivingStatus	165	172	trailer
+O	173	176	and
+O	177	181	they
+O	182	187	never
+
+O	189	192	had
+O	193	194	a
+O	195	204	permanent
+O	205	210	place
+O	211	213	of
+O	214	223	residence
+O	223	224	.
+
+O	225	228	She
+B-LivingStatus	229	231	is
+I-LivingStatus	232	235	now
+O	236	238	in
+O	239	240	a
+
+O	241	255	rehabilitation
+O	256	264	facility
+O	265	271	called
+O	272	281	Roscommon
+O	282	284	On
+O	285	288	The
+O	289	296	Parkway
+O	296	297	.
+
+O	298	300	No
+
+O	301	306	other
+O	307	313	social
+O	314	321	history
+O	322	327	could
+O	328	330	be
+O	331	339	elicited
+O	340	344	from
+O	345	348	her
+O	348	349	.
+
+O	350	353	She
+O	354	358	does
+O	359	362	not
+
+O	363	371	remember
+O	372	374	if
+O	375	378	she
+O	379	385	smokes
+O	386	388	or
+O	389	393	does
+O	394	398	have
+O	399	400	a
+O	401	408	history
+O	409	411	of
+O	412	419	alcohol
+O	420	425	abuse
+O	425	426	.

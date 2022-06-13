@@ -1,0 +1,39 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	19	Pt
+O	19	20	.
+B-LivingStatus	21	26	lives
+O	27	29	in
+O	30	33	the
+O	34	35	[
+O	35	43	LOCATION
+O	43	44	]
+O	45	49	area
+O	50	52	in
+O	53	59	senior
+O	60	67	citizen
+O	68	75	housing
+O	75	76	.
+
+B-Tobacco	77	84	Tobacco
+O	84	85	:
+O	86	92	Denies
+O	92	93	.
+
+B-Alcohol	94	101	Alcohol
+O	101	102	:
+O	103	109	Denies
+O	109	110	.
+
+B-Drug	111	120	Marijuana
+O	120	121	:
+O	122	128	Denies
+O	128	129	.
+
+B-Drug	130	142	Recreational
+I-Drug	143	148	Drugs
+O	148	149	:
+O	150	156	Denies
+O	156	157	.

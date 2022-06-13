@@ -1,0 +1,15 @@
+T1	StatusTime 21 25	quit
+T2	Tobacco 26 33	smoking
+T3	History 34 47	six years ago
+T4	Alcohol 57 70	alcohol abuse
+T5	StatusTime 50 56	Denies
+T6	LivingStatus 75 80	lives
+T8	TypeLiving 81 98	with her daughter
+T9	StatusTime 75 80	lives
+E1	Tobacco:T2 History:T3 Status:T1
+E2	Alcohol:T4 Status:T5
+E3	LivingStatus:T6 Type:T8 Status:T9
+A1	StatusTimeVal T1 past
+A2	StatusTimeVal T5 none
+A4	TypeLivingVal T8 with_family
+A5	StatusTimeVal T9 current

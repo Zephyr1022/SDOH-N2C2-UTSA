@@ -1,0 +1,51 @@
+T1	Employment 51 69	previously working
+T2	StatusEmploy 51 69	previously working
+T3	Type 102 119	the IT department
+T4	Tobacco 188 199	tobacco use
+T5	Amount 173 187	[**1-22**] PPD
+T6	Duration 200 213	X 14-15 years
+T7	StatusTime 188 213	tobacco use X 14-15 years
+T8	Drug 243 252	oxycontin
+T9	Type 243 252	oxycontin
+T12	StatusTime 293 307	later moved on
+T10	History 253 263	in college
+T13	Drug 311 322	heroin (IV)
+T14	Method 319 321	IV
+T15	Type 311 317	heroin
+T16	StatusTime 293 310	later moved on to
+T17	Drug 342 348	heroin
+T18	Method 339 341	IV
+T19	Duration 353 368	over 6-7 months
+T20	Frequency 369 374	daily
+T21	History 375 401	until recent detox program
+T22	StatusTime 375 401	until recent detox program
+T24	Drug 416 425	marijuana
+T25	Type 416 425	marijuana
+T23	StatusTime 403 415	Intermittent
+T27	Alcohol 432 439	alcohol
+T29	StatusTime 427 431	Uses
+T30	Employment 479 491	unemployment
+T31	StatusEmploy 479 491	unemployment
+T32	LivingStatus 502 508	living
+T33	TypeLiving 512 525	a sober house
+T34	StatusTime 502 508	living
+T35	Duration 526 541	for a few weeks
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T5 Duration:T6 Status:T7
+E3	Drug:T8 Type:T9 Status:T12 History:T10
+E4	Drug:T13 Method:T14 Type:T15 Status:T16
+E5	Drug:T17 Method:T18 Duration:T19 Frequency:T20 History:T21 Status:T22
+E6	Drug:T24 Type:T25 Status:T23
+E7	Alcohol:T27 Status:T29
+E8	Employment:T30 Status:T31
+E9	LivingStatus:T32 Type:T33 Status:T34 Duration:T35
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T7 current
+A4	StatusTimeVal T12 past
+A5	StatusTimeVal T16 current
+A6	StatusTimeVal T22 past
+A7	StatusTimeVal T23 current
+A10	StatusTimeVal T29 current
+A11	StatusEmployVal T31 unemployed
+A12	TypeLivingVal T33 with_others
+A13	StatusTimeVal T34 current

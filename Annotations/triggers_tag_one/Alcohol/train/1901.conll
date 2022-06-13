@@ -1,0 +1,66 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	26	with
+O	27	31	wife
+O	31	32	.
+
+O	33	34	-
+O	35	42	Tobacco
+O	43	50	history
+O	50	51	:
+O	52	54	15
+O	55	65	cigarettes
+O	66	69	per
+O	70	73	day
+O	73	74	.
+
+O	76	78	He
+O	79	82	has
+O	83	87	done
+O	88	90	so
+O	91	96	since
+
+O	97	100	the
+O	101	105	late
+O	106	107	[
+O	107	108	*
+O	108	109	*
+O	109	113	2118
+O	113	114	*
+O	114	115	*
+O	115	116	]
+O	117	120	and
+O	121	124	has
+O	125	128	not
+O	129	133	been
+O	134	138	able
+O	139	141	to
+O	142	144	go
+O	145	146	a
+O	147	150	day
+O	151	158	without
+O	159	165	having
+
+O	166	168	at
+O	169	174	least
+O	175	178	one
+O	179	188	cigarette
+O	189	194	since
+O	195	198	the
+O	199	202	age
+O	203	205	of
+O	206	208	19
+
+O	209	210	-
+B-Alcohol	211	215	ETOH
+O	215	216	:
+O	218	222	None
+
+O	223	224	-
+O	225	232	Illicit
+O	233	238	drugs
+O	238	239	:
+O	240	244	None

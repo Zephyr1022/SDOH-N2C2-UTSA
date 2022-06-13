@@ -1,0 +1,19 @@
+T1	Employment 40 55	medical student
+T2	StatusEmploy 40 55	medical student
+T3	Tobacco 88 95	Tobacco
+T4	StatusTime 98 102	None
+T5	Alcohol 105 112	Alcohol
+T7	Amount 128 137	1-2 beers
+T8	Frequency 137 140	/wk
+T9	StatusTime 115 126	Occassional
+T10	Drug 144 152	Illicits
+T11	Type 144 152	Illicits
+T12	StatusTime 155 159	None
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+E3	Alcohol:T5 Amount:T7 Frequency:T8 Status:T9
+E4	Drug:T10 Type:T11 Status:T12
+A1	StatusEmployVal T2 student
+A2	StatusTimeVal T4 none
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T12 none

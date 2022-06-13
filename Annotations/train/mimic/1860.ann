@@ -1,0 +1,42 @@
+T1	Employment 16 33	recently lost job
+T2	Type 37 41	chef
+T3	StatusEmploy 16 33	recently lost job
+T4	LivingStatus 43 56	evicted today
+T5	TypeLiving 43 50	evicted
+T6	StatusTime 51 56	today
+T7	Tobacco 61 68	tobacco
+T8	StatusTime 58 60	No
+T9	Alcohol 75 80	beers
+T10	Amount 70 80	6-12 beers
+T11	Frequency 81 88	per day
+T12	StatusTime 70 80;81 88	6-12 beers per day
+T13	Drug 93 98	drugs
+T14	StatusTime 90 92	no
+T15	Tobacco 102 109	Tobacco
+T16	StatusTime 111 113	no
+T17	Alcohol 116 123	Alcohol
+T18	Amount 125 135	6-12 beers
+T19	Type 75 80	beers
+T20	Type 130 135	beers
+T21	Frequency 136 143	per day
+T22	StatusTime 125 143	6-12 beers per day
+T23	Drug 146 154	Illicits
+T24	Type 146 154	Illicits
+T25	StatusTime 156 158	no
+E1	Employment:T1 Type:T2 Status:T3
+E2	LivingStatus:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Amount:T10 Frequency:T11 Status:T12 Type:T19
+E5	Drug:T13 Status:T14
+E6	Tobacco:T15 Status:T16
+E7	Alcohol:T17 Amount:T18 Type:T20 Frequency:T21 Status:T22
+E8	Drug:T23 Type:T24 Status:T25
+A1	StatusEmployVal T3 unemployed
+A2	TypeLivingVal T5 homeless
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T12 current
+A6	StatusTimeVal T14 none
+A7	StatusTimeVal T16 none
+A8	StatusTimeVal T22 current
+A9	StatusTimeVal T25 none

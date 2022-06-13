@@ -1,0 +1,29 @@
+T1	LivingStatus 17 25	Homeless
+T2	TypeLiving 17 25	Homeless
+T3	StatusTime 17 25	Homeless
+T4	Tobacco 28 34	Smokes
+T5	Amount 35 40	1 ppd
+T6	Duration 41 51	x 40 years
+T7	StatusTime 28 34	Smokes
+T8	Alcohol 83 90	whiskey
+T9	Type 83 90	whiskey
+T10	Amount 71 79	a bottle
+T11	History 91 108	over the past day
+T12	StatusTime 62 70	drinking
+T13	Drug 122 126	meth
+T14	Type 122 126	meth
+T15	StatusTime 111 121	History of
+T16	Drug 156 172	illicit drug use
+T17	Type 156 163	illicit
+T18	StatusTime 149 155	denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Amount:T5 Duration:T6 Status:T7
+E3	Alcohol:T8 Type:T9 Amount:T10 History:T11 Status:T12
+E4	Drug:T13 Type:T14 Status:T15
+E5	Drug:T16 Type:T17 Status:T18
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T12 current
+A5	StatusTimeVal T15 current
+A6	StatusTimeVal T18 none

@@ -1,0 +1,42 @@
+T1	Alcohol 34 40	drinks
+T2	StatusTime 34 40	drinks
+T4	Amount 52 67	about 4 glasses
+T5	Type 71 75	wine
+T6	Frequency 76 77;78 83	a month
+T7	Drug 114 122	drug use
+T8	StatusTime 90 113	denies recent or remote
+T9	Drug 149 158	marijuana
+T10	Method 139 140;141 145	a puff
+T11	StatusTime 134 140;141 172	took a puff of marijuana in [**2129**]
+T12	Type 149 158	marijuana
+T13	Tobacco 183 200	remote tobacco Hx
+T14	StatusTime 202 206	quit
+T15	History 207 217	[**2137**]
+T16	Duration 219 226	15 year
+T17	Employment 235 254	was in the military
+T18	StatusEmploy 235 254	was in the military
+T19	Duration 262 280	from [**2127**]-72
+T20	Employment 667 673	worked
+T21	StatusEmploy 667 673	worked
+T22	Type 677 688	a paralegal
+T23	Employment 751 753;754 756	on SS
+T24	StatusEmploy 751 753;754 756	on SS
+T25	Employment 718 731	on disability
+T26	StatusEmploy 718 731	on disability
+E1	Alcohol:T1 Status:T2 Amount:T4 Type:T5 Frequency:T6
+E2	Drug:T7 Status:T8
+E3	Drug:T9 Status:T11 Type:T12 Method:T10
+E4	Tobacco:T13 Status:T14 History:T15 Duration:T16
+E5	Employment:T17 Status:T18 Duration:T19 Type:T3
+E6	Employment:T20 Status:T21 Type:T22
+E7	Employment:T23 Status:T24
+E8	Employment:T25 Status:T26
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T11 past
+A5	StatusTimeVal T14 past
+A6	StatusEmployVal T18 unemployed
+A7	StatusEmployVal T21 unemployed
+A8	StatusEmployVal T24 on_disability
+A9	StatusEmployVal T26 on_disability
+T3	Type 242 254	the military

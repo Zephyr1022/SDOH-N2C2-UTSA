@@ -1,0 +1,29 @@
+T2	StatusEmploy 55 62	Retired
+T3	History 63 85	after liver transplant
+T4	Type 14 53	an MD/PhD, specializing in [PROFESSION]
+T1	Employment 55 62	Retired
+T5	LivingStatus 87 92	Lives
+T6	StatusTime 87 92	Lives
+T7	TypeLiving 93 119	with his significant other
+T8	Employment 174 191	a baseball umpire
+T9	StatusEmploy 174 191	a baseball umpire
+T10	Type 174 191	a baseball umpire
+T11	Tobacco 194 201	Tobacco
+T12	StatusTime 203 209	denies
+T13	Alcohol 210 217	Alcohol
+T14	StatusTime 219 225	denies
+T15	Drug 226 231	Drugs
+T16	StatusTime 233 239	denies
+E1	Employment:T1 Status:T2 History:T3 Type:T4
+E2	LivingStatus:T5 Status:T6 Type:T7
+E3	Employment:T8 Status:T9 Type:T10
+E4	Tobacco:T11 Status:T12
+E5	Alcohol:T13 Status:T14
+E6	Drug:T15 Status:T16
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T6 current
+A3	TypeLivingVal T7 with_others
+A4	StatusEmployVal T9 employed
+A5	StatusTimeVal T12 none
+A6	StatusTimeVal T14 none
+A7	StatusTimeVal T16 none

@@ -1,0 +1,57 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	13	Past
+O	14	16	50
+O	17	19	pk
+O	19	20	/
+O	20	22	yr
+O	23	30	history
+B-Tobacco	31	38	smoking
+I-Tobacco	39	46	history
+O	46	47	,
+O	48	52	quit
+O	53	54	2
+O	55	61	months
+O	62	65	ago
+O	65	66	.
+
+O	67	71	Does
+O	72	75	not
+O	76	81	drink
+B-Alcohol	82	86	EtOH
+O	86	87	.
+
+O	88	94	Smokes
+B-Drug	95	104	marijuana
+O	105	114	currently
+O	114	115	,
+B-Drug	116	122	remote
+I-Drug	123	129	heroin
+I-Drug	130	133	use
+O	134	137	but
+O	138	142	none
+O	143	152	currently
+O	152	153	.
+
+O	155	161	SOCIAL
+O	162	169	HISTORY
+O	169	170	:
+
+B-LivingStatus	172	177	Lives
+O	178	180	in
+O	181	182	[
+O	182	190	LOCATION
+O	190	191	]
+O	192	196	with
+O	197	200	his
+O	201	204	Son
+O	204	205	,
+O	206	214	daughter
+O	215	217	in
+O	218	221	law
+O	221	222	,
+O	223	226	and
+O	227	228	2
+O	229	238	grandsons
+O	238	239	.

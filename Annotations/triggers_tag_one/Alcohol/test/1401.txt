@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: _n   Alcohol Use: _n   Drug Use: _n
+
+SOCIAL HISTORY: 
+[_] Unable to Obtain due to Patient Condition
+Residence: _from [LOCATION], here for her therapy.  mother is from [LOCATION] and is one of her caregivers and will be here tonight.

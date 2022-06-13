@@ -1,0 +1,22 @@
+T1	StatusEmploy 85 92	retired
+T2	Employment 85 92	retired
+T3	Type 43 60	a city bus driver
+T4	Duration 61 71	x 36 years
+T6	Employment 94 124	Currently receiving disability
+T7	StatusEmploy 94 124	Currently receiving disability
+T8	Alcohol 129 133	EtOH
+T9	StatusTime 143 151	does not
+T10	Tobacco 170 177	Smoking
+T11	StatusTime 191 196	never
+T12	Drug 215 220	Drugs
+T13	StatusTime 234 244	never used
+E1	Employment:T2 Duration:T4 Type:T3 Status:T1
+E2	Employment:T6 Status:T7
+E3	Alcohol:T8 Status:T9
+E4	Tobacco:T10 Status:T11
+E5	Drug:T12 Status:T13
+A1	StatusEmployVal T1 retired
+A2	StatusEmployVal T7 on_disability
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T11 none
+A5	StatusTimeVal T13 none

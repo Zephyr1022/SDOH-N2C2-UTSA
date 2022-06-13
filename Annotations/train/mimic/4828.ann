@@ -1,0 +1,13 @@
+T1	Alcohol 21 25	EtOH
+T2	StatusTime 16 20	+ hx
+T3	Drug 31 35	IVDU
+T4	Method 31 35	IVDU
+T5	StatusTime 26 30	+ hx
+T6	Employment 36 53	Presently working
+T7	StatusEmploy 36 53	Presently working
+E1	Alcohol:T1 Status:T2
+E2	Drug:T3 Status:T5 Method:T4
+E3	Employment:T6 Status:T7
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 current
+A3	StatusEmployVal T7 employed

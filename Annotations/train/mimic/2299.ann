@@ -1,0 +1,18 @@
+T1	LivingStatus 28 46	currently homeless
+T2	TypeLiving 28 46	currently homeless
+T3	Drug 61 65	IVDU
+T4	Method 61 65	IVDU
+T5	StatusTime 52 60	endorses
+T6	Tobacco 70 82	nicotine use
+T7	Type 70 78	nicotine
+T8	Alcohol 92 115	significant alcohol use
+T9	StatusTime 85 91	Denies
+T10	StatusTime 28 37	currently
+E1	LivingStatus:T1 Type:T2 Status:T10
+E2	Drug:T3 Status:T5 Method:T4
+E3	Tobacco:T6 Type:T7 Status:T5
+E4	Alcohol:T8 Status:T9
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T10 current

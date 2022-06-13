@@ -1,0 +1,18 @@
+T1	LivingStatus 49 65	Living situation
+T2	TypeLiving 74 79	alone
+T3	StatusTime 68 73	Lives
+T4	Employment 82 92	Employment
+T5	StatusEmploy 95 105	Unemployed
+T6	Alcohol 108 119	Alcohol use
+T7	StatusTime 121 127	denies
+T8	Drug 130 138	Drug use
+T9	StatusTime 141 147	Denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Status:T9
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T9 none

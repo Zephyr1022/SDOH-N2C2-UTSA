@@ -1,0 +1,88 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	He
+O	19	21	is
+O	22	31	currently
+B-Employment	32	40	employed
+O	41	43	as
+O	44	45	a
+O	46	58	construction
+O	59	65	worker
+O	66	73	working
+O	74	78	full
+
+O	79	83	time
+O	83	84	.
+
+O	86	88	He
+O	89	96	divides
+O	97	100	his
+O	101	105	time
+O	106	113	between
+O	114	115	[
+O	115	116	*
+O	116	117	*
+O	117	122	State
+O	123	126	108
+O	126	127	*
+O	127	128	*
+O	128	129	]
+
+O	130	133	and
+O	134	135	[
+O	135	136	*
+O	136	137	*
+O	137	145	Location
+O	146	147	(
+O	147	149	un
+O	149	150	)
+O	151	153	86
+O	153	154	*
+O	154	155	*
+O	155	156	]
+O	156	157	.
+
+O	159	161	He
+O	162	167	notes
+O	168	172	that
+O	173	175	he
+O	176	179	has
+O	180	181	a
+O	182	187	glass
+O	188	190	of
+B-Alcohol	191	195	wine
+I-Alcohol	196	198	or
+I-Alcohol	199	203	beer
+O	204	205	a
+
+O	206	212	couple
+O	213	215	of
+O	216	221	times
+O	222	223	a
+O	224	228	week
+O	228	229	,
+O	230	243	approximately
+O	244	246	10
+B-Tobacco	247	257	cigarettes
+O	258	261	per
+O	262	265	day
+O	266	269	and
+
+O	270	272	he
+O	273	276	has
+O	277	281	quit
+O	282	295	approximately
+O	296	301	three
+O	302	307	years
+O	308	311	ago
+O	311	312	.
+
+O	314	316	No
+B-Drug	317	322	drugs
+O	322	323	,
+O	324	326	no
+
+B-Drug	327	336	marijuana
+O	336	337	.

@@ -1,0 +1,191 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	27	alone
+O	28	30	in
+O	31	32	[
+O	32	33	*
+O	33	34	*
+O	34	42	Location
+O	43	44	(
+O	44	46	un
+O	46	47	)
+O	48	52	5289
+O	52	53	*
+O	53	54	*
+O	54	55	]
+O	55	56	.
+
+B-Employment	57	59	On
+I-Employment	60	70	disability
+O	70	71	,
+O	72	75	but
+O	76	84	formerly
+O	85	91	worked
+O	92	94	in
+
+O	95	107	construction
+O	108	113	doing
+O	114	122	wrecking
+O	122	123	.
+
+O	125	127	He
+O	128	131	was
+O	132	133	a
+O	134	143	certified
+O	144	152	asbestos
+
+O	153	160	remover
+O	161	164	and
+O	165	168	had
+O	169	180	significant
+O	181	189	asbestos
+O	190	198	exposure
+O	199	201	20
+O	201	202	-
+O	202	204	30
+O	205	210	years
+O	211	214	ago
+O	214	215	.
+
+O	216	217	-
+B-Tobacco	218	225	Tobacco
+I-Tobacco	226	233	history
+O	233	234	:
+O	235	241	Smoked
+O	242	243	1
+O	243	244	.
+O	244	245	5
+O	246	248	pk
+O	248	249	/
+O	249	252	day
+O	253	256	x30
+O	257	262	years
+O	262	263	,
+O	264	272	recently
+
+O	273	282	restarted
+B-Tobacco	283	290	smoking
+O	291	292	a
+O	293	299	couple
+O	300	310	cigarettes
+O	311	314	per
+O	315	318	day
+O	318	319	.
+
+O	320	321	-
+B-Alcohol	322	326	ETOH
+O	326	327	:
+O	328	332	Last
+O	333	338	drink
+O	339	340	3
+O	341	345	days
+O	346	349	ago
+O	349	350	.
+
+O	351	354	Has
+O	355	360	drank
+O	361	362	1
+O	362	363	-
+O	363	364	2
+B-Alcohol	365	371	drinks
+O	372	374	of
+O	375	380	vodka
+O	381	383	on
+
+O	384	387	two
+O	388	397	occasions
+O	398	402	this
+O	403	407	week
+O	407	408	.
+O	409	415	deneis
+O	416	421	daily
+B-Alcohol	422	426	ETOH
+I-Alcohol	427	430	use
+O	430	431	.
+
+O	432	439	Reports
+O	440	447	history
+
+O	448	450	of
+O	451	463	occasionally
+B-Alcohol	464	472	drinking
+O	473	477	more
+O	478	482	than
+O	483	485	20
+O	486	491	beers
+O	492	494	at
+O	495	496	a
+O	497	504	sitting
+O	505	508	but
+O	509	512	not
+
+O	513	521	recently
+O	521	522	.
+
+O	523	530	Asserts
+O	531	535	that
+O	536	538	he
+B-Alcohol	539	545	drinks
+O	546	555	minimally
+O	556	559	now
+O	560	567	because
+O	568	570	of
+O	571	574	his
+
+O	575	581	health
+O	581	582	.
+
+O	583	584	-
+B-Drug	585	592	Illicit
+I-Drug	593	598	drugs
+O	598	599	:
+O	600	604	None
+O	604	605	.
+
+O	606	607	-
+O	608	614	Herbal
+O	614	615	/
+O	615	626	alternative
+O	627	634	therapy
+O	634	635	:
+O	636	640	None
+O	640	641	.
+
+O	642	643	-
+O	644	646	He
+O	647	649	is
+O	650	658	divorced
+O	658	659	,
+O	660	663	but
+O	664	669	close
+O	670	674	with
+O	675	678	his
+O	679	681	ex
+O	681	682	-
+O	682	686	wife
+O	686	687	.
+
+O	688	691	Two
+O	692	700	children
+O	700	701	,
+O	702	705	son
+
+O	706	710	died
+O	711	715	last
+O	716	720	year
+O	721	723	in
+O	724	725	[
+O	725	726	*
+O	726	727	*
+O	727	731	Name
+O	732	733	(
+O	733	735	NI
+O	735	736	)
+O	737	741	8751
+O	741	742	*
+O	742	743	*
+O	743	744	]
+O	744	745	.

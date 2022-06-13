@@ -1,0 +1,63 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+O	24	27	has
+O	28	29	a
+O	30	37	history
+O	38	40	of
+O	41	46	heavy
+B-Alcohol	47	54	alcohol
+O	55	58	and
+B-Drug	59	65	heroin
+I-Drug	66	71	abuse
+O	71	72	.
+
+O	73	79	Denies
+
+B-Alcohol	80	88	drinking
+O	89	92	now
+O	92	93	,
+O	94	98	used
+B-Drug	99	105	heroin
+O	106	115	yesterday
+O	115	116	.
+
+O	117	119	Is
+O	120	127	current
+B-Tobacco	128	134	smoker
+O	134	135	.
+
+B-LivingStatus	136	141	Lives
+
+O	142	155	independently
+O	156	158	in
+O	159	170	affiliation
+O	171	175	with
+O	176	178	an
+O	179	182	HIV
+O	183	187	case
+O	188	198	management
+O	199	204	group
+O	204	205	,
+
+B-Employment	206	208	on
+I-Employment	209	219	disability
+O	219	220	.
+
+O	221	229	Formerly
+O	230	232	in
+O	233	242	methadone
+O	243	249	clinic
+O	249	250	,
+O	251	252	"
+O	252	258	walked
+O	259	262	off
+O	262	263	"
+
+O	264	271	shortly
+O	272	277	prior
+O	278	280	to
+O	281	290	admission
+O	290	291	.

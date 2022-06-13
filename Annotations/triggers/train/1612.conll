@@ -1,0 +1,44 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	25	Homeless
+O	26	27	-
+O	28	34	living
+O	35	37	in
+O	38	42	tent
+O	43	47	city
+O	48	50	on
+O	51	54	his
+O	55	58	own
+O	58	59	.
+
+O	60	70	Originally
+O	71	75	from
+O	76	77	[
+O	77	85	LOCATION
+O	85	86	]
+O	86	87	,
+O	88	89	[
+O	89	97	LOCATION
+O	97	98	]
+O	98	99	,
+O	100	101	[
+O	101	109	LOCATION
+O	109	110	]
+O	110	111	.
+
+O	113	119	Habits
+O	119	120	:
+
+B-Tobacco	121	127	Smokes
+O	128	129	5
+O	130	133	cig
+O	133	134	/
+O	134	137	day
+
+O	138	140	No
+B-Alcohol	141	145	etoh
+
+O	146	156	Occasional
+B-Drug	157	159	MJ

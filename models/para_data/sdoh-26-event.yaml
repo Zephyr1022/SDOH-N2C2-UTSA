@@ -2,7 +2,7 @@ best_model_path: 'sdoh_flair_search26_event'
 event_type: 'Event'
 argument_type: 'StatusTime'
 argument_train_dev: 'train'
-argument_file: 'triggers'
+argument_file: 'events'
 model_embeddings: 'flair'
 model_embedding_word:
  type: "word"

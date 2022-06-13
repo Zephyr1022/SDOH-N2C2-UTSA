@@ -1,0 +1,77 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	Smokes
+O	29	30	~
+O	30	31	1
+O	31	32	/
+O	32	33	2
+O	34	37	PPD
+O	38	40	x9
+O	41	46	years
+B-Alcohol	49	56	Alcohol
+I-Alcohol	57	60	Use
+O	60	61	:
+O	62	63	1
+O	63	64	-
+O	64	65	2
+O	66	71	beers
+O	72	75	per
+O	76	81	night
+B-Drug	84	88	Drug
+I-Drug	89	92	Use
+O	92	93	:
+O	94	100	Smokes
+O	101	110	marijuana
+O	111	118	nightly
+O	118	119	.
+
+O	120	126	Denies
+O	127	130	any
+O	131	137	recent
+O	138	145	changes
+O	146	148	to
+O	149	153	this
+O	154	159	habit
+O	159	160	.
+
+O	161	163	No
+B-Drug	164	169	other
+I-Drug	170	175	drugs
+O	176	178	or
+O	179	189	ingestions
+O	189	190	.
+
+O	192	198	SOCIAL
+O	199	206	HISTORY
+O	206	207	:
+
+B-Employment	209	214	Works
+O	215	217	at
+O	218	219	a
+O	220	230	veterinary
+O	231	239	hospital
+O	240	242	in
+O	243	244	[
+O	244	252	LOCATION
+O	252	253	]
+
+O	254	257	Has
+O	258	259	a
+O	260	264	long
+O	264	265	-
+O	265	269	term
+O	270	277	partner
+O	277	278	,
+O	279	281	no
+O	282	285	new
+O	286	292	sexaul
+O	293	301	partners
+O	301	302	.
+
+O	303	306	Has
+O	307	309	an
+O	310	313	IUD

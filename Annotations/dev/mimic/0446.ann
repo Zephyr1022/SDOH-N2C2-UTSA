@@ -1,0 +1,15 @@
+T1	Tobacco 19 26	smoking
+T2	StatusTime 16 18	No
+T3	Alcohol 38 48	ETOH abuse
+T6	Drug 64 83	Crack Cocaine abuse
+T7	Type 64 77	Crack Cocaine
+T9	StatusTime 93 98	sober
+T10	History 85 92	40 days
+T4	History 50 57	40 days
+T11	StatusTime 58 63	sober
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 History:T4 Status:T11
+E3	Drug:T6 Type:T7 History:T10 Status:T9
+A1	StatusTimeVal T2 none
+A5	StatusTimeVal T9 past
+A2	StatusTimeVal T11 past

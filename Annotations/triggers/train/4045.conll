@@ -1,0 +1,25 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	25	Services
+O	26	28	at
+O	29	34	grand
+O	35	37	as
+B-Employment	38	39	a
+I-Employment	40	49	caretaker
+O	50	53	for
+O	54	57	his
+O	58	69	grandmother
+
+O	70	77	History
+B-Tobacco	78	85	tobacco
+I-Tobacco	86	89	use
+
+O	90	100	Occasional
+B-Alcohol	101	108	alcohol
+I-Alcohol	109	112	use
+
+O	113	120	History
+O	121	123	of
+B-Drug	124	128	IVDU

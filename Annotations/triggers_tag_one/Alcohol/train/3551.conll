@@ -1,0 +1,77 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	10	-
+O	11	17	Smokes
+O	18	19	3
+O	19	20	-
+O	20	21	4
+O	22	32	cigarettes
+O	33	34	a
+O	35	38	day
+O	39	47	starting
+O	48	49	3
+O	50	56	months
+O	57	60	ago
+
+O	62	63	-
+O	64	72	Endorses
+B-Alcohol	73	80	alcohol
+I-Alcohol	81	88	history
+O	89	95	though
+O	96	102	cannot
+O	103	110	clarify
+O	111	114	how
+O	115	119	much
+O	120	123	she
+O	124	130	drinks
+O	131	133	or
+O	134	138	when
+O	139	142	she
+O	143	147	last
+O	148	153	drank
+
+O	154	155	-
+O	156	162	Denies
+O	163	170	illicit
+O	171	175	drug
+O	176	179	use
+
+O	181	187	SOCIAL
+O	188	195	HISTORY
+O	195	196	:
+
+O	198	199	-
+O	200	205	Lives
+O	206	208	on
+O	209	210	[
+O	210	218	LOCATION
+O	218	219	]
+
+O	220	221	-
+O	222	227	These
+O	228	232	days
+O	233	240	largely
+O	241	249	inactive
+
+O	250	251	-
+O	252	258	Former
+O	259	261	GP
+O	261	262	/
+O	262	274	psychiatrist
+
+O	275	276	-
+O	277	284	Husband
+O	285	291	passed
+O	292	296	away
+O	297	302	three
+O	303	308	years
+O	309	312	ago
+
+O	313	314	-
+O	315	321	Mother
+O	322	328	passed
+O	329	333	away
+O	334	341	earlier
+O	342	346	this
+O	347	352	month

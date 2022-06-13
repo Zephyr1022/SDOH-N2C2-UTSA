@@ -1,0 +1,35 @@
+T1	LivingStatus 8 16	Homeless
+T2	TypeLiving 8 16	Homeless
+T3	StatusTime 17 37	x last several weeks
+T4	Duration 17 37	x last several weeks
+T5	LivingStatus 40 57	Previously living
+T6	StatusTime 40 57	Previously living
+T7	TypeLiving 58 73	with his mother
+T8	LivingStatus 90 112	Currently incarcerated
+T9	StatusTime 90 112	Currently incarcerated
+T10	TypeLiving 90 112	Currently incarcerated
+T11	Alcohol 272 276	EtOH
+T12	StatusTime 265 271	Denies
+T13	Tobacco 282 292	cigarettes
+T14	Type 282 292	cigarettes
+T15	Amount 278 292	1-2 cigarettes
+T16	Frequency 292 296	/day
+T17	StatusTime 278 296	1-2 cigarettes/day
+T18	Drug 300 327	Marijuana and crack cocaine
+T19	Type 300 327	Marijuana and crack cocaine
+T20	StatusTime 299 327	+Marijuana and crack cocaine
+E1	LivingStatus:T1 Type:T2 Duration:T4 Status:T3
+E2	LivingStatus:T5 Status:T6 Type:T7
+E3	LivingStatus:T8 Status:T9 Type:T10
+E4	Alcohol:T11 Status:T12
+E5	Tobacco:T13 Type:T14 Status:T17 Amount:T15 Frequency:T16
+E6	Drug:T18 Status:T20 Type:T19
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 past
+A4	TypeLivingVal T7 with_family
+A5	StatusTimeVal T9 current
+A6	TypeLivingVal T10 with_others
+A7	StatusTimeVal T12 past
+A8	StatusTimeVal T17 current
+A9	StatusTimeVal T20 current

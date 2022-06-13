@@ -1,0 +1,47 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	24	20
+O	25	27	yr
+O	28	32	pack
+O	33	35	hx
+O	35	36	,
+O	37	41	last
+O	42	45	use
+O	46	48	20
+O	49	52	yrs
+O	53	56	ago
+O	56	57	.
+
+B-Alcohol	60	67	Alcohol
+I-Alcohol	68	71	Use
+O	71	72	:
+O	73	79	Social
+O	79	80	,
+O	81	84	few
+O	84	85	/
+O	85	89	week
+O	92	96	Drug
+O	97	100	Use
+O	100	101	:
+O	102	106	None
+
+O	108	114	SOCIAL
+O	115	122	HISTORY
+O	122	123	:
+
+O	125	130	Lives
+O	131	133	at
+O	134	138	home
+O	139	143	with
+O	144	147	her
+O	148	155	partner
+O	155	156	.
+
+O	157	164	Retired
+O	165	166	x
+O	167	168	1
+O	169	171	yr

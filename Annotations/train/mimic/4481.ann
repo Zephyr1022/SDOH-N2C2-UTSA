@@ -1,0 +1,25 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	smokes
+T3	Amount 29 36	3 packs
+T4	Frequency 37 45	per week
+T5	Duration 47 55	40 years
+T6	Alcohol 58 69	Alcohol Use
+T7	StatusTime 71 76	sober
+T8	History 77 89	for 20 years
+T10	Method 138 140	IV
+T9	Drug 92 100	Drug Use
+T11	Type 141 147	heroin
+T12	History 148 159	5 years ago
+T13	StatusTime 148 159	5 years ago
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4 Duration:T5
+E2	Alcohol:T6 Status:T7 History:T8
+E3	Drug:T9 Method:T10 Type:T11 Status:T13 History:T12
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T13 past
+T14	LivingStatus 179 184	Lives
+E4	LivingStatus:T14 Status:T16 Type:T15
+T15	TypeLiving 190 204	boarding house
+A4	TypeLivingVal T15 with_others
+T16	StatusTime 179 184	Lives
+A5	StatusTimeVal T16 current

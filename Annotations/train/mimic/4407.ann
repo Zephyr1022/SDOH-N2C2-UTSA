@@ -1,0 +1,49 @@
+T1	LivingStatus 721 726	Lives
+T2	StatusTime 721 726	Lives
+T3	TypeLiving 727 732	alone
+T4	Drug 614 619	Drugs
+T5	StatusTime 621 627	denies
+T6	Method 655 659	IVDU
+T7	Tobacco 9 16	Tobacco
+T8	StatusTime 33 46	he has smoked
+T9	Duration 47 59	since age 15
+T10	Tobacco 75 82	smoking
+T11	Amount 83 88	2 PPD
+T12	StatusTime 75 82	smoking
+T13	Alcohol 223 227	Etoh
+T14	StatusTime 247 257	used to be
+T16	StatusTime 302 343	has not been a heavy drinker for 'awhile'
+T17	Alcohol 323 330	drinker
+T19	Employment 744 761	in the [LOCATION]
+T20	Type 751 761	[LOCATION]
+T21	StatusEmploy 735 743	Formerly
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Drug:T4 Status:T5 Method:T6
+E3	Tobacco:T7 Status:T8 Duration:T9
+E4	Tobacco:T10 Status:T12 Amount:T11
+E5	Alcohol:T13 Status:T14
+E6	Alcohol:T17 Status:T16
+E7	Employment:T19 Status:T21 Type:T20
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T12 current
+A6	StatusTimeVal T14 past
+A8	StatusTimeVal T16 past
+A10	StatusEmployVal T21 unemployed
+T15	Tobacco 174 180	smoked
+E8	Tobacco:T15 History:T18 Status:T22
+T18	History 181 191	3 days ago
+T22	StatusTime 196 221	is interested in quitting
+A7	StatusTimeVal T22 current
+T23	Alcohol 488 496	etoh use
+E9	Alcohol:T23 Status:T24
+T24	StatusTime 403 446	some people may 'consider him an alcoholic'
+A9	StatusTimeVal T24 current
+T25	Alcohol 508 513	drink
+E10	Alcohol:T25 History:T26 Status:T27 Amount:T28
+T26	History 518 537	[DATE] of last week
+T27	StatusTime 503 537	last drink was [DATE] of last week
+A11	StatusTimeVal T27 current
+T28	Amount 558 565	1 drink

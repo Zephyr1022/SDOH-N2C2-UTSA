@@ -1,0 +1,13 @@
+T1	Drug 18 31	crack cocaine
+T2	StatusTime 16 17	+
+T3	Type 18 31	crack cocaine
+T4	Tobacco 35 42	tobacco
+T5	StatusTime 33 34	+
+T6	Alcohol 46 50	EtOH
+T7	StatusTime 44 45	+
+E1	Drug:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T7 current

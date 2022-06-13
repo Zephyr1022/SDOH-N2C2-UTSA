@@ -1,0 +1,42 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	23	w
+O	23	24	/
+O	25	28	son
+O	29	31	on
+O	32	33	a
+O	34	39	house
+O	40	44	boat
+O	44	45	.
+
+O	47	53	Denies
+B-Tobacco	54	58	cigs
+O	58	59	.
+
+O	61	63	No
+B-Alcohol	64	71	alcohol
+O	72	75	now
+O	76	79	but
+O	80	90	previously
+O	91	96	drank
+O	97	98	a
+O	99	102	lot
+O	102	103	,
+O	104	108	quit
+O	109	110	2
+O	111	116	years
+O	117	120	ago
+O	120	121	.
+
+O	123	129	Denies
+B-Drug	130	135	drugs
+I-Drug	135	136	/
+I-Drug	136	144	illicits
+O	145	149	used
+O	150	152	to
+O	153	158	smoke
+B-Drug	159	168	marijuana
+O	168	169	.

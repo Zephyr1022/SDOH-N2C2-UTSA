@@ -1,0 +1,40 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	28	Significant
+O	29	32	for
+B-Alcohol	33	40	alcohol
+I-Alcohol	41	46	abuse
+O	47	50	and
+
+B-Drug	51	64	polysubstance
+I-Drug	65	70	abuse
+O	70	71	.
+
+O	73	80	Patient
+B-Employment	81	87	worked
+O	88	90	in
+O	91	92	a
+O	93	99	record
+O	100	105	store
+O	106	110	that
+
+O	111	114	was
+O	115	123	recently
+O	124	129	found
+O	130	132	to
+O	133	135	be
+O	136	143	closing
+O	144	147	and
+O	148	152	will
+O	153	155	be
+O	156	163	without
+O	164	165	a
+O	166	169	job
+O	169	170	.
+
+O	171	173	He
+O	174	176	is
+O	177	180	not
+O	181	188	married
+O	188	189	.

@@ -1,0 +1,51 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	1
+O	17	18	.
+
+B-Alcohol	19	26	Alcohol
+O	26	27	:
+O	28	39	occassional
+
+O	40	41	2
+O	41	42	.
+
+O	43	50	Smoking
+O	50	51	:
+O	52	54	25
+O	55	59	pack
+O	59	60	-
+O	60	64	year
+O	65	72	history
+O	72	73	,
+O	74	81	stopped
+O	82	83	2
+O	84	90	months
+O	91	96	prior
+O	97	99	to
+
+O	100	109	admission
+
+O	110	111	3
+O	111	112	.
+
+O	113	118	Drugs
+O	118	119	:
+O	120	122	no
+O	123	128	other
+O	129	134	drugs
+
+O	135	136	4
+O	136	137	.
+
+O	138	144	Living
+O	144	145	:
+O	146	152	single
+O	152	153	,
+O	154	159	lives
+O	160	164	with
+O	165	168	her
+O	169	178	employers
+O	178	179	.

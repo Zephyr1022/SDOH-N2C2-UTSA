@@ -1,0 +1,38 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Duration 32 43	x 30+ years
+T3	Amount 22 31	1.5-2 PPD
+T4	StatusTime 22 65	1.5-2 PPD x 30+ years, 75 year pack-year hx
+T5	Alcohol 66 77	Alcohol Use
+T6	Amount 79 88	3-6 beers
+T7	Type 83 88	beers
+T8	Frequency 88 92	/day
+T9	StatusTime 79 92	3-6 beers/day
+T10	Drug 149 157	Drug Use
+T11	StatusTime 159 165	denies
+T12	LivingStatus 184 193	Residence
+T13	StatusTime 195 203	homeless
+T14	TypeLiving 195 203	homeless
+T15	Employment 383 390	Retired
+T16	StatusEmploy 383 390	Retired
+T17	Duration 392 404	x 3-4 months
+T18	Type 417 438	managed a tow company
+E1	Tobacco:T1 Amount:T3 Duration:T2 Status:T4 Amount2:T21
+E2	Alcohol:T5 Status:T9 Amount:T6 Type:T7 Frequency:T8 History:T22
+E3	Drug:T10 Status:T11
+E4	LivingStatus:T12 Status:T13 Type:T14 Duration:T23
+E5	Employment:T15 Status:T16 Duration:T17 Type:T18
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T9 current
+A3	StatusTimeVal T11 none
+A4	StatusTimeVal T13 current
+A5	TypeLivingVal T14 homeless
+A6	StatusEmployVal T16 retired
+T21	Amount 45 62	75 year pack-year
+T22	History 124 148	last drink 2pm on [DATE]
+T23	Duration 204 214	x 7 months
+T24	LivingStatus 235 241	living
+E6	LivingStatus:T24 Type:T26 Status:T25
+T25	StatusTime 225 234	Currently
+A7	StatusTimeVal T25 current
+T26	TypeLiving 245 260	the Union Hotel
+A8	TypeLivingVal T26 homeless

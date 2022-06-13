@@ -1,0 +1,9 @@
+T1	Alcohol 20 24	EtOH
+T6	Alcohol 59 65	drinks
+T10	Tobacco 94 104	cigarettes
+T14	Drug 135 156	recreational drug use
+T18	Drug 168 173	crack
+T20	Drug 176 180	IVDU
+T25	LivingStatus 212 217	Lives
+T28	Employment 250 260	not worked
+T31	Employment 276 289	on disability

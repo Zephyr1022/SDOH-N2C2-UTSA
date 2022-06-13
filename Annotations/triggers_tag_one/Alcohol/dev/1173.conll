@@ -1,0 +1,24 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	SOCIAL
+O	23	30	HISTORY
+O	30	31	:
+O	32	39	Married
+O	39	40	,
+O	41	47	smokes
+O	48	49	1
+O	50	53	ppd
+O	54	55	x
+O	56	58	30
+O	59	64	years
+O	64	65	,
+O	66	76	occasional
+
+B-Alcohol	77	84	alcohol
+I-Alcohol	85	88	use
+O	88	89	,
+O	90	96	denies
+O	97	101	drug
+O	102	105	use

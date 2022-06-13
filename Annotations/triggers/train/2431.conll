@@ -1,0 +1,41 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	23	1
+O	24	28	pack
+O	29	39	cigarettes
+O	40	45	every
+O	46	47	3
+O	48	52	days
+
+B-Alcohol	55	62	Alcohol
+I-Alcohol	63	66	Use
+O	66	67	:
+O	68	69	1
+O	70	74	beer
+O	75	78	per
+O	79	82	day
+
+B-Drug	86	94	Illicits
+O	94	95	:
+O	96	102	denies
+
+O	104	110	SOCIAL
+O	111	118	HISTORY
+O	118	119	:
+
+O	121	128	Patient
+O	129	131	is
+B-LivingStatus	132	140	homeless
+O	140	141	;
+O	142	144	he
+O	145	149	came
+O	150	154	from
+O	155	163	Downtown
+O	164	173	Emergency
+O	174	182	Services
+O	183	189	Center
+O	189	190	.

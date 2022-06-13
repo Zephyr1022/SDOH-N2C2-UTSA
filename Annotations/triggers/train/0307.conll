@@ -1,0 +1,32 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	23	w
+O	24	30	family
+O	30	31	.
+
+O	32	35	Has
+O	36	41	three
+O	42	46	kids
+O	46	47	.
+
+B-Tobacco	48	55	Smoking
+O	55	56	:
+O	57	61	none
+
+B-Alcohol	62	66	ETOH
+O	66	67	:
+O	68	72	none
+
+B-Drug	73	80	Illicit
+I-Drug	81	86	drugs
+O	86	87	:
+O	88	92	none
+
+O	93	99	Cannot
+O	100	105	write
+O	106	108	or
+O	109	113	read
+O	113	114	.

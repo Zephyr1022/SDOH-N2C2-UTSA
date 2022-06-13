@@ -1,0 +1,66 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 33	1 cigarette
+T3	Frequency 33 38	/week
+T4	Type 24 33	cigarette
+T5	StatusTime 22 38	1 cigarette/week
+T6	Alcohol 41 52	Alcohol Use
+T7	StatusTime 54 58	none
+T8	Drug 61 69	Drug Use
+T9	StatusTime 71 72	+
+T10	Type 73 75	MJ
+T11	Amount 77 82	1gram
+T12	Frequency 82 87	/week
+T13	Drug 92 96	IVDU
+T14	Method 92 96	IVDU
+T15	StatusTime 89 91	No
+T16	LivingStatus 116 125	Residence
+T17	TypeLiving 138 146	with mom
+T18	StatusTime 127 146	[LOCATION] with mom
+T19	Employment 155 159	work
+T20	StatusEmploy 147 154	Doesn't
+T21	Employment 161 195	Goes to [LOCATION] vocational tech
+T22	StatusEmploy 161 195	Goes to [LOCATION] vocational tech
+T23	Tobacco 228 239	Tobacco Use
+T24	Amount 241 252	1 cigarette
+T25	Frequency 252 257	/week
+T26	Type 243 252	cigarette
+T27	StatusTime 241 257	1 cigarette/week
+T28	Alcohol 260 271	Alcohol Use
+T29	StatusTime 273 277	none
+T30	Drug 280 288	Drug Use
+T31	Type 290 299	Marijuana
+T32	Method 301 307	smokes
+T33	StatusTime 301 307	smokes
+T34	Amount 308 310	1g
+T35	Frequency 310 315	/week
+T36	LivingStatus 335 340	Lives
+T37	StatusTime 335 340	Lives
+T38	TypeLiving 341 352	with mother
+T39	Employment 372 399	attending [LOCATION] school
+T40	StatusEmploy 372 399	attending [LOCATION] school
+E1	Tobacco:T1 Status:T5 Amount:T2 Type:T4 Frequency:T3
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Status:T9 Type:T10 Amount:T11 Frequency:T12
+E4	Drug:T13 Status:T15 Method:T14
+E5	LivingStatus:T16 Status:T18 Type:T17
+E6	Employment:T19 Status:T20
+E7	Employment:T21 Status:T22
+E8	Tobacco:T23 Status:T27 Amount:T24 Type:T26 Frequency:T25
+E9	Alcohol:T28 Status:T29
+E10	Drug:T30 Type:T31 Status:T33 Method:T32 Amount:T34 Frequency:T35
+E11	LivingStatus:T36 Status:T37 Type:T38
+E12	Employment:T39 Status:T40
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T15 none
+A5	TypeLivingVal T17 with_family
+A6	StatusTimeVal T18 current
+A7	StatusEmployVal T20 unemployed
+A8	StatusEmployVal T22 student
+A9	StatusTimeVal T27 current
+A10	StatusTimeVal T29 none
+A11	StatusTimeVal T33 current
+A12	StatusTimeVal T37 current
+A13	TypeLivingVal T38 with_family
+A14	StatusEmployVal T40 student

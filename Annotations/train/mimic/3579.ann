@@ -1,0 +1,55 @@
+T1	LivingStatus 102 110	homeless
+T2	TypeLiving 102 110	homeless
+T3	StatusTime 99 101	is
+T4	LivingStatus 123 136	incarceration
+T5	TypeLiving 123 136	incarceration
+T6	StatusTime 112 122	History of
+T7	LivingStatus 141 146	lives
+T8	TypeLiving 147 160	in a tent off
+T9	StatusTime 141 146	lives
+T10	Employment 175 185	unemployed
+T11	StatusEmploy 175 185	unemployed
+T12	Drug 203 214	heroin user
+T13	Type 203 209	heroin
+T14	Duration 195 202	chronic
+T15	StatusTime 190 192	is
+T16	Amount 216 223	2 grams
+T17	Frequency 224 234	30/30 days
+T18	Drug 237 256	Methamphetamine use
+T19	Type 237 252	Methamphetamine
+T20	Amount 257 261	1/30
+T21	Frequency 258 266	/30 days
+T22	StatusTime 237 266	Methamphetamine use 1/30 days
+T23	Alcohol 268 279	Alcohol use
+T24	Amount 306 327	increased consumption
+T25	Frequency 280 291	up to daily
+T26	Duration 328 339	in the week
+T27	StatusTime 306 339	increased consumption in the week
+T28	Tobacco 345 356	Tobacco use
+T29	StatusTime 357 362	daily
+T30	Frequency 357 362	daily
+T31	Amount 364 378	unknown amount
+T32	Drug 430 449	opioid use disorder
+T33	Type 430 436	opioid
+T35	StatusTime 392 429	Denies prior medication treatment for
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	LivingStatus:T4 Type:T5 Status:T6
+E3	LivingStatus:T7 Type:T8 Status:T9
+E4	Employment:T10 Status:T11
+E5	Drug:T12 Type:T13 Duration:T14 Status:T15 Amount:T16 Frequency:T17
+E6	Drug:T18 Type:T19 Amount:T20 Frequency:T21 Status:T22
+E7	Alcohol:T23 Amount:T24 Frequency:T25 Status:T27 Duration:T26
+E8	Tobacco:T28 Frequency:T30 Status:T29 Amount:T31
+E9	Drug:T32 Type:T33 Status:T35
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	TypeLivingVal T5 with_others
+A4	StatusTimeVal T6 past
+A5	TypeLivingVal T8 homeless
+A6	StatusTimeVal T9 current
+A7	StatusEmployVal T11 unemployed
+A8	StatusTimeVal T15 current
+A9	StatusTimeVal T22 current
+A10	StatusTimeVal T27 current
+A11	StatusTimeVal T29 current
+A13	StatusTimeVal T35 past

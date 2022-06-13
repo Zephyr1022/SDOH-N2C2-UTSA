@@ -1,0 +1,35 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	27	35	daughter
+O	35	36	.
+
+O	37	38	[
+O	38	39	*
+O	39	40	*
+O	40	44	Name
+O	45	46	(
+O	46	48	NI
+O	48	49	)
+O	50	51	*
+O	51	52	*
+O	52	53	]
+O	54	61	history
+O	62	64	of
+O	65	72	tobacco
+O	72	73	,
+O	74	81	alcohol
+O	82	84	or
+O	85	89	drug
+O	90	93	use
+O	93	94	.
+
+O	95	98	She
+O	99	101	is
+O	102	105	DNR
+O	105	106	/
+O	106	109	DNI
+O	109	110	.

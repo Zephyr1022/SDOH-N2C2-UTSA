@@ -1,0 +1,77 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	27	with
+O	28	36	daughter
+O	37	40	and
+O	41	44	son
+O	44	45	-
+O	45	47	in
+O	47	48	-
+O	48	51	law
+O	52	54	in
+O	55	56	[
+O	56	64	LOCATION
+O	64	65	]
+O	65	66	.
+
+B-Alcohol	68	75	Alcohol
+I-Alcohol	76	79	Use
+O	79	80	:
+O	81	85	quit
+O	85	86	:
+O	87	91	1990
+O	91	92	,
+O	93	100	History
+O	101	103	of
+B-Alcohol	104	108	ETOH
+O	109	114	abuse
+O	114	115	.
+
+O	117	124	Tobacco
+O	125	128	use
+O	128	129	:
+
+O	131	141	Cigarettes
+O	141	142	:
+O	143	144	1
+O	145	150	packs
+O	150	151	/
+O	152	155	day
+O	155	156	,
+O	157	161	quit
+O	162	166	2000
+O	167	168	.
+
+O	170	174	Drug
+O	175	178	use
+O	178	179	:
+
+O	181	193	Amphetamines
+O	193	194	:
+O	195	199	quit
+O	200	204	1990
+O	205	206	.
+
+O	208	215	Cocaine
+O	215	216	:
+O	217	221	quit
+O	222	226	1990
+O	227	228	,
+O	229	231	IV
+O	232	235	use
+O	235	236	.
+
+O	238	244	Heroin
+O	244	245	:
+O	246	250	quit
+O	251	255	1990
+O	256	257	.
+
+O	259	268	Marijuana
+O	268	269	:
+O	270	274	quit
+O	275	279	1990
+O	280	281	.

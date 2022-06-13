@@ -1,0 +1,33 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 61 72	Alcohol Use
+T3	Drug 137 145	Drug Use
+T4	StatusTime 147 153	Denies
+T5	StatusTime 74 80	Denies
+T6	StatusTime 51 55	quit
+T7	History 56 60	2014
+T8	Amount 29 33	1ppd
+T9	Duration 34 49	for 25-30 years
+T10	LivingStatus 184 189	lives
+T11	StatusTime 184 189	lives
+T12	TypeLiving 190 195	alone
+T13	LivingStatus 275 283	homeless
+T14	History 297 304	in 2015
+T15	StatusTime 271 274	was
+T16	Employment 338 345	working
+T17	StatusEmploy 328 345	currently working
+T18	Type 349 374	a life insurance salesman
+T21	TypeLiving 275 283	homeless
+E1	Tobacco:T1 Amount:T8 Duration:T9 Status:T6 History:T7
+E2	Alcohol:T2 Status:T5
+E3	Drug:T3 Status:T4
+E4	LivingStatus:T10 Status:T11 Type:T12
+E5	LivingStatus:T13 Status:T15 History:T14 Type:T21
+E6	Employment:T16 Status:T17 Type:T18
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 alone
+A6	StatusTimeVal T15 past
+A7	StatusEmployVal T17 employed
+A8	TypeLivingVal T21 homeless

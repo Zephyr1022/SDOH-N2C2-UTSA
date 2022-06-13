@@ -1,0 +1,18 @@
+O	0	2	SH
+O	2	3	:
+
+O	4	13	Currently
+O	14	20	living
+O	21	23	at
+O	24	28	home
+O	29	31	in
+O	32	34	an
+O	35	44	apartment
+O	44	45	.
+
+O	46	52	Denies
+B-Alcohol	53	60	alcohol
+O	61	63	or
+B-Drug	64	68	drug
+I-Drug	69	72	use
+O	72	73	.

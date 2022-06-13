@@ -1,0 +1,46 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	27	30	his
+O	31	39	daughter
+O	39	40	.
+
+O	41	45	Take
+O	46	50	care
+O	51	53	of
+O	54	61	himself
+O	62	65	and
+O	66	70	also
+O	71	79	daughter
+
+O	80	81	(
+O	81	84	his
+O	85	93	daughter
+O	94	97	has
+O	98	108	depression
+O	109	112	and
+O	113	117	drug
+O	118	125	problem
+O	126	129	per
+O	130	133	son
+O	133	134	)
+O	134	135	.
+
+B-Tobacco	136	142	Smoked
+
+O	143	152	cigarette
+O	153	157	long
+O	158	162	time
+O	163	166	ago
+O	167	168	(
+O	168	177	precisely
+O	178	185	unknown
+O	185	186	)
+O	186	187	,
+B-Alcohol	188	194	drinks
+
+B-Alcohol	195	207	occasionally
+O	207	208	.

@@ -1,0 +1,31 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-Tobacco	17	24	Tobacco
+O	25	26	-
+O	27	31	less
+O	32	36	than
+O	37	38	1
+O	39	42	ppd
+
+B-Alcohol	43	47	EtOH
+O	48	49	-
+O	50	56	denies
+
+B-Drug	57	63	Heroin
+O	64	65	-
+O	66	73	reports
+O	74	79	usage
+O	80	88	tomorrow
+
+B-LivingStatus	89	94	Lives
+O	95	97	in
+O	98	101	his
+O	102	105	car
+O	106	115	currently
+O	115	116	,
+O	117	125	recently
+O	126	134	released
+O	135	139	from
+O	140	144	jail

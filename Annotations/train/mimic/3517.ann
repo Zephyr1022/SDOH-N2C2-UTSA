@@ -1,0 +1,24 @@
+T1	Alcohol 26 37	Alcohol Use
+T2	StatusTime 39 49	Previously
+T4	Amount 69 83	~1 bottle wine
+T5	Type 79 83	wine
+T6	Frequency 83 87	/day
+T7	Drug 90 98	Drug Use
+T8	StatusTime 118 132	intermittently
+T9	Type 100 117	Medical marijuana
+T10	Method 134 138	oral
+T11	Drug 167 171	IVDU
+T12	Method 167 171	IVDU
+T13	StatusTime 153 163	No history
+T14	LivingStatus 190 195	Lives
+T15	StatusTime 190 195	Lives
+T16	TypeLiving 196 212	with her husband
+E1	Alcohol:T1 Status:T2 Amount:T4 Type:T5 Frequency:T6
+E2	Drug:T7 Type:T9 Status:T8 Method:T10
+E3	Drug:T11 Status:T13 Method:T12
+E4	LivingStatus:T14 Status:T15 Type:T16
+A1	StatusTimeVal T2 past
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T13 none
+A5	StatusTimeVal T15 current
+A6	TypeLivingVal T16 with_family

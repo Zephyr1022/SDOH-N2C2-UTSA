@@ -1,0 +1,15 @@
+T1	Tobacco 76 79	tob
+T2	StatusTime 69 75	Denies
+T3	Alcohol 89 93	etoh
+T4	StatusTime 81 88	1 ink/d
+T5	Amount 81 86	1 ink
+T6	Frequency 86 88	/d
+T7	Drug 102 110	illicits
+T8	StatusTime 95 101	denies
+T9	Type 102 110	illicits
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Frequency:T6 Status:T4 Amount:T5
+E3	Drug:T7 Type:T9 Status:T8
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T8 none

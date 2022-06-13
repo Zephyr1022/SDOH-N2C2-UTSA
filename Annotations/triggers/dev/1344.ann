@@ -1,0 +1,8 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 36 47	Alcohol Use
+T3	Drug 105 113	Drug Use
+T13	Drug 356 365	speed use
+T18	Drug 402 415	marijuana use
+T21	LivingStatus 435 444	Residence
+T24	LivingStatus 557 570	incarceration
+T29	Drug 295 305	IV cocaine

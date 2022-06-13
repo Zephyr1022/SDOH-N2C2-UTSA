@@ -1,0 +1,50 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	26	Occupation
+O	26	27	:
+O	28	34	Senior
+O	35	36	[
+O	36	37	*
+O	37	38	*
+O	38	46	Hospital
+O	47	52	82143
+O	52	53	*
+O	53	54	*
+O	54	55	]
+O	56	63	Medical
+O	64	70	Device
+O	71	78	Company
+
+B-LivingStatus	80	85	Lives
+O	86	90	with
+O	90	91	:
+O	93	97	Wife
+
+O	98	99	[
+O	99	100	*
+O	100	101	*
+O	101	105	Name
+O	106	107	(
+O	107	109	NI
+O	109	110	)
+O	111	112	*
+O	112	113	*
+O	113	114	]
+O	114	115	:
+O	116	125	Caucasian
+
+B-Tobacco	126	133	Tobacco
+O	133	134	:
+O	135	139	Quit
+O	140	149	yesterday
+O	149	150	,
+O	151	153	35
+O	154	158	pack
+O	159	163	year
+O	164	171	history
+
+B-Alcohol	173	177	ETOH
+O	177	178	:
+O	179	185	social

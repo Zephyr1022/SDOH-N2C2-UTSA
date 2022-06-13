@@ -1,0 +1,24 @@
+T1	Tobacco 18 24	smokes
+T2	Amount 25 30	1 ppd
+T3	Drug 52 56	IVDU
+T4	StatusTime 49 51	no
+T5	Type 52 56	IVDU
+T6	Alcohol 62 66	ETOH
+T7	StatusTime 59 61	no
+T9	StatusTime 18 24	smokes
+T8	LivingStatus 69 74	lives
+T10	TypeLiving 83 94	with mother
+T11	Employment 187 195	employed
+T12	StatusEmploy 183 186;187 195	not employed
+T15	StatusTime 69 74	lives
+E1	Tobacco:T1 Amount:T2 Status:T9
+E2	Drug:T3 Status:T4 Type:T5
+E3	Alcohol:T6 Status:T7
+E4	LivingStatus:T8 Type:T10 Status:T15
+E5	Employment:T11 Status:T12
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T7 none
+A4	StatusTimeVal T9 current
+A3	TypeLivingVal T10 with_family
+A5	StatusEmployVal T12 unemployed
+A6	StatusTimeVal T15 current

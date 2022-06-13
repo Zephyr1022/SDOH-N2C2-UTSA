@@ -1,0 +1,17 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 53	with her boyfriend and daughter
+T3	StatusTime 16 21	Lives
+T4	Employment 65 73;74 81;82 89	recently started working
+T5	Type 93 98	TGIFs
+T6	StatusEmploy 65 73;74 81;82 89	recently started working
+T7	Tobacco 114 119	smoke
+T8	StatusTime 105 113	does not
+T9	Alcohol 123 128	drink
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Status:T8
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T6 employed
+A4	StatusTimeVal T8 none

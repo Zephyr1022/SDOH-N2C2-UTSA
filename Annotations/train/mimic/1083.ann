@@ -1,0 +1,23 @@
+T1	LivingStatus 62 67	lives
+T2	StatusTime 62 67	lives
+T3	TypeLiving 68 76;77 102	in Peace village community setting
+T4	Employment 110 130	a retired  Professor
+T5	StatusEmploy 110 130	a retired  Professor
+T6	Type 110 130	a retired  Professor
+T7	Tobacco 214 221	smoking
+T8	StatusTime 206 213	stopped
+T9	History 222 235	in [**2127**]
+T10	Alcohol 252 259	alcohol
+T11	StatusTime 237 245	does not
+T12	Drug 267 285	recreational drugs
+T13	Type 267 279	recreational
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8 History:T9
+E4	Alcohol:T10 Status:T11
+E5	Drug:T12 Type:T13 Status:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T11 none

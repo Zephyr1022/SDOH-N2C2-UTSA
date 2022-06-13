@@ -1,0 +1,9 @@
+T1	Tobacco 30 55	a thirty pack year smoker
+T2	StatusTime 26 29	was
+T3	Amount 32 48	thirty pack year
+T4	Alcohol 17 21	ETOH
+T5	StatusTime 17 21	ETOH
+E1	Tobacco:T1 Amount:T3 Status:T2
+E2	Alcohol:T4 Status:T5
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 current

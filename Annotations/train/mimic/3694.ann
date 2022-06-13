@@ -1,0 +1,28 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 36 65	with his Mom, Dad and brother
+T4	Tobacco 104 111	smoking
+T5	StatusTime 113 117	quit
+T6	History 118 129	9 years ago
+T7	Drug 139 148	marijuana
+T8	Type 139 148	marijuana
+T9	StatusTime 132 138	recent
+T10	History 150 161	1 month ago
+T11	Drug 171 203	methamphetamine, heroine or IVDU
+T12	Type 171 195	methamphetamine, heroine
+T13	StatusTime 164 170	denies
+T14	Drug 220 224	meth
+T15	Type 220 224	meth
+T16	StatusTime 233 245	in urine tox
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Drug:T7 Status:T9 Type:T8 History:T10
+E4	Drug:T11 Status:T13 Type:T12 Method:T17
+E5	Drug:T14 Type:T15 Status:T16
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T13 none
+A6	StatusTimeVal T16 current
+T17	Method 199 203	IVDU

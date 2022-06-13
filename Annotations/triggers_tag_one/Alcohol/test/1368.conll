@@ -1,0 +1,54 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	24	30
+O	25	29	pack
+O	29	30	/
+O	30	34	year
+O	35	42	smoking
+O	43	45	Hx
+O	45	46	,
+O	47	51	quit
+O	52	53	3
+O	54	59	years
+O	60	63	ago
+
+O	67	74	Alcohol
+O	75	78	Use
+O	78	79	:
+O	80	84	None
+
+O	88	92	Drug
+O	93	96	Use
+O	96	97	:
+O	98	102	None
+
+O	104	110	SOCIAL
+O	111	118	HISTORY
+O	118	119	:
+
+O	121	126	Lives
+O	127	132	alone
+O	133	135	in
+O	136	137	[
+O	137	145	LOCATION
+O	145	146	]
+O	146	147	.
+
+O	148	152	Plan
+O	153	155	to
+O	156	165	discharge
+O	166	168	to
+O	169	179	transplant
+O	180	185	house
+O	186	191	after
+O	192	201	discharge
+O	201	202	.
+
+O	203	210	Retired
+O	211	214	car
+O	215	221	dealer
+O	221	222	.

@@ -1,0 +1,37 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Prior
+O	23	30	tobacco
+O	31	34	use
+O	34	35	.
+
+O	37	44	Alcohol
+O	45	48	Use
+O	48	49	:
+O	50	56	denies
+O	57	64	current
+O	65	69	etoh
+
+O	70	77	Tobacco
+O	78	81	use
+O	81	82	:
+O	83	88	prior
+O	89	90	1
+O	91	94	PPD
+O	95	98	for
+O	99	101	26
+O	102	107	years
+O	107	108	.
+O	109	113	quit
+O	114	116	30
+O	117	120	yrs
+O	121	124	ago
+O	124	125	.
+
+O	127	131	Drug
+O	132	135	use
+O	135	136	:
+O	138	144	denies
+O	145	149	IVDU

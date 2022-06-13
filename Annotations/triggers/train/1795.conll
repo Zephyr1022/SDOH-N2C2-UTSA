@@ -1,0 +1,80 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	at
+O	25	29	home
+O	30	34	with
+O	35	38	his
+O	39	43	wife
+O	44	47	and
+O	48	49	3
+O	50	54	kids
+O	54	55	.
+
+O	56	58	Is
+O	59	61	an
+O	62	73	electrician
+O	73	74	,
+O	75	78	not
+
+O	79	88	currently
+B-Employment	89	96	working
+O	96	97	.
+
+O	98	100	No
+B-Tobacco	101	108	tobacco
+I-Tobacco	109	112	use
+O	112	113	.
+
+O	114	121	History
+O	122	124	of
+O	125	130	heavy
+B-Alcohol	131	135	EtOH
+I-Alcohol	136	139	use
+O	140	143	for
+
+O	144	148	many
+O	149	154	years
+O	155	156	-
+O	157	163	approx
+O	164	165	2
+O	165	166	+
+O	167	174	bottles
+O	175	179	wine
+O	179	180	/
+O	180	183	day
+O	183	184	.
+
+O	185	187	No
+O	188	189	h
+O	189	190	/
+O	190	191	o
+O	192	196	EtOH
+
+O	197	207	withdrawal
+O	207	208	/
+O	208	216	seizures
+O	217	219	as
+O	220	222	pt
+O	223	226	has
+O	227	232	never
+O	233	240	stopped
+O	241	249	drinking
+O	250	253	for
+O	254	258	many
+
+O	259	264	years
+O	264	265	.
+
+O	266	268	No
+B-Drug	269	277	illicits
+O	277	278	.
+
+O	279	283	Last
+O	284	289	drink
+O	290	295	night
+O	296	301	prior
+O	302	304	to
+O	305	314	admission

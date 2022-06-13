@@ -1,0 +1,41 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	16	25	Currently
+O	26	32	living
+O	33	35	at
+O	36	37	a
+O	38	44	friend
+O	44	45	'
+O	45	46	s
+O	47	52	house
+O	52	53	.
+
+O	54	56	IV
+O	57	63	heroin
+O	64	67	and
+O	68	75	cocaine
+O	76	79	use
+O	80	88	reported
+O	89	90	2
+O	91	95	days
+O	96	99	ago
+O	99	100	.
+
+O	101	107	Former
+O	108	114	smoker
+O	114	115	.
+
+O	116	122	Denies
+B-Alcohol	123	127	EtOH
+O	127	128	.
+
+O	129	135	Denies
+O	136	139	new
+O	140	146	sexual
+O	147	155	partners
+O	156	158	or
+O	159	170	unprotected
+O	171	182	intercourse
+O	182	183	.

@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: none   Alcohol Use: occasional beer, very limited since [DATE]   Drug Use: none
+
+SOCIAL HISTORY: 
+Lives in [LOCATION] with his fiance. Owner of [LOCATION] company.

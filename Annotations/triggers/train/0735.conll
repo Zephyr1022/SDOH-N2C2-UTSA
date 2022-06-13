@@ -1,0 +1,40 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	-
+O	17	20	the
+O	21	23	pt
+B-LivingStatus	24	29	lives
+O	30	34	with
+O	35	42	husband
+
+O	43	44	-
+O	44	46	no
+O	47	53	recent
+B-Tobacco	54	61	tobacco
+I-Tobacco	62	65	use
+O	65	66	,
+O	67	70	per
+O	71	78	husband
+B-Alcohol	79	85	drinks
+O	86	87	[
+O	87	88	*
+O	88	89	*
+O	89	90	2
+O	90	91	-
+O	91	92	3
+O	92	93	*
+O	93	94	*
+O	94	95	]
+O	96	105	alcoholic
+
+O	106	115	beverages
+O	115	116	/
+O	116	119	day
+
+O	120	121	-
+O	121	123	is
+O	124	134	ambulatory
+O	135	137	at
+O	138	146	baseline

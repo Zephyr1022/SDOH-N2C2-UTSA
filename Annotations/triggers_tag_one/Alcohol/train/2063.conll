@@ -1,0 +1,40 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	-
+O	18	25	Tobacco
+O	25	26	:
+O	27	31	2ppd
+O	32	35	age
+O	36	38	14
+O	39	41	to
+O	42	45	age
+O	46	48	63
+O	48	49	,
+O	50	56	around
+O	57	60	100
+O	61	65	pack
+O	66	71	years
+
+O	72	73	-
+B-Alcohol	74	81	Alcohol
+O	81	82	:
+O	83	89	Social
+
+O	90	91	-
+O	92	100	Illicits
+O	100	101	:
+O	102	108	Denies
+
+O	109	110	-
+O	111	121	Occupation
+O	121	122	:
+O	123	130	Retired
+O	131	133	HR
+O	134	138	work
+
+O	139	140	-
+O	141	150	Exposures
+O	150	151	:
+O	152	158	Denies

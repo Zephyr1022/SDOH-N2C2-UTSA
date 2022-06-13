@@ -1,0 +1,61 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	29	several
+O	30	40	cigarettes
+O	40	41	/
+O	41	44	day
+
+B-Alcohol	48	55	Alcohol
+I-Alcohol	56	59	Use
+O	59	60	:
+O	61	62	3
+O	62	63	-
+O	63	64	4
+O	65	67	12
+O	68	70	oz
+O	71	75	cand
+O	76	78	of
+O	79	83	beer
+O	83	84	/
+O	84	87	day
+
+O	88	89	(
+O	89	92	per
+O	93	98	chart
+O	99	105	review
+O	105	106	,
+O	107	110	has
+O	111	119	endorsed
+O	120	122	up
+O	123	125	to
+O	126	128	10
+O	129	133	18oz
+B-Alcohol	134	139	beers
+O	139	140	/
+O	140	143	day
+O	143	144	)
+
+O	148	152	Drug
+O	153	156	Use
+O	156	157	:
+O	158	164	denies
+O	165	172	current
+O	173	177	IVDU
+
+O	179	185	SOCIAL
+O	186	193	HISTORY
+O	193	194	:
+
+O	196	205	Residence
+O	205	206	:
+O	207	218	undomiciled
+O	219	220	-
+O	221	225	plot
+O	226	228	of
+O	229	234	grass
+O	235	242	outside
+O	243	253	Harborview

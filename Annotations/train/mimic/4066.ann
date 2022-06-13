@@ -1,0 +1,20 @@
+T1	Tobacco 17 24	Tobacco
+T2	Amount 26 33	1/2 ppd
+T3	StatusTime 26 33	1/2 ppd
+T4	Alcohol 34 38	EtOH
+T5	StatusTime 40 44	none
+T6	Drug 45 49	IVDU
+T7	Method 45 49	IVDU
+T8	StatusTime 51 55	none
+T9	LivingStatus 56 61	Lives
+T10	TypeLiving 65 87	YMCA Emergency shelter
+T11	StatusTime 56 61	Lives
+E1	Tobacco:T1 Amount:T2 Status:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Method:T7 Status:T8
+E4	LivingStatus:T9 Type:T10 Status:T11
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T8 none
+A4	TypeLivingVal T10 homeless
+A5	StatusTimeVal T11 current

@@ -1,0 +1,23 @@
+O	0	2	SH
+O	2	3	:
+O	4	18	Indepdendently
+O	19	24	house
+O	24	25	.
+
+B-LivingStatus	26	31	Lives
+O	32	36	with
+O	37	41	wife
+O	41	42	.
+
+B-Employment	43	51	Employed
+O	52	54	as
+O	55	61	server
+O	61	62	.
+
+O	63	64	+
+B-Alcohol	64	68	ETOH
+I-Alcohol	69	71	hx
+O	71	72	,
+O	73	74	+
+B-Drug	74	80	heroin
+I-Drug	81	83	hx

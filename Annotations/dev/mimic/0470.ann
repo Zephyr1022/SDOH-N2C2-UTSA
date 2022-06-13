@@ -1,0 +1,33 @@
+T1	LivingStatus 28 33	Lives
+T2	StatusTime 28 33	Lives
+T3	TypeLiving 34 39	alone
+T4	Employment 61 69	laid off
+T5	StatusEmploy 61 69	laid off
+T6	Type 94 118	[**Location (un) 6692**]
+T7	StatusTime 167 171	quit
+T8	History 172 187	[**2152-9-19**]
+T9	Duration 153 164	x 40+ yrs--
+T10	Amount 147 152	1 ppd
+T11	Tobacco 141 144	Tob
+T12	Type 129 139	Cigarettes
+T13	Alcohol 188 192	ETOH
+T14	Frequency 195 200	Daily
+T15	Amount 201 224	[**4-18**]  12 oz beers
+T16	Type 219 224	beers
+T17	StatusTime 238 242	quit
+T18	History 243 258	[**2152-9-19**]
+T19	Drug 282 291	marijuana
+T20	StatusTime 277 281	Past
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T11 Type:T12 Amount:T10 Duration:T9 Status:T7 History:T8
+E4	Alcohol:T13 Frequency:T14 Amount:T15 Type:T16 Status:T17 History:T18 Frequency2:T21
+E5	Drug:T19 Status:T20 Type:T22
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T7 past
+A5	StatusTimeVal T17 past
+A6	StatusTimeVal T20 past
+T21	Frequency 225 234	most days
+T22	Type 282 291	marijuana

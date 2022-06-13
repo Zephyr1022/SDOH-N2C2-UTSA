@@ -1,0 +1,42 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	Approx
+O	29	30	5
+O	31	41	cigarettes
+O	42	45	per
+O	46	49	day
+B-Alcohol	52	59	Alcohol
+I-Alcohol	60	63	Use
+O	63	64	:
+O	65	69	none
+B-Drug	72	76	Drug
+I-Drug	77	80	Use
+O	80	81	:
+O	82	86	none
+
+O	88	94	SOCIAL
+O	95	102	HISTORY
+O	102	103	:
+
+O	105	112	Patient
+B-LivingStatus	113	118	lives
+O	119	121	in
+O	122	124	an
+O	125	134	apartment
+O	135	137	by
+O	138	145	herself
+O	146	148	in
+O	149	150	[
+O	150	158	LOCATION
+O	158	159	]
+O	159	160	.
+
+O	161	164	She
+O	165	168	has
+O	169	170	a
+O	171	179	daughter
+O	180	186	nearby

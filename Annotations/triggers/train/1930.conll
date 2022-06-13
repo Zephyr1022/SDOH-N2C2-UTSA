@@ -1,0 +1,40 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	in
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	36	Location
+O	37	42	32944
+O	42	43	*
+O	43	44	*
+O	44	45	]
+O	46	48	MA
+O	49	53	with
+O	54	57	his
+O	58	62	wife
+O	63	66	and
+O	67	70	son
+O	70	71	.
+
+O	73	82	Currently
+
+B-Employment	83	93	unemployed
+O	93	94	.
+
+B-Tobacco	95	102	Tobacco
+O	102	103	:
+O	104	108	1ppd
+
+B-Alcohol	109	113	EtOH
+O	113	114	:
+O	115	121	denies
+
+B-Drug	122	126	Drug
+I-Drug	127	130	use
+O	130	131	:
+O	132	134	MJ
+O	135	147	occasionally

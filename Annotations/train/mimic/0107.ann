@@ -1,0 +1,15 @@
+T1	Employment 75 104	a retired telephone repairman
+T2	StatusEmploy 75 104	a retired telephone repairman
+T3	Type 75 104	a retired telephone repairman
+T4	Tobacco 156 163	smoking
+T5	Amount 129 144	sixty pack year
+T6	StatusTime 123 152	has a sixty pack year history
+T7	Alcohol 183 190	alcohol
+T8	History 191 202	in 30 years
+T9	StatusTime 171 182	has not had
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T6 Amount:T5
+E3	Alcohol:T7 Status:T9 History:T8
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T9 past

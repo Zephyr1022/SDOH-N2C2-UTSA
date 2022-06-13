@@ -1,0 +1,37 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	26	quit
+B-Alcohol	29	36	Alcohol
+I-Alcohol	37	40	Use
+O	40	41	:
+O	42	43	_
+O	43	47	Quit
+O	50	54	Drug
+O	55	58	Use
+O	58	59	:
+O	60	61	_
+O	61	65	Quit
+
+O	67	73	SOCIAL
+O	74	81	HISTORY
+O	81	82	:
+
+O	84	89	Lives
+O	90	92	in
+O	93	94	[
+O	94	102	LOCATION
+O	102	103	]
+O	103	104	,
+O	105	108	has
+O	109	119	girlfriend
+O	120	123	who
+O	124	126	is
+O	127	136	caregiver
+O	136	137	,
+O	138	143	works
+O	144	153	repossing
+O	154	158	cars

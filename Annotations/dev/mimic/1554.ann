@@ -1,0 +1,23 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 23 29	in AFH
+T3	StatusTime 17 22	Lives
+T4	Employment 30 41	Unemployeed
+T5	StatusEmploy 30 41	Unemployeed
+T6	Alcohol 42 46	EtOH
+T7	StatusTime 48 54	denies
+T8	Tobacco 55 62	Tobacco
+T9	StatusTime 64 71	current
+T10	Drug 72 77	Drugs
+T12	Type 79 88	marijuana
+T13	StatusTime 89 101	ocassionally
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Tobacco:T8 Status:T9
+E5	Drug:T10 Type:T12 Status:T13
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T9 current
+A7	StatusTimeVal T13 current

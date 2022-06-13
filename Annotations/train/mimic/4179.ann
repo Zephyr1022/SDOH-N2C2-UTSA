@@ -1,0 +1,20 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	None
+T3	Alcohol 29 40	Alcohol Use
+T4	StatusTime 42 46	None
+T5	Drug 49 57	Drug Use
+T6	StatusTime 59 75	medical marijuna
+T7	Type 59 75	medical marijuna
+T8	LivingStatus 94 100	Living
+T9	StatusTime 94 100	Living
+T10	TypeLiving 101 128	in Compass Housing Alliance
+T11	Duration 143 159	for about a year
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6 Type:T7
+E4	LivingStatus:T8 Status:T9 Type:T10 Duration:T11
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T10 homeless

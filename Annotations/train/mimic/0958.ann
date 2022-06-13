@@ -1,0 +1,32 @@
+T1	Employment 16 43	Retired Mechanical engineer
+T2	StatusEmploy 16 43	Retired Mechanical engineer
+T3	Type 16 43	Retired Mechanical engineer
+T4	Tobacco 139 146	Tobacco
+T5	Amount 148 160	20 pack year
+T6	StatusTime 179 183	Quit
+T7	History 184 197	in [**2151**]
+T8	Tobacco 214 221	smoking
+T9	StatusTime 200 207	Current
+T10	Type 208 213	cigar
+T11	Alcohol 224 231	Alcohol
+T12	Amount 233 240	3 beers
+T13	Frequency 241 248	per day
+T14	Drug 286 294	Illicits
+T15	StatusTime 296 302	Denies
+T16	StatusTime 224 231	Alcohol
+T17	Amount 262 274	about 6 pack
+T18	Frequency 275 282	per day
+T19	StatusTime 251 261	Used to be
+T20	Alcohol 262 274	about 6 pack
+E1	Employment:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Amount:T5 Status:T6 History:T7
+E3	Tobacco:T8 Type:T10 Status:T9
+E4	Alcohol:T11 Amount:T12 Frequency:T13 Status:T16
+E5	Drug:T14 Status:T15
+E6	Alcohol:T20 Amount:T17 Frequency:T18 Status:T19
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T15 none
+A5	StatusTimeVal T16 current
+A6	StatusTimeVal T19 past

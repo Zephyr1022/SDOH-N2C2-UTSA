@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: denies   
+Alcohol Use: denies   
+Drug Use: denies
+
+SOCIAL HISTORY: 
+States currently homeless in [LOCATION] but then says he has been staying in a house. Working on getting disability again. He states that he has three daughters who live with their mother in [LOCATION]. No family in the area.

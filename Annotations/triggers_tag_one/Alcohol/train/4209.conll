@@ -1,0 +1,62 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	26	none
+O	26	27	.
+O	28	32	quit
+O	33	34	1
+O	35	39	week
+O	40	43	ago
+O	43	44	,
+O	45	49	half
+O	50	54	pack
+O	54	55	/
+O	55	58	day
+O	60	62	gt
+O	63	65	50
+O	66	71	years
+
+B-Alcohol	73	80	Alcohol
+I-Alcohol	81	84	Use
+O	84	85	:
+O	86	92	drinks
+O	93	105	occasionally
+
+O	109	113	Drug
+O	114	117	Use
+O	117	118	:
+O	119	123	none
+O	124	132	recently
+
+O	134	140	SOCIAL
+O	141	148	HISTORY
+O	148	149	:
+
+O	151	152	+
+O	152	153	3
+O	153	154	-
+O	154	155	4
+B-Alcohol	156	161	beers
+O	162	165	per
+O	166	169	day
+O	169	170	.
+
+O	171	177	Housed
+O	178	180	in
+O	181	184	the
+O	185	189	Foss
+O	190	196	Family
+O	197	201	Home
+O	201	202	.
+
+O	203	209	Denies
+O	210	214	IVDU
+O	214	215	.
+
+O	216	221	Lives
+O	222	224	in
+O	225	231	Exeter
+O	232	237	House

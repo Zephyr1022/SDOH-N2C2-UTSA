@@ -1,0 +1,49 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 36 47	Alcohol Use
+T3	Drug 105 113	Drug Use
+T4	Amount 29 35	0.5ppd
+T5	StatusTime 22 28	Smokes
+T6	StatusTime 49 55	Drinks
+T7	Amount 57 80	a fifth of Jack Daniels
+T8	Frequency 92 104	once a month
+T9	StatusTime 115 134	Endorses heroin use
+T10	Type 124 130	heroin
+T11	Amount 218 225	~0.5-1g
+T12	History 226 236	4 days ago
+T13	Drug 356 365	speed use
+T14	StatusTime 345 355	history of
+T15	History 366 377	2 weeks ago
+T16	Type 356 361	speed
+T17	StatusTime 391 401	history of
+T18	Drug 402 415	marijuana use
+T19	Type 402 411	marijuana
+T20	History 384 390	remote
+T21	LivingStatus 435 444	Residence
+T22	TypeLiving 446 454	Homeless
+T23	StatusTime 446 454	Homeless
+T24	LivingStatus 557 570	incarceration
+T25	StatusTime 541 546	prior
+T26	TypeLiving 557 570	incarceration
+E1	Tobacco:T1 Amount:T4 Status:T5
+E2	Alcohol:T2 Status:T6 Amount:T7 Frequency:T8
+E3	Drug:T3 Status:T9 Type:T10 Amount:T11 History:T12
+E5	Drug:T13 Status:T14 Type:T16 History:T15
+E4	Drug:T18 Type:T19 Status:T17 History:T20
+E6	LivingStatus:T21 Type:T22 Status:T23
+E7	LivingStatus:T24 Type:T26 Status:T25
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T14 past
+A5	StatusTimeVal T17 past
+A6	TypeLivingVal T22 homeless
+A7	StatusTimeVal T23 current
+A8	StatusTimeVal T25 past
+A9	TypeLivingVal T26 with_others
+T29	Drug 295 305	IV cocaine
+E8	Drug:T29 Status:T33 Method:T31 Type:T30 History:T32
+T30	Type 298 305	cocaine
+T31	Method 295 297	IV
+T32	History 306 316	4 days ago
+T33	StatusTime 285 294	have used
+A10	StatusTimeVal T33 current

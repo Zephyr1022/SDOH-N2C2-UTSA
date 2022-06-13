@@ -1,0 +1,77 @@
+O	0	6	Social
+O	7	9	Hx
+O	9	10	:
+
+B-Alcohol	12	16	EtOH
+O	16	17	:
+O	18	20	no
+O	21	28	alcohol
+
+O	30	37	Current
+O	38	44	Smoker
+O	44	45	.
+
+O	46	47	~
+O	47	48	1
+O	48	49	/
+O	49	50	2
+O	51	55	pack
+O	56	59	for
+O	60	61	~
+O	61	63	25
+O	64	69	years
+
+O	71	75	Drug
+O	76	79	use
+O	79	80	:
+O	81	87	denies
+
+O	88	93	Lives
+O	94	96	in
+O	97	98	[
+O	98	106	LOCATION
+O	106	107	]
+O	107	108	.
+
+O	109	113	With
+O	114	118	wife
+O	119	122	who
+O	123	125	is
+O	126	131	under
+O	132	142	treatement
+O	143	146	for
+O	147	148	T
+O	149	153	Cell
+O	154	162	lymphoma
+O	162	163	.
+
+O	164	165	3
+O	166	171	grown
+O	172	180	children
+O	180	181	,
+O	182	183	4
+O	184	189	grand
+O	190	198	children
+O	198	199	.
+
+O	200	208	Disabled
+O	208	209	.
+
+O	210	219	Currently
+O	220	227	staying
+O	228	230	at
+O	231	234	the
+O	235	240	Group
+O	241	247	Health
+O	248	256	Hospital
+O	257	262	house
+O	263	268	while
+O	269	272	his
+O	273	277	wife
+O	278	280	is
+O	281	288	treated
+O	288	289	.
+
+O	296	302	Review
+O	303	305	of
+O	306	313	Systems

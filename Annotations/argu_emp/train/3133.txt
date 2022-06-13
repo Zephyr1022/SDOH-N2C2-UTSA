@@ -1,0 +1,16 @@
+SOCIAL:
+Lives on a friends couch, currently unemployed
+-- Recently drank 1/5 L of vodka and 18 beers a day for 1 month
+-- Denies IVDU
+-- Denies Tabacco
+
+MEDICATIONS (HOME):
+-- Glargine 20 Units QHS
+-- Lispro 3-7 Units QAC
+-- Lisinopril
+-- HCTZ
+-- Atenolol
+-- Amlodipine
+-- Glipizide
+-- Metformin
+-- ASA 81mg QDay

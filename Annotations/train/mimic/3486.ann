@@ -1,0 +1,21 @@
+T1	Employment 133 139	worked
+T2	StatusEmploy 128 139	Last worked
+T3	Type 151 168	a press assistant
+T4	History 140 147	in 2008
+T5	LivingStatus 209 217	homeless
+T6	StatusTime 202 208	became
+T7	TypeLiving 209 217	homeless
+T8	Employment 839 845	worked
+T9	StatusEmploy 834 845	Last worked
+T10	History 846 853	in 2008
+E1	Employment:T1 Status:T2 History:T4 Type:T3
+E2	LivingStatus:T5 Type:T7 Status:T6
+E3	Employment:T8 Status:T9 History:T10
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T6 current
+A3	TypeLivingVal T7 homeless
+A4	StatusEmployVal T9 unemployed
+T11	Employment 194 197	job
+E4	Employment:T11 Status:T12
+T12	StatusEmploy 185 189	Lost
+A5	StatusEmployVal T12 unemployed

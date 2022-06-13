@@ -1,0 +1,36 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	23	0
+B-Alcohol	26	33	Alcohol
+I-Alcohol	34	37	Use
+O	37	38	:
+O	39	40	0
+O	43	47	Drug
+O	48	51	Use
+O	51	52	:
+O	53	62	marijuana
+
+O	64	70	SOCIAL
+O	71	78	HISTORY
+O	78	79	:
+
+O	81	86	Lives
+O	87	92	alone
+O	93	95	in
+O	96	101	house
+O	102	104	in
+O	105	106	[
+O	106	114	LOCATION
+O	114	115	]
+
+O	116	121	Works
+O	122	124	as
+O	125	126	a
+O	127	131	cook
+O	132	134	in
+O	135	136	a
+O	137	140	bar

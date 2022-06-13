@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: 1ppd smoker for 39 years, stopped this [DATE].   Alcohol Use: drinks "enough.
+" Per [LOCATION] chart review, was drinking as much as "3 bottles of whiskey a day," patient has not drank since [DATE], no history of DTs or withdrawal seizures.   Drug Use: None - clean from meth x33 years
+
+SOCIAL HISTORY: 
+[_] Unable to Obtain due to Patient Condition
+Residence: Previously homeless, currently at [LOCATION] hoping to be placed at adult family home

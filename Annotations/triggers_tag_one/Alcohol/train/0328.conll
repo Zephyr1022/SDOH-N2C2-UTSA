@@ -1,0 +1,147 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	24	in
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	36	Location
+O	37	40	669
+O	40	41	*
+O	41	42	*
+O	42	43	]
+O	44	46	at
+O	47	52	Ummis
+O	52	53	,
+O	54	55	a
+O	56	60	home
+O	61	64	for
+O	65	70	women
+O	71	75	with
+O	76	79	HIV
+O	79	80	.
+
+O	81	85	Move
+O	86	90	here
+
+O	91	99	recently
+O	100	104	from
+O	105	106	[
+O	106	107	*
+O	107	108	*
+O	108	116	Location
+O	117	118	(
+O	118	120	un
+O	120	121	)
+O	122	123	*
+O	123	124	*
+O	124	125	]
+O	125	126	.
+
+O	127	131	Grew
+O	132	134	up
+O	135	137	on
+O	138	139	[
+O	139	140	*
+O	140	141	*
+O	141	149	Location
+O	150	151	(
+O	151	153	un
+O	153	154	)
+O	155	156	*
+O	156	157	*
+O	157	158	]
+O	158	159	.
+
+O	160	166	Denies
+O	167	170	use
+O	171	173	of
+
+O	174	178	IVDU
+O	178	179	,
+O	180	186	heroin
+O	186	187	,
+O	188	195	cocaine
+O	196	198	in
+O	199	202	the
+O	203	207	past
+O	208	209	6
+O	210	216	months
+O	216	217	.
+
+O	218	224	Smokes
+O	225	226	[
+O	226	227	*
+O	227	228	*
+O	228	229	1
+O	229	230	-
+O	230	232	18
+O	232	233	*
+O	233	234	*
+O	234	235	]
+O	236	239	ppd
+O	240	243	for
+
+O	244	247	the
+O	248	252	past
+O	253	255	20
+O	256	261	years
+O	261	262	.
+
+O	263	270	Reports
+O	271	276	drank
+B-Alcohol	277	284	alcohol
+O	285	287	15
+O	288	293	years
+O	294	297	ago
+O	297	298	.
+
+O	299	301	No
+O	302	308	recent
+
+O	309	316	travels
+O	316	317	.
+
+O	318	319	+
+O	320	324	sick
+O	325	330	women
+O	331	333	at
+O	334	337	the
+O	338	342	home
+O	342	343	.
+
+O	344	351	History
+O	352	354	of
+O	355	368	incarceration
+O	369	372	for
+
+O	373	374	1
+O	375	379	year
+O	380	381	5
+O	382	387	years
+O	388	391	ago
+O	391	392	.
+
+O	393	395	No
+O	396	403	history
+O	404	406	of
+O	407	419	homelessness
+O	419	420	.
+
+O	421	424	Has
+O	425	428	one
+
+O	429	437	daughter
+O	437	438	.
+
+O	439	442	Not
+O	443	452	currently
+O	453	455	in
+O	456	457	a
+O	458	470	relationship
+O	471	473	or
+O	474	482	sexually
+O	483	489	active
+O	489	490	.

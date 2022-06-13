@@ -1,0 +1,88 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	active
+O	29	35	smoker
+O	36	39	per
+O	40	47	records
+O	47	48	,
+O	49	50	1
+O	50	51	.
+O	51	52	5
+O	53	56	PPD
+O	57	63	x15yrs
+
+B-Alcohol	67	74	Alcohol
+I-Alcohol	75	78	Use
+O	78	79	:
+O	80	81	2
+O	82	86	cans
+O	87	91	beer
+O	92	95	oer
+O	96	100	week
+O	101	104	per
+O	105	112	records
+
+O	113	117	Drug
+O	118	121	Use
+O	121	122	:
+O	123	130	unknown
+
+O	132	138	SOCIAL
+O	139	146	HISTORY
+O	146	147	:
+
+O	149	150	[
+O	150	151	X
+O	152	158	Unable
+O	159	161	to
+O	162	168	Obtain
+O	169	172	due
+O	173	175	to
+O	176	183	Patient
+O	184	193	Condition
+
+O	194	197	Has
+O	198	199	a
+O	200	204	Case
+O	205	212	Manager
+O	213	214	(
+O	214	217	who
+O	218	221	she
+O	222	228	called
+O	229	233	this
+O	234	241	morning
+O	241	242	)
+
+O	243	248	Older
+O	249	255	sister
+O	256	257	[
+O	257	261	NAME
+O	261	262	]
+O	262	263	.
+
+O	264	270	Father
+O	271	273	is
+O	274	276	in
+O	277	278	a
+O	279	282	SNF
+O	283	291	awaiting
+O	292	297	heart
+O	298	303	valve
+O	304	311	surgery
+O	312	316	next
+O	317	321	week
+O	321	322	.
+
+O	323	329	Sister
+O	330	334	died
+O	335	337	in
+O	338	342	VAMC
+O	343	347	MICU
+O	348	351	two
+O	352	357	weeks
+O	358	361	ago
+O	361	362	.

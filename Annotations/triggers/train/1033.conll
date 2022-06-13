@@ -1,0 +1,21 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	21	Works
+O	22	24	in
+O	25	37	construction
+O	37	38	.
+
+O	39	41	20
+O	42	46	pack
+O	46	47	/
+O	47	51	year
+B-Tobacco	52	59	tobacco
+O	59	60	.
+
+O	61	67	Drinks
+B-Alcohol	68	72	ETOH
+O	73	75	in
+O	76	82	binges
+O	82	83	.

@@ -1,0 +1,46 @@
+T1	Drug 669 675	Extasy
+T2	Type 669 675	Extasy
+T3	StatusTime 663 683	using Extasy ~friday
+T4	Alcohol 468 481	alcohol abuse
+T6	StatusTime 464 467	H/o
+T7	Drug 496 501	drugs
+T8	Alcohol 505 512	alcohol
+T9	StatusTime 483 521	denies using drugs or alcohol recently
+T13	Tobacco 445 452	tobacco
+T14	Method 439 444	chews
+T15	Type 428 434	cigars
+T17	StatusTime 421 427	Smokes
+T18	Employment 261 264	Job
+T19	StatusEmploy 286 300	Has not worked
+T20	Type 266 284	Sheet metal worker
+T21	LivingStatus 17 22	Lives
+T22	TypeLiving 62 67	alone
+T23	StatusTime 17 22	Lives
+E1	Drug:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Status:T6
+E3	Drug:T7 Status:T9
+E4	Alcohol:T8 Status:T9
+E6	Tobacco:T13 Method:T14 Type:T15 Status:T17
+E7	Employment:T18 Status:T19 Type:T20
+E8	LivingStatus:T21 Status:T23 Type:T22
+A1	StatusTimeVal T3 current
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T9 past
+A7	StatusTimeVal T17 current
+A8	StatusEmployVal T19 unemployed
+A9	TypeLivingVal T22 alone
+A10	StatusTimeVal T23 current
+T5	Alcohol 548 552	EtOH
+E5	Alcohol:T5 Status:T10
+T10	StatusTime 563 584	elevated on admission
+A2	StatusTimeVal T10 current
+T11	Drug 611 623	amphetamines
+E9	Drug:T11 Type:T12 Status:T16
+T12	Type 611 623	amphetamines
+T16	StatusTime 624 634	seen on UA
+A5	StatusTimeVal T16 current
+T24	Drug 639 646	opioids
+E10	Drug:T24 Type:T26 Status:T25
+T25	StatusTime 636 638	No
+A6	StatusTimeVal T25 none
+T26	Type 639 646	opioids

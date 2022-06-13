@@ -1,0 +1,62 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	24	smoking
+O	25	28	for
+O	29	31	60
+O	32	37	years
+O	38	39	(
+O	39	40	1
+O	40	41	-
+O	41	42	2
+O	43	46	PPD
+O	46	47	)
+O	48	51	and
+O	52	61	cessation
+O	62	70	recently
+O	70	71	.
+
+O	73	75	No
+B-Alcohol	76	80	ETOH
+O	81	83	in
+O	84	86	20
+O	87	92	years
+O	92	93	.
+
+O	95	97	No
+B-Drug	98	107	marijuana
+O	108	111	and
+O	112	114	no
+B-Drug	115	123	illicits
+O	123	124	.
+
+O	126	132	SOCIAL
+O	133	140	HISTORY
+O	140	141	:
+
+B-LivingStatus	143	148	Lives
+O	149	151	in
+O	152	153	[
+O	153	161	LOCATION
+O	161	162	]
+O	163	164	w
+O	164	165	/
+O	166	170	wife
+O	170	171	,
+O	172	173	[
+O	173	177	NAME
+O	177	178	]
+O	178	179	.
+
+B-Employment	180	186	Worked
+O	187	190	for
+O	191	195	many
+O	196	201	years
+O	202	204	as
+O	205	206	a
+O	207	216	carpenter
+O	216	217	,
+O	218	221	now
+O	222	229	retired
+O	229	230	.

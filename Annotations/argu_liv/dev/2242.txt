@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: 1 pack/ day x10 years
+Alcohol Use: 24oz beer daily, with occasional hard liquor intake
+Drug Use: Occasional marijuana use. Denies IVDU
+
+SOCIAL HISTORY: 
+Patient is engaged, fiancee present at bedside. Lives with roommate in [LOCATION] in apartment. Moved from [LOCATION] in 2001, traveled to [LOCATION] in 2005, and pt reports he was ruled out for TB in 2010. He was incarcerated for 1 day in [DATE] in [LOCATION] for a car accident.

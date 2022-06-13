@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: Denies   Alcohol Use: Denies   Drug Use: Denies current use
+
+SOCIAL HISTORY: 
+Lives with Mother

@@ -1,0 +1,75 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	24	No
+O	25	32	current
+O	33	36	use
+O	36	37	.
+
+O	39	45	Smoked
+O	46	48	on
+O	49	52	and
+O	53	56	off
+O	57	62	since
+O	63	66	age
+O	67	69	12
+O	69	70	,
+O	71	73	15
+O	74	78	pack
+O	79	83	year
+O	84	91	history
+O	91	92	,
+O	93	97	quit
+O	98	102	2015
+
+O	103	110	Alcohol
+O	111	114	Use
+O	114	115	:
+O	117	119	No
+O	120	127	current
+O	128	131	use
+O	131	132	.
+
+O	134	139	Drank
+O	140	147	heavily
+O	148	151	for
+O	152	153	3
+O	153	154	-
+O	154	155	4
+O	156	161	years
+O	161	162	.
+
+O	164	168	gt12
+O	169	173	pack
+O	174	178	beer
+O	178	179	+
+O	180	184	hard
+O	185	191	liquor
+O	192	193	a
+O	194	197	few
+O	198	203	times
+O	204	205	a
+O	206	210	week
+O	210	211	,
+O	212	217	sober
+O	218	221	for
+O	222	224	23
+O	225	230	years
+O	230	231	.
+
+O	236	240	Drug
+O	241	244	Use
+O	244	245	:
+O	246	248	No
+O	249	256	history
+O	257	259	or
+O	260	267	current
+O	268	271	use
+O	271	272	.
+
+O	276	282	SOCIAL
+O	283	290	HISTORY
+O	290	291	:

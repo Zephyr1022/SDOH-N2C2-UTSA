@@ -1,0 +1,50 @@
+O	0	3	SHx
+O	3	4	:
+
+O	5	6	-
+B-Tobacco	6	13	Tobacco
+O	14	15	5
+O	15	16	-
+O	16	20	6cig
+O	20	21	/
+O	21	24	day
+O	25	30	x30yr
+O	30	31	.
+
+O	32	40	Endorses
+O	41	48	wanting
+O	49	56	smoking
+O	57	66	cessation
+O	67	74	therapy
+O	74	75	.
+
+O	76	77	-
+B-Alcohol	77	81	EtOH
+O	82	88	2x240z
+O	89	94	beers
+O	95	96	/
+O	97	100	day
+O	100	101	,
+O	102	106	last
+O	107	112	drink
+O	113	114	[
+O	114	118	DATE
+O	118	119	]
+O	119	120	.
+
+O	121	123	No
+O	124	132	episodes
+O	133	135	of
+O	136	145	withdrawl
+
+O	146	147	-
+B-Employment	147	151	Self
+I-Employment	152	160	employed
+O	160	161	,
+B-LivingStatus	162	167	lives
+O	168	172	with
+O	173	177	wife
+O	178	179	[
+O	179	183	NAME
+O	183	184	]
+O	184	185	.

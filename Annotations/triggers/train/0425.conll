@@ -1,0 +1,61 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Married
+O	24	27	and
+B-LivingStatus	28	32	live
+O	33	34	w
+O	34	35	/
+O	35	39	wife
+O	39	40	.
+
+O	42	43	[
+O	43	44	*
+O	44	45	*
+O	45	49	Name
+O	50	51	(
+O	51	53	NI
+O	53	54	)
+O	55	56	*
+O	56	57	*
+O	57	58	]
+O	59	66	several
+O	67	73	family
+O	74	81	members
+O	82	91	including
+O	92	93	a
+
+O	94	102	daughter
+O	103	106	who
+O	107	111	live
+O	112	118	nearby
+O	118	119	.
+
+O	121	124	Was
+O	125	133	admitted
+O	134	138	from
+O	139	144	rehab
+O	144	145	,
+O	146	149	but
+O	150	152	at
+O	153	155	BL
+
+O	156	160	goes
+O	161	163	to
+O	164	169	adult
+O	170	177	daycare
+O	178	185	program
+O	185	186	.
+
+O	188	191	Has
+O	192	198	denied
+B-Tobacco	199	206	current
+I-Tobacco	207	214	tobacco
+O	214	215	/
+B-Alcohol	215	219	EtOH
+
+B-Alcohol	220	223	use
+O	224	226	in
+O	227	231	past
+O	231	232	.

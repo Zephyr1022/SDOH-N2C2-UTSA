@@ -1,0 +1,21 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	Lives
+O	23	25	at
+O	26	30	home
+O	31	35	with
+O	36	42	sister
+O	42	43	,
+O	44	48	aunt
+O	49	52	and
+O	53	59	cousin
+
+O	60	64	Quit
+B-Tobacco	65	72	smoking
+
+O	73	75	No
+B-Alcohol	76	83	alcohol
+O	84	86	or
+B-Drug	87	92	drugs

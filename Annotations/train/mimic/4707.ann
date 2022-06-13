@@ -1,0 +1,12 @@
+T1	Alcohol 30 37	alcohol
+T2	StatusTime 17 25	Negative
+T3	Drug 39 44	drugs
+T4	Tobacco 73 84	tobacco use
+T5	Duration 63 71	20 years
+T6	StatusTime 49 53;54 61	very distant
+T7	History 49 53;54 61	very distant
+E1	Alcohol:T1 Status:T2
+E2	Drug:T3 Status:T2
+E3	Tobacco:T4 Duration:T5 History:T7 Status:T6
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T6 past

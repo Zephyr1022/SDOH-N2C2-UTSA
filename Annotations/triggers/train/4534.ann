@@ -1,0 +1,9 @@
+T1	Employment 16 21	Works
+T4	LivingStatus 304 309	Lives
+T7	Alcohol 361 369	EtOH use
+T10	Drug 468 479	cocaine use
+T13	Drug 628 634	heroin
+T16	Drug 595 617;618 621	recent one-time heroin use
+T19	Drug 660 676	other substances
+T21	Drug 685 689	IVDA
+T25	Drug 697 712	many substances

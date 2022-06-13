@@ -1,0 +1,40 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 27	1PPDx
+T3	Duration 28 33	45 yr
+T4	StatusTime 22 33	1PPDx 45 yr
+T5	Amount 35 47	1 cigarette/
+T6	Tobacco 35 47	1 cigarette/
+T7	Type 37 47	cigarette/
+T8	Frequency 37 50	cigarette/ wk
+T9	Duration 51 64	for last year
+T10	StatusTime 51 64	for last year
+T11	Tobacco 71 76	E-cig
+T12	Type 71 76	E-cig
+T14	StatusTime 77 89	past 2 weeks
+T13	Duration 77 89	past 2 weeks
+T15	Alcohol 113 124	Alcohol Use
+T16	StatusTime 126 130	None
+T17	Drug 131 139	Drug Use
+T18	Method 144 148	IVDU
+T19	Type 149 155	heroin
+T20	StatusTime 141 143	Hx
+T21	LivingStatus 230 235	lives
+T22	StatusTime 230 235	lives
+T23	TypeLiving 250 283	w/ her longterm signigicant other
+T24	Employment 289 298	is on SSI
+T25	StatusEmploy 289 298	is on SSI
+E1	Tobacco:T1 Amount:T2 Duration:T3 Status:T4
+E2	Tobacco:T6 Type:T7 Amount:T5 Frequency:T8 Status:T10 Duration:T9
+E3	Tobacco:T11 Type:T12 Duration:T13 Status:T14
+E4	Alcohol:T15 Status:T16
+E5	Drug:T17 Status:T20 Method:T18 Type:T19
+E6	LivingStatus:T21 Status:T22 Type:T23
+E7	Employment:T24 Status:T25
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T10 current
+A4	StatusTimeVal T14 current
+A3	StatusTimeVal T16 none
+A5	StatusTimeVal T20 current
+A6	StatusTimeVal T22 current
+A7	TypeLivingVal T23 with_others
+A8	StatusEmployVal T25 on_disability

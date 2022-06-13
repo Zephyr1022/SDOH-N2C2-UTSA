@@ -1,0 +1,29 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	History
+O	24	26	of
+O	27	36	substance
+O	37	42	abuse
+O	43	44	-
+B-Drug	45	52	cocaine
+O	53	56	and
+B-Alcohol	57	61	ETOH
+O	61	62	.
+
+O	63	68	Rehab
+O	69	70	x
+O	71	72	3
+O	72	73	.
+
+O	74	75	+
+
+B-Tobacco	76	83	Tobacco
+O	83	84	.
+
+O	85	93	Expelled
+O	94	98	from
+O	99	103	high
+O	104	110	school
+O	110	111	.

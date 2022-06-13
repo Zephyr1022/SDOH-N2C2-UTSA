@@ -1,0 +1,21 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 29 38	1.5 packs
+T3	StatusTime 22 27	Prior
+T4	Frequency 39 46	per day
+T5	Duration 47 59	for 15 years
+T6	Alcohol 62 73	Alcohol Use
+T7	StatusTime 75 77	No
+T8	Drug 80 88	Drug Use
+T9	StatusTime 90 92	No
+T10	LivingStatus 157 166	Residence
+T11	StatusTime 168 173	Lives
+T12	TypeLiving 182 198	with his mother.
+E1	Tobacco:T1 Status:T3 Amount:T2 Frequency:T4 Duration:T5
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Status:T9
+E4	LivingStatus:T10 Type:T12 Status:T11
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 with_family

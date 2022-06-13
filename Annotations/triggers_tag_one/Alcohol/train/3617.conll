@@ -1,0 +1,31 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	23	Living
+O	24	26	at
+O	27	36	Emergency
+O	37	43	Family
+O	44	51	Shelter
+O	51	52	.
+
+O	53	60	Current
+O	61	67	smoker
+O	67	68	.
+
+O	69	75	Drinks
+B-Alcohol	76	83	alcohol
+O	84	85	(
+O	85	91	unable
+O	92	94	to
+O	95	103	quantify
+O	103	104	)
+O	104	105	,
+O	106	110	last
+O	111	116	drink
+O	117	126	yesterday
+O	126	127	.
+
+O	128	134	Denies
+O	135	139	IVDU
+O	139	140	.

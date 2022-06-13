@@ -1,0 +1,26 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	25	in
+O	26	27	[
+O	27	35	LOCATION
+O	35	36	]
+O	36	37	,
+O	38	47	receiving
+O	48	57	treatment
+O	58	60	at
+O	61	68	Kindred
+
+O	69	75	Denies
+O	76	79	tob
+O	79	80	,
+O	81	82	1
+O	83	86	ink
+O	86	87	/
+O	87	88	d
+B-Alcohol	89	93	etoh
+O	93	94	,
+O	95	101	denies
+O	102	110	illicits

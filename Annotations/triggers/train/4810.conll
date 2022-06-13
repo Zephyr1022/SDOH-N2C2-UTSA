@@ -1,0 +1,30 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	SocHx
+O	21	22	:
+O	23	30	Married
+O	30	31	,
+B-Employment	32	36	bank
+I-Employment	37	43	worker
+O	43	44	/
+O	44	51	chamber
+O	52	54	of
+O	55	63	commerce
+O	63	64	/
+O	64	73	sedentary
+O	73	74	.
+
+B-Tobacco	75	81	Remote
+I-Tobacco	82	89	tobacco
+I-Tobacco	90	97	history
+O	97	98	,
+O	99	102	occ
+O	102	103	.
+
+B-Alcohol	104	108	EtOH
+O	108	109	,
+B-Drug	110	111	-
+I-Drug	111	115	IVDA
+O	115	116	.

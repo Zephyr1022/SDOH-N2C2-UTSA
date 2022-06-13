@@ -1,0 +1,47 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Unable
+O	23	25	to
+O	26	32	obtain
+O	33	34	d
+O	34	35	/
+O	35	36	t
+O	37	47	intubation
+O	47	48	/
+O	48	56	sedation
+O	56	57	.
+
+O	59	62	Per
+O	63	70	records
+O	70	71	:
+O	72	75	She
+O	76	78	is
+
+O	79	87	disabled
+O	87	88	.
+
+O	90	93	She
+O	94	100	smoked
+O	101	103	15
+O	104	106	to
+O	107	109	20
+O	110	120	cigarettes
+O	121	124	per
+O	125	128	day
+O	129	132	for
+O	133	135	30
+O	136	141	years
+O	141	142	.
+
+O	144	147	She
+O	148	152	does
+O	153	156	not
+O	157	162	drink
+B-Alcohol	163	170	alcohol
+O	171	173	or
+O	174	177	use
+O	178	185	illicit
+O	186	191	drugs
+O	191	192	.

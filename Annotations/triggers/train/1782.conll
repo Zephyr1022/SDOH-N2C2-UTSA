@@ -1,0 +1,16 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+B-LivingStatus	29	34	lives
+O	35	39	with
+O	40	44	wife
+O	44	45	.
+
+B-Drug	47	53	Former
+
+B-Drug	54	65	intravenous
+I-Drug	66	70	drug
+I-Drug	71	75	user
+O	75	76	.

@@ -1,0 +1,37 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Residence
+O	26	27	:
+
+O	29	34	Group
+O	35	39	home
+O	39	40	.
+
+O	42	49	Tobacco
+O	50	53	use
+O	53	54	:
+
+O	56	62	60pack
+O	63	70	history
+O	71	72	(
+O	72	73	q
+O	74	75	[
+O	75	79	DATE
+O	79	80	]
+O	80	81	)
+O	81	82	.
+
+B-Alcohol	84	91	Alcohol
+I-Alcohol	92	95	use
+O	95	96	:
+O	97	103	denies
+O	103	104	.
+
+O	106	110	Drug
+O	111	114	use
+O	114	115	:
+
+O	117	123	Denies
+O	123	124	.

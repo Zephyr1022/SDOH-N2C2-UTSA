@@ -1,0 +1,62 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Married
+O	23	24	,
+O	25	30	lives
+O	31	33	in
+O	34	35	[
+O	35	36	*
+O	36	37	*
+O	37	45	Location
+O	46	51	21318
+O	51	52	*
+O	52	53	*
+O	53	54	]
+O	54	55	.
+
+O	57	60	Has
+O	61	62	2
+O	63	68	grown
+O	69	77	children
+O	77	78	.
+
+O	80	84	Quit
+
+B-Alcohol	85	93	drinking
+O	94	97	and
+B-Tobacco	98	105	smoking
+O	106	108	20
+O	108	109	+
+O	110	115	years
+O	116	119	ago
+O	120	125	after
+O	126	137	development
+O	138	140	of
+O	141	148	gastric
+
+O	149	155	ulcers
+O	155	156	.
+
+O	158	161	Has
+O	162	164	25
+O	165	169	pack
+O	170	174	year
+O	175	177	hx
+O	177	178	.
+
+B-Employment	180	186	Worked
+O	187	190	for
+O	191	193	30
+O	193	194	+
+O	195	200	years
+O	201	203	as
+O	204	205	a
+O	206	209	5th
+O	209	210	-
+O	210	213	6th
+
+O	214	219	grade
+O	220	227	teacher
+O	227	228	.

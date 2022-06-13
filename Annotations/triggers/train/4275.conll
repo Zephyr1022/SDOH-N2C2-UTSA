@@ -1,0 +1,37 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Residence
+O	26	27	:
+
+O	29	36	Private
+O	37	46	residence
+O	46	47	.
+
+B-Employment	49	59	Employment
+O	59	60	:
+
+O	62	70	Employed
+O	71	77	Pastor
+O	77	78	.
+
+B-Tobacco	80	87	Tobacco
+I-Tobacco	88	91	use
+O	91	92	:
+
+O	94	100	Denies
+O	100	101	.
+
+B-Alcohol	103	110	Alcohol
+I-Alcohol	111	114	use
+O	114	115	:
+O	116	122	denies
+O	122	123	.
+
+B-Drug	125	129	Drug
+I-Drug	130	133	use
+O	133	134	:
+
+O	135	141	Denies
+O	141	142	.

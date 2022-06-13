@@ -1,0 +1,24 @@
+T1	LivingStatus 19 24	lives
+T2	StatusTime 19 24	lives
+T3	TypeLiving 33 46	with his wife
+T4	Tobacco 114 117	tob
+T5	Frequency 127 139	every 2 days
+T6	Amount 119 126	1 cigar
+T7	StatusTime 112 113	+
+T8	StatusTime 140 142	no
+T9	Alcohol 143 147	EtOH
+T10	Drug 151 165	other drug use
+T11	Type 121 126	cigar
+T12	Employment 178 202	in the clothing business
+T13	StatusEmploy 167 177	Previously
+T14	Type 181 202	the clothing business
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T7 Amount:T6 Frequency:T5 Type:T11
+E3	Alcohol:T9 Status:T8
+E4	Drug:T10 Status:T8
+E5	Employment:T12 Status:T13 Type:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T8 none
+A5	StatusEmployVal T13 unemployed

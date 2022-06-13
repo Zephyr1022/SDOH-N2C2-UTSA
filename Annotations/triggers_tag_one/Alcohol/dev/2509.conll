@@ -1,0 +1,10 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	17	19	No
+B-Alcohol	20	27	alcohol
+O	27	28	,
+O	29	34	drugs
+O	34	35	,
+O	36	43	tobacco

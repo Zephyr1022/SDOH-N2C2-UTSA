@@ -1,0 +1,35 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	32	occasional
+O	33	38	cigar
+
+O	39	46	Alcohol
+O	47	50	Use
+O	50	51	:
+O	52	53	_
+
+O	54	58	Drug
+O	59	62	Use
+O	62	63	:
+O	64	65	_
+
+O	67	73	SOCIAL
+O	74	81	HISTORY
+O	81	82	:
+
+B-Employment	84	89	Works
+O	90	93	for
+O	94	95	[
+O	95	103	LOCATION
+O	103	104	]
+O	104	105	.
+
+O	106	113	Married
+O	114	118	with
+O	119	122	one
+O	123	131	daughter
+O	131	132	.

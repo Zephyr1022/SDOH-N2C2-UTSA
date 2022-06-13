@@ -1,0 +1,59 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	19	He
+O	20	23	was
+O	24	30	living
+O	31	35	with
+O	36	39	his
+O	40	44	wife
+O	45	47	at
+O	48	52	home
+O	52	53	.
+
+O	55	56	A
+
+O	57	64	retired
+O	65	70	small
+O	71	79	business
+O	80	85	owner
+O	85	86	,
+O	87	93	office
+O	94	99	sales
+O	99	100	.
+
+O	102	108	Smoker
+O	109	110	1
+O	110	111	.
+O	111	112	5
+O	113	117	pack
+
+O	118	121	per
+O	122	125	day
+O	125	126	,
+O	127	129	75
+O	130	134	pack
+O	135	139	year
+O	140	145	total
+O	145	146	.
+
+O	148	154	Remote
+O	155	162	history
+O	163	165	of
+B-Alcohol	166	173	alcohol
+
+B-Alcohol	174	179	abuse
+O	179	180	,
+O	181	185	quit
+O	186	192	twenty
+O	192	193	-
+O	193	197	five
+O	198	203	years
+O	204	207	ago
+O	207	208	.
+
+O	210	212	He
+O	213	216	has
+O	217	222	three
+O	223	231	children
+O	231	232	.

@@ -1,0 +1,31 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Duration 40 52	since teen's
+T3	Amount 62 74	2 cigarettes
+T4	Frequency 75 80	a day
+T5	StatusTime 54 61	down to
+T6	StatusTime 86 96	previously
+T7	Amount 97 114	up to half a pack
+T8	Tobacco 97 114	up to half a pack
+T9	Frequency 115 120	a day
+T10	Type 29 39	cigarettes
+T11	Alcohol 121 132	Alcohol Use
+T13	StatusTime 153 166	rarely drinks
+T14	Drug 167 175	Drug Use
+T15	Type 184 193	marijuana
+T16	Method 177 183	smoked
+T17	Duration 194 202	since 16
+T18	StatusTime 194 202	since 16
+T19	LivingStatus 256 265	Residence
+T20	StatusTime 267 284	recently homeless
+T21	TypeLiving 267 284	recently homeless
+E1	Tobacco:T1 Duration:T2 Type:T10 Status:T5 Amount:T3 Frequency:T4
+E2	Tobacco:T8 Amount:T7 Status:T6 Frequency:T9
+E3	Alcohol:T11 Status:T13
+E4	Drug:T14 Method:T16 Type:T15 Duration:T17 Status:T18
+E5	LivingStatus:T19 Status:T20 Type:T21
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T6 past
+A4	StatusTimeVal T13 current
+A5	StatusTimeVal T18 current
+A6	StatusTimeVal T20 current
+A7	TypeLivingVal T21 homeless

@@ -1,0 +1,36 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 49 60	Alcohol Use
+T3	Drug 138 146	Drug Use
+T4	Amount 22 34	2 cigarettes
+T5	Duration 36 48	since age 27
+T6	StatusTime 22 34	2 cigarettes
+T7	Amount 71 79	~2 beers
+T8	Frequency 79 83	/day
+T9	StatusTime 71 83	~2 beers/day
+T10	Amount 85 105	fifth of hard liquor
+T11	Frequency 106 111	daily
+T12	Duration 112 134	over the past few days
+T13	Type 74 79	beers
+T14	StatusTime 85 111	fifth of hard liquor daily
+T15	Type 148 155	cocaine
+T16	Method 157 163	smokes
+T17	StatusTime 148 155	cocaine
+T18	LivingStatus 241 250	Residence
+T19	StatusTime 252 257	Lives
+T20	TypeLiving 274 279	alone
+T21	Employment 281 291	unemployed
+T22	StatusEmploy 281 291	unemployed
+E1	Tobacco:T1 Amount:T4 Status:T6 Duration:T5
+E2	Alcohol:T2 Amount:T7 Frequency:T8 Status:T9 Type:T13
+E3	Drug:T3 Type:T15 Method:T16 Status:T17
+E5	LivingStatus:T18 Type:T20 Status:T19
+E6	Employment:T21 Status:T22
+A1	StatusTimeVal T6 current
+A2	StatusTimeVal T9 current
+A3	StatusTimeVal T14 current
+A4	StatusTimeVal T19 current
+A5	TypeLivingVal T20 alone
+A6	StatusEmployVal T22 unemployed
+A7	StatusTimeVal T17 current
+T23	Alcohol 94 105	hard liquor
+E4	Alcohol:T23 Amount:T10 Status:T14 Frequency:T11 Duration:T12

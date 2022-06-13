@@ -1,0 +1,33 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	No
+B-Alcohol	19	26	alcohol
+O	27	29	or
+O	30	35	drugs
+O	35	36	.
+
+O	37	42	Comes
+O	43	45	in
+O	46	50	from
+O	51	52	[
+O	52	53	*
+O	53	54	*
+O	54	63	Hospital1
+O	64	65	*
+O	65	66	*
+O	66	67	]
+O	67	68	.
+
+O	69	73	Used
+O	74	76	to
+O	77	81	live
+O	82	84	at
+
+O	85	89	home
+O	89	90	.
+
+O	91	98	Retired
+O	99	108	secretary
+O	108	109	.

@@ -1,0 +1,42 @@
+T3	LivingStatus 78 83	Lived
+T4	TypeLiving 87 101	cousin's house
+T5	StatusTime 78 83	Lived
+T6	Alcohol 132 143	drunkenness
+T8	Employment 151 158	working
+T9	StatusEmploy 151 158	working
+T10	Type 162 174	a laundromat
+T11	Alcohol 272 276	EtOH
+T12	Amount 297 311	up to 24 beers
+T13	Type 306 311	beers
+T14	Frequency 312 317	/ day
+T15	Duration 277 295	over the past year
+T16	StatusTime 277 295	over the past year
+T17	Alcohol 331 337	Drinks
+T18	Frequency 343 352	every day
+T19	StatusTime 331 337	Drinks
+T20	LivingStatus 400 406	rental
+T21	TypeLiving 407 429	with four other people
+T22	StatusTime 371 381	Moved from
+T23	Tobacco 484 490	smokes
+T24	StatusTime 478 483	Still
+T25	Drug 535 545	drug abuse
+T27	StatusTime 515 534	No known history of
+T28	StatusTime 123 131	frequent
+E2	LivingStatus:T3 Type:T4 Status:T5
+E3	Alcohol:T6 Status:T28
+E4	Employment:T8 Status:T9 Type:T10
+E5	Alcohol:T11 Amount:T12 Type:T13 Frequency:T14 Duration:T15 Status:T16
+E6	Alcohol:T17 Frequency:T18 Status:T19
+E7	LivingStatus:T20 Type:T21 Status:T22
+E8	Tobacco:T23 Status:T24
+E9	Drug:T25 Status:T27
+A1	TypeLivingVal T4 with_family
+A2	StatusTimeVal T5 past
+A4	StatusEmployVal T9 employed
+A5	StatusTimeVal T16 current
+A6	StatusTimeVal T19 current
+A7	TypeLivingVal T21 with_others
+A8	StatusTimeVal T22 current
+A9	StatusTimeVal T24 current
+A11	StatusTimeVal T27 none
+A12	StatusTimeVal T28 current

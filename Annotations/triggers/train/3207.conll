@@ -1,0 +1,46 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	29	current
+O	30	37	smoking
+B-Alcohol	40	47	Alcohol
+I-Alcohol	48	51	Use
+O	51	52	:
+O	53	57	none
+O	58	59	(
+O	59	61	hx
+O	62	64	20
+O	65	67	yr
+O	68	71	ago
+O	71	72	)
+B-Drug	76	80	Drug
+I-Drug	81	84	Use
+O	84	85	:
+O	86	92	heroin
+O	93	95	SQ
+
+O	96	102	SOCIAL
+O	103	110	HISTORY
+O	110	111	:
+
+B-LivingStatus	113	118	Lives
+O	119	121	in
+O	122	124	an
+O	125	135	appartment
+O	136	138	on
+O	139	142	his
+O	143	146	own
+O	147	149	in
+O	150	151	[
+O	151	159	LOCATION
+O	159	160	]
+O	160	161	.
+
+O	162	164	No
+O	165	171	family
+O	172	176	near
+O	177	179	by
+O	179	180	.

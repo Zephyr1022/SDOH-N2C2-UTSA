@@ -1,0 +1,66 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	23	X
+B-Alcohol	26	33	Alcohol
+I-Alcohol	34	37	Use
+O	37	38	:
+O	39	43	Once
+O	44	45	a
+O	46	51	month
+B-Drug	54	58	Drug
+I-Drug	59	62	Use
+O	62	63	:
+O	64	66	No
+
+O	68	74	SOCIAL
+O	75	82	HISTORY
+O	82	83	:
+
+B-LivingStatus	85	90	Lives
+O	91	93	at
+O	94	98	home
+O	99	103	with
+O	104	112	roomates
+O	113	116	and
+O	117	127	caregivers
+O	127	128	.
+
+B-Employment	129	134	Works
+O	135	137	in
+O	138	146	hospital
+O	147	161	administration
+O	161	162	.
+
+O	163	165	No
+O	166	172	family
+O	173	179	living
+O	180	182	in
+O	183	186	the
+O	187	191	area
+O	191	192	.
+
+O	193	197	Both
+O	198	205	parents
+O	206	209	are
+O	210	218	deceased
+O	218	219	.
+
+O	220	227	Closest
+O	228	233	Aunts
+O	234	240	Uncles
+O	241	244	and
+O	245	252	Cousins
+O	253	256	are
+O	257	259	in
+O	260	261	[
+O	261	269	LOCATION
+O	269	270	]
+O	271	274	and
+O	275	276	[
+O	276	284	LOCATION
+O	284	285	]
+O	285	286	.

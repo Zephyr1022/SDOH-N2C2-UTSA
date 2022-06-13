@@ -1,0 +1,26 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 43 67	currently quarter packer
+T3	Amount 43 67	currently quarter packer
+T4	Frequency 68 75	per day
+T5	Alcohol 78 89	Alcohol Use
+T6	StatusTime 103 111	past use
+T7	History 129 148	the past 3-5 months
+T8	Alcohol 230 235	drunk
+T9	StatusTime 208 229	occasionally comes in
+T11	Drug 264 272	Drug Use
+T12	StatusTime 274 280	Denies
+T13	LivingStatus 299 304	Lives
+T14	StatusTime 299 304	Lives
+T15	TypeLiving 305 318	at [LOCATION]
+E1	Tobacco:T1 Amount:T3 Status:T2 Frequency:T4 Amount2:T10
+E2	Alcohol:T5 Status:T6 History:T7
+E3	Alcohol:T8 Status:T9
+E4	Drug:T11 Status:T12
+E5	LivingStatus:T13 Status:T14 Type:T15
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T9 current
+A5	StatusTimeVal T12 none
+A6	StatusTimeVal T14 current
+A7	TypeLivingVal T15 with_others
+T10	Amount 22 33	5 year pack

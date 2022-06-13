@@ -1,0 +1,22 @@
+T1	LivingStatus 19 24	lives
+T2	StatusTime 19 24	lives
+T3	TypeLiving 25 40	with his spouse
+T4	Tobacco 72 79	smoking
+T5	StatusTime 52 60;61 68	no prior history
+T6	Alcohol 85 91	drinks
+T7	StatusTime 85 91	drinks
+T8	Amount 92 107	about 24 ounces
+T9	Type 111 115	beer
+T10	Frequency 116 124	per week
+T11	Drug 141 162	recreational drug use
+T12	Type 141 153	recreational
+T13	StatusTime 130 140	denies any
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7 Amount:T8 Type:T9 Frequency:T10
+E4	Drug:T11 Type:T12 Status:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 current
+A5	StatusTimeVal T13 none

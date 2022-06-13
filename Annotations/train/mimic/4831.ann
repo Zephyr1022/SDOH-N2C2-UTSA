@@ -1,0 +1,12 @@
+T1	StatusTime 194 200	denies
+T2	Tobacco 201 208	smoking
+T3	Alcohol 210 214	ETOH
+T4	LivingStatus 104 115	was staying
+T5	StatusTime 104 115	was staying
+T6	TypeLiving 116 134	in pulmonary rehab
+E1	Tobacco:T2 Status:T1
+E2	Alcohol:T3 Status:T1
+E3	LivingStatus:T4 Status:T5 Type:T6
+A1	StatusTimeVal T1 none
+A2	StatusTimeVal T5 past
+A3	TypeLivingVal T6 with_others

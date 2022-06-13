@@ -1,0 +1,48 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	26	None
+O	27	35	reported
+O	35	36	.
+
+O	37	44	History
+O	45	47	of
+B-Tobacco	48	55	tobacco
+I-Tobacco	56	59	use
+O	60	61	[
+O	61	65	DATE
+O	65	66	]
+O	66	67	.
+
+B-Alcohol	69	76	Alcohol
+I-Alcohol	77	80	Use
+O	80	81	:
+O	82	86	None
+O	87	95	reported
+
+B-Drug	98	102	Drug
+I-Drug	103	106	Use
+O	106	107	:
+O	108	112	None
+O	113	121	reported
+
+O	123	129	SOCIAL
+O	130	137	HISTORY
+O	137	138	:
+
+B-LivingStatus	140	149	Residence
+O	149	150	:
+O	151	156	Lives
+O	157	161	with
+O	162	169	partner
+O	170	172	in
+O	173	174	[
+O	174	182	LOCATION
+O	182	183	]
+O	183	184	,
+O	185	186	[
+O	186	194	LOCATION
+O	194	195	]

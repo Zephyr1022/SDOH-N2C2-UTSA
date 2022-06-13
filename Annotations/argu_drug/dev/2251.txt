@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: denies   Alcohol Use: social   Drug Use: denies
+
+SOCIAL HISTORY: 
+Lives in [LOCATION], has 1 son who is 8 yo, single

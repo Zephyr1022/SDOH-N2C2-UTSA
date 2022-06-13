@@ -1,0 +1,98 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	in
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	36	Location
+O	37	41	3307
+O	41	42	*
+O	42	43	*
+O	43	44	]
+O	45	49	with
+O	50	54	wife
+O	55	57	of
+O	58	60	12
+O	61	62	[
+O	62	63	*
+O	63	64	*
+O	64	69	Name2
+O	70	71	(
+O	71	73	NI
+O	73	74	)
+O	75	79	1686
+O	79	80	*
+O	80	81	*
+O	81	82	]
+O	82	83	.
+
+B-Employment	84	91	Retired
+I-Employment	92	101	president
+I-Employment	102	104	of
+
+B-Employment	105	114	insurance
+I-Employment	115	122	company
+O	122	123	.
+
+O	124	127	The
+O	128	135	patient
+O	136	138	is
+O	139	140	a
+O	141	144	100
+O	144	145	-
+O	145	149	pack
+O	150	154	year
+B-Tobacco	155	161	smoker
+O	162	165	but
+
+O	166	170	quit
+O	171	173	25
+O	174	175	[
+O	175	176	*
+O	176	177	*
+O	177	182	Name2
+O	183	184	(
+O	184	186	NI
+O	186	187	)
+O	188	192	1686
+O	192	193	*
+O	193	194	*
+O	194	195	]
+O	196	199	ago
+O	199	200	.
+
+O	201	203	He
+O	204	208	used
+O	209	211	to
+O	212	217	drink
+B-Alcohol	218	225	alcohol
+O	226	234	socially
+O	234	235	,
+O	236	239	but
+
+O	240	249	currently
+O	250	253	not
+O	254	262	drinking
+O	263	265	at
+O	266	269	all
+O	269	270	.
+
+O	271	273	No
+O	274	282	children
+O	282	283	.
+
+O	284	286	He
+O	287	289	is
+O	290	292	an
+O	293	297	only
+O	298	303	child
+O	303	304	.
+
+O	305	309	Wife
+O	310	312	is
+O	313	317	very
+O	318	328	supportive
+O	328	329	.

@@ -1,0 +1,13 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	lives
+O	23	27	with
+O	28	34	mother
+O	34	35	.
+
+B-Employment	37	43	Former
+I-Employment	44	52	computer
+I-Employment	53	63	programmer
+O	63	64	.

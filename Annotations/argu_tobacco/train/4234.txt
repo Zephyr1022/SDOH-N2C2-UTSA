@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: endorses about 4 cigarettes/day Alcohol Use: past EtOH use  Drug Use: endorses crack, meth, heroin (last used heroin in [DATE])
+
+SOCIAL HISTORY: 
+from [LOCATION].  currently living in shelther next to [LOCATION].  Has case manager [NAME]. Was raised in foster care. no supportive friends or family.

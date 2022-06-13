@@ -1,0 +1,21 @@
+T1	Tobacco 33 41	tobbacco
+T2	Duration 16 24	30 years
+T3	Amount 27 32	2 ppd
+T4	StatusTime 42 46	quit
+T5	History 47 54	15y ago
+T6	Alcohol 56 64	+alcohol
+T7	StatusTime 88 92	quit
+T8	History 93 100	8yr ago
+T9	Amount 66 73	12 beer
+T10	Frequency 73 77	/day
+T11	Duration 78 79;80 86	x 20 yrs
+T12	Type 69 73	beer
+T13	Drug 110 114	IVDU
+T14	Type 110 114	IVDU
+T15	StatusTime 103 109	denies
+E1	Tobacco:T1 Duration:T2 Amount:T3 Status:T4 History:T5
+E2	Alcohol:T6 Amount:T9 Type:T12 Frequency:T10 Duration:T11 Status:T7 History:T8
+E3	Drug:T13 Type:T14 Status:T15
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T15 none

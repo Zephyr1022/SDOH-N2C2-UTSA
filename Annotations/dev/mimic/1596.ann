@@ -1,0 +1,5 @@
+T1	Drug 17 23	heroin
+T2	Type 17 23	heroin
+T4	StatusTime 17 30	heroin addict
+E1	Drug:T1 Type:T2 Status:T4
+A2	StatusTimeVal T4 current

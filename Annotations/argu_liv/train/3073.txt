@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: Currently smoking. 7 pack year HX   
+Alcohol Use: Patient reports many years of heavy drinking but has been sober for 20 months   
+Drug Use: Denies
+
+SOCIAL HISTORY: 
+Lives in [LOCATION], [LOCATION] with her mother, dog, and cat. Not currently working but has recently worked for the [LOCATION] [LOCATION] as an administrative assistant. In her free time she enjoys walking and riding horses.

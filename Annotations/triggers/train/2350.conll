@@ -1,0 +1,65 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	Former
+O	29	35	smoker
+O	35	36	,
+B-Alcohol	38	45	Alcohol
+I-Alcohol	46	49	Use
+O	49	50	:
+O	51	57	Denies
+B-Drug	60	64	Drug
+I-Drug	65	68	Use
+O	68	69	:
+O	70	76	Denies
+
+O	78	84	SOCIAL
+O	85	92	HISTORY
+O	92	93	:
+
+B-Employment	95	102	rancher
+O	102	103	,
+
+O	159	163	Some
+B-Employment	164	168	work
+O	169	171	in
+O	172	184	construction
+O	185	188	but
+O	189	191	no
+O	192	197	known
+O	198	206	asbestos
+O	207	215	exposure
+
+O	216	218	No
+O	219	227	military
+O	228	235	service
+
+O	236	238	No
+O	239	250	significant
+O	251	257	travel
+O	258	265	history
+O	266	273	outside
+O	274	276	of
+O	277	278	[
+O	278	286	LOCATION
+O	286	287	]
+
+O	288	292	Dogs
+O	292	293	,
+O	294	298	cats
+O	298	299	,
+O	300	305	goats
+O	305	306	,
+O	307	313	horses
+O	313	314	.
+
+O	315	319	Used
+O	320	322	to
+O	323	327	have
+O	328	336	chickens
+O	337	340	but
+O	341	345	none
+O	346	355	currently

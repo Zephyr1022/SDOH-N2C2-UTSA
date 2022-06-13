@@ -1,0 +1,28 @@
+T1	LivingStatus 17 26	Residence
+T2	StatusTime 29 37	Homeless
+T3	TypeLiving 29 37	Homeless
+T4	LivingStatus 40 45	Lives
+T5	StatusTime 40 45	Lives
+T6	TypeLiving 46 54	in truck
+T7	Employment 90 100	Employment
+T8	StatusEmploy 103 113	Unemployed
+T12	Alcohol 144 155	Alcohol use
+T13	StatusTime 157 177	spirits, since Daily
+T14	Type 157 164	spirits
+T15	Frequency 172 177	Daily
+T19	LivingStatus 57 73	Living situation
+T20	StatusTime 76 81	Lives
+T21	TypeLiving 82 87	alone
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Employment:T7 Status:T8
+E5	Alcohol:T12 Type:T14 Status:T13 Frequency:T15
+E7	LivingStatus:T19 Status:T20 Type:T21
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 homeless
+A5	StatusEmployVal T8 unemployed
+A7	StatusTimeVal T13 current
+A9	StatusTimeVal T20 current
+A10	TypeLivingVal T21 alone

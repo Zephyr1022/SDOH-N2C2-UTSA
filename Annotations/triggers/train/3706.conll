@@ -1,0 +1,71 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	25	Homeless
+O	25	26	.
+
+B-LivingStatus	27	33	Living
+O	34	36	at
+O	37	38	a
+O	39	46	shelter
+O	47	56	currently
+O	56	57	.
+
+B-Employment	58	65	Working
+O	66	68	at
+O	69	70	a
+O	71	72	[
+O	72	80	LOCATION
+O	80	81	]
+O	81	82	.
+
+O	83	93	Originally
+O	94	98	from
+O	99	100	[
+O	100	108	LOCATION
+O	108	109	]
+
+O	111	118	Current
+O	119	120	1
+O	121	124	ppd
+B-Tobacco	125	131	smoker
+
+B-Alcohol	132	139	Alcohol
+O	139	140	:
+O	141	151	occasional
+
+B-Drug	152	157	Drugs
+O	157	158	:
+O	159	163	none
+
+B-LivingStatus	164	172	Homeless
+O	172	173	.
+
+B-LivingStatus	174	180	Living
+O	181	183	at
+O	184	185	a
+O	186	193	shelter
+O	194	203	currently
+O	203	204	.
+
+B-Employment	205	212	Working
+O	213	215	at
+O	216	217	a
+O	218	219	[
+O	219	227	LOCATION
+O	227	228	]
+O	228	229	.
+
+O	230	237	Current
+O	238	239	1
+O	240	243	ppd
+B-Tobacco	244	250	smoker
+
+B-Alcohol	251	258	Alcohol
+O	258	259	:
+O	260	270	occasional
+
+B-Drug	271	276	Drugs
+O	276	277	:
+O	278	282	none

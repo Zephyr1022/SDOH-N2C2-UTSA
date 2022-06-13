@@ -1,0 +1,5 @@
+T1	Employment 21 27	worked
+T2	StatusEmploy 21 27	worked
+T3	Type 31 39	a tailor
+E1	Employment:T1 Status:T2 Type:T3
+A1	StatusEmployVal T2 unemployed

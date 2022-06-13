@@ -1,0 +1,46 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	smoker
+O	28	29	,
+O	30	37	unclear
+O	38	44	amount
+O	45	52	Alcohol
+O	53	56	Use
+O	56	57	:
+O	58	65	unknown
+O	67	71	Drug
+O	72	75	Use
+O	75	76	:
+O	77	82	prior
+O	83	90	history
+O	91	93	of
+O	94	100	heroin
+O	101	104	use
+O	104	105	,
+O	106	109	now
+O	110	112	on
+O	113	122	methadone
+
+O	124	130	SOCIAL
+O	131	138	HISTORY
+O	138	139	:
+
+O	141	150	Residence
+O	150	151	:
+O	152	162	Unemployed
+O	163	166	for
+O	167	171	past
+O	172	174	20
+O	175	180	years
+O	180	181	.
+
+O	182	187	Lives
+O	188	192	with
+O	193	202	boyfriend
+O	203	205	at
+O	206	210	home
+O	210	211	.

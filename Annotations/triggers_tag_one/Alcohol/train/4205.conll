@@ -1,0 +1,16 @@
+O	0	3	Soc
+O	4	6	Hx
+O	6	7	:
+O	8	14	Denies
+O	15	22	current
+B-Alcohol	23	30	alcohol
+O	30	31	,
+O	32	39	smoking
+O	39	40	,
+O	41	46	drugs
+O	46	47	.
+
+O	48	57	Currently
+O	58	70	incarcerated
+O	71	72	a
+O	73	77	jail

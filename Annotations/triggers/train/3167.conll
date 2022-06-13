@@ -1,0 +1,27 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+O	17	23	Unable
+O	24	26	to
+O	27	33	obtain
+O	33	34	.
+
+B-LivingStatus	35	43	Homeless
+O	43	44	.
+
+B-Employment	46	52	Former
+I-Employment	53	65	construction
+I-Employment	66	72	worker
+O	72	73	.
+
+B-Drug	75	81	Former
+I-Drug	82	95	polysubstance
+I-Drug	96	99	use
+O	99	100	.
+
+O	102	108	Denies
+O	109	116	current
+B-Tobacco	117	124	smoking
+O	125	127	or
+B-Alcohol	128	135	alcohol
+O	135	136	.

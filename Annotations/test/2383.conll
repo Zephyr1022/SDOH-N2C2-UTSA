@@ -1,0 +1,64 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	21	25	none
+O	28	35	Alcohol
+O	36	39	Use
+O	39	40	:
+O	41	45	none
+O	48	52	Drug
+O	53	56	Use
+O	56	57	:
+O	58	62	none
+
+O	64	70	SOCIAL
+O	71	78	HISTORY
+O	78	79	:
+
+O	81	88	Patient
+O	89	95	living
+O	96	100	with
+O	101	104	Son
+O	105	107	in
+O	108	109	[
+O	109	117	LOCATION
+O	117	118	]
+O	118	119	,
+O	120	130	originally
+O	131	135	from
+O	136	137	[
+O	137	145	LOCATION
+O	145	146	]
+O	147	151	here
+O	152	155	for
+O	156	160	past
+O	161	163	20
+O	164	169	years
+O	169	170	.
+
+O	171	173	Is
+O	174	182	divorced
+O	182	183	,
+O	184	186	ex
+O	187	194	husband
+O	195	200	lives
+O	201	203	in
+O	204	205	[
+O	205	213	LOCATION
+O	213	214	]
+O	214	215	.
+
+O	216	221	Works
+O	222	224	in
+O	225	226	a
+O	227	234	daycare
+O	234	235	.
+
+O	236	239	Has
+O	240	243	Had
+O	244	245	3
+O	246	254	children
+O	254	255	.

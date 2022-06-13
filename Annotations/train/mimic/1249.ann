@@ -1,0 +1,27 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	Denies
+T3	Alcohol 31 42	Alcohol Use
+T4	StatusTime 44 50	drinks
+T5	Amount 51 76	one fifth of hard alcohol
+T6	Frequency 76 80	/day
+T7	Type 64 76	hard alcohol
+T8	Drug 83 91	Drug Use
+T9	StatusTime 93 99	Denies
+T10	LivingStatus 118 126	Homeless
+T11	StatusTime 118 126	Homeless
+T12	TypeLiving 118 126	Homeless
+T13	LivingStatus 127 132	Lives
+T14	StatusTime 127 132	Lives
+T15	TypeLiving 133 161	on the street or in shelters
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4 Amount:T5 Type:T7 Frequency:T6
+E3	Drug:T8 Status:T9
+E4	LivingStatus:T10 Status:T11 Type:T12
+E5	LivingStatus:T13 Status:T14 Type:T15
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 homeless
+A6	StatusTimeVal T14 current
+A7	TypeLivingVal T15 homeless

@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	denies
+T3	Alcohol 32 43	Alcohol Use
+T4	StatusTime 94 97	now
+T6	Drug 121 129	Drug Use
+T8	Type 142 151	marijuana
+T9	StatusTime 131 141	occasional
+T10	Drug 164 178	other drug use
+T11	StatusTime 153 159	denies
+T13	Method 186 190	IVDU
+T19	Employment 314 321	Retired
+T20	StatusEmploy 314 321	Retired
+T21	Type 351 370	worked on computers
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T6 Type:T8 Status:T9
+E4	Drug:T10 Status:T11 Method:T13
+E7	Employment:T19 Status:T20 Type:T21
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A5	StatusTimeVal T9 current
+A6	StatusTimeVal T11 none
+A9	StatusEmployVal T20 retired

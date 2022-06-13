@@ -1,0 +1,244 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Tobacco	16	23	Tobacco
+O	23	24	:
+O	25	26	3
+O	27	30	ppd
+O	30	31	.
+
+B-Alcohol	32	36	Etoh
+O	36	37	:
+O	38	43	sober
+O	44	45	x
+O	46	48	10
+O	49	54	years
+O	54	55	.
+
+O	56	63	However
+O	63	64	,
+B-Alcohol	65	70	drank
+O	71	79	recently
+O	79	80	.
+
+B-Drug	81	86	drugs
+O	86	87	:
+O	88	90	IV
+O	91	98	cocaine
+O	99	102	use
+O	103	108	daily
+O	108	109	,
+O	110	111	$
+O	111	113	50
+O	114	119	worth
+O	119	120	,
+O	121	125	last
+O	126	129	use
+O	130	132	on
+O	133	136	the
+O	137	140	day
+O	141	143	of
+
+O	144	153	admission
+O	153	154	.
+
+O	155	156	H
+O	156	157	/
+O	157	158	o
+B-Drug	159	165	heroin
+I-Drug	166	169	use
+O	169	170	,
+O	171	174	non
+O	175	184	currently
+O	184	185	,
+O	186	190	last
+O	191	194	use
+O	195	197	in
+O	198	199	[
+O	199	200	*
+O	200	201	*
+O	201	203	11
+O	203	204	-
+O	204	206	24
+O	206	207	*
+O	207	208	*
+O	208	209	]
+O	209	210	.
+
+O	211	212	H
+O	212	213	/
+O	213	214	O
+O	215	224	methadone
+O	225	236	maintenance
+O	237	238	x
+O	239	241	11
+O	242	247	years
+O	248	253	until
+O	254	255	[
+O	255	256	*
+O	256	257	*
+O	257	261	2191
+O	261	262	*
+O	262	263	*
+O	263	264	]
+O	264	265	.
+
+O	266	269	The
+O	270	277	patient
+
+O	278	287	completed
+O	288	291	the
+O	292	295	7th
+O	296	301	grade
+O	301	302	.
+
+O	303	305	He
+O	306	309	was
+O	310	315	never
+O	316	323	married
+O	323	324	.
+
+O	325	328	Has
+O	329	332	two
+O	333	341	children
+
+O	342	346	aged
+O	347	349	20
+O	350	353	and
+O	354	356	19
+O	356	357	.
+
+O	358	360	He
+O	361	363	is
+O	364	369	close
+O	370	374	with
+O	375	378	his
+O	379	382	son
+O	382	383	.
+
+O	384	385	[
+O	385	386	*
+O	386	387	*
+O	387	391	Name
+O	392	393	(
+O	393	395	NI
+O	395	396	)
+O	397	398	*
+O	398	399	*
+O	399	400	]
+O	401	410	describes
+O	411	414	his
+
+O	415	423	daughter
+O	424	426	as
+O	427	434	wasting
+O	435	438	her
+O	439	443	life
+O	444	447	out
+O	448	450	on
+O	451	454	the
+O	455	461	street
+O	461	462	.
+
+O	463	465	He
+O	466	470	says
+O	471	473	he
+O	474	477	has
+
+O	478	480	no
+O	481	488	contact
+O	489	493	with
+O	494	497	her
+O	497	498	.
+
+O	499	501	He
+O	502	504	is
+O	505	510	close
+O	511	515	with
+O	516	519	his
+O	520	526	mother
+O	526	527	,
+O	528	531	but
+O	532	535	has
+O	536	537	a
+
+O	538	545	tenuous
+O	546	558	relationship
+O	559	563	with
+O	564	567	her
+O	568	570	as
+O	571	575	they
+O	576	581	often
+O	582	587	fight
+O	587	588	.
+
+O	589	590	H
+O	590	591	/
+O	591	592	o
+O	593	601	multiple
+
+O	602	608	deaths
+O	609	611	in
+O	612	615	his
+O	616	622	family
+O	622	623	.
+
+O	624	631	Patient
+O	632	634	is
+B-Employment	635	637	on
+I-Employment	638	648	disability
+O	649	652	for
+O	653	664	agoraphobia
+O	664	665	.
+
+O	666	668	He
+B-LivingStatus	669	674	lives
+O	675	677	in
+O	678	680	an
+O	681	690	apartment
+O	691	695	with
+O	696	697	a
+O	698	706	roommate
+O	706	707	.
+
+O	708	710	He
+O	711	716	spent
+O	717	718	2
+O	719	725	months
+O	726	728	in
+
+B-LivingStatus	729	733	jail
+O	734	738	many
+O	739	744	years
+O	745	748	ago
+O	749	752	for
+O	753	763	possession
+O	763	764	.
+
+O	765	767	No
+O	768	773	other
+O	774	779	legal
+O	780	788	problems
+O	788	789	.
+
+O	790	791	[
+O	791	792	*
+O	792	793	*
+O	793	797	Name
+O	798	799	(
+O	799	801	NI
+O	801	802	)
+O	803	804	*
+O	804	805	*
+O	805	806	]
+
+O	807	808	h
+O	808	809	/
+O	809	810	o
+O	811	819	violence
+O	819	820	.
+
+O	821	824	HCV
+O	825	833	positive
+O	833	834	.

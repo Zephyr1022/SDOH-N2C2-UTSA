@@ -1,0 +1,52 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+B-Employment	17	24	Retired
+O	24	25	,
+B-LivingStatus	26	31	lives
+O	32	36	with
+O	37	40	his
+O	41	45	wife
+O	45	46	.
+
+O	48	51	Use
+O	52	54	to
+B-Employment	55	59	work
+
+O	60	62	in
+O	63	68	sales
+O	69	79	management
+O	79	80	.
+
+O	82	90	Positive
+O	91	93	35
+O	93	94	-
+O	94	98	pack
+O	98	99	-
+O	99	103	year
+O	104	111	history
+O	112	114	of
+
+B-Tobacco	115	122	tobacco
+O	122	123	.
+
+O	125	127	No
+B-Drug	128	130	IV
+I-Drug	131	135	drug
+I-Drug	136	139	use
+O	139	140	.
+
+O	142	145	Now
+B-Tobacco	146	152	smokes
+O	153	166	approximately
+O	167	170	one
+
+O	171	180	cigarette
+O	181	184	per
+O	185	188	day
+O	188	189	.
+
+O	191	197	Denies
+B-Alcohol	198	205	alcohol
+I-Alcohol	206	209	use
+O	209	210	.

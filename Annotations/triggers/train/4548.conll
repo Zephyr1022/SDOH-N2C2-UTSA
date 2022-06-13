@@ -1,0 +1,164 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	26	Previously
+O	27	32	lived
+O	33	35	in
+O	36	37	[
+O	37	38	*
+O	38	39	*
+O	39	48	Hospital1
+O	49	52	789
+O	52	53	*
+O	53	54	*
+O	54	55	]
+O	55	56	,
+O	57	59	RI
+O	59	60	,
+O	61	64	but
+O	65	68	now
+B-LivingStatus	69	75	living
+O	76	80	with
+O	81	84	his
+
+O	85	92	brother
+O	93	95	in
+O	96	97	[
+O	97	98	*
+O	98	99	*
+O	99	103	Name
+O	104	105	(
+O	105	107	NI
+O	107	108	)
+O	109	114	50909
+O	114	115	*
+O	115	116	*
+O	116	117	]
+O	117	118	,
+O	119	121	RI
+O	121	122	.
+
+O	123	132	Currently
+B-Employment	133	135	on
+I-Employment	136	140	SSDI
+O	140	141	,
+O	142	146	used
+O	147	149	to
+O	150	154	work
+O	155	157	at
+O	158	159	a
+
+O	160	167	medical
+O	168	174	supply
+O	175	182	company
+O	182	183	.
+
+O	184	190	Single
+O	190	191	,
+O	192	197	never
+O	198	205	married
+O	205	206	,
+O	207	209	no
+O	210	218	children
+O	218	219	.
+
+O	220	221	.
+
+O	222	224	Pt
+O	225	232	stopped
+B-Alcohol	233	237	EtOH
+O	238	241	one
+O	242	246	year
+O	247	250	ago
+O	250	251	,
+O	252	262	previously
+O	263	266	had
+O	267	271	been
+O	272	280	drinking
+O	281	283	1L
+
+O	284	289	vodka
+O	290	295	daily
+O	295	296	,
+O	297	300	and
+O	301	303	in
+O	304	307	the
+O	308	312	past
+O	313	314	a
+O	315	316	6
+O	316	317	-
+O	317	321	pack
+O	322	324	of
+B-Alcohol	325	329	beer
+O	330	335	daily
+O	335	336	.
+
+O	337	339	He
+O	340	343	has
+O	344	347	had
+
+B-Alcohol	348	355	regular
+I-Alcohol	356	363	alcohol
+O	364	369	since
+O	370	373	age
+O	374	376	16
+O	376	377	,
+O	378	381	has
+O	382	387	never
+O	388	397	undergone
+O	398	408	counseling
+O	408	409	,
+
+O	410	413	and
+O	414	417	has
+O	418	428	maintained
+O	429	439	abstinence
+O	440	442	on
+O	443	446	his
+O	447	450	own
+O	450	451	.
+
+O	452	453	.
+
+B-Tobacco	454	459	Prior
+I-Tobacco	460	466	smoker
+O	466	467	,
+O	468	469	1
+O	470	473	PPD
+O	474	479	since
+O	480	483	age
+O	484	486	16
+O	486	487	,
+O	488	495	stopped
+O	496	497	2
+O	498	504	months
+O	505	508	ago
+O	508	509	,
+O	510	513	now
+
+O	514	519	using
+O	520	523	the
+O	524	532	nicotine
+O	533	538	patch
+O	538	539	.
+
+O	540	542	No
+O	543	544	h
+O	544	545	/
+O	545	546	o
+B-Drug	547	551	IVDU
+I-Drug	552	554	or
+I-Drug	555	565	intranasal
+I-Drug	566	573	cocaine
+O	573	574	.
+
+O	575	582	History
+O	583	585	of
+B-Drug	586	595	marijuana
+O	596	598	in
+O	599	603	past
+O	603	604	,
+O	605	609	none
+O	610	619	currently
+O	619	620	.

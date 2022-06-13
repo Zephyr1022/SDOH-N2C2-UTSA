@@ -1,0 +1,5 @@
+T1	LivingStatus 16 21	Lives
+T4	Employment 74 76;77 87	On disability
+T7	Tobacco 201 208;209 216	smoking history
+T10	Alcohol 286 297	alcohol use
+T11	Drug 302 310	drug use

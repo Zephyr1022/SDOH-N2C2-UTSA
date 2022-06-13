@@ -1,0 +1,37 @@
+O	0	3	Soc
+O	4	6	Hx
+O	6	7	:
+O	8	9	[
+O	9	13	NAME
+O	13	14	]
+B-Alcohol	15	22	alcohol
+O	22	23	,
+B-Tobacco	24	31	smoking
+O	31	32	,
+B-Drug	33	38	drugs
+O	38	39	.
+
+B-LivingStatus	41	46	Lives
+O	47	49	in
+O	50	53	her
+O	54	57	van
+O	57	58	.
+
+O	59	62	Soc
+O	63	65	Hx
+O	65	66	:
+O	67	68	[
+O	68	76	LOCATION
+O	76	77	]
+B-Alcohol	78	85	alcohol
+O	85	86	,
+B-Tobacco	87	94	smoking
+O	94	95	,
+B-Drug	96	101	drugs
+O	101	102	.
+
+B-LivingStatus	103	108	Lives
+O	109	111	in
+O	112	115	her
+O	116	119	van
+O	119	120	.

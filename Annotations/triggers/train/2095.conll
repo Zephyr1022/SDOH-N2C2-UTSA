@@ -1,0 +1,83 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	He
+B-LivingStatus	19	24	lives
+O	25	29	with
+O	30	33	his
+O	34	42	daughter
+O	43	46	who
+O	47	51	will
+O	52	54	be
+O	55	63	planning
+O	64	66	on
+O	67	76	attending
+
+O	77	83	school
+O	84	88	here
+O	88	89	.
+
+B-Employment	90	97	Retired
+I-Employment	98	102	army
+I-Employment	103	110	officer
+O	111	115	from
+O	116	117	[
+O	117	118	*
+O	118	119	*
+O	119	126	Country
+O	127	128	*
+O	128	129	*
+O	129	130	]
+O	130	131	,
+O	132	135	has
+O	136	140	been
+O	141	143	in
+O	144	146	US
+O	147	150	for
+
+O	151	152	[
+O	152	153	*
+O	153	154	*
+O	154	156	12
+O	156	157	-
+O	157	159	20
+O	159	160	*
+O	160	161	*
+O	161	162	]
+O	163	166	yrs
+O	166	167	.
+
+O	168	169	-
+B-Tobacco	170	177	Tobacco
+O	177	178	:
+O	179	185	40pack
+O	185	186	-
+O	186	190	year
+O	191	198	history
+O	198	199	,
+O	200	209	continues
+B-Tobacco	210	217	smoking
+O	218	223	three
+
+O	224	234	cigarettes
+O	235	238	per
+O	239	242	day
+O	242	243	.
+
+O	244	245	-
+B-Alcohol	246	253	Alcohol
+O	253	254	:
+O	255	261	drinks
+O	262	263	1
+O	263	264	-
+O	264	265	2
+O	266	272	drinks
+O	273	280	nightly
+O	281	283	on
+O	284	292	weekends
+
+O	293	294	-
+B-Drug	295	303	Illicits
+O	303	304	:
+O	305	309	none

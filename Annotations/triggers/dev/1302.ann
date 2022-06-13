@@ -1,0 +1,6 @@
+T1	Tobacco 9 20	Tobacco Use
+T3	Alcohol 27 38	Alcohol Use
+T5	Drug 45 53	Drug Use
+T7	LivingStatus 122 131	Residence
+T10	LivingStatus 251 257	living
+T13	Employment 340 346	Worked

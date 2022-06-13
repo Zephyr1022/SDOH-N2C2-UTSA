@@ -1,0 +1,28 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	24	reports
+B-LivingStatus	25	31	living
+O	32	37	alone
+
+O	38	45	Reports
+O	46	47	+
+B-Tobacco	47	54	tobacco
+O	55	58	for
+O	59	61	20
+O	62	67	years
+O	67	68	,
+O	69	70	3
+O	70	71	/
+O	71	72	4
+O	73	77	pack
+O	78	81	per
+O	82	85	day
+
+O	86	92	denies
+O	93	100	regular
+B-Alcohol	101	105	etoh
+O	105	106	,
+O	107	113	denies
+B-Drug	114	122	illicits

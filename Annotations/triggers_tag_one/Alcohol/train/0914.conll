@@ -1,0 +1,25 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Sparing
+O	24	31	tobacco
+O	32	35	use
+O	35	36	,
+O	37	44	stopped
+O	45	47	38
+O	48	53	years
+O	54	59	prior
+O	59	60	.
+
+O	61	67	Denies
+B-Alcohol	68	72	ETOH
+O	72	73	.
+
+O	74	80	Denies
+
+O	81	88	current
+O	89	92	use
+O	93	95	of
+O	96	104	illicits
+O	104	105	.

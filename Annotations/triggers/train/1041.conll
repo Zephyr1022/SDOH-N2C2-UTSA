@@ -1,0 +1,53 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	23	Retired
+O	23	24	,
+O	25	29	used
+O	30	32	to
+O	33	37	work
+O	38	41	for
+O	42	43	a
+O	44	52	chemical
+O	53	60	company
+O	60	61	.
+
+O	62	69	History
+O	70	72	of
+
+O	73	81	asbestos
+O	82	85	and
+O	86	91	other
+O	92	100	chemical
+O	101	109	exposure
+O	109	110	.
+
+O	111	113	He
+O	114	117	has
+O	118	119	a
+O	120	127	history
+O	128	130	of
+
+B-Alcohol	131	142	significant
+I-Alcohol	143	150	alcohol
+I-Alcohol	151	154	use
+O	154	155	,
+O	156	161	which
+O	162	164	he
+O	165	172	stopped
+O	173	186	approximately
+O	187	192	seven
+
+O	193	198	years
+O	199	202	ago
+O	202	203	.
+
+O	204	206	60
+O	207	211	pack
+O	212	216	year
+O	217	224	history
+O	225	227	of
+B-Tobacco	228	235	tobacco
+I-Tobacco	236	239	use
+O	239	240	.

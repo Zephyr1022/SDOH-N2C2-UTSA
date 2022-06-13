@@ -1,0 +1,105 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	Pt
+O	19	23	born
+O	24	27	and
+O	28	34	raised
+O	35	37	in
+O	38	39	[
+O	39	40	*
+O	40	41	*
+O	41	46	State
+O	47	50	350
+O	50	51	*
+O	51	52	*
+O	52	53	]
+O	53	54	.
+
+O	55	58	She
+O	59	68	describes
+O	69	78	childhood
+O	79	81	as
+
+O	82	86	good
+O	86	87	.
+
+O	88	91	She
+O	92	100	attended
+O	101	107	school
+O	108	113	until
+O	114	117	the
+O	118	122	10th
+O	123	128	grade
+O	129	132	and
+B-Employment	133	139	worked
+O	140	142	as
+O	143	144	a
+
+O	145	146	[
+O	146	147	*
+O	147	148	*
+O	148	152	Last
+O	153	157	Name
+O	158	159	(
+O	159	161	un
+O	161	162	)
+O	163	168	19441
+O	168	169	*
+O	169	170	*
+O	170	171	]
+O	172	177	after
+O	178	182	that
+O	182	183	.
+
+O	184	187	She
+O	188	193	never
+O	194	201	married
+O	202	205	and
+O	206	209	has
+O	210	212	no
+O	213	221	children
+O	221	222	.
+
+O	223	226	She
+
+O	227	229	is
+B-LivingStatus	230	239	currently
+I-LivingStatus	240	246	living
+O	247	249	in
+O	250	251	a
+O	252	257	house
+O	258	262	with
+O	263	266	her
+O	267	273	sister
+O	274	275	(
+O	275	278	who
+O	279	281	is
+O	282	286	also
+
+O	287	295	demented
+O	296	299	per
+O	300	302	Dr
+O	302	303	.
+O	304	305	[
+O	305	306	*
+O	306	307	*
+O	307	311	Last
+O	312	316	Name
+O	317	318	(
+O	318	324	STitle
+O	324	325	)
+O	326	331	48416
+O	331	332	*
+O	332	333	*
+O	333	334	]
+O	335	338	and
+O	339	342	her
+O	343	349	nephew
+O	349	350	.
+
+O	351	354	She
+B-Employment	355	363	collects
+I-Employment	364	367	SSI
+O	367	368	.

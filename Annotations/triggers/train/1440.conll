@@ -1,0 +1,62 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	19	He
+B-LivingStatus	20	25	lives
+O	26	31	alone
+O	31	32	,
+O	33	36	has
+O	37	38	a
+O	39	42	dog
+O	43	46	and
+O	47	50	cat
+O	51	53	at
+O	54	58	home
+O	58	59	.
+
+O	61	65	Quit
+B-Tobacco	66	73	smoking
+O	74	76	in
+O	77	81	2010
+O	81	82	.
+
+B-Alcohol	85	91	Drinks
+I-Alcohol	92	98	rarely
+O	98	99	.
+
+O	101	103	No
+B-Drug	104	109	drugs
+O	109	110	.
+
+O	112	115	Has
+O	116	117	a
+O	118	125	brother
+O	126	127	[
+O	127	131	NAME
+O	131	132	]
+O	133	135	in
+O	136	139	the
+O	140	144	area
+O	145	149	that
+O	150	155	helps
+O	156	159	him
+O	160	163	out
+O	164	166	as
+O	167	171	well
+O	172	174	as
+O	175	184	neighbors
+O	184	185	.
+
+B-Employment	187	193	Worked
+O	194	196	as
+O	197	198	a
+O	199	205	driver
+O	205	206	,
+B-Employment	207	209	on
+I-Employment	210	220	disability
+O	221	226	since
+O	227	228	[
+O	228	232	DATE
+O	232	233	]
+O	233	234	.

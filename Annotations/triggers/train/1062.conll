@@ -1,0 +1,121 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	at
+O	25	29	home
+O	30	35	alone
+O	35	36	.
+
+B-Tobacco	37	43	Smokes
+O	44	45	4
+O	46	56	cigarettes
+O	56	57	/
+O	57	60	day
+O	61	66	after
+O	67	76	breakfast
+O	76	77	.
+
+O	78	80	50
+
+O	82	86	pack
+O	86	87	/
+O	87	89	yr
+B-Tobacco	90	97	smoking
+I-Tobacco	98	100	hx
+O	100	101	.
+
+O	102	104	No
+B-Alcohol	105	112	alcohol
+O	113	115	or
+B-Drug	116	121	drugs
+O	121	122	.
+
+O	123	127	Born
+O	128	131	and
+O	132	138	raised
+O	139	141	in
+O	142	145	New
+
+O	147	148	[
+O	148	149	*
+O	149	150	*
+O	150	158	Location
+O	159	160	(
+O	160	162	un
+O	162	163	)
+O	164	165	*
+O	165	166	*
+O	166	167	]
+O	168	172	City
+O	172	173	,
+O	174	181	studied
+O	182	191	economics
+O	192	194	at
+O	195	198	NYU
+O	198	199	,
+O	200	208	received
+O	209	210	a
+O	211	215	grad
+O	216	222	degree
+O	223	225	in
+
+O	226	235	economics
+O	235	236	,
+O	237	243	worked
+O	244	245	[
+O	245	246	*
+O	246	247	*
+O	247	253	Street
+O	254	261	Address
+O	261	262	(
+O	262	263	1
+O	263	264	)
+O	265	270	95920
+O	270	271	*
+O	271	272	*
+O	272	273	]
+O	274	277	and
+O	278	283	moved
+O	284	286	to
+O	287	288	[
+O	288	289	*
+O	289	290	*
+O	290	298	Location
+O	299	300	(
+O	300	302	un
+O	302	303	)
+O	304	306	86
+O	306	307	*
+O	307	308	*
+O	308	309	]
+O	309	310	.
+
+O	311	314	Has
+O	315	318	two
+
+O	319	323	sons
+O	324	327	but
+B-LivingStatus	328	333	lives
+O	334	339	alone
+O	339	340	.
+
+O	341	343	He
+O	344	346	is
+O	347	352	close
+O	353	357	with
+O	358	361	his
+O	362	368	family
+O	368	369	.
+
+O	370	373	Has
+O	374	378	been
+
+O	379	387	divorced
+O	388	391	for
+O	392	393	a
+O	394	400	number
+O	401	403	of
+O	404	409	years
+O	409	410	.

@@ -1,0 +1,27 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	She
+B-LivingStatus	21	26	lives
+O	27	31	with
+O	32	35	her
+O	36	43	husband
+O	44	47	and
+O	48	53	three
+
+O	54	62	children
+O	62	63	.
+
+O	65	68	She
+O	69	71	is
+B-Employment	72	73	a
+I-Employment	74	83	housewife
+O	83	84	.
+
+O	86	88	No
+B-Tobacco	89	96	smoking
+O	96	97	.
+
+B-Alcohol	99	105	Social
+I-Alcohol	106	113	alcohol
+O	113	114	.

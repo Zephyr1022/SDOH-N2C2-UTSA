@@ -1,0 +1,51 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	trying
+O	23	25	to
+O	26	31	quite
+B-Tobacco	32	39	smoking
+O	39	40	,
+O	41	44	did
+O	45	48	not
+O	49	52	get
+O	53	57	pack
+O	58	62	year
+
+O	63	70	history
+O	70	71	,
+O	72	74	no
+B-Alcohol	75	79	etoh
+O	80	82	or
+B-Drug	83	88	other
+I-Drug	89	93	drug
+I-Drug	94	97	use
+O	98	106	endorsed
+O	106	107	.
+
+O	108	114	Social
+O	115	122	History
+O	122	123	:
+
+O	124	130	trying
+O	131	133	to
+O	134	139	quite
+B-Tobacco	140	147	smoking
+O	147	148	,
+O	149	152	did
+O	153	156	not
+O	157	160	get
+O	161	165	pack
+O	166	170	year
+
+O	171	178	history
+O	178	179	,
+O	180	182	no
+B-Alcohol	183	187	etoh
+O	188	190	or
+B-Drug	191	196	other
+I-Drug	197	201	drug
+I-Drug	202	205	use
+O	206	214	endorsed
+O	214	215	.

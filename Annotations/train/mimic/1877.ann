@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	lives
+T2	TypeLiving 22 34	with her son
+T3	StatusTime 16 21	lives
+T4	Tobacco 93 99	Smoker
+T5	StatusTime 93 99	Smoker
+T6	Alcohol 108 112	EtOH
+T7	StatusTime 101 107	Denies
+T8	Drug 116 124	illicits
+T9	Type 116 124	illicits
+T10	Employment 133 145	candystriper
+T11	StatusEmploy 126 132	Former
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Type:T9 Status:T7
+E5	Employment:T10 Status:T11
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T7 none
+A5	StatusEmployVal T11 unemployed

@@ -1,0 +1,22 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	16	19	SNF
+I-LivingStatus	20	28	resident
+
+B-Tobacco	29	35	Smokes
+O	36	37	1
+O	37	38	/
+O	38	39	4
+O	40	43	ppd
+
+O	44	50	Denies
+B-Drug	51	55	drug
+O	55	56	/
+B-Alcohol	56	60	EtOH
+I-Alcohol	61	64	use
+O	65	67	in
+O	68	72	last
+O	73	76	few
+O	77	83	months

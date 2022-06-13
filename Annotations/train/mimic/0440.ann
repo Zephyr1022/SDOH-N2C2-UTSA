@@ -1,0 +1,27 @@
+T1	Tobacco 289 305	Currently smokes
+T2	StatusTime 289 305	Currently smokes
+T3	Amount 306 315	> 1.5 ppd
+T4	Alcohol 328 332	EtOH
+T5	StatusTime 317 322	sober
+T6	History 333 343	> 16 years
+T7	Drug 352 361	marijuana
+T8	Type 352 361	marijuana
+T9	StatusTime 345 351	smokes
+T10	Method 345 351	smokes
+T11	Drug 380 385;386 394	other illicits
+T12	Type 380 385;386 394	other illicits
+T13	StatusTime 373 379	Denies
+T14	LivingStatus 227 232	lives
+T15	StatusTime 208 217	Currently
+T16	TypeLiving 219 241	her son lives with her
+E1	Tobacco:T1 Status:T2 Amount:T3
+E2	Alcohol:T4 Status:T5 History:T6
+E3	Drug:T7 Type:T8 Method:T10 Status:T9
+E4	Drug:T11 Type:T12 Status:T13
+E5	LivingStatus:T14 Type:T16 Status:T15
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T13 none
+A5	StatusTimeVal T15 current
+A6	TypeLivingVal T16 with_family

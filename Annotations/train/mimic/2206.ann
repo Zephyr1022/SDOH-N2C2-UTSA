@@ -1,0 +1,24 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	none
+T3	Alcohol 29 40	Alcohol Use
+T4	StatusTime 42 46	none
+T5	Drug 49 57	Drug Use
+T6	StatusTime 59 95	new marijuana product once last week
+T7	Type 63 80	marijuana product
+T8	Frequency 81 95	once last week
+T9	LivingStatus 114 119	Lives
+T10	StatusTime 114 119	Lives
+T11	TypeLiving 120 132	with husband
+T12	Employment 210 217	working
+T13	StatusEmploy 200 217	No longer working
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6 Type:T7 Frequency:T8
+E4	LivingStatus:T9 Status:T10 Type:T11
+E5	Employment:T12 Status:T13
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T10 current
+A5	TypeLivingVal T11 with_family
+A6	StatusEmployVal T13 unemployed

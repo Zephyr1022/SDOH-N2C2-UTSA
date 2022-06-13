@@ -1,0 +1,46 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	23	Retired
+I-Employment	24	33	financial
+I-Employment	34	42	services
+
+O	43	52	Currently
+O	53	54	2
+B-Tobacco	55	66	ciagarettes
+O	67	68	/
+O	69	72	day
+O	72	73	.
+
+B-Tobacco	75	81	Smoker
+O	82	83	X
+O	84	86	35
+O	87	92	years
+
+O	93	94	+
+B-Alcohol	95	99	ETOH
+O	99	100	,
+O	101	102	[
+O	102	103	*
+O	103	104	*
+O	104	106	12
+O	106	107	-
+O	107	109	19
+O	109	110	*
+O	110	111	*
+O	111	112	]
+O	113	120	glasses
+O	121	123	of
+O	124	128	wine
+O	129	130	/
+O	131	136	night
+
+O	137	139	no
+B-Drug	140	144	IVDA
+
+O	145	152	Married
+O	153	156	and
+B-LivingStatus	157	162	lives
+O	163	167	with
+O	168	172	wife

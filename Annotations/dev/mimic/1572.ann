@@ -1,0 +1,5 @@
+T1	Drug 17 21	IVDU
+T2	Method 17 21	IVDU
+T3	StatusTime 23 41	denies current use
+E1	Drug:T1 Status:T3 Method:T2
+A1	StatusTimeVal T3 none

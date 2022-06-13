@@ -1,0 +1,66 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	22	Former
+I-Employment	23	33	bricklayer
+I-Employment	34	37	and
+I-Employment	38	46	building
+I-Employment	47	56	inspector
+O	56	57	.
+
+O	58	60	He
+B-LivingStatus	61	66	lives
+O	67	71	with
+O	72	75	his
+
+O	76	80	wife
+O	80	81	.
+
+O	82	83	[
+O	83	84	*
+O	84	85	*
+O	85	89	Name
+O	90	91	(
+O	91	93	NI
+O	93	94	)
+O	95	96	*
+O	96	97	*
+O	97	98	]
+B-Tobacco	99	105	smoked
+O	106	107	[
+O	107	108	*
+O	108	109	*
+O	109	111	12
+O	111	112	-
+O	112	113	3
+O	113	114	*
+O	114	115	*
+O	115	116	]
+O	117	120	PPD
+O	121	122	x
+O	123	125	25
+O	126	131	years
+O	132	135	but
+O	136	139	has
+O	140	143	not
+O	144	150	smoked
+O	151	156	since
+O	157	160	his
+
+O	161	170	admission
+O	171	172	[
+O	172	173	*
+O	173	174	*
+O	174	175	5
+O	175	176	-
+O	176	178	14
+O	178	179	*
+O	179	180	*
+O	180	181	]
+O	181	182	.
+
+O	183	190	Minimal
+B-Alcohol	191	195	EtOH
+I-Alcohol	196	199	use
+O	199	200	.

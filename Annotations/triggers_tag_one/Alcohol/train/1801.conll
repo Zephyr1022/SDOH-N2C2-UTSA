@@ -1,0 +1,103 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	24	in
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	36	Location
+O	37	40	686
+O	40	41	*
+O	41	42	*
+O	42	43	]
+O	43	44	.
+
+O	46	52	Worked
+O	53	55	as
+O	56	57	a
+O	58	65	printer
+O	66	70	many
+O	71	76	years
+O	77	80	ago
+O	80	81	.
+
+O	83	86	Not
+
+O	87	94	married
+O	95	98	and
+O	99	103	does
+O	104	107	not
+O	108	112	have
+O	113	116	any
+O	117	125	children
+O	125	126	.
+
+O	129	131	No
+O	132	138	family
+O	139	141	in
+O	142	145	the
+O	146	150	area
+O	150	151	.
+
+O	153	157	Uses
+O	158	159	a
+O	160	166	walker
+O	167	169	or
+O	170	180	wheelchair
+O	181	183	at
+O	184	192	baseline
+O	192	193	.
+
+O	195	202	Patient
+O	203	205	is
+O	206	211	quite
+
+O	212	223	independent
+O	223	224	,
+O	225	228	and
+O	229	232	she
+O	233	240	manages
+O	241	244	her
+O	245	253	finances
+O	253	254	,
+O	255	260	cooks
+O	260	261	,
+O	262	265	and
+O	266	272	cleans
+
+O	273	280	herself
+O	280	281	.
+
+O	283	286	She
+O	287	289	is
+O	290	301	accompanied
+O	302	304	to
+O	305	308	the
+O	309	320	supermarket
+O	320	321	.
+
+O	323	330	Patient
+O	331	335	quit
+
+O	336	343	smoking
+O	344	345	>
+O	345	347	25
+O	348	353	years
+O	354	357	ago
+O	357	358	.
+
+B-Alcohol	360	366	Drinks
+O	367	370	one
+O	371	378	whiskey
+O	379	380	a
+O	381	385	week
+O	385	386	.
+
+O	388	390	No
+O	391	398	illicit
+
+O	399	403	drug
+O	404	407	use
+O	407	408	.

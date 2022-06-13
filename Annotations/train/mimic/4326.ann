@@ -1,0 +1,19 @@
+T1	LivingStatus 17 23	reside
+T2	TypeLiving 50 62	with husband
+T3	StatusTime 17 23	reside
+T4	Tobacco 66 73	tobacco
+T5	Alcohol 75 79	EtOH
+T6	Drug 84 92	illicits
+T7	Type 84 92	illicits
+T8	StatusTime 63 65	no
+T9	Employment 93 102	homemaker
+T10	StatusEmploy 93 102	homemaker
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T8
+E3	Alcohol:T5 Status:T8
+E4	Drug:T6 Type:T7 Status:T8
+E5	Employment:T9 Status:T10
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T8 none
+A4	StatusEmployVal T10 homemaker

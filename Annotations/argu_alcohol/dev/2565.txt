@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: Cigarette smoker, quit date [DATE], 40 pack year history Alcohol Use: No Drug Use: No 
+
+SOCIAL HISTORY: 
+Residence: The patient is housed

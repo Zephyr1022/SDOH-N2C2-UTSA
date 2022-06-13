@@ -1,0 +1,25 @@
+T3	LivingStatus 52 67	Currently lives
+T4	StatusTime 52 61	Currently
+T5	TypeLiving 71 80;81 91	a nursing home/rehab
+T6	Drug 178 196	cocaine and MJ use
+T7	Type 178 192	cocaine and MJ
+T8	StatusTime 171 177	Former
+T9	Tobacco 205 216	tobacco use
+T10	StatusTime 198 204	Denies
+T11	Alcohol 223 227	ETOH
+T12	History 228 237	last year
+T13	StatusTime 218 222	Quit
+T14	Employment 239 265	Former high school teacher
+T15	Type 239 265	Former high school teacher
+T16	StatusEmploy 239 265	Former high school teacher
+E2	LivingStatus:T3 Status:T4 Type:T5
+E3	Drug:T6 Type:T7 Status:T8
+E4	Tobacco:T9 Status:T10
+E5	Alcohol:T11 Status:T13 History:T12
+E6	Employment:T14 Type:T15 Status:T16
+A1	StatusTimeVal T4 current
+A2	TypeLivingVal T5 with_others
+A3	StatusTimeVal T8 past
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T13 past
+A6	StatusEmployVal T16 unemployed

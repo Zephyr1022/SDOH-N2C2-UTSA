@@ -1,0 +1,25 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	22	Former
+I-Employment	23	28	boxer
+O	28	29	,
+B-Employment	30	36	former
+I-Employment	37	42	truck
+I-Employment	43	49	driver
+
+B-Tobacco	50	57	Tobacco
+O	58	59	1
+O	60	61	1
+O	61	62	/
+O	62	63	2
+O	64	69	packs
+O	70	73	per
+O	74	79	every
+O	80	83	two
+O	84	88	days
+O	89	92	for
+O	93	94	>
+O	95	97	20
+O	98	103	years

@@ -1,0 +1,35 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	26	Quit
+O	27	29	in
+O	30	33	mid
+O	34	36	90
+O	36	37	'
+O	37	38	s
+O	40	47	Alcohol
+O	48	51	Use
+O	51	52	:
+O	53	63	Occasional
+O	63	64	,
+O	65	71	social
+O	73	77	Drug
+O	78	81	Use
+O	81	82	:
+O	83	87	None
+
+O	89	95	SOCIAL
+O	96	103	HISTORY
+O	103	104	:
+
+O	106	115	Residence
+O	115	116	:
+O	117	122	Lives
+O	123	125	in
+O	126	127	[
+O	127	135	LOCATION
+O	135	136	]
+O	136	137	.

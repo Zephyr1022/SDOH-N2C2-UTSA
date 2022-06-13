@@ -1,0 +1,18 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	former
+T3	Alcohol 31 42	Alcohol Use
+T4	StatusTime 44 50	former
+T5	Drug 53 61	Drug Use
+T6	StatusTime 63 67	none
+T7	LivingStatus 86 91	Lives
+T8	TypeLiving 92 101	with wife
+T9	StatusTime 86 91	Lives
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Status:T9 Type:T8
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T6 none
+A4	TypeLivingVal T8 with_family
+A5	StatusTimeVal T9 current

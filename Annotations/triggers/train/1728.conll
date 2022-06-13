@@ -1,0 +1,125 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	in
+O	25	28	the
+O	29	30	[
+O	30	31	*
+O	31	32	*
+O	32	40	Location
+O	41	42	(
+O	42	44	un
+O	44	45	)
+O	46	47	*
+O	47	48	*
+O	48	49	]
+O	50	54	with
+O	55	58	his
+O	59	62	son
+O	63	66	who
+O	67	69	is
+O	70	73	age
+O	74	76	17
+O	77	80	and
+O	81	83	is
+O	84	88	very
+
+O	89	99	supportive
+O	99	100	.
+
+B-Employment	102	112	Unemployed
+O	112	113	,
+O	114	116	he
+O	117	120	did
+O	121	125	work
+O	126	128	as
+O	129	130	a
+O	131	136	scale
+O	137	146	attendant
+O	147	149	at
+O	150	153	the
+
+O	154	160	refuge
+O	161	171	department
+O	172	174	on
+O	175	178	the
+O	179	180	[
+O	180	181	*
+O	181	182	*
+O	182	190	Location
+O	191	192	(
+O	192	194	un
+O	194	195	)
+O	196	197	*
+O	197	198	*
+O	198	199	]
+O	199	200	.
+
+O	201	203	He
+O	204	211	started
+O	212	220	drinking
+B-Alcohol	221	228	alcohol
+
+O	229	231	at
+O	232	245	approximately
+O	246	249	age
+O	250	252	13
+O	252	253	.
+
+B-Alcohol	254	260	Drinks
+O	261	263	up
+O	264	266	to
+O	267	272	quart
+O	273	275	of
+O	276	286	peppermint
+
+O	287	295	schnapps
+O	296	301	daily
+O	301	302	.
+
+O	303	305	He
+O	306	312	smokes
+B-Drug	313	322	marijuana
+O	323	335	occasionally
+O	335	336	.
+
+O	337	339	He
+O	340	346	denies
+O	347	350	any
+
+O	351	358	history
+O	359	361	of
+B-Drug	362	364	IV
+I-Drug	365	369	drug
+I-Drug	370	373	use
+O	374	377	but
+O	378	381	did
+O	382	385	use
+B-Drug	386	391	nasal
+I-Drug	392	399	cocaine
+O	399	400	.
+
+O	402	404	He
+B-Tobacco	405	411	smokes
+O	412	413	1
+
+O	414	415	[
+O	415	416	*
+O	416	417	*
+O	417	419	12
+O	419	420	-
+O	420	421	4
+O	421	422	*
+O	422	423	*
+O	423	424	]
+O	425	426	-
+O	427	428	2
+O	429	432	PPD
+O	433	436	for
+O	437	440	the
+O	441	445	past
+O	446	448	20
+O	449	454	years
+O	454	455	.

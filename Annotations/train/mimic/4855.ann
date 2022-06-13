@@ -1,0 +1,39 @@
+T1	LivingStatus 31 47	currently living
+T2	StatusTime 31 47	currently living
+T3	TypeLiving 61 76;77 85	on his mother's property
+T4	Tobacco 241 258	currently smoking
+T5	Amount 259 266	2 packs
+T6	Frequency 267 275	per week
+T7	StatusTime 241 258	currently smoking
+T8	Tobacco 293 308	tobacco history
+T9	Amount 312 324	1 to 2 packs
+T10	Frequency 325 332	per day
+T11	Duration 333 337;338 343	x 30 years
+T12	StatusTime 293 308	tobacco history
+T13	Alcohol 346 357	Alcohol use
+T14	StatusTime 346 357	Alcohol use
+T15	Drug 379 400;401 409	IV, illicit or herbal drug use
+T16	Type 383 390	illicit
+T17	StatusTime 368 378	No current
+T18	Employment 456 458;459 469	on disability
+T19	StatusEmploy 456 458;459 469	on disability
+T20	Drug 575 579	drug
+T21	Alcohol 584 596	alchohol use
+T22	StatusTime 565 574	increased
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T5 Status:T7 Frequency:T6
+E3	Tobacco:T8 Status:T12 Amount:T9 Frequency:T10 Duration:T11
+E4	Alcohol:T13 Status:T14
+E5	Drug:T15 Type:T16 Status:T17 Method:T23
+E6	Employment:T18 Status:T19
+E7	Drug:T20 Status:T22
+E8	Alcohol:T21 Status:T22
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T12 past
+A5	StatusTimeVal T14 current
+A6	StatusTimeVal T17 past
+A7	StatusEmployVal T19 on_disability
+A8	StatusTimeVal T22 current
+T23	Method 379 381	IV

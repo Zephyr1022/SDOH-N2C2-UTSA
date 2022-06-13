@@ -1,0 +1,42 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	stopped
+O	17	24	smoking
+O	25	29	1969
+O	29	30	.
+B-Alcohol	31	37	drinks
+O	38	41	rum
+O	42	45	and
+O	46	52	eggnog
+O	53	55	at
+O	56	57	[
+O	57	61	DATE
+O	61	62	]
+O	63	66	but
+O	67	70	not
+O	71	80	otherwise
+
+O	82	88	SOCIAL
+O	89	96	HISTORY
+O	96	97	:
+
+O	99	106	retired
+O	107	108	[
+O	108	116	LOCATION
+O	116	117	]
+O	118	124	worker
+O	124	125	,
+O	126	132	worked
+O	133	138	night
+O	139	144	shift
+O	144	145	.
+
+O	146	151	Lives
+O	152	154	in
+O	155	158	SNF
+O	159	167	recently
+O	167	168	,
+O	169	174	close
+O	175	181	family
+O	181	182	.

@@ -1,0 +1,13 @@
+T1	Amount 17 24	$40-$50
+T2	Drug 25 31	heroin
+T3	Type 25 31	heroin
+T4	Frequency 31 33	/d
+T5	StatusTime 17 33	$40-$50 heroin/d
+T6	LivingStatus 34 39	lives
+T7	StatusTime 34 39	lives
+T8	TypeLiving 40 50	in his car
+E1	Drug:T2 Type:T3 Amount:T1 Frequency:T4 Status:T5
+E2	LivingStatus:T6 Status:T7 Type:T8
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T7 current
+A3	TypeLivingVal T8 homeless

@@ -1,0 +1,31 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 23	y
+T3	Alcohol 26 37	Alcohol Use
+T4	StatusTime 39 40	n
+T5	Drug 43 51	Drug Use
+T6	StatusTime 53 54	y
+T7	Tobacco 55 62	Tobacco
+T8	Amount 64 76	1/2 to 1 ppd
+T9	Duration 77 83	x28yrs
+T10	StatusTime 64 83	1/2 to 1 ppd x28yrs
+T11	Drug 84 94	Heroin use
+T12	Type 84 94	Heroin use
+T13	Frequency 95 100	daily
+T14	Duration 101 106	x9yrs
+T15	StatusTime 95 106	daily x9yrs
+T16	LivingStatus 191 200	Residence
+T17	TypeLiving 222 232	- Homeless
+T18	StatusTime 222 232	- Homeless
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	Tobacco:T7 Amount:T8 Duration:T9 Status:T10
+E5	Drug:T11 Type:T12 Frequency:T13 Duration:T14 Status:T15
+E6	LivingStatus:T16 Status:T18 Type:T17
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T15 current
+A6	TypeLivingVal T17 homeless
+A7	StatusTimeVal T18 current

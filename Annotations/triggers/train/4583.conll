@@ -1,0 +1,52 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	22	Former
+I-Employment	23	29	police
+I-Employment	30	37	officer
+O	37	38	,
+O	39	46	injured
+O	47	49	on
+O	50	53	the
+O	54	59	field
+O	60	64	from
+O	65	69	stab
+O	70	75	wound
+O	75	76	.
+
+O	77	84	Married
+O	84	85	,
+B-Employment	86	91	works
+O	92	94	as
+O	95	96	a
+O	97	107	contractor
+O	107	108	,
+O	109	115	denies
+O	116	119	any
+B-Tobacco	120	127	current
+I-Tobacco	128	137	cigarrete
+I-Tobacco	138	141	use
+
+O	142	145	but
+O	146	153	reports
+O	154	156	30
+O	157	161	pack
+O	162	166	year
+O	167	174	history
+O	174	175	.
+
+O	176	184	Sexually
+O	185	191	active
+O	192	196	with
+O	197	200	his
+O	201	205	wife
+O	205	206	,
+
+O	207	209	no
+B-Alcohol	210	217	alcohol
+I-Alcohol	218	221	use
+O	222	224	or
+B-Drug	225	232	illicit
+I-Drug	233	237	drug
+I-Drug	238	241	use

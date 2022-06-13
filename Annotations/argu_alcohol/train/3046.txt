@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: _Never   Alcohol Use:  Occasional_   Drug Use: _No
+
+SOCIAL HISTORY: 
+With parents in [LOCATION]. An MSW grad student hoping to transfer to [LOCATION] this coming quarter.

@@ -1,0 +1,38 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	23	Living
+O	24	33	situation
+O	33	34	:
+
+O	36	47	Comfortably
+O	48	54	housed
+O	54	55	,
+O	56	61	lives
+O	62	64	in
+O	65	66	[
+O	66	74	LOCATION
+O	74	75	]
+O	75	76	.
+
+O	77	78	[
+O	78	86	LOCATION
+O	86	87	]
+B-Employment	88	95	student
+
+O	97	106	Substance
+O	107	110	use
+O	110	111	:
+
+O	112	118	Denies
+B-Tobacco	119	126	smoking
+O	126	127	,
+B-Alcohol	128	136	drinking
+O	136	137	,
+O	138	140	or
+O	141	153	recreational
+B-Drug	154	158	drug
+I-Drug	159	162	use
+O	163	172	currently
+O	172	173	.

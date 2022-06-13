@@ -1,0 +1,51 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+B-LivingStatus	17	22	Lives
+O	23	25	in
+O	26	27	[
+O	27	28	*
+O	28	29	*
+O	29	37	Location
+O	38	42	5110
+O	42	43	*
+O	43	44	*
+O	44	45	]
+O	46	48	in
+O	49	50	a
+O	51	58	nursing
+O	59	63	home
+O	63	64	.
+
+O	66	69	She
+
+O	70	73	has
+O	74	78	been
+O	79	84	there
+O	85	88	for
+O	89	102	approximately
+O	103	104	2
+O	105	110	years
+O	110	111	.
+
+O	113	116	She
+O	117	123	denies
+B-Tobacco	124	131	tobacco
+
+B-Tobacco	132	135	use
+O	135	136	.
+
+O	138	144	Denies
+B-Alcohol	145	152	alcohol
+I-Alcohol	153	156	use
+O	156	157	.
+
+O	159	166	Parents
+O	167	170	and
+O	171	179	siblings
+O	180	184	have
+O	185	188	all
+
+O	189	195	passed
+O	196	200	away
+O	200	201	.

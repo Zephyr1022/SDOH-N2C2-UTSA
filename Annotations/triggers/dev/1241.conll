@@ -1,0 +1,47 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	26	none
+B-Alcohol	29	36	Alcohol
+I-Alcohol	37	40	Use
+O	40	41	:
+O	42	46	none
+B-Drug	48	52	Drug
+I-Drug	53	56	Use
+O	56	57	:
+O	59	63	none
+
+O	65	71	SOCIAL
+O	72	79	HISTORY
+O	79	80	:
+
+B-LivingStatus	82	87	Lives
+O	88	92	with
+O	93	96	his
+O	97	101	wife
+O	102	105	and
+O	106	114	daughter
+O	115	117	at
+O	118	122	home
+O	122	123	.
+
+O	124	130	Denies
+O	131	134	any
+B-Tobacco	135	142	tobacco
+O	142	143	,
+B-Alcohol	144	151	alcohol
+O	151	152	,
+O	153	155	or
+B-Drug	156	160	drug
+I-Drug	161	164	use
+O	164	165	.
+
+O	166	176	Ambulating
+O	177	181	with
+O	182	188	walker
+O	189	193	last
+O	194	198	week
+O	198	199	.

@@ -1,0 +1,18 @@
+T1	Tobacco 9 20	Tobacco Use
+T3	Alcohol 43 54	Alcohol Use
+T5	Drug 77 85	Drug Use
+T6	StatusTime 87 105	denies current use
+T2	StatusTime 56 74	denies current use
+T4	StatusTime 22 40	denies current use
+T7	LivingStatus 169 173	live
+T8	TypeLiving 174 192	with sister in law
+T9	StatusTime 160 168	Plans to
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T3 Status:T2
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Status:T9 Type:T8
+A3	StatusTimeVal T6 none
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A4	TypeLivingVal T8 with_family
+A5	StatusTimeVal T9 future

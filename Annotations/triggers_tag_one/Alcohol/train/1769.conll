@@ -1,0 +1,45 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	26	with
+O	27	35	daughter
+O	36	39	and
+O	40	43	her
+O	44	45	3
+O	46	59	grandchildren
+O	59	60	.
+
+O	61	64	Has
+O	65	67	24
+O	68	72	hour
+
+O	73	84	supervision
+O	85	88	and
+O	89	95	family
+O	96	98	is
+O	99	108	extremely
+O	109	119	supportive
+O	119	120	.
+
+O	122	131	Dependent
+O	132	135	for
+
+O	136	139	ADL
+O	139	140	'
+O	140	141	s
+O	141	142	.
+
+O	144	148	Quit
+O	149	156	tobacco
+O	157	159	60
+O	160	165	years
+O	166	169	ago
+O	169	170	.
+
+O	171	177	Denies
+B-Alcohol	178	185	alcohol
+O	186	188	or
+O	189	193	IVDA
+O	193	194	.

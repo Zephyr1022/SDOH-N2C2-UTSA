@@ -1,0 +1,10 @@
+T1	Drug 56 64	Drug Use
+T2	StatusTime 66 72	Denies
+T3	LivingStatus 92 110	Currently homeless
+T4	StatusTime 92 110	Currently homeless
+T5	TypeLiving 92 110	Currently homeless
+E1	Drug:T1 Status:T2
+E2	LivingStatus:T3 Status:T4 Type:T5
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T5 homeless

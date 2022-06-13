@@ -1,0 +1,44 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	27	never
+O	28	32	user
+O	35	42	Alcohol
+O	43	46	Use
+O	46	47	:
+O	48	52	none
+O	55	59	Drug
+O	60	63	Use
+O	63	64	:
+O	65	69	none
+
+O	71	77	SOCIAL
+O	78	85	HISTORY
+O	85	86	:
+
+O	88	93	Lives
+O	94	98	with
+O	99	102	his
+O	103	109	family
+O	110	111	(
+O	111	120	including
+O	121	122	6
+O	123	131	children
+O	131	132	)
+O	132	133	.
+
+O	134	139	Moved
+O	140	144	from
+O	145	146	[
+O	146	154	LOCATION
+O	154	155	]
+O	156	158	in
+O	159	163	2012
+O	163	164	.
+
+O	165	168	Not
+O	169	178	currently
+O	179	186	working

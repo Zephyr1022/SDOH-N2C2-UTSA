@@ -1,0 +1,50 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	18	-
+B-Alcohol	19	23	EtOH
+O	23	24	:
+O	25	33	previous
+O	34	39	heavy
+O	40	47	drinker
+O	47	48	,
+O	49	52	not
+O	53	62	currently
+
+O	63	64	-
+B-Tobacco	65	72	Tobacco
+O	72	73	:
+O	74	80	recent
+O	81	88	history
+O	89	91	of
+O	92	99	smoking
+
+O	100	101	-
+B-Drug	102	110	Illicits
+O	110	111	:
+O	112	116	IVDU
+O	117	123	heroin
+O	123	124	,
+O	125	134	marijuana
+O	134	135	,
+O	136	145	methadone
+
+O	146	147	-
+B-LivingStatus	148	153	Lives
+O	154	156	at
+O	157	161	DESC
+O	162	168	Crisis
+O	169	178	Solutions
+O	179	188	currently
+O	188	189	,
+B-LivingStatus	190	200	previously
+I-LivingStatus	201	209	homeless
+
+O	210	211	-
+O	212	223	Significant
+O	224	229	other
+O	230	234	died
+O	235	239	from
+O	240	243	nec
+O	244	248	fasc

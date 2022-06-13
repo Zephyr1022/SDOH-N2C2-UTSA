@@ -1,0 +1,58 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	25	in
+O	26	27	[
+O	27	35	LOCATION
+O	35	36	]
+O	36	37	,
+O	38	39	[
+O	39	47	LOCATION
+O	47	48	]
+
+O	49	52	per
+O	53	54	[
+O	54	58	DATE
+O	58	59	]
+O	60	70	Hepatology
+O	71	75	note
+O	75	76	,
+
+O	78	79	"
+O	79	86	Stopped
+O	87	94	working
+O	95	99	fall
+O	100	104	2014
+O	104	105	,
+B-Employment	106	115	currently
+I-Employment	116	118	on
+I-Employment	119	129	disability
+
+B-Tobacco	130	137	tobacco
+I-Tobacco	138	141	use
+O	141	142	:
+O	143	147	quit
+O	148	152	2010
+
+B-Alcohol	153	157	EtOH
+O	157	158	:
+O	159	165	denies
+O	166	168	hx
+O	169	171	of
+O	172	177	heavy
+O	178	181	use
+O	181	182	,
+O	183	187	quit
+O	188	192	2010
+
+B-Drug	193	198	Drugs
+O	198	199	:
+O	200	205	brief
+O	206	216	occasional
+O	217	220	mja
+O	221	224	use
+O	225	227	as
+O	228	236	teenager
+O	236	237	"

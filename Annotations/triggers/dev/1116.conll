@@ -1,0 +1,74 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	27	30	his
+O	31	38	partner
+O	38	39	,
+O	40	41	[
+O	41	42	*
+O	42	43	*
+O	43	47	Name
+O	48	49	(
+O	49	51	NI
+O	51	52	)
+O	53	54	*
+O	54	55	*
+O	55	56	]
+O	57	58	x
+O	59	61	20
+O	61	62	+
+O	63	68	years
+O	69	70	(
+O	70	73	HIV
+O	74	80	status
+O	81	88	unknown
+O	88	89	)
+
+B-Employment	90	94	Food
+I-Employment	95	102	service
+I-Employment	103	107	prep
+I-Employment	108	115	manager
+
+O	116	120	Quit
+B-Tobacco	121	128	smoking
+O	129	131	in
+O	132	133	[
+O	133	134	*
+O	134	135	*
+O	135	136	8
+O	136	137	-
+O	137	138	/
+O	138	142	2194
+O	142	143	*
+O	143	144	*
+O	144	145	]
+
+O	146	147	(
+O	147	148	-
+O	148	149	)
+B-Alcohol	150	154	EtOH
+O	155	160	since
+O	161	162	[
+O	162	163	*
+O	163	164	*
+O	164	168	2178
+O	168	169	*
+O	169	170	*
+O	170	171	]
+
+O	172	178	Denies
+O	179	182	any
+B-Drug	183	188	other
+I-Drug	189	193	drug
+I-Drug	194	197	use
+
+O	198	200	No
+O	201	209	children
+
+O	210	213	Cat
+O	214	215	(
+O	215	221	indoor
+O	221	222	)

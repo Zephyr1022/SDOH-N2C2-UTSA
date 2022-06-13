@@ -1,0 +1,25 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Alcohol	9	16	Alcohol
+I-Alcohol	17	20	Use
+O	20	21	:
+O	22	32	occasional
+
+B-Drug	33	37	Drug
+I-Drug	38	41	Use
+O	41	42	:
+O	43	48	daily
+O	49	51	MJ
+O	52	59	smoking
+
+O	61	67	SOCIAL
+O	68	75	HISTORY
+O	75	76	:
+
+O	78	83	Lives
+O	84	86	in
+O	87	90	the
+O	91	92	[
+O	92	100	LOCATION
+O	100	101	]

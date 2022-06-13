@@ -1,0 +1,22 @@
+T1	Alcohol 73 84	Alcohol use
+T3	StatusTime 86 96	History of
+T4	Alcohol 146 153	alcohol
+T5	Method 154 178	through her feeding tube
+T6	StatusTime 134 145	was pushing
+T7	History 206 224	in over one year..
+T8	Drug 226 234	Drug use
+T9	StatusTime 244 258	In high school
+T10	Type 267 300	speed, acid, mescaline, marijuana
+T11	Tobacco 303 309	Smoked
+T12	StatusTime 303 309	Smoked
+T13	Type 310 320	cigaretted
+T14	Amount 322 329	1.5 ppd
+T15	Duration 331 353	from age 13 until 2004
+E1	Alcohol:T1 Status:T3
+E2	Alcohol:T4 Status:T6 Method:T5 History:T7
+E3	Drug:T8 Status:T9 Type:T10
+E4	Tobacco:T11 Status:T12 Type:T13 Amount:T14 Duration:T15
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T12 past

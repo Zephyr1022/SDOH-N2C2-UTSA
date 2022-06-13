@@ -1,0 +1,53 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Residence
+O	26	27	:
+
+O	29	37	Homeless
+O	37	38	.
+
+O	40	45	Lives
+O	46	48	in
+O	49	54	truck
+O	54	55	.
+
+O	57	63	Living
+O	64	73	situation
+O	73	74	:
+
+O	76	81	Lives
+O	82	87	alone
+O	87	88	.
+
+O	90	100	Employment
+O	100	101	:
+
+O	103	113	Unemployed
+O	113	114	.
+
+O	116	123	Tobacco
+O	124	127	use
+O	127	128	:
+
+O	130	140	Cigarettes
+O	140	141	:
+O	141	142	.
+
+B-Alcohol	144	151	Alcohol
+I-Alcohol	152	155	use
+O	155	156	:
+O	157	164	spirits
+O	164	165	,
+O	166	171	since
+O	172	177	Daily
+O	177	178	.
+
+O	180	184	Drug
+O	185	188	use
+O	188	189	:
+
+O	191	197	Heroin
+O	197	198	:
+O	198	199	.

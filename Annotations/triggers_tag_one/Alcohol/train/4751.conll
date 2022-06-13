@@ -1,0 +1,48 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	tobacco
+O	23	24	:
+O	25	27	50
+O	27	28	-
+O	28	30	60
+O	31	35	pack
+O	35	36	-
+O	36	41	years
+O	42	46	down
+O	47	49	to
+O	50	55	about
+O	56	57	[
+O	57	58	*
+O	58	59	*
+O	59	61	12
+O	61	62	-
+O	62	63	9
+O	63	64	*
+O	64	65	*
+O	65	66	]
+O	67	71	pack
+O	72	77	right
+O	78	81	now
+O	81	82	,
+O	83	87	quit
+
+O	88	97	yesterday
+
+O	98	106	Negative
+O	107	110	for
+B-Alcohol	111	115	ETOH
+O	116	119	and
+O	120	127	illicit
+O	128	132	drug
+O	133	136	use
+O	136	137	.
+
+O	138	145	Married
+O	145	146	,
+O	147	152	lives
+O	153	157	with
+
+O	158	162	wife
+O	162	163	.

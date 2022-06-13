@@ -1,0 +1,17 @@
+T1	LivingStatus 17 35	Currently residing
+T2	StatusTime 17 35	Currently residing
+T3	TypeLiving 36 53	at Cascade living
+T4	Tobacco 126 132	Smokes
+T5	StatusTime 126 132	Smokes
+T6	Type 133 143	cigarettes
+T7	Drug 65 69	IVDU
+T8	Method 65 69	IVDU
+T9	StatusTime 79 108	reports to be clean and sober
+T10	History 109 125	× several months
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 Type:T6
+E3	Drug:T7 Status:T9 History:T10 Method:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T9 past

@@ -1,0 +1,20 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	17	21	Does
+O	22	25	not
+O	26	29	use
+B-Alcohol	30	37	alcohol
+B-Tobacco	38	45	tobacco
+O	46	48	or
+B-Drug	49	54	drugs
+
+O	55	64	Currently
+B-LivingStatus	65	73	homeless
+O	74	77	but
+O	78	85	staying
+O	86	90	with
+O	91	94	her
+O	95	99	aunt
+O	99	100	.

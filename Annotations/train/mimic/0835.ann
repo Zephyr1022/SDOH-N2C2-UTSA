@@ -1,0 +1,11 @@
+T1	Tobacco 65 80;81 84	current tobacco use
+T2	StatusTime 86 90	quit
+T3	History 91 103	2 months ago
+T4	Amount 105 109	2ppd
+T5	Duration 110 118	x 50 yrs
+T6	StatusTime 129 139	no history
+T7	Alcohol 143 156	alcohol abuse
+E1	Tobacco:T1 Status:T2 History:T3 Amount:T4 Duration:T5
+E2	Alcohol:T7 Status:T6
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T6 none

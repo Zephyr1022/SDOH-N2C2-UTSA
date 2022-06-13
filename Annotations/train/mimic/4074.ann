@@ -1,0 +1,20 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 41	at the YMCA shelter
+T4	Alcohol 51 58	alcohol
+T5	StatusTime 44 50	Denies
+T6	Tobacco 69 76	tobacco
+T7	Drug 78 87	marijuana
+T8	Drug 103 109	heroin
+T10	Type 78 87	marijuana
+T11	Type 103 109	heroin
+T12	StatusTime 61 68	Reports
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Alcohol:T4 Status:T5
+E3	Tobacco:T6 Status:T12
+E4	Drug:T7 Status:T12 Type:T10
+E5	Drug:T8 Type:T11 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T5 none
+A5	StatusTimeVal T12 current

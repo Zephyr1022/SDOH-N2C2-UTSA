@@ -1,0 +1,22 @@
+T1	StatusTime 169 200	endorses occasional cocaine use
+T3	Type 189 196	cocaine
+T4	Drug 189 196	cocaine
+T5	Alcohol 126 135	alcoholic
+T6	Amount 120 142	A few alcoholic drinks
+T7	Frequency 143 151	per week
+T8	StatusTime 122 151	few alcoholic drinks per week
+T9	Drug 106 115	marijuana
+T10	Type 106 115	marijuana
+T11	StatusTime 99 105	smokes
+T12	Tobacco 65 71	Smokes
+T13	StatusTime 65 71	Smokes
+T14	Amount 72 80	1/2 pack
+T15	Frequency 81 88	per day
+E1	Drug:T4 Type:T3 Status:T1
+E2	Alcohol:T5 Amount:T6 Frequency:T7 Status:T8
+E3	Drug:T9 Status:T11 Type:T10
+E4	Tobacco:T12 Status:T13 Amount:T14 Frequency:T15
+A1	StatusTimeVal T1 current
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T11 current
+A5	StatusTimeVal T13 current

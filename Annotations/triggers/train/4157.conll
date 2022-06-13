@@ -1,0 +1,30 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	27	35	roommate
+
+O	36	40	Quit
+B-Tobacco	41	48	tobacco
+O	49	50	[
+O	50	54	DATE
+O	54	55	]
+O	56	57	(
+O	57	67	previously
+O	68	69	1
+O	69	70	/
+O	70	71	2
+O	72	77	packs
+O	78	81	per
+O	82	85	day
+O	85	86	)
+
+B-Alcohol	87	94	Regular
+I-Alcohol	95	99	EtOH
+
+O	100	106	Denies
+B-Drug	107	112	other
+I-Drug	113	117	drug
+I-Drug	118	121	use

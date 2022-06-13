@@ -1,0 +1,16 @@
+T1	Tobacco 27 38	Tobacco Use
+T2	StatusTime 40 46	denies
+T6	Drug 90 98	Drug Use
+T7	Type 100 135	marijuana, methamphetamine, opioids
+T8	Method 137 141	IVDU
+T9	StatusTime 100 135	marijuana, methamphetamine, opioids
+T10	LivingStatus 161 170	Residence
+T11	StatusTime 172 177	lives
+T12	TypeLiving 178 186	in a car
+E1	Tobacco:T1 Status:T2
+E3	Drug:T6 Type:T7 Status:T9 Method:T8
+E4	LivingStatus:T10 Type:T12 Status:T11
+A1	StatusTimeVal T2 none
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 homeless

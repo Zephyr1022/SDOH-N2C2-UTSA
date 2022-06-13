@@ -1,0 +1,83 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	15	Smokes
+O	16	20	1PPD
+O	21	22	x
+O	23	25	30
+O	26	31	years
+O	31	32	.
+
+O	33	35	No
+O	36	42	longer
+O	43	49	drinks
+O	50	54	much
+B-Alcohol	55	62	alcohol
+O	62	63	;
+O	64	68	most
+O	69	74	weeks
+O	75	77	he
+O	78	82	does
+O	83	86	not
+O	87	92	drink
+O	93	96	any
+O	97	104	alcohol
+O	105	108	but
+O	109	121	occasionally
+O	122	125	has
+O	126	127	a
+O	128	134	couple
+O	135	137	of
+O	138	143	beers
+O	143	144	.
+
+O	145	151	Smokes
+B-Drug	152	159	medical
+I-Drug	160	169	marijuana
+O	169	170	.
+
+O	172	178	SOCIAL
+O	179	186	HISTORY
+O	186	187	:
+
+B-LivingStatus	189	194	Lives
+O	195	197	in
+O	198	203	adult
+O	204	210	family
+O	211	215	home
+O	217	218	(
+O	218	219	[
+O	219	227	LOCATION
+O	227	228	]
+O	228	229	)
+O	229	230	.
+
+O	231	241	Supportive
+O	242	248	family
+O	248	249	.
+
+O	250	257	Engaged
+O	258	260	to
+O	261	268	fiancee
+O	269	270	[
+O	270	274	NAME
+O	274	275	]
+O	275	276	.
+
+O	277	281	Used
+O	282	284	to
+B-Employment	285	289	work
+O	290	292	in
+O	293	298	heavy
+O	299	311	construction
+O	312	318	before
+O	319	321	he
+O	322	331	sustained
+O	332	340	multiple
+O	341	349	injuries
+O	350	354	then
+O	355	358	had
+O	359	366	present
+O	367	376	prolonged
+O	377	384	illness
+O	384	385	.

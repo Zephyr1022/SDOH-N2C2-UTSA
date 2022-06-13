@@ -1,0 +1,15 @@
+T1	Alcohol 40 50	EtOH abuse
+T3	StatusTime 52 66	recently sober
+T4	Drug 98 106	IV drugs
+T5	Method 98 100	IV
+T6	StatusTime 95 97	No
+T7	LivingStatus 108 113	lived
+T8	TypeLiving 114 127	with daughter
+T9	StatusTime 108 113	lived
+E1	Alcohol:T1 Status:T3
+E2	Drug:T4 Method:T5 Status:T6
+E3	LivingStatus:T7 Status:T9 Type:T8
+A2	StatusTimeVal T3 past
+A3	StatusTimeVal T6 none
+A4	TypeLivingVal T8 with_family
+A5	StatusTimeVal T9 past

@@ -1,0 +1,111 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	70
+O	18	19	-
+O	19	23	pack
+O	23	24	-
+O	24	28	year
+B-Tobacco	29	36	smoking
+O	37	44	history
+O	44	45	.
+
+O	47	49	He
+O	50	52	is
+B-LivingStatus	53	59	living
+O	60	64	with
+O	65	68	his
+O	69	77	daughter
+O	77	78	,
+
+O	79	80	[
+O	80	81	*
+O	81	82	*
+O	82	86	Name
+O	87	88	(
+O	88	90	NI
+O	90	91	)
+O	92	93	*
+O	93	94	*
+O	94	95	]
+O	95	96	.
+
+O	98	99	[
+O	99	100	*
+O	100	101	*
+O	101	106	Name2
+O	107	108	(
+O	108	110	NI
+O	110	111	)
+O	112	113	*
+O	113	114	*
+O	114	115	]
+O	116	119	has
+O	120	125	three
+O	126	134	children
+O	134	135	,
+O	136	139	two
+O	140	149	daughters
+O	150	153	and
+O	154	157	one
+O	158	161	son
+O	161	162	,
+O	163	166	and
+O	167	169	he
+
+O	170	173	has
+O	174	187	grandchildren
+O	187	188	.
+
+O	190	192	He
+O	193	196	has
+O	197	200	not
+O	201	205	been
+B-Tobacco	206	213	smoking
+O	214	217	for
+O	218	221	one
+O	222	227	month
+O	227	228	.
+
+O	230	232	He
+
+O	233	245	occasionally
+O	246	252	drinks
+B-Alcohol	253	260	alcohol
+O	261	264	and
+O	265	271	denies
+B-Drug	272	279	illicit
+I-Drug	280	284	drug
+I-Drug	285	288	use
+O	289	291	or
+
+O	292	297	abuse
+O	297	298	.
+
+O	300	302	He
+O	303	306	was
+O	307	311	born
+O	312	314	in
+O	315	316	[
+O	316	317	*
+O	317	318	*
+O	318	325	Country
+O	326	330	5881
+O	330	331	*
+O	331	332	*
+O	332	333	]
+O	334	337	and
+O	338	342	came
+O	343	345	to
+O	346	349	the
+O	350	351	U
+O	351	352	.
+O	352	353	S
+O	353	354	.
+O	355	362	roughly
+O	363	368	forty
+
+O	369	374	years
+O	375	378	ago
+O	378	379	.

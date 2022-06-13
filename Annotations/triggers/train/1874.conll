@@ -1,0 +1,56 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	27	30	his
+O	31	35	wife
+O	36	44	although
+O	45	47	he
+O	48	50	is
+O	51	54	not
+O	55	63	sexually
+O	64	70	active
+O	71	75	with
+O	76	79	her
+
+O	80	83	but
+O	84	90	rather
+O	91	95	with
+O	96	101	other
+O	102	105	men
+O	105	106	.
+
+B-Employment	108	110	On
+I-Employment	111	121	disability
+O	122	125	for
+O	126	130	over
+O	131	133	10
+O	134	139	years
+O	139	140	.
+
+B-Tobacco	141	147	Smokes
+O	148	149	2
+O	150	154	pack
+O	154	155	/
+O	155	158	day
+O	159	160	x
+O	161	162	?
+
+O	163	168	years
+O	168	169	.
+
+O	170	176	Recent
+B-Drug	177	184	crystal
+I-Drug	185	189	meth
+I-Drug	190	193	use
+O	193	194	.
+
+O	195	196	H
+O	196	197	/
+O	197	198	o
+
+B-Drug	199	206	cocaine
+I-Drug	207	210	use
+O	210	211	.

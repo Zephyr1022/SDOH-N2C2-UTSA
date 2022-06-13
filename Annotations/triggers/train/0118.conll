@@ -1,0 +1,35 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	21	Works
+O	22	24	as
+O	25	35	landscaper
+O	35	36	.
+
+B-LivingStatus	37	42	Lives
+O	43	45	at
+O	46	50	home
+O	51	55	with
+O	56	62	mother
+O	62	63	.
+
+O	64	65	[
+O	65	66	*
+O	66	67	*
+O	67	71	Name
+O	72	73	(
+O	73	75	NI
+O	75	76	)
+O	77	78	*
+O	78	79	*
+O	79	80	]
+O	81	88	tobacco
+O	88	89	,
+
+O	90	94	EtOH
+O	94	95	,
+O	96	98	or
+O	99	103	drug
+O	104	107	use
+O	107	108	.

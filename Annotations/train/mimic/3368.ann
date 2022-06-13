@@ -1,0 +1,20 @@
+T1	LivingStatus 174 183	Residence
+T2	TypeLiving 185 197	with roomate
+T3	StatusTime 174 183	Residence
+T4	Tobacco 9 20	Tobacco Use
+T5	StatusTime 34 37	yes
+T6	StatusTime 64 67	yes
+T7	Alcohol 40 51	Alcohol Use
+T8	Drug 81 89	Drug Use
+T10	Method 91 93	IV
+T11	Type 94 109	meth and heroin
+T12	StatusTime 91 109	IV meth and heroin
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T7 Status:T6
+E4	Drug:T8 Method:T10 Type:T11 Status:T12
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T6 current
+A6	StatusTimeVal T12 current

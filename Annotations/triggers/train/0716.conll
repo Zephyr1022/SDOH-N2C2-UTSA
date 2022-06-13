@@ -1,0 +1,21 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	25	Positive
+B-Tobacco	26	33	tobacco
+O	34	36	of
+O	37	39	50
+O	40	44	pack
+O	45	50	years
+O	50	51	.
+
+O	53	61	Positive
+
+B-Alcohol	62	69	ethanol
+O	70	74	with
+O	75	88	approximately
+O	89	94	three
+O	95	100	beers
+O	101	104	per
+O	105	108	day
+O	108	109	.

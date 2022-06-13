@@ -1,0 +1,62 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	27	30	his
+O	31	35	wife
+O	36	38	in
+O	39	40	[
+O	40	41	*
+O	41	42	*
+O	42	50	Location
+O	51	52	(
+O	52	54	un
+O	54	55	)
+O	56	61	11790
+O	61	62	*
+O	62	63	*
+O	63	64	]
+O	64	65	,
+O	66	68	RI
+O	68	69	.
+
+B-Tobacco	71	77	Smoked
+O	78	79	3
+O	80	83	PPD
+O	84	87	for
+O	88	92	many
+
+O	93	98	years
+O	98	99	,
+O	100	103	but
+O	104	108	quit
+O	109	111	in
+O	112	113	[
+O	113	114	*
+O	114	115	*
+O	115	119	2122
+O	119	120	*
+O	120	121	*
+O	121	122	]
+O	122	123	.
+
+B-Alcohol	125	131	Drinks
+O	132	133	2
+O	133	134	-
+O	134	135	4
+O	136	142	drinks
+O	143	146	per
+O	147	150	day
+O	151	152	(
+O	152	158	scotch
+O	158	159	,
+
+O	160	164	wine
+O	164	165	)
+O	165	166	.
+
+O	168	174	Denies
+B-Drug	175	179	IVDU
+O	179	180	.

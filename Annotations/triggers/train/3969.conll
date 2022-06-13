@@ -1,0 +1,46 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	23	Social
+O	24	32	disarray
+O	32	33	.
+
+O	34	36	Hx
+O	37	39	of
+B-Alcohol	40	45	heavy
+I-Alcohol	46	50	EtOH
+I-Alcohol	51	54	use
+O	54	55	,
+O	56	60	says
+O	61	64	she
+O	65	68	has
+O	69	72	had
+B-Alcohol	73	74	2
+I-Alcohol	74	75	-
+I-Alcohol	75	76	3
+I-Alcohol	77	83	drinks
+O	84	86	in
+O	87	91	past
+O	92	97	month
+O	97	98	.
+
+B-Tobacco	99	105	Smokes
+O	106	113	between
+O	114	115	5
+O	116	126	cigarettes
+O	127	129	to
+O	130	131	1
+O	132	136	pack
+O	137	142	daily
+O	143	148	since
+O	149	152	she
+O	153	156	was
+O	157	159	11
+O	159	160	.
+
+O	161	167	Denies
+B-Drug	168	173	other
+I-Drug	174	178	drug
+I-Drug	179	182	use
+O	182	183	.

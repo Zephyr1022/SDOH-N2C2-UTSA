@@ -1,0 +1,36 @@
+T1	LivingStatus 66 71	Lives
+T2	StatusTime 66 71	Lives
+T3	TypeLiving 72 77	alone
+T6	Alcohol 141 149	EtOH use
+T7	Type 157 162	vodka
+T8	Amount 151 156	~ 1 L
+T9	Frequency 162 166	/day
+T10	Duration 167 170;171 176	x 4 years
+T11	StatusTime 127 134	Current
+T13	Tobacco 299 302	ppd
+T14	StatusTime 288 302	[**1-18**] ppd
+T15	Duration 303 307;308 311	x 11 yrs
+T16	Amount 288 302	[**1-18**] ppd
+T20	Method 317 324	inhaled
+T18	Drug 325 338	cocaine abuse
+T21	StatusTime 340 344	Quit
+T22	History 345 358	in [**2133**]
+T23	Drug 368 372	IVDU
+T24	Method 368 372	IVDU
+T25	StatusTime 361 363	No
+E1	LivingStatus:T1 Type:T3 Status:T2
+E3	Alcohol:T6 Status:T11 Amount:T8 Type:T7 Frequency:T9 Duration:T10
+E4	Tobacco:T13 Status:T14 Duration:T15 Amount:T16
+E5	Drug:T18 Method:T20 Status:T21 History:T22 Type:T12
+E6	Drug:T23 Status:T25 Method:T24
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T11 current
+A5	StatusTimeVal T14 current
+A7	StatusTimeVal T21 past
+A8	StatusTimeVal T25 none
+T4	Alcohol 199 203	EtOH
+E2	Alcohol:T4 Status:T5
+T5	StatusTime 178 211	Longest time free of EtOH ~ 2 wks
+A4	StatusTimeVal T5 current
+T12	Type 325 332	cocaine

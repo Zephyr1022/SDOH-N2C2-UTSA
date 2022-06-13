@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: Denies   
+Alcohol Use: Denies   
+Drug Use: Denies
+
+SOCIAL HISTORY: 
+Lives at [LOCATION] SNF in [LOCATION]. At baseline can transfer from bed to chair, sometimes needs assistance.

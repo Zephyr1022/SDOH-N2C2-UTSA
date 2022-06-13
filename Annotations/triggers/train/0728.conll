@@ -1,0 +1,54 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+B-Employment	29	38	currently
+I-Employment	39	44	works
+O	45	47	at
+O	48	49	a
+O	50	53	car
+
+O	54	64	dealership
+O	65	67	in
+O	68	80	registration
+O	80	81	.
+
+O	83	86	She
+O	87	89	is
+O	90	97	married
+O	98	101	and
+O	102	105	has
+O	106	109	one
+
+O	110	118	daughter
+O	118	119	.
+
+O	121	124	She
+O	125	131	denies
+O	132	133	a
+O	134	141	history
+O	142	144	of
+B-Tobacco	145	152	tobacco
+I-Tobacco	153	156	use
+O	157	160	and
+O	161	168	reports
+
+O	169	173	only
+B-Alcohol	174	184	occasional
+I-Alcohol	185	192	alcohol
+I-Alcohol	193	196	use
+O	196	197	.
+
+O	199	202	She
+O	203	212	currently
+O	213	218	walks
+O	219	222	two
+O	223	228	miles
+
+O	229	232	per
+O	233	236	day
+O	237	239	on
+O	240	241	a
+O	242	251	treadmill
+O	251	252	.

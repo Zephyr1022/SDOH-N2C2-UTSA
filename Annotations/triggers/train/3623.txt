@@ -1,0 +1,12 @@
+SH: Lives in an RV near [LOCATION]
+Smokes a half pack to one pack of cigarettes per day
+Denies use of illicits
+Does not drink alcohol the past week
+
+Vitals (Most recent and 24 hour range.) 
+Date	Result	Last	MIN	  -  MAX
+[DATE] 21:02	Temp C: 	36.6	36.6	  -  36.6
+[DATE] 22:43	HR: 	93	93	  -  98
+[DATE] 22:43	RR: 	16	16	  -  16
+[DATE] 22:43	SBP Non-Inv: 	121	121	  -  130
+[DATE] 22:43	DBP Non-Inv: 	50	50	  -  80

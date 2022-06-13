@@ -1,0 +1,4 @@
+T1	Alcohol 20 24	etoh
+T2	StatusTime 16 19	h/o
+E1	Alcohol:T1 Status:T2
+A1	StatusTimeVal T2 past

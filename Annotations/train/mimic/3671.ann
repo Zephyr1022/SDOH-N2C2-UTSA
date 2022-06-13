@@ -1,0 +1,26 @@
+T1	Alcohol 24 35	alcohol use
+T2	StatusTime 17 23	Denies
+T3	Amount 53 65	5 cigarettes
+T4	Frequency 66 79	over 3-4 days
+T5	StatusTime 46 52	smokes
+T6	Tobacco 46 52	smokes
+T7	Tobacco 92 98	smoked
+T8	StatusTime 81 91	previously
+T9	Amount 99 104	2 ppd
+T10	Duration 105 114	x57 years
+T11	Drug 122 130	drug use
+T12	StatusTime 115 121	Denies
+T13	LivingStatus 217 224	staying
+T14	TypeLiving 225 249	at Cottage Grove shelter
+T15	StatusTime 208 224	has been staying
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T6 Status:T5 Amount:T3 Frequency:T4
+E3	Tobacco:T7 Status:T8 Amount:T9 Duration:T10
+E4	Drug:T11 Status:T12
+E5	LivingStatus:T13 Type:T14 Status:T15
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T8 past
+A4	StatusTimeVal T12 none
+A5	TypeLivingVal T14 homeless
+A6	StatusTimeVal T15 current

@@ -1,0 +1,66 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Residence
+O	26	27	:
+
+O	29	36	Private
+O	37	46	residence
+O	46	47	.
+
+O	49	54	Lives
+O	55	57	in
+O	58	59	[
+O	59	67	LOCATION
+O	67	68	]
+O	68	69	,
+O	70	71	[
+O	71	79	LOCATION
+O	79	80	]
+O	81	84	and
+O	85	86	[
+O	86	94	LOCATION
+O	94	95	]
+O	95	96	,
+O	97	98	[
+O	98	106	LOCATION
+O	106	107	]
+O	107	108	.
+
+B-LivingStatus	110	116	Living
+I-LivingStatus	117	126	situation
+O	126	127	:
+
+O	129	134	Lives
+O	135	139	with
+O	140	151	significant
+O	152	157	other
+O	157	158	.
+
+B-Employment	160	170	Employment
+O	170	171	:
+
+O	173	181	Employed
+O	182	194	Psychiatrist
+O	194	195	.
+
+B-Tobacco	197	204	Tobacco
+I-Tobacco	205	208	use
+O	208	209	:
+
+O	211	217	Denies
+O	217	218	.
+
+B-Alcohol	220	227	Alcohol
+I-Alcohol	228	231	use
+O	231	232	:
+O	233	239	denies
+O	239	240	.
+
+B-Drug	242	246	Drug
+I-Drug	247	250	use
+O	250	251	:
+
+O	252	258	Denies
+O	258	259	.

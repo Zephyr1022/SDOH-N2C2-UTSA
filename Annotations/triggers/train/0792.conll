@@ -1,0 +1,82 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	23	Retired
+O	23	24	,
+B-LivingStatus	25	30	lives
+O	31	36	alone
+O	36	37	.
+
+O	38	44	Friend
+O	45	46	[
+O	46	47	*
+O	47	48	*
+O	48	52	Name
+O	53	54	(
+O	54	56	NI
+O	56	57	)
+O	58	62	1312
+O	62	63	*
+O	63	64	*
+O	64	65	]
+O	66	69	has
+O	70	74	been
+O	75	82	staying
+O	83	87	with
+O	88	91	her
+
+O	92	97	since
+O	98	101	her
+O	102	109	surgery
+O	109	110	.
+
+O	111	114	Her
+O	115	118	HCP
+O	119	121	is
+O	122	125	her
+O	126	132	sister
+O	132	133	.
+
+B-Tobacco	134	140	Smoked
+O	141	142	1
+O	143	147	pack
+O	147	148	/
+O	148	152	week
+O	153	154	x
+
+O	155	157	20
+O	158	163	years
+O	163	164	.
+
+O	165	168	Has
+O	169	172	not
+B-Tobacco	173	179	smoked
+O	180	183	for
+O	184	186	25
+O	187	192	years
+O	192	193	.
+
+O	194	197	She
+B-Alcohol	198	204	drinks
+O	205	206	6
+O	206	207	-
+O	207	208	8
+O	209	215	drinks
+O	216	219	per
+
+O	220	224	week
+O	224	225	.
+
+B-Alcohol	226	230	Last
+I-Alcohol	231	236	drink
+O	237	238	3
+O	239	243	days
+O	244	247	ago
+O	247	248	.
+
+O	249	251	No
+O	252	259	history
+O	260	262	of
+O	263	272	withdrawl
+O	272	273	.

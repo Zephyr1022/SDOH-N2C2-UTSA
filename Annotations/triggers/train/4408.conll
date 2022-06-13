@@ -1,0 +1,51 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	23	Living
+O	23	24	:
+O	25	36	undomiciled
+O	36	37	,
+O	38	45	staying
+O	46	48	in
+O	49	50	a
+O	51	55	park
+
+O	56	62	Mother
+O	63	65	of
+O	66	70	four
+
+O	71	80	Currently
+O	81	89	sexually
+O	90	96	active
+O	96	97	,
+O	98	101	not
+O	102	107	using
+O	108	121	contraception
+
+O	123	129	HABITS
+O	129	130	:
+
+O	131	132	-
+B-Alcohol	133	137	EtOH
+O	137	138	:
+O	139	140	a
+O	141	144	few
+O	145	149	24oz
+O	150	155	beers
+O	156	157	a
+O	158	161	day
+O	161	162	,
+O	163	168	since
+O	169	173	HepC
+
+O	174	175	-
+B-Tobacco	176	183	Tobacco
+O	183	184	:
+O	185	190	never
+
+O	191	192	-
+B-Drug	193	198	Other
+O	198	199	:
+O	200	206	denies
+O	207	213	others

@@ -1,0 +1,54 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	15
+O	19	21	yr
+O	22	24	hx
+B-Tobacco	25	32	tobacco
+O	32	33	,
+O	34	37	1pk
+O	38	43	every
+O	44	46	3d
+O	46	47	,
+O	48	52	quit
+O	53	54	[
+O	54	55	*
+O	55	56	*
+O	56	60	2186
+O	60	61	*
+O	61	62	*
+O	62	63	]
+
+B-Alcohol	64	74	Occasional
+I-Alcohol	75	79	EtOH
+
+B-Employment	80	90	Disability
+
+B-LivingStatus	91	96	Lives
+O	97	102	alone
+O	102	103	,
+O	104	108	just
+O	109	114	moved
+O	115	117	to
+O	118	121	new
+O	122	126	home
+O	127	134	without
+O	135	141	stairs
+
+O	142	150	Divorced
+O	150	151	,
+O	152	155	one
+O	156	164	daughter
+
+O	165	166	[
+O	166	167	*
+O	167	168	*
+O	168	172	Name
+O	173	174	(
+O	174	176	NI
+O	176	177	)
+O	178	179	*
+O	179	180	*
+O	180	181	]
+O	182	186	IVDU

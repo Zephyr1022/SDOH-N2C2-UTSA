@@ -1,0 +1,142 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Married
+O	24	28	with
+O	29	30	5
+O	31	39	children
+O	39	40	.
+
+B-LivingStatus	41	46	Lives
+O	47	49	at
+O	50	54	home
+O	55	59	with
+O	60	67	husband
+O	67	68	,
+O	69	77	daughter
+
+O	78	81	and
+O	82	95	grandchildren
+O	95	96	.
+
+O	97	100	She
+O	101	106	moved
+O	107	111	from
+O	112	113	[
+O	113	114	*
+O	114	115	*
+O	115	122	Country
+O	123	127	5737
+O	127	128	*
+O	128	129	*
+O	129	130	]
+O	131	133	in
+O	134	135	[
+O	135	136	*
+O	136	137	*
+O	137	141	2098
+O	141	142	*
+O	142	143	*
+O	143	144	]
+O	145	148	and
+O	149	153	last
+
+O	154	161	visited
+O	162	164	in
+O	165	166	[
+O	166	167	*
+O	167	168	*
+O	168	173	Month
+O	174	175	(
+O	175	179	only
+O	179	180	)
+O	181	182	*
+O	182	183	*
+O	183	184	]
+O	184	185	.
+
+O	186	189	She
+O	190	196	denies
+O	197	200	any
+B-Tobacco	201	210	cigarette
+I-Tobacco	211	214	use
+O	214	215	,
+O	216	219	and
+O	220	224	quit
+
+B-Alcohol	225	232	alcohol
+O	232	233	,
+O	234	240	though
+O	241	244	she
+O	245	249	used
+O	250	252	to
+O	253	258	abuse
+O	259	266	alcohol
+O	266	267	.
+
+O	268	270	No
+B-Drug	271	275	IVDU
+O	275	276	.
+
+O	277	282	While
+O	283	285	in
+
+O	286	287	[
+O	287	288	*
+O	288	289	*
+O	289	296	Country
+O	297	298	*
+O	298	299	*
+O	299	300	]
+O	300	301	,
+O	302	305	she
+O	306	311	lived
+O	312	314	on
+O	315	316	a
+O	317	321	farm
+O	322	325	for
+O	326	327	3
+O	328	333	years
+O	333	334	-
+O	334	335	-
+O	336	344	exposure
+O	345	347	to
+O	348	352	many
+
+O	353	361	domestic
+O	362	366	farm
+O	367	374	animals
+O	374	375	.
+
+O	376	379	She
+O	380	384	does
+O	385	388	not
+O	389	395	recall
+O	396	399	any
+O	400	404	skin
+O	405	411	rashes
+O	412	414	or
+
+O	415	422	febrile
+O	423	432	illnesses
+O	433	439	during
+O	440	444	that
+O	445	451	period
+O	451	452	.
+
+O	453	456	She
+O	457	461	does
+O	462	465	not
+O	466	470	know
+O	471	473	if
+O	474	477	she
+
+O	478	486	received
+O	487	490	the
+O	491	494	BCG
+O	495	502	vaccine
+O	503	505	as
+O	506	507	a
+O	508	513	child
+O	513	514	.

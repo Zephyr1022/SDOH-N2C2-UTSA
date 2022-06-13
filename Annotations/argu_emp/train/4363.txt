@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: Denies  
+Alcohol Use: Normally 1 drink/day, but this weekend did drink more heavily   
+Drug Use: Marijuana 
+
+SOCIAL HISTORY: Patient is currently a senior at [LOCATION]. He is currently applying to join the [LOCATION] next year. He is originally from [LOCATION], but does have a brother who lives in [LOCATION].

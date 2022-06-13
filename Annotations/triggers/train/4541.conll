@@ -1,0 +1,41 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	21	works
+O	22	24	on
+O	25	29	golf
+O	30	36	course
+O	37	48	maintenance
+
+B-Tobacco	49	54	never
+I-Tobacco	55	61	smoked
+O	62	72	cigarettes
+O	72	73	,
+O	74	77	but
+O	78	82	uses
+B-Tobacco	83	84	a
+I-Tobacco	85	89	rare
+I-Tobacco	90	94	pipe
+
+O	95	96	[
+O	96	97	*
+O	97	98	*
+O	98	99	2
+O	99	100	-
+O	100	102	20
+O	102	103	*
+O	103	104	*
+O	104	105	]
+B-Alcohol	106	112	drinks
+O	113	116	per
+O	117	120	day
+
+B-LivingStatus	121	126	lives
+O	127	132	alone
+
+O	133	135	no
+B-Drug	136	140	recr
+I-Drug	140	141	.
+
+B-Drug	142	147	drugs

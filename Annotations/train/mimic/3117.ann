@@ -1,0 +1,27 @@
+T4	Tobacco 147 152	smoke
+T5	StatusTime 134 146	Continues to
+T6	History 168 181	two weeks ago
+T7	Frequency 208 218	a few days
+T8	Amount 191 197	a pack
+T9	Tobacco 224 230	smoked
+T10	Duration 231 252	for the last 40 years
+T11	StatusTime 224 230	smoked
+T12	Drug 305 316	cocaine use
+T13	StatusTime 369 382	positive UTox
+T14	Type 305 312	cocaine
+T15	History 399 408	in [DATE]
+T16	Drug 417 428	IV drug use
+T17	Method 417 419	IV
+T18	StatusTime 410 416	Denies
+T19	Alcohol 437 444	alcohol
+T21	StatusTime 430 436	Drinks
+E2	Tobacco:T4 Status:T5 History:T6 Amount:T8 Frequency:T7
+E3	Tobacco:T9 Duration:T10 Status:T11
+E4	Drug:T12 Status:T13 Type:T14 History:T15
+E5	Drug:T16 Method:T17 Status:T18
+E6	Alcohol:T19 Status:T21
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T11 current
+A5	StatusTimeVal T13 current
+A6	StatusTimeVal T18 none
+A8	StatusTimeVal T21 current

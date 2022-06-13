@@ -1,0 +1,56 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	23	1
+O	24	28	pack
+O	28	29	/
+O	29	30	3
+O	31	35	days
+O	36	39	for
+O	40	42	30
+O	43	48	years
+
+O	52	59	Alcohol
+O	60	63	Use
+O	63	64	:
+O	65	75	Occasional
+
+O	79	83	Drug
+O	84	87	Use
+O	87	88	:
+O	89	98	Currently
+O	99	107	endorses
+O	108	118	occasional
+O	119	128	marijuana
+O	129	132	use
+O	132	133	.
+
+O	134	141	Cocaine
+O	142	145	use
+O	146	156	previously
+O	157	167	documented
+O	167	168	.
+
+O	170	176	SOCIAL
+O	177	184	HISTORY
+O	184	185	:
+
+O	187	196	Apartment
+O	197	199	in
+O	200	208	downtown
+O	209	210	[
+O	210	218	LOCATION
+O	218	219	]
+O	219	220	.
+
+O	221	228	Patient
+O	229	232	had
+O	233	243	previously
+O	244	249	lived
+O	250	252	at
+O	253	257	1811
+O	258	266	Eastlake
+O	266	267	.

@@ -1,0 +1,17 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	21	From
+O	22	23	[
+O	23	31	LOCATION
+O	31	32	]
+O	32	33	.
+
+O	34	40	Denies
+B-Tobacco	41	48	tobacco
+O	48	49	.
+
+B-Alcohol	50	56	Social
+I-Alcohol	57	61	EtOH
+O	61	62	.

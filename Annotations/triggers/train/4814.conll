@@ -1,0 +1,199 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	25	Difficult
+O	26	35	childhood
+O	36	40	with
+O	41	49	reported
+O	50	53	DYS
+O	53	54	/
+O	55	58	DSS
+O	59	70	involvement
+O	70	71	.
+
+O	72	75	Did
+O	76	79	not
+
+O	80	86	finish
+O	87	93	senior
+O	94	98	year
+O	99	101	of
+O	102	106	high
+O	107	113	school
+O	113	114	.
+
+O	115	118	Was
+O	119	121	at
+O	123	124	[
+O	124	125	*
+O	125	126	*
+O	126	134	Location
+O	135	136	(
+O	136	138	un
+O	138	139	)
+O	140	145	18488
+O	145	146	*
+O	146	147	*
+O	147	148	]
+O	149	159	Vocational
+
+O	160	166	school
+O	166	167	.
+
+O	168	173	Wants
+O	174	176	to
+O	177	179	go
+O	180	182	to
+O	183	190	college
+O	191	194	and
+O	195	203	possibly
+O	204	210	obtain
+O	211	220	radiology
+
+O	221	225	tech
+O	226	228	or
+O	229	237	culinary
+O	238	246	training
+O	246	247	.
+
+O	248	251	Has
+O	252	256	very
+O	257	267	supportive
+O	268	279	grandmother
+
+O	280	286	living
+O	287	289	in
+O	290	291	[
+O	291	292	*
+O	292	293	*
+O	293	297	Name
+O	298	299	(
+O	299	301	NI
+O	301	302	)
+O	303	308	12000
+O	308	309	*
+O	309	310	*
+O	310	311	]
+O	312	314	to
+O	315	319	whom
+O	320	322	he
+O	323	326	has
+O	327	331	been
+O	332	337	close
+O	338	341	and
+O	342	346	with
+O	347	351	whom
+O	352	354	he
+
+O	355	358	has
+O	359	363	been
+O	364	366	in
+O	367	374	contact
+O	375	383	recently
+O	383	384	.
+
+O	385	386	[
+O	386	387	*
+O	387	388	*
+O	388	393	Name2
+O	394	395	(
+O	395	397	NI
+O	397	398	)
+O	399	400	*
+O	400	401	*
+O	401	402	]
+O	403	404	3
+O	405	413	brothers
+O	413	414	,
+O	415	416	1
+O	417	423	sister
+O	423	424	,
+O	425	430	helps
+
+O	431	437	family
+O	438	440	wi
+O	441	450	childcare
+O	451	452	-
+O	453	456	not
+B-Employment	457	465	employed
+O	465	466	.
+
+O	467	469	Hx
+O	470	472	of
+O	473	481	multiple
+O	482	488	sexual
+
+O	489	497	partners
+O	498	503	since
+O	504	507	age
+O	508	510	13
+O	510	511	.
+
+O	512	515	Has
+O	516	519	had
+O	520	524	jail
+O	525	529	time
+O	530	532	in
+O	533	537	past
+O	537	538	.
+
+B-Tobacco	539	545	Smokes
+O	546	547	4
+O	548	551	cig
+O	551	552	/
+
+O	553	556	day
+O	557	560	per
+O	561	566	prior
+O	567	571	note
+O	572	576	from
+O	577	587	pediatrics
+O	588	590	at
+O	591	592	[
+O	592	593	*
+O	593	594	*
+O	594	603	Hospital1
+O	604	608	2177
+O	608	609	*
+O	609	610	*
+O	610	611	]
+
+O	612	614	Pt
+O	615	622	reports
+O	623	633	occasional
+O	634	637	use
+O	638	640	of
+B-Drug	641	643	MJ
+O	644	645	q
+O	646	647	2
+O	647	648	-
+O	648	649	3
+O	650	655	weeks
+O	655	656	,
+O	657	661	last
+O	662	663	1
+O	664	666	wk
+O	667	670	ago
+O	670	671	,
+O	672	675	but
+
+O	676	682	denies
+B-Drug	683	687	IVDU
+I-Drug	687	688	,
+I-Drug	689	696	cocaine
+I-Drug	696	697	,
+I-Drug	698	700	or
+I-Drug	701	706	other
+I-Drug	707	714	illicit
+I-Drug	715	720	drugs
+O	720	721	.
+
+O	722	726	Only
+O	727	733	drinks
+B-Alcohol	734	738	EtOH
+
+O	739	751	occasionally
+O	752	754	by
+O	755	761	report
+O	761	762	.

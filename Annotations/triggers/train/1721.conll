@@ -1,0 +1,58 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Alcohol	16	23	Alcohol
+O	23	24	:
+O	25	26	2
+O	27	33	drinks
+O	33	34	/
+O	34	39	night
+O	39	40	.
+
+B-Tobacco	41	48	Tobacco
+O	48	49	:
+O	50	52	50
+O	53	57	pack
+O	57	58	-
+O	58	63	years
+O	63	64	.
+
+B-Tobacco	65	74	Currently
+I-Tobacco	75	80	still
+I-Tobacco	81	88	smoking
+O	88	89	.
+
+B-Drug	90	95	Drugs
+O	95	96	:
+O	97	103	Denies
+O	103	104	.
+
+B-Employment	105	114	Currently
+I-Employment	115	122	retired
+O	122	123	.
+
+B-LivingStatus	124	129	Lives
+O	130	135	alone
+O	136	143	without
+O	144	154	assistance
+O	154	155	.
+
+O	156	165	Daughters
+O	166	168	in
+
+O	169	172	the
+O	173	177	area
+O	177	178	.
+
+O	179	183	Used
+O	184	186	to
+B-Employment	187	191	work
+O	192	194	as
+O	195	196	a
+O	197	206	secretary
+O	207	209	at
+O	210	211	a
+O	212	218	lumber
+O	219	223	mill
+O	223	224	.

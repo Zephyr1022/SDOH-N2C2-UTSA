@@ -1,0 +1,137 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	24	Divorced
+O	25	30	twice
+O	30	31	,
+O	32	36	with
+O	37	42	three
+O	43	51	children
+O	51	52	.
+
+O	53	63	Alcoholism
+O	64	68	made
+O	69	72	him
+O	73	77	lose
+
+O	78	81	his
+O	82	88	family
+O	89	92	and
+O	93	96	two
+O	97	107	businesses
+O	107	108	.
+
+B-Employment	109	115	Former
+I-Employment	116	126	carptenter
+O	126	127	.
+
+B-Alcohol	128	132	EtOH
+O	133	134	x
+O	135	140	years
+O	140	141	.
+
+B-Tobacco	142	148	Smokes
+O	149	150	1
+O	151	154	ppd
+O	155	156	x
+O	157	159	39
+O	160	165	years
+O	165	166	.
+
+O	167	169	No
+B-Drug	170	174	drug
+O	175	176	(
+O	176	178	IV
+O	179	181	or
+O	182	191	otherwise
+O	191	192	)
+O	192	193	.
+
+O	194	201	Reports
+
+O	202	208	recent
+O	209	215	period
+O	216	218	of
+O	219	227	sobriety
+O	228	229	(
+O	229	230	>
+O	230	231	2
+O	232	238	months
+O	238	239	)
+O	240	247	started
+B-Alcohol	248	256	drinking
+O	257	262	again
+O	263	264	2
+
+O	265	270	weeks
+O	271	274	ago
+O	274	275	,
+O	276	284	everyday
+O	285	286	"
+O	286	288	as
+O	289	293	much
+O	294	296	as
+O	297	299	he
+O	300	305	could
+O	306	309	get
+O	309	310	"
+O	310	311	.
+
+O	312	315	Was
+O	316	324	recently
+O	325	327	at
+
+O	328	329	[
+O	329	330	*
+O	330	331	*
+O	331	336	First
+O	337	342	Name8
+O	343	344	(
+O	344	356	NamePattern2
+O	356	357	)
+O	358	359	*
+O	359	360	*
+O	360	361	]
+O	362	363	[
+O	363	364	*
+O	364	365	*
+O	365	369	Last
+O	370	374	Name
+O	375	376	(
+O	376	388	NamePattern1
+O	388	389	)
+O	390	395	23752
+O	395	396	*
+O	396	397	*
+O	397	398	]
+O	399	404	house
+O	405	410	after
+O	411	412	d
+O	412	413	/
+O	413	414	c
+O	415	419	from
+O	420	421	[
+O	421	422	*
+O	422	423	*
+O	423	432	Hospital1
+O	433	436	392
+O	436	437	*
+O	437	438	*
+O	438	439	]
+O	440	443	and
+O	444	447	has
+O	448	452	been
+O	453	460	getting
+
+O	461	465	help
+O	466	470	with
+O	471	478	housing
+O	479	483	from
+O	484	485	a
+O	486	493	housing
+O	494	501	service
+O	502	504	in
+O	505	508	his
+O	509	513	area
+O	513	514	.

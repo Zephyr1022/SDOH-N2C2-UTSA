@@ -1,0 +1,22 @@
+T1	Tobacco 9 20	Tobacco Use
+T3	StatusTime 45 59	denies current
+T4	Alcohol 62 73	Alcohol Use
+T2	Duration 28 43	chronic history
+T5	Duration 75 82	chronic
+T6	StatusTime 75 122	chronic, patient doesn't believe it's a problem
+T7	Drug 126 134	Drug Use
+T8	Type 136 143	cocaine
+T9	History 145 154	last week
+T10	StatusTime 145 154	last week
+T11	LivingStatus 173 182	Residence
+T12	TypeLiving 192 205	own apartment
+T13	StatusTime 184 191	has her
+E1	Tobacco:T1 Status:T3 Duration:T2
+E2	Alcohol:T4 Duration:T5 Status:T6
+E3	Drug:T7 Type:T8 History:T9 Status:T10
+E4	LivingStatus:T11 Type:T12 Status:T13
+A2	StatusTimeVal T3 past
+A1	StatusTimeVal T6 current
+A3	StatusTimeVal T10 current
+A4	TypeLivingVal T12 alone
+A5	StatusTimeVal T13 current

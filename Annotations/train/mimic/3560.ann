@@ -1,0 +1,14 @@
+T1	LivingStatus 56 63	staying
+T2	TypeLiving 64 76	with friends
+T3	StatusTime 56 63	staying
+T4	Tobacco 145 154	cigarette
+T5	Type 145 154	cigarette
+T6	Drug 158 162	IVDU
+T7	Method 158 162	IVDU
+T8	StatusTime 127 144	denies any recent
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Type:T5 Status:T8
+E3	Drug:T6 Method:T7 Status:T8
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T8 none

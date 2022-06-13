@@ -1,0 +1,140 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	She
+O	20	22	is
+O	23	30	married
+O	30	31	.
+
+O	32	35	She
+O	36	39	has
+O	40	41	2
+O	42	47	grown
+O	48	52	sons
+O	53	57	that
+O	58	60	do
+O	61	64	not
+O	65	69	live
+O	70	74	with
+O	75	78	her
+O	78	79	.
+
+O	80	83	She
+B-Employment	84	94	previously
+I-Employment	95	101	worked
+O	102	104	as
+O	105	106	a
+O	107	112	nurse
+O	113	115	at
+O	116	119	the
+O	120	121	[
+O	121	122	*
+O	122	123	*
+O	123	128	State
+O	129	134	17405
+O	134	135	*
+O	135	136	*
+O	136	137	]
+O	137	138	.
+
+O	140	143	She
+O	144	150	drinks
+B-Alcohol	151	158	alcohol
+O	159	168	extremely
+O	169	175	rarely
+O	175	176	.
+
+O	178	181	She
+O	182	185	did
+
+B-Tobacco	186	191	smoke
+O	192	196	from
+O	197	200	the
+O	201	204	age
+O	205	207	of
+O	208	210	16
+O	211	213	to
+O	214	216	30
+O	217	219	up
+O	220	222	to
+O	223	224	4
+O	225	230	packs
+O	231	234	per
+O	235	238	day
+O	238	239	.
+
+O	241	244	She
+O	245	248	has
+
+O	249	254	never
+O	255	259	used
+B-Drug	260	269	marijuana
+I-Drug	269	270	,
+I-Drug	271	278	cocaine
+I-Drug	279	281	or
+I-Drug	282	288	heroin
+O	288	289	.
+
+O	291	294	She
+O	295	298	has
+O	299	304	never
+O	305	309	been
+
+O	310	317	exposed
+O	318	320	to
+O	321	329	asbestos
+O	330	334	that
+O	335	338	she
+O	339	344	knows
+O	345	347	of
+O	347	348	.
+
+O	350	353	She
+O	354	357	has
+O	358	363	lived
+O	364	366	in
+O	367	370	the
+
+O	371	380	Northeast
+O	381	384	her
+O	385	391	entire
+O	392	396	life
+O	396	397	.
+
+O	399	402	She
+O	403	407	does
+O	408	412	have
+O	413	414	a
+O	415	418	dog
+O	419	421	at
+O	422	426	home
+O	427	430	but
+O	431	433	no
+
+O	434	439	birds
+O	439	440	.
+
+O	442	445	She
+O	446	449	has
+O	450	453	not
+O	454	457	had
+O	458	461	any
+O	462	468	recent
+O	469	473	farm
+O	474	480	animal
+O	481	489	exposure
+O	489	490	,
+
+O	491	499	although
+O	500	503	she
+O	504	507	did
+O	508	512	live
+O	513	515	on
+O	516	517	a
+O	518	522	farm
+O	523	527	when
+O	528	531	she
+O	532	535	was
+O	536	543	younger
+O	543	544	.

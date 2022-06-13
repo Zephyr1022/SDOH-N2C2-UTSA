@@ -1,0 +1,20 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	SH
+O	18	19	:
+B-Employment	20	26	former
+I-Employment	27	35	software
+I-Employment	36	44	engineer
+O	44	45	.
+
+O	46	51	Brief
+B-Tobacco	52	55	tob
+O	56	58	in
+O	59	64	early
+O	65	68	20s
+O	68	69	.
+
+B-Alcohol	70	74	Rare
+I-Alcohol	75	79	etoh

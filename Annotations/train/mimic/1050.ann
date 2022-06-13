@@ -1,0 +1,35 @@
+T1	LivingStatus 24 29	lives
+T2	StatusTime 24 29	lives
+T3	TypeLiving 30 35	alone
+T4	Employment 127 132	works
+T5	StatusEmploy 127 132	works
+T6	Type 136 143;144 171	heating and air-conditioning repair
+T7	Tobacco 217 224	tobacco
+T9	StatusTime 206 212	denies
+T8	Alcohol 228 239	alcohol use
+T10	Tobacco 244 259	formerly smoekd
+T11	StatusTime 244 259	formerly smoekd
+T12	Amount 260 265	1 PPD
+T13	Duration 266 278;279 284	for about 17 years
+T14	Alcohol 309 331	formerly drank heavily
+T15	StatusTime 309 331	formerly drank heavily
+T20	LivingStatus 108 113	lives
+T21	StatusTime 108 113	lives
+T22	TypeLiving 114 122	with him
+T23	History 351 372	for about three years
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T9
+E4	Alcohol:T8 Status:T9
+E5	Tobacco:T10 Status:T11 Amount:T12 Duration:T13 History:T16
+E6	Alcohol:T14 Status:T15 History:T23
+E8	LivingStatus:T20 Status:T21 Type:T22
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T11 past
+A6	StatusTimeVal T15 past
+A9	StatusTimeVal T21 current
+A10	TypeLivingVal T22 with_family
+T16	History 295 304	at age 29

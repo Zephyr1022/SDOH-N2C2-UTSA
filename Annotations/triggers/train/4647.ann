@@ -1,0 +1,5 @@
+T1	Tobacco 71 78	smoking
+T3	Alcohol 88 92	ETOH
+T6	Drug 102 114;115 118	illicit drug use
+T9	LivingStatus 120 125	lives
+T18	Employment 439 444	works

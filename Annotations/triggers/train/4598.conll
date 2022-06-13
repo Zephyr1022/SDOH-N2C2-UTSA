@@ -1,0 +1,26 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	24	in
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	36	Location
+O	37	41	7533
+O	41	42	*
+O	42	43	*
+O	43	44	]
+O	44	45	.
+
+B-Employment	46	53	Retired
+I-Employment	54	62	business
+I-Employment	63	66	man
+O	66	67	.
+
+B-Alcohol	69	73	ETOH
+O	73	74	,
+B-Tobacco	75	82	Smoking
+O	82	83	,
+B-Drug	84	88	Drug

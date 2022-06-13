@@ -1,0 +1,18 @@
+T1	Alcohol 23 31	EtOH use
+T2	StatusTime 16 22	Denied
+T3	Tobacco 43 50	tob use
+T4	StatusTime 32 42	History of
+T7	Employment 104 112	a lawyer
+T8	StatusEmploy 100 103	Was
+T9	LivingStatus 117 122	lives
+T10	TypeLiving 126 164	the medical unit of Kerner-Scott House
+T11	StatusTime 117 122	lives
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+E4	Employment:T7 Status:T8
+E5	LivingStatus:T9 Status:T11 Type:T10
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A3	StatusEmployVal T8 unemployed
+A4	TypeLivingVal T10 with_others
+A5	StatusTimeVal T11 current

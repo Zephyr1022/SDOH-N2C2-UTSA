@@ -1,0 +1,9 @@
+T1	Alcohol 39 49	alcoholism
+T2	StatusTime 35 38	h/o
+T3	Drug 54 67	cocaine abuse
+T4	StatusTime 50 53	h/o
+T5	Type 54 61	cocaine
+E1	Alcohol:T1 Status:T2
+E2	Drug:T3 Status:T4 Type:T5
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 current

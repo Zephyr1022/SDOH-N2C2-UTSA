@@ -1,0 +1,16 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	in
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	36	Location
+O	37	42	10549
+O	42	43	*
+O	43	44	*
+O	44	45	]
+O	46	52	living
+O	53	61	facility

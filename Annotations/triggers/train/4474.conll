@@ -1,0 +1,32 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Drug	9	16	Canabas
+
+O	18	24	SOCIAL
+O	25	32	HISTORY
+O	32	33	:
+
+O	35	36	[
+O	36	37	x
+O	37	38	]
+O	39	45	Unable
+O	46	48	to
+O	49	55	Obtain
+O	56	59	due
+O	60	62	to
+O	63	70	Patient
+O	71	80	Condition
+
+B-LivingStatus	81	86	Lives
+O	87	89	in
+O	90	97	shelter
+O	97	98	,
+O	99	101	pt
+O	102	106	does
+O	107	110	not
+O	111	115	know
+O	116	119	the
+O	120	128	location
+O	128	129	/
+O	129	133	name

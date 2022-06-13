@@ -1,0 +1,26 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	20	Has
+O	21	25	been
+O	26	28	in
+O	29	33	jail
+O	34	41	custody
+O	42	45	for
+O	46	49	the
+O	50	54	past
+O	55	56	1
+O	57	60	day
+O	60	61	.
+
+O	62	67	Prior
+O	68	79	endorsement
+O	80	82	of
+B-Tobacco	83	90	tobacco
+O	90	91	,
+B-Drug	92	94	MJ
+I-Drug	94	95	,
+I-Drug	96	99	and
+I-Drug	100	103	PCP
+O	103	104	.

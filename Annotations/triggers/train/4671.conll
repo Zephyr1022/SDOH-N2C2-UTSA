@@ -1,0 +1,27 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	hx
+O	19	24	heavy
+B-Alcohol	25	33	drinking
+O	34	40	denies
+B-Drug	41	45	IVDU
+O	46	47	<
+O	47	50	1yr
+O	51	53	hx
+B-Tobacco	54	61	smoking
+B-LivingStatus	62	67	lives
+O	68	72	with
+O	73	76	mom
+
+O	77	82	never
+O	83	90	married
+O	91	95	used
+O	96	98	to
+B-Employment	99	103	work
+O	104	106	as
+O	107	116	operation
+O	117	127	microscope
+O	128	134	repair
+O	135	138	man

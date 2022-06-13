@@ -1,0 +1,24 @@
+T1	Drug 50 69	opioids and cocaine
+T2	Type 50 69	opioids and cocaine
+T4	Duration 24 37	for 2-3 years
+T5	StatusTime 24 37	for 2-3 years
+T6	LivingStatus 260 265	lives
+T7	TypeLiving 266 274;275 321	with his girlfriend in an apartment with their daughter
+T8	StatusTime 260 265	lives
+T9	Employment 344 354	unemployed
+T10	StatusEmploy 344 354	unemployed
+E1	Drug:T1 Type:T2 Duration:T4 Status:T5
+E2	LivingStatus:T6 Type:T7 Status:T8
+E3	Employment:T9 Status:T10
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T7 with_others
+A4	StatusTimeVal T8 current
+A5	StatusEmployVal T10 unemployed
+T3	Drug 190 202	opioid abuse
+E4	Drug:T3 Status:T11
+T11	StatusTime 170 185	concerned about
+A1	StatusTimeVal T11 current
+T12	Drug 135 142	cocaine
+E5	Drug:T12 Status:T13
+T13	StatusTime 143 147;148 155	is a problem
+A6	StatusTimeVal T13 current

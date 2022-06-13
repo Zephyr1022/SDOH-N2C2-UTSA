@@ -1,0 +1,48 @@
+T1	Tobacco 18 25	Tobacco
+T2	StatusTime 27 35	Mild use
+T4	Alcohol 38 45	Alcohol
+T5	StatusTime 48 56	Mild use
+T7	Drug 59 67	Illicits
+T8	Type 59 67	Illicits
+T9	StatusTime 70 80	Denies use
+T10	LivingStatus 85 90	Lives
+T11	StatusTime 85 90	Lives
+T12	TypeLiving 91 103	with parents
+T13	Employment 165 168	job
+T14	StatusEmploy 150 168	Recently lefft job
+T15	Type 172 189	billing/desk work
+T16	History 190 201	2 weeks ago
+T17	Tobacco 203 209	Smokes
+T18	StatusTime 203 209	Smokes
+T19	Type 220 230	cigarettes
+T20	Frequency 230 234	/day
+T21	Amount 210 230	[**3-6**] cigarettes
+T22	Alcohol 236 242	Drinks
+T23	StatusTime 236 242	Drinks
+T24	Frequency 243 257	3 times a week
+T25	Amount 259 267	4 drinks
+T26	StatusTime 294 300	denies
+T29	Drug 301 329	cocaine or other illicit use
+T30	Type 301 325	cocaine or other illicit
+T31	Drug 279 292	Marijuana use
+T32	Type 279 288	Marijuana
+T33	StatusTime 279 292	Marijuana use
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T4 Status:T5
+E3	Drug:T7 Type:T8 Status:T9
+E4	LivingStatus:T10 Status:T11 Type:T12
+E5	Employment:T13 Status:T14 Type:T15 History:T16
+E6	Tobacco:T17 Status:T18 Amount:T21 Type:T19 Frequency:T20
+E7	Alcohol:T22 Status:T23 Frequency:T24 Amount:T25
+E9	Drug:T29 Type:T30 Status:T26
+E10	Drug:T31 Status:T33 Type:T32
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T5 current
+A5	StatusTimeVal T9 none
+A6	StatusTimeVal T11 current
+A7	TypeLivingVal T12 with_family
+A8	StatusEmployVal T14 unemployed
+A9	StatusTimeVal T18 current
+A10	StatusTimeVal T23 current
+A11	StatusTimeVal T26 none
+A12	StatusTimeVal T33 current

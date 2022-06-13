@@ -1,0 +1,35 @@
+T1	Tobacco 188 195	Tobacco
+T2	StatusTime 197 207	Previously
+T3	Duration 208 216	40+ year
+T4	Amount 218 223	2 PPD
+T5	LivingStatus 174 186	homelessness
+T6	TypeLiving 174 186	homelessness
+T7	StatusTime 163 173	history of
+T8	LivingStatus 32 40	homeless
+T9	StatusTime 17 40	Intermittently homeless
+T10	TypeLiving 32 40	homeless
+T11	LivingStatus 51 58	staying
+T12	TypeLiving 59 88	with his ex-wife and daughter
+T13	StatusTime 144 157	recently left
+T14	Duration 122 138	for about 1 week
+T15	History 109 121	two days ago
+T16	Drug 314 318	IVDU
+T17	StatusTime 303 313	history of
+E1	Tobacco:T1 Status:T2 Duration:T3 Amount:T4
+E2	LivingStatus:T5 Status:T7 Type:T6
+E3	LivingStatus:T8 Status:T9 Type:T10
+E4	LivingStatus:T11 Type:T12 Status:T13 History:T15 Duration:T14
+E5	Drug:T16 Status:T17 Method:T18
+A1	StatusTimeVal T2 past
+A2	TypeLivingVal T6 homeless
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T10 homeless
+A6	TypeLivingVal T12 with_family
+A7	StatusTimeVal T13 past
+A8	StatusTimeVal T17 current
+T18	Method 314 318	IVDU
+T19	Alcohol 276 290	non-etoh using
+E6	Alcohol:T19 Status:T20
+T20	StatusTime 262 275	documented as
+A9	StatusTimeVal T20 none

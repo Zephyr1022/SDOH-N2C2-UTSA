@@ -1,0 +1,92 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	25	Currently
+B-LivingStatus	26	31	lives
+O	32	34	in
+O	35	36	a
+O	37	44	shelter
+O	44	45	,
+O	46	47	?
+O	47	53	mother
+O	54	56	in
+O	57	60	the
+O	61	65	area
+O	65	66	.
+
+O	67	73	Denies
+
+B-Tobacco	74	81	tobacco
+O	81	82	,
+B-Alcohol	83	90	alcohol
+O	91	93	or
+B-Drug	94	101	illicit
+I-Drug	102	107	drugs
+O	108	111	but
+O	112	115	has
+O	116	123	history
+O	124	126	of
+B-Alcohol	127	134	alcohol
+
+O	135	145	dependence
+O	146	149	per
+O	150	158	Partners
+O	159	166	records
+O	166	167	.
+
+O	168	177	Otherwise
+O	178	181	not
+O	182	193	forthcoming
+O	193	194	.
+
+O	196	199	Per
+O	200	210	Psychiatry
+O	211	212	(
+O	212	215	and
+O	216	222	review
+O	223	225	of
+O	226	234	Partners
+O	235	242	records
+O	242	243	)
+O	243	244	,
+O	245	252	patient
+O	253	256	has
+O	257	260	had
+
+O	261	266	three
+O	267	275	previous
+O	276	283	suicide
+O	284	292	attempts
+O	293	297	with
+B-Drug	298	305	tylenol
+I-Drug	306	315	overdoses
+O	315	316	,
+O	317	320	had
+
+O	321	326	first
+O	327	332	manic
+O	333	338	break
+O	339	341	at
+O	342	344	25
+O	345	350	years
+O	351	354	old
+B-Employment	355	357	as
+I-Employment	358	364	Master
+I-Employment	364	365	'
+I-Employment	365	366	s
+I-Employment	367	374	student
+O	375	377	in
+
+O	378	388	Psychology
+O	389	391	at
+O	392	393	[
+O	393	394	*
+O	394	395	*
+O	395	405	University
+O	405	406	/
+O	406	413	College
+O	414	415	*
+O	415	416	*
+O	416	417	]
+O	417	418	.

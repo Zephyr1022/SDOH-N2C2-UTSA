@@ -1,0 +1,10 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	25	Positive
+B-Alcohol	26	30	ETOH
+O	30	31	.
+
+O	33	41	Positive
+B-Tobacco	42	49	tobacco
+O	49	50	.

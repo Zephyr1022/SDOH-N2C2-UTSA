@@ -1,0 +1,16 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 36	with his wife.
+T3	StatusTime 16 21	Lives
+T4	Tobacco 60 66	Smoked
+T5	StatusTime 60 66	Smoked
+T6	History 67 83	until [**2170**]
+T7	Employment 85 91	Worked
+T8	Type 95 113	a Systems Engineer
+T9	StatusEmploy 85 91	Worked
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Employment:T7 Type:T8 Status:T9
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 past
+A4	StatusEmployVal T9 unemployed

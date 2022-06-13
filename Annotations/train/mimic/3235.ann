@@ -1,0 +1,28 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	Quit
+T3	History 35 47	10 years ago
+T4	Alcohol 96 107	Alcohol Use
+T5	StatusTime 109 113	Quit
+T6	History 134 160	approximately 10 years ago
+T8	Drug 200 208	Drug Use
+T9	Method 224 228	IVDU
+T10	StatusTime 210 220	No history
+T11	Drug 244 253	marijuana
+T12	Type 244 253	marijuana
+T13	History 254 266	10 years ago
+T14	StatusTime 231 235	quit
+T15	Method 236 243	smoking
+T16	LivingStatus 296 301	lives
+T17	StatusTime 296 301	lives
+T18	TypeLiving 318 330	with her son
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Alcohol:T4 Status:T5 History:T6
+E3	Drug:T8 Status:T10 Method:T9
+E4	Drug:T11 Type:T12 Method:T15 Status:T14 History:T13
+E5	LivingStatus:T16 Status:T17 Type:T18
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 past
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T14 past
+A6	StatusTimeVal T17 current
+A7	TypeLivingVal T18 with_family

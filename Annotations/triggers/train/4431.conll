@@ -1,0 +1,34 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	26	none
+B-Alcohol	29	36	Alcohol
+I-Alcohol	37	40	Use
+O	40	41	:
+O	42	46	none
+B-Drug	49	53	Drug
+I-Drug	54	57	Use
+O	57	58	:
+O	59	63	none
+
+O	65	71	SOCIAL
+O	72	79	HISTORY
+O	79	80	:
+
+O	82	87	lives
+O	88	90	at
+O	91	92	[
+O	92	100	LOCATION
+O	100	101	]
+O	101	102	,
+O	103	106	son
+O	107	108	[
+O	108	112	NAME
+O	112	113	]
+O	114	116	in
+O	117	118	[
+O	118	126	LOCATION
+O	126	127	]

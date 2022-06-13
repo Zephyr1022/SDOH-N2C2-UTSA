@@ -1,0 +1,67 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	on
+O	25	29	Cape
+O	30	31	w
+O	31	32	/
+O	33	37	wife
+O	38	41	who
+O	42	44	is
+O	45	46	[
+O	46	47	*
+O	47	48	*
+O	48	52	Name
+O	53	60	Initial
+O	61	62	(
+O	62	64	MD
+O	64	65	)
+O	66	67	*
+O	67	68	*
+O	68	69	]
+O	70	76	former
+O	77	79	RN
+O	79	80	.
+
+O	82	83	3
+O	84	92	children
+O	93	97	from
+
+O	98	106	previous
+O	107	115	marriage
+O	115	116	.
+
+B-Tobacco	117	124	Tobacco
+O	125	126	>
+O	126	130	1PPD
+O	131	132	X
+O	133	134	>
+O	134	136	20
+O	137	140	yrs
+O	140	141	,
+O	142	146	quit
+O	147	148	[
+O	148	149	*
+O	149	150	*
+O	150	154	2187
+O	154	155	*
+O	155	156	*
+O	156	157	]
+O	157	158	.
+
+O	160	166	Former
+
+B-Alcohol	167	171	ETOH
+I-Alcohol	172	177	abuse
+O	177	178	,
+O	179	182	now
+O	183	186	occ
+O	186	187	.
+
+B-Alcohol	188	192	ETOH
+O	192	193	.
+
+O	195	197	NO
+B-Drug	198	202	IVDU

@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: Denies   
+Alcohol Use: Denies
+Drug Use: Denies
+
+SOCIAL HISTORY: 
+Pt lives in a house in [LOCATION] with her daughter. She was born in [LOCATION] and speaks Amharic. She uses a walker at baseline.

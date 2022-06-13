@@ -1,0 +1,76 @@
+O	0	6	Habits
+O	6	7	:
+
+O	8	18	Marijuanna
+O	19	22	use
+O	23	29	Qmonth
+
+O	30	31	3
+O	32	34	yr
+O	35	37	hx
+O	38	40	of
+O	41	47	heroin
+O	48	53	abuse
+O	53	54	,
+O	55	56	1
+O	57	59	yr
+O	60	62	IM
+O	62	63	,
+O	64	65	2
+O	66	68	yr
+O	69	71	IV
+O	71	72	.
+O	74	79	sober
+O	80	85	since
+O	86	87	[
+O	87	91	DATE
+O	91	92	]
+
+O	93	101	abstains
+O	102	106	from
+B-Alcohol	107	111	EtOH
+
+O	112	114	no
+O	115	120	other
+O	121	128	illicit
+O	129	133	drug
+O	134	137	use
+
+O	139	145	FAMILY
+O	146	153	HISTORY
+
+O	154	158	T2DM
+O	158	159	,
+O	160	162	TB
+O	163	171	positive
+O	172	176	test
+O	177	179	in
+O	180	186	mother
+
+O	187	193	father
+O	194	201	healthy
+
+O	202	213	Grandmother
+O	214	218	with
+O	219	231	fibromyalgia
+
+O	232	238	Family
+O	239	241	hx
+O	242	244	of
+O	245	249	EtOH
+O	250	255	abuse
+O	256	258	on
+O	259	265	mother
+O	265	266	'
+O	266	267	s
+O	268	272	side
+O	273	275	of
+O	276	282	family
+
+O	283	284	2
+O	285	292	healthy
+O	293	300	sisters
+
+O	302	308	REVIEW
+O	309	311	OF
+O	312	319	SYSTEMS

@@ -1,0 +1,29 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	18	h
+O	18	19	/
+O	19	20	o
+O	21	24	tob
+O	24	25	,
+O	26	29	now
+O	30	32	on
+O	33	41	nicotine
+O	42	47	patch
+
+O	48	54	denies
+B-Alcohol	55	59	ETOH
+I-Alcohol	60	63	use
+
+O	64	65	+
+O	66	73	cocaine
+O	74	77	and
+O	78	84	heroin
+O	85	86	-
+O	87	91	last
+O	92	95	use
+O	96	100	appr
+O	101	102	1
+O	103	106	mth
+O	107	110	ago

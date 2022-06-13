@@ -1,0 +1,15 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Married
+O	23	24	.
+
+B-Employment	25	32	Retired
+I-Employment	33	42	telephone
+I-Employment	43	49	worker
+O	49	50	.
+
+O	51	57	Social
+B-Alcohol	58	65	alcohol
+O	65	66	.

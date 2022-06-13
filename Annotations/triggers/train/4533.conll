@@ -1,0 +1,23 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Tobacco	16	22	smokes
+O	23	24	1
+O	25	28	ppd
+O	29	32	for
+O	33	35	10
+O	36	41	years
+
+B-Alcohol	42	48	drinks
+O	49	50	"
+O	50	58	socially
+O	58	59	"
+
+O	60	66	denied
+B-Drug	67	71	drug
+I-Drug	72	75	use
+O	76	83	despite
+O	84	92	positive
+O	93	96	tox
+O	97	103	screen

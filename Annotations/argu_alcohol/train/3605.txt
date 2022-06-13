@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: none  Alcohol Use: rare   Drug Use: medical marijuana
+
+SOCIAL HISTORY: 
+[_] Unable to Obtain due to Patient Condition
+Residence: Lives with partner in [LOCATION] area who is his decision maker.

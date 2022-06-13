@@ -1,0 +1,23 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	-
+O	18	25	Tobacco
+O	25	26	:
+O	27	33	denies
+
+O	34	35	-
+O	36	44	Illicits
+O	44	45	:
+O	46	52	denies
+
+O	53	54	-
+O	55	61	Living
+O	62	71	Situation
+O	71	72	:
+O	73	80	student
+O	81	83	at
+O	84	85	[
+O	85	93	LOCATION
+O	93	94	]

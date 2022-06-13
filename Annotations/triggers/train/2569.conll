@@ -1,0 +1,17 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-Alcohol	17	27	Occasional
+I-Alcohol	28	35	alcohol
+O	35	36	.
+
+O	38	44	Stably
+O	45	51	housed
+O	51	52	.
+
+O	54	60	Denies
+B-Tobacco	61	68	tobacco
+O	69	71	or
+B-Drug	72	77	drugs
+O	77	78	.

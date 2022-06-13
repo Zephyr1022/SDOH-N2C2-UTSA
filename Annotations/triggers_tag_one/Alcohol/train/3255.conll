@@ -1,0 +1,51 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	19	He
+O	20	25	lives
+O	26	31	alone
+
+O	32	34	He
+O	35	37	is
+O	38	40	to
+O	41	45	have
+O	46	47	a
+O	48	55	history
+O	56	58	of
+B-Alcohol	59	69	alcoholism
+O	70	74	quit
+O	75	77	35
+O	78	83	years
+O	84	87	ago
+
+O	88	94	Smoked
+O	95	98	but
+O	99	103	quit
+O	104	106	30
+O	107	112	years
+O	113	116	ago
+
+O	117	119	No
+O	120	125	drugs
+
+O	126	128	He
+O	129	133	used
+O	134	136	to
+O	137	141	work
+O	142	144	at
+O	145	152	Kindred
+O	153	161	Hospital
+O	162	168	mental
+O	169	175	health
+O	176	184	services
+O	185	188	and
+O	189	195	wishes
+O	196	200	that
+O	201	203	he
+O	204	209	could
+O	210	213	get
+O	214	218	back
+O	219	221	to
+O	222	226	work
+O	226	227	.

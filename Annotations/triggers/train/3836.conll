@@ -1,0 +1,59 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	23	2
+O	24	34	cigarettes
+O	34	35	/
+O	35	38	day
+O	39	42	per
+O	43	48	chart
+O	49	50	-
+O	51	56	tells
+O	57	59	me
+O	60	63	she
+O	64	66	is
+O	67	69	no
+O	70	76	longer
+O	77	84	smoking
+O	84	85	.
+
+B-Alcohol	87	94	Alcohol
+I-Alcohol	95	98	Use
+O	98	99	:
+O	100	104	none
+B-Drug	106	110	Drug
+I-Drug	111	114	Use
+O	114	115	:
+O	116	120	none
+
+O	122	128	SOCIAL
+O	129	136	HISTORY
+O	136	137	:
+
+B-LivingStatus	139	148	Currently
+I-LivingStatus	149	154	lives
+O	155	157	at
+O	158	169	Hearthstone
+O	169	170	.
+
+O	171	172	[
+O	172	176	NAME
+O	176	177	]
+O	177	178	,
+O	179	184	works
+O	185	187	as
+O	188	193	nurse
+O	194	196	at
+O	197	202	Group
+O	203	209	Health
+O	210	218	Hospital
+O	218	219	.
+
+O	220	230	Previously
+B-Employment	231	232	a
+I-Employment	233	237	home
+I-Employment	238	243	maker
+O	243	244	.

@@ -1,0 +1,60 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	24	Exsmoker
+O	24	25	,
+O	26	31	lives
+O	32	37	alone
+O	38	40	in
+O	41	44	her
+O	45	51	ground
+O	52	57	floor
+O	58	67	apartment
+O	67	68	.
+
+O	69	73	Uses
+O	74	76	O2
+
+O	77	80	prn
+O	80	81	.
+
+O	82	91	Mobilizes
+O	92	96	with
+O	97	103	walker
+O	104	107	and
+O	108	112	cane
+O	112	113	.
+
+O	114	121	Friends
+O	122	124	do
+O	125	132	errands
+O	133	136	for
+O	137	140	her
+O	140	141	.
+
+O	142	146	Does
+O	147	150	not
+O	151	154	get
+O	155	158	out
+O	159	161	of
+O	162	165	the
+O	166	171	house
+O	171	172	.
+
+O	173	177	Gets
+O	178	181	SOB
+O	182	189	walking
+O	190	197	minimal
+
+O	198	207	distances
+O	207	208	.
+
+O	209	213	Does
+O	214	217	not
+O	218	223	drink
+B-Alcohol	224	228	ETOH
+O	229	231	or
+O	232	235	use
+O	236	244	illicits
+O	244	245	.

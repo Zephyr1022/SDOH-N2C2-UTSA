@@ -1,0 +1,12 @@
+T1	LivingStatus 50 58	homeless
+T2	StatusTime 59 70	in the past
+T3	TypeLiving 50 58	homeless
+T4	Tobacco 246 249	Tob
+T5	Alcohol 251 255	EtOH
+T6	StatusTime 243 245	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T6
+E3	Alcohol:T5 Status:T6
+A1	StatusTimeVal T2 past
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T6 none

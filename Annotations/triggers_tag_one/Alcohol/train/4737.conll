@@ -1,0 +1,35 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	[
+O	17	18	*
+O	18	19	*
+O	19	25	Social
+O	26	34	Security
+O	35	41	Number
+O	42	47	83573
+O	47	48	*
+O	48	49	*
+O	49	50	]
+O	50	56	Social
+O	57	65	Security
+O	66	76	disability
+O	76	77	.
+
+O	78	79	.
+
+O	80	86	HABITS
+O	86	87	:
+
+O	88	92	long
+O	92	93	-
+O	93	101	standing
+B-Alcohol	102	111	alcoholic
+O	112	115	and
+O	116	122	smoker
+O	122	123	.
+O	124	132	daughter
+O	133	139	unable
+O	140	142	to
+O	143	151	quantify

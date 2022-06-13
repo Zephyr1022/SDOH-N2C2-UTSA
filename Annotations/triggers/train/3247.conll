@@ -1,0 +1,54 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	26	Residence
+O	26	27	:
+
+O	29	34	Lives
+O	35	37	in
+O	38	39	a
+O	40	45	house
+O	46	50	with
+O	51	53	14
+O	54	59	other
+O	60	66	people
+O	66	67	.
+O	67	68	.
+
+B-LivingStatus	70	76	Living
+I-LivingStatus	77	86	situation
+O	86	87	:
+
+O	89	94	Lives
+O	95	99	with
+O	100	106	others
+O	106	107	.
+
+B-Employment	109	119	Employment
+O	119	120	:
+
+O	122	132	Unemployed
+O	132	133	.
+
+B-Tobacco	135	142	Tobacco
+I-Tobacco	143	146	use
+O	146	147	:
+
+O	149	155	Denies
+O	155	156	.
+
+B-Alcohol	158	165	Alcohol
+I-Alcohol	166	169	use
+O	169	170	:
+O	171	177	denies
+O	177	178	.
+
+B-Drug	180	184	Drug
+I-Drug	185	188	use
+O	188	189	:
+
+O	191	200	Marijuana
+O	200	201	:
+O	202	212	occasional
+O	213	214	.

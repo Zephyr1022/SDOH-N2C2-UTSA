@@ -1,0 +1,61 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	26	with
+O	27	30	her
+O	31	37	mother
+O	38	41	and
+O	42	48	father
+O	49	51	in
+O	52	53	[
+O	53	61	LOCATION
+O	61	62	]
+O	63	68	since
+O	69	78	discharge
+O	79	83	from
+O	84	93	inpatient
+O	94	99	Rehab
+O	100	108	facility
+O	108	109	.
+
+O	110	113	She
+O	114	116	is
+O	117	120	not
+O	121	128	working
+O	128	129	.
+
+O	130	133	She
+O	134	137	has
+O	138	142	been
+O	143	147	drug
+O	148	151	and
+B-Alcohol	152	156	etoh
+O	157	161	free
+O	162	165	for
+O	166	170	over
+O	171	172	6
+O	173	179	months
+O	179	180	.
+
+O	183	189	Vitals
+O	190	191	(
+O	191	195	Most
+O	196	202	recent
+O	203	206	and
+O	207	209	24
+O	210	214	hour
+O	215	220	range
+O	220	221	.
+O	221	222	)
+
+O	224	226	No
+O	227	233	Vitals
+O	234	242	Recorded
+O	242	243	.
+
+O	245	246	I
+O	246	247	&
+O	247	248	O
+O	249	253	Data

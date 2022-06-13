@@ -1,0 +1,18 @@
+T1	Employment 23 34	a housewife
+T2	StatusEmploy 23 34	a housewife
+T3	Tobacco 73 80	smoking
+T4	StatusTime 62 72	Denies any
+T5	Alcohol 82 92	ETOH abuse
+T6	Amount 94 113	[**12-19**] glasses
+T7	Type 117 121	wine
+T8	Frequency 122 128	weekly
+T10	StatusTime 94 128	[**12-19**] glasses of wine weekly
+T11	Drug 134 139;140 153	other illegal drugs
+T12	Type 134 139;140 147	other illegal
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+E3	Alcohol:T5 Status:T10 Amount:T6 Type:T7 Frequency:T8
+E4	Drug:T11 Type:T12 Status:T4
+A1	StatusEmployVal T2 homemaker
+A2	StatusTimeVal T4 none
+A4	StatusTimeVal T10 current

@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: yes   Alcohol Use: unknown  Drug Use: IVDU
+
+SOCIAL HISTORY: 
+Residence: Homeless

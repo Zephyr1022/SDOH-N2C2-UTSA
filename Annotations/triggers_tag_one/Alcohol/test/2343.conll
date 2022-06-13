@@ -1,0 +1,34 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	18	25	Patient
+O	26	35	currently
+O	36	41	lives
+O	42	44	in
+O	45	46	[
+O	46	54	LOCATION
+O	54	55	]
+O	56	60	with
+O	61	64	his
+O	65	69	wife
+O	70	73	and
+O	74	82	children
+O	82	83	.
+
+O	84	91	Patient
+O	92	97	works
+O	98	100	as
+O	101	102	a
+O	103	113	dishwasher
+O	113	114	.
+
+O	116	123	Patient
+O	124	130	denies
+O	131	138	alcohol
+O	138	139	,
+O	140	147	tobacco
+O	148	150	or
+O	151	158	illicit
+O	159	164	drugs
+O	164	165	.

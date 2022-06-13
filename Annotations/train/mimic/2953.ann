@@ -1,0 +1,30 @@
+T1	LivingStatus 9 18	Residence
+T2	TypeLiving 20 28	Homeless
+T3	StatusTime 80 112	now living in [LOCATION] shelter
+T4	Tobacco 123 129	smoker
+T5	StatusTime 115 122	Current
+T6	Amount 131 151	40 pack year history
+T7	Drug 180 199	methamphetamine use
+T8	Type 180 195	methamphetamine
+T9	StatusTime 161 179	occasional ongoing
+T10	Method 201 238	smoking and snorting, never injection
+T11	History 249 260	1 month ago
+T12	Drug 283 293	heroin use
+T13	Type 283 289	heroin
+T14	Method 295 302	injects
+T15	History 430 455	approximately 1 month ago
+T16	StatusTime 262 279	Report many years
+T19	Alcohol 622 630	EtOH use
+T22	StatusTime 604 615	-Previously
+T23	History 646 659	~30 years ago
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5 Amount:T6
+E3	Drug:T7 Type:T8 Status:T9 Method:T10 History:T11
+E4	Drug:T12 Type:T13 Method:T14 History:T15 Status:T16
+E6	Alcohol:T19 Status:T22 History:T23
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T16 current
+A8	StatusTimeVal T22 past

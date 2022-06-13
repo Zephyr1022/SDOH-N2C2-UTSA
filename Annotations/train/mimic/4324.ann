@@ -1,0 +1,5 @@
+T4	Tobacco 441 455	Smoking status
+T5	StatusTime 457 464	Current
+T6	Frequency 465 474	Every Day
+E2	Tobacco:T4 Status:T5 Frequency:T6
+A2	StatusTimeVal T5 current

@@ -1,0 +1,35 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+B-LivingStatus	29	34	lives
+O	35	40	alone
+O	40	41	.
+
+O	43	45	He
+O	46	48	is
+B-Employment	49	51	on
+
+B-Employment	52	62	disability
+O	62	63	.
+
+O	65	67	He
+B-Tobacco	68	74	smokes
+O	75	76	a
+O	77	81	pipe
+O	82	84	or
+O	85	90	cigar
+O	91	103	occasionally
+O	103	104	.
+
+O	106	108	No
+
+O	109	116	history
+O	117	119	of
+B-Alcohol	120	127	ethanol
+O	128	130	or
+B-Drug	131	142	intravenous
+I-Drug	143	147	drug
+I-Drug	148	151	use
+O	151	152	.

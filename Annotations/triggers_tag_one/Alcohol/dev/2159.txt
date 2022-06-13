@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: denies   Alcohol Use: denies any use since diagnosis  Drug Use: denies
+
+SOCIAL HISTORY: 
+Lives with daughter in [LOCATION]. Used to work as therapist and was very active - former dancer, completed marathons/triathalons.

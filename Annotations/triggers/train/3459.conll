@@ -1,0 +1,24 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	25	in
+O	26	33	private
+O	34	43	residence
+O	44	46	in
+O	47	48	[
+O	48	56	LOCATION
+O	56	57	]
+O	57	58	.
+
+B-Tobacco	60	66	Smokes
+O	66	67	.
+
+B-Alcohol	69	73	Rare
+I-Alcohol	74	81	alcohol
+O	81	82	.
+
+O	84	90	Denies
+B-Drug	91	95	drug
+I-Drug	96	99	use

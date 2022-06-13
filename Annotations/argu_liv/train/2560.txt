@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: previous 'social' smoker   Alcohol Use: denies recent use   Drug Use: endorses past use of cocaine, denies IVDU
+
+SOCIAL HISTORY: 
+Lives in a house in [LOCATION] with a female roommate.
+Former smoker, alcohol dependence, nasal cocaine use, last use gt5 years ago.
+Professional musician, previously played for [LOCATION].

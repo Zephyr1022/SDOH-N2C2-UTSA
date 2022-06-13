@@ -1,0 +1,47 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	She
+O	21	24	did
+O	25	28	not
+O	29	33	have
+O	34	37	any
+B-Tobacco	38	45	tobacco
+I-Tobacco	46	53	history
+O	53	54	,
+
+O	55	63	although
+O	64	67	she
+O	68	71	did
+O	72	76	have
+O	77	80	one
+O	81	86	drink
+O	87	90	per
+O	91	94	day
+O	95	97	of
+B-Alcohol	98	105	alcohol
+O	106	111	until
+
+O	112	117	about
+O	118	121	two
+O	122	128	months
+O	129	134	prior
+O	135	137	to
+O	138	141	her
+O	142	151	admission
+O	151	152	.
+
+O	154	157	She
+B-LivingStatus	158	163	lives
+O	164	168	with
+O	169	170	a
+
+O	171	175	male
+O	176	183	partner
+O	184	188	with
+O	189	190	a
+O	191	198	history
+O	199	201	of
+O	202	208	verbal
+O	209	214	abuse
+O	215	216	.

@@ -1,0 +1,11 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	16	22	Denies
+B-Tobacco	23	30	tobacco
+O	30	31	,
+B-Alcohol	32	39	alcohol
+O	39	40	,
+B-Drug	41	49	illicits
+O	49	50	.

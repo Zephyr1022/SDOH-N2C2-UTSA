@@ -1,0 +1,35 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	23	Student
+O	24	26	at
+O	27	28	[
+O	28	29	*
+O	29	30	*
+O	30	39	Hospital1
+O	40	41	*
+O	41	42	*
+O	42	43	]
+O	43	44	.
+
+O	46	49	She
+O	50	52	is
+B-Tobacco	53	54	a
+I-Tobacco	55	64	nonsmoker
+O	65	68	and
+O	69	76	reports
+B-Alcohol	77	83	social
+I-Alcohol	84	88	EtOH
+
+O	89	102	occassionally
+O	103	105	on
+O	106	109	the
+O	110	118	weekends
+O	118	119	.
+
+O	121	124	She
+B-LivingStatus	125	128	has
+I-LivingStatus	129	130	2
+I-LivingStatus	131	140	roommates
+O	140	141	.

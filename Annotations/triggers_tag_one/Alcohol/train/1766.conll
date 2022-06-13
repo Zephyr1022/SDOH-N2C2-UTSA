@@ -1,0 +1,45 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Married
+O	23	24	,
+O	25	28	has
+O	29	32	one
+O	33	41	daughter
+O	41	42	,
+O	43	45	is
+O	46	53	retired
+O	53	54	,
+
+O	55	56	-
+O	57	64	Tobacco
+O	65	72	history
+O	72	73	:
+O	74	82	Positive
+O	83	90	history
+O	90	91	,
+O	92	99	current
+O	99	100	,
+O	101	102	0
+O	102	103	-
+O	103	104	3
+O	105	109	cigs
+O	109	110	/
+O	110	113	day
+O	114	115	x
+O	116	117	~
+O	117	119	50
+
+O	120	125	years
+
+O	126	127	-
+B-Alcohol	128	132	ETOH
+O	132	133	:
+O	134	140	Denies
+
+O	141	142	-
+O	143	150	Illicit
+O	151	156	drugs
+O	156	157	:
+O	158	164	Denies

@@ -1,0 +1,32 @@
+T1	LivingStatus 16 21	lives
+T2	TypeLiving 22 27	alone
+T3	StatusTime 16 21	lives
+T4	Employment 29 42	on disability
+T5	StatusEmploy 29 42	on disability
+T6	Tobacco 52 63	tob history
+T7	Amount 64 74	18 pack-yr
+T8	StatusTime 43 51	previous
+T9	History 86 94	x5 years
+T10	Tobacco 96 102	smoked
+T11	Duration 107 119	past 2 years
+T12	StatusTime 121 125	quit
+T13	History 132 143	4 weeks ago
+T14	Alcohol 165 172	EtOH hx
+T15	StatusTime 187 192	sober
+T16	History 193 209	since [**2104**]
+T17	Drug 217 225	illicits
+T18	Type 217 225	illicits
+T19	StatusTime 210 216	denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Amount:T7 Status:T8 History:T9
+E4	Tobacco:T10 Duration:T11 History:T13 Status:T12
+E5	Alcohol:T14 Status:T15 History:T16
+E6	Drug:T17 Type:T18 Status:T19
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 on_disability
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T12 past
+A6	StatusTimeVal T15 past
+A7	StatusTimeVal T19 none

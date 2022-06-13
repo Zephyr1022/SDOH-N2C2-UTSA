@@ -1,0 +1,18 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Tobacco
+O	23	24	:
+O	25	31	Denies
+
+O	32	39	Alcohol
+O	39	40	:
+O	41	47	Denies
+
+O	48	54	Street
+O	55	57	or
+O	58	65	Illicit
+O	66	71	Drugs
+O	71	72	:
+O	73	79	Denies

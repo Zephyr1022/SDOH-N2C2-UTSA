@@ -1,0 +1,32 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 46	~15 pack-year smoking hx
+T3	StatusTime 48 52	quit
+T4	History 53 64	4 years ago
+T5	Alcohol 67 78	Alcohol Use
+T6	StatusTime 80 86	denies
+T7	Drug 89 97	Drug Use
+T8	StatusTime 99 105	denies
+T9	LivingStatus 166 172	living
+T10	TypeLiving 187 199	with her son
+T11	StatusTime 162 165	was
+T12	LivingStatus 229 233	live
+T13	TypeLiving 234 248	with her niece
+T14	StatusTime 201 211	then moved
+T15	TypeLiving 287 306	with her oldest son
+T16	LivingStatus 282 286	live
+T17	StatusTime 254 273	just recently moved
+E1	Tobacco:T1 Amount:T2 Status:T3 History:T4
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Status:T8
+E4	LivingStatus:T9 Type:T10 Status:T11
+E5	LivingStatus:T12 Status:T14 Type:T13
+E6	LivingStatus:T16 Type:T15 Status:T17
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T8 none
+A4	TypeLivingVal T10 with_family
+A5	StatusTimeVal T11 past
+A6	TypeLivingVal T13 with_family
+A7	StatusTimeVal T14 past
+A8	TypeLivingVal T15 with_family
+A9	StatusTimeVal T17 current

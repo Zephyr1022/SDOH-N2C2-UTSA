@@ -1,0 +1,86 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	Pt
+O	19	24	lives
+O	25	27	in
+O	28	29	[
+O	29	30	*
+O	30	31	*
+O	31	39	Location
+O	40	45	16174
+O	45	46	*
+O	46	47	*
+O	47	48	]
+O	49	53	with
+O	54	62	daughter
+O	62	63	.
+
+O	64	65	[
+O	65	66	*
+O	66	67	*
+O	67	71	Name
+O	72	73	(
+O	73	75	NI
+O	75	76	)
+O	77	81	6934
+O	81	82	*
+O	82	83	*
+O	83	84	]
+O	85	89	with
+O	90	91	a
+O	92	98	walker
+O	98	99	.
+
+O	100	106	Denies
+
+O	108	115	tobacco
+O	115	116	,
+B-Alcohol	117	121	EtOH
+O	121	122	,
+O	123	131	illicits
+O	131	132	.
+
+O	133	139	States
+O	140	144	that
+O	145	148	she
+O	149	151	is
+O	152	156	able
+O	157	159	to
+O	160	164	feed
+O	165	172	herself
+
+O	173	176	but
+O	177	180	had
+O	181	182	a
+O	183	192	caregiver
+O	193	194	2
+O	195	199	days
+O	200	201	a
+O	202	206	week
+O	207	210	who
+O	211	216	helps
+O	217	222	bathe
+O	223	226	her
+O	226	227	.
+
+O	228	231	She
+O	232	236	also
+
+O	237	240	has
+O	241	245	home
+O	246	253	nursing
+O	254	257	for
+O	258	263	blood
+O	264	272	pressure
+O	273	279	checks
+O	279	280	.
+
+O	281	284	She
+O	285	287	is
+O	288	299	incontinent
+
+O	300	302	of
+O	303	308	urine
+O	308	309	.

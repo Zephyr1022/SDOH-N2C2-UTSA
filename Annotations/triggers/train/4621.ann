@@ -1,0 +1,10 @@
+T1	Tobacco 16 23	Tobacco
+T7	Alcohol 85 89	ETOH
+T14	Alcohol 154 159	drink
+T17	Drug 189 197	Illicits
+T23	Drug 343 353	heroin use
+T26	Drug 403 416	marijuana use
+T29	Drug 429 441;442 451	percocet and oxycodone
+T33	Drug 460 471	cocaine use
+T36	LivingStatus 587 593	living
+T21	Tobacco 81 84	PPD

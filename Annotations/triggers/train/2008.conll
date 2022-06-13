@@ -1,0 +1,59 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	26	Occupation
+O	26	27	:
+O	28	32	Self
+O	32	33	-
+O	33	41	Employed
+O	42	50	Software
+O	51	59	Engineer
+
+O	60	65	Drugs
+O	65	66	:
+B-Drug	67	73	Former
+I-Drug	74	78	IVDU
+O	78	79	,
+B-Drug	80	87	current
+I-Drug	88	97	Marijuana
+
+B-Tobacco	98	105	Tobacco
+O	105	106	:
+O	107	113	Former
+
+B-Alcohol	114	121	Alcohol
+O	121	122	:
+O	123	124	h
+O	124	125	/
+O	125	126	o
+B-Alcohol	127	137	Alcoholism
+O	137	138	,
+O	139	145	drinks
+O	146	147	~
+O	147	148	1
+O	149	155	bottle
+O	156	158	of
+O	159	163	wine
+O	163	164	/
+O	164	169	night
+O	169	170	,
+O	171	172	h
+O	172	173	/
+O	173	174	o
+
+O	175	180	prior
+O	181	191	withdrawal
+O	191	192	,
+O	193	195	no
+O	196	204	seizures
+
+O	205	210	Other
+O	210	211	:
+B-LivingStatus	212	217	Lives
+O	218	220	at
+O	221	225	home
+O	226	230	with
+O	231	235	wife
+O	235	236	,
+O	237	245	daughter

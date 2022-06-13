@@ -1,0 +1,30 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 39	Currently smoking
+T3	Tobacco 41 55	7 pack year HX
+T4	Amount 41 52	7 pack year
+T5	StatusTime 41 55	7 pack year HX
+T6	Alcohol 59 70	Alcohol Use
+T7	StatusTime 130 135	sober
+T8	History 136 149	for 20 months
+T10	Drug 153 161	Drug Use
+T11	StatusTime 163 169	Denies
+T12	LivingStatus 188 193	Lives
+T13	StatusTime 188 193	Lives
+T14	TypeLiving 220 235	with her mother
+T17	Employment 255 272	currently working
+T18	StatusEmploy 251 272	Not currently working
+T19	Type 330 357	an administrative assistant
+T20	Duration 88 98	many years
+E1	Tobacco:T1 Status:T2
+E2	Tobacco:T3 Status:T5 Amount:T4
+E3	Alcohol:T6 Status:T7 History:T8 Duration:T20
+E4	Drug:T10 Status:T11
+E5	LivingStatus:T12 Status:T13 Type:T14
+E7	Employment:T17 Status:T18 Type:T19
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T7 past
+A5	StatusTimeVal T11 none
+A6	StatusTimeVal T13 current
+A7	TypeLivingVal T14 with_family
+A8	StatusEmployVal T18 unemployed

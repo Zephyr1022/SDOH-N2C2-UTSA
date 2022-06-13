@@ -1,0 +1,38 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	She
+O	20	28	formally
+O	29	33	used
+O	34	36	IV
+O	37	42	drugs
+O	42	43	,
+O	44	51	reports
+O	52	54	no
+O	55	62	current
+B-Alcohol	63	67	ETOH
+O	67	68	.
+
+O	69	76	Reports
+O	77	78	3
+O	79	89	cigarettes
+O	90	93	for
+O	94	95	1
+O	96	100	year
+O	100	101	.
+
+O	102	105	She
+O	106	111	lives
+O	112	114	in
+O	115	116	a
+O	117	122	sober
+O	123	128	house
+O	128	129	.
+
+O	130	133	She
+
+O	134	136	is
+O	137	139	on
+O	140	150	disability
+O	150	151	.

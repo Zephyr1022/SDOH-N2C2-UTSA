@@ -1,0 +1,23 @@
+T1	Tobacco 23 30	smoking
+T2	Alcohol 34 45	alcohol use
+T3	StatusTime 16 22	Denies
+T4	Alcohol 47 53	Drinks
+T5	Type 54 60	Cognac
+T6	Frequency 61 79	every now and then
+T7	StatusTime 47 53	Drinks
+T8	LivingStatus 81 86	Lives
+T9	StatusTime 81 86	Lives
+T10	TypeLiving 101 114	with his wife
+T11	Employment 124 128	work
+T12	StatusEmploy 116 123	Used to
+T13	Type 133 145	Group Health
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T2 Status:T3
+E3	Alcohol:T4 Status:T7 Type:T5 Frequency:T6
+E4	LivingStatus:T8 Status:T9 Type:T10
+E5	Employment:T11 Status:T12 Type:T13
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T9 current
+A4	TypeLivingVal T10 with_family
+A5	StatusEmployVal T12 unemployed

@@ -1,0 +1,42 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	26	27	:
+O	28	32	wife
+O	32	33	,
+O	34	35	[
+O	35	36	*
+O	36	37	*
+O	37	41	Name
+O	42	43	(
+O	43	45	NI
+O	45	46	)
+O	47	51	4489
+O	51	52	*
+O	52	53	*
+O	53	54	]
+O	54	55	.
+
+B-Employment	56	66	Occupation
+O	66	67	:
+O	68	75	Retired
+O	75	76	.
+
+B-Tobacco	77	84	Tobacco
+O	84	85	:
+O	86	92	denies
+
+B-Alcohol	93	97	ETOH
+O	97	98	:
+O	99	103	Rare
+O	104	108	ETOH
+
+B-Drug	109	116	Illicit
+I-Drug	117	121	drug
+O	121	122	:
+O	123	129	denies
+
+O	130	131	.

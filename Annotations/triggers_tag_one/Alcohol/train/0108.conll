@@ -1,0 +1,37 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	She
+O	20	23	has
+O	24	25	3
+O	26	35	daughters
+O	35	36	.
+
+O	37	44	Widowed
+O	44	45	.
+
+O	46	53	Retired
+O	54	63	executive
+O	64	73	secretary
+O	74	77	who
+
+O	78	81	was
+O	82	86	also
+O	87	88	a
+O	89	94	sales
+O	95	109	representative
+O	110	113	for
+O	114	120	Nestle
+O	120	121	.
+
+O	122	123	-
+O	123	130	Tobacco
+O	131	138	history
+O	138	139	:
+O	140	146	Denies
+
+B-Alcohol	147	148	-
+I-Alcohol	148	152	ETOH
+O	152	153	:
+O	154	164	Occasional

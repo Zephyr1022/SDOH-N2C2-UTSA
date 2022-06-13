@@ -1,0 +1,21 @@
+T1	Employment 33 46	on disability
+T2	StatusEmploy 33 46	on disability
+T3	Alcohol 85 96	ethanol use
+T4	StatusTime 74 84	history of
+T5	Drug 101 111	drug abuse
+T7	Drug 131 153	intravenous drug abuse
+T9	Method 131 142	intravenous
+T10	StatusTime 117 130	no history of
+T11	LivingStatus 160 165	lived
+T12	TypeLiving 166 172;173 179	with a family
+T13	StatusTime 160 165	lived
+E1	Employment:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T4
+E4	Drug:T7 Method:T9 Status:T10
+E5	LivingStatus:T11 Type:T12 Status:T13
+A1	StatusEmployVal T2 on_disability
+A2	StatusTimeVal T4 current
+A5	StatusTimeVal T10 none
+A6	TypeLivingVal T12 with_family
+A7	StatusTimeVal T13 past

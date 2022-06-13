@@ -1,0 +1,37 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 32 43	Alcohol Use
+T3	StatusTime 22 28	denies
+T4	StatusTime 45 51	denies
+T5	Drug 55 63	Drug Use
+T9	Type 372 385	other illicit
+T10	Drug 372 394	other illicit drug use
+T11	StatusTime 365 371	Denies
+T12	LivingStatus 424 432	homeless
+T13	TypeLiving 424 432	homeless
+T14	StatusTime 415 432	Has been homeless
+T15	Duration 433 454	for the past 10 years
+T16	LivingStatus 467 472	lived
+T17	StatusTime 456 472	Previously lived
+T18	TypeLiving 473 489	with his parents
+T19	StatusTime 65 69	uses
+T20	Amount 70 84	0.5-1 g heroin
+T21	Frequency 85 90	daily
+T22	Employment 494 500	worked
+T23	Type 501 536	for a friend who owned a game store
+T24	StatusEmploy 494 500	worked
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T2 Status:T4
+E3	Drug:T5 Status:T19 Amount:T20 Frequency:T21
+E5	Drug:T10 Type:T9 Status:T11
+E6	LivingStatus:T12 Duration:T15 Status:T14 Type:T13
+E7	LivingStatus:T16 Type:T18 Status:T17
+E8	Employment:T22 Status:T24 Type:T23
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T4 past
+A4	StatusTimeVal T11 none
+A5	TypeLivingVal T13 homeless
+A6	StatusTimeVal T14 current
+A7	StatusTimeVal T17 past
+A8	TypeLivingVal T18 with_family
+A9	StatusTimeVal T19 current
+A10	StatusEmployVal T24 unemployed

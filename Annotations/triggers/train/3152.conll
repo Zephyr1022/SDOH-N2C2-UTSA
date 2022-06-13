@@ -1,0 +1,46 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	18	27	Residence
+O	27	28	:
+O	29	30	[
+O	30	38	LOCATION
+O	38	39	]
+O	39	40	,
+O	41	45	with
+O	46	57	significant
+O	58	63	other
+
+B-Employment	65	75	Occupation
+O	75	76	:
+O	77	84	student
+O	84	85	,
+O	86	94	recently
+O	95	103	withdrew
+O	104	108	from
+O	109	110	[
+O	110	118	LOCATION
+O	118	119	]
+O	120	122	CC
+
+B-Alcohol	124	131	Alcohol
+O	131	132	:
+O	133	143	occasional
+
+B-Tobacco	145	152	Tobacco
+O	152	153	:
+O	154	164	occasional
+O	164	165	,
+O	166	172	denies
+O	173	177	need
+O	178	181	for
+O	182	187	patch
+
+B-Drug	189	196	Illicit
+I-Drug	197	202	Drugs
+O	202	203	:
+O	204	214	Occasional
+O	215	217	MJ
+O	218	221	use
+O	221	222	.

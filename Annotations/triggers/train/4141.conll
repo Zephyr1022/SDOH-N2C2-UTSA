@@ -1,0 +1,16 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	lives
+O	23	25	at
+O	26	33	shelter
+
+O	34	36	no
+B-Alcohol	37	41	etoh
+O	41	42	,
+B-Drug	43	47	IVDU
+
+B-Tobacco	48	52	prev
+I-Tobacco	53	60	tobacco
+I-Tobacco	61	64	use

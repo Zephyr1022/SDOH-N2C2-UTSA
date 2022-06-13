@@ -1,0 +1,31 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	smokes
+T3	Amount 29 37	4-5 cigs
+T4	Type 33 37	cigs
+T5	Frequency 37 41	/day
+T6	Duration 53 63	since 19yo
+T7	Alcohol 66 77	Alcohol Use
+T8	StatusTime 79 103	5 drinks/day on holidays
+T9	Amount 79 87	5 drinks
+T10	Frequency 87 103	/day on holidays
+T11	Drug 109 117	Drug Use
+T12	StatusTime 119 134	Marijuana daily
+T13	Type 119 128	Marijuana
+T14	Frequency 129 134	daily
+T15	Drug 145 148	IDU
+T16	Type 152 158	heroin
+T17	StatusTime 137 144	History
+T18	LivingStatus 177 194	Currently staying
+T19	StatusTime 177 194	Currently staying
+T20	TypeLiving 195 211	at Bread of Life
+E1	Tobacco:T1 Status:T2 Amount:T3 Type:T4 Frequency:T5 Duration:T6
+E2	Alcohol:T7 Amount:T9 Status:T8 Frequency:T10
+E3	Drug:T11 Status:T12 Type:T13 Frequency:T14
+E4	Drug:T15 Status:T17 Type:T16
+E5	LivingStatus:T18 Status:T19 Type:T20
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T8 current
+A3	StatusTimeVal T12 current
+A4	StatusTimeVal T17 current
+A5	StatusTimeVal T19 current
+A6	TypeLivingVal T20 homeless

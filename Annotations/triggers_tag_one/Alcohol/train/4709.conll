@@ -1,0 +1,33 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	26	with
+O	27	31	wife
+O	32	35	and
+O	36	44	children
+O	44	45	,
+O	46	55	currently
+O	56	60	does
+O	61	64	not
+O	65	69	work
+O	69	70	,
+O	71	77	denies
+
+O	78	81	any
+O	82	89	tobacco
+O	89	90	,
+B-Alcohol	92	96	etoh
+O	97	99	or
+O	100	107	illicit
+O	108	112	drug
+O	113	116	use
+O	116	117	,
+O	118	128	immigrated
+O	129	131	to
+O	132	134	US
+O	135	137	10
+O	138	141	yrs
+
+O	142	145	ago

@@ -1,0 +1,39 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	19	Pt
+O	19	20	.
+O	21	30	currently
+O	31	43	incarcerated
+O	43	44	,
+O	45	55	previously
+O	56	58	in
+O	59	64	motel
+O	64	65	.
+
+O	66	73	Tobacco
+O	73	74	:
+O	75	76	1
+O	77	80	PPD
+O	81	82	x
+O	83	85	20
+O	86	91	years
+O	91	92	.
+
+B-Alcohol	93	100	Alcohol
+O	100	101	:
+O	102	108	Denies
+O	108	109	.
+
+O	110	119	Marijuana
+O	119	120	:
+O	121	127	Denies
+O	127	128	.
+
+O	129	141	Recreational
+O	142	147	Drugs
+O	147	148	:
+O	149	156	Cocaine
+O	157	160	and
+O	161	167	heroin

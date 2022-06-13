@@ -1,0 +1,36 @@
+O	0	5	SOCHX
+O	5	6	:
+O	8	11	per
+O	12	17	prior
+O	18	31	documentation
+O	31	32	,
+O	33	35	pt
+O	36	45	unwilling
+O	46	48	ro
+O	49	55	review
+O	56	60	with
+O	61	63	me
+O	63	64	.
+
+B-Tobacco	66	69	Tob
+O	70	71	1
+O	71	72	-
+O	72	73	1
+O	73	74	.
+O	74	78	5PPD
+O	79	84	since
+O	85	86	~
+O	86	91	10yrs
+O	92	95	old
+O	95	96	.
+
+B-Alcohol	98	102	EtOH
+O	103	109	denies
+O	109	110	.
+
+B-Drug	113	121	Illicits
+O	122	128	heroin
+O	128	129	.
+
+B-LivingStatus	131	142	Undomiciled
+O	142	143	.

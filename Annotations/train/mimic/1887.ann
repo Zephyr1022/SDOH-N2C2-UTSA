@@ -1,0 +1,22 @@
+T1	Employment 24 28	work
+T2	Type 76 86;87 97	the claims department
+T3	StatusEmploy 16 23	Used to
+T4	Tobacco 187 193	Smoked
+T5	StatusTime 215 223;224 224;225 229	recently  quit
+T6	Amount 194 199	2 PPD
+T7	Duration 200 212	for 54 years
+T8	Alcohol 257 261	ETOH
+T9	Amount 249 253	shot
+T11	Frequency 262 277	on the weekends
+T12	StatusTime 231 234	Has
+T13	Drug 286 294	illicits
+T14	Type 286 294	illicits
+T15	StatusTime 279 285	Denies
+E1	Employment:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Status:T5 Amount:T6 Duration:T7
+E3	Alcohol:T8 Amount:T9 Frequency:T11 Status:T12
+E4	Drug:T13 Type:T14 Status:T15
+A1	StatusEmployVal T3 unemployed
+A2	StatusTimeVal T5 past
+A4	StatusTimeVal T12 current
+A5	StatusTimeVal T15 none

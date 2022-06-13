@@ -1,0 +1,63 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Social
+O	23	30	History
+O	30	31	:
+O	32	39	Retired
+O	40	46	social
+O	47	53	worker
+O	53	54	.
+
+O	55	62	Married
+O	63	66	and
+O	67	72	lives
+O	73	77	with
+
+O	78	81	her
+O	82	89	husband
+O	89	90	.
+
+O	91	92	[
+O	92	93	*
+O	93	94	*
+O	94	98	Name
+O	99	100	(
+O	100	102	NI
+O	102	103	)
+O	104	105	*
+O	105	106	*
+O	106	107	]
+O	108	109	a
+O	110	117	history
+O	118	120	of
+B-Alcohol	121	131	alcoholism
+O	132	135	but
+O	136	140	quit
+O	141	149	drinking
+
+O	150	156	almost
+O	157	159	30
+O	160	165	yaers
+O	166	169	ago
+O	169	170	.
+
+O	171	177	Former
+O	178	184	smoker
+O	184	185	,
+O	186	190	quit
+O	191	192	[
+O	192	193	*
+O	193	194	*
+O	194	198	2175
+O	198	199	*
+O	199	200	*
+O	200	201	]
+O	201	202	.
+
+O	203	205	No
+O	206	218	recreational
+
+O	219	224	drugs
+O	224	225	.

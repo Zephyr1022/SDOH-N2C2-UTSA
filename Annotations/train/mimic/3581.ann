@@ -1,0 +1,21 @@
+T1	LivingStatus 17 26	Residence
+T2	TypeLiving 29 37	Homeless
+T3	StatusTime 29 37	Homeless
+T4	Employment 40 50	Employment
+T5	StatusEmploy 53 61	Employed
+T6	Type 62 71	day labor
+T7	Tobacco 74 85	Tobacco use
+T8	Method 88 95	Chewing
+T9	StatusTime 88 103	Chewing tobacco
+T10	Alcohol 107 118	Alcohol use
+T11	Type 120 127	spirits
+T12	StatusTime 120 127	spirits
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Method:T8 Status:T9
+E4	Alcohol:T10 Status:T12 Type:T11
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T12 current

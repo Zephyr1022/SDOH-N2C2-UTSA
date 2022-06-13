@@ -1,0 +1,42 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	23	1
+O	23	24	/
+O	24	25	2
+O	26	29	ppd
+O	30	31	x
+O	32	34	40
+O	35	40	years
+
+O	41	48	Alcohol
+O	49	52	Use
+O	52	53	:
+
+B-Drug	55	59	Drug
+I-Drug	60	63	Use
+O	63	64	:
+O	65	67	IV
+O	68	74	heroin
+O	74	75	,
+O	76	82	smokes
+O	83	90	cocaine
+O	90	91	,
+O	92	96	meth
+
+O	98	104	SOCIAL
+O	105	112	HISTORY
+O	112	113	:
+
+B-LivingStatus	115	124	Residence
+O	124	125	:
+O	126	130	YMCA
+O	131	138	shelter
+O	139	140	(
+O	140	141	[
+O	141	149	LOCATION
+O	149	150	]
+O	150	151	)

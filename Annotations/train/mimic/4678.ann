@@ -1,0 +1,34 @@
+T1	LivingStatus 24 29	lives
+T2	TypeLiving 30 35	alone
+T3	StatusTime 24 29	lives
+T4	Alcohol 295 302	alcohol
+T5	History 322 339	before her stroke
+T6	StatusTime 322 339	before her stroke
+T7	Alcohol 341 347	Drinks
+T8	Amount 348 357	3 glasses
+T9	Type 361 365	wine
+T10	Frequency 366 373	a night
+T11	Type 390 404	beer or liquor
+T12	Alcohol 390 404	beer or liquor
+T14	StatusTime 375 389	no significant
+T15	Drug 428 436	illicits
+T16	Type 428 436	illicits
+T17	StatusTime 421 427	denies
+T18	Tobacco 440 447	tobacco
+T19	StatusTime 341 347	Drinks
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Alcohol:T4 History:T5 Status:T6
+E3	Alcohol:T7 Amount:T8 Type:T9 Frequency:T10 Status:T19
+E4	Alcohol:T12 Type:T11 Status:T14
+E5	Drug:T15 Type:T16 Status:T17
+E6	Tobacco:T18 Status:T17
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 past
+A5	StatusTimeVal T14 current
+A6	StatusTimeVal T17 none
+A7	StatusTimeVal T19 current
+T13	Employment 252 260	disabled
+E7	Employment:T13 Status:T20
+T20	StatusEmploy 252 260	disabled
+A4	StatusEmployVal T20 on_disability

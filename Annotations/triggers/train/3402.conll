@@ -1,0 +1,36 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	21	Last
+B-Drug	22	24	IV
+I-Drug	25	31	heroin
+I-Drug	32	35	use
+O	36	39	one
+O	40	45	month
+O	46	49	ago
+
+O	51	55	Last
+B-Drug	56	58	IV
+I-Drug	59	63	meth
+I-Drug	64	67	use
+O	68	71	one
+O	72	76	week
+O	77	80	ago
+
+O	81	89	recently
+O	90	101	incarerated
+
+O	102	103	2
+O	104	109	large
+B-Alcohol	110	115	beers
+O	115	116	/
+O	116	119	day
+
+O	120	124	1ppd
+B-Tobacco	125	132	tobacco
+
+O	134	136	No
+B-Drug	137	144	cocaine
+I-Drug	145	147	or
+I-Drug	148	157	marijuana

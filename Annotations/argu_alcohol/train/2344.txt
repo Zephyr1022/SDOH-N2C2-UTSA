@@ -1,0 +1,6 @@
+HABITS: 
+Denies alcohol, drug, or tobacco use past or present
+
+SOCIAL HISTORY: 
+She lives in [LOCATION]. She has four children (two boys, two girls).
+Patient lives alone but her son often comes and stays the night with her. She lives in a flat house without stairs.

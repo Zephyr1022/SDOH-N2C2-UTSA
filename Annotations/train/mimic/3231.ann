@@ -1,0 +1,24 @@
+T1	Employment 50 53	job
+T2	StatusEmploy 41 45	lost
+T3	Type 16 39	Mental health counselor
+T5	History 68 75	in 2011
+T7	LivingStatus 147 152	Lives
+T8	TypeLiving 153 165	with her son
+T9	StatusTime 147 152	Lives
+T10	Alcohol 347 351	EtoH
+T11	Tobacco 360 363	Tob
+T12	StatusTime 353 359	denies
+T13	StatusTime 365 371	remote
+T14	Drug 372 383	Other drugs
+T16	StatusTime 385 391	denies
+E1	Employment:T1 Status:T2 Type:T3 History:T5
+E3	LivingStatus:T7 Status:T9 Type:T8
+E4	Alcohol:T10 Status:T12
+E5	Tobacco:T11 Status:T13
+E6	Drug:T14 Status:T16
+A1	StatusEmployVal T2 unemployed
+A3	TypeLivingVal T8 with_family
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T12 none
+A6	StatusTimeVal T13 past
+A7	StatusTimeVal T16 none

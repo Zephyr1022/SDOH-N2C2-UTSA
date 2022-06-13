@@ -1,0 +1,15 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Remote
+O	23	29	Smoker
+
+B-Alcohol	30	36	Drinks
+O	37	43	Rarely
+
+O	44	49	Lives
+O	50	63	Independently
+O	64	66	at
+O	67	77	Retirement
+O	78	87	Community

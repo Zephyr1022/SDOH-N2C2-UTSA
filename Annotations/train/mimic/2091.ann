@@ -1,0 +1,34 @@
+T1	LivingStatus 25 30	lives
+T2	StatusTime 25 30	lives
+T3	TypeLiving 31 40	with wife
+T4	Tobacco 65 71	Smokes
+T5	Amount 72 87	[**1-18**] pack
+T6	Frequency 104 111	per day
+T7	Duration 112 129	for several years
+T8	StatusTime 65 71	Smokes
+T9	Tobacco 131 148	previously smoked
+T10	StatusTime 131 148	previously smoked
+T11	Duration 160 178	since he was young
+T12	Type 149 159	cigarettes
+T13	Type 91 103	small cigars
+T14	Alcohol 191 192;193 206	a heavy drinker
+T16	StatusTime 211 215	quit
+T17	History 216 228	24 years ago
+T18	Drug 233 238	drugs
+T19	StatusTime 230 232	No
+T20	Employment 240 245	Works
+T21	StatusEmploy 240 245	Works
+T22	Type 249 251;252 260	an engineer
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T8 Amount:T5 Frequency:T6 Duration:T7 Type:T13
+E3	Tobacco:T9 Status:T10 Type:T12 Duration:T11
+E4	Alcohol:T14 Status:T16 History:T17
+E5	Drug:T18 Status:T19
+E6	Employment:T20 Status:T21 Type:T22
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T10 past
+A6	StatusTimeVal T16 past
+A7	StatusTimeVal T19 none
+A8	StatusEmployVal T21 employed

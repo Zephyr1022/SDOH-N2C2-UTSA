@@ -1,0 +1,26 @@
+T1	Alcohol 12 16	EtOH
+T2	StatusTime 18 28	no alcohol
+T3	Tobacco 38 44	Smoker
+T4	StatusTime 30 37	Current
+T5	Amount 46 55	~1/2 pack
+T6	Duration 56 69	for ~25 years
+T7	Drug 71 79	Drug use
+T8	StatusTime 81 87	denies
+T9	LivingStatus 88 93	Lives
+T10	TypeLiving 109 118	With wife
+T11	StatusTime 88 93	Lives
+T12	LivingStatus 220 227	staying
+T13	StatusTime 210 219	Currently
+T14	TypeLiving 231 262	the Group Health Hospital house
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T3 Status:T4 Amount:T5 Duration:T6
+E3	Drug:T7 Status:T8
+E4	LivingStatus:T9 Type:T10 Status:T11
+E5	LivingStatus:T12 Status:T13 Type:T14
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T8 none
+A4	TypeLivingVal T10 with_family
+A5	StatusTimeVal T11 current
+A6	StatusTimeVal T13 current
+A7	TypeLivingVal T14 with_others

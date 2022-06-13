@@ -1,0 +1,44 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	24	Divorced
+O	24	25	,
+O	26	30	with
+O	31	35	four
+O	36	44	children
+O	44	45	.
+
+B-Employment	47	54	Retired
+I-Employment	55	63	software
+I-Employment	64	72	engineer
+O	72	73	.
+
+B-Tobacco	75	77	25
+
+B-Tobacco	78	82	pack
+I-Tobacco	83	88	years
+O	88	89	,
+O	90	94	quit
+O	95	97	10
+O	98	103	years
+O	104	107	ago
+O	107	108	.
+
+O	110	116	Denies
+B-Alcohol	117	121	EtOH
+O	121	122	,
+O	123	128	other
+B-Drug	129	136	illicit
+
+B-Drug	137	142	drugs
+O	142	143	.
+
+O	145	148	Has
+O	149	152	VNA
+O	153	156	and
+O	157	161	full
+O	162	166	time
+O	167	173	health
+O	174	179	aides
+O	179	180	.

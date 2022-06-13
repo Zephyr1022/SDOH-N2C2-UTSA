@@ -1,0 +1,9 @@
+HABITS: 
+Tobacco Use: Remote   Alcohol Use: None  Drug Use: None
+
+SOCIAL HISTORY: 
+-Patient lives in [LOCATION], [LOCATION] - in a house with his mother. Is on disability. Used to work in the dry cleaning business. 
+-Quit smoking 2 weeks ago (as of [DATE])
+-No alcohol 
+-Heroin is drug of choice, last use 2 weeks ago - methadone pills from the street (often 1-2 10 mg tabs - about every 2-3 months)  
+-No cocaine recently

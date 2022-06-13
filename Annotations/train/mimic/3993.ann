@@ -1,0 +1,34 @@
+T1	LivingStatus 76 82	Living
+T2	StatusTime 76 82	Living
+T3	TypeLiving 83 94	at shelters
+T4	Duration 32 43	3 weeks ago
+T5	Employment 174 181	working
+T6	StatusEmploy 163 181	previously working
+T7	Type 124 161	a former board certified practitioner
+T8	Tobacco 199 206	Tobacco
+T9	Amount 208 217	10-15 cig
+T10	Type 214 217	cig
+T11	Frequency 218 225	per day
+T12	Alcohol 227 231	EtOH
+T14	Type 315 332	beer, wine, vodka
+T15	StatusTime 241 269	last drink was one month ago
+T16	Drug 408 417	Marijuana
+T17	StatusTime 419 425	denies
+T18	Type 408 417	Marijuana
+T19	Drug 426 434	Illicits
+T20	Type 426 434	Illicits
+T21	StatusTime 436 442	denies
+T22	StatusTime 208 225	10-15 cig per day
+E1	LivingStatus:T1 Status:T2 Type:T3 Duration:T4
+E2	Employment:T5 Status:T6 Type:T7
+E3	Tobacco:T8 Amount:T9 Type:T10 Frequency:T11 Status:T22
+E4	Alcohol:T12 Status:T15 Type:T14
+E5	Drug:T16 Type:T18 Status:T17
+E6	Drug:T19 Type:T20 Status:T21
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusEmployVal T6 unemployed
+A5	StatusTimeVal T15 past
+A6	StatusTimeVal T17 none
+A7	StatusTimeVal T21 none
+A8	StatusTimeVal T22 current

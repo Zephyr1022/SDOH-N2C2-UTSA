@@ -1,0 +1,38 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	Lives
+O	23	27	with
+O	28	35	partner
+O	36	38	in
+O	39	40	[
+O	40	48	LOCATION
+O	48	49	]
+O	50	51	(
+O	51	52	[
+O	52	60	LOCATION
+O	60	61	]
+O	61	62	)
+
+B-Employment	63	66	Not
+I-Employment	67	76	currently
+I-Employment	77	84	working
+O	85	87	SS
+O	88	90	on
+O	91	101	disability
+
+O	102	108	Denies
+B-Alcohol	109	116	alcohol
+
+O	117	118	1
+O	118	119	-
+O	119	120	2
+B-Tobacco	121	131	cigarettes
+O	132	135	per
+O	136	139	day
+
+O	140	142	No
+B-Drug	143	150	illicit
+I-Drug	151	155	drug
+I-Drug	156	159	use

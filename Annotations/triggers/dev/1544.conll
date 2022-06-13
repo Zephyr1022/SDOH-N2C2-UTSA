@@ -1,0 +1,10 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	29	Homelessness
+O	29	30	,
+B-Drug	31	35	IVDU
+O	35	36	,
+O	37	43	mental
+O	44	51	illness

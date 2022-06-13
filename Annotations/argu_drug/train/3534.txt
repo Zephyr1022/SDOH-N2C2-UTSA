@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: none   
+Alcohol Use: none   
+Drug Use: none
+
+SOCIAL HISTORY: 
+Originally from [LOCATION], works in IT; has been living in Swedish Medical Center

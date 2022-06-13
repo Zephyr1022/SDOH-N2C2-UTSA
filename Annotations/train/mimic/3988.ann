@@ -1,0 +1,16 @@
+T1	Drug 10 21	IV meth use
+T2	StatusTime 5 9	Past
+T3	Method 10 12	IV
+T4	Type 13 17	meth
+T5	History 23 47	last was in early [DATE]
+T6	Drug 57 84	other illicit substance use
+T7	Type 57 80	other illicit substance
+T8	Tobacco 86 93	tobacco
+T9	Alcohol 97 108	alcohol use
+T10	StatusTime 50 56	Denies
+E1	Drug:T1 Status:T2 Type:T4 Method:T3 History:T5
+E2	Drug:T6 Type:T7 Status:T10
+E3	Tobacco:T8 Status:T10
+E4	Alcohol:T9 Status:T10
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T10 none

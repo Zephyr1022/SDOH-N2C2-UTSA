@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: Approx 5 cigarettes per day   Alcohol Use: none   Drug Use: none
+
+SOCIAL HISTORY: 
+Patient lives in an apartment by herself in [LOCATION].
+She has a daughter nearby

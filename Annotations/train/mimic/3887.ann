@@ -1,0 +1,11 @@
+T1	Drug 33 41	Drug Use
+T2	Frequency 43 48	daily
+T3	Type 49 51	MJ
+T4	Method 52 59	smoking
+T5	Alcohol 9 20	Alcohol Use
+T7	StatusTime 22 32	occasional
+T8	StatusTime 43 48	daily
+E1	Drug:T1 Frequency:T2 Type:T3 Method:T4 Status:T8
+E2	Alcohol:T5 Status:T7
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T8 current

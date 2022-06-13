@@ -1,0 +1,21 @@
+T1	Tobacco 111 118	Tobacco
+T2	Amount 119 127	(ppd): 1
+T3	Alcohol 128 135	Alcohol
+T4	StatusTime 151 157	denies
+T5	StatusTime 119 127	(ppd): 1
+T6	Drug 158 167	Marijuana
+T7	Type 158 167	Marijuana
+T8	StatusTime 182 188	denies
+T9	LivingStatus 24 29	lives
+T10	StatusTime 24 29	lives
+T11	TypeLiving 30 56	in shelters and the street
+T12	Duration 57 78	for the past 15 years
+E1	Tobacco:T1 Amount:T2 Status:T5
+E2	Alcohol:T3 Status:T4
+E3	Drug:T6 Status:T8 Type:T7
+E4	LivingStatus:T9 Type:T11 Status:T10 Duration:T12
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T10 current
+A5	TypeLivingVal T11 homeless

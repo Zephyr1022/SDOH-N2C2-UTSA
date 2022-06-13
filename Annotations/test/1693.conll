@@ -1,0 +1,60 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	24	Smoking
+O	24	25	:
+O	26	32	Denies
+O	33	35	at
+O	36	43	present
+O	43	44	,
+O	45	49	quit
+O	50	52	in
+O	53	57	1970
+
+O	58	65	Alcohol
+O	65	66	:
+O	67	73	Denies
+
+O	74	81	Illicit
+O	82	87	Drugs
+O	87	88	:
+O	89	95	Denies
+
+O	96	103	Housing
+O	103	104	:
+O	105	112	Edmonds
+O	113	120	Landing
+O	121	123	in
+O	124	133	apartment
+
+O	134	140	SOCIAL
+O	141	148	HISTORY
+O	148	149	:
+
+O	151	159	0Smoking
+O	159	160	:
+O	161	167	Denies
+O	168	170	at
+O	171	178	present
+O	178	179	,
+O	180	184	quit
+O	185	187	in
+O	188	192	1970
+
+O	193	200	Alcohol
+O	200	201	:
+O	202	208	Denies
+
+O	209	216	Illicit
+O	217	222	Drugs
+O	222	223	:
+O	224	230	Denies
+
+O	231	238	Housing
+O	238	239	:
+O	240	247	Edmonds
+O	248	255	Landing
+O	256	258	AL
+O	259	261	in
+O	262	271	apartment

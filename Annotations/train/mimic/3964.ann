@@ -1,0 +1,14 @@
+T1	Alcohol 22 26	EtOH
+T2	StatusTime 28 42	None currently
+T3	Drug 43 48	Drugs
+T4	StatusTime 50 54	None
+T5	LivingStatus 73 78	Lives
+T6	TypeLiving 79 95	with her husband
+T7	StatusTime 73 78	Lives
+E1	Alcohol:T1 Status:T2
+E2	Drug:T3 Status:T4
+E3	LivingStatus:T5 Status:T7 Type:T6
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 none
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T7 current

@@ -1,0 +1,23 @@
+T1	Tobacco 8 18	-Nonsmoker
+T2	StatusTime 8 18	-Nonsmoker
+T3	Alcohol 73 84	alcohol use
+T5	Duration 85 101	in the last year
+T6	StatusTime 67 84	-Rare alcohol use
+T7	Drug 158 163	drugs
+T8	Type 150 157	illicit
+T9	StatusTime 142 149	-Denies
+T13	Employment 446 452	worked
+T14	StatusEmploy 435 452	previously worked
+T15	Employment 554 560	worked
+T16	StatusEmploy 546 560	Has not worked
+T17	History 561 581	in a number of years
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T6 Duration:T5
+E3	Drug:T7 Type:T8 Status:T9
+E5	Employment:T13 Status:T14
+E6	Employment:T15 History:T17 Status:T16
+A1	StatusTimeVal T2 none
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T9 none
+A7	StatusEmployVal T14 unemployed
+A8	StatusEmployVal T16 unemployed

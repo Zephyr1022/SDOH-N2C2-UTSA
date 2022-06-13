@@ -1,0 +1,46 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Tobacco
+O	24	31	history
+O	31	32	:
+O	33	40	Patient
+O	41	43	is
+O	44	51	widowed
+O	52	55	and
+B-LivingStatus	56	61	lives
+O	62	67	alone
+O	67	68	.
+
+O	69	72	She
+O	73	76	has
+O	77	80	two
+
+O	81	86	adult
+O	87	95	children
+O	95	96	.
+
+O	97	98	-
+B-Alcohol	98	102	ETOH
+O	102	103	:
+O	104	105	3
+O	106	112	drinks
+O	113	116	per
+O	117	121	week
+O	121	122	.
+
+O	123	124	-
+B-Drug	124	131	Illicit
+I-Drug	132	137	drugs
+O	137	138	:
+O	139	143	Quit
+O	144	146	in
+O	147	148	[
+O	148	149	*
+O	149	150	*
+O	150	154	2071
+O	154	155	*
+O	155	156	*
+O	156	157	]
+O	157	158	.

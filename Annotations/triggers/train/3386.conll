@@ -1,0 +1,42 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	16	26	Marginally
+I-LivingStatus	27	33	housed
+O	33	34	.
+
+O	35	36	[
+O	36	40	DATE
+O	40	41	]
+O	42	44	or
+O	45	48	may
+O	49	52	not
+O	53	55	be
+O	56	63	staying
+O	64	68	with
+O	69	76	someone
+O	77	79	in
+O	80	81	[
+O	81	89	LOCATION
+O	89	90	]
+
+O	91	97	Denies
+B-Tobacco	98	105	tobacco
+O	105	106	/
+B-Drug	106	110	drug
+I-Drug	111	114	use
+
+O	115	123	Previous
+O	124	131	history
+O	132	134	of
+O	135	140	heavy
+B-Alcohol	141	145	EtOH
+I-Alcohol	146	149	use
+O	149	150	.
+
+O	152	158	Denies
+B-Alcohol	159	163	EtOH
+O	164	169	since
+O	170	174	head
+O	175	181	injury

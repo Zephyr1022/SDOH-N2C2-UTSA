@@ -1,0 +1,37 @@
+T1	Tobacco 9 16	Tobacco
+T2	Amount 18 23	½ ppd
+T3	Duration 24 32	since 21
+T4	StatusTime 24 32	since 21
+T5	StatusTime 34 37	now
+T6	Amount 46 60	1-2 cigarettes
+T7	Frequency 60 64	/day
+T8	Alcohol 65 69	EtOH
+T9	Amount 71 80	2-3 beers
+T10	Type 75 80	beers
+T11	Frequency 80 84	/day
+T12	StatusTime 71 84	2-3 beers/day
+T15	Drug 113 118	Drugs
+T17	Method 127 131	IVDU
+T18	StatusTime 120 126	Denies
+T16	Drug 139 152	marijuana use
+T19	Type 139 148	marijuana
+T20	Frequency 133 138	daily
+T21	StatusTime 133 138	daily
+T22	LivingStatus 205 210	Lives
+T23	TypeLiving 211 226	with girlfriend
+T24	StatusTime 205 210	Lives
+E1	Tobacco:T1 Amount:T2 Duration:T3 Status:T4
+E3	Alcohol:T8 Amount:T9 Type:T10 Frequency:T11 Status:T12
+E5	Drug:T15 Status:T18 Method:T17
+E6	Drug:T16 Type:T19 Frequency:T20 Status:T21
+E7	LivingStatus:T22 Type:T23 Status:T24
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T12 current
+A6	StatusTimeVal T18 none
+A7	StatusTimeVal T21 current
+A8	TypeLivingVal T23 with_family
+A9	StatusTimeVal T24 current
+T14	Tobacco 50 60	cigarettes
+E2	Tobacco:T14 Amount:T6 Status:T5 Frequency:T7 Type:T25
+T25	Type 50 60	cigarettes

@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: smoked off/on 1-1.5ppd for 25 years
+Alcohol Use: none   
+Drug Use: regular MJ use (mostly edibles [DATE], sometimes THC tablets, rarely smoke)
+
+SOCIAL HISTORY: 
+Residence: lives in [LOCATION] with Husband [NAME], son [NAME] is currently staying with them

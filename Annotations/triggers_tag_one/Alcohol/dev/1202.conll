@@ -1,0 +1,39 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	ongoing
+O	17	21	IVDU
+O	21	22	,
+O	23	28	other
+O	29	39	substances
+O	40	47	unknown
+
+O	48	51	per
+O	52	57	chart
+O	58	59	(
+O	59	60	+
+O	60	61	)
+O	62	69	tobacco
+O	70	74	1ppd
+O	74	75	,
+O	76	78	no
+O	79	85	strong
+O	86	93	history
+O	94	96	of
+B-Alcohol	97	101	etoh
+I-Alcohol	102	107	abuse
+
+O	109	115	SOCIAL
+O	116	123	HISTORY
+O	123	124	:
+
+O	126	127	[
+O	127	128	X
+O	128	129	]
+O	130	136	Unable
+O	137	139	to
+O	140	146	Obtain
+O	147	150	due
+O	151	153	to
+O	154	161	Patient
+O	162	171	Condition

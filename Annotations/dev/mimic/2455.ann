@@ -1,0 +1,6 @@
+T1	LivingStatus 47 52	lives
+T2	TypeLiving 53 67	with boyfriend
+T3	StatusTime 47 52	lives
+E1	LivingStatus:T1 Type:T2 Status:T3
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current

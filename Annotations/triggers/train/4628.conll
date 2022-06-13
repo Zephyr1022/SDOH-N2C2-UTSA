@@ -1,0 +1,51 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	-
+B-Employment	17	23	Former
+I-Employment	24	30	Marine
+
+O	31	32	-
+O	32	39	Brother
+O	40	42	is
+O	43	50	primary
+O	51	60	caregiver
+
+O	61	62	-
+O	62	63	[
+O	63	64	*
+O	64	65	*
+O	65	69	Name
+O	70	71	(
+O	71	73	NI
+O	73	74	)
+O	75	79	3003
+O	79	80	*
+O	80	81	*
+O	81	82	]
+O	83	85	hx
+O	86	88	of
+O	89	96	tobacco
+O	96	97	,
+O	98	108	occasional
+B-Alcohol	109	116	alcohol
+O	116	117	,
+O	118	124	remote
+B-Drug	125	132	cocaine
+I-Drug	133	134	&
+
+B-Drug	135	144	marijuana
+I-Drug	145	148	use
+O	148	149	.
+
+O	150	152	No
+O	153	160	current
+O	161	164	use
+O	165	167	of
+B-Alcohol	168	172	ETOH
+O	172	173	,
+B-Tobacco	174	181	tobacco
+O	181	182	,
+B-Drug	183	191	illicits
+O	191	192	.

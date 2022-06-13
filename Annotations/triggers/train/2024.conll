@@ -1,0 +1,14 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Tobacco	16	22	Former
+I-Tobacco	23	30	tobacco
+I-Tobacco	31	35	user
+
+O	36	37	+
+B-Alcohol	38	42	EtoH
+
+O	43	51	negative
+B-Drug	52	64	recreational
+I-Drug	65	70	drugs

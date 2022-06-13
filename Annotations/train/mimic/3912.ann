@@ -1,0 +1,14 @@
+T1	Drug 105 110	drugs
+T2	Method 61 63	IV
+T3	Type 64 70	heroin
+T4	History 76 89	5 years clean
+T5	StatusTime 55 60	Hx of
+T6	Alcohol 112 116	ETOH
+T7	Tobacco 137 147	cigarettes
+T8	Type 137 147	cigarettes
+T9	StatusTime 122 136	1 yr free from
+E1	Drug:T1 Method:T2 Type:T3 Status:T5 History:T4
+E2	Alcohol:T6 Status:T5 History:T4
+E3	Tobacco:T7 Status:T9 Type:T8
+A1	StatusTimeVal T5 past
+A2	StatusTimeVal T9 past

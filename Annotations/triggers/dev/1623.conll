@@ -1,0 +1,11 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	23	housed
+
+B-Drug	24	28	IVDU
+O	29	33	with
+O	34	38	meth
+O	39	42	and
+O	43	49	heroin

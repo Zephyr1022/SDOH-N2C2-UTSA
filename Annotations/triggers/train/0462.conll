@@ -1,0 +1,35 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	-
+B-Tobacco	17	24	Tobacco
+I-Tobacco	25	32	history
+O	32	33	:
+O	34	41	distant
+O	42	49	smoking
+O	49	50	,
+O	51	55	quit
+O	56	58	in
+O	59	60	[
+O	60	61	*
+O	61	62	*
+O	62	66	2134
+O	66	67	*
+O	67	68	*
+O	68	69	]
+
+O	70	71	-
+B-Alcohol	71	75	ETOH
+O	75	76	:
+O	77	78	1
+O	79	84	glass
+O	85	87	of
+O	88	92	wine
+O	93	98	daily
+
+O	99	100	-
+B-Drug	100	107	Illicit
+I-Drug	108	113	drugs
+O	113	114	:
+O	115	119	none

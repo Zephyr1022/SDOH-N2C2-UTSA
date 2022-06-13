@@ -1,0 +1,56 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	His
+O	20	27	highest
+O	28	33	level
+O	34	36	of
+O	37	46	education
+O	47	50	was
+O	51	55	12th
+O	56	61	grade
+O	61	62	.
+
+O	63	65	He
+O	66	68	is
+B-Employment	69	70	a
+I-Employment	71	78	machine
+
+B-Employment	79	87	operator
+
+O	88	96	handling
+O	97	102	heavy
+O	103	112	equipment
+O	112	113	,
+O	114	122	mechanic
+O	122	123	.
+
+O	124	126	He
+O	127	129	is
+O	130	137	married
+O	138	142	with
+O	143	144	2
+O	145	149	kids
+O	149	150	.
+
+O	151	153	He
+O	154	158	does
+O	159	162	not
+B-Tobacco	163	168	smoke
+O	168	169	,
+O	170	172	he
+O	173	177	does
+O	178	181	not
+B-Alcohol	182	187	drink
+O	187	188	;
+O	189	196	however
+O	196	197	,
+O	198	200	he
+O	201	204	did
+O	205	210	admit
+O	211	213	to
+
+O	214	219	using
+B-Drug	220	227	cocaine
+O	227	228	.

@@ -1,0 +1,26 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	18	-
+O	19	25	Housed
+O	25	26	,
+B-LivingStatus	27	32	lives
+O	33	45	independetly
+O	45	46	.
+
+O	47	55	Endorses
+B-Drug	56	66	marijauana
+I-Drug	67	70	use
+O	70	71	,
+O	72	78	denies
+O	79	83	IVDU
+O	83	84	,
+B-Tobacco	85	92	tobacco
+O	92	93	,
+O	94	96	or
+O	97	102	other
+O	103	110	illicit
+B-Drug	111	115	drug
+I-Drug	116	119	use
+O	119	120	.

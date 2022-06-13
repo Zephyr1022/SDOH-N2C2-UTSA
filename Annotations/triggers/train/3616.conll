@@ -1,0 +1,89 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	26	Residence
+O	26	27	:
+
+O	29	34	Group
+O	35	39	home
+O	39	40	.
+
+O	42	44	On
+B-Employment	45	49	work
+O	50	57	release
+O	57	58	.
+
+O	59	60	.
+
+B-LivingStatus	61	67	Living
+I-LivingStatus	68	77	situation
+O	77	78	:
+
+O	80	85	Lives
+O	86	90	with
+O	91	97	others
+O	97	98	.
+
+B-Employment	100	110	Employment
+O	110	111	:
+
+O	113	121	Employed
+O	121	122	.
+
+B-Tobacco	124	131	Tobacco
+I-Tobacco	132	135	use
+O	135	136	:
+
+O	138	144	Denies
+O	144	145	.
+
+B-Alcohol	147	154	Alcohol
+I-Alcohol	155	158	use
+O	158	159	:
+O	160	166	denies
+O	166	167	.
+
+B-Drug	169	173	Drug
+I-Drug	174	177	use
+O	177	178	:
+
+O	179	185	Denies
+O	185	186	.
+
+O	187	194	Reports
+O	195	206	significant
+O	207	211	life
+O	212	221	stressors
+O	221	222	,
+O	223	225	to
+O	226	233	include
+O	234	239	being
+O	240	252	incarcerated
+O	253	256	and
+O	257	259	on
+O	260	264	work
+O	265	272	release
+O	272	273	,
+O	274	280	having
+O	281	284	her
+O	285	292	husband
+O	293	295	of
+O	296	298	30
+O	299	304	years
+O	305	310	leave
+O	311	314	her
+O	315	320	after
+O	321	328	selling
+O	329	333	nest
+O	334	337	egg
+O	337	338	,
+O	339	342	and
+O	343	348	being
+O	349	357	involved
+O	358	360	in
+O	361	368	several
+O	369	374	class
+O	375	381	action
+O	382	390	lawsuits
+O	390	391	.

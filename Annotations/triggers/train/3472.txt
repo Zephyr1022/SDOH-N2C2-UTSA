@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: never user;  Alcohol Use: denies   Drug Use: denies
+
+SOCIAL HISTORY: 
+Lives with her partner in [LOCATION], occasionally stays with her daughter on weekends; is an avid gardener.

@@ -1,0 +1,37 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 23	x
+T3	Alcohol 26 37	Alcohol Use
+T4	StatusTime 39 49	occasional
+T6	Drug 52 60	Drug Use
+T7	StatusTime 62 68	denies
+T8	LivingStatus 114 124	Was living
+T9	StatusTime 114 124	Was living
+T10	TypeLiving 125 142	at [LOCATION] ALF
+T11	History 143 159	until early 2016
+T12	LivingStatus 371 374	AFH
+T13	StatusTime 355 370	was admitted to
+T14	TypeLiving 371 374	AFH
+T15	LivingStatus 458 462	move
+T16	TypeLiving 497 514	with her daughter
+T17	StatusTime 447 521	Decided to move from [LOCATION] AFH to [LOCATION] with her daughter [DATE]
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T6 Status:T7
+E4	LivingStatus:T8 Status:T9 Type:T10 History:T11
+E5	LivingStatus:T12 Type:T14 Status:T13
+E6	LivingStatus:T15 Status:T17 Type:T16
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T9 past
+A6	TypeLivingVal T10 with_others
+A7	StatusTimeVal T13 past
+A8	TypeLivingVal T14 with_others
+A9	TypeLivingVal T16 with_family
+A10	StatusTimeVal T17 past
+T5	LivingStatus 831 841	discharged
+E8	LivingStatus:T5 Type:T21 Status:T22
+T21	TypeLiving 852 855	UGM
+A3	TypeLivingVal T21 homeless
+T22	StatusTime 831 841	discharged
+A13	StatusTimeVal T22 current

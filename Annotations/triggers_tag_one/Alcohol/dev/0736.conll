@@ -1,0 +1,22 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	lives
+O	22	26	with
+O	27	31	wife
+O	32	35	and
+O	36	37	2
+O	38	42	year
+O	43	46	old
+O	47	55	daughter
+
+O	56	62	patent
+O	63	71	attorney
+
+O	72	77	never
+O	78	82	used
+O	83	90	tobacco
+
+B-Alcohol	91	97	social
+I-Alcohol	98	102	ETOH

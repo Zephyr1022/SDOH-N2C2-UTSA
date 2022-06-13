@@ -1,0 +1,73 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	26	5ppd
+O	27	30	for
+O	31	32	4
+O	33	38	years
+O	38	39	.
+
+O	40	44	Then
+O	45	53	switched
+O	54	56	to
+O	57	60	dip
+O	61	64	and
+O	65	67	is
+O	68	69	a
+O	70	77	current
+O	78	82	user
+
+B-Alcohol	83	90	Alcohol
+I-Alcohol	91	94	Use
+O	94	95	:
+O	96	108	Intermittent
+O	109	113	pint
+O	114	121	whiskey
+
+O	122	126	Drug
+O	127	130	Use
+O	130	131	:
+O	132	138	Denied
+
+O	140	146	SOCIAL
+O	147	154	HISTORY
+O	154	155	:
+
+O	157	162	Lives
+O	163	165	in
+O	166	172	Kerner
+O	172	173	-
+O	173	178	Scott
+O	179	184	House
+O	185	194	currently
+O	194	195	.
+
+O	196	201	Moved
+O	202	206	back
+O	207	209	to
+O	210	211	[
+O	211	219	LOCATION
+O	219	220	]
+O	221	222	[
+O	222	226	DATE
+O	226	227	]
+O	228	232	from
+O	233	234	[
+O	234	242	LOCATION
+O	242	243	]
+O	243	244	.
+
+O	245	246	[
+O	246	254	LOCATION
+O	254	255	]
+O	256	263	veteran
+O	263	264	,
+O	265	269	then
+O	270	278	handyman
+O	279	283	work
+O	284	287	for
+O	288	293	years
+O	293	294	.

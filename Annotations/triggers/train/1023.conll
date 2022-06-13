@@ -1,0 +1,95 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	19	He
+O	20	22	is
+B-Employment	23	32	currently
+I-Employment	33	43	unemployed
+O	43	44	.
+
+O	46	48	He
+O	49	51	is
+B-Employment	52	53	a
+I-Employment	54	58	pipe
+
+B-Employment	59	67	designer
+O	67	68	.
+
+O	70	72	He
+O	73	76	has
+O	77	81	also
+B-Employment	82	88	worked
+O	89	91	in
+O	92	96	ship
+O	97	102	yards
+O	103	109	before
+O	109	110	.
+
+O	112	114	He
+B-LivingStatus	115	120	lives
+
+O	121	123	in
+O	124	125	[
+O	125	126	*
+O	126	127	*
+O	127	136	Hospital1
+O	137	140	392
+O	140	141	*
+O	141	142	*
+O	142	143	]
+O	143	144	.
+
+O	146	148	He
+O	149	151	is
+O	152	159	married
+O	160	163	and
+O	164	167	has
+O	168	173	three
+O	174	182	children
+O	182	183	.
+
+O	185	187	He
+O	188	194	smoked
+
+O	195	200	three
+O	201	206	packs
+O	207	210	per
+O	211	214	day
+O	215	217	of
+B-Tobacco	218	225	tobacco
+O	226	229	for
+O	230	232	20
+O	233	238	years
+O	239	242	but
+O	243	247	quit
+O	248	250	33
+O	251	256	years
+
+O	257	260	ago
+O	260	261	.
+
+O	263	265	He
+O	266	268	is
+O	269	273	also
+O	274	282	reported
+O	283	285	to
+O	286	290	have
+B-Alcohol	291	297	abused
+I-Alcohol	298	305	alcohol
+O	306	311	until
+O	312	314	he
+
+O	315	319	quit
+O	320	322	in
+O	323	324	[
+O	324	325	*
+O	325	326	*
+O	326	330	2169
+O	330	331	-
+O	331	332	3
+O	332	333	-
+O	333	335	14
+O	335	336	*
+O	336	337	*
+O	337	338	]
+O	338	339	.

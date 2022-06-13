@@ -1,0 +1,5 @@
+HABITS: 
+Patient is non-smoker, non-drinker, and denies illicit drug use.  
+
+SOCIAL HISTORY: 
+Patient lives in [LOCATION] public housing, and his daughter visits him daily.

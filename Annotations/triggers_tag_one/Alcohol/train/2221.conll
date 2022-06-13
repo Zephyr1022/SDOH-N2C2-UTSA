@@ -1,0 +1,47 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	27	Never
+B-Alcohol	30	37	Alcohol
+I-Alcohol	38	41	Use
+O	41	42	:
+O	43	47	None
+O	50	54	Drug
+O	55	58	Use
+O	58	59	:
+O	59	63	None
+
+O	65	71	SOCIAL
+O	72	79	HISTORY
+O	79	80	:
+
+O	82	89	Retired
+O	90	103	administrator
+O	104	107	for
+O	108	110	NW
+O	111	119	Hospital
+
+O	120	126	Single
+
+O	127	129	No
+O	130	138	children
+
+O	139	143	Very
+O	144	149	close
+O	150	152	to
+O	153	156	her
+O	157	163	sister
+O	164	167	and
+O	168	173	niece
+O	174	177	who
+O	178	181	are
+O	182	185	her
+O	186	192	social
+O	193	201	supports
+O	201	202	,
+O	203	207	also
+O	208	209	1
+O	210	217	brother

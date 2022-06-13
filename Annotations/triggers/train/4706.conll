@@ -1,0 +1,32 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	no
+B-Tobacco	19	26	tobacco
+I-Tobacco	27	30	use
+
+O	31	34	one
+B-Alcohol	35	40	drink
+O	41	44	per
+O	45	49	week
+
+B-LivingStatus	50	55	lives
+O	56	60	with
+O	61	68	husband
+
+O	69	71	no
+O	72	73	[
+O	73	74	*
+O	74	75	*
+O	75	80	Name2
+O	81	82	(
+O	82	84	NI
+O	84	85	)
+O	86	91	50923
+O	91	92	*
+O	92	93	*
+O	93	94	]
+O	94	95	.
+B-Drug	96	100	drug
+I-Drug	101	104	use

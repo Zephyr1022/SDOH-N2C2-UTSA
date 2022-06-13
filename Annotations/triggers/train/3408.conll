@@ -1,0 +1,24 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	-
+B-Tobacco	18	25	Tobacco
+I-Tobacco	26	29	use
+O	29	30	?
+
+O	31	37	former
+
+O	38	39	-
+B-Alcohol	40	47	Alcohol
+I-Alcohol	48	51	use
+O	51	52	?
+
+O	53	54	N
+
+O	55	56	-
+B-Drug	57	61	Drug
+I-Drug	62	65	Use
+O	65	66	?
+
+O	67	68	N

@@ -1,0 +1,28 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	25	Recently
+O	26	36	discharged
+O	37	41	from
+O	42	43	a
+O	44	49	detox
+O	50	57	program
+O	58	60	in
+O	61	62	[
+O	62	70	LOCATION
+O	70	71	]
+
+B-Tobacco	72	79	Current
+I-Tobacco	80	86	smoker
+
+O	87	94	History
+O	95	97	of
+B-Alcohol	98	105	alcohol
+I-Alcohol	106	109	use
+
+O	110	113	has
+O	114	118	case
+O	119	126	manager
+O	127	129	at
+O	130	134	VAMC

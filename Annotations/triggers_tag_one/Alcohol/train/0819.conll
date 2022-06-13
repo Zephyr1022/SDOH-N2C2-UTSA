@@ -1,0 +1,47 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	20	Quit
+O	21	28	smoking
+O	29	30	3
+O	31	36	years
+O	37	40	ago
+O	40	41	.
+
+O	42	45	Has
+O	46	48	40
+O	49	53	pack
+O	54	58	year
+O	59	66	history
+O	66	67	.
+
+O	68	73	Lives
+O	74	79	alone
+
+O	80	83	and
+O	84	89	works
+O	90	92	in
+O	93	94	a
+O	95	104	cafeteria
+O	104	105	.
+
+O	106	109	Has
+O	110	111	2
+O	112	117	adult
+O	118	126	children
+O	126	127	.
+
+B-Alcohol	128	132	EtOH
+O	133	134	1
+O	135	138	day
+O	139	142	per
+
+O	143	148	month
+O	148	149	.
+
+O	150	152	No
+O	153	165	recreational
+O	166	170	drug
+O	171	174	use
+O	174	175	.

@@ -1,0 +1,16 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Currently
+O	27	32	lives
+O	33	35	at
+O	36	38	VA
+O	39	41	MC
+
+O	42	48	Denies
+B-Alcohol	49	56	alcohol
+O	57	61	drug
+O	62	64	or
+O	65	72	tobacco
+O	73	76	use

@@ -1,0 +1,22 @@
+T1	Tobacco 9 20	Tobacco use
+T2	StatusTime 21 31	occasional
+T6	Alcohol 61 68	alcohol
+T7	StatusTime 46 60	Binge drinking
+T9	Frequency 69 79	~ 4x/month
+T10	Type 126 144	liquor, wine, beer
+T11	Amount 115 122	bottles
+T15	LivingStatus 464 476	homelessness
+T16	TypeLiving 464 476	homelessness
+T17	StatusTime 455 463	reported
+T18	Employment 364 371	working
+T19	StatusEmploy 356 363	Reports
+T20	Type 375 399	vent (or perhaps events)
+E2	Tobacco:T1 Status:T2
+E3	Alcohol:T6 Status:T7 Frequency:T9 Amount:T11 Type:T10
+E5	LivingStatus:T15 Type:T16 Status:T17
+E6	Employment:T18 Status:T19 Type:T20
+A1	StatusTimeVal T2 current
+A5	StatusTimeVal T7 current
+A8	TypeLivingVal T16 homeless
+A9	StatusTimeVal T17 current
+A10	StatusEmployVal T19 employed

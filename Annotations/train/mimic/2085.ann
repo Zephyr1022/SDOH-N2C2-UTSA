@@ -1,0 +1,22 @@
+T1	LivingStatus 29 34	lives
+T2	StatusTime 29 34	lives
+T3	TypeLiving 35 48	with his wife
+T8	Drug 62 82	intravenous drug use
+T9	StatusTime 51 61	History of
+T10	Method 62 73	intravenous
+T11	Alcohol 126 133	ethanol
+T12	StatusTime 115 122	history
+T13	Tobacco 146 153	tobacco
+T14	StatusTime 135 142	history
+T15	Duration 154 166	for 20 years
+T16	Amount 173 182	two packs
+T17	Frequency 183 186;187 190	per day
+E1	LivingStatus:T1 Status:T2 Type:T3
+E3	Drug:T8 Method:T10 Status:T9
+E4	Alcohol:T11 Status:T12
+E5	Tobacco:T13 Status:T14 Duration:T15 Amount:T16 Frequency:T17
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T12 current
+A6	StatusTimeVal T14 current

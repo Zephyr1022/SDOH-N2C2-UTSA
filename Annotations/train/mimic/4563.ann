@@ -1,0 +1,17 @@
+T1	Employment 16 26	Occupation
+T2	StatusEmploy 27 37	unemployed
+T3	Tobacco 38 48	Cigarettes
+T4	StatusTime 63 70	yes [x]
+T5	Amount 95 99	1PPD
+T6	Duration 100 101;102 112	x >40-45 yrs
+T7	Type 38 48	Cigarettes
+T8	Alcohol 184 188	ETOH
+T9	StatusTime 232 235	[X]
+T10	Amount 209 226	[**3-14**] drinks
+T11	Frequency 226 231	/week
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Type:T7 Status:T4 Amount:T5 Duration:T6
+E3	Alcohol:T8 Amount:T10 Frequency:T11 Status:T9
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T9 current

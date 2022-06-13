@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: previous_   Alcohol Use: previous   Drug Use: heroin (IV) previous
+
+SOCIAL HISTORY: 
+[_] Unable to Obtain due to Patient Condition
+Residence: currently incarcerated, usually homeless, reports living on the streets prior to incarceration.

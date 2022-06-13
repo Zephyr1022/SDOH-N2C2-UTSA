@@ -1,0 +1,34 @@
+O	0	2	SH
+O	2	3	:
+B-LivingStatus	4	12	Homeless
+
+B-Alcohol	13	17	EtOH
+O	18	21	use
+O	22	30	disorder
+O	30	31	,
+O	32	36	last
+O	37	42	drink
+O	43	45	24
+O	46	51	hours
+O	52	55	ago
+
+O	56	62	Denies
+O	63	66	use
+O	67	69	of
+B-Drug	70	78	illicits
+
+O	79	87	Endorses
+O	88	100	intermittent
+B-Tobacco	101	110	cigarette
+I-Tobacco	111	114	use
+
+O	116	122	Vitals
+O	123	124	(
+O	124	128	Most
+O	129	135	recent
+O	136	139	and
+O	140	142	24
+O	143	147	hour
+O	148	153	range
+O	153	154	.
+O	154	155	)

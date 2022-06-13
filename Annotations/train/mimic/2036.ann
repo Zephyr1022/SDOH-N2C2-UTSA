@@ -1,0 +1,26 @@
+T1	LivingStatus 16 21	lives
+T2	StatusTime 16 21	lives
+T3	TypeLiving 27 38	iwth mother
+T4	Employment 40 46	worked
+T5	StatusEmploy 40 46	worked
+T6	Type 50 58	a waiter
+T7	Tobacco 91 98	tobacco
+T8	StatusTime 88 90	No
+T9	Alcohol 100 105	+etoh
+T10	Amount 106 115	<10 beers
+T11	Frequency 116 124	per week
+T12	StatusTime 100 105	+etoh
+T13	Drug 183 194	other drugs
+T14	StatusTime 176 182	denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Status:T12 Amount:T10 Frequency:T11 Type:T15
+E5	Drug:T13 Status:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T12 current
+A6	StatusTimeVal T14 none
+T15	Type 110 115	beers

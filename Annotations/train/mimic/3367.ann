@@ -1,0 +1,47 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	quit
+T3	History 35 43	in [DATE
+T4	Amount 46 58	11 pack year
+T5	Alcohol 69 80	Alcohol Use
+T6	StatusTime 82 86	quit
+T7	History 96 105	in [DATE]
+T8	History 147 156	in [DATE]
+T9	StatusTime 119 123	quit
+T10	Drug 109 117	Drug Use
+T11	Type 132 146	methampetamine
+T12	Drug 168 177	marijuana
+T13	Type 168 177	marijuana
+T14	StatusTime 161 167	smokes
+T15	LivingStatus 286 291	lives
+T16	StatusTime 286 291	lives
+T17	TypeLiving 295 311	the 1811 shelter
+T18	StatusTime 429 464	working on getting a place together
+T19	LivingStatus 440 455	getting a place
+T20	TypeLiving 420 424	They
+T21	LivingStatus 504 508	live
+T22	StatusTime 496 508	used to live
+T23	TypeLiving 523 544	w/ his three children
+T24	Employment 477 481	work
+T25	StatusEmploy 469 481	used to work
+T26	Type 485 491	a chef
+E1	Tobacco:T1 Status:T2 History:T3 Amount:T4
+E2	Alcohol:T5 Status:T6 History:T7
+E3	Drug:T10 Status:T9 History:T8 Type:T11 Method:T28
+E4	Drug:T12 Status:T14 Type:T13 Method:T29
+E5	LivingStatus:T15 Type:T17 Status:T16
+E6	LivingStatus:T19 Type:T20 Status:T18
+E7	LivingStatus:T21 Status:T22 Type:T23
+E8	Employment:T24 Type:T26 Status:T25
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T9 past
+A4	StatusTimeVal T14 current
+A5	StatusTimeVal T16 current
+A6	TypeLivingVal T17 homeless
+A7	StatusTimeVal T18 future
+A8	TypeLivingVal T20 with_family
+A9	StatusTimeVal T22 past
+A10	TypeLivingVal T23 with_family
+A11	StatusEmployVal T25 unemployed
+T28	Method 124 131	smoking
+T29	Method 161 167	smokes

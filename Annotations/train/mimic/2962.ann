@@ -1,0 +1,17 @@
+T1	Employment 95 105	Occupation
+T2	StatusEmploy 107 113	worked
+T3	Type 117 128	call center
+T4	Tobacco 179 190	Tobacco Use
+T5	Alcohol 201 212	Alcohol Use
+T6	Drug 235 243	Drug Use
+T7	StatusTime 245 251	denies
+T8	StatusTime 192 198	denies
+T9	StatusTime 214 231	denies recent use
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T8
+E3	Alcohol:T5 Status:T9
+E4	Drug:T6 Status:T7
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T9 past

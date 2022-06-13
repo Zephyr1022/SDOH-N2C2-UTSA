@@ -1,0 +1,181 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	27	36	boyfriend
+O	37	39	in
+O	40	41	[
+O	41	42	*
+O	42	43	*
+O	43	47	Name
+O	48	49	(
+O	49	51	NI
+O	51	52	)
+O	53	54	*
+O	54	55	*
+O	55	56	]
+O	56	57	.
+
+O	58	66	Recently
+B-Employment	67	71	laid
+I-Employment	72	75	off
+O	76	79	job
+O	80	82	in
+O	83	94	advertising
+O	95	101	agency
+O	101	102	.
+
+O	103	108	Spent
+O	109	110	4
+O	111	117	months
+B-LivingStatus	118	120	in
+
+B-LivingStatus	121	125	jail
+O	126	129	for
+O	130	134	drug
+O	135	145	possession
+O	146	151	about
+O	152	153	2
+O	154	159	years
+O	160	163	ago
+O	163	164	.
+
+O	165	166	H
+O	166	167	/
+O	167	168	o
+O	169	177	physical
+O	178	183	abuse
+
+O	184	186	by
+
+O	187	197	boyfriends
+O	197	198	.
+
+O	199	207	Finished
+O	208	212	high
+O	213	219	school
+O	219	220	,
+O	221	223	no
+O	224	231	college
+O	231	232	.
+
+O	233	240	Parents
+O	241	249	divorced
+O	249	250	,
+
+O	251	257	mother
+O	258	267	remarried
+O	267	268	.
+
+O	269	272	Did
+O	273	276	not
+O	277	281	meet
+O	282	285	her
+O	286	290	real
+O	291	294	dad
+O	295	297	or
+O	298	306	discover
+O	307	310	her
+O	311	315	step
+
+O	316	322	father
+O	323	326	was
+O	327	330	not
+O	331	334	her
+O	335	339	real
+O	340	346	father
+O	347	352	until
+O	353	356	the
+O	357	360	age
+O	361	363	of
+O	364	366	10
+O	366	367	.
+
+O	368	371	Now
+O	372	375	all
+O	376	377	3
+
+O	378	385	parents
+O	386	389	are
+O	390	398	actively
+O	399	407	involved
+O	408	411	and
+O	412	422	supportive
+O	422	423	.
+
+O	424	425	-
+O	425	432	reports
+B-Drug	433	439	opiate
+I-Drug	440	449	addiction
+O	450	458	starting
+O	459	464	after
+O	465	470	wrist
+O	471	477	injury
+O	478	481	and
+O	482	487	being
+
+O	488	498	prescribed
+O	499	508	moriphine
+O	508	509	.
+
+O	510	518	Addicted
+O	519	521	to
+B-Drug	522	528	heroin
+I-Drug	529	530	(
+I-Drug	530	532	IV
+I-Drug	532	533	)
+I-Drug	533	534	,
+I-Drug	535	543	morphine
+I-Drug	544	547	and
+
+B-Drug	548	557	oxycodone
+O	557	558	.
+
+O	559	565	States
+O	566	569	she
+O	570	573	has
+O	574	578	been
+O	579	584	sober
+O	585	588	for
+O	589	590	2
+O	591	596	years
+O	596	597	,
+O	598	604	denies
+
+O	605	614	methadone
+O	615	617	or
+O	618	626	suboxone
+O	627	638	maintenance
+O	638	639	.
+
+O	640	641	-
+O	641	647	denies
+B-Alcohol	648	655	alcohol
+I-Alcohol	656	659	use
+
+O	660	661	-
+B-Tobacco	661	667	smokes
+O	668	669	[
+O	669	670	*
+O	670	671	*
+O	671	672	1
+O	672	673	-
+O	673	675	18
+O	675	676	*
+O	676	677	*
+O	677	678	]
+O	679	682	ppd
+
+O	683	684	-
+O	684	690	denies
+B-Drug	691	700	marijuana
+I-Drug	701	703	or
+I-Drug	704	711	cocaine
+I-Drug	712	715	use
+
+O	716	717	-
+O	717	723	denies
+B-Drug	724	729	benzo
+I-Drug	730	733	use

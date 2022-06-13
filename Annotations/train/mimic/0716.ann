@@ -1,0 +1,11 @@
+T1	Tobacco 26 33	tobacco
+T2	Amount 37 50	50 pack years
+T3	StatusTime 17 25	Positive
+T4	Alcohol 62 69	ethanol
+T5	Amount 75 100	approximately three beers
+T6	Frequency 101 108	per day
+T7	StatusTime 53 61	Positive
+E1	Tobacco:T1 Status:T3 Amount:T2
+E2	Alcohol:T4 Amount:T5 Frequency:T6 Status:T7
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T7 current

@@ -1,0 +1,5 @@
+HABITS: 
+Unable to obtain due to patient condition
+
+SOCIAL HISTORY: 
+[x] Unable to Obtain due to Patient Condition

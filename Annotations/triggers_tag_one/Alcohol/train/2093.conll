@@ -1,0 +1,38 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	30
+O	19	23	pack
+O	24	28	year
+O	29	32	Tob
+O	33	45	historyLives
+O	46	50	with
+O	51	55	wife
+O	55	56	;
+O	57	61	wife
+O	62	63	_
+O	63	67	very
+O	67	68	_
+O	69	79	supportive
+
+O	80	82	of
+O	83	90	patient
+O	91	94	and
+O	95	99	very
+O	100	108	involved
+O	108	109	.
+
+O	110	114	Wife
+O	115	121	worked
+O	122	125	for
+O	126	129	PCP
+O	130	132	as
+O	133	140	medical
+
+O	141	150	assistant
+O	150	151	.
+O	151	153	No
+B-Alcohol	154	158	EtOH
+I-Alcohol	159	166	history
+O	166	167	.

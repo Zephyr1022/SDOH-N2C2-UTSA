@@ -1,0 +1,25 @@
+T1	Employment 77 87	unemployed
+T2	StatusEmploy 77 87	unemployed
+T3	Tobacco 116 123	smoking
+T4	Amount 124 131	2 packs
+T5	Frequency 132 137	a day
+T6	StatusTime 124 137	2 packs a day
+T7	Alcohol 146 170	intermittent alcohol use
+T9	StatusTime 146 170	intermittent alcohol use
+T10	Drug 182 198	illicit drug use
+T11	Type 182 189	illicit
+T12	StatusTime 171 177	Denies
+T13	LivingStatus 36 61	currently not have a home
+T14	StatusTime 36 61	currently not have a home
+T15	TypeLiving 36 61	currently not have a home
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Amount:T4 Frequency:T5 Status:T6
+E3	Alcohol:T7 Status:T9
+E4	Drug:T10 Type:T11 Status:T12
+E5	LivingStatus:T13 Status:T14 Type:T15
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T6 current
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T12 none
+A6	StatusTimeVal T14 current
+A7	TypeLivingVal T15 homeless

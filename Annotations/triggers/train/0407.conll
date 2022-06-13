@@ -1,0 +1,52 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+O	29	31	is
+O	32	33	a
+O	34	35	1
+O	35	36	-
+O	36	40	pack
+O	41	44	per
+O	45	48	day
+B-Tobacco	49	55	smoker
+O	56	61	times
+
+O	62	64	50
+O	65	70	years
+O	70	71	.
+
+O	73	76	She
+B-LivingStatus	77	82	lives
+O	83	88	alone
+O	89	92	and
+O	93	97	does
+O	98	101	her
+O	102	105	own
+O	106	116	activities
+O	117	119	of
+
+O	120	125	daily
+O	126	132	living
+O	132	133	.
+
+O	135	138	She
+O	139	142	has
+O	143	146	the
+O	147	154	support
+O	155	157	of
+O	158	161	her
+O	162	169	brother
+O	170	173	and
+O	174	177	his
+
+O	178	182	wife
+O	183	185	in
+O	186	191	terms
+O	192	194	of
+O	195	205	activities
+O	206	208	of
+O	209	214	daily
+O	215	221	living
+O	221	222	.

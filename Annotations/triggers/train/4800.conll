@@ -1,0 +1,40 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	at
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	36	Location
+O	37	38	*
+O	38	39	*
+O	39	40	]
+O	41	48	Nursing
+O	49	57	Facility
+O	57	58	,
+O	59	64	alert
+O	65	68	and
+O	69	77	oriented
+O	78	79	x
+O	80	81	3
+O	82	84	at
+
+O	85	93	baseline
+O	93	94	.
+
+O	95	96	-
+O	96	103	Tobacco
+O	104	111	history
+O	111	112	:
+
+B-Alcohol	113	114	-
+I-Alcohol	114	118	ETOH
+O	118	119	:
+O	120	130	occasional
+
+O	131	132	-
+O	132	139	Illicit
+O	140	145	drugs
+O	145	146	:

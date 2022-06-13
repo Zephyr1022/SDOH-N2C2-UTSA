@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: no
+Alcohol Use: none since december
+Drug Use: no
+
+SOCIAL HISTORY: 
+Lives in [LOCATION] with wife and cats.

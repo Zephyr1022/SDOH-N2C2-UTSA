@@ -1,0 +1,41 @@
+T4	StatusTime 343 361	plans to move back
+T5	LivingStatus 352 356	move
+T6	TypeLiving 362 379	with grandparents
+T7	LivingStatus 384 400	was incarcerated
+T8	StatusTime 384 400	was incarcerated
+T9	TypeLiving 388 400	incarcerated
+T10	Duration 401 411	for 1 year
+T11	History 413 436	released six months ago
+T12	Employment 298 308	unemployed
+T13	StatusEmploy 288 308	currently unemployed
+T3	Tobacco 24 30	smokes
+T14	StatusTime 24 30	smokes
+T15	Duration 45 56	for 3 years
+T16	Amount 31 44	[**2-2**] ppd
+T18	Alcohol 58 64	Drinsk
+T19	Type 71 76	beers
+T20	Amount 65 76	60-70 beers
+T21	Frequency 77 85	per week
+T22	Duration 97 120	for the past six months
+T23	StatusTime 58 64	Drinsk
+T24	Drug 264 280	illicit drug use
+T25	StatusTime 253 259	Denies
+T1	Type 264 271	illicit
+E2	LivingStatus:T5 Type:T6 Status:T4
+E3	LivingStatus:T7 Type:T9 Status:T8 Duration:T10 History:T11
+E4	Employment:T12 Status:T13
+E5	Tobacco:T3 Status:T14 Amount:T16 Duration:T15
+E6	Alcohol:T18 Status:T23 Amount:T20 Type:T19 Frequency:T21 Duration:T22
+E7	Drug:T24 Status:T25 Type:T1
+A2	StatusTimeVal T4 future
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T8 past
+A5	TypeLivingVal T9 with_others
+A6	StatusEmployVal T13 unemployed
+A7	StatusTimeVal T14 current
+A8	StatusTimeVal T23 current
+A9	StatusTimeVal T25 none
+T2	Alcohol 143 151	drinking
+E1	Alcohol:T2 Status:T17
+T17	StatusTime 177 188	for 2 weeks
+A1	StatusTimeVal T17 current

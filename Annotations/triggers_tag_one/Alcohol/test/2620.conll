@@ -1,0 +1,55 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	Denies
+
+O	32	39	Alcohol
+O	40	43	Use
+O	43	44	:
+O	45	51	Denies
+
+O	52	56	Drug
+O	57	60	Use
+O	60	61	:
+O	62	68	Denies
+
+O	70	76	SOCIAL
+O	77	84	HISTORY
+O	84	85	:
+
+O	87	89	Pt
+O	90	95	lives
+O	96	98	in
+O	99	100	a
+O	101	106	house
+O	107	109	in
+O	110	111	[
+O	111	119	LOCATION
+O	119	120	]
+O	121	125	with
+O	126	129	her
+O	130	138	daughter
+O	138	139	.
+
+O	140	143	She
+O	144	147	was
+O	148	152	born
+O	153	155	in
+O	156	157	[
+O	157	165	LOCATION
+O	165	166	]
+O	167	170	and
+O	171	177	speaks
+O	178	185	Amharic
+O	185	186	.
+
+O	187	190	She
+O	191	195	uses
+O	196	197	a
+O	198	204	walker
+O	205	207	at
+O	208	216	baseline
+O	216	217	.

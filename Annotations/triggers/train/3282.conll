@@ -1,0 +1,17 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	20	The
+O	21	28	patient
+O	29	32	was
+O	33	37	most
+O	38	46	recently
+O	47	53	living
+O	54	56	at
+O	57	61	home
+O	61	62	.
+
+O	64	66	No
+B-Drug	67	76	substance
+I-Drug	77	80	use

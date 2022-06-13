@@ -1,0 +1,26 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	lives
+O	23	25	in
+O	26	33	private
+O	34	43	residence
+
+B-Drug	44	46	IV
+I-Drug	47	53	heroin
+I-Drug	54	57	use
+O	57	58	,
+O	59	63	last
+O	64	67	use
+O	68	77	yesterday
+
+B-Alcohol	78	82	Rare
+I-Alcohol	83	90	alcohol
+I-Alcohol	91	94	use
+
+O	95	101	Denies
+B-Tobacco	102	109	tobacco
+O	110	112	or
+B-Drug	113	117	meth
+I-Drug	118	121	use

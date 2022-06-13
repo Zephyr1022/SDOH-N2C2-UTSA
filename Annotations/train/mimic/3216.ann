@@ -1,0 +1,25 @@
+T1	LivingStatus 65 70	lived
+T2	TypeLiving 71 84	independently
+T3	StatusTime 42 60	Prior to diagnosis
+T4	Tobacco 126 133	Tobacco
+T5	StatusTime 135 141	Denies
+T6	Alcohol 142 149	Alcohol
+T7	StatusTime 151 157	Denies
+T8	Drug 158 166	Illicits
+T9	Type 189 198	marijuana
+T10	Method 181 188	smoking
+T11	StatusTime 168 180	Positive for
+T12	Drug 255 266	IV drug use
+T13	StatusTime 248 254	Denies
+T14	Type 255 257	IV
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Status:T11 Method:T10 Type:T9
+E5	Drug:T12 Type:T14 Status:T13
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 past
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T11 current
+A6	StatusTimeVal T13 none

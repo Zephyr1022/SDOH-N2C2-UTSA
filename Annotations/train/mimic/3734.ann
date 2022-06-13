@@ -1,0 +1,29 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 37	gt40 pack years
+T3	StatusTime 22 37	gt40 pack years
+T4	Alcohol 40 51	Alcohol Use
+T5	StatusTime 53 55	No
+T6	Drug 58 66	Drug Use
+T7	StatusTime 68 70	No
+T8	Employment 127 144	Previously worked
+T9	StatusEmploy 127 144	Previously worked
+T10	Type 148 151	lab
+T11	Employment 158 174	recently working
+T12	StatusEmploy 158 174	recently working
+T13	Type 178 193	a grocery store
+T14	LivingStatus 195 200	Lives
+T15	StatusTime 195 200	Lives
+T16	TypeLiving 201 223	with/near close friend
+E1	Tobacco:T1 Amount:T2 Status:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Status:T7
+E4	Employment:T8 Status:T9 Type:T10
+E5	Employment:T11 Status:T12 Type:T13
+E6	LivingStatus:T14 Status:T15 Type:T16
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 none
+A4	StatusEmployVal T9 unemployed
+A5	StatusEmployVal T12 employed
+A6	StatusTimeVal T15 current
+A7	TypeLivingVal T16 with_others

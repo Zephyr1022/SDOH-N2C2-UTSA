@@ -1,0 +1,55 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+O	29	31	is
+O	32	39	married
+O	40	43	and
+B-LivingStatus	44	49	lives
+O	50	54	with
+O	55	58	his
+
+O	59	63	wife
+O	63	64	.
+
+O	66	67	[
+O	67	68	*
+O	68	69	*
+O	69	73	Name
+O	74	75	(
+O	75	77	NI
+O	77	78	)
+O	79	80	*
+O	80	81	*
+O	81	82	]
+O	83	85	is
+B-Employment	86	87	a
+I-Employment	88	94	former
+I-Employment	95	103	engineer
+O	103	104	.
+
+O	106	108	He
+O	109	114	lives
+O	115	117	ni
+O	118	119	[
+O	119	120	*
+O	120	121	*
+O	121	130	Hospital1
+O	131	132	8
+O	132	133	*
+O	133	134	*
+O	134	135	]
+O	135	136	.
+
+O	138	140	He
+
+O	141	147	denies
+O	148	151	any
+O	152	159	history
+O	160	162	of
+B-Alcohol	163	170	alcohol
+O	171	173	or
+B-Tobacco	174	181	tobacco
+I-Tobacco	182	185	use
+O	185	186	.

@@ -1,0 +1,17 @@
+T1	LivingStatus 4 9	lives
+T2	StatusTime 4 9	lives
+T3	TypeLiving 10 30	in emergency shelter
+T4	Alcohol 50 57	alcohol
+T5	Drug 62 75	polysubstance
+T6	StatusTime 32 49	long standing h/o
+T7	Tobacco 101 108	smoking
+T8	Amount 77 89	20 pack year
+T9	StatusTime 90 97	history
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T6
+E3	Drug:T5 Status:T6
+E4	Tobacco:T7 Status:T9 Amount:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T9 current

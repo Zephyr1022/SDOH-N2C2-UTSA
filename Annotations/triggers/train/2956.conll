@@ -1,0 +1,36 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	13	none
+
+O	15	21	SOCIAL
+O	22	29	HISTORY
+O	29	30	:
+
+O	32	33	[
+O	33	34	x
+O	34	35	]
+O	36	42	Unable
+O	43	45	to
+O	46	52	Obtain
+O	53	56	due
+O	57	59	to
+O	60	67	Patient
+O	68	77	Condition
+
+B-LivingStatus	78	87	Residence
+O	87	88	:
+O	89	94	Lives
+O	95	97	in
+O	98	103	house
+O	104	108	with
+O	109	115	mother
+O	115	116	.
+
+O	117	123	Father
+O	124	128	died
+O	129	137	recently
+O	138	143	after
+O	144	147	car
+O	148	156	accident
+O	156	157	.

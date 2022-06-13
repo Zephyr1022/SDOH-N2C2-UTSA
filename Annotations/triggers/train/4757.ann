@@ -1,0 +1,9 @@
+T1	LivingStatus 16 24	Homeless
+T8	LivingStatus 403 409	living
+T12	LivingStatus 1148 1155	staying
+T17	Employment 700 708	Attended
+T5	Employment 112 128	Retired OR nurse
+T15	Employment 753 764	Was working
+T25	Tobacco 211 218	Tobacco
+T30	Alcohol 297 308	alcohol use
+T33	Drug 335 356	illegal substance use

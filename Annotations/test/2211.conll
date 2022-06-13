@@ -1,0 +1,45 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Residence
+O	26	27	:
+
+O	29	36	Private
+O	37	46	residence
+O	46	47	.
+
+O	49	59	Employment
+O	59	60	:
+
+O	62	70	Employed
+O	71	76	works
+O	77	79	in
+O	80	87	medical
+O	88	95	records
+O	96	98	at
+O	99	100	[
+O	100	108	LOCATION
+O	108	109	]
+O	110	118	building
+O	118	119	.
+
+O	121	128	Tobacco
+O	129	132	use
+O	132	133	:
+
+O	135	141	Denies
+O	141	142	.
+
+O	144	151	Alcohol
+O	152	155	use
+O	155	156	:
+O	157	163	denies
+O	163	164	.
+
+O	166	170	Drug
+O	171	174	use
+O	174	175	:
+
+O	176	182	Denies
+O	182	183	.

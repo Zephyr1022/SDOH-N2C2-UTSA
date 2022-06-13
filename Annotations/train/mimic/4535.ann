@@ -1,0 +1,35 @@
+T1	Employment 120 133	On disability
+T2	StatusEmploy 120 133	On disability
+T3	Employment 163 168	Works
+T4	StatusEmploy 163 168	Works
+T5	Type 183 203	a motorcycle company
+T6	Drug 578 585	Cocaine
+T7	Type 578 585	Cocaine
+T8	Duration 586 597	x 3-4 years
+T9	Amount 598 604	1 pack
+T10	Frequency 605 613	per week
+T11	Drug 616 622	Occ mj
+T12	StatusTime 616 622	Occ mj
+T13	Type 620 622	mj
+T14	Alcohol 500 507	Alcohol
+T15	Duration 508 520	since age 15
+T16	StatusTime 500 520	Alcohol since age 15
+T17	StatusTime 578 597	Cocaine x 3-4 years
+E1	Employment:T1 Status:T2
+E2	Employment:T3 Status:T4 Type:T5
+E3	Drug:T6 Type:T7 Duration:T8
+E4	Drug:T11 Type:T13 Status:T12
+E5	Alcohol:T14 Status:T16 Duration:T15
+A1	StatusEmployVal T2 on_disability
+A2	StatusEmployVal T4 employed
+A3	StatusTimeVal T12 current
+A4	StatusTimeVal T16 current
+A5	StatusTimeVal T17 current
+T18	Alcohol 383 396	alcohol abuse
+E6	Alcohol:T18 Status:T19
+T19	StatusTime 355 378	Admits to h/o treatment
+A6	StatusTimeVal T19 current
+T20	Tobacco 598 613	1 pack per week
+E7	Tobacco:T20 Status:T21 Amount:T9 Frequency:T10
+T21	StatusTime 598 613	1 pack per week
+A7	StatusTimeVal T21 current

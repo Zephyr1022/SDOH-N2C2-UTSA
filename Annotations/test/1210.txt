@@ -1,0 +1,8 @@
+HABITS: 
+Tobacco Use: Unable to obtain due to patient condition
+Alcohol Use: Unable to obtain due to patient condition   
+Drug Use: Unable to obtain due to patient condition
+
+SOCIAL HISTORY: 
+[x] Unable to Obtain due to Patient Condition
+Residence: Edmonds Landing SNF

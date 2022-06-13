@@ -1,0 +1,23 @@
+T3	Employment 73 85	nursing aide
+T4	StatusEmploy 62 72	used to be
+T5	Type 73 85	nursing aide
+T6	Employment 102 107	works
+T7	StatusEmploy 92 101	no longer
+T8	LivingStatus 113 118	lives
+T9	StatusTime 113 118	lives
+T10	TypeLiving 119 142	with her sister and son
+T11	StatusTime 233 239	denies
+T12	Tobacco 244 251	tobacco
+T13	Alcohol 253 257	etoh
+T14	Drug 262 267	drugs
+E2	Employment:T3 Type:T5 Status:T4
+E3	Employment:T6 Status:T7
+E4	LivingStatus:T8 Status:T9 Type:T10
+E5	Tobacco:T12 Status:T11
+E6	Alcohol:T13 Status:T11
+E7	Drug:T14 Status:T11
+A1	StatusEmployVal T4 unemployed
+A2	StatusEmployVal T7 unemployed
+A3	StatusTimeVal T9 current
+A4	TypeLivingVal T10 with_family
+A5	StatusTimeVal T11 none

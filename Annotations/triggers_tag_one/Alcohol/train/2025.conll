@@ -1,0 +1,26 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Single
+O	22	23	,
+O	24	29	lives
+O	30	34	with
+O	35	38	her
+O	39	47	daughter
+O	47	48	,
+O	49	54	doesn
+O	54	55	'
+O	55	56	t
+O	57	62	smoke
+O	62	63	,
+O	64	69	doesn
+O	69	70	'
+O	70	71	t
+B-Alcohol	72	77	drink
+O	77	78	,
+
+O	79	85	worked
+O	86	89	for
+O	90	93	bag
+O	94	101	company

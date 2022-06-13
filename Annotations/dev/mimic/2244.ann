@@ -1,0 +1,25 @@
+T1	LivingStatus 32 40	homeless
+T2	TypeLiving 32 40	homeless
+T3	StatusTime 29 31	is
+T4	LivingStatus 45 50	lives
+T5	TypeLiving 51 62	in shelters
+T6	StatusTime 45 50	lives
+T7	Drug 109 127	cocaine and heroin
+T8	StatusTime 104 108	uses
+T9	Type 109 127	cocaine and heroin
+T10	Tobacco 136 143	tobacco
+T11	StatusTime 129 135	smokes
+T12	Drug 152 166	other drug use
+T13	StatusTime 145 151	denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	LivingStatus:T4 Type:T5 Status:T6
+E3	Drug:T7 Status:T8 Type:T9
+E4	Tobacco:T10 Status:T11
+E5	Drug:T12 Status:T13
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	TypeLivingVal T5 with_others
+A4	StatusTimeVal T6 current
+A5	StatusTimeVal T8 current
+A6	StatusTimeVal T11 current
+A7	StatusTimeVal T13 none

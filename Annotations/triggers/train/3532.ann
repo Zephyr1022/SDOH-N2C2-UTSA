@@ -1,0 +1,7 @@
+T1	Alcohol 33 44	Alcohol Use
+T5	Drug 161 169	Drug Use
+T10	LivingStatus 256 264	Homeless
+T13	LivingStatus 266 282	Previously lived
+T16	LivingStatus 347 363	recently staying
+T19	Employment 427 430	SSI
+T21	Employment 493 499	worked

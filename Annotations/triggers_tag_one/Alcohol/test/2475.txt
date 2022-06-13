@@ -1,0 +1,5 @@
+HABITS: 
+Denies alcohol, tobacco or drug use
+
+SOCIAL HISTORY: 
+Residence: Lives with mother in [LOCATION] area

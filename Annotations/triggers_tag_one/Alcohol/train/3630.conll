@@ -1,0 +1,25 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	23	smokes
+O	24	34	cigarettes
+O	34	35	.
+
+O	36	39	Not
+O	40	48	homeless
+
+O	49	59	Occasional
+O	60	66	social
+B-Alcohol	67	75	drinking
+O	75	76	.
+
+O	77	83	Denies
+O	84	88	Drug
+O	89	92	use
+O	92	93	.
+
+O	94	96	On
+O	97	103	social
+O	104	112	security
+O	113	123	disability

@@ -1,0 +1,26 @@
+T1	Tobacco 221 235	Smoking status
+T2	StatusTime 237 242	Never
+T3	Tobacco 254 271	Smokeless tobacco
+T4	Type 254 263	Smokeless
+T5	StatusTime 273 278	Never
+T6	Alcohol 288 299	Alcohol use
+T7	Amount 300 306	0.6 oz
+T8	Frequency 306 311	/week
+T9	StatusTime 300 311	0.6 oz/week
+T10	Alcohol 326 330	wine
+T11	Amount 313 330	1 Glasses of wine
+T12	Frequency 331 339	per week
+T13	StatusTime 313 339	1 Glasses of wine per week
+T14	Drug 344 352	Drug use
+T15	StatusTime 354 356	No
+E1	Tobacco:T1 Status:T2
+E2	Tobacco:T3 Type:T4 Status:T5
+E3	Alcohol:T6 Amount:T7 Frequency:T8 Status:T9
+E4	Alcohol:T10 Amount:T11 Frequency:T12 Status:T13 Type:T16
+E5	Drug:T14 Status:T15
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T13 current
+A5	StatusTimeVal T15 none
+T16	Type 326 330	wine

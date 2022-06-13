@@ -1,0 +1,54 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	SHX
+O	19	20	:
+O	21	28	Married
+O	29	34	lives
+O	35	37	in
+O	38	39	[
+O	39	40	*
+O	40	41	*
+O	41	49	Location
+O	50	55	16221
+O	55	56	*
+O	56	57	*
+O	57	58	]
+O	58	59	,
+O	60	62	CT
+O	62	63	.
+
+O	64	66	No
+B-Tobacco	67	70	tob
+I-Tobacco	71	78	history
+O	79	82	per
+O	83	89	record
+O	89	90	.
+
+B-Alcohol	91	94	Occ
+
+B-Alcohol	95	99	ETOH
+O	99	100	.
+
+O	101	108	Patient
+B-Employment	109	115	worked
+O	116	118	as
+O	119	120	a
+O	121	128	factory
+O	129	138	assembler
+O	139	142	and
+O	143	146	did
+O	147	151	have
+
+O	152	160	exposure
+
+O	161	163	to
+O	164	173	chemicals
+O	173	174	/
+O	174	180	toxins
+O	181	182	(
+O	182	189	details
+O	190	197	unknown
+O	197	198	)
+O	198	199	.

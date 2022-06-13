@@ -1,0 +1,17 @@
+T3	Tobacco 142 155	Former smoker
+T4	StatusTime 142 155	Former smoker
+T5	Alcohol 160 164	EtOH
+T6	Drug 169 174	drugs
+T7	StatusTime 166 168	no
+T8	StatusTime 157 159	No
+T9	Employment 68 72	work
+T10	StatusEmploy 68 72	work
+T11	Type 76 89;90 102	a post-doc in microbiology
+E2	Tobacco:T3 Status:T4
+E3	Alcohol:T5 Status:T8
+E4	Drug:T6 Status:T7
+E5	Employment:T9 Status:T10 Type:T11
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T8 none
+A5	StatusEmployVal T10 employed

@@ -1,0 +1,10 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-Employment	17	24	Retired
+O	24	25	,
+B-LivingStatus	26	31	lives
+O	32	36	with
+O	37	40	his
+O	41	49	daughter

@@ -1,0 +1,6 @@
+T1	LivingStatus 25 30	lives
+T2	StatusTime 25 30	lives
+T3	TypeLiving 31 53;54 62	in an [**Hospital3 **] facility
+E1	LivingStatus:T1 Status:T2 Type:T3
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others

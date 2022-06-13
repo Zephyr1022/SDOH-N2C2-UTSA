@@ -1,0 +1,28 @@
+T1	LivingStatus 47 52	lives
+T2	StatusTime 47 52	lives
+T3	TypeLiving 53 66	with his wife
+T4	Amount 152 157	2-3pk
+T5	Frequency 158 165	per day
+T6	Duration 166 174	x 25 yrs
+T7	StatusTime 179 183	quit
+T8	History 184 193	5 yrs ago
+T9	Tobacco 144 151	smoking
+T10	Alcohol 221 232	alcohol use
+T11	StatusTime 210 217	history
+T12	Drug 240 248	illicits
+T13	StatusTime 237 239	no
+T14	Type 240 248	illicits
+T15	Employment 260 269	prior job
+T16	StatusEmploy 260 269	prior job
+T17	Type 273 289	Auto-body repair
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T9 Amount:T4 Frequency:T5 Duration:T6 Status:T7 History:T8
+E3	Alcohol:T10 Status:T11
+E4	Drug:T12 Type:T14 Status:T13
+E5	Employment:T15 Status:T16 Type:T17
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T7 past
+A4	StatusTimeVal T11 current
+A5	StatusTimeVal T13 none
+A6	StatusEmployVal T16 unemployed

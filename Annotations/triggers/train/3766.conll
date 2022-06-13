@@ -1,0 +1,60 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+O	16	17	:
+O	18	25	Regular
+O	26	29	use
+
+B-Alcohol	30	34	EtOH
+O	34	35	:
+O	36	42	Drinks
+O	43	52	regularly
+O	52	53	,
+O	54	62	endorses
+O	63	73	withdrawal
+O	74	82	seizures
+
+B-Drug	83	88	Drugs
+O	88	89	:
+O	90	103	Polysubstance
+O	104	107	use
+O	108	112	with
+O	113	117	meth
+O	118	121	and
+O	122	129	cocaine
+
+O	131	137	SOCIAL
+O	138	145	HISTORY
+O	145	146	:
+
+B-LivingStatus	148	157	Residence
+O	157	158	:
+O	159	164	Lives
+O	165	167	at
+O	168	169	a
+O	170	176	church
+O	176	177	,
+O	178	180	in
+O	181	182	a
+O	183	187	shed
+O	188	191	per
+O	192	198	report
+O	198	199	;
+O	200	203	has
+O	204	209	lived
+O	210	215	there
+O	216	217	a
+O	218	222	long
+O	223	227	time
+O	227	228	.
+
+O	230	232	He
+O	233	237	says
+O	238	240	he
+O	241	245	used
+O	246	248	to
+O	249	251	be
+B-Employment	252	254	an
+I-Employment	255	266	electrician
+O	266	267	.

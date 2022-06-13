@@ -1,0 +1,14 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	25	homeless
+
+O	26	29	occ
+O	30	33	tob
+O	33	34	.
+
+O	35	41	denies
+B-Alcohol	42	46	etoh
+O	46	47	,
+O	48	53	drugs

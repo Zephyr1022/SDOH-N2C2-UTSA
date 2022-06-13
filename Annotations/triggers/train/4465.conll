@@ -1,0 +1,61 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	24	20
+O	25	35	cigarettes
+O	36	39	per
+O	40	43	day
+O	44	48	over
+O	49	51	20
+O	51	52	-
+O	52	56	year
+O	57	63	period
+
+B-Alcohol	64	71	Alcohol
+I-Alcohol	72	75	Use
+O	75	76	:
+O	77	78	6
+O	79	83	pack
+O	84	87	per
+O	88	91	day
+
+B-Drug	92	96	Drug
+I-Drug	97	100	Use
+O	100	101	:
+O	102	109	Cocaine
+O	109	110	,
+O	111	121	occasional
+O	122	125	use
+
+O	128	134	SOCIAL
+O	135	142	HISTORY
+O	142	143	:
+
+B-LivingStatus	145	150	Lives
+O	151	153	at
+O	154	162	Interbay
+O	163	168	Place
+
+O	170	178	Receives
+O	179	183	food
+O	184	188	from
+O	189	194	Meals
+O	195	197	on
+O	198	204	Wheels
+
+B-Employment	205	215	Unemployed
+
+O	216	224	Receives
+O	225	228	SSI
+
+O	229	235	Enjoys
+O	236	244	watching
+O	245	255	television
+O	255	256	,
+O	257	263	having
+O	264	271	friends
+O	272	277	visit
+O	278	281	him

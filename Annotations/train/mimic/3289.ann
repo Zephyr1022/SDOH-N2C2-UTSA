@@ -1,0 +1,25 @@
+T1	LivingStatus 17 35	Currently homeless
+T2	StatusTime 17 35	Currently homeless
+T3	TypeLiving 17 35	Currently homeless
+T4	LivingStatus 38 42	Stay
+T5	StatusTime 38 42	Stay
+T6	TypeLiving 43 57	on the streets
+T7	Tobacco 59 66	Tobacco
+T8	StatusTime 68 74	Denies
+T9	Alcohol 75 82	Alcohol
+T10	StatusTime 85 105	Only on the weekends
+T11	Frequency 85 105	Only on the weekends
+T12	Drug 108 113	Drugs
+T13	StatusTime 115 121	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Frequency:T11 Status:T10
+E5	Drug:T12 Status:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 homeless
+A5	StatusTimeVal T8 none
+A6	StatusTimeVal T10 current
+A7	StatusTimeVal T13 none

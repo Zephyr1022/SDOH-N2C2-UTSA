@@ -1,0 +1,12 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 30	with son
+T4	Alcohol 39 43	EtOH
+T5	Tobacco 45 52	smoking
+T6	StatusTime 32 38	denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T6
+E3	Tobacco:T5 Status:T6
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T6 none

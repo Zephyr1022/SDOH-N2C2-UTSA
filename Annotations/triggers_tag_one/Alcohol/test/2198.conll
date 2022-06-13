@@ -1,0 +1,37 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Residence
+O	26	27	:
+
+O	29	36	Private
+O	37	46	residence
+O	46	47	.
+
+O	49	59	Employment
+O	59	60	:
+
+O	62	70	Employed
+O	70	71	.
+
+O	73	80	Tobacco
+O	81	84	use
+O	84	85	:
+
+O	87	97	Cigarettes
+O	97	98	:
+O	98	99	.
+
+O	101	108	Alcohol
+O	109	112	use
+O	112	113	:
+O	114	120	denies
+O	120	121	.
+
+O	123	127	Drug
+O	128	131	use
+O	131	132	:
+
+O	134	140	Denies
+O	140	141	.

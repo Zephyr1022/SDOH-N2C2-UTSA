@@ -1,0 +1,40 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 29	1/2 ppd
+T3	Duration 30 40	x 10 years
+T4	StatusTime 22 29	1/2 ppd
+T5	Drug 42 44	MJ
+T6	Frequency 45 50	daily
+T7	Duration 51 61	> 15 years
+T8	StatusTime 42 50	MJ daily
+T9	Drug 63 67	Meth
+T10	Duration 68 78	6-8 months
+T11	Frequency 80 85	daily
+T12	StatusTime 80 89	daily use
+T13	StatusTime 158 163	Lives
+T14	TypeLiving 164 186	with significant other
+T15	LivingStatus 158 163	Lives
+T16	Employment 191 203	unemployment
+T17	StatusEmploy 188 203	on unemployment
+T18	Alcohol 91 98	Alcohol
+T19	Amount 100 115	~ 1 bottle wine
+T20	Type 111 115	wine
+T21	Frequency 115 120	/week
+T23	StatusTime 100 120	~ 1 bottle wine/week
+T24	Employment 216 222	worked
+T25	Type 226 248	the furniture business
+T26	StatusEmploy 205 222	Previously worked
+E1	Tobacco:T1 Amount:T2 Duration:T3 Status:T4
+E2	Drug:T5 Frequency:T6 Duration:T7 Status:T8
+E3	Drug:T9 Duration:T10 Frequency:T11 Status:T12
+E4	LivingStatus:T15 Type:T14 Status:T13
+E5	Employment:T16 Status:T17
+E6	Alcohol:T18 Amount:T19 Type:T20 Frequency:T21 Status:T23
+E7	Employment:T24 Type:T25 Status:T26
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T8 current
+A3	StatusTimeVal T12 current
+A4	StatusTimeVal T13 current
+A5	TypeLivingVal T14 with_others
+A6	StatusEmployVal T17 unemployed
+A8	StatusTimeVal T23 current
+A9	StatusEmployVal T26 unemployed

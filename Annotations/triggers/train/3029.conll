@@ -1,0 +1,25 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	24	Patient
+O	25	28	was
+O	29	31	at
+O	32	36	home
+O	36	37	.
+
+O	39	41	He
+B-Tobacco	42	48	smokes
+O	49	59	cigarettes
+O	60	72	occasionally
+O	72	73	,
+O	74	76	he
+O	77	83	drinks
+B-Alcohol	84	91	alcohol
+O	92	104	occasionally
+O	104	105	,
+O	106	108	he
+O	109	115	denies
+O	116	121	using
+B-Drug	122	127	drugs
+O	127	128	.

@@ -1,0 +1,49 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	17	22	Lives
+O	23	25	by
+O	26	33	herself
+O	34	36	in
+O	37	38	[
+O	38	39	*
+O	39	40	*
+O	40	49	Hospital3
+O	50	51	*
+O	51	52	*
+O	52	53	]
+O	53	54	.
+
+O	55	58	She
+O	59	63	does
+O	64	67	her
+O	68	72	ADLs
+O	73	74	(
+O	74	79	cooks
+
+O	80	86	cleans
+O	86	87	)
+O	87	88	.
+
+O	89	92	Has
+O	93	101	children
+O	102	104	in
+O	105	109	area
+O	109	110	.
+
+O	111	113	No
+B-Tobacco	114	121	tobacco
+I-Tobacco	122	129	history
+O	129	130	.
+
+O	132	137	Plays
+O	138	144	bridge
+
+O	145	146	2
+O	146	147	-
+O	147	148	3
+O	149	154	times
+O	155	156	a
+O	157	161	week
+O	161	162	.

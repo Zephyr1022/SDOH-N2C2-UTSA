@@ -1,0 +1,53 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	24	Divorced
+O	25	29	with
+O	30	32	10
+O	33	41	children
+O	41	42	.
+
+B-Employment	44	54	Previously
+I-Employment	55	61	worked
+O	62	64	in
+O	65	68	the
+O	69	78	cafeteria
+
+O	79	81	in
+O	82	83	[
+O	83	84	*
+O	84	85	*
+O	85	94	Hospital6
+O	95	100	17032
+O	100	101	*
+O	101	102	*
+O	102	103	]
+O	103	104	.
+
+O	106	110	Quit
+B-Tobacco	111	118	smoking
+O	119	121	10
+O	122	127	years
+O	128	131	ago
+O	131	132	.
+
+O	133	137	Does
+O	138	141	not
+B-Alcohol	142	147	drink
+O	148	150	at
+O	151	158	present
+O	159	160	.
+
+O	162	165	She
+O	166	169	has
+O	170	171	a
+O	172	179	history
+O	180	182	of
+B-Alcohol	183	190	alcohol
+I-Alcohol	191	196	usage
+
+O	197	199	in
+O	200	203	the
+O	204	208	past
+O	208	209	.

@@ -1,0 +1,26 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	20	Race
+O	20	21	:
+O	22	31	Caucasian
+
+B-LivingStatus	32	37	Lives
+O	38	42	with
+O	42	43	:
+O	44	51	Husband
+
+B-Employment	52	62	Occupation
+O	62	63	:
+O	64	73	Currently
+O	74	84	unemployed
+
+B-Tobacco	85	92	Tobacco
+O	92	93	:
+O	94	99	Never
+O	100	106	smoked
+
+B-Alcohol	107	111	ETOH
+O	111	112	:
+O	113	117	Rare

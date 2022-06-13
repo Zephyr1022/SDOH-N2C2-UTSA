@@ -1,0 +1,67 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+O	16	17	:
+O	18	19	½
+O	20	23	ppd
+O	24	29	since
+O	30	32	21
+O	32	33	;
+O	34	37	now
+O	38	42	down
+O	43	45	to
+O	46	47	1
+O	47	48	-
+O	48	49	2
+B-Tobacco	50	60	cigarettes
+O	60	61	/
+O	61	64	day
+
+B-Alcohol	65	69	EtOH
+O	69	70	:
+O	71	72	2
+O	72	73	-
+O	73	74	3
+O	75	80	beers
+O	80	81	/
+O	81	84	day
+O	84	85	;
+O	86	96	previously
+O	97	104	heavier
+O	105	112	drinker
+
+B-Drug	113	118	Drugs
+O	118	119	:
+O	120	126	Denies
+O	127	131	IVDU
+O	131	132	,
+O	133	138	daily
+B-Drug	139	148	marijuana
+I-Drug	149	152	use
+
+O	154	160	SOCIAL
+O	161	168	HISTORY
+O	168	169	:
+
+O	171	180	Residence
+O	180	181	:
+O	182	183	[
+O	183	191	LOCATION
+O	191	192	]
+O	192	193	,
+O	194	195	[
+O	195	203	LOCATION
+O	203	204	]
+
+B-LivingStatus	205	210	Lives
+O	211	215	with
+O	216	226	girlfriend
+O	226	227	.
+
+O	228	231	Has
+O	232	233	3
+O	234	242	children
+O	242	243	;
+O	244	245	2
+O	246	252	living

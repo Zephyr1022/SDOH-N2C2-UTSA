@@ -1,0 +1,34 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	Former
+O	29	30	0
+O	30	31	.
+O	31	35	5ppd
+O	35	36	_
+B-Alcohol	39	46	Alcohol
+I-Alcohol	47	50	Use
+O	50	51	:
+O	52	53	_
+O	53	55	No
+B-Drug	58	62	Drug
+I-Drug	63	66	Use
+O	66	67	:
+O	68	70	MJ
+O	71	74	per
+O	75	80	chart
+O	81	87	review
+
+O	89	95	SOCIAL
+O	96	103	HISTORY
+O	103	104	:
+
+B-LivingStatus	106	115	Residence
+O	115	116	:
+O	117	122	Lives
+O	123	124	w
+O	124	125	/
+O	126	132	family

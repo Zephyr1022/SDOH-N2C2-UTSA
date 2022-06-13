@@ -1,0 +1,10 @@
+T1	LivingStatus 16 31	Had been living
+T2	StatusTime 16 31	Had been living
+T3	TypeLiving 32 51	with former partner
+T12	Alcohol 160 164	EtOH
+T13	StatusTime 151 152	+
+E1	LivingStatus:T1 Status:T2 Type:T3
+E4	Alcohol:T12 Status:T13
+A1	StatusTimeVal T2 past
+A2	TypeLivingVal T3 with_family
+A5	StatusTimeVal T13 current

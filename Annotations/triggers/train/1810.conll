@@ -1,0 +1,119 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	26	Originally
+O	27	31	from
+O	32	33	[
+O	33	34	*
+O	34	35	*
+O	35	39	Male
+O	40	45	First
+O	46	50	Name
+O	51	52	(
+O	52	54	un
+O	54	55	)
+O	56	60	1056
+O	60	61	*
+O	61	62	*
+O	62	63	]
+O	63	64	.
+
+O	65	72	Spanish
+O	73	81	speaking
+O	81	82	.
+
+B-LivingStatus	83	88	Lives
+O	89	91	in
+O	92	94	an
+
+O	95	104	apartment
+O	105	106	[
+O	106	107	*
+O	107	108	*
+O	108	116	Location
+O	117	118	(
+O	118	120	un
+O	120	121	)
+O	122	126	6409
+O	126	127	*
+O	127	128	*
+O	128	129	]
+O	130	134	with
+O	135	136	a
+O	137	142	niece
+O	142	143	.
+
+O	144	150	Denies
+B-Alcohol	151	155	EtOH
+O	156	157	x
+O	158	159	1
+O	160	164	year
+O	164	165	,
+O	166	169	but
+
+O	170	173	has
+O	174	175	a
+O	176	183	history
+O	184	186	of
+O	187	196	excessive
+B-Alcohol	197	201	EtOH
+I-Alcohol	202	205	use
+O	206	208	in
+O	209	213	past
+O	213	214	.
+
+O	215	216	+
+B-Tobacco	217	224	Tobacco
+I-Tobacco	225	228	use
+O	228	229	.
+
+O	230	234	Does
+
+O	235	238	not
+O	239	243	work
+O	243	244	,
+O	245	247	is
+B-Employment	248	256	disabled
+O	256	257	.
+
+O	258	264	Sister
+O	265	270	lives
+O	271	277	nearby
+O	278	281	and
+O	282	284	is
+O	285	293	involved
+O	294	296	in
+
+O	297	300	his
+O	301	305	care
+O	305	306	.
+
+O	307	310	PCP
+O	311	313	is
+O	314	315	[
+O	315	316	*
+O	316	317	*
+O	317	321	Last
+O	322	326	Name
+O	327	328	(
+O	328	340	NamePattern4
+O	340	341	)
+O	342	343	*
+O	343	344	*
+O	344	345	]
+O	345	346	.
+
+O	347	348	[
+O	348	349	*
+O	349	350	*
+O	350	354	Last
+O	355	359	Name
+O	360	361	(
+O	361	367	STitle
+O	367	368	)
+O	369	373	1789
+O	373	374	*
+O	374	375	*
+O	375	376	]
+O	376	377	.

@@ -1,0 +1,36 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	29	patient
+O	30	36	denies
+O	39	46	Alcohol
+O	47	50	Use
+O	50	51	:
+O	52	59	patient
+O	60	66	denies
+O	69	73	Drug
+O	74	77	Use
+O	77	78	:
+O	79	80	+
+O	81	87	heroin
+O	88	91	use
+O	91	92	,
+O	93	97	last
+O	98	102	used
+O	103	112	yesterday
+O	112	113	;
+O	114	120	denies
+O	121	126	other
+O	127	134	illicit
+O	135	140	drugs
+
+O	142	148	SOCIAL
+O	149	156	HISTORY
+O	156	157	:
+
+O	159	168	Residence
+O	168	169	:
+O	170	178	Homeless

@@ -1,0 +1,4 @@
+T1	Employment 29 34	Works
+T2	StatusEmploy 29 34	Works
+E1	Employment:T1 Status:T2
+A1	StatusEmployVal T2 employed

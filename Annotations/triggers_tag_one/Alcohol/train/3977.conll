@@ -1,0 +1,23 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	24	Tobacco
+O	24	25	:
+O	26	27	+
+
+O	28	32	Meth
+O	33	37	IVDU
+O	38	39	3
+O	39	40	.
+O	40	41	5
+O	42	47	weeks
+O	48	51	ago
+
+O	52	58	Denies
+B-Alcohol	59	66	alcohol
+I-Alcohol	67	70	use
+
+O	71	80	Currently
+O	81	83	at
+O	84	88	jail

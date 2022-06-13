@@ -1,0 +1,25 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	25	Homeless
+
+B-Employment	26	36	Unemployed
+
+O	37	38	h
+O	38	39	/
+O	39	40	o
+B-Tobacco	41	48	tobacco
+O	48	49	,
+B-Drug	50	53	thc
+O	53	54	,
+B-Alcohol	55	59	etoh
+O	59	60	,
+B-Drug	61	68	cocaine
+I-Drug	68	69	,
+I-Drug	70	76	heroin
+I-Drug	77	80	use
+
+O	81	87	SOCIAL
+O	88	95	HISTORY
+O	95	96	:

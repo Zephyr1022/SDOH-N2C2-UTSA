@@ -1,0 +1,64 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	24	Guidance
+I-Employment	25	34	counselor
+O	34	35	.
+
+O	36	38	hx
+O	39	41	of
+B-Alcohol	42	47	heavy
+I-Alcohol	48	55	alcohol
+I-Alcohol	56	62	intake
+O	62	63	.
+B-Alcohol	64	72	drinking
+O	73	80	heavily
+
+O	81	85	over
+O	86	90	last
+O	91	92	3
+O	92	93	-
+O	93	94	4
+O	95	100	years
+O	101	104	and
+O	105	112	putting
+O	113	115	in
+O	116	121	water
+O	122	128	bottle
+O	129	132	and
+O	133	139	taking
+O	140	144	sips
+
+O	145	155	throughout
+O	156	159	the
+O	160	163	day
+O	163	164	.
+
+O	165	169	Quit
+O	170	175	about
+O	176	177	3
+O	178	183	weeks
+O	184	187	ago
+O	188	192	when
+O	193	195	he
+O	196	203	noticed
+O	204	206	he
+
+O	207	210	was
+O	211	220	jaundiced
+O	220	221	.
+
+O	222	224	no
+B-Drug	225	229	IVDA
+O	229	230	.
+O	231	237	remote
+B-Tobacco	238	245	tobacco
+I-Tobacco	246	249	use
+O	249	250	.
+O	251	260	separated
+O	261	265	from
+O	266	270	wife
+O	270	271	.
+
+O	272	273	.

@@ -1,0 +1,28 @@
+T1	Employment 67 73	worked
+T2	StatusEmploy 67 73	worked
+T3	Type 77 88	maintenance
+T4	Duration 118 130	for 22 years
+T5	LivingStatus 190 200	was living
+T6	StatusTime 190 200	was living
+T7	TypeLiving 201 218	in senior housing
+T8	Tobacco 436 443	tobacco
+T9	Alcohol 445 452	alcohol
+T10	Drug 458 479	recreational drug use
+T11	Type 458 470	recreational
+T12	StatusTime 429 435	Denied
+T13	LivingStatus 493 508	Recently living
+T14	StatusTime 493 508	Recently living
+T15	TypeLiving 509 532	at [**Hospital3 2558**]
+T16	History 132 159	Prior to his last admission
+E1	Employment:T1 Status:T2 Type:T3 Duration:T4
+E2	LivingStatus:T5 Status:T6 Type:T7 History:T16
+E3	Tobacco:T8 Status:T12
+E4	Alcohol:T9 Status:T12
+E5	Drug:T10 Type:T11 Status:T12
+E6	LivingStatus:T13 Status:T14 Type:T15
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T6 past
+A3	TypeLivingVal T7 with_others
+A4	StatusTimeVal T12 none
+A5	StatusTimeVal T14 current
+A6	TypeLivingVal T15 with_others

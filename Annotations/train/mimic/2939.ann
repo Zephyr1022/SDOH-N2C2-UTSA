@@ -1,0 +1,30 @@
+T1	Employment 151 156	works
+T2	StatusEmploy 151 156	works
+T3	Type 157 168	a sous chef
+T4	LivingStatus 56 73	recently moved in
+T5	StatusTime 56 73	recently moved in
+T6	TypeLiving 74 89	with his mother
+T7	Tobacco 431 434	Tob
+T8	StatusTime 436 448	Past history
+T9	Alcohol 481 485	ETOH
+T10	StatusTime 487 498	Occassional
+T12	Drug 531 544	Illicit drugs
+T13	StatusTime 546 547	+
+T14	Type 548 557	Marijuana
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Status:T10
+E5	Drug:T12 Status:T13 Type:T14 Type2:T11
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T10 current
+A7	StatusTimeVal T13 current
+T11	Type 531 538	Illicit
+T15	Type 566 579	other illicit
+T16	StatusTime 563 565	no
+A6	StatusTimeVal T16 none
+T17	Drug 566 585	other illicit drugs
+E6	Drug:T17 Type:T15 Status:T16

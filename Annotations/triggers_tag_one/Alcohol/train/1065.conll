@@ -1,0 +1,80 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	27	alone
+O	28	30	in
+O	31	32	[
+O	32	33	*
+O	33	34	*
+O	34	42	Location
+O	43	44	(
+O	44	46	un
+O	46	47	)
+O	48	49	*
+O	49	50	*
+O	50	51	]
+O	51	52	.
+
+O	53	55	No
+O	56	62	family
+O	63	65	in
+O	66	70	area
+O	70	71	.
+
+O	72	76	Used
+O	77	79	to
+O	80	84	work
+O	85	87	as
+
+O	88	98	industrial
+O	99	107	engineer
+O	107	108	.
+
+O	109	114	Prior
+O	115	122	tobacco
+O	123	126	use
+O	126	127	,
+O	128	134	mostly
+O	135	140	pipes
+O	141	144	and
+O	145	151	cigars
+O	151	152	,
+
+O	153	157	quit
+O	158	160	30
+O	161	166	years
+O	167	170	ago
+O	170	171	.
+
+B-Alcohol	172	177	Prior
+I-Alcohol	178	182	ETOH
+I-Alcohol	183	186	use
+O	186	187	,
+O	188	192	quit
+O	193	195	20
+O	196	201	years
+O	202	205	ago
+O	205	206	.
+
+O	207	209	No
+O	210	214	IVDA
+O	214	215	.
+
+O	216	222	Visits
+O	223	229	senior
+O	230	236	center
+O	237	239	1x
+O	239	240	/
+O	240	243	day
+O	244	247	for
+O	248	253	meals
+O	253	254	.
+
+O	255	259	Last
+O	260	266	shower
+O	267	268	5
+O	269	274	weeks
+O	275	278	ago
+O	278	279	.

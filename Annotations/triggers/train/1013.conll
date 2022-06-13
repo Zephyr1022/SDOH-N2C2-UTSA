@@ -1,0 +1,27 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	at
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	36	Hospital
+O	37	40	100
+O	40	41	*
+O	41	42	*
+O	42	43	]
+O	44	49	Rehab
+O	49	50	.
+
+B-Tobacco	52	61	Nonsmoker
+O	61	62	,
+O	63	65	no
+B-Alcohol	66	73	alcohol
+O	73	74	.
+
+O	75	78	Son
+O	79	81	is
+O	82	90	involved
+O	90	91	.

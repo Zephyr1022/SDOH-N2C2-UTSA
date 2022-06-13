@@ -1,0 +1,66 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	23	2
+O	24	34	cigarettes
+O	34	35	,
+O	36	41	since
+O	42	45	age
+O	46	48	27
+
+B-Alcohol	49	56	Alcohol
+I-Alcohol	57	60	Use
+O	60	61	:
+O	62	70	normally
+O	71	72	~
+O	72	73	2
+O	74	79	beers
+O	79	80	/
+O	80	83	day
+O	83	84	,
+O	85	90	fifth
+O	91	93	of
+B-Alcohol	94	98	hard
+I-Alcohol	99	105	liquor
+O	106	111	daily
+O	112	116	over
+O	117	120	the
+O	121	125	past
+O	126	129	few
+O	130	134	days
+
+B-Drug	138	142	Drug
+I-Drug	143	146	Use
+O	146	147	:
+O	148	155	cocaine
+O	155	156	,
+O	157	163	smokes
+O	163	164	,
+O	165	167	no
+O	168	177	injection
+
+O	178	186	Sexually
+O	187	193	active
+O	193	194	,
+O	195	199	does
+O	200	203	not
+O	204	210	always
+O	211	214	use
+O	215	222	condoms
+
+O	224	230	SOCIAL
+O	231	238	HISTORY
+O	238	239	:
+
+B-LivingStatus	241	250	Residence
+O	250	251	:
+O	252	257	Lives
+O	258	260	at
+O	261	263	an
+O	264	273	apartment
+O	274	279	alone
+O	279	280	,
+B-Employment	281	291	unemployed

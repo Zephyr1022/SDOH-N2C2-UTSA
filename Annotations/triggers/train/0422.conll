@@ -1,0 +1,96 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	Pt
+O	19	23	used
+O	24	26	to
+B-Employment	27	31	work
+O	32	34	in
+O	35	38	the
+O	39	46	factory
+O	47	49	of
+O	50	51	[
+O	51	52	*
+O	52	53	*
+O	53	58	State
+O	59	64	20475
+O	64	65	*
+O	65	66	*
+O	66	67	]
+O	67	68	.
+
+O	69	72	His
+O	73	77	wife
+
+O	78	82	died
+O	83	84	3
+O	85	90	years
+O	91	94	ago
+O	94	95	.
+
+O	96	98	He
+O	99	102	had
+O	103	107	four
+O	108	116	children
+O	116	117	,
+O	118	121	two
+O	122	126	whom
+O	127	131	died
+O	132	134	in
+O	135	140	their
+
+O	141	146	early
+O	147	156	adulthood
+O	156	157	.
+
+O	158	162	Quit
+B-Tobacco	163	170	tobacco
+O	171	174	few
+O	175	180	years
+O	181	184	ago
+O	184	185	.
+
+O	186	189	120
+O	189	190	-
+O	190	193	180
+O	194	198	pack
+O	199	203	year
+
+O	204	211	history
+O	211	212	.
+
+B-Alcohol	213	217	EtOH
+O	217	218	:
+O	219	223	quit
+O	224	225	a
+O	226	229	few
+O	230	235	years
+O	236	239	ago
+O	239	240	.
+
+B-Alcohol	241	247	Drinks
+O	248	249	~
+O	250	251	1
+O	252	255	per
+O	256	260	week
+O	261	264	but
+O	265	268	not
+
+O	269	271	in
+O	272	277	rehab
+O	277	278	.
+
+B-Alcohol	279	284	Drank
+O	285	292	heavily
+O	293	296	but
+O	297	302	could
+O	303	306	not
+O	307	315	quantify
+O	316	319	for
+O	320	322	me
+O	322	323	.
+
+O	324	326	No
+B-Drug	327	331	IVDU
+O	331	332	.

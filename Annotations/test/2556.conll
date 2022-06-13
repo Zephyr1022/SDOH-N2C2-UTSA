@@ -1,0 +1,36 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	Denies
+
+O	31	38	Alcohol
+O	39	42	Use
+O	42	43	:
+O	44	48	Rare
+
+O	52	56	Drug
+O	57	60	Use
+O	60	61	:
+O	62	68	Denies
+
+O	70	76	SOCIAL
+O	77	84	HISTORY
+O	84	85	:
+
+O	87	95	Recently
+O	96	101	moved
+O	102	104	to
+O	105	106	[
+O	106	114	LOCATION
+O	114	115	]
+O	115	116	,
+O	117	123	living
+O	124	128	with
+O	129	132	his
+O	133	137	wife
+O	138	141	and
+O	142	145	son
+O	145	146	.

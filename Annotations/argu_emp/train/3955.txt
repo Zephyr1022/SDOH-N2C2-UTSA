@@ -1,0 +1,9 @@
+HABITS: 
+- 1/2 PPD for last 26 years, 13 pack-year
+- Meth and heroine use yesterday ([DATE]), history of cocaine use per PCP notes
+- denies alcohol use
+
+SOCIAL HISTORY: 
+- has permanent apartment right now, with caseworker ([NAME])
+- unemployed
+- followed by PCP Dr. [NAME] here at [LOCATION]

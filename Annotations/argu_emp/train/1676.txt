@@ -1,0 +1,8 @@
+Social History:
+
+The patient denies alcohol, cigarette, or drug use
+
+ROS
+
+-
+A [DATE] ROS was performed and is negative (including constitutional, Eyes, ENMT, respiratory, cardiovascular, GI, neurologic, musculoskeletal, psych, or skin) except where noted in the above ROS or HPI.

@@ -1,0 +1,102 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	23	w
+O	23	24	/
+O	25	29	wife
+O	30	33	and
+O	34	37	son
+O	37	38	.
+
+O	39	47	Daughter
+O	47	48	-
+O	48	50	in
+O	50	51	-
+O	51	54	law
+O	54	55	,
+O	56	59	and
+O	60	65	three
+O	66	79	grandchildren
+
+O	81	83	in
+O	84	85	[
+O	85	86	*
+O	86	87	*
+O	87	95	Location
+O	96	97	(
+O	97	99	un
+O	99	100	)
+O	101	103	86
+O	103	104	*
+O	104	105	*
+O	105	106	]
+O	107	111	area
+O	111	112	,
+O	113	116	has
+O	117	121	been
+O	122	132	unemployed
+O	133	134	[
+O	134	135	*
+O	135	136	*
+O	136	137	2
+O	137	138	-
+O	138	139	5
+O	139	140	*
+O	140	141	*
+O	141	142	]
+O	143	153	disability
+O	153	154	,
+O	155	161	smokes
+
+O	162	169	tobacco
+O	170	171	2
+O	172	175	ppd
+O	176	179	x45
+O	180	185	years
+O	185	186	,
+B-Alcohol	187	191	past
+I-Alcohol	192	199	alcohol
+O	199	200	,
+O	201	207	denies
+O	208	215	current
+O	215	216	,
+O	217	219	no
+
+O	220	232	recreational
+O	233	237	drug
+O	238	241	use
+O	241	242	.
+
+O	243	247	Does
+O	248	251	not
+O	252	256	walk
+O	257	260	due
+O	261	263	to
+O	264	268	knee
+O	269	280	contraction
+O	280	281	,
+
+O	282	288	spinal
+O	289	296	disease
+O	296	297	.
+
+O	298	300	WC
+O	301	306	bound
+O	307	312	since
+O	313	314	[
+O	314	315	*
+O	315	316	*
+O	316	320	2187
+O	320	321	*
+O	321	322	*
+O	322	323	]
+O	323	324	.
+
+O	325	329	Wife
+O	330	337	manages
+O	338	341	his
+
+O	342	353	medications
+O	353	354	.

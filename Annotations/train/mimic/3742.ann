@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 36	current smoker
+T3	Alcohol 125 136	Alcohol Use
+T4	StatusTime 138 147	prior use
+T5	Drug 148 156	Drug Use
+T6	StatusTime 158 167	prior use
+T7	Type 171 197	methamphetamine and heroin
+T8	LivingStatus 238 254	Currently living
+T9	StatusTime 238 254	Currently living
+T10	TypeLiving 255 266	with friend
+T11	Employment 292 314	Not currently employed
+T12	StatusEmploy 292 314	Not currently employed
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6 Type:T7
+E4	LivingStatus:T8 Status:T9 Type:T10
+E5	Employment:T11 Status:T12
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T10 with_others
+A6	StatusEmployVal T12 unemployed

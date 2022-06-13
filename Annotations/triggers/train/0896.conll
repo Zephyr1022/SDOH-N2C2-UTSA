@@ -1,0 +1,64 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Alcohol	16	22	Drinks
+O	23	24	1
+O	24	25	-
+O	25	26	1
+O	26	27	.
+O	27	28	5
+O	29	34	pints
+O	35	37	of
+O	38	45	whiskey
+O	46	49	per
+O	50	53	day
+O	53	54	,
+O	55	59	last
+O	60	65	drink
+O	66	67	6
+O	68	70	pm
+O	71	74	day
+
+O	75	81	before
+O	82	91	admission
+O	91	92	.
+
+O	94	100	Denies
+O	101	105	ever
+B-Tobacco	106	113	smoking
+O	113	114	,
+O	115	121	denies
+B-Drug	122	129	ilicits
+O	129	130	.
+
+B-LivingStatus	132	137	Lives
+
+O	138	140	in
+O	141	143	an
+O	144	147	apt
+O	148	150	in
+O	151	152	[
+O	152	153	*
+O	153	154	*
+O	154	162	Location
+O	163	164	(
+O	164	166	un
+O	166	167	)
+O	168	170	86
+O	170	171	*
+O	171	172	*
+O	172	173	]
+O	174	178	with
+O	179	188	roommates
+O	188	189	,
+O	190	194	does
+O	195	198	not
+O	199	203	have
+O	204	205	a
+O	206	211	close
+
+O	212	224	relationship
+O	225	229	with
+O	230	233	his
+O	234	240	family

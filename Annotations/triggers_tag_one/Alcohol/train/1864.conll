@@ -1,0 +1,24 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	26	with
+O	26	27	:
+O	27	31	wife
+
+O	32	42	Occupation
+O	42	43	:
+O	43	51	Disabled
+
+O	52	59	Tobacco
+O	59	60	:
+O	60	66	smokes
+O	67	71	1ppd
+O	72	73	x
+O	74	76	40
+O	77	80	yrs
+
+B-Alcohol	81	85	ETOH
+O	85	86	:
+O	86	90	none

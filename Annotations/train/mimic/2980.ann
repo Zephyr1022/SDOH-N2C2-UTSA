@@ -1,0 +1,32 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 21 26	2 PPD
+T3	Duration 27 37	x 44 years
+T4	StatusTime 39 43	quit
+T5	History 44 50	[DATE]
+T6	Alcohol 53 64	Alcohol Use
+T7	StatusTime 66 72	Denies
+T8	Drug 75 83	Drug Use
+T9	Type 93 102	marijuana
+T10	Method 85 123	Ingests marijuana, occasionally smokes
+T11	StatusTime 85 92	Ingests
+T12	LivingStatus 142 147	Lives
+T13	TypeLiving 148 166	with her boyfriend
+T14	StatusTime 142 147	Lives
+T15	Employment 168 186	Currently employed
+T16	StatusEmploy 168 186	Currently employed
+T17	Employment 192 209	previously worked
+T18	StatusEmploy 192 209	previously worked
+T19	Type 213 228	debt collection
+E1	Tobacco:T1 Amount:T2 Duration:T3 Status:T4 History:T5
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Status:T11 Type:T9 Method:T10
+E4	LivingStatus:T12 Status:T14 Type:T13
+E5	Employment:T15 Status:T16
+E6	Employment:T17 Status:T18 Type:T19
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T11 current
+A4	TypeLivingVal T13 with_others
+A5	StatusTimeVal T14 current
+A6	StatusEmployVal T16 employed
+A7	StatusEmployVal T18 unemployed

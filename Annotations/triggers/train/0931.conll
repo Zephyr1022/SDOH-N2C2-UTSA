@@ -1,0 +1,75 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	27	31	wife
+O	31	32	.
+
+O	33	40	Several
+O	41	49	children
+O	49	50	,
+O	51	58	present
+O	59	61	at
+O	62	69	bedside
+O	69	70	.
+
+B-Tobacco	71	77	Smoked
+O	78	79	a
+
+O	80	83	few
+O	84	88	cigs
+O	88	89	/
+O	89	92	day
+O	93	96	for
+O	97	98	2
+O	98	99	-
+O	99	100	3
+O	101	106	years
+O	106	107	,
+O	108	115	stopped
+O	116	118	in
+O	119	120	[
+O	120	121	*
+O	121	122	*
+O	122	126	2117
+O	126	127	*
+O	127	128	*
+O	128	129	]
+O	129	130	.
+
+B-Employment	131	136	Works
+O	137	139	at
+O	140	141	[
+O	141	142	*
+O	142	143	*
+O	143	152	Hospital1
+O	153	155	18
+O	155	156	*
+O	156	157	*
+O	157	158	]
+O	159	161	in
+
+O	162	175	environmental
+O	176	184	services
+O	184	185	.
+
+O	186	188	He
+O	189	193	only
+O	194	200	rarely
+B-Alcohol	201	207	drinks
+O	208	212	beer
+O	213	217	once
+O	218	220	in
+O	221	222	a
+
+O	223	228	while
+O	229	232	for
+O	233	241	holidays
+O	241	242	.
+
+O	243	245	No
+B-Drug	246	258	recreational
+I-Drug	259	264	drugs
+O	264	265	.

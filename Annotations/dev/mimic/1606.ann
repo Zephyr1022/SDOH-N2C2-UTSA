@@ -1,0 +1,13 @@
+T1	StatusTime 17 24	history
+T2	Alcohol 28 35	alcohol
+T4	Drug 63 81	recreational drugs
+T5	StatusTime 56 62	denies
+T6	Type 63 75	recreational
+T7	Employment 115 122	retired
+T8	StatusEmploy 115 122	retired
+E1	Alcohol:T2 Status:T1
+E2	Drug:T4 Type:T6 Status:T5
+E3	Employment:T7 Status:T8
+A1	StatusTimeVal T1 past
+A3	StatusTimeVal T5 none
+A4	StatusEmployVal T8 unemployed

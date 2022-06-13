@@ -1,0 +1,30 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	18	[
+O	18	19	x
+O	19	20	]
+O	21	28	Tobacco
+O	29	32	Use
+O	33	34	_
+O	36	37	[
+O	37	38	_
+O	38	39	]
+O	40	47	Alcohol
+O	48	51	Use
+O	52	54	Bi
+O	56	57	[
+O	57	58	x
+O	58	59	]
+O	60	67	Illicit
+B-Drug	68	72	Drug
+I-Drug	73	76	Use
+O	77	93	methamphetamines
+O	94	96	x3
+
+B-LivingStatus	98	106	Homeless
+
+O	107	112	known
+O	113	116	sex
+O	117	125	offender

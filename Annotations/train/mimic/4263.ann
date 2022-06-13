@@ -1,0 +1,21 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 36	Remote history
+T3	Alcohol 37 48	Alcohol Use
+T4	History 73 86	5.5 month ago
+T5	StatusTime 58 68	last drink
+T6	Drug 147 155	Drug Use
+T7	Method 157 161	IVDU
+T8	History 169 183	for five years
+T9	StatusTime 163 168	clean
+T10	LivingStatus 213 218	lives
+T11	TypeLiving 233 248	with his sister
+T12	StatusTime 213 218	lives
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 History:T4 Status:T5
+E3	Drug:T6 Method:T7 History:T8 Status:T9
+E4	LivingStatus:T10 Type:T11 Status:T12
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T9 past
+A4	TypeLivingVal T11 with_family
+A5	StatusTimeVal T12 current

@@ -1,0 +1,20 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	18	[
+O	18	19	x
+O	19	20	]
+O	21	27	Unable
+O	28	30	to
+O	31	37	Obtain
+O	38	41	due
+O	42	44	to
+O	45	52	Patient
+O	53	62	Condition
+
+B-LivingStatus	63	72	Residence
+O	72	73	:
+O	74	79	Lives
+O	80	84	with
+O	85	92	husband

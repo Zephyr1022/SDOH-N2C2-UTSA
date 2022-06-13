@@ -1,0 +1,55 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	27	never
+
+B-Alcohol	31	38	Alcohol
+I-Alcohol	39	42	Use
+O	42	43	:
+O	44	46	1x
+O	47	50	per
+O	51	55	year
+O	55	56	,
+O	57	61	none
+O	62	67	since
+O	68	70	dx
+O	71	73	of
+O	74	83	cirrhosis
+
+B-Drug	87	91	Drug
+I-Drug	92	95	Use
+O	95	96	:
+O	97	103	denies
+
+O	105	111	SOCIAL
+O	112	119	HISTORY
+O	119	120	:
+
+B-LivingStatus	122	131	Residence
+O	131	132	:
+O	133	138	Lives
+O	139	143	with
+O	144	148	wife
+O	149	151	in
+O	152	153	[
+O	153	161	LOCATION
+O	161	162	]
+O	162	163	.
+
+B-Employment	165	175	Previously
+I-Employment	176	182	worked
+O	183	185	in
+O	186	195	cabinetry
+O	195	196	,
+O	197	200	now
+O	201	204	not
+O	205	212	working
+O	212	213	.
+
+O	214	215	3
+O	216	224	children
+O	224	225	,
+O	226	230	boys

@@ -1,0 +1,28 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	former
+O	29	35	smoker
+B-Alcohol	38	45	Alcohol
+I-Alcohol	46	49	Use
+O	49	50	:
+O	51	61	occasional
+B-Drug	64	68	Drug
+I-Drug	69	72	Use
+O	72	73	:
+O	74	80	denies
+
+O	82	88	SOCIAL
+O	89	96	HISTORY
+O	96	97	:
+
+B-LivingStatus	99	108	Residence
+O	108	109	:
+O	110	115	Lives
+O	116	118	at
+O	119	123	home
+O	124	128	with
+O	129	136	husband

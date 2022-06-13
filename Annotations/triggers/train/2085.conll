@@ -1,0 +1,47 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+B-LivingStatus	29	34	lives
+O	35	39	with
+O	40	43	his
+O	44	48	wife
+O	48	49	.
+
+O	51	58	History
+O	59	61	of
+
+B-Drug	62	73	intravenous
+I-Drug	74	78	drug
+I-Drug	79	82	use
+O	82	83	,
+O	84	86	on
+O	87	96	methadone
+O	97	102	since
+O	103	104	[
+O	104	105	*
+O	105	106	*
+O	106	110	2162
+O	110	111	*
+O	111	112	*
+O	112	113	]
+O	113	114	,
+O	115	122	history
+O	123	125	of
+
+B-Alcohol	126	133	ethanol
+O	133	134	,
+O	135	142	history
+O	143	145	of
+B-Tobacco	146	153	tobacco
+O	154	157	for
+O	158	160	20
+O	161	166	years
+O	167	172	times
+O	173	176	two
+O	177	182	packs
+O	183	186	per
+
+O	187	190	day
+O	190	191	.

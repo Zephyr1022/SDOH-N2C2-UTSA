@@ -1,0 +1,14 @@
+T1	LivingStatus 17 22	lives
+T2	StatusTime 17 22	lives
+T3	TypeLiving 23 33	in own apt
+T4	Employment 38 47	a student
+T5	StatusEmploy 38 47	a student
+T6	Tobacco 48 55	Tobacco
+T7	StatusTime 57 63	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T7
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 student
+A4	StatusTimeVal T7 none

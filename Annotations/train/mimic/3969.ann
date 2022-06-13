@@ -1,0 +1,22 @@
+T1	StatusTime 34 36	Hx
+T2	Alcohol 40 54	heavy EtOH use
+T4	Alcohol 73 83	2-3 drinks
+T5	StatusTime 65 72	has had
+T6	Amount 73 83	2-3 drinks
+T7	Frequency 84 97	in past month
+T8	Tobacco 99 105	Smokes
+T9	StatusTime 99 105	Smokes
+T10	Amount 106 136	between 5 cigarettes to 1 pack
+T11	Type 116 126	cigarettes
+T12	Frequency 137 142	daily
+T13	Duration 143 159	since she was 11
+T14	Drug 168 182	other drug use
+T15	StatusTime 161 167	Denies
+E1	Alcohol:T2 Status:T1
+E2	Alcohol:T4 Amount:T6 Status:T5 Frequency:T7
+E3	Tobacco:T8 Status:T9 Amount:T10 Type:T11 Frequency:T12 Duration:T13
+E4	Drug:T14 Status:T15
+A1	StatusTimeVal T1 current
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T15 none

@@ -1,0 +1,20 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	29	Transitional
+I-LivingStatus	30	37	housing
+
+B-Employment	38	48	Unemployed
+
+O	49	50	+
+B-Tobacco	50	57	tobacco
+
+O	58	59	+
+B-Drug	59	66	opiates
+
+O	67	68	+
+B-Drug	68	72	meth
+
+O	73	74	+
+B-Alcohol	74	78	etoh

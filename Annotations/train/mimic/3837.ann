@@ -1,0 +1,26 @@
+T1	Alcohol 16 24	ETOH use
+T2	StatusTime 9 15	Denies
+T3	Duration 25 43	for over 2.5 years
+T4	Tobacco 53 64	tobacco use
+T5	StatusTime 46 52	Denies
+T6	Duration 69 82	over 20 years
+T10	Drug 147 160	Marijuana use
+T11	History 161 174	2.5 years ago
+T12	Type 147 156	Marijuana
+T13	StatusTime 161 174	2.5 years ago
+T14	LivingStatus 240 245	Lives
+T15	TypeLiving 246 270	with his wife and 2 kids
+T16	StatusTime 240 245	Lives
+T17	Employment 287 307	Currently unemployed
+T18	StatusEmploy 297 307	unemployed
+E1	Alcohol:T1 Duration:T3 Status:T2
+E2	Tobacco:T4 Status:T5 Duration:T6
+E4	Drug:T10 Type:T12 Status:T13 History:T11
+E5	LivingStatus:T14 Type:T15 Status:T16
+E6	Employment:T17 Status:T18
+A1	StatusTimeVal T5 past
+A4	StatusTimeVal T13 past
+A5	TypeLivingVal T15 with_family
+A6	StatusTimeVal T16 current
+A7	StatusEmployVal T18 unemployed
+A8	StatusTimeVal T2 past

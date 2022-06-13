@@ -1,0 +1,6 @@
+T1	Alcohol 16 20	etoh
+T2	Tobacco 22 29	tobacco
+T3	Drug 33 41	drug use
+T5	Employment 61 67	Worked
+T8	LivingStatus 95 104	Residence
+T18	LivingStatus 171 181	discharged

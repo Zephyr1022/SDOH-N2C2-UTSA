@@ -1,0 +1,46 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	27	daily
+O	28	35	smoking
+B-Alcohol	39	46	Alcohol
+I-Alcohol	47	50	Use
+O	50	51	:
+O	52	56	EtOH
+O	57	62	abuse
+O	63	70	history
+O	70	71	,
+O	72	76	does
+O	77	80	not
+O	81	90	elaborate
+O	91	94	how
+O	95	99	much
+O	100	102	he
+O	103	109	drinks
+O	110	115	daily
+B-Drug	118	122	Drug
+I-Drug	123	126	Use
+O	126	127	:
+O	128	134	denies
+
+O	136	142	SOCIAL
+O	143	150	HISTORY
+O	150	151	:
+
+O	153	154	[
+O	154	155	x
+O	155	156	]
+O	157	163	Unable
+O	164	166	to
+O	167	173	Obtain
+O	174	177	due
+O	178	180	to
+O	181	188	Patient
+O	189	198	Condition
+
+B-LivingStatus	199	208	Residence
+O	208	209	:
+O	210	222	homelessness

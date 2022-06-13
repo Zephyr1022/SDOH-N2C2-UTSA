@@ -1,0 +1,18 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	25	Homeless
+
+O	26	32	Smokes
+O	33	34	>
+O	35	39	1PPD
+
+O	40	46	Denies
+B-Alcohol	47	51	ETOH
+
+O	52	59	Cocaine
+O	60	63	use
+O	64	65	-
+O	66	70	last
+O	71	76	today

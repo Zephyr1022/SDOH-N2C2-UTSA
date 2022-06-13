@@ -1,0 +1,40 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	26	Occupation
+O	26	27	:
+O	28	35	Manager
+O	36	39	for
+O	40	52	construction
+O	53	60	company
+
+O	61	66	Lives
+O	67	71	with
+O	71	72	:
+O	73	83	girlfriend
+O	83	84	;
+O	85	87	he
+O	88	91	has
+O	92	93	3
+O	94	102	children
+
+O	103	110	Tobacco
+O	110	111	:
+O	112	116	Quit
+O	117	119	in
+O	120	121	[
+O	121	122	*
+O	122	123	*
+O	123	127	2093
+O	127	128	*
+O	128	129	*
+O	129	130	]
+
+B-Alcohol	131	135	ETOH
+O	135	136	:
+O	137	138	6
+O	139	143	pack
+O	144	149	every
+O	150	151	3
+O	152	156	days

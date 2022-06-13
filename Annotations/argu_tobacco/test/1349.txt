@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: Denies   Alcohol Use: Denies   Drug Use: Denies
+
+SOCIAL HISTORY: 
+Residence: With parents, sister in [LOCATION], mother cares for him at home. Rest of family still living in [LOCATION].

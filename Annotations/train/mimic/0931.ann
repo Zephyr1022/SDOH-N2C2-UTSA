@@ -1,0 +1,30 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 31	with wife
+T3	StatusTime 16 21	Lives
+T4	Tobacco 71 77	Smoked
+T5	Type 84 88	cigs
+T6	Amount 78 79;80 88	a few cigs
+T7	Frequency 88 92	/day
+T8	Duration 93 106	for 2-3 years
+T9	StatusTime 108 115	stopped
+T10	History 116 129	in [**2117**]
+T11	Employment 131 136	Works
+T12	Type 137 161;162 184	at [**Hospital1 18**] in environmental services
+T13	StatusEmploy 131 136	Works
+T14	Alcohol 201 207	drinks
+T15	Type 208 212	beer
+T17	StatusTime 213 222;223 228	once in a while
+T18	Drug 246 264	recreational drugs
+T19	Type 246 258	recreational
+T20	StatusTime 243 245	No
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Type:T5 Amount:T6 Frequency:T7 Duration:T8 Status:T9 History:T10
+E3	Employment:T11 Type:T12 Status:T13
+E4	Alcohol:T14 Status:T17 Type:T15
+E5	Drug:T18 Type:T19 Status:T20
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T9 past
+A4	StatusEmployVal T13 employed
+A6	StatusTimeVal T17 current
+A7	StatusTimeVal T20 none

@@ -1,0 +1,53 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	History
+O	24	26	of
+B-Drug	27	33	heroin
+I-Drug	34	37	and
+I-Drug	38	46	narcotic
+I-Drug	47	52	abuse
+O	53	56	for
+O	57	62	years
+O	62	63	.
+
+O	64	67	Per
+O	68	71	his
+O	72	78	family
+O	78	79	,
+
+O	80	82	he
+O	83	86	has
+O	87	91	been
+O	92	97	clean
+O	98	101	for
+O	102	105	the
+O	106	110	last
+O	111	112	8
+O	113	119	months
+O	119	120	.
+
+O	121	123	He
+O	124	127	got
+B-Employment	128	129	a
+I-Employment	130	133	job
+O	134	143	yesterday
+O	143	144	.
+
+B-Tobacco	145	151	Smokes
+O	152	156	1ppd
+O	156	157	.
+
+O	158	159	[
+O	159	160	*
+O	160	161	*
+O	161	165	Last
+O	166	170	Name
+O	171	172	*
+O	172	173	*
+O	173	174	]
+O	175	182	problem
+O	183	187	with
+B-Alcohol	188	195	alcohol
+O	195	196	.

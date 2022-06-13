@@ -1,0 +1,63 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	27	30	his
+O	31	37	mother
+O	37	38	.
+
+B-Employment	39	48	Currently
+I-Employment	49	59	unemployed
+O	59	60	.
+
+O	61	67	Spends
+O	68	72	most
+O	73	75	of
+O	76	79	his
+
+O	81	85	time
+O	86	90	with
+O	91	94	his
+O	95	101	family
+O	101	102	.
+
+B-Alcohol	103	107	ETOH
+I-Alcohol	108	113	abuse
+O	114	116	in
+O	117	121	past
+O	121	122	,
+B-Drug	123	127	IVDU
+O	127	128	-
+O	129	133	last
+O	134	135	+
+O	135	138	tox
+O	139	145	screen
+
+O	146	148	in
+O	149	150	[
+O	150	151	*
+O	151	152	*
+O	152	154	12
+O	154	155	-
+O	155	157	18
+O	157	158	*
+O	158	159	*
+O	159	160	]
+O	160	161	.
+
+B-Tobacco	162	168	Smokes
+O	169	170	[
+O	170	171	*
+O	171	172	*
+O	172	173	2
+O	173	174	-
+O	174	176	12
+O	176	177	*
+O	177	178	*
+O	178	179	]
+O	180	184	pack
+O	185	188	per
+O	189	192	day
+O	192	193	.

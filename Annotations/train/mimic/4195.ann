@@ -1,0 +1,21 @@
+T1	Tobacco 16 23	tobacco
+T2	Drug 27 40	illicit drugs
+T3	Type 27 34	illicit
+T4	StatusTime 9 15	Denies
+T5	Alcohol 41 64	Occassional alcohol use
+T6	StatusTime 41 64	Occassional alcohol use
+T8	Employment 83 98	College student
+T9	StatusEmploy 83 98	College student
+T10	LivingStatus 134 139	Lives
+T11	StatusTime 134 139	Lives
+T12	TypeLiving 140 153	in a sorority
+E1	Tobacco:T1 Status:T4
+E2	Drug:T2 Type:T3 Status:T4
+E3	Alcohol:T5 Status:T6
+E4	Employment:T8 Status:T9
+E5	LivingStatus:T10 Status:T11 Type:T12
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T6 current
+A4	StatusEmployVal T9 student
+A5	StatusTimeVal T11 current
+A6	TypeLivingVal T12 with_others

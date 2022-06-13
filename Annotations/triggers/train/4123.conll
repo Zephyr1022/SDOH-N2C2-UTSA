@@ -1,0 +1,76 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-Employment	17	23	Former
+I-Employment	24	36	construction
+I-Employment	37	43	worker
+O	43	44	.
+
+O	45	47	Pt
+O	48	50	is
+B-LivingStatus	51	59	homeless
+O	60	67	staying
+O	68	76	downtown
+O	77	78	[
+O	78	86	LOCATION
+O	86	87	]
+O	87	88	.
+
+B-Drug	90	96	Active
+I-Drug	97	106	marijuana
+I-Drug	107	110	use
+I-Drug	111	114	and
+I-Drug	115	121	heroin
+I-Drug	122	125	use
+O	125	126	.
+
+O	128	132	Last
+B-Drug	133	139	heroin
+I-Drug	140	143	use
+O	144	146	2G
+O	147	152	today
+O	153	159	around
+O	160	163	8AM
+
+B-Tobacco	164	171	Tobacco
+I-Tobacco	172	175	use
+O	176	178	in
+O	179	182	the
+O	183	187	past
+O	188	190	of
+O	191	192	3
+O	192	193	-
+O	193	194	4
+O	195	199	cigs
+O	199	200	/
+O	201	204	day
+O	205	206	a
+O	207	210	few
+O	211	216	times
+O	217	218	a
+O	219	223	week
+
+B-Alcohol	224	231	Alcohol
+I-Alcohol	232	235	use
+O	236	238	in
+O	239	242	the
+O	243	247	past
+O	248	249	(
+O	249	257	moderate
+O	258	265	drinker
+O	265	266	)
+O	267	270	but
+O	271	275	quit
+O	276	277	2
+O	278	283	years
+O	284	287	ago
+O	287	288	.
+
+O	289	298	Hepatitis
+O	299	300	C
+O	301	305	most
+O	306	312	likely
+O	313	322	secondary
+O	323	325	to
+B-Drug	326	330	IVDU

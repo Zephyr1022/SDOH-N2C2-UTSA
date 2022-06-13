@@ -1,0 +1,22 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+B-LivingStatus	29	34	lives
+O	35	37	at
+O	38	42	home
+O	43	48	alone
+O	48	49	.
+
+O	50	53	She
+O	54	60	denies
+
+B-Tobacco	61	68	tobacco
+O	68	69	,
+B-Alcohol	70	77	alcohol
+O	77	78	,
+O	79	81	or
+B-Drug	82	86	drug
+I-Drug	87	90	use
+O	90	91	.

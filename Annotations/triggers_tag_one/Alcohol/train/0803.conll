@@ -1,0 +1,42 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	24	History
+O	25	27	of
+O	28	35	smoking
+O	36	39	two
+O	40	45	packs
+O	46	49	per
+O	50	53	day
+O	53	54	,
+
+O	55	62	history
+O	63	65	of
+B-Alcohol	66	73	alcohol
+I-Alcohol	74	79	abuse
+O	80	82	in
+O	83	86	the
+O	87	91	past
+O	91	92	.
+
+O	94	100	Normal
+O	101	106	liver
+O	107	115	function
+
+O	116	121	tests
+O	122	123	[
+O	123	124	*
+O	124	125	*
+O	125	126	4
+O	126	127	-
+O	127	129	25
+O	129	130	*
+O	130	131	*
+O	131	132	]
+O	132	133	.
+
+O	135	142	History
+O	143	145	of
+O	146	154	domestic
+O	155	163	violence
+O	163	164	.

@@ -1,0 +1,42 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	denies
+B-Alcohol	30	37	Alcohol
+I-Alcohol	38	41	Use
+O	41	42	:
+O	43	46	two
+O	47	53	drinks
+O	54	59	every
+O	60	65	other
+O	66	69	day
+O	72	76	Drug
+O	77	80	Use
+O	80	81	:
+O	82	94	hallucinogen
+O	95	100	about
+O	101	105	once
+O	106	109	per
+O	110	114	year
+
+O	116	122	SOCIAL
+O	123	130	HISTORY
+O	130	131	:
+
+O	133	138	Lives
+O	139	143	with
+O	144	151	parents
+O	152	154	in
+O	155	159	home
+O	160	162	on
+O	163	164	[
+O	164	172	LOCATION
+O	172	173	]
+O	173	174	.
+
+O	175	177	On
+O	178	188	disability
+O	188	189	.

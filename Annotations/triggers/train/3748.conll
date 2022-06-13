@@ -1,0 +1,42 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	16	17	:
+O	18	24	Unable
+O	25	27	to
+O	28	34	assess
+
+O	35	39	ETOH
+O	39	40	:
+O	41	47	Unable
+O	48	50	to
+O	51	57	assess
+
+O	58	63	Drugs
+O	63	64	:
+O	65	71	Unable
+O	72	74	to
+O	75	81	assess
+
+O	83	89	SOCIAL
+O	90	97	HISTORY
+O	97	98	:
+
+B-LivingStatus	100	105	Lives
+O	106	110	with
+O	111	114	his
+O	115	122	brother
+O	122	123	,
+O	124	125	[
+O	125	129	NAME
+O	129	130	]
+O	130	131	.
+
+O	132	134	Is
+O	135	138	not
+O	139	146	married
+O	146	147	,
+O	148	150	no
+O	151	159	children
+O	159	160	.

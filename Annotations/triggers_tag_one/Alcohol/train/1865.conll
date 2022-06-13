@@ -1,0 +1,46 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	26	with
+O	27	30	her
+O	31	40	boyfriend
+O	41	44	and
+O	45	53	daughter
+O	53	54	.
+
+O	56	59	She
+O	60	64	just
+O	65	73	recently
+
+O	74	81	started
+
+O	82	89	working
+O	90	92	at
+O	93	98	TGIFs
+O	98	99	.
+
+O	101	104	She
+O	105	109	does
+O	110	113	not
+O	114	119	smoke
+O	120	122	or
+B-Alcohol	123	128	drink
+O	129	132	but
+O	133	137	does
+O	138	143	drink
+
+O	144	147	Red
+
+O	148	153	Bulls
+O	154	155	(
+O	155	156	1
+O	156	157	-
+O	157	158	2
+O	159	162	per
+O	163	168	shift
+O	169	171	at
+O	172	176	work
+O	176	177	)
+O	177	178	.

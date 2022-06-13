@@ -1,0 +1,59 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Tobacco
+O	23	24	:
+O	25	31	Denies
+
+B-Alcohol	32	36	EtOH
+O	36	37	:
+O	38	44	Denies
+
+O	45	50	Drugs
+O	50	51	:
+O	52	58	Denies
+
+O	59	64	Other
+O	64	65	:
+O	65	66	_
+
+O	67	73	Social
+O	74	81	History
+O	81	82	:
+
+O	83	90	Tobacco
+O	90	91	:
+O	92	98	Denies
+
+B-Alcohol	99	103	EtOH
+O	103	104	:
+O	105	111	Denies
+
+O	112	117	Drugs
+O	117	118	:
+O	119	125	Denies
+
+O	126	131	Other
+O	131	132	:
+O	132	133	_
+
+O	134	140	Social
+O	141	148	History
+O	148	149	:
+
+O	150	157	Tobacco
+O	157	158	:
+O	159	165	Denies
+
+B-Alcohol	166	170	EtOH
+O	170	171	:
+O	172	178	Denies
+
+O	179	184	Drugs
+O	184	185	:
+O	186	192	Denies
+
+O	193	198	Other
+O	198	199	:
+O	199	200	_

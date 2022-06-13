@@ -1,0 +1,32 @@
+T1	Tobacco 28 34	smoker
+T2	StatusTime 22 27	never
+T3	StatusTime 39 45	drinks
+T4	Alcohol 39 45	drinks
+T5	Amount 46 69	0-2 alcoholic beverages
+T6	Frequency 70 76	a week
+T7	Drug 248 275	recreational or IV drug use
+T8	Type 248 266	recreational or IV
+T9	StatusTime 230 236	denies
+T10	LivingStatus 306 311	lives
+T11	TypeLiving 326 338	with his dog
+T12	StatusTime 306 311	lives
+T13	Employment 457 464	working
+T14	StatusEmploy 453 464	not working
+T15	History 504 513	in [DATE]
+T16	Type 497 503	IT job
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T4 Amount:T5 Status:T3 Frequency:T6
+E3	Drug:T7 Type:T8 Status:T9
+E4	LivingStatus:T10 Type:T11 Status:T12
+E5	Employment:T13 Status:T14 Type:T16 History:T15
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T9 none
+A4	TypeLivingVal T11 alone
+A5	StatusTimeVal T12 current
+A6	StatusEmployVal T14 unemployed
+T17	Drug 119 136	medical marijuana
+E6	Drug:T17 History:T19 Status:T18
+T18	StatusTime 147 161	has not smoked
+A7	StatusTimeVal T18 past
+T19	History 166 181	in a few months

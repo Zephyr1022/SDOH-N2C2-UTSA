@@ -1,0 +1,27 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Tobacco	17	24	Tobacco
+O	24	25	:
+O	26	30	quit
+O	31	38	smoking
+B-Alcohol	43	50	Alcohol
+O	50	51	:
+O	54	62	Frequent
+B-Drug	68	73	Drugs
+O	73	74	:
+O	77	86	Marijuana
+
+O	89	93	Live
+O	93	94	:
+O	96	97	[
+O	97	105	LOCATION
+O	105	106	]
+
+B-Employment	107	111	Work
+O	111	112	:
+O	113	114	[
+O	114	122	LOCATION
+O	122	123	]
+O	124	131	student

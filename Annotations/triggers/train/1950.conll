@@ -1,0 +1,115 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Single
+O	22	23	,
+B-LivingStatus	24	29	lives
+O	30	34	with
+O	35	45	girlfriend
+O	45	46	.
+
+O	47	48	[
+O	48	49	*
+O	49	50	*
+O	50	54	Name
+O	55	56	(
+O	56	58	NI
+O	58	59	)
+O	60	64	1403
+O	64	65	*
+O	65	66	*
+O	66	67	]
+O	68	70	as
+B-Employment	71	76	sales
+I-Employment	77	80	rep
+O	81	84	for
+
+O	85	97	construction
+O	98	105	company
+O	105	106	.
+
+O	107	111	Also
+O	112	119	getting
+O	120	123	MBA
+O	123	124	,
+O	125	128	for
+O	129	134	which
+O	135	137	he
+O	138	141	had
+O	142	143	a
+
+O	144	150	recent
+O	151	155	trip
+O	156	158	to
+O	159	160	[
+O	160	161	*
+O	161	162	*
+O	162	169	Country
+O	170	173	651
+O	173	174	*
+O	174	175	*
+O	175	176	]
+O	177	180	and
+O	181	189	returned
+O	190	192	on
+O	193	194	[
+O	194	195	*
+O	195	196	*
+O	196	200	2161
+O	200	201	-
+O	201	202	7
+O	202	203	-
+O	203	204	1
+O	204	205	*
+O	205	206	*
+O	206	207	]
+O	207	208	.
+
+O	209	212	Had
+O	213	216	one
+O	217	221	week
+
+O	222	230	diarrhea
+O	231	235	upon
+O	236	242	return
+O	243	247	from
+O	248	252	trip
+O	253	258	which
+O	259	262	has
+O	263	268	since
+O	269	277	resolved
+
+O	278	279	-
+B-Tobacco	279	286	Tobacco
+I-Tobacco	287	294	history
+O	294	295	:
+O	296	300	none
+O	300	301	.
+
+O	302	303	-
+B-Alcohol	303	307	ETOH
+O	307	308	:
+O	309	310	6
+O	311	317	drinks
+O	318	319	(
+O	319	323	beer
+O	324	325	+
+O	326	333	whiskey
+O	333	334	)
+O	335	336	/
+O	337	340	day
+O	341	342	x
+O	343	344	3
+O	345	349	days
+O	350	351	/
+O	352	356	week
+
+O	357	358	-
+B-Drug	358	365	Illicit
+I-Drug	366	371	drugs
+O	371	372	:
+O	373	377	none
+O	377	378	.
+
+O	379	380	.

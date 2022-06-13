@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: denies
+Alcohol Use: denies
+Drug Use: denies
+
+SOCIAL HISTORY: 
+Residence: lives with parents and siblings

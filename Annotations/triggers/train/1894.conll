@@ -1,0 +1,27 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	24	at
+O	25	29	home
+
+B-Employment	30	40	Occupation
+O	40	41	:
+O	41	51	Operations
+O	52	62	supervisor
+O	62	63	,
+O	64	67	not
+O	68	75	working
+O	76	81	these
+O	82	86	days
+
+B-Tobacco	87	94	Smoking
+I-Tobacco	95	102	history
+O	102	103	;
+O	104	108	Quit
+O	109	113	10pk
+O	114	118	year
+O	118	119	.
+O	120	130	occasional
+B-Alcohol	131	138	alcohol

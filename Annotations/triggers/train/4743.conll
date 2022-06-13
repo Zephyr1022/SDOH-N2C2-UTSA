@@ -1,0 +1,260 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Lantus
+O	23	25	15
+O	26	31	units
+O	32	35	QHS
+
+O	36	40	HISS
+
+O	41	51	Nephrocaps
+O	52	57	daily
+
+O	58	66	dulcolax
+O	67	68	5
+O	69	71	mg
+O	72	73	[
+O	73	74	*
+O	74	75	*
+O	75	84	Hospital1
+O	85	86	*
+O	86	87	*
+O	87	88	]
+
+O	89	95	colace
+O	96	99	100
+O	100	101	[
+O	101	102	*
+O	102	103	*
+O	103	112	Hospital1
+O	113	114	*
+O	114	115	*
+O	115	116	]
+
+O	117	126	Lactulose
+O	127	130	prn
+
+O	131	134	ASA
+O	135	137	81
+
+O	138	149	Simvastatin
+O	150	152	20
+O	153	156	qhs
+
+O	157	167	Citalopram
+O	168	170	20
+O	171	174	qhs
+
+O	175	186	Allopurinol
+O	187	190	200
+O	191	193	mg
+O	194	199	daily
+
+O	200	209	Synthroid
+O	210	212	50
+O	213	216	mcg
+O	217	222	daily
+
+O	223	233	Metoprolol
+O	234	243	succinate
+O	244	247	200
+O	248	250	mg
+O	251	256	daily
+
+O	257	263	Zofran
+O	264	267	prn
+
+O	268	273	lasix
+O	274	276	80
+O	277	279	mg
+O	280	281	[
+O	281	282	*
+O	282	283	*
+O	283	292	Hospital1
+O	293	294	*
+O	294	295	*
+O	295	296	]
+
+O	297	304	Vitamin
+O	305	306	C
+O	307	310	500
+O	311	313	mg
+O	314	315	[
+O	315	316	*
+O	316	317	*
+O	317	326	Hospital1
+O	327	328	*
+O	328	329	*
+O	329	330	]
+
+O	331	336	folic
+O	337	341	acid
+O	342	343	1
+O	344	346	mg
+O	347	352	daily
+
+O	353	360	fosamax
+O	361	363	70
+O	364	366	mg
+O	367	368	q
+O	369	376	tuesday
+
+O	377	384	Calcium
+O	385	394	Carbonate
+O	395	398	400
+O	399	401	mg
+O	402	405	TID
+
+O	406	416	Mycostatin
+O	417	423	powder
+O	424	429	daily
+
+O	430	439	Duragesic
+O	440	442	12
+O	443	446	mcg
+O	446	447	/
+O	447	449	hr
+O	450	455	patch
+O	456	457	q
+O	458	460	72
+O	461	466	hours
+O	467	468	(
+O	468	475	started
+O	476	477	[
+O	477	478	*
+O	478	479	*
+O	479	480	4
+O	480	481	-
+O	481	482	6
+O	482	483	*
+O	483	484	*
+O	484	485	]
+O	485	486	)
+
+O	487	489	MS
+O	490	496	Contin
+O	497	499	15
+O	500	502	mg
+O	503	504	[
+O	504	505	*
+O	505	506	*
+O	506	515	Hospital1
+O	516	517	*
+O	517	518	*
+O	518	519	]
+
+O	520	527	Vitamin
+O	528	529	C
+O	530	534	1000
+O	535	537	mg
+O	538	543	daily
+
+O	544	554	Vancomycin
+O	555	559	1500
+O	560	562	mg
+O	563	568	daily
+
+O	569	576	Epogent
+O	577	579	20
+O	579	580	,
+O	580	583	000
+O	584	588	unit
+O	588	589	/
+O	589	591	mL
+O	592	594	sq
+O	595	596	q
+O	597	603	Monday
+
+O	604	613	potassium
+O	614	622	chloride
+O	623	625	20
+O	626	629	meq
+O	630	635	daily
+
+O	636	644	Morphine
+O	645	647	IR
+O	648	649	5
+O	650	652	mg
+O	653	654	q
+O	655	656	4
+O	657	662	hours
+O	663	666	prn
+O	667	671	pain
+
+O	672	683	Acidophilus
+O	684	685	[
+O	685	686	*
+O	686	687	*
+O	687	696	Hospital1
+O	697	698	*
+O	698	699	*
+O	699	700	]
+
+O	701	705	Zinc
+O	706	713	sulfate
+O	714	717	220
+O	718	723	daily
+O	724	729	until
+O	730	731	[
+O	731	732	*
+O	732	733	*
+O	733	734	4
+O	734	735	-
+O	735	737	11
+O	737	738	*
+O	738	739	*
+O	739	740	]
+
+O	741	751	Prednisone
+O	752	757	taper
+O	758	760	15
+O	761	763	mg
+O	764	766	po
+O	767	768	x
+O	769	770	5
+O	771	775	days
+O	776	777	(
+O	777	785	starting
+O	786	787	[
+O	787	788	*
+O	788	789	*
+O	789	790	4
+O	790	791	-
+O	791	792	8
+O	792	793	*
+O	793	794	*
+O	794	795	]
+O	795	796	)
+O	796	797	,
+O	798	802	then
+O	803	805	12
+O	805	806	.
+O	806	807	5
+
+O	808	813	daily
+O	814	815	x
+O	816	817	5
+O	818	822	days
+O	822	823	,
+O	824	828	then
+O	829	831	10
+O	832	834	mg
+O	835	840	daily
+O	841	842	x
+O	843	844	5
+O	845	849	days
+O	849	850	,
+O	851	852	7
+O	852	853	.
+O	853	854	5
+O	855	857	mg
+O	858	859	x
+O	860	862	10
+O	863	867	days
+O	868	872	then
+
+O	873	874	5
+O	875	877	mg
+O	878	883	daily

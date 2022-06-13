@@ -1,0 +1,28 @@
+T1	LivingStatus 74 79	lives
+T2	StatusTime 96 105	currently
+T3	TypeLiving 80 95	with his mother
+T4	Employment 158 168	Occupation
+T5	StatusEmploy 170 186	IT administrator
+T6	Type 170 186	IT administrator
+T7	Alcohol 189 193	EtOH
+T8	StatusTime 195 201	drinks
+T9	Amount 202 231	a fifth to [**12-19**] gallof
+T10	Type 235 251	vodka or whiskey
+T11	Frequency 252 257	daily
+T12	Drug 300 305	Drugs
+T13	StatusTime 307 314	history
+T14	Type 318 327	marijuana
+T15	Tobacco 334 341	Tobacco
+T16	Amount 370 385	[**12-19**] PPD
+T17	StatusTime 343 385	per previous documentation [**12-19**] PPD
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Status:T5 Type:T6
+E3	Alcohol:T7 Status:T8 Amount:T9 Type:T10 Frequency:T11
+E4	Drug:T12 Status:T13 Type:T14
+E5	Tobacco:T15 Status:T17 Amount:T16
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T13 current
+A6	StatusTimeVal T17 current

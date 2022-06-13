@@ -1,0 +1,36 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	Lives
+O	23	27	with
+O	28	36	daughter
+O	37	39	in
+O	40	41	[
+O	41	49	LOCATION
+O	49	50	]
+O	50	51	,
+B-Employment	52	62	unemployed
+
+O	63	65	30
+O	66	70	pack
+O	71	75	year
+O	76	83	history
+O	84	86	of
+B-Tobacco	87	94	smoking
+O	94	95	,
+O	96	100	quit
+O	101	102	5
+O	102	103	-
+O	103	107	6yrs
+O	108	111	ago
+
+O	112	118	Social
+B-Alcohol	119	123	ETOH
+O	123	124	,
+O	125	135	occasional
+B-Drug	136	138	MJ
+O	138	139	,
+O	140	142	no
+B-Drug	143	148	other
+I-Drug	149	157	illicits

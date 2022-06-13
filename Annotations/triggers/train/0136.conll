@@ -1,0 +1,39 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	20	Does
+O	21	24	not
+B-Tobacco	25	30	smoke
+O	30	31	,
+O	32	36	quit
+O	37	42	about
+O	43	45	10
+O	46	51	years
+O	52	55	ago
+O	55	56	.
+O	56	62	Drinks
+B-Alcohol	63	70	alcohol
+
+O	71	83	occasionally
+O	83	84	.
+B-LivingStatus	84	89	Lives
+O	90	94	with
+O	95	98	his
+O	99	103	wife
+O	103	104	;
+O	105	113	daughter
+O	114	116	is
+O	117	121	also
+O	122	126	very
+O	127	135	involved
+
+O	136	138	in
+O	139	142	his
+O	143	147	care
+O	147	148	.
+
+B-Employment	150	157	Retired
+I-Employment	158	161	lab
+I-Employment	162	169	manager
+O	169	170	.

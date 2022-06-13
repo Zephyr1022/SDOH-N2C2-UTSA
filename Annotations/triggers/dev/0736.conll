@@ -1,0 +1,22 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	lives
+O	22	26	with
+O	27	31	wife
+O	32	35	and
+O	36	37	2
+O	38	42	year
+O	43	46	old
+O	47	55	daughter
+
+B-Employment	56	62	patent
+I-Employment	63	71	attorney
+
+O	72	77	never
+O	78	82	used
+B-Tobacco	83	90	tobacco
+
+B-Alcohol	91	97	social
+I-Alcohol	98	102	ETOH

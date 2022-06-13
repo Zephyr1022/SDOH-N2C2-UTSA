@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: None  Alcohol Use: Approx. 1 drink per week Drug Use: None
+
+SOCIAL HISTORY: 
+The patient lives with his parents in [LOCATION], [LOCATION]. Hobbies he enjoys include fishing and playing video games. He has two cats and a Boston terrier named [NAME]. He is currently unemployed and lives on social security.

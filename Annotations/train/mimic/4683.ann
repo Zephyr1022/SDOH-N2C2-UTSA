@@ -1,0 +1,19 @@
+T1	Employment 43 64	Former bank president
+T2	StatusEmploy 43 64	Former bank president
+T3	Type 43 64	Former bank president
+T4	Tobacco 72 80	a smoker
+T5	StatusTime 69 71	is
+T6	Alcohol 101 109	etoh use
+T8	StatusTime 91 94	h/o
+T9	Amount 132 139	1 drink
+T10	Frequency 139 144	/week
+T11	Drug 149 153;154 157	drug use
+T12	StatusTime 146 148	No
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T8 Amount:T9 Frequency:T10
+E4	Drug:T11 Status:T12
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 current
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T12 none

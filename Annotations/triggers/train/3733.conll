@@ -1,0 +1,21 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-Employment	17	20	PhD
+I-Employment	21	28	student
+O	28	29	,
+O	30	36	denies
+B-Tobacco	37	47	cigarettes
+O	47	48	,
+O	49	51	or
+B-Drug	52	64	recreational
+I-Drug	65	69	drug
+I-Drug	70	73	use
+O	73	74	.
+
+O	76	80	Does
+O	81	86	drink
+B-Alcohol	87	94	alcohol
+O	95	107	occasionally
+O	107	108	.

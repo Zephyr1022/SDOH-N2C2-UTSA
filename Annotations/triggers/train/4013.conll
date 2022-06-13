@@ -1,0 +1,17 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	24	at
+O	25	26	[
+O	26	34	LOCATION
+O	34	35	]
+O	36	42	campus
+
+O	43	49	Denies
+B-Tobacco	50	51	T
+O	51	52	,
+B-Drug	53	54	I
+O	54	55	,
+B-Alcohol	56	57	E

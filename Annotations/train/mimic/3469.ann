@@ -1,0 +1,29 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 35	Former smoker
+T3	Amount 37 41	1ppd
+T4	Duration 42 52	x 50 years
+T8	Alcohol 54 65	Alcohol Use
+T9	StatusTime 100 110	now drinks
+T10	Amount 111 144	about 2 16 oz cans of coors light
+T11	Type 133 144	coors light
+T12	Frequency 144 146	/d
+T13	Drug 149 157	Drug Use
+T14	StatusTime 159 161	No
+T15	Method 185 189	IVDU
+T16	LivingStatus 208 213	Lives
+T17	StatusTime 208 213	Lives
+T18	TypeLiving 222 235	with his wife
+T19	Employment 270 279	a Veteran
+T20	StatusEmploy 270 279	a Veteran
+T21	Type 270 279	a Veteran
+E1	Tobacco:T1 Status:T2 Amount:T3 Duration:T4
+E3	Alcohol:T8 Status:T9 Amount:T10 Type:T11 Frequency:T12
+E4	Drug:T13 Status:T14 Method:T15
+E5	LivingStatus:T16 Status:T17 Type:T18
+E6	Employment:T19 Status:T20 Type:T21
+A1	StatusTimeVal T2 past
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T14 none
+A6	StatusTimeVal T17 current
+A7	TypeLivingVal T18 with_family
+A8	StatusEmployVal T20 unemployed

@@ -1,0 +1,22 @@
+T1	LivingStatus 141 153	Mary's Place
+T2	TypeLiving 141 153	Mary's Place
+T3	StatusTime 141 153	Mary's Place
+T4	Amount 22 34	47 pack-year
+T5	Tobacco 9 20	Tobacco Use
+T6	StatusTime 22 42	47 pack-year history
+T7	Alcohol 45 56	Alcohol Use
+T8	StatusTime 58 67	abstinent
+T9	History 68 89	for the past 2 months
+T10	Drug 92 100	Drug Use
+T11	Method 102 106	IVDU
+T12	StatusTime 107 122	6-12 months ago
+T13	History 107 122	6-12 months ago
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Tobacco:T5 Amount:T4 Status:T6
+E3	Alcohol:T7 Status:T8 History:T9
+E4	Drug:T10 Method:T11 History:T13 Status:T12
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T12 past

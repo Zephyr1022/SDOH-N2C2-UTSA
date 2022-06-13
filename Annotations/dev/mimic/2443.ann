@@ -1,0 +1,19 @@
+T1	LivingStatus 27 32	lives
+T2	StatusTime 27 32	lives
+T3	TypeLiving 33 45	independetly
+T4	Drug 56 70	marijauana use
+T5	Type 56 66	marijauana
+T6	StatusTime 47 70	Endorses marijauana use
+T7	Drug 111 119	drug use
+T8	Method 79 83	IVDU
+T9	StatusTime 72 78	denies
+T10	Tobacco 85 92	tobacco
+T11	Type 103 110	illicit
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Drug:T4 Type:T5 Status:T6
+E3	Drug:T7 Status:T9 Method:T8 Type:T11
+E4	Tobacco:T10 Status:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T9 none

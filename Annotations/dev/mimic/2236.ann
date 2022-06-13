@@ -1,0 +1,5 @@
+T1	Employment 8 13	works
+T2	StatusEmploy 8 13	works
+E1	Employment:T1 Status:T2 Type:T3
+A1	StatusEmployVal T2 employed
+T3	Type 17 29	[PROFESSION]

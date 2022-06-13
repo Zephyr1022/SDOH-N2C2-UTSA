@@ -1,0 +1,11 @@
+T1	Drug 9 16	Canabas
+T2	Type 9 16	Canabas
+T3	StatusTime 9 16	Canabas
+T4	LivingStatus 81 86	Lives
+T5	StatusTime 81 86	Lives
+T6	TypeLiving 87 97	in shelter
+E1	Drug:T1 Status:T3 Type:T2
+E2	LivingStatus:T4 Status:T5 Type:T6
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 homeless

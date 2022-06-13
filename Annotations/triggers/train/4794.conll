@@ -1,0 +1,76 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Alcohol	16	26	Occasional
+I-Alcohol	27	34	alcohol
+I-Alcohol	35	38	use
+O	39	43	with
+O	44	45	2
+O	45	46	-
+O	46	47	3
+O	48	54	drinks
+O	54	55	/
+O	55	60	month
+O	61	64	but
+O	65	70	prior
+O	71	72	h
+O	72	73	/
+O	73	74	o
+B-Alcohol	75	80	binge
+
+B-Alcohol	81	89	drinking
+O	89	90	,
+O	91	92	h
+O	92	93	/
+O	93	94	o
+B-Drug	95	104	marijuana
+I-Drug	105	108	use
+O	108	109	,
+O	110	112	no
+B-Tobacco	113	120	tobacco
+I-Tobacco	121	124	use
+O	125	128	now
+O	128	129	,
+O	130	134	rare
+O	135	141	social
+
+O	142	149	smoking
+O	150	152	in
+O	153	159	remote
+O	160	164	past
+O	164	165	,
+O	166	168	no
+O	169	176	history
+O	177	179	of
+B-Drug	180	182	IV
+I-Drug	183	187	drug
+I-Drug	188	191	use
+O	191	192	,
+O	193	201	divorced
+O	202	205	and
+
+O	206	209	has
+O	210	211	a
+O	212	220	daughter
+O	220	221	.
+
+O	222	225	Not
+O	226	234	sexually
+O	235	241	active
+O	242	245	now
+O	245	246	,
+O	247	255	bisexual
+O	255	256	,
+O	257	269	questionable
+
+O	270	279	adherence
+O	280	282	to
+O	283	293	protection
+O	293	294	.
+
+O	295	298	Has
+O	299	301	BA
+O	302	304	in
+O	305	313	Theology
+O	313	314	.

@@ -1,0 +1,51 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	25	few
+O	26	29	cig
+O	30	31	a
+O	32	36	week
+
+B-Alcohol	37	44	Alcohol
+I-Alcohol	45	48	Use
+O	48	49	:
+O	50	53	few
+O	54	59	beers
+O	60	61	a
+O	62	66	week
+
+O	70	74	Drug
+O	75	78	Use
+O	78	79	:
+O	80	88	declines
+O	89	93	IVDU
+O	93	94	/
+O	94	98	meth
+O	98	99	/
+O	99	106	cocaine
+
+O	108	112	Only
+O	113	120	endorse
+O	121	123	MJ
+
+O	125	131	SOCIAL
+O	132	139	HISTORY
+O	139	140	:
+
+O	142	143	[
+O	143	144	_
+O	144	145	]
+O	146	152	Unable
+O	153	155	to
+O	156	162	Obtain
+O	163	166	due
+O	167	169	to
+O	170	177	Patient
+O	178	187	Condition
+
+O	188	197	Residence
+O	197	198	:
+O	199	207	Homeless

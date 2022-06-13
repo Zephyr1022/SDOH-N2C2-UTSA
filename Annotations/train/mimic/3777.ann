@@ -1,0 +1,28 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 30 44	3-4 cigarettes
+T3	Type 34 44	cigarettes
+T4	Frequency 45 52	per day
+T5	Duration 53 71	for "a long time,"
+T6	StatusTime 76 89	none recently
+T7	Alcohol 90 101	Alcohol Use
+T8	StatusTime 103 130	Historically abused alcohol
+T9	Drug 190 198	Drug Use
+T10	StatusTime 212 266	IVDU heroin, methamphetamine, cocaine, benzodiazepines
+T11	Type 217 266	heroin, methamphetamine, cocaine, benzodiazepines
+T12	Method 212 216	IVDU
+T14	StatusTime 342 349	Reports
+T15	TypeLiving 372 381	a shelter
+T13	LivingStatus 331 340	Residence
+T16	Employment 416 420	work
+T17	StatusEmploy 407 420	Does not work
+E1	Tobacco:T1 Amount:T2 Type:T3 Frequency:T4 Duration:T5 Status:T6
+E2	Alcohol:T7 Status:T8
+E3	Drug:T9 Status:T10 Method:T12 Type:T11
+E4	LivingStatus:T13 Status:T14 Type:T15
+E5	Employment:T16 Status:T17
+A1	StatusTimeVal T6 past
+A2	StatusTimeVal T8 current
+A3	StatusTimeVal T10 current
+A4	StatusTimeVal T14 current
+A5	TypeLivingVal T15 homeless
+A6	StatusEmployVal T17 unemployed

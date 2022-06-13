@@ -1,0 +1,8 @@
+T2	StatusTime 16 22	denies
+T3	Tobacco 32 41	nonsmoker
+T4	StatusTime 32 41	nonsmoker
+T1	Alcohol 23 31	ETOH use
+E2	Tobacco:T3 Status:T4
+E1	Alcohol:T1 Status:T2
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none

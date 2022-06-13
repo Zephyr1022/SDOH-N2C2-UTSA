@@ -1,0 +1,14 @@
+T1	Drug 43 47	IVDU
+T2	Drug 60 67	cocaine
+T3	Method 52 59	snorted
+T4	Type 60 67	cocaine
+T5	Method 43 47	IVDU
+T6	StatusTime 25 42	remote history of
+T7	Drug 88 97	marijuana
+T8	Type 88 97	marijuana
+T9	StatusTime 81 87	use of
+E1	Drug:T1 Status:T6 Method:T5
+E2	Drug:T2 Method:T3 Type:T4 Status:T6
+E3	Drug:T7 Type:T8 Status:T9
+A1	StatusTimeVal T6 past
+A2	StatusTimeVal T9 current

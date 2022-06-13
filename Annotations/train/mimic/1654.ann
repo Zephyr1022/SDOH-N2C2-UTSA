@@ -1,0 +1,20 @@
+T1	LivingStatus 30 47	currently staying
+T2	StatusTime 30 47	currently staying
+T3	TypeLiving 48 61	with a friend
+T4	LivingStatus 17 25	Homeless
+T5	StatusTime 17 25	Homeless
+T6	TypeLiving 17 25	Homeless
+T7	Tobacco 71 78	tobacco
+T8	Drug 83 85	MJ
+T9	Type 83 85	MJ
+T10	StatusTime 64 70	Smokes
+T11	Method 64 70	Smokes
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T10
+E4	Drug:T8 Type:T9 Status:T10 Method:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 homeless
+A5	StatusTimeVal T10 current

@@ -1,0 +1,65 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+B-LivingStatus	24	29	lives
+O	30	32	in
+O	33	34	[
+O	34	35	*
+O	35	36	*
+O	36	44	Location
+O	45	50	32944
+O	50	51	*
+O	51	52	*
+O	52	53	]
+O	54	58	with
+O	59	69	girlfriend
+O	70	73	and
+O	74	77	son
+O	77	78	.
+
+O	79	80	[
+O	80	81	*
+O	81	82	*
+O	82	86	Name
+O	87	88	(
+O	88	90	NI
+O	90	91	)
+O	92	93	*
+O	93	94	*
+O	94	95	]
+B-Employment	96	101	works
+O	102	104	as
+O	105	106	a
+
+O	107	114	machine
+O	115	123	operator
+O	123	124	.
+
+O	125	132	Patient
+B-Alcohol	133	139	drinks
+O	140	148	anywhere
+O	149	153	from
+O	154	155	1
+O	155	156	-
+O	156	157	5
+O	158	163	beers
+O	164	166	as
+O	167	171	well
+
+O	172	174	as
+O	175	180	vodka
+O	181	186	shots
+O	187	192	daily
+O	192	193	.
+
+O	194	196	He
+O	197	200	has
+O	201	206	never
+B-Tobacco	207	213	smoked
+O	214	216	or
+O	217	221	used
+B-Drug	222	229	illicit
+I-Drug	230	235	drugs
+O	235	236	.

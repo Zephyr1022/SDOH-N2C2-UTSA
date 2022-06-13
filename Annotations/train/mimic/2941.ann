@@ -1,0 +1,14 @@
+T1	Employment 85 94	Works for
+T2	StatusEmploy 85 94	Works for
+T3	Type 95 105	[LOCATION]
+T4	Tobacco 16 23	tobacco
+T5	Alcohol 25 29	EtOH
+T6	Drug 34 42	illicits
+T7	Type 34 42	illicits
+T8	StatusTime 9 15	Denies
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T8
+E3	Alcohol:T5 Status:T8
+E4	Drug:T6 Type:T7 Status:T8
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T8 none

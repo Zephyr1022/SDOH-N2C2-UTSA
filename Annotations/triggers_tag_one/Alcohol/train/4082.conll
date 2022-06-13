@@ -1,0 +1,42 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	24	History
+O	25	27	of
+B-Alcohol	28	35	alcohol
+I-Alcohol	36	39	use
+O	39	40	,
+O	41	44	but
+O	45	48	has
+O	49	53	been
+O	54	59	sober
+O	60	63	for
+O	64	68	many
+O	69	74	years
+
+O	75	81	Denies
+O	82	86	IVDU
+
+O	87	96	Marijuana
+O	97	100	use
+O	100	101	,
+O	102	112	occasional
+O	113	120	tobacco
+O	121	124	use
+
+O	125	130	Lives
+O	131	133	in
+O	134	136	an
+O	137	146	apartment
+O	147	151	near
+O	152	154	VA
+O	155	157	MC
+O	158	167	currently
+O	168	171	his
+O	172	180	daughter
+O	181	184	and
+O	185	193	grandson
+O	194	197	are
+O	198	205	staying
+O	206	210	with

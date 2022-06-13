@@ -1,0 +1,38 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	32	occasional
+O	32	33	,
+O	34	37	did
+O	38	41	not
+O	42	49	specify
+B-Alcohol	51	58	Alcohol
+I-Alcohol	59	62	Use
+O	62	63	:
+O	64	74	occasional
+O	76	80	Drug
+O	81	84	Use
+O	84	85	:
+O	86	95	marijuana
+
+O	97	103	SOCIAL
+O	104	111	HISTORY
+O	111	112	:
+
+O	114	115	[
+O	115	116	X
+O	116	117	]
+O	118	124	Unable
+O	125	127	to
+O	128	134	Obtain
+O	135	138	due
+O	139	141	to
+O	142	149	Patient
+O	150	159	Condition
+
+O	160	169	Residence
+O	169	170	:
+O	171	172	_

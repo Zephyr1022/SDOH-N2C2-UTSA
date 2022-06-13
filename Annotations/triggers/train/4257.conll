@@ -1,0 +1,44 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	15	Smokes
+O	16	19	one
+O	20	24	pack
+O	25	28	per
+O	29	33	week
+
+O	34	39	Daily
+B-Alcohol	40	44	beer
+O	44	45	,
+O	46	49	one
+O	50	53	per
+O	54	57	day
+
+O	58	62	Used
+B-Drug	63	70	cocaine
+O	71	75	this
+O	76	80	week
+O	81	82	-
+O	83	89	snorts
+O	90	92	it
+
+O	93	98	Never
+B-Drug	99	107	injected
+O	108	116	anything
+
+O	118	124	SOCIAL
+O	125	132	HISTORY
+O	132	133	:
+
+O	135	137	He
+O	137	138	'
+O	138	139	s
+O	140	144	been
+B-LivingStatus	145	151	living
+O	152	154	in
+O	155	156	a
+O	157	162	hotel
+O	163	167	with
+O	168	171	his
+O	172	180	business
+O	181	188	partner

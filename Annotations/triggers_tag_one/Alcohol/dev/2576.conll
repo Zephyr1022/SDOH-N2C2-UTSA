@@ -1,0 +1,64 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	14	Never
+O	15	21	smoker
+O	21	22	.
+
+O	23	27	Does
+O	28	31	not
+B-Alcohol	32	37	drink
+O	38	40	or
+O	41	44	use
+O	45	50	drugs
+O	50	51	.
+
+O	53	59	SOCIAL
+O	60	67	HISTORY
+O	67	68	:
+
+O	70	73	She
+O	74	79	lives
+O	80	85	alone
+O	86	88	in
+O	89	90	a
+O	91	94	six
+O	95	102	bedroom
+O	103	108	house
+O	109	111	on
+O	112	113	a
+O	114	115	3
+O	116	120	acre
+O	121	125	plot
+O	126	127	[
+O	127	135	LOCATION
+O	135	136	]
+O	136	137	.
+
+O	138	141	She
+O	142	147	cares
+O	148	151	for
+O	152	155	her
+O	156	159	own
+O	160	164	pool
+O	164	165	,
+O	166	170	uses
+O	171	172	a
+O	173	180	tractor
+O	181	184	etc
+O	184	185	.
+
+O	186	189	She
+O	190	193	has
+O	194	200	family
+O	201	203	in
+O	204	207	the
+O	208	212	area
+O	213	214	-
+O	215	219	four
+O	220	225	adult
+O	226	233	chidren
+O	234	237	who
+O	238	241	are
+O	242	248	taking
+O	249	255	shifts

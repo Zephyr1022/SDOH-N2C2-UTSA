@@ -1,0 +1,19 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 34	never smoker
+T3	Alcohol 37 48	Alcohol Use
+T4	Amount 59 69	1-2 drinks
+T5	Frequency 70 78	per week
+T7	StatusTime 50 57	minimal
+T8	Drug 81 89	Drug Use
+T9	StatusTime 91 97	denies
+T10	Employment 164 169	Works
+T11	Type 173 192	[LOCATION] business
+T12	StatusEmploy 164 169	Works
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T7 Amount:T4 Frequency:T5
+E3	Drug:T8 Status:T9
+E4	Employment:T10 Status:T12 Type:T11
+A1	StatusTimeVal T2 none
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T9 none
+A5	StatusEmployVal T12 employed

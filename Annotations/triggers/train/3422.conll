@@ -1,0 +1,44 @@
+O	0	6	Social
+O	7	14	history
+O	14	15	:
+
+B-Tobacco	16	23	Tobacco
+O	23	24	:
+O	25	31	denies
+
+B-Alcohol	32	39	Alcohol
+O	39	40	:
+O	41	42	1
+O	43	47	pint
+O	48	54	liquor
+O	55	58	and
+O	58	59	/
+O	59	61	or
+O	62	69	several
+O	70	75	beers
+O	76	81	daily
+
+B-Drug	82	87	Drugs
+O	87	88	:
+O	89	95	denies
+
+B-LivingStatus	97	105	Homeless
+O	105	106	,
+O	107	112	stays
+O	113	115	on
+O	116	119	the
+O	120	126	street
+O	127	129	or
+O	130	132	at
+O	133	141	shelters
+O	141	142	,
+O	143	152	currently
+O	153	160	staying
+O	161	163	at
+O	164	167	the
+O	168	174	Kitsap
+O	175	183	Recovery
+
+O	185	189	Does
+O	190	193	not
+B-Employment	194	198	work

@@ -1,0 +1,18 @@
+T1	LivingStatus 38 54	Planning to move
+T2	StatusTime 38 54	Planning to move
+T3	TypeLiving 69 81	with ex-wife
+T4	Alcohol 125 132	alcohol
+T5	Drug 136 144	drug use
+T6	StatusTime 118 124	Denies
+T7	Drug 151 160	marijuana
+T8	Type 151 160	marijuana
+T9	StatusTime 146 150	Uses
+T10	Frequency 161 166	daily
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T6
+E3	Drug:T5 Status:T6
+E4	Drug:T7 Status:T9 Type:T8 Frequency:T10
+A1	StatusTimeVal T2 future
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T9 current

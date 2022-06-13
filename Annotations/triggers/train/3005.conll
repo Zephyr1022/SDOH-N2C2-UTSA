@@ -1,0 +1,34 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	Lives
+O	23	25	at
+O	26	27	[
+O	27	35	LOCATION
+O	35	36	]
+O	36	37	,
+O	38	40	an
+O	41	46	adult
+O	47	53	family
+O	54	58	home
+O	58	59	.
+
+O	62	68	Remote
+O	69	76	history
+O	77	79	of
+O	80	93	polysubstance
+O	94	99	abuse
+O	100	101	w
+B-Alcohol	102	106	etoh
+O	106	107	,
+B-Drug	108	112	IVDU
+O	112	113	.
+
+B-Tobacco	115	121	Smokes
+O	122	126	1PPD
+O	127	130	for
+O	131	140	estimated
+O	141	143	30
+O	144	149	years
+O	149	150	.

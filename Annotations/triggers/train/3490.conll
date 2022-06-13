@@ -1,0 +1,67 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	12	Has
+O	13	17	been
+O	18	23	sober
+O	24	27	off
+B-Alcohol	28	35	alcohol
+O	36	39	for
+O	40	43	one
+O	44	48	year
+
+O	49	55	Denies
+B-Drug	56	61	drugs
+O	62	64	or
+O	65	72	history
+O	73	75	of
+O	76	80	IVDU
+
+O	81	87	Smoked
+O	88	89	a
+O	90	93	few
+B-Tobacco	94	104	cigarettes
+O	105	108	per
+O	109	112	day
+O	113	120	earlier
+O	121	123	in
+O	124	125	[
+O	125	129	DATE
+O	129	130	]
+O	131	134	but
+O	135	144	otherwise
+O	145	148	has
+O	149	152	not
+O	153	159	smoked
+O	160	163	for
+O	164	169	years
+
+O	171	177	SOCIAL
+O	178	185	HISTORY
+O	185	186	:
+
+O	188	192	Grew
+O	193	195	up
+O	196	198	in
+O	199	200	[
+O	200	208	LOCATION
+O	208	209	]
+O	210	213	and
+
+O	214	217	Has
+O	218	222	been
+O	223	225	in
+O	226	227	[
+O	227	235	LOCATION
+O	235	236	]
+O	237	240	for
+O	241	243	25
+O	244	249	years
+
+O	250	253	Has
+O	254	258	been
+O	259	267	spending
+O	268	272	time
+O	273	275	at
+O	276	281	Union
+O	282	289	Mission

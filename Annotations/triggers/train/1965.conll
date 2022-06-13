@@ -1,0 +1,34 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	34	indepedently
+O	34	35	,
+O	36	39	but
+O	40	51	functioning
+O	52	55	has
+O	56	60	been
+O	61	70	declining
+O	71	73	as
+O	74	76	of
+
+O	77	81	late
+O	81	82	.
+
+O	83	90	History
+O	91	93	of
+B-Tobacco	94	101	smoking
+O	101	102	,
+B-Alcohol	103	107	EtOH
+O	107	108	,
+O	109	112	and
+B-Drug	113	117	IVDU
+O	118	125	history
+O	126	129	due
+O	130	132	to
+
+O	133	141	sedation
+O	141	142	/
+O	142	152	intubation
+O	152	153	.

@@ -1,0 +1,6 @@
+HABITS: x] Unable to Obtain due to Patient Condition
+Per history [DATE]: Tobacco Use: everyday smoker, Alcohol Use: unable to assess, Drug Use: IVDU in [DATE], unable to assess now. UTox positive for meth/opioids.
+
+SOCIAL HISTORY: 
+[x] Unable to Obtain due to Patient Condition
+Residence: Reportedly lives in Compass Housing

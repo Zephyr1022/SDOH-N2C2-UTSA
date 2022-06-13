@@ -1,0 +1,33 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	19	24	lives
+O	25	27	at
+O	28	29	[
+O	29	37	LOCATION
+O	37	38	]
+O	39	41	in
+O	42	43	[
+O	43	51	LOCATION
+O	51	52	]
+
+B-Tobacco	54	60	former
+I-Tobacco	61	67	smoker
+
+B-Drug	69	75	former
+I-Drug	76	80	meth
+I-Drug	81	84	and
+I-Drug	85	92	cocaine
+I-Drug	93	98	abuse
+O	98	99	,
+O	100	103	now
+O	104	109	clean
+
+O	111	117	denies
+B-Alcohol	118	122	etoh
+I-Alcohol	123	126	use
+
+O	128	132	uses
+B-Drug	133	139	edible
+I-Drug	140	149	marijuana

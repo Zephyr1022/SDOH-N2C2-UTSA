@@ -1,0 +1,27 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	17	24	Patient
+O	25	32	reports
+O	33	37	that
+O	38	40	he
+O	41	43	is
+B-LivingStatus	44	53	currently
+I-LivingStatus	54	62	homeless
+O	62	63	.
+
+O	65	67	He
+O	68	72	uses
+O	73	75	IV
+B-Drug	76	82	heroin
+O	83	87	with
+O	88	98	regularity
+O	99	102	but
+O	103	109	denies
+O	110	121	significant
+B-Tobacco	122	130	nicotine
+O	131	133	or
+B-Alcohol	134	141	alcohol
+I-Alcohol	142	145	use
+O	145	146	.

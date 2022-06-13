@@ -1,0 +1,25 @@
+T1	Alcohol 50 72	Occasional alcohol use
+T3	StatusTime 50 72	Occasional alcohol use
+T4	Tobacco 74 80	smokes
+T5	StatusTime 74 80	smokes
+T6	Amount 81 87	a pack
+T7	Frequency 102 114	every 4 days
+T8	Type 91 101	cigarettes
+T9	Drug 116 140	occasional marijuana use
+T11	StatusTime 116 140	occasional marijuana use
+T12	Type 127 136	marijuana
+T13	Drug 145 156	other drugs
+T15	StatusTime 142 144	No
+T16	Drug 172 176	IVDU
+T17	Method 172 176	IVDU
+T18	StatusTime 158 168	no history
+E1	Alcohol:T1 Status:T3
+E2	Tobacco:T4 Status:T5 Amount:T6 Type:T8 Frequency:T7
+E3	Drug:T9 Status:T11 Type:T12
+E4	Drug:T13 Status:T15
+E5	Drug:T16 Status:T18 Method:T17
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A5	StatusTimeVal T11 current
+A6	StatusTimeVal T15 none
+A7	StatusTimeVal T18 none

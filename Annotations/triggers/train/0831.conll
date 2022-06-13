@@ -1,0 +1,39 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	He
+B-LivingStatus	19	24	lives
+O	25	29	with
+O	30	33	his
+O	34	40	spouse
+O	40	41	.
+
+O	43	48	There
+O	49	51	is
+O	52	54	no
+O	55	60	prior
+
+O	61	68	history
+O	69	71	of
+B-Tobacco	72	79	smoking
+O	79	80	.
+
+O	82	84	He
+B-Alcohol	85	91	drinks
+O	92	97	about
+O	98	100	24
+O	101	107	ounces
+O	108	110	of
+O	111	115	beer
+O	116	119	per
+O	120	124	week
+O	124	125	.
+
+O	127	129	He
+O	130	136	denies
+O	137	140	any
+B-Drug	141	153	recreational
+I-Drug	154	158	drug
+I-Drug	159	162	use
+O	162	163	.

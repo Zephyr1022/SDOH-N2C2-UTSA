@@ -1,0 +1,29 @@
+T2	StatusTime 42 54	continues to
+T3	Amount 63 79	[**12-17**] pack
+T4	Frequency 80 87	per day
+T5	Alcohol 90 96	Drinks
+T6	StatusTime 90 96	Drinks
+T7	Amount 97 104	5 beers
+T8	Frequency 105 110	daily
+T9	Drug 121 129	drug use
+T10	StatusTime 114 120	Denies
+T11	LivingStatus 143 148	Lives
+T12	StatusTime 143 148	Lives
+T13	TypeLiving 149 153;154 160	with father
+T14	Employment 180 190	Unemployed
+T15	StatusEmploy 180 190	Unemployed
+T16	Type 205 214	a painter
+T17	Duration 215 218;219 227	for 30 years
+T18	Tobacco 34 40	smoker
+T19	Amount 21 33	40 pack-year
+E2	Alcohol:T5 Status:T6 Amount:T7 Frequency:T8
+E3	Drug:T9 Status:T10
+E4	LivingStatus:T11 Status:T12 Type:T13
+E5	Employment:T14 Status:T15 Type:T16 Duration:T17
+E6	Tobacco:T18 Amount:T19 Status2:T2 Amount2:T3 Frequency:T4
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T10 none
+A4	StatusTimeVal T12 current
+A5	TypeLivingVal T13 with_family
+A6	StatusEmployVal T15 unemployed

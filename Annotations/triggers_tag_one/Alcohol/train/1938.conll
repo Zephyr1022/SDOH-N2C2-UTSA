@@ -1,0 +1,95 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	No
+O	19	26	smoking
+O	26	27	.
+
+B-Alcohol	28	36	Drinking
+I-Alcohol	37	44	history
+O	44	45	:
+O	46	47	1
+O	48	52	case
+O	53	55	of
+O	56	61	beers
+O	62	63	a
+O	64	67	day
+O	68	71	for
+O	72	74	35
+
+O	75	80	years
+O	80	81	,
+O	82	85	has
+O	86	90	quit
+O	91	99	entirely
+O	100	101	3
+O	102	107	years
+O	108	111	ago
+O	111	112	.
+
+O	113	115	He
+O	116	121	drank
+O	122	124	to
+O	125	129	calm
+O	130	133	his
+
+O	134	141	anxiety
+O	141	142	,
+O	143	146	but
+O	147	152	since
+O	153	161	starting
+O	162	170	oxazepam
+O	171	174	has
+O	175	178	not
+O	179	185	needed
+O	186	193	alcohol
+O	193	194	.
+
+O	195	201	Denies
+O	202	209	illicit
+O	210	214	drug
+O	215	218	use
+O	218	219	.
+
+O	220	225	Lives
+O	226	231	alone
+O	232	234	in
+O	235	238	the
+O	239	240	[
+O	240	241	*
+O	241	242	*
+O	242	251	Hospital1
+O	252	255	778
+O	255	256	*
+O	256	257	*
+O	257	258	]
+O	259	263	area
+O	263	264	.
+
+O	265	268	For
+O	269	270	a
+
+O	271	277	living
+O	278	280	he
+O	281	286	cooks
+O	287	289	at
+O	290	291	a
+O	292	297	North
+O	298	305	Station
+O	306	314	facility
+O	315	319	that
+O	320	326	trains
+O	327	335	handicap
+
+O	336	347	individuals
+O	347	348	.
+
+O	349	352	Has
+O	353	356	not
+O	357	363	worked
+O	364	369	since
+O	370	373	the
+O	374	382	melanoma
+O	383	392	diagnosis
+O	392	393	.

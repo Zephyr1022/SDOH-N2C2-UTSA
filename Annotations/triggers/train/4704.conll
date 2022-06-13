@@ -1,0 +1,129 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	24	at
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	37	Hospital3
+O	38	39	*
+O	39	40	*
+O	40	41	]
+O	41	42	.
+
+O	43	52	Separated
+O	53	57	from
+O	58	65	husband
+O	65	66	.
+
+O	68	71	One
+O	72	78	living
+O	79	82	son
+O	82	83	.
+
+O	85	91	Former
+O	92	93	[
+O	93	94	*
+O	94	95	*
+O	95	100	Name2
+O	101	102	(
+O	102	104	NI
+O	104	105	)
+O	106	110	1818
+O	110	111	*
+O	111	112	*
+O	112	113	]
+O	113	114	,
+O	115	119	quit
+O	120	122	in
+O	123	124	[
+O	124	125	*
+O	125	126	*
+O	126	130	2097
+O	130	131	*
+O	131	132	*
+O	132	133	]
+O	134	139	after
+B-Tobacco	140	147	smoking
+O	148	149	1
+O	149	150	.
+O	150	151	5
+O	151	152	-
+O	152	153	2
+O	154	157	PPD
+O	158	159	x
+O	160	161	~
+O	161	163	40
+O	164	169	years
+
+O	170	171	(
+O	171	173	60
+O	173	174	-
+O	174	176	80
+O	177	181	pack
+O	182	187	years
+O	187	188	)
+O	188	189	.
+
+O	190	192	No
+O	193	200	current
+B-Alcohol	201	205	EtOH
+I-Alcohol	206	209	use
+O	210	216	though
+O	217	225	reported
+O	226	234	drinking
+
+O	235	237	in
+O	238	242	past
+O	242	243	.
+
+B-Employment	244	250	Worked
+O	251	253	in
+O	254	255	a
+O	256	260	meat
+O	261	267	market
+O	268	269	(
+O	269	277	wrapping
+O	278	282	meat
+O	282	283	)
+O	284	290	during
+O	291	294	her
+
+O	295	299	life
+O	299	300	.
+
+O	302	304	No
+O	305	317	occupational
+O	318	320	or
+O	321	333	recreational
+O	334	343	exposures
+O	343	344	.
+
+O	346	348	No
+O	349	353	pets
+O	354	356	in
+
+O	357	363	recent
+O	364	369	years
+O	369	370	.
+
+O	372	374	No
+O	375	383	asbestos
+O	384	392	exposure
+O	392	393	.
+
+O	395	401	Denies
+O	402	404	TB
+O	405	413	exposure
+O	414	420	though
+
+O	421	424	was
+O	425	428	PPD
+O	429	437	positive
+O	438	440	in
+O	441	445	past
+O	446	449	per
+O	450	455	notes
+O	455	456	.

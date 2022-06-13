@@ -1,0 +1,97 @@
+O	0	6	SOCIAL
+O	6	7	:
+
+O	8	14	Stable
+O	15	22	housing
+
+O	23	24	-
+O	24	25	-
+B-Tobacco	26	29	Tob
+O	29	30	:
+O	31	32	1
+O	33	36	ppd
+
+O	37	38	-
+O	38	39	-
+B-Alcohol	40	44	EtOH
+O	44	45	:
+O	46	52	Denies
+
+O	53	54	-
+O	54	55	-
+B-Drug	56	64	Illicits
+O	64	65	:
+O	66	70	took
+O	71	75	part
+O	76	78	of
+O	79	80	a
+O	81	88	friends
+O	89	94	xanax
+
+O	96	107	MEDICATIONS
+O	108	109	(
+O	109	113	HOME
+O	113	114	)
+O	114	115	:
+
+O	116	117	-
+O	118	125	insulin
+O	126	135	glulisine
+O	135	136	,
+O	137	138	8
+O	139	144	units
+O	145	148	TID
+
+O	149	150	-
+O	151	158	insulin
+O	159	167	isophane
+O	167	168	,
+O	169	171	50
+O	172	177	units
+O	178	179	(
+O	179	185	before
+O	186	195	breakfast
+O	196	197	&
+O	198	204	before
+O	205	211	dinner
+O	211	212	)
+
+O	213	214	-
+O	215	218	PRN
+O	219	229	furosemide
+O	230	232	20
+O	233	235	mg
+
+O	236	237	-
+O	238	249	risperidone
+O	250	251	,
+O	252	255	1mg
+O	256	259	BID
+
+O	260	261	-
+O	262	270	prazosin
+O	270	271	,
+O	272	275	2mg
+O	276	279	QHS
+
+O	280	281	-
+O	282	291	trazadone
+O	291	292	,
+O	293	300	clarify
+O	301	305	dose
+
+O	306	307	-
+O	308	317	methadone
+O	317	318	,
+O	319	320	5
+O	321	323	mg
+O	324	328	down
+O	329	332	per
+O	333	336	day
+O	337	340	now
+O	341	343	at
+O	344	346	35
+O	347	349	on
+O	350	351	[
+O	351	355	DATE
+O	355	356	]

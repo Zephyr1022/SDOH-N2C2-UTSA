@@ -1,0 +1,168 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	20	Born
+O	21	23	in
+O	24	26	NH
+O	26	27	,
+O	28	31	now
+O	32	38	living
+O	39	41	in
+O	42	45	SRO
+O	46	48	at
+O	49	50	[
+O	50	51	*
+O	51	52	*
+O	52	59	Company
+O	60	64	3596
+O	64	65	*
+O	65	66	*
+O	66	67	]
+O	67	68	.
+
+O	70	72	Pt
+O	73	75	is
+O	76	82	single
+O	83	87	with
+O	88	90	no
+
+O	91	95	past
+O	96	105	marriages
+O	106	108	or
+O	109	117	children
+O	117	118	.
+
+B-Employment	120	122	On
+I-Employment	123	133	disability
+O	134	137	for
+O	138	139	"
+O	139	149	depression
+O	149	150	,
+O	151	152	I
+
+O	153	158	guess
+O	158	159	.
+
+O	160	161	"
+B-Employment	163	168	Works
+O	169	172	off
+O	173	176	and
+O	177	179	on
+O	180	182	at
+O	183	184	a
+O	185	195	motorcycle
+O	196	203	company
+O	203	204	.
+
+O	206	216	Identifies
+
+O	217	220	his
+
+O	221	227	father
+O	228	230	as
+O	231	232	a
+O	233	240	support
+O	240	241	.
+
+O	243	246	One
+O	247	253	sister
+O	253	254	,
+O	255	258	who
+O	259	261	is
+O	262	267	three
+O	268	273	years
+O	274	281	younger
+O	281	282	.
+
+O	283	285	No
+
+O	286	293	present
+O	294	299	legal
+O	300	308	problems
+O	308	309	,
+O	310	318	although
+O	319	320	[
+O	320	321	*
+O	321	322	*
+O	322	327	Name2
+O	328	329	(
+O	329	331	NI
+O	331	332	)
+O	333	338	79107
+O	338	339	*
+O	339	340	*
+O	340	341	]
+O	342	344	in
+O	345	348	the
+O	349	353	past
+O	353	354	.
+
+O	355	361	Admits
+O	362	364	to
+O	365	366	h
+O	366	367	/
+O	367	368	o
+O	369	378	treatment
+O	379	382	for
+B-Alcohol	383	390	alcohol
+I-Alcohol	391	396	abuse
+O	397	400	and
+O	401	405	says
+O	406	408	he
+O	409	410	"
+O	410	413	can
+O	414	416	go
+O	417	419	to
+
+O	420	424	town
+O	424	425	"
+O	426	430	with
+O	431	438	alcohol
+O	438	439	,
+O	440	448	although
+O	449	451	he
+O	452	456	does
+O	457	460	not
+O	461	466	drink
+O	467	472	daily
+O	473	476	and
+O	477	480	has
+O	481	483	no
+
+O	484	485	h
+O	485	486	/
+O	486	487	o
+O	488	498	withdrawal
+O	498	499	.
+
+B-Alcohol	500	507	Alcohol
+O	508	513	since
+O	514	517	age
+O	518	520	15
+O	521	525	with
+O	526	534	multiple
+O	535	550	detoxifications
+O	551	554	and
+O	555	560	sober
+
+O	561	566	house
+O	567	576	placement
+O	576	577	.
+
+B-Drug	578	585	Cocaine
+O	586	587	x
+O	588	589	3
+O	589	590	-
+O	590	591	4
+O	592	597	years
+
+B-Tobacco	598	599	1
+I-Tobacco	600	604	pack
+I-Tobacco	605	608	per
+I-Tobacco	609	613	week
+O	613	614	.
+
+B-Drug	616	619	Occ
+I-Drug	620	622	mj
+O	622	623	.

@@ -1,0 +1,54 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	26	with
+O	26	27	:
+O	28	34	single
+
+O	35	45	Occupation
+O	45	46	:
+O	47	54	retired
+O	55	68	Administrator
+O	69	71	at
+O	72	73	[
+O	73	74	*
+O	74	75	*
+O	75	85	University
+O	85	86	/
+O	86	93	College
+O	94	98	5130
+O	98	99	*
+O	99	100	*
+O	100	101	]
+
+O	102	112	Cigarettes
+O	112	113	:
+O	114	120	Smoked
+O	121	123	no
+O	124	125	[
+O	125	126	x
+O	126	127	]
+O	128	131	yes
+O	132	133	[
+O	133	134	]
+
+O	135	140	Other
+O	141	148	Tobacco
+O	149	152	use
+O	152	153	:
+O	154	158	none
+
+B-Alcohol	159	163	ETOH
+O	163	164	:
+O	165	166	1
+O	167	172	drink
+O	172	173	/
+O	173	177	week
+
+O	178	185	Illicit
+O	186	190	drug
+O	191	194	use
+O	194	195	:
+O	196	200	None

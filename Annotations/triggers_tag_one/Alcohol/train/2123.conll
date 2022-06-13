@@ -1,0 +1,40 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	Denies
+B-Alcohol	31	38	Alcohol
+I-Alcohol	39	42	Use
+O	42	43	:
+O	44	45	3
+O	46	52	drinks
+O	52	53	/
+O	53	56	day
+O	59	63	Drug
+O	64	67	Use
+O	67	68	:
+O	69	75	remote
+O	76	83	history
+O	84	86	of
+O	87	91	IVDU
+O	92	98	heroin
+
+O	100	106	SOCIAL
+O	107	114	HISTORY
+O	114	115	:
+
+O	117	122	Lives
+O	123	125	in
+O	126	129	car
+O	130	134	with
+O	135	142	partner
+O	143	144	[
+O	144	148	NAME
+O	148	149	]
+O	149	150	.
+
+O	152	155	Not
+O	156	163	working
+O	163	164	.

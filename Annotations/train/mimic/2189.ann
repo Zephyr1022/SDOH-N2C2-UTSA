@@ -1,0 +1,29 @@
+T1	Alcohol 16 23	alcohol
+T2	Drug 28 39	IV drug use
+T3	Type 28 30	IV
+T4	StatusTime 9 15	Denies
+T5	Tobacco 49 55	smoked
+T6	StatusTime 41 48	briefly
+T7	Type 56 66	cigarettes
+T8	History 67 77	in her 40s
+T9	Employment 127 134	a nurse
+T10	StatusEmploy 116 126	used to be
+T11	Type 127 134	a nurse
+T12	Employment 205 212	retired
+T13	StatusEmploy 205 212	retired
+T14	History 213 247	after her [NAME] suffered a stroke
+T15	LivingStatus 298 307	now lives
+T16	StatusTime 298 307	now lives
+T17	TypeLiving 308 319	with [NAME]
+E1	Alcohol:T1 Status:T4
+E2	Drug:T2 Type:T3 Status:T4
+E3	Tobacco:T5 Status:T6 Type:T7 History:T8
+E4	Employment:T9 Status:T10 Type:T11
+E5	Employment:T12 Status:T13 History:T14
+E6	LivingStatus:T15 Status:T16 Type:T17
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T6 past
+A3	StatusEmployVal T10 unemployed
+A4	StatusEmployVal T13 retired
+A5	StatusTimeVal T16 current
+A6	TypeLivingVal T17 with_family

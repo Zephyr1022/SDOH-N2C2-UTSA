@@ -1,0 +1,16 @@
+T1	Tobacco 148 155	tobacco
+T2	StatusTime 141 147	denies
+T3	Drug 157 161	drug
+T4	Alcohol 202 209	alcohol
+T5	Type 165 174	marijuana
+T6	StatusTime 183 191	endorses
+T8	Employment 23 32	a student
+T9	Type 23 32	a student
+T10	StatusEmploy 23 32	a student
+E1	Tobacco:T1 Status:T2
+E2	Drug:T3 Type:T5 Status:T2
+E3	Alcohol:T4 Status:T6
+E4	Employment:T8 Status:T10 Type:T9
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T6 current
+A4	StatusEmployVal T10 student

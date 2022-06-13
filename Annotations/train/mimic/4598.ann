@@ -1,0 +1,17 @@
+T1	Employment 46 66	Retired business man
+T2	StatusEmploy 46 66	Retired business man
+T3	Type 46 66	Retired business man
+T4	Alcohol 69 73	ETOH
+T5	StatusTime 69 73	ETOH
+T6	Tobacco 75 82	Smoking
+T7	StatusTime 75 82	Smoking
+T8	Drug 84 88	Drug
+T9	StatusTime 84 88	Drug
+E1	Employment:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5
+E3	Tobacco:T6 Status:T7
+E4	Drug:T8 Status:T9
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T9 current

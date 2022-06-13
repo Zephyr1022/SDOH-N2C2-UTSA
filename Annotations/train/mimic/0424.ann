@@ -1,0 +1,20 @@
+T1	LivingStatus 25 30	lives
+T2	StatusTime 25 30	lives
+T3	TypeLiving 31 61	with wife and two stepchildren
+T4	Employment 133 143	Unemployed
+T5	StatusEmploy 133 143	Unemployed
+T6	History 144 163	since foot fracture
+T7	Tobacco 172 179	tobacco
+T8	Alcohol 181 188	alcohol
+T9	Drug 190 204	other illicits
+T10	Type 196 204	illicits
+T11	StatusTime 165 171	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 History:T6
+E3	Tobacco:T7 Status:T11
+E4	Alcohol:T8 Status:T11
+E5	Drug:T9 Status:T11 Type:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T11 none

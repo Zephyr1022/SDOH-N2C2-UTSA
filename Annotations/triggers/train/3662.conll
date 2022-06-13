@@ -1,0 +1,65 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Currently
+B-LivingStatus	27	34	staying
+O	35	37	at
+O	38	45	Canaday
+O	46	53	shelter
+O	53	54	.
+
+O	55	63	Appealed
+O	64	68	last
+O	69	78	discharge
+O	79	83	with
+O	84	85	a
+O	86	90	goal
+O	91	93	of
+O	94	99	being
+O	100	108	admitted
+O	109	111	to
+O	112	119	respite
+O	119	120	,
+O	121	124	but
+O	125	128	did
+O	129	132	not
+O	133	137	meet
+O	138	146	criteria
+O	146	147	.
+
+O	148	151	Was
+O	152	159	cleared
+O	160	162	by
+O	163	165	PT
+O	165	166	.
+
+O	167	170	Has
+O	171	172	a
+O	173	177	case
+O	178	185	manager
+O	186	188	at
+O	189	196	Canaday
+O	197	204	shelter
+O	204	205	.
+
+O	207	214	Current
+B-Tobacco	215	221	smoker
+
+O	222	228	Denies
+O	229	236	current
+B-Alcohol	237	244	alcohol
+I-Alcohol	245	248	use
+
+O	249	254	Prior
+B-Drug	255	259	meth
+I-Drug	260	263	and
+I-Drug	264	270	opiate
+I-Drug	271	274	use
+O	274	275	,
+O	276	282	states
+O	283	285	he
+O	286	290	quit
+O	291	293	40
+O	294	299	years
+O	300	303	ago

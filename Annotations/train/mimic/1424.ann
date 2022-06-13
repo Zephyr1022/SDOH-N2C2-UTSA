@@ -1,0 +1,24 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	none
+T3	Alcohol 29 40	Alcohol Use
+T4	StatusTime 42 46	none
+T5	Drug 49 57	Drug Use
+T6	Type 64 73	marijuana
+T7	StatusTime 59 63	Uses
+T8	LivingStatus 120 125	Lives
+T9	StatusTime 120 125	Lives
+T10	TypeLiving 126 142	with her husband
+T11	Employment 158 167	a student
+T12	StatusEmploy 158 167	a student
+T13	Type 171 185	human services
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T7 Type:T6
+E4	LivingStatus:T8 Status:T9 Type:T10
+E5	Employment:T11 Status:T12 Type:T13
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T10 with_family
+A6	StatusEmployVal T12 student

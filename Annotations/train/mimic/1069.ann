@@ -1,0 +1,17 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 51	with wife and 18 year-old son
+T4	Employment 54 61	Retired
+T6	Type 82 108	drug and alcohol counselor
+T5	StatusEmploy 54 61	Retired
+T7	Alcohol 206 210	EtOH
+T8	Tobacco 214 225	tobacco use
+T9	StatusTime 192 202	No history
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Alcohol:T7 Status:T9
+E4	Tobacco:T8 Status:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T9 none

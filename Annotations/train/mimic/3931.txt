@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: X   Alcohol Use: Once a month   Drug Use: No
+
+SOCIAL HISTORY: 
+Lives at home with roomates and caregivers. Works in hospital administration. No family living in the area. Both parents are deceased. Closest Aunts Uncles and Cousins are in [LOCATION] and [LOCATION].

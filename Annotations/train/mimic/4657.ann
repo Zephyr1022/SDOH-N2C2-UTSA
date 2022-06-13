@@ -1,0 +1,23 @@
+T1	LivingStatus 16 21	Lived
+T2	TypeLiving 22 37	in nursing home
+T3	StatusTime 16 21	Lived
+T4	Tobacco 107 114	tobacco
+T5	Alcohol 116 120	EtOH
+T6	Drug 125 135	drug abuse
+T8	StatusTime 96 106	History of
+T9	Employment 182 188	worked
+T10	StatusEmploy 182 188	worked
+T11	Type 192 209;210 219	an administrative assistant
+T12	Employment 253 260	on SSDI
+T13	StatusEmploy 253 260	on SSDI
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T8
+E3	Alcohol:T5 Status:T8
+E4	Drug:T6 Status:T8
+E5	Employment:T9 Status:T10 Type:T11
+E6	Employment:T12 Status:T13
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 none
+A4	StatusTimeVal T8 none
+A5	StatusEmployVal T10 unemployed
+A6	StatusEmployVal T13 on_disability

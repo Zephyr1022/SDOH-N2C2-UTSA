@@ -1,0 +1,16 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	22	former
+I-Employment	23	27	fork
+I-Employment	28	32	lift
+I-Employment	33	41	operator
+I-Employment	41	42	/
+I-Employment	42	44	DJ
+
+O	45	47	no
+B-Tobacco	48	51	tob
+
+O	52	58	social
+B-Alcohol	59	63	etoh

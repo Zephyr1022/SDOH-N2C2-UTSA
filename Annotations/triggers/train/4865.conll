@@ -1,0 +1,79 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+O	24	27	has
+O	28	29	a
+O	30	37	history
+O	38	40	of
+B-Tobacco	41	48	tobacco
+I-Tobacco	49	52	use
+O	52	53	,
+O	54	62	recently
+O	63	67	quit
+O	68	71	and
+O	72	74	is
+O	75	77	on
+
+O	78	81	the
+O	82	90	nicotine
+O	91	96	patch
+O	97	100	7mg
+O	100	101	/
+O	101	104	day
+O	104	105	,
+O	106	112	denies
+B-Drug	113	120	illicit
+I-Drug	121	125	drug
+I-Drug	126	129	use
+O	130	133	but
+O	134	137	has
+
+O	138	145	history
+O	146	148	of
+B-Drug	149	156	cocaine
+I-Drug	157	160	use
+O	160	161	,
+B-LivingStatus	162	167	lives
+O	168	170	at
+O	171	172	a
+O	173	180	shelter
+O	181	184	for
+O	185	190	women
+O	191	195	with
+O	196	199	HIV
+O	200	201	x
+
+O	202	203	8
+O	204	210	months
+O	210	211	.
+
+O	212	220	Applying
+O	221	224	for
+O	225	229	Mass
+O	230	236	Health
+O	237	240	for
+O	241	248	housing
+O	249	259	assistance
+O	259	260	.
+
+O	261	264	Has
+
+O	265	268	two
+O	269	277	children
+O	277	278	.
+
+O	279	286	History
+O	287	289	of
+O	290	298	domestic
+O	299	304	abuse
+O	305	309	from
+O	310	312	ex
+O	312	313	-
+O	313	320	husband
+O	321	322	(
+O	322	323	?
+
+O	324	325	)
+O	325	326	.

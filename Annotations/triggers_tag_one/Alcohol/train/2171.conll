@@ -1,0 +1,44 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	denies
+B-Alcohol	30	37	Alcohol
+I-Alcohol	38	41	Use
+O	41	42	:
+O	43	49	denies
+O	52	56	Drug
+O	57	60	Use
+O	60	61	:
+O	62	68	denies
+
+O	70	76	SOCIAL
+O	77	84	HISTORY
+O	84	85	:
+
+O	87	88	-
+O	89	94	Lives
+O	95	97	at
+O	98	102	Park
+O	103	107	West
+O	108	115	Nursing
+O	116	119	and
+O	120	125	Rehab
+
+O	126	127	-
+O	128	129	2
+O	130	135	adult
+O	136	144	children
+O	145	146	(
+O	146	147	1
+O	148	156	deceased
+O	157	160	and
+O	161	164	the
+O	165	170	other
+O	171	176	lives
+O	177	180	out
+O	181	183	of
+O	184	189	state
+O	189	190	)

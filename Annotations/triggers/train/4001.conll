@@ -1,0 +1,27 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	26	Currently
+I-LivingStatus	27	35	residing
+O	36	38	at
+O	39	46	Cascade
+O	47	53	living
+
+O	54	61	History
+O	62	64	of
+B-Drug	65	69	IVDU
+O	69	70	,
+O	71	78	patient
+O	79	86	reports
+O	87	89	to
+O	90	92	be
+O	93	98	clean
+O	99	102	and
+O	103	108	sober
+O	109	110	×
+O	111	118	several
+O	119	125	months
+
+B-Tobacco	126	132	Smokes
+O	133	143	cigarettes

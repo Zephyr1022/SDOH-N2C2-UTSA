@@ -1,0 +1,17 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	denies
+T3	Alcohol 31 42	Alcohol Use
+T4	StatusTime 62 73	in the past
+T6	Drug 75 83	Drug Use
+T7	StatusTime 85 91	denies
+T10	Employment 247 251	jobs
+T11	StatusEmploy 238 251	Does odd jobs
+T12	Type 243 282	odd jobs for hire outside of [LOCATION]
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T6 Status:T7
+E5	Employment:T10 Status:T11 Type:T12
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A4	StatusTimeVal T7 none
+A5	StatusEmployVal T11 employed

@@ -1,0 +1,36 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	24	in
+O	25	34	Southeast
+O	35	37	CT
+O	37	38	.
+
+B-Employment	39	44	Works
+O	45	49	desk
+O	50	53	job
+O	54	58	when
+O	59	63	able
+O	63	64	,
+O	65	68	has
+O	69	72	not
+O	73	77	been
+
+O	78	82	able
+O	83	85	to
+O	86	88	go
+O	89	92	for
+O	93	97	last
+O	98	103	month
+O	103	104	.
+
+O	105	107	No
+B-Tobacco	108	115	tobacco
+O	115	116	,
+B-Drug	117	124	illicit
+O	124	125	,
+O	126	128	or
+B-Alcohol	129	133	ETOH
+O	133	134	.

@@ -1,0 +1,126 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	lives
+O	22	26	with
+O	27	31	wife
+O	31	32	.
+B-Employment	33	38	works
+O	39	42	for
+O	43	44	[
+O	44	45	*
+O	45	46	*
+O	46	53	Company
+O	54	59	87387
+O	59	60	*
+O	60	61	*
+O	61	62	]
+O	62	63	.
+B-Employment	64	69	works
+O	70	72	on
+O	73	79	planes
+O	79	80	,
+O	81	86	loads
+
+O	87	94	baggage
+O	94	95	.
+
+O	96	98	no
+O	99	105	recent
+O	106	112	travel
+O	112	113	.
+
+O	114	116	no
+O	117	121	sick
+O	122	130	contacts
+O	130	131	.
+O	132	142	occasional
+O	143	144	[
+O	144	145	*
+O	145	146	*
+O	146	151	Name2
+O	152	153	(
+O	153	155	NI
+O	155	156	)
+O	157	161	5127
+O	161	162	*
+O	162	163	*
+O	163	164	]
+O	164	165	,
+
+O	166	169	not
+O	170	174	more
+O	175	179	than
+O	180	181	2
+O	181	182	/
+O	182	186	week
+O	186	187	.
+O	188	192	used
+O	193	195	to
+B-Alcohol	196	201	drink
+O	202	206	more
+O	207	211	when
+O	212	217	young
+O	218	221	but
+O	222	226	only
+
+O	227	235	socially
+O	235	236	.
+O	237	242	never
+O	243	247	told
+O	248	254	needed
+O	255	257	to
+O	258	261	cut
+O	262	266	down
+O	266	267	.
+
+O	268	270	no
+B-Tobacco	271	278	smoking
+O	278	279	.
+
+O	280	282	no
+B-Drug	283	288	drugs
+O	288	289	.
+
+O	290	293	has
+O	294	297	had
+O	298	301	one
+O	302	304	on
+O	305	308	and
+O	309	312	off
+O	313	320	partner
+O	321	326	other
+O	327	331	than
+O	332	336	wife
+O	336	337	.
+O	338	341	she
+O	342	346	does
+O	347	350	not
+
+O	351	355	know
+O	355	356	.
+O	357	361	they
+O	362	366	have
+O	367	371	been
+O	372	379	married
+O	380	382	15
+O	383	388	years
+O	388	389	.
+
+O	390	392	he
+O	393	395	is
+O	396	409	uncomfortable
+
+O	410	417	telling
+O	418	420	me
+O	420	421	.
+O	422	425	the
+O	426	431	other
+O	432	439	partner
+O	440	443	has
+O	444	448	been
+O	449	461	intermittent
+O	462	465	for
+O	466	471	years
+O	471	472	.

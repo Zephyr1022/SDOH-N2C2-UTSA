@@ -1,0 +1,4 @@
+HABITS:
+[X_] Patient unable to communicate and provide ROS or details of past medical, social, or family history
+SOCIAL HISTORY: 
+[X_] Unable to Obtain due to Patient Condition

@@ -1,0 +1,91 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	19	Had
+I-LivingStatus	20	24	been
+I-LivingStatus	25	31	living
+O	32	36	with
+O	37	43	former
+O	44	51	partner
+O	51	52	,
+O	53	56	who
+O	57	65	recently
+O	66	70	left
+O	71	74	him
+O	75	78	for
+
+O	79	82	due
+O	83	85	to
+O	86	94	physical
+O	94	95	/
+O	95	101	verbal
+O	102	107	abuse
+O	108	109	(
+O	109	112	has
+O	113	124	restraining
+O	125	130	order
+O	130	131	)
+O	131	132	.
+
+O	133	140	Unknown
+
+O	141	148	tobacco
+O	148	149	.
+
+O	150	151	(
+O	151	152	+
+O	152	153	)
+O	154	159	heavy
+B-Alcohol	160	164	EtOH
+O	164	165	.
+
+O	167	169	pt
+O	170	173	has
+O	174	177	had
+O	178	181	one
+O	182	186	male
+O	187	193	sexual
+O	194	201	partner
+O	202	205	for
+O	206	209	the
+O	210	214	past
+O	215	216	8
+O	217	222	years
+O	222	223	.
+
+O	224	226	Pt
+
+O	227	233	denies
+O	234	237	any
+O	238	242	time
+O	243	245	in
+O	246	252	prison
+O	252	253	.
+
+O	254	256	No
+O	257	263	recent
+O	264	271	foreign
+O	272	278	travel
+O	279	281	or
+O	282	289	camping
+O	289	290	.
+
+O	291	293	No
+O	294	296	TB
+O	297	305	exposure
+O	305	306	,
+O	307	309	no
+O	310	311	[
+O	311	312	*
+O	312	313	*
+O	313	321	Location
+O	322	323	(
+O	323	325	un
+O	325	326	)
+O	327	328	*
+O	328	329	*
+O	329	330	]
+O	331	333	or
+O	334	340	animal
+O	341	348	contact

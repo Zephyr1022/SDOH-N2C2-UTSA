@@ -1,0 +1,44 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 45 75	with fiance and three children
+T4	Tobacco 97 104	smoking
+T5	Alcohol 165 176	alcohol use
+T6	StatusTime 151 153;154 161	No history
+T7	StatusTime 189 203	remote history
+T8	Drug 213 233	intravenous drug use
+T9	Method 213 224	intravenous
+T10	Type 238 245	cocaine
+T11	Drug 238 249	cocaine use
+T14	Employment 308 314	worked
+T15	StatusEmploy 308 314	worked
+T16	Type 318 336	a domestic cleaner
+T20	LivingStatus 444 450	living
+T21	StatusTime 444 450	living
+T22	TypeLiving 451 470	with family members
+T23	StatusTime 97 104	smoking
+T24	Duration 116 125	at age 13
+T25	Tobacco 127 140	~45-pack-year
+T26	Amount 127 140	~45-pack-year
+T27	StatusTime 141 148	history
+T28	Employment 415 439	currently is out of work
+T29	StatusEmploy 415 439	currently is out of work
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T23 Duration:T24 Type:T12
+E3	Alcohol:T5 Status:T6
+E4	Drug:T8 Method:T9 Status:T7
+E5	Drug:T11 Type:T10 Status:T7
+E7	Employment:T14 Status:T15 Type:T16
+E9	LivingStatus:T20 Status:T21 Type:T22
+E10	Tobacco:T25 Amount:T26 Status:T27
+E11	Employment:T28 Status:T29
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T7 past
+A5	StatusEmployVal T15 unemployed
+A7	StatusTimeVal T21 current
+A8	TypeLivingVal T22 with_family
+A9	StatusTimeVal T23 current
+A10	StatusTimeVal T27 current
+A11	StatusEmployVal T29 unemployed
+T12	Type 105 115	cigarettes

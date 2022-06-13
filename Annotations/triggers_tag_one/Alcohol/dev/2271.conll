@@ -1,0 +1,40 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	25	Homeless
+O	25	26	,
+O	27	30	but
+O	31	40	currently
+O	41	48	staying
+O	49	51	in
+O	52	59	Compass
+O	60	67	housing
+O	67	68	.
+
+O	69	75	Smoked
+O	76	80	1ppd
+O	81	84	for
+O	85	87	10
+O	87	88	+
+O	89	94	years
+O	94	95	.
+
+O	96	102	Remote
+O	103	110	history
+O	111	113	of
+B-Alcohol	114	121	alcohol
+I-Alcohol	122	127	abuse
+O	127	128	,
+O	129	132	but
+O	133	135	no
+O	136	144	drinking
+O	145	148	for
+O	149	151	25
+O	152	157	years
+O	157	158	.
+
+O	159	165	Denies
+O	166	170	drug
+O	171	174	use
+O	174	175	.

@@ -1,0 +1,8 @@
+HABITS: 
+Alcohol: denies 
+Tobacco: smoked 1.5-2ppd for 30 years and 1/2ppd for the past 10 years; gt35 pack year history
+Drugs: IV methamphetamine for past 20 years, last used 2 weeks ago; medical marijuana
+
+SOCIAL HISTORY: 
+Residence: Has been living with his partner, [NAME], in a motel on [LOCATION] in [LOCATION], [LOCATION] since [DATE]. 
+Pt is currently unemployed. Previously worked as an apartment manager and as a bar/nightclub manager prior to that.

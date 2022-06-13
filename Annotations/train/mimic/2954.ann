@@ -1,0 +1,20 @@
+T1	Alcohol 65 76	alcohol use
+T3	StatusTime 120 141	likely still drinking
+T4	StatusTime 41 50	old notes
+T5	Alcohol 133 141	drinking
+E1	Alcohol:T1 Status:T4
+E2	Alcohol:T5 Status:T3
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T4 past
+T2	LivingStatus 401 414	placed him in
+E3	LivingStatus:T2 Status:T7 Type:T6
+T6	TypeLiving 455 474	Evans House shelter
+A1	TypeLivingVal T6 homeless
+T7	StatusTime 401 414	placed him in
+A4	StatusTimeVal T7 current
+T8	LivingStatus 345 358	discharged to
+E4	LivingStatus:T8 Status:T12 Type:T13
+T12	StatusTime 345 358	discharged to
+A5	StatusTimeVal T12 past
+T13	TypeLiving 359 380	Cottage Grove shelter
+A6	TypeLivingVal T13 homeless

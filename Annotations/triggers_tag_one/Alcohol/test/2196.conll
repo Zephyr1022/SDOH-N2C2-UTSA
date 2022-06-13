@@ -1,0 +1,28 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	25	yes
+O	28	35	Alcohol
+O	36	39	Use
+O	39	40	:
+O	41	44	yes
+O	47	51	Drug
+O	52	55	Use
+O	55	56	:
+O	57	63	denies
+
+O	65	71	SOCIAL
+O	72	79	HISTORY
+O	79	80	:
+
+O	82	87	Lives
+O	88	90	in
+O	91	100	apartment
+O	100	101	.
+
+O	102	105	Has
+O	106	112	social
+O	113	120	support

@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: No  Alcohol Use: 1.5 bottles of whiskey daily  Drug Use: Occasional Marijuana
+
+SOCIAL HISTORY: 
+[_] Unable to Obtain due to Patient Condition
+Residence:Lives in woods in [LOCATION]

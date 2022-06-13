@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: Denies   Alcohol Use: 1-2 glasses per month   Drug Use: Denies
+
+SOCIAL HISTORY: 
+Residence: [LOCATION]; has son in [LOCATION]

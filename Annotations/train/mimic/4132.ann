@@ -1,0 +1,15 @@
+T1	LivingStatus 18 23	lives
+T2	StatusTime 18 23	lives
+T3	TypeLiving 24 33	in a tent
+T4	Employment 85 97	not employed
+T5	StatusEmploy 85 97	not employed
+T6	Alcohol 104 122	recent alcohol use
+T7	StatusTime 104 122	recent alcohol use
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Alcohol:T6 Status:T7 History:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T7 current
+T8	History 123 134	3 weeks ago

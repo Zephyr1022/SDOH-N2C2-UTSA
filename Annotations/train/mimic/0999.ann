@@ -1,0 +1,30 @@
+T1	LivingStatus 28 33	lives
+T2	StatusTime 28 33	lives
+T3	TypeLiving 34 39	alone
+T4	Employment 135 141	worked
+T5	StatusEmploy 124 141	previously worked
+T6	Type 145 168	a laboratory technician
+T7	Amount 243 255	50 pack year
+T8	Tobacco 256 263	smoking
+T9	StatusTime 276 280	quit
+T10	History 281 288;289 306	greater than 25 years ago
+T11	Alcohol 312 318	drinks
+T12	Amount 319 337	[**2-17**] glasses
+T13	Frequency 346 353	per day
+T14	Type 341 345	wine
+T15	StatusTime 312 318	drinks
+T16	StatusTime 359 369	denies use
+T17	Drug 373 386	illicit drugs
+T18	Type 373 380	illicit
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6 Type2:T19
+E3	Tobacco:T8 Amount:T7 Status:T9 History:T10
+E4	Alcohol:T11 Status:T15 Amount:T12 Frequency:T13 Type:T14
+E5	Drug:T17 Type:T18 Status:T16
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T15 current
+A6	StatusTimeVal T16 none
+T19	Type 214 223;224 231	an office manager

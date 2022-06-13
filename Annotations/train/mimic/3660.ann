@@ -1,0 +1,12 @@
+T1	LivingStatus 98 106	Homeless
+T2	TypeLiving 98 106	Homeless
+T3	StatusTime 98 106	Homeless
+T4	Drug 68 76	Drug Use
+T5	Type 77 93	methamphetamines
+T6	Amount 94 96	x3
+T7	StatusTime 77 96	methamphetamines x3
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Drug:T4 Type:T5 Amount:T6 Status:T7
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T7 current

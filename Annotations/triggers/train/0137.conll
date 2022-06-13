@@ -1,0 +1,27 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Tobacco	16	18	ex
+I-Tobacco	19	25	smoker
+O	25	26	,
+O	27	31	quit
+O	32	34	18
+O	35	40	years
+O	41	44	ago
+O	44	45	.
+O	46	50	rare
+B-Alcohol	51	55	EtOH
+O	55	56	.
+
+B-Employment	57	71	retiredmedical
+O	72	81	secretary
+O	81	82	.
+B-LivingStatus	83	88	lives
+O	89	93	with
+O	94	101	husband
+O	101	102	,
+O	103	106	had
+O	107	108	4
+O	109	117	children
+O	117	118	.

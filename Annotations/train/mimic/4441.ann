@@ -1,0 +1,19 @@
+T1	Tobacco 17 29	daily smoker
+T2	StatusTime 17 29	daily smoker
+T3	Frequency 17 29	daily smoker
+T4	Alcohol 75 91	occassional EtOH
+T6	StatusTime 75 91	occassional EtOH
+T7	Drug 101 108	ilicits
+T8	Type 101 108	ilicits
+T9	StatusTime 94 100	denies
+T10	Employment 111 118;119 133	Retired toll collector
+T11	StatusEmploy 111 118;119 133	Retired toll collector
+T12	Type 111 118;119 133	Retired toll collector
+E1	Tobacco:T1 Status:T2 Frequency:T3
+E2	Alcohol:T4 Status:T6
+E3	Drug:T7 Status:T9 Type:T8
+E4	Employment:T10 Status:T11 Type:T12
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T9 none
+A5	StatusEmployVal T11 retired

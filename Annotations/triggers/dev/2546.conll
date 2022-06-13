@@ -1,0 +1,46 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	Denies
+B-Alcohol	31	38	Alcohol
+I-Alcohol	39	42	Use
+O	42	43	:
+O	44	50	social
+O	51	54	use
+B-Drug	57	61	Drug
+I-Drug	62	65	Use
+O	65	66	:
+O	67	73	admits
+O	74	76	to
+O	77	87	recreation
+O	88	91	use
+O	92	94	of
+O	95	107	prescription
+O	108	117	narcotics
+O	118	121	and
+O	122	137	benzodiazapines
+
+O	139	145	SOCIAL
+O	146	153	HISTORY
+O	153	154	:
+
+B-LivingStatus	156	165	Residence
+O	165	166	:
+O	167	172	Lives
+O	173	177	with
+O	178	188	girlfriend
+O	188	189	.
+
+B-Employment	190	195	Works
+O	196	198	as
+O	199	200	a
+O	201	207	mental
+O	208	214	health
+O	215	225	specialist
+O	226	228	at
+O	229	230	[
+O	230	238	LOCATION
+O	238	239	]

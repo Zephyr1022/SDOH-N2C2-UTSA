@@ -1,0 +1,13 @@
+T1	Tobacco 15 26	tobacco use
+T2	StatusTime 8 14	Denies
+T3	Alcohol 28 43	Occasional EtOH
+T5	StatusTime 28 43	Occasional EtOH
+T6	Drug 52 70	Recreational drugs
+T7	Type 52 64	Recreational
+T8	StatusTime 45 51	Denies
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T5
+E3	Drug:T6 Type:T7 Status:T8
+A1	StatusTimeVal T2 none
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T8 none

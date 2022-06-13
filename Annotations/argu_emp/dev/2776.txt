@@ -1,0 +1,6 @@
+Social History:
+Patient lives in a group home ([**Telephone/Fax (1) 852**]). He is non-verbal
+at baseline. He does not smoke or drink EtOH. He has a legal
+guardian, Rev [**First Name8 (NamePattern2) **] [**Name (NI) 853**], c # [**Telephone/Fax (1) 854**], w # [**Telephone/Fax (1) 855**].
+The head of his group home is [**First Name5 (NamePattern1) 884**] [**Last Name (NamePattern1) 885**] [**Telephone/Fax (1) 886**],
+[**Telephone/Fax (1) 887**]. Group home can be reached at [**Telephone/Fax (1) 888**].

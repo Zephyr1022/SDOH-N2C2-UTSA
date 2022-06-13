@@ -1,0 +1,29 @@
+T1	Amount 28 41	25-pack years
+T2	StatusTime 17 27	History of
+T3	Tobacco 28 41	25-pack years
+T4	Amount 54 66	3 cigarettes
+T5	Frequency 67 76	this week
+T6	StatusTime 47 53	smoked
+T7	Tobacco 47 53	smoked
+T8	StatusTime 144 153	now sober
+T9	Type 108 112	wine
+T11	Alcohol 108 112	wine
+T12	History 131 142	8 years ago
+T13	Method 179 181	IV
+T14	StatusTime 155 161	Denies
+T15	Drug 179 187	IV drugs
+T16	LivingStatus 200 206	living
+T17	StatusTime 190 199	Currently
+T18	TypeLiving 207 214	at YMCA
+E1	Tobacco:T3 Amount:T1 Status:T2
+E2	Tobacco:T7 Status:T6 Amount:T4 Frequency:T5 Type:T10
+E3	Alcohol:T11 Type:T9 History:T12 Status:T8
+E4	Drug:T15 Method:T13 Status:T14
+E5	LivingStatus:T16 Type:T18 Status:T17
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T8 past
+A5	StatusTimeVal T14 none
+A6	StatusTimeVal T17 current
+A7	TypeLivingVal T18 homeless
+T10	Type 56 66	cigarettes

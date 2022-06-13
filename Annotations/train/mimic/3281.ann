@@ -1,0 +1,17 @@
+T1	Drug 44 57	IV heroin use
+T2	StatusTime 59 77	last use yesterday
+T3	Method 44 46	IV
+T4	Type 47 53	heroin
+T5	Alcohol 78 94	Rare alcohol use
+T6	StatusTime 78 94	Rare alcohol use
+T8	Tobacco 102 109	tobacco
+T9	Drug 113 121	meth use
+T10	Type 113 117	meth
+T11	StatusTime 95 101	Denies
+E1	Drug:T1 Type:T4 Method:T3 Status:T2
+E2	Alcohol:T5 Status:T6
+E3	Tobacco:T8 Status:T11
+E4	Drug:T9 Type:T10 Status:T11
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 current
+A4	StatusTimeVal T11 none

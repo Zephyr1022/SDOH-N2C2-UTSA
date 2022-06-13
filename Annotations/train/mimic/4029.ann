@@ -1,0 +1,16 @@
+T1	LivingStatus 20 24	jail
+T2	TypeLiving 20 24	jail
+T3	Duration 33 45	past 15 days
+T4	Tobacco 59 66	smoking
+T5	Alcohol 67 75	drinking
+T6	StatusTime 48 58	No current
+T7	Drug 79 95	illicit drug use
+T8	Type 79 86	illicit
+T9	StatusTime 33 45	past 15 days
+E1	LivingStatus:T1 Type:T2 Duration:T3 Status:T9
+E2	Tobacco:T4 Status:T6
+E3	Alcohol:T5 Status:T6
+E4	Drug:T7 Type:T8 Status:T6
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T9 current

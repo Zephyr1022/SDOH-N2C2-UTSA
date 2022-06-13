@@ -1,0 +1,23 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Never
+B-Tobacco	22	28	smoked
+O	28	29	,
+B-Alcohol	30	38	previous
+I-Alcohol	39	45	social
+I-Alcohol	46	53	drinker
+O	53	54	,
+O	55	57	no
+B-Drug	58	63	drugs
+O	63	64	.
+
+O	65	72	Widowed
+O	72	73	.
+
+B-LivingStatus	75	80	Lives
+
+O	81	85	with
+O	86	94	daughter
+O	94	95	.

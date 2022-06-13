@@ -1,0 +1,26 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	lives
+O	23	25	in
+O	26	28	an
+O	29	38	apartment
+O	39	41	in
+O	42	43	[
+O	43	51	LOCATION
+O	51	52	]
+
+O	53	60	regular
+B-Alcohol	61	65	EtOH
+O	65	66	,
+O	67	80	polysubstance
+O	81	86	abuse
+O	87	96	including
+O	97	101	meth
+O	101	102	,
+O	103	110	cocaine
+O	110	111	,
+O	112	118	heroin
+O	118	119	,
+O	120	129	marijuana

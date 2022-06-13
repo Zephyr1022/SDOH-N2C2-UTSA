@@ -1,0 +1,74 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	15	Denies
+B-Alcohol	16	23	alcohol
+O	24	27	and
+O	28	32	drug
+O	33	38	usage
+O	38	39	.
+
+O	40	48	Endorses
+O	49	56	tobacco
+O	57	62	usage
+O	62	63	.
+
+O	64	66	15
+O	67	71	pack
+O	72	76	year
+O	77	84	history
+O	84	85	.
+
+O	86	87	1
+O	87	88	/
+O	88	89	2
+O	90	94	pack
+O	95	98	per
+O	99	102	day
+O	103	104	X
+O	105	107	30
+O	108	113	years
+O	113	114	.
+
+O	116	122	SOCIAL
+O	123	130	HISTORY
+O	130	131	:
+
+O	133	135	Pt
+O	136	143	usually
+O	144	149	lives
+O	150	152	in
+O	153	154	[
+O	154	162	LOCATION
+O	162	163	]
+O	163	164	,
+O	165	166	[
+O	166	174	LOCATION
+O	174	175	]
+O	176	180	with
+O	181	184	her
+O	185	191	mother
+O	191	192	.
+
+O	193	196	But
+O	197	206	currently
+O	207	209	is
+O	210	216	living
+O	217	219	in
+O	220	221	a
+O	222	225	SNF
+O	226	229	and
+O	230	233	has
+O	234	239	since
+O	240	243	her
+O	244	245	[
+O	245	249	DATE
+O	249	250	]
+O	251	258	surgery
+O	258	259	.
+
+O	260	262	Pt
+O	263	267	does
+O	268	271	not
+O	272	276	work
+O	276	277	.

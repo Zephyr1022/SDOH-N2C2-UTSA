@@ -1,0 +1,22 @@
+T1	Tobacco 34 37	tob
+T2	Amount 17 25	1/2 pack
+T3	Frequency 26 33	per day
+T4	StatusTime 17 33	1/2 pack per day
+T5	Alcohol 46 50	etoh
+T6	StatusTime 39 45	denies
+T7	Drug 65 75	heroin use
+T8	LivingStatus 143 161	Currently homeless
+T9	TypeLiving 143 161	Currently homeless
+T10	StatusTime 143 161	Currently homeless
+T11	Type 65 71	heroin
+T12	StatusTime 127 141	use 4 days ago
+E1	Tobacco:T1 Frequency:T3 Amount:T2 Status:T4
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Type:T11 Status:T12 History:T13
+E4	LivingStatus:T8 Status:T10 Type:T9
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T6 none
+A3	TypeLivingVal T9 homeless
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T12 current
+T13	History 81 96	a long time ago

@@ -1,0 +1,25 @@
+T1	Tobacco 9 15	Smokes
+T2	Amount 16 30	1/2 - one pack
+T3	Frequency 31 38	per day
+T4	StatusTime 9 15	Smokes
+T5	Alcohol 39 45	Drinks
+T6	Amount 46 63	3 pints of liquor
+T7	Type 57 63	liquor
+T8	Frequency 64 72	per week
+T9	Drug 80 89	marijuana
+T10	Method 73 79	Smokes
+T11	Frequency 90 95	daily
+T12	StatusTime 73 79	Smokes
+T13	StatusTime 39 45	Drinks
+T14	LivingStatus 114 119	Lives
+T15	TypeLiving 120 125	alone
+T16	StatusTime 114 119	Lives
+E1	Tobacco:T1 Amount:T2 Status:T4 Frequency:T3
+E2	Alcohol:T5 Amount:T6 Type:T7 Frequency:T8 Status:T13
+E3	Drug:T9 Method:T10 Frequency:T11 Status:T12
+E4	LivingStatus:T14 Type:T15 Status:T16
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T12 current
+A3	StatusTimeVal T13 current
+A4	TypeLivingVal T15 alone
+A5	StatusTimeVal T16 current

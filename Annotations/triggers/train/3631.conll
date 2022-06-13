@@ -1,0 +1,43 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	26	none
+B-Alcohol	29	36	Alcohol
+I-Alcohol	37	40	Use
+O	40	41	:
+O	42	52	reportedly
+O	53	57	rare
+B-Drug	60	64	Drug
+I-Drug	65	68	Use
+O	68	69	:
+O	70	80	reportedly
+O	81	85	none
+
+O	87	93	SOCIAL
+O	94	101	HISTORY
+O	101	102	:
+
+O	104	105	[
+O	105	106	_
+O	106	107	]
+O	108	114	Unable
+O	115	117	to
+O	118	124	Obtain
+O	125	128	due
+O	129	131	to
+O	132	139	Patient
+O	140	149	Condition
+
+B-LivingStatus	150	159	Residence
+O	159	160	:
+O	161	166	lives
+O	167	172	alone
+O	172	173	.
+
+O	174	176	Is
+B-Employment	177	183	artist
+I-Employment	184	187	and
+I-Employment	188	196	musician

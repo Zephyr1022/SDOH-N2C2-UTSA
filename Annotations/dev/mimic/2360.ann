@@ -1,0 +1,5 @@
+T1	Employment 12 20	desk job
+T2	Type 12 20	desk job
+T3	StatusEmploy 8 11	has
+E1	Employment:T1 Type:T2 Status:T3
+A1	StatusEmployVal T3 employed

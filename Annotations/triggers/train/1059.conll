@@ -1,0 +1,59 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	Mr
+O	18	19	.
+O	20	21	[
+O	21	22	*
+O	22	23	*
+O	23	28	Known
+O	29	37	lastname
+O	38	43	93531
+O	43	44	*
+O	44	45	*
+O	45	46	]
+O	47	52	lives
+O	53	54	a
+O	55	61	friend
+
+O	62	63	[
+O	63	64	*
+O	64	65	*
+O	65	69	Name
+O	70	71	(
+O	71	73	NI
+O	73	74	)
+O	75	76	*
+O	76	77	*
+O	77	78	]
+O	79	92	approximately
+O	93	94	1
+B-Alcohol	95	104	alcoholic
+I-Alcohol	105	113	beverage
+O	114	119	daily
+
+O	120	122	No
+O	123	130	history
+O	131	133	of
+B-Tobacco	134	141	tobacco
+
+O	142	149	History
+O	150	152	of
+O	153	160	inhaled
+B-Drug	161	168	cocaine
+
+O	169	175	Denies
+O	176	182	recent
+O	183	189	sexual
+O	190	198	activity
+O	198	199	.
+
+B-Employment	200	205	Works
+O	206	208	in
+O	209	219	managerial
+O	220	228	position
+O	229	231	at
+O	232	239	Bayside
+O	240	244	Expo
+O	245	251	Center

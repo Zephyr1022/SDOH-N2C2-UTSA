@@ -1,0 +1,18 @@
+T1	Alcohol 30 37	alcohol
+T2	StatusTime 16 26	no history
+T3	Tobacco 49 60	tobacco use
+T4	Amount 65 74	2-3 packs
+T5	Frequency 75 78;79 82	per day
+T6	Duration 83 93	x 40 years
+T7	StatusTime 95 102	stopped
+T8	History 103 116	in [**2137**]
+T9	LivingStatus 122 127	lives
+T10	StatusTime 122 127	lives
+T11	TypeLiving 128 133	alone
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T3 Amount:T4 Frequency:T5 Duration:T6 Status:T7 History:T8
+E3	LivingStatus:T9 Status:T10 Type:T11
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T10 current
+A4	TypeLivingVal T11 alone

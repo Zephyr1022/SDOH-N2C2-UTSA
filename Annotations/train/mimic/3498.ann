@@ -1,0 +1,10 @@
+T1	LivingStatus 49 65	Living situation
+T2	StatusTime 68 73	Lives
+T3	TypeLiving 74 96	with significant other
+T4	Employment 99 109	Employment
+T5	StatusEmploy 112 120	Employed
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T5 employed

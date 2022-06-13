@@ -1,0 +1,18 @@
+SOCIAL:
+Has lived in [LOCATION] x 2.5 years teaching English. 
+-- EtOH: Denies
+-- Tobacco: Denies
+-- Illicits: Denies
+
+MEDICATIONS (HOME):
+Transfer Medications ([LOCATION]):
+-- Zofran 4mg IV Q6 hours PRN N/V
+-- Dalteparin 15,000 units Q24 hours
+-- Famotidine 20mg PO BID
+-- Imipenem 500mg IV Q6 hours
+-- Flagyl 500 mg IV Q 6 hours
+-- Morphne SR 15mg PO Q12 hours
+-- Vancomyocin 1.5 mg IV Q8 hours
+-- Morphine 2-4mg IV q3 hours prn pain
+-- Oxycodone 5-10mg PO Q4 hours
+-- Ambien 5mg PO QHS PRN

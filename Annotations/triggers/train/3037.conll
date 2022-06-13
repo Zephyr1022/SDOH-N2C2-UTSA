@@ -1,0 +1,24 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-Alcohol	17	21	ETOH
+O	21	22	:
+O	23	29	denies
+
+B-Tobacco	30	37	Tobacco
+O	37	38	:
+O	39	45	denies
+
+B-Drug	46	51	Drugs
+O	51	52	:
+O	53	59	denies
+
+B-LivingStatus	60	66	Living
+I-LivingStatus	67	76	Situation
+O	76	77	:
+O	78	83	lives
+O	84	88	with
+O	89	99	girlfriend
+O	100	103	and
+O	104	113	caregiver

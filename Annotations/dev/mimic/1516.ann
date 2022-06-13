@@ -1,0 +1,22 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 23 42	with his girlfriend
+T3	StatusTime 17 22	Lives
+T4	Drug 127 132	drugs
+T5	StatusTime 98 102	Uses
+T6	Type 103 112	marijuana
+T7	Tobacco 135 148	Former smoker
+T8	StatusTime 135 148	Former smoker
+T9	Amount 152 164	up to 2 pack
+T10	Frequency 165 172	per day
+T11	History 179 188	in [DATE]
+T12	Alcohol 198 209	alcohol use
+T13	StatusTime 191 197	Denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Drug:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8 Amount:T9 History:T11 Frequency:T10
+E4	Alcohol:T12 Status:T13
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T13 none

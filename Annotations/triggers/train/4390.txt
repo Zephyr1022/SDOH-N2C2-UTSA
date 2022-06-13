@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use none
+ETOH 1 drink.
+/ 6 weeks
+
+SOCIAL HISTORY: 
+Lives in senior building at [LOCATION]. Son lives in [LOCATION]

@@ -1,0 +1,118 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	The
+O	20	27	patient
+O	28	30	is
+O	31	40	currently
+O	41	51	unemployed
+O	52	54	on
+O	55	63	wellfare
+O	63	64	.
+
+O	66	69	She
+O	70	72	is
+O	73	81	divorced
+O	81	82	,
+O	83	86	has
+O	87	88	2
+O	89	96	childre
+O	96	97	.
+
+O	98	101	One
+O	102	104	is
+O	105	107	in
+O	108	109	[
+O	109	110	*
+O	110	111	*
+O	111	117	Doctor
+O	118	122	Last
+O	123	127	Name
+O	128	129	*
+O	129	130	*
+O	130	131	]
+O	132	136	care
+O	136	137	.
+
+O	139	142	The
+O	143	150	patient
+O	151	154	was
+O	155	157	in
+O	158	162	jail
+O	163	166	for
+O	167	168	5
+O	169	174	years
+O	175	178	for
+O	179	186	unarmed
+O	187	194	robbery
+O	194	195	.
+
+O	196	199	She
+
+O	200	206	denies
+O	207	214	current
+O	215	220	legal
+O	221	229	troubles
+O	229	230	.
+
+O	232	235	She
+O	236	239	has
+O	240	241	a
+O	242	246	long
+O	247	254	history
+O	255	257	of
+B-Alcohol	258	265	alcohol
+O	266	269	and
+O	270	277	cocaine
+O	278	281	use
+O	281	282	.
+
+O	283	289	States
+O	290	293	she
+
+O	294	297	has
+O	298	302	been
+O	303	308	sober
+O	309	312	for
+O	313	316	the
+O	317	321	most
+O	322	326	part
+O	327	329	of
+O	330	333	the
+O	334	338	last
+O	339	343	year
+O	343	344	,
+O	345	348	but
+O	349	352	has
+O	353	356	had
+
+O	357	364	several
+O	365	370	brief
+O	371	379	relapses
+O	379	380	.
+
+O	382	385	She
+O	386	393	reports
+O	394	395	a
+O	396	403	history
+O	404	406	of
+O	407	413	sexual
+O	414	419	abuse
+O	420	422	by
+O	423	426	her
+O	427	431	step
+O	431	432	-
+O	432	438	father
+O	439	442	and
+
+O	443	451	domestic
+O	452	460	violence
+O	461	465	with
+O	466	469	her
+O	470	476	former
+O	477	484	husband
+O	485	488	and
+O	489	496	current
+O	497	506	boyfriend
+O	506	507	.

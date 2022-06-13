@@ -1,0 +1,33 @@
+T1	LivingStatus 31 43	incarcerated
+T2	StatusTime 21 30	currently
+T3	TypeLiving 31 43	incarcerated
+T4	LivingStatus 45 55	previously
+T5	StatusTime 45 55	previously
+T6	TypeLiving 59 64	motel
+T7	Tobacco 66 73	Tobacco
+T8	Amount 75 80	1 PPD
+T9	Duration 81 91	x 20 years
+T10	StatusTime 75 91	1 PPD x 20 years
+T11	Alcohol 93 100	Alcohol
+T12	StatusTime 102 108	Denies
+T13	Drug 110 119	Marijuana
+T14	StatusTime 121 127	Denies
+T15	Type 110 119	Marijuana
+T16	Drug 129 147	Recreational Drugs
+T17	Type 149 167	Cocaine and heroin
+T18	StatusTime 149 167	Cocaine and heroin
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Amount:T8 Duration:T9 Status:T10
+E4	Alcohol:T11 Status:T12
+E5	Drug:T13 Type:T15 Status:T14
+E6	Drug:T16 Status:T18 Type:T17 Type2:T19
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 past
+A4	TypeLivingVal T6 with_others
+A5	StatusTimeVal T10 current
+A6	StatusTimeVal T12 none
+A7	StatusTimeVal T14 none
+A8	StatusTimeVal T18 current
+T19	Type 129 141	Recreational

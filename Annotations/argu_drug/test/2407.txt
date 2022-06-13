@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: denies  Alcohol Use: denies   Drug Use: denies
+
+SOCIAL HISTORY: 
+Lives in [LOCATION] with her daughter. Originally from [LOCATION], preferred language Spanish. Has 4 adult children and 8 grandchildren.

@@ -1,0 +1,17 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	23	Denies
+O	24	31	tobacco
+O	31	32	,
+B-Alcohol	33	40	alcohol
+O	40	41	,
+O	42	44	or
+O	45	49	drug
+O	50	53	use
+O	53	54	.
+
+O	56	61	Lives
+O	62	67	alone
+O	67	68	.

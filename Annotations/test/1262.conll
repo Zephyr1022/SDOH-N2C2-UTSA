@@ -1,0 +1,25 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	29	unknown
+O	32	39	Alcohol
+O	40	43	Use
+O	43	44	:
+O	45	52	unknown
+O	55	59	Drug
+O	60	63	Use
+O	63	64	:
+O	65	72	history
+O	73	75	of
+O	76	80	IVDU
+
+O	82	88	SOCIAL
+O	89	96	HISTORY
+O	96	97	:
+
+O	99	108	Residence
+O	108	109	:
+O	110	118	homeless

@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: former   Alcohol Use: occasional   Drug Use: no
+
+SOCIAL HISTORY: 
+[_] Unable to Obtain due to Patient Condition
+Residence: [NAME], [LOCATION]. He and his wife run a ranch.

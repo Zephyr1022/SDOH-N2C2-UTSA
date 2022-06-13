@@ -1,0 +1,11 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 36	independently
+T4	Drug 38 57	Former cocaine user
+T5	StatusTime 38 57	Former cocaine user
+T6	Type 45 52	cocaine
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Drug:T4 Status:T5 Type:T6
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T5 past

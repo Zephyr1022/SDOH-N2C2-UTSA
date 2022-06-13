@@ -1,0 +1,22 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 30	endorses
+T3	Amount 31 49	about 4 cigarettes
+T4	Type 39 49	cigarettes
+T5	Frequency 49 53	/day
+T6	Alcohol 54 65	Alcohol Use
+T7	StatusTime 67 80	past EtOH use
+T8	Drug 82 90	Drug Use
+T9	StatusTime 92 100	endorses
+T10	Type 101 120	crack, meth, heroin
+E1	Tobacco:T1 Status:T2 Amount:T3 Type:T4 Frequency:T5
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Status:T9 Type:T10
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T9 current
+T11	StatusTime 186 195	currently
+A4	StatusTimeVal T11 current
+T12	LivingStatus 196 202	living
+E4	LivingStatus:T12 Status:T11 Type:T13
+T13	TypeLiving 206 214	shelther
+A5	TypeLivingVal T13 homeless

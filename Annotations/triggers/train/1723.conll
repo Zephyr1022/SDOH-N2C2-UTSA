@@ -1,0 +1,97 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+B-LivingStatus	24	29	lives
+O	30	34	with
+O	35	38	his
+O	39	49	girlfriend
+O	50	52	in
+O	53	54	[
+O	54	55	*
+O	55	56	*
+O	56	60	Name
+O	61	62	(
+O	62	64	NI
+O	64	65	)
+O	66	70	1157
+O	70	71	*
+O	71	72	*
+O	72	73	]
+O	73	74	.
+
+O	76	78	He
+O	79	81	is
+B-Employment	82	83	a
+
+B-Employment	84	91	trucker
+O	91	92	,
+O	93	96	but
+O	97	99	is
+O	100	101	"
+O	101	104	off
+O	105	108	for
+O	109	112	the
+O	113	119	season
+O	119	120	"
+O	120	121	.
+
+O	123	126	Has
+O	127	128	a
+O	129	131	15
+O	131	132	-
+O	132	136	year
+O	137	144	history
+O	145	147	of
+
+B-Drug	148	152	drug
+I-Drug	153	156	use
+O	156	157	,
+O	158	167	including
+O	168	173	crack
+O	174	177	and
+O	178	185	cocaine
+O	185	186	.
+
+O	188	191	Has
+O	192	196	been
+O	197	199	in
+O	200	205	Rehab
+O	206	208	in
+O	209	212	the
+
+O	213	217	past
+O	217	218	,
+O	219	222	but
+O	223	229	signed
+O	230	237	himself
+O	238	241	out
+O	241	242	.
+
+O	244	246	He
+B-Alcohol	247	253	drinks
+O	254	267	approximately
+O	268	269	a
+
+O	270	273	six
+O	273	274	-
+O	274	278	pack
+O	279	282	and
+O	283	284	a
+O	285	288	nip
+O	289	291	or
+O	292	295	two
+O	296	298	in
+O	299	300	a
+O	301	306	night
+O	306	307	,
+O	308	318	previously
+O	319	324	drank
+O	325	329	more
+O	329	330	.
+
+O	332	334	No
+
+B-Tobacco	335	342	smoking
+O	342	343	.

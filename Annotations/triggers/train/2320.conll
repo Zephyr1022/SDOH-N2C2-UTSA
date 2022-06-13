@@ -1,0 +1,32 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	The
+O	20	27	patient
+O	28	30	is
+O	31	38	married
+O	38	39	,
+O	40	47	however
+O	48	51	she
+O	52	56	does
+O	57	60	not
+O	61	65	live
+O	66	70	with
+O	71	74	her
+O	75	82	husband
+O	82	83	.
+
+O	85	88	Her
+O	89	97	daughter
+O	98	100	is
+O	101	104	her
+O	105	112	primary
+O	113	122	caregiver
+O	122	123	.
+
+O	125	132	History
+O	133	135	of
+B-Tobacco	136	143	tobacco
+I-Tobacco	144	147	use
+O	147	148	.

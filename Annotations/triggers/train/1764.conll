@@ -1,0 +1,35 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	-
+B-LivingStatus	18	23	lives
+O	24	26	in
+O	27	31	long
+O	31	32	-
+O	32	36	term
+O	37	41	care
+O	42	50	facility
+
+O	51	52	-
+B-Employment	53	59	former
+I-Employment	60	69	financial
+I-Employment	70	80	consultant
+
+O	81	82	-
+B-Tobacco	83	90	Tobacco
+I-Tobacco	91	94	Use
+O	94	95	:
+O	96	99	neg
+O	100	103	per
+O	104	110	report
+
+O	111	112	-
+B-Alcohol	113	120	Alcohol
+I-Alcohol	121	124	Use
+O	124	125	:
+O	126	129	neg
+O	130	133	per
+O	134	140	report
+O	140	141	;
+O	142	148	remote

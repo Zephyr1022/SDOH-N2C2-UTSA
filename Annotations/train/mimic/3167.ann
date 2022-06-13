@@ -1,0 +1,21 @@
+T1	LivingStatus 35 43	Homeless
+T2	TypeLiving 35 43	Homeless
+T3	Employment 46 72	Former construction worker
+T4	StatusEmploy 46 72	Former construction worker
+T5	Type 46 72	Former construction worker
+T6	Drug 75 99	Former polysubstance use
+T7	StatusTime 75 99	Former polysubstance use
+T8	Tobacco 117 124	smoking
+T9	Alcohol 128 135	alcohol
+T10	StatusTime 102 108	Denies
+T11	StatusTime 35 43	Homeless
+E1	LivingStatus:T1 Type:T2 Status:T11
+E2	Employment:T3 Type:T5 Status:T4
+E3	Drug:T6 Status:T7
+E4	Tobacco:T8 Status:T10
+E5	Alcohol:T9 Status:T10
+A1	TypeLivingVal T2 homeless
+A2	StatusEmployVal T4 unemployed
+A3	StatusTimeVal T7 past
+A4	StatusTimeVal T10 past
+A5	StatusTimeVal T11 current

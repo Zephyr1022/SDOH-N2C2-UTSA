@@ -1,0 +1,14 @@
+T1	Tobacco 23 24	t
+T2	Alcohol 25 26	e
+T3	Drug 27 28	d
+T4	StatusTime 16 22	Denies
+T5	LivingStatus 30 35	Lives
+T6	StatusTime 30 35	Lives
+T7	TypeLiving 36 41	alone
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T4
+E3	Drug:T3 Status:T4
+E4	LivingStatus:T5 Status:T6 Type:T7
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T6 current
+A3	TypeLivingVal T7 alone

@@ -1,0 +1,20 @@
+T1	Alcohol 19 26	Alcohol
+T2	StatusTime 28 39	occassional
+T4	Tobacco 43 50	Smoking
+T5	Amount 52 64	25 pack-year
+T6	History 82 99;100 109	2 months prior to admission
+T7	StatusTime 74 81	stopped
+T8	Drug 113 118	Drugs
+T9	StatusTime 120 122	no
+T10	LivingStatus 138 144	Living
+T11	StatusTime 154 159	lives
+T12	TypeLiving 160 178	with her employers
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T4 Amount:T5 Status:T7 History:T6
+E3	Drug:T8 Status:T9
+E4	LivingStatus:T10 Status:T11 Type:T12
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T7 past
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T11 current
+A6	TypeLivingVal T12 with_others

@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: Y, 1/3 ppd for 30 years   Alcohol Use: N   Drug Use: Y, amphetamine use
+
+SOCIAL HISTORY: 
+[x] Unable to Obtain due to Patient Condition

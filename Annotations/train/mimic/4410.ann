@@ -1,0 +1,24 @@
+T1	Employment 59 64	Works
+T2	StatusEmploy 59 64	Works
+T3	Type 68 94	[LOCATION] as case manager
+T4	LivingStatus 119 124	lives
+T5	StatusTime 119 124	lives
+T6	TypeLiving 100 114	grown daughter
+T7	Tobacco 149 156	Tobacco
+T8	StatusTime 159 165	smokes
+T9	Amount 166 180	5-6 cigarettes
+T10	Frequency 181 188	per day
+T11	Duration 189 206	for past 40 years
+T12	Alcohol 229 233	EtOH
+T13	Type 257 277	'lemon drop martini'
+T15	StatusTime 278 296	every now and then
+E1	Employment:T1 Type:T3 Status:T2
+E2	LivingStatus:T4 Type:T6 Status:T5
+E3	Tobacco:T7 Status:T8 Amount:T9 Frequency:T10 Duration:T11 Type:T14
+E4	Alcohol:T12 Type:T13 Status:T15
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T8 current
+A6	StatusTimeVal T15 current
+T14	Type 170 180	cigarettes

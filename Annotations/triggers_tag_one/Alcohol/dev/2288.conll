@@ -1,0 +1,56 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	26	none
+O	27	36	currently
+O	36	37	,
+O	38	42	quit
+O	43	47	long
+O	48	51	ago
+O	51	52	,
+O	53	58	prior
+O	59	61	60
+O	61	62	+
+O	63	67	pack
+O	68	72	year
+O	73	79	smoker
+
+B-Alcohol	80	87	Alcohol
+I-Alcohol	88	91	Use
+O	91	92	:
+O	93	97	None
+
+O	98	102	Drug
+O	103	106	Use
+O	106	107	:
+O	108	112	None
+
+O	114	120	SOCIAL
+O	121	128	HISTORY
+O	128	129	:
+
+O	131	136	Lives
+O	137	141	with
+O	142	150	daughter
+O	150	151	,
+O	152	165	granddaughter
+O	166	169	and
+O	170	173	son
+O	174	176	in
+O	177	178	a
+O	179	184	house
+O	185	187	in
+O	188	189	[
+O	189	197	LOCATION
+O	197	198	]
+O	198	199	.
+
+O	201	203	No
+O	204	210	recent
+O	211	217	travel
+O	218	223	since
+O	224	228	2004
+O	228	229	.

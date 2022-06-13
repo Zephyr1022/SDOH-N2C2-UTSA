@@ -1,0 +1,27 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	23	_
+O	26	33	Alcohol
+O	34	37	Use
+O	37	38	:
+O	39	40	_
+O	43	47	Drug
+O	48	51	Use
+O	51	52	:
+O	53	54	_
+
+O	56	62	SOCIAL
+O	63	70	HISTORY
+O	70	71	:
+
+O	73	82	Residence
+O	82	83	:
+O	84	89	Lives
+O	90	92	at
+O	93	97	home
+O	98	102	with
+O	103	109	family

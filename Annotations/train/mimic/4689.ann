@@ -1,0 +1,24 @@
+T1	Employment 70 74	work
+T2	StatusEmploy 62 69	Used to
+T3	Type 78 83	sales
+T4	Tobacco 116 123	tobacco
+T5	Amount 125 136	sm quantity
+T6	StatusTime 146 150	quit
+T7	History 151 158	30y ago
+T8	Type 160 186	more pipes than cigarettes
+T9	Alcohol 189 195	drinks
+T10	Amount 196 203	1 glass
+T11	Type 204 208	wine
+T12	StatusTime 189 195	drinks
+T13	Frequency 208 212	/day
+T14	Drug 221 225	IVDU
+T15	Method 221 225	IVDU
+T16	StatusTime 214 220	denies
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T5 Status:T6 History:T7 Type:T8
+E3	Alcohol:T9 Amount:T10 Type:T11 Status:T12 Frequency:T13
+E4	Drug:T14 Method:T15 Status:T16
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T12 current
+A4	StatusTimeVal T16 none

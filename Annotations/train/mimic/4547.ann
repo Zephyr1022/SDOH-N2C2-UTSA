@@ -1,0 +1,12 @@
+T1	Tobacco 19 22	tob
+T2	StatusTime 16 18	No
+T3	Alcohol 23 31	Soc EtOH
+T4	StatusTime 23 31	Soc EtOH
+T6	Drug 35 43	drug use
+T7	StatusTime 32 34	No
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T6 Status:T7
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A4	StatusTimeVal T7 none

@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: Per medicine admit note, 1/2 pack per day 
+Alcohol Use: Per medicine admit note, 12 light beers daily 
+Drug Use: Per medicine admit note, denies current drug use
+
+SOCIAL HISTORY: 
+Per medicine admit note, homeless.

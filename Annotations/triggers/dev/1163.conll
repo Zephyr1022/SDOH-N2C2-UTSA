@@ -1,0 +1,7 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	+
+B-Tobacco	18	25	smoking
+I-Tobacco	26	33	history

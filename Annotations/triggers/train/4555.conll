@@ -1,0 +1,97 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	25	Currently
+B-Employment	26	28	on
+I-Employment	29	39	disability
+O	40	43	for
+O	44	51	bipolar
+O	52	53	d
+O	53	54	/
+O	54	55	o
+O	55	56	,
+O	57	65	declines
+O	66	68	to
+O	69	76	mention
+
+O	77	85	previous
+O	86	96	occupation
+O	96	97	.
+
+B-LivingStatus	98	103	Lives
+O	104	106	at
+O	107	111	home
+O	112	116	with
+O	117	123	fiance
+O	123	124	.
+
+O	125	128	Say
+O	129	131	he
+O	132	135	has
+O	136	140	been
+
+O	141	146	sober
+O	147	151	from
+B-Alcohol	152	159	alcohol
+O	160	163	for
+O	164	165	6
+O	166	171	years
+O	172	175	but
+O	176	183	started
+O	184	189	binge
+O	190	198	drinking
+O	199	201	10
+
+O	202	206	days
+O	207	210	ago
+O	210	211	.
+
+O	212	214	He
+O	215	218	has
+B-Tobacco	219	225	smoked
+O	226	229	for
+O	230	232	12
+O	233	238	years
+O	238	239	,
+O	240	248	recently
+O	249	251	up
+O	252	254	to
+O	255	256	1
+O	257	261	pack
+O	262	265	per
+
+O	266	269	day
+O	269	270	.
+
+O	271	278	History
+O	279	281	of
+B-Drug	282	286	drug
+I-Drug	287	290	use
+O	291	293	in
+O	294	297	his
+O	298	301	20s
+O	301	302	,
+O	303	308	never
+B-Drug	309	311	IV
+I-Drug	312	317	drugs
+O	317	318	,
+O	319	323	with
+
+B-Drug	324	331	cocaine
+I-Drug	332	335	use
+O	336	340	this
+O	341	345	past
+O	346	353	weekend
+O	354	357	for
+O	358	361	the
+O	362	367	first
+O	368	372	time
+O	373	378	since
+O	379	382	his
+O	383	386	20s
+O	386	387	,
+
+O	388	391	per
+O	392	394	pt
+O	394	395	.

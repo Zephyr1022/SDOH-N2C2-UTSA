@@ -1,0 +1,21 @@
+T1	Drug 9 18	Drug Use:
+T2	Method 22 26	IVDU
+T3	StatusTime 19 21	No
+T4	Alcohol 27 34	Alcohol
+T6	StatusTime 36 58	Occasional alcohol use
+T7	Tobacco 59 66	Tobacco
+T8	Amount 68 75	1/4 PPD
+T9	Duration 76 87	for 4 years
+T10	StatusTime 68 87	1/4 PPD for 4 years
+T11	LivingStatus 152 161	Residence
+T12	StatusTime 163 179	Currently living
+T13	TypeLiving 180 194	in his vehicle
+E1	Drug:T1 Status:T3 Method:T2
+E2	Alcohol:T4 Status:T6
+E3	Tobacco:T7 Amount:T8 Status:T10 Duration:T9
+E4	LivingStatus:T11 Status:T12 Type:T13
+A1	StatusTimeVal T3 none
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T12 current
+A6	TypeLivingVal T13 homeless

@@ -1,0 +1,35 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	15	Denies
+O	16	23	alcohol
+O	23	24	,
+O	25	32	tobacco
+O	33	36	and
+O	37	41	drug
+O	42	45	use
+O	45	46	.
+
+O	49	55	SOCIAL
+O	56	63	HISTORY
+O	63	64	:
+
+O	66	71	Lives
+O	72	76	with
+O	77	85	daughter
+O	86	87	[
+O	87	91	NAME
+O	91	92	]
+O	93	95	in
+O	96	97	[
+O	97	105	LOCATION
+O	105	106	]
+
+O	108	116	Daughter
+O	116	117	'
+O	117	118	s
+O	119	120	#
+O	121	123	is
+O	124	125	[
+O	125	132	CONTACT
+O	132	133	]

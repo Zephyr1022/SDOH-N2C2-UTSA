@@ -1,0 +1,14 @@
+T1	Tobacco 35 45	tobaco use
+T2	History 46 67	for the last 50 years
+T3	StatusTime 32 34	no
+T4	Alcohol 72 79	alcohol
+T5	StatusTime 69 71	no
+T6	Drug 88 106	recreational drugs
+T7	Type 88 100	recreational
+T8	StatusTime 85 87	no
+E1	Tobacco:T1 Status:T3 History:T2
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Type:T7 Status:T8
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T8 none

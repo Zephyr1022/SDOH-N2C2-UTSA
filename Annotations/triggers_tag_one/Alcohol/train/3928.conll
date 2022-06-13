@@ -1,0 +1,25 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	25	in
+O	26	27	[
+O	27	35	LOCATION
+O	35	36	]
+O	37	41	with
+O	42	45	his
+O	46	56	girlfriend
+
+O	57	60	Non
+O	60	61	-
+O	61	67	smoker
+
+B-Alcohol	68	74	Drinks
+O	75	76	1
+O	77	82	drink
+O	83	84	a
+O	85	88	day
+
+O	89	96	Cabinet
+O	97	102	maker

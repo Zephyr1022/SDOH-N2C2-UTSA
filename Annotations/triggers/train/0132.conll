@@ -1,0 +1,24 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Denies
+O	23	24	h
+O	24	25	/
+O	25	26	o
+B-Tobacco	27	34	tobacco
+O	34	35	.
+
+B-Alcohol	36	42	Social
+I-Alcohol	43	50	drinker
+O	50	51	.
+
+O	52	58	Denies
+B-Drug	59	63	IVDU
+O	63	64	.
+
+B-Employment	65	70	Works
+O	71	73	as
+O	74	76	an
+
+O	77	87	accountant

@@ -1,0 +1,46 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	23	26	per
+O	27	32	chart
+O	32	33	,
+O	34	37	yes
+B-Alcohol	40	47	Alcohol
+I-Alcohol	48	51	Use
+O	51	52	:
+O	53	56	per
+O	57	62	chart
+O	62	63	,
+O	64	67	yes
+O	67	68	,
+O	69	79	occasional
+O	81	85	Drug
+O	86	89	Use
+O	89	90	:
+O	91	93	IV
+O	94	98	meth
+O	99	102	and
+O	103	109	heroin
+
+O	111	117	SOCIAL
+O	118	125	HISTORY
+O	125	126	:
+
+O	128	129	[
+O	129	130	x
+O	130	131	]
+O	132	138	Unable
+O	139	141	to
+O	142	148	Obtain
+O	149	152	due
+O	153	155	to
+O	156	163	Patient
+O	164	173	Condition
+
+O	174	183	Residence
+O	183	184	:
+O	185	189	with
+O	190	197	roomate

@@ -1,0 +1,55 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	26	1PPD
+O	27	30	for
+O	31	36	45yrs
+
+B-Alcohol	40	47	Alcohol
+I-Alcohol	48	51	Use
+O	51	52	:
+O	53	54	1
+O	54	55	-
+O	55	56	2
+O	57	64	bottles
+O	65	67	of
+O	68	72	wine
+O	73	76	per
+O	77	81	week
+
+B-Drug	85	89	Drug
+I-Drug	90	93	Use
+O	93	94	:
+O	95	99	Past
+O	100	102	hx
+O	103	105	of
+O	106	115	marijuana
+O	116	119	use
+O	120	122	as
+O	123	128	young
+O	129	134	adult
+O	134	135	.
+
+O	136	138	No
+O	139	145	recent
+O	146	149	use
+
+O	151	157	SOCIAL
+O	158	165	HISTORY
+O	165	166	:
+
+B-LivingStatus	168	173	Lives
+O	174	176	in
+O	179	187	assisted
+O	188	194	living
+O	194	195	.
+
+O	196	200	Used
+O	201	203	to
+B-Employment	204	208	work
+O	209	211	in
+O	212	219	service
+O	219	220	.

@@ -1,0 +1,48 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	23	5
+O	24	34	cigarettes
+O	35	40	daily
+
+B-Alcohol	44	51	Alcohol
+I-Alcohol	52	55	Use
+O	55	56	:
+O	57	63	rarely
+O	63	64	,
+O	65	69	EtOH
+O	70	73	use
+O	74	82	disorder
+O	83	85	in
+O	86	94	remision
+
+O	95	99	Drug
+O	100	103	Use
+O	103	104	:
+O	105	115	Previously
+O	116	118	IV
+O	119	125	heroin
+O	126	131	daily
+O	131	132	,
+O	133	143	occasional
+O	144	148	meth
+O	148	149	,
+O	150	153	has
+O	154	157	not
+O	158	162	used
+O	163	168	since
+O	169	173	last
+O	174	183	admission
+O	183	184	.
+
+O	188	194	SOCIAL
+O	195	202	HISTORY
+O	202	203	:
+
+O	205	213	Homeless
+O	213	214	,
+O	215	225	unemployed
+O	225	226	.

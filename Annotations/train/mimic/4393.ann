@@ -1,0 +1,19 @@
+T1	Employment 184 194	unemployed
+T2	StatusEmploy 184 194	unemployed
+T3	StatusTime 127 135	Endorses
+T5	Type 146 155	marijuana
+T6	Drug 146 155	marijuana
+T7	Alcohol 167 174	alcohol
+T8	StatusTime 160 166	denies
+T9	StatusTime 17 26	Currently
+T10	LivingStatus 27 33	living
+T11	TypeLiving 34 49	at her father's
+E1	Employment:T1 Status:T2
+E2	Drug:T6 Type:T5 Status:T3
+E3	Alcohol:T7 Status:T8
+E4	LivingStatus:T10 Type:T11 Status:T9
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T3 current
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T9 current
+A6	TypeLivingVal T11 with_family

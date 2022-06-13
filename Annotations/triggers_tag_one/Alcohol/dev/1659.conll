@@ -1,0 +1,35 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Tobacco
+O	23	24	?
+
+O	26	31	Never
+
+B-Alcohol	32	36	EtOH
+O	36	37	?
+
+O	38	43	Never
+
+O	44	49	Drugs
+O	49	50	?
+
+O	51	56	Never
+
+O	57	62	Other
+O	62	63	:
+O	64	67	The
+O	68	75	patient
+O	76	81	lives
+O	82	86	with
+O	87	90	her
+O	91	98	husband
+O	99	102	who
+O	103	105	is
+O	106	110	also
+O	111	112	a
+O	113	120	Cardiac
+O	121	131	transplant
+O	132	139	patient
+O	139	140	.

@@ -1,0 +1,36 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	26	none
+
+B-Alcohol	30	37	Alcohol
+I-Alcohol	38	41	Use
+O	41	42	:
+O	43	47	none
+
+B-Drug	49	53	Drug
+I-Drug	54	57	Use
+O	57	58	:
+O	59	68	marijuana
+O	69	70	2
+O	70	71	-
+O	71	78	3joints
+O	79	80	a
+O	81	84	day
+
+O	87	93	SOCIAL
+O	94	101	HISTORY
+O	101	102	:
+
+B-LivingStatus	104	113	Residence
+O	113	114	:
+O	115	120	lives
+O	121	123	in
+O	124	126	an
+O	127	136	apartment
+O	137	139	on
+O	140	143	his
+O	144	147	own

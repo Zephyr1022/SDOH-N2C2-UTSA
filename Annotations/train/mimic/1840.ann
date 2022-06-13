@@ -1,0 +1,23 @@
+T1	Tobacco 16 31	Tobacco history
+T2	StatusTime 33 37	None
+T3	Alcohol 38 42	ETOH
+T4	StatusTime 44 48	None
+T5	Drug 49 62	Illicit drugs
+T6	Type 49 56	Illicit
+T7	StatusTime 64 68	None
+T8	LivingStatus 69 74	Lives
+T9	TypeLiving 75 85	by himself
+T10	StatusTime 69 74	Lives
+T11	Employment 87 97	unemployed
+T12	StatusEmploy 111 121	disability
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Type:T6 Status:T7
+E4	LivingStatus:T8 Type:T9 Status:T10
+E5	Employment:T11 Status:T12
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T7 none
+A4	TypeLivingVal T9 alone
+A5	StatusTimeVal T10 current
+A6	StatusEmployVal T12 on_disability

@@ -1,0 +1,90 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	24	in
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	34	Doctor
+O	35	40	First
+O	41	45	Name
+O	46	51	26692
+O	51	52	*
+O	52	53	*
+O	53	54	]
+O	54	55	,
+O	56	63	summers
+O	64	66	in
+O	67	68	[
+O	68	69	*
+O	69	70	*
+O	70	78	Location
+O	79	80	(
+O	80	82	un
+O	82	83	)
+O	84	86	86
+O	86	87	*
+O	87	88	*
+O	88	89	]
+O	89	90	.
+
+O	92	99	Married
+O	100	104	with
+O	105	106	4
+
+O	107	115	children
+O	115	116	,
+O	117	118	9
+O	119	132	grandchildren
+O	132	133	.
+
+O	135	138	Son
+O	139	141	is
+O	142	143	a
+O	144	150	family
+O	151	160	physician
+O	160	161	.
+
+O	163	164	[
+O	164	165	*
+O	165	166	*
+O	166	172	Name10
+O	173	174	(
+O	174	180	NameIs
+O	180	181	)
+O	182	183	*
+O	183	184	*
+O	184	185	]
+O	186	188	is
+
+O	189	195	active
+O	196	198	in
+O	199	200	a
+O	201	207	choral
+O	208	213	group
+O	214	216	in
+O	217	220	her
+O	221	222	[
+O	222	223	*
+O	223	224	*
+O	224	232	Location
+O	233	238	27224
+O	238	239	*
+O	239	240	*
+O	240	241	]
+O	241	242	.
+
+O	244	250	Denies
+B-Tobacco	251	258	smoking
+O	258	259	.
+
+O	261	265	Rare
+
+B-Alcohol	266	273	alcohol
+I-Alcohol	274	277	use
+O	277	278	,
+O	279	281	no
+B-Drug	282	287	drugs
+O	287	288	.

@@ -1,0 +1,30 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	lives
+O	23	28	alone
+O	28	29	,
+O	30	41	independent
+O	42	44	of
+O	45	49	ADLs
+O	49	50	,
+O	51	55	does
+O	56	59	not
+O	60	65	drive
+
+O	66	70	quit
+B-Tobacco	71	78	smoking
+O	79	81	20
+O	82	87	years
+O	88	91	ago
+
+B-Alcohol	92	93	1
+I-Alcohol	94	99	drink
+I-Alcohol	100	105	daily
+
+O	106	112	denies
+B-Drug	113	115	MJ
+I-Drug	116	118	or
+I-Drug	119	124	other
+I-Drug	125	130	drugs

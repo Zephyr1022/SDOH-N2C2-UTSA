@@ -1,0 +1,40 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Denies
+B-Tobacco	23	30	tobacco
+O	31	33	or
+B-Alcohol	34	41	alcohol
+I-Alcohol	42	45	use
+O	45	46	.
+
+O	48	51	She
+O	52	54	is
+O	55	59	from
+O	60	63	the
+O	64	65	[
+O	65	66	*
+O	66	67	*
+O	67	74	Country
+O	75	80	13622
+O	80	81	*
+O	81	82	*
+O	82	83	]
+
+O	84	92	Republic
+O	93	98	where
+O	99	102	she
+B-Employment	103	109	worked
+O	110	112	in
+O	113	116	the
+O	117	126	insurance
+O	127	135	industry
+O	135	136	.
+
+O	137	140	She
+O	141	143	is
+
+O	144	151	Spanish
+O	152	160	speaking
+O	160	161	.

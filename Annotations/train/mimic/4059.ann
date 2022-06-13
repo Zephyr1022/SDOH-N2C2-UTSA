@@ -1,0 +1,16 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 26 39	halfway house
+T3	StatusTime 17 22	Lives
+T4	Drug 45 49	IVDU
+T5	Method 45 49	IVDU
+T6	StatusTime 41 44	h/o
+T7	Drug 61 67	heroin
+T8	Type 61 67	heroin
+T9	StatusTime 68 77	use today
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Drug:T4 Method:T5 Status:T6
+E3	Drug:T7 Type:T8 Status:T9
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T9 current

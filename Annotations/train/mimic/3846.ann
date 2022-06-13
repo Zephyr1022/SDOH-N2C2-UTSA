@@ -1,0 +1,28 @@
+T1	Tobacco 15 26	Tobacco Use
+T2	StatusTime 12 13	X
+T3	Alcohol 33 44	Alcohol Use
+T4	Amount 45 54	3-4 beers
+T5	Type 49 54	beers
+T6	Frequency 55 62	per day
+T7	StatusTime 30 31	X
+T9	Drug 115 123	Drug Use
+T10	Type 124 126	MJ
+T11	StatusTime 112 113	X
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Amount:T4 Type:T5 Frequency:T6 Status:T7
+E3	Drug:T9 Type:T10 Status:T11
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T7 current
+A4	StatusTimeVal T11 current
+T8	LivingStatus 142 151	Residence
+E4	LivingStatus:T8 Type:T16 Status:T15
+T15	StatusTime 133 141	Previous
+A3	StatusTimeVal T15 past
+T16	TypeLiving 155 176	Cottage Grove shelter
+A5	TypeLivingVal T16 homeless
+T17	LivingStatus 189 206	at [LOCATION] SNF
+E5	LivingStatus:T17 Type:T18 Status:T19
+T18	TypeLiving 203 206	SNF
+A6	TypeLivingVal T18 with_others
+T19	StatusTime 178 188	previously
+A7	StatusTimeVal T19 past

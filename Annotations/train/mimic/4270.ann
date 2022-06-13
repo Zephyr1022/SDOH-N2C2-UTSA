@@ -1,0 +1,11 @@
+T1	Employment 83 92	architect
+T2	Type 83 92	architect
+T3	StatusEmploy 72 82	used to be
+T4	LivingStatus 93 102	Residence
+T5	TypeLiving 104 146	Health and Rehabilitation of North Seattle
+T6	StatusTime 104 146	Health and Rehabilitation of North Seattle
+E1	Employment:T1 Type:T2 Status:T3
+E2	LivingStatus:T4 Type:T5 Status:T6
+A1	StatusEmployVal T3 unemployed
+A2	TypeLivingVal T5 with_others
+A3	StatusTimeVal T6 current

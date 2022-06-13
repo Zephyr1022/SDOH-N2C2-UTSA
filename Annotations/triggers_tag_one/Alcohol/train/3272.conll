@@ -1,0 +1,33 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	17	24	Tobacco
+O	24	25	:
+O	27	33	denies
+B-Alcohol	38	45	Alcohol
+O	45	46	:
+O	48	54	denies
+O	59	64	Drugs
+O	64	65	:
+O	67	73	denies
+
+O	75	79	Live
+O	79	80	:
+O	81	82	[
+O	82	90	LOCATION
+O	90	91	]
+
+O	92	96	Work
+O	96	97	:
+O	98	102	Full
+O	102	103	-
+O	103	107	time
+O	108	111	mom
+O	112	116	with
+O	117	118	a
+O	119	120	3
+O	120	121	-
+O	121	126	month
+O	126	127	-
+O	127	130	old

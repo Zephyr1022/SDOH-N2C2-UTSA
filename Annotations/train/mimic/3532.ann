@@ -1,0 +1,38 @@
+T1	Alcohol 33 44	Alcohol Use
+T4	StatusTime 92 98	drinks
+T5	Drug 161 169	Drug Use
+T6	Type 183 237	crack cocaine abuse, non-dependent methamphetamine use
+T7	Frequency 174 182	frequent
+T9	StatusTime 171 173	hx
+T10	LivingStatus 256 264	Homeless
+T11	TypeLiving 256 264	Homeless
+T12	StatusTime 256 264	Homeless
+T13	LivingStatus 266 282	Previously lived
+T14	StatusTime 266 276	Previously
+T15	TypeLiving 286 336	emergency housing managed by Canaday House shelter
+T16	LivingStatus 347 363	recently staying
+T17	TypeLiving 367 376	a shelter
+T18	StatusTime 347 355	recently
+T19	Employment 427 430	SSI
+T20	StatusEmploy 427 430	SSI
+T21	Employment 493 499	worked
+T22	StatusEmploy 482 492	previously
+T23	Type 503 513	[LOCATION]
+T24	Duration 514 525	for 6 years
+E1	Alcohol:T1 Status:T4
+E2	Drug:T5 Type:T6 Frequency:T7 Status:T9
+E3	LivingStatus:T10 Type:T11 Status:T12
+E4	LivingStatus:T13 Status:T14 Type:T15
+E5	LivingStatus:T16 Type:T17 Status:T18
+E6	Employment:T19 Status:T20
+E7	Employment:T21 Status:T22 Type:T23 Duration:T24
+A2	StatusTimeVal T4 current
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T11 homeless
+A6	StatusTimeVal T12 current
+A7	StatusTimeVal T14 past
+A8	TypeLivingVal T15 homeless
+A9	TypeLivingVal T17 homeless
+A10	StatusTimeVal T18 current
+A11	StatusEmployVal T20 on_disability
+A12	StatusEmployVal T22 unemployed

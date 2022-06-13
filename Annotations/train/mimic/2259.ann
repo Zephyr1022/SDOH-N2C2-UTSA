@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 34	never smoker
+T3	Alcohol 37 48	Alcohol Use
+T4	StatusTime 50 54	none
+T5	Drug 57 65	Drug Use
+T6	StatusTime 67 71	none
+T7	LivingStatus 91 100	Residence
+T8	StatusTime 102 107	lives
+T9	TypeLiving 108 113	alone
+T10	Employment 142 147	Works
+T11	Type 151 158	janitor
+T12	StatusEmploy 142 147	Works
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Status:T8 Type:T9
+E5	Employment:T10 Status:T12 Type:T11
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 alone
+A6	StatusEmployVal T12 employed

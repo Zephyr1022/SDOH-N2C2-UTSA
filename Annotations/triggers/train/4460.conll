@@ -1,0 +1,49 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+B-Drug	22	24	IV
+I-Drug	25	32	heroine
+O	32	33	,
+O	34	38	last
+O	39	43	used
+O	44	45	2
+O	46	50	days
+O	51	54	ago
+O	54	55	.
+
+O	56	57	3
+O	57	58	/
+O	58	59	4
+O	60	64	gram
+O	65	68	per
+O	69	72	day
+O	72	73	.
+
+B-Alcohol	75	82	Alcohol
+I-Alcohol	83	86	Use
+O	86	87	:
+O	88	93	Twice
+O	94	95	a
+O	96	100	year
+O	102	106	Drug
+O	107	110	Use
+O	110	111	:
+O	112	113	3
+B-Tobacco	114	124	cigarettes
+O	125	126	a
+O	127	130	day
+
+O	132	138	SOCIAL
+O	139	146	HISTORY
+O	146	147	:
+
+B-LivingStatus	149	154	Lives
+O	155	159	with
+O	160	163	mom
+O	164	166	in
+O	167	168	[
+O	168	176	LOCATION
+O	176	177	]

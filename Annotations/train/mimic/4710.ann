@@ -1,0 +1,39 @@
+T1	Type 151 166;167 171	private nurse's aide
+T2	Employment 143 147	work
+T3	StatusEmploy 135 142	Used to
+T4	Tobacco 181 186	2 ppd
+T5	Duration 187 210	since age 7 (~60 years)
+T6	StatusTime 173 180	Reports
+T7	Amount 227 228;229 238	1 cigarette
+T8	Frequency 239 246	per day
+T9	Duration 247 256	x7 months
+T10	Tobacco 229 238	cigarette
+T11	StatusTime 227 228;229 246	1 cigarette per day
+T12	Tobacco 335 341	smokes
+T13	StatusTime 335 341	smokes
+T14	Alcohol 357 364	alcohol
+T15	Amount 400 414	[**6-7**] cans
+T16	Frequency 365 378;379 383	3-4 times per week
+T17	Type 418 422	beer
+T18	StatusTime 343 350	Used to
+T19	Alcohol 439 446	alcohol
+T20	StatusTime 436 446;447 458	No alcohol for 3 years
+T23	Drug 477 495	recreational drugs
+T24	StatusTime 460 466	Denies
+E1	Employment:T2 Status:T3 Type:T1
+E2	Tobacco:T4 Duration:T5 Status:T6
+E3	Tobacco:T10 Frequency:T8 Amount:T7 Duration:T9 Status:T11 Type:T21
+E4	Tobacco:T12 Status:T13
+E5	Alcohol:T14 Amount:T15 Frequency:T16 Type:T17 Status:T18
+E6	Alcohol:T19 Status:T20 History:T22
+E8	Drug:T23 Status:T24 Type:T25
+A1	StatusEmployVal T3 unemployed
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T11 current
+A4	StatusTimeVal T13 current
+A5	StatusTimeVal T18 past
+A6	StatusTimeVal T20 past
+A8	StatusTimeVal T24 none
+T21	Type 229 238	cigarette
+T22	History 447 458	for 3 years
+T25	Type 477 489	recreational

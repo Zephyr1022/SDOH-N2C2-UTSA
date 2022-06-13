@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: _   Alcohol Use: _   Drug Use: _
+Denies current, reports 6 months abstinence from IVDU
+
+SOCIAL HISTORY: 
+[_X] Unable to Obtain due to Patient Condition
+Residence: Lives in apartment

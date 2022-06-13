@@ -1,0 +1,68 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Residence
+O	26	27	:
+
+O	29	36	Private
+O	37	46	residence
+O	46	47	.
+
+O	49	55	Living
+O	56	65	situation
+O	65	66	:
+
+O	68	73	Lives
+O	74	78	with
+O	79	90	significant
+O	91	96	other
+O	96	97	.
+
+O	99	109	Employment
+O	109	110	:
+
+O	112	122	Unemployed
+O	122	123	.
+
+O	125	132	Tobacco
+O	133	136	use
+O	136	137	:
+
+O	139	149	Cigarettes
+O	149	150	:
+O	151	152	2
+O	152	153	-
+O	153	154	3
+O	155	165	cigarettes
+O	166	169	per
+O	170	174	week
+O	174	175	.
+
+B-Alcohol	177	184	Alcohol
+I-Alcohol	185	188	use
+O	188	189	:
+O	190	194	beer
+O	194	195	,
+O	196	201	since
+O	202	209	Greater
+O	210	214	than
+O	215	217	20
+O	217	218	.
+
+O	220	223	Per
+O	224	228	week
+O	228	229	.
+
+O	231	235	Drug
+O	236	239	use
+O	239	240	:
+
+O	242	249	Cocaine
+O	249	250	:
+O	251	255	Last
+O	256	260	used
+O	261	262	2
+O	263	267	days
+O	268	271	ago
+O	271	272	.

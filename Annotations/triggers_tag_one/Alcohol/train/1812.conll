@@ -1,0 +1,82 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	(
+O	17	25	obtained
+O	26	30	from
+O	31	36	chart
+O	36	37	)
+
+O	38	42	Home
+O	42	43	:
+O	44	53	currently
+O	54	59	lives
+O	60	64	with
+O	65	68	her
+O	69	78	boyfriend
+
+O	79	89	Occupation
+O	89	90	:
+O	91	101	previously
+O	102	110	employed
+O	111	113	as
+O	114	115	a
+O	116	121	house
+O	122	129	painter
+
+B-Alcohol	130	134	EtOH
+O	134	135	:
+O	136	140	none
+
+O	141	146	Drugs
+O	146	147	:
+O	147	148	h
+O	148	149	/
+O	149	150	o
+O	151	158	cocaine
+O	159	162	and
+O	163	165	IV
+O	166	172	heroin
+O	173	176	use
+O	176	177	,
+O	178	181	now
+O	182	184	on
+O	185	194	methadone
+
+O	195	206	maintenance
+O	206	207	.
+
+O	208	215	Tobacco
+O	215	216	:
+O	217	221	Quit
+O	222	229	smoking
+O	229	230	.
+
+O	231	232	[
+O	232	233	*
+O	233	234	*
+O	234	238	Last
+O	239	243	Name
+O	244	245	(
+O	245	247	un
+O	247	248	)
+O	249	250	*
+O	250	251	*
+O	251	252	]
+O	253	255	on
+O	256	263	chantix
+O	263	264	.
+
+O	265	269	Used
+O	270	272	to
+O	273	278	smoke
+O	279	280	1
+O	280	281	.
+O	281	282	5
+O	283	286	ppd
+O	287	288	x
+O	289	291	35
+
+O	292	295	yrs
+O	295	296	.

@@ -1,0 +1,8 @@
+HABITS: 
+Tobacco Use: smoked cigarettes since teen's, down to 2 cigarettes a day, was previously up to half a pack a day
+Alcohol Use: last drink [DATE], rarely drinks
+Drug Use: smoked marijuana since 16 but not as much the past few years
+
+SOCIAL HISTORY: 
+Residence: recently homeless as of a week ago. Hospitalized in [DATE] and went to rehab facility for 2 months afterwards.
+Wife died of pancreatic cancer 1.5 years ago. They used to live in [LOCATION], where he wants to move back to as soon as he can.

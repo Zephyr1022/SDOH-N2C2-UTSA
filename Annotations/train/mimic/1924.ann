@@ -1,0 +1,36 @@
+T1	LivingStatus 81 86	lives
+T2	TypeLiving 87 123	with sister and [**Name2 (NI) 802**]
+T3	StatusTime 81 86	lives
+T4	Employment 135 145	disability
+T5	StatusEmploy 135 145	disability
+T6	Type 146 149;150 162	for shizophrenia
+T7	Tobacco 211 226	Tobacco history
+T8	StatusTime 228 235	current
+T9	Amount 244 253	a few cig
+T10	Frequency 254 261	per day
+T11	Alcohol 276 280	ETOH
+T12	Amount 282 291	2-3 beers
+T13	Frequency 292 312	three times per week
+T14	StatusTime 282 312	2-3 beers three times per week
+T15	Drug 315 328	Illicit drugs
+T16	Type 315 322	Illicit
+T17	Method 335 339	IVDU
+T18	StatusTime 330 386	last IVDU [**2166**], last crack cocaine [**2196-3-24**]
+T19	Type 357 370	crack cocaine
+T21	Drug 393 395	MJ
+T22	Type 393 395	MJ
+T23	StatusTime 388 392	Used
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T6 Status:T5
+E3	Tobacco:T7 Status:T8 Amount:T9 Frequency:T10 Type:T24
+E4	Alcohol:T11 Amount:T12 Frequency:T13 Status:T14
+E5	Drug:T15 Status:T18 Method:T17 Type:T16 Type2:T19
+E7	Drug:T21 Type:T22 Status:T23
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 on_disability
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T14 current
+A6	StatusTimeVal T18 current
+A8	StatusTimeVal T23 current
+T24	Type 250 253	cig

@@ -1,0 +1,32 @@
+O	0	2	SH
+O	2	3	:
+O	4	9	lives
+O	10	12	in
+O	13	14	a
+O	15	22	medical
+O	23	28	hotel
+
+O	29	36	Tobacco
+O	36	37	:
+O	38	45	reports
+O	46	47	1
+O	48	57	cigarette
+O	58	61	per
+O	62	65	day
+O	65	66	,
+O	67	75	formerly
+O	76	80	1ppd
+O	81	82	x
+O	83	88	40yrs
+
+O	89	93	EtOH
+O	93	94	:
+O	95	101	denies
+
+O	102	105	THC
+O	105	106	:
+O	107	113	denies
+
+O	114	119	Drugs
+O	119	120	:
+O	121	127	denies

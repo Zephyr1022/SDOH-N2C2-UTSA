@@ -1,0 +1,18 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	20	Cigs
+O	20	21	:
+O	22	26	quit
+O	27	29	30
+O	30	35	years
+O	36	39	ago
+
+B-Alcohol	40	44	ETOH
+O	44	45	:
+O	46	56	occasional
+
+O	57	62	Lives
+O	63	68	alone
+O	68	69	.

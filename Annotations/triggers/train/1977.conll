@@ -1,0 +1,54 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	20	Home
+O	20	21	:
+B-LivingStatus	22	27	Lives
+O	28	32	with
+O	33	36	her
+O	37	40	son
+O	40	41	,
+O	42	49	depends
+O	50	52	on
+O	53	56	him
+O	57	60	for
+O	61	65	ADLS
+
+B-Employment	66	76	Occupation
+O	76	77	:
+O	78	84	worked
+O	85	87	at
+O	88	89	[
+O	89	90	*
+O	90	91	*
+O	91	99	Location
+O	100	104	4288
+O	104	105	*
+O	105	106	*
+O	106	107	]
+O	108	115	Arsenal
+O	116	118	as
+O	119	120	a
+O	121	128	grinder
+O	129	132	and
+O	133	139	sander
+
+O	140	146	before
+O	147	155	retiring
+O	156	158	to
+O	159	164	raise
+O	165	169	four
+O	170	174	sons
+
+B-Alcohol	175	179	EtOH
+O	179	180	:
+O	181	187	Denies
+
+B-Drug	188	193	Drugs
+O	193	194	:
+O	195	201	Denies
+
+B-Tobacco	202	209	Tobacco
+O	209	210	:
+O	211	217	Denies

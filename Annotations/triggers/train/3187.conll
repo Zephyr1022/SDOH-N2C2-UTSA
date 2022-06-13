@@ -1,0 +1,48 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	24	Patient
+O	25	27	is
+O	28	35	married
+O	36	38	to
+O	39	42	her
+O	43	50	husband
+O	51	52	[
+O	52	56	NAME
+O	56	57	]
+O	57	58	.
+
+O	60	64	They
+O	65	69	have
+O	70	72	no
+O	73	81	children
+O	81	82	.
+
+O	84	87	She
+O	88	97	currently
+O	98	100	is
+O	101	110	dependent
+B-Employment	111	113	on
+I-Employment	114	124	disability
+
+O	126	129	She
+O	130	137	reports
+B-Tobacco	138	145	smoking
+O	146	157	approximate
+O	158	159	6
+O	160	170	cigarettes
+O	171	172	a
+O	173	176	day
+O	176	177	.
+
+O	179	181	No
+B-Alcohol	182	189	alcohol
+O	190	192	in
+O	193	197	many
+O	198	203	years
+O	203	204	.
+
+O	206	210	Rare
+B-Drug	211	220	marijuana
+I-Drug	221	224	use

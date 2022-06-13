@@ -1,0 +1,22 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 23 32	with wife
+T3	StatusTime 17 22	Lives
+T4	Amount 61 68;69 73	60 pack year
+T5	Tobacco 85 92	smoking
+T6	StatusTime 94 98	quit
+T7	History 99 111	in '[**87**]
+T8	Employment 203 210	working
+T9	StatusEmploy 203 210	working
+T10	Type 214 243	an antique furniture finisher
+T14	Employment 113 135	former merchant marine
+T15	StatusEmploy 113 135	former merchant marine
+T16	Type 113 135	former merchant marine
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Tobacco:T5 Amount:T4 Status:T6 History:T7
+E3	Employment:T8 Status:T9 Type:T10
+E5	Employment:T14 Status:T15 Type:T16
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 past
+A4	StatusEmployVal T9 employed
+A6	StatusEmployVal T15 unemployed

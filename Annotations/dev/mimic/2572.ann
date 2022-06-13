@@ -1,0 +1,10 @@
+T1	Drug 11 15	IVDU
+T2	StatusTime 9 10	+
+T3	Method 11 15	IVDU
+T4	Type 18 33	heroin and meth
+T5	Tobacco 35 41	smokes
+T6	StatusTime 35 41	smokes
+E1	Drug:T1 Status:T2 Method:T3 Type:T4
+E2	Tobacco:T5 Status:T6
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 current

@@ -1,0 +1,16 @@
+T1	Tobacco 9 15	Smokes
+T2	StatusTime 9 15	Smokes
+T3	Amount 16 23	1/2 ppd
+T4	Duration 55 66	x 40+ years
+T5	Alcohol 67 82	Minimal alcohol
+T7	StatusTime 67 82	Minimal alcohol
+T8	LivingStatus 101 106	Lives
+T9	TypeLiving 107 131	at Bread of Life shelter
+T10	StatusTime 101 106	Lives
+E1	Tobacco:T1 Status:T2 Amount:T3 Duration:T4
+E2	Alcohol:T5 Status:T7
+E3	LivingStatus:T8 Status:T10 Type:T9
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T7 current
+A4	TypeLivingVal T9 homeless
+A5	StatusTimeVal T10 current

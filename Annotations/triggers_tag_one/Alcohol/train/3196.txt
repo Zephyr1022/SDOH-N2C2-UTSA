@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: _ rare current use   Alcohol Use: _ rare current use  Drug Use: _ history of cocaine use, none recently
+
+SOCIAL HISTORY: 
+[_] Unable to Obtain due to Patient Condition
+Residence: _  Staying with friends in [LOCATION]

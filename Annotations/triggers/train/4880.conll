@@ -1,0 +1,111 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Single
+O	23	26	and
+B-LivingStatus	27	32	lives
+O	33	38	alone
+O	39	41	in
+O	42	43	[
+O	43	44	*
+O	44	45	*
+O	45	51	Doctor
+O	52	57	First
+O	58	62	Name
+O	63	64	*
+O	64	65	*
+O	65	66	]
+O	66	67	?
+O	67	68	?
+O	68	69	?
+O	69	70	?
+O	70	71	?
+O	71	72	?
+
+O	73	74	[
+O	74	75	*
+O	75	76	*
+O	76	84	Initials
+O	85	86	(
+O	86	98	NamePattern4
+O	98	99	)
+O	100	101	*
+O	101	102	*
+O	102	103	]
+O	104	105	[
+O	105	106	*
+O	106	107	*
+O	107	111	Last
+O	112	116	Name
+O	117	118	(
+O	118	130	NamePattern4
+O	130	131	)
+O	132	133	*
+O	133	134	*
+O	134	135	]
+O	135	136	.
+
+O	137	139	He
+O	140	142	is
+B-Employment	143	144	a
+I-Employment	145	154	bartender
+O	154	155	.
+
+O	156	158	In
+O	159	161	AA
+O	162	165	for
+B-Alcohol	166	176	alcoholism
+O	177	178	?
+O	178	179	?
+O	179	180	?
+O	180	181	?
+O	181	182	?
+O	182	183	?
+
+O	184	187	has
+O	188	192	been
+O	193	205	hospitalized
+O	206	209	for
+B-Alcohol	210	214	EtOH
+O	215	217	5x
+O	217	218	.
+
+O	219	222	Has
+O	223	224	a
+
+O	225	232	history
+O	233	235	of
+O	236	244	delirium
+O	245	252	tremens
+O	252	253	.
+
+O	254	261	Started
+B-Alcohol	262	270	drinking
+O	271	272	1
+O	272	273	.
+O	273	274	5
+O	275	277	mo
+O	278	281	ago
+O	281	282	.
+
+O	283	285	He
+
+O	286	290	used
+B-Drug	291	298	cocaine
+I-Drug	299	302	and
+I-Drug	303	310	ecstacy
+O	311	312	2
+O	313	315	mo
+O	316	319	ago
+O	319	320	.
+
+O	321	323	He
+O	324	328	also
+O	329	333	used
+O	334	335	1
+B-Drug	336	344	Adderall
+O	345	349	pill
+
+O	350	359	yesterday
+O	359	360	.

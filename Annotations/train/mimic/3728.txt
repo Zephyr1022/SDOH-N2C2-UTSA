@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: occasional cigar
+Alcohol Use: _
+Drug Use: _
+
+SOCIAL HISTORY: 
+Works for [LOCATION]. Married with one daughter.

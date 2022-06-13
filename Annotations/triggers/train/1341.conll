@@ -1,0 +1,37 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	30	Endorses
+O	31	38	smoking
+O	39	44	daily
+B-Alcohol	47	54	Alcohol
+I-Alcohol	55	58	Use
+O	58	59	:
+O	60	66	Denies
+B-Drug	69	73	Drug
+I-Drug	74	77	Use
+O	77	78	:
+O	79	88	Marijuana
+O	88	89	,
+O	90	97	cocaine
+O	98	101	use
+
+O	103	109	SOCIAL
+O	110	117	HISTORY
+O	117	118	:
+
+B-LivingStatus	120	125	Lives
+O	126	130	with
+O	131	134	his
+O	135	138	son
+O	139	141	in
+O	142	143	[
+O	143	151	LOCATION
+O	151	152	]
+O	152	153	,
+O	154	156	is
+O	157	159	on
+O	160	163	SSI

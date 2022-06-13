@@ -1,0 +1,15 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	24	History
+O	25	27	of
+B-Alcohol	28	35	alcohol
+I-Alcohol	36	41	abuse
+O	41	42	.
+
+O	44	47	The
+O	48	55	patient
+O	56	58	is
+
+O	59	67	homeless
+O	67	68	.

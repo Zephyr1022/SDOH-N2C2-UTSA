@@ -1,0 +1,32 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	15	denies
+B-Alcohol	16	23	alcohol
+O	23	24	,
+O	25	31	denies
+B-Tobacco	32	39	tobacco
+O	39	40	,
+O	41	49	endorses
+B-Drug	50	52	MJ
+O	52	53	,
+B-Drug	54	58	meth
+O	58	59	,
+B-Drug	60	69	methadone
+I-Drug	70	73	use
+O	73	74	,
+O	75	79	past
+B-Drug	80	84	IVDU
+
+O	86	92	SOCIAL
+O	93	100	HISTORY
+O	100	101	:
+
+B-LivingStatus	103	111	Sleeping
+I-LivingStatus	112	114	on
+I-LivingStatus	115	116	a
+I-LivingStatus	117	123	friend
+I-LivingStatus	123	124	'
+I-LivingStatus	124	125	s
+I-LivingStatus	126	131	floor
+O	131	132	.

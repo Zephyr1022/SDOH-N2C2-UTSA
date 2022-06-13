@@ -1,0 +1,52 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	23	1
+O	24	28	pack
+O	29	34	every
+O	35	36	2
+O	36	37	-
+O	37	38	3
+O	39	43	days
+O	43	44	.
+
+O	45	52	Started
+B-Tobacco	53	60	smoking
+O	61	63	as
+O	64	65	a
+O	66	74	teenager
+O	74	75	.
+
+O	76	80	Quit
+O	81	86	since
+O	87	92	going
+O	93	95	to
+O	96	100	jail
+O	101	102	2
+O	103	108	weeks
+O	109	112	ago
+B-Alcohol	115	122	Alcohol
+I-Alcohol	123	126	Use
+O	126	127	:
+O	128	134	denies
+B-Drug	137	141	Drug
+I-Drug	142	145	Use
+O	145	146	:
+O	147	154	cocaine
+O	155	159	last
+O	160	161	a
+O	162	165	few
+O	166	172	months
+O	173	176	ago
+
+O	178	184	SOCIAL
+O	185	192	HISTORY
+O	192	193	:
+
+B-LivingStatus	195	204	Currently
+I-LivingStatus	205	217	incarcerated
+O	218	220	at
+O	221	225	jail

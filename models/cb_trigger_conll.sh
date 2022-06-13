@@ -1,0 +1,10 @@
+python process.py ./Annotations/triggers_tag/Drug/train/ Drug train_trigger_drug.conll
+python process.py ./Annotations/triggers_tag/Drug/dev/ Drug dev_trigger_drug.conll
+python process.py ./Annotations/triggers_tag/Alcohol/train/ Alcohol train_trigger_alcohol.conll
+python process.py ./Annotations/triggers_tag/Alcohol/dev/ Alcohol dev_trigger_alcohol.conll
+python process.py ./Annotations/triggers_tag/Tobacco/train/ Tobacco train_trigger_tobacco.conll
+python process.py ./Annotations/triggers_tag/Tobacco/dev/ Tobacco dev_trigger_tobacco.conll
+python process.py ./Annotations/triggers_tag/Employment/train/ Employment train_trigger_employment.conll
+python process.py ./Annotations/triggers_tag/Employment/dev/ Employment dev_trigger_employment.conll
+python process.py ./Annotations/triggers_tag/LivingStatus/train/ LivingStatus train_trigger_livingstatus.conll
+python process.py ./Annotations/triggers_tag/LivingStatus/dev/ LivingStatus dev_trigger_livingstatus.conll

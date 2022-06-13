@@ -1,0 +1,35 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	denies
+B-Alcohol	31	38	Alcohol
+I-Alcohol	39	42	Use
+O	42	43	:
+O	44	50	social
+O	53	57	Drug
+O	58	61	Use
+O	61	62	:
+O	63	69	denies
+
+O	71	77	SOCIAL
+O	78	85	HISTORY
+O	85	86	:
+
+O	88	93	Lives
+O	94	96	in
+O	97	98	[
+O	98	106	LOCATION
+O	106	107	]
+O	107	108	,
+O	109	112	has
+O	113	114	1
+O	115	118	son
+O	119	122	who
+O	123	125	is
+O	126	127	8
+O	128	130	yo
+O	130	131	,
+O	132	138	single

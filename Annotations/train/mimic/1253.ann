@@ -1,0 +1,13 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 51	with multiple family members
+T4	Drug 62 81	daily marijuana use
+T5	Frequency 62 67	daily
+T6	Type 68 77	marijuana
+T7	StatusTime 53 61	endorses
+T8	Method 83 98	smokes via pipe
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Drug:T4 Status:T7 Frequency:T5 Type:T6 Method:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T7 current

@@ -1,0 +1,30 @@
+T1	LivingStatus 17 35	Currently homeless
+T2	StatusTime 17 35	Currently homeless
+T3	TypeLiving 17 35	Currently homeless
+T4	Drug 124 136	crystal meth
+T5	Type 124 136	crystal meth
+T6	StatusTime 119 123	Quit
+T7	History 137 148	8 years ago
+T8	Duration 155 170	15 years of use
+T9	Drug 174 188	other illicits
+T10	Type 174 188	other illicits
+T11	StatusTime 171 173	No
+T12	Tobacco 192 199	tobacco
+T13	History 200 217	for past 2 months
+T14	StatusTime 219 240	previously heavy user
+T16	Alcohol 241 245	EtOH
+T17	Amount 247 259	1pint vodka+
+T18	Type 253 259	vodka+
+T19	Frequency 260 267	per day
+T20	StatusTime 247 267	1pint vodka+ per day
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Drug:T4 Type:T5 Status:T6 History:T7 Duration:T8
+E3	Drug:T9 Type:T10 Status:T11
+E4	Tobacco:T12 History:T13 Status:T14
+E5	Alcohol:T16 Amount:T17 Type:T18 Status:T20 Frequency:T19
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T11 none
+A5	StatusTimeVal T14 past
+A7	StatusTimeVal T20 current

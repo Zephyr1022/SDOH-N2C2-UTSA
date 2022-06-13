@@ -1,0 +1,72 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	25	at
+O	26	27	[
+O	27	35	LOCATION
+O	35	36	]
+O	36	37	.
+
+O	39	43	Went
+O	44	46	to
+B-Employment	47	50	the
+I-Employment	51	59	military
+O	60	62	in
+O	63	65	16
+O	66	69	and
+O	70	73	did
+O	74	76	10
+O	77	82	years
+O	83	85	in
+O	86	87	[
+O	87	95	LOCATION
+O	95	96	]
+O	96	97	.
+
+B-Employment	99	105	Worked
+O	106	108	as
+O	109	110	a
+O	111	118	builder
+O	118	119	,
+O	120	125	lived
+O	126	128	in
+O	129	130	[
+O	130	138	LOCATION
+O	138	139	]
+O	140	143	for
+O	144	148	some
+O	149	153	time
+O	153	154	.
+
+O	156	159	Has
+O	160	161	3
+O	162	170	children
+O	170	171	,
+O	172	180	youngest
+O	181	183	of
+O	184	188	whom
+O	189	191	is
+O	192	194	11
+O	194	195	.
+
+O	197	203	Denies
+B-Drug	204	211	illicit
+I-Drug	212	216	drug
+I-Drug	217	220	use
+O	220	221	.
+
+B-Tobacco	223	228	Prior
+I-Tobacco	229	238	extensive
+I-Tobacco	239	246	smoking
+I-Tobacco	247	254	history
+O	254	255	.
+
+O	256	262	Denies
+O	263	270	current
+B-Tobacco	271	278	tobacco
+O	279	281	or
+B-Alcohol	282	289	alcohol
+I-Alcohol	290	293	use
+O	293	294	.

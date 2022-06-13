@@ -1,0 +1,7 @@
+SOCIAL HISTORY:
+Living: (type X next to choice)  
+_ Alone    _ Family    _ Friend    _ Homeless    _ SNF    _ Assisted Living
+Education: (type X next to choice)
+_ Less than 8th grade    _ 8th grade-high school graduate    _ College degree
+Marital status: (type X next to choice)
+_ Single    _ Married    _ Widowed    _ Divorced

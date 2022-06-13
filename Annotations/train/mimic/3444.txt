@@ -1,0 +1,8 @@
+HABITS:
+Per DC summary from Harborview in [DATE]:
+Tobacco Use: 1.5 ppd smoker  Alcohol Use: None   Drug Use: Former marijuana
+
+SOCIAL HISTORY: 
+[x] Unable to Obtain due to Patient Condition
+Per DC summary from Harborview Medical Center in [DATE]:
+Residence: Lives in [LOCATION]. Separated from his wife. Has 2 children age 9 and 13. Works as a medical interpreter but has been unemployed

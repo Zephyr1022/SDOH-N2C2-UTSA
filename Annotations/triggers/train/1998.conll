@@ -1,0 +1,42 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	in
+O	25	27	JP
+O	28	30	in
+O	31	32	[
+O	32	33	*
+O	33	34	*
+O	34	43	Hospital3
+O	44	48	4634
+O	48	49	*
+O	49	50	*
+O	50	51	]
+O	51	52	.
+
+O	53	56	100
+O	56	57	+
+O	58	62	pack
+O	63	67	year
+B-Tobacco	68	75	smoking
+O	76	83	history
+O	83	84	.
+
+B-Alcohol	85	89	EtOH
+I-Alcohol	90	93	use
+O	94	96	in
+O	97	101	past
+O	101	102	,
+O	103	106	now
+O	107	110	two
+O	111	117	drinks
+O	117	118	/
+O	118	123	month
+O	123	124	.
+
+B-Employment	125	131	Former
+I-Employment	132	137	truck
+I-Employment	138	144	driver
+O	144	145	.

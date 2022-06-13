@@ -1,0 +1,165 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Social
+O	23	25	Hx
+O	25	26	:
+O	27	30	The
+O	31	38	patient
+O	39	43	grew
+O	44	46	up
+O	47	49	in
+O	50	53	the
+O	54	55	[
+O	55	56	*
+O	56	57	*
+O	57	65	Location
+O	66	67	(
+O	67	69	un
+O	69	70	)
+O	71	73	86
+O	73	74	*
+O	74	75	*
+O	75	76	]
+O	77	81	area
+O	81	82	,
+O	83	91	recently
+
+O	92	97	moved
+O	98	100	to
+O	101	102	[
+O	102	103	*
+O	103	104	*
+O	104	112	Location
+O	113	114	(
+O	114	116	un
+O	116	117	)
+O	118	122	6691
+O	122	123	*
+O	123	124	*
+O	124	125	]
+O	126	130	nine
+O	131	137	months
+O	138	141	ago
+O	141	142	.
+
+O	143	145	He
+O	146	149	has
+B-Employment	150	156	worked
+O	157	164	several
+O	165	169	jobs
+O	169	170	,
+
+O	171	180	including
+O	181	189	painting
+O	190	193	and
+O	194	196	as
+O	197	198	a
+O	199	206	cooking
+O	207	216	assistant
+O	216	217	.
+
+O	218	220	He
+O	221	223	is
+O	224	231	married
+
+O	232	236	with
+O	237	241	five
+O	242	250	children
+O	250	251	.
+
+O	252	255	Has
+O	256	263	history
+O	264	266	of
+B-Drug	267	274	cocaine
+I-Drug	275	278	use
+O	278	279	,
+O	280	284	last
+O	285	288	two
+O	289	295	months
+
+O	296	299	ago
+O	299	300	.
+
+O	301	305	Also
+O	306	312	smokes
+B-Drug	313	322	marijuana
+O	322	323	.
+
+B-Tobacco	324	330	Smoked
+O	331	332	1
+O	333	336	PPD
+O	337	340	for
+O	341	343	15
+O	343	344	-
+O	344	346	20
+O	347	352	years
+O	352	353	,
+O	354	358	quit
+
+O	359	362	two
+O	363	368	weeks
+O	369	372	ago
+O	372	373	.
+
+B-Alcohol	374	380	Drinks
+O	381	386	about
+O	387	390	one
+O	391	395	beer
+O	396	399	per
+O	400	403	day
+O	403	404	.
+
+O	405	407	He
+O	408	411	was
+
+O	412	424	incarcerated
+O	426	428	in
+O	429	430	[
+O	430	431	*
+O	431	432	*
+O	432	436	2145
+O	436	437	-
+O	437	439	10
+O	439	440	-
+O	440	442	10
+O	442	443	*
+O	443	444	*
+O	444	445	]
+O	446	449	for
+O	450	458	domestic
+O	459	467	violence
+O	467	468	.
+
+O	469	471	No
+O	472	478	sexual
+
+O	479	487	contacts
+O	488	493	other
+O	494	498	than
+O	499	503	wife
+O	503	504	.
+
+O	505	506	[
+O	506	507	*
+O	507	508	*
+O	508	512	Name
+O	513	514	(
+O	514	516	NI
+O	516	517	)
+O	518	519	*
+O	519	520	*
+O	520	521	]
+O	522	526	IVDA
+O	526	527	.
+
+O	528	535	Reports
+O	536	544	negative
+O	545	548	HIV
+O	549	553	test
+O	554	557	six
+
+O	558	564	months
+O	565	568	ago
+O	568	569	.

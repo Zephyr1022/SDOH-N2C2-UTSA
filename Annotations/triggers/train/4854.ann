@@ -1,0 +1,9 @@
+T1	LivingStatus 60 66	living
+T4	Alcohol 105 122	actively drinking
+T6	Alcohol 139 143;144 149	etoh abuse
+T10	Tobacco 223 229	smokes
+T15	Employment 270 273;274 281	not working
+T17	Employment 294 298	work
+T20	Drug 325 329	IVDA
+T24	Drug 356 372	intranasal drugs
+T27	Drug 402 420	cocaine/heroin use

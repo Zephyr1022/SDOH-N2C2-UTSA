@@ -1,0 +1,20 @@
+T1	LivingStatus 17 26	Residence
+T2	TypeLiving 29 39	Group home
+T3	StatusTime 29 39	Group home
+T4	Tobacco 42 53	Tobacco use
+T5	Amount 56 70	60pack history
+T6	StatusTime 72 80	q [DATE]
+T7	History 72 80	q [DATE]
+T8	Alcohol 84 95	Alcohol use
+T9	StatusTime 97 103	denies
+T10	Drug 106 114	Drug use
+T11	StatusTime 117 123	Denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Amount:T5 History:T7 Status:T6
+E3	Alcohol:T8 Status:T9
+E4	Drug:T10 Status:T11
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T11 none

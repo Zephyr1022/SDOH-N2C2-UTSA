@@ -1,0 +1,89 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+O	24	29	lives
+O	30	34	with
+O	35	43	roommate
+O	44	47	and
+O	48	57	boyfriend
+O	57	58	.
+
+O	59	62	She
+O	63	73	identifies
+O	74	80	mother
+
+O	81	83	as
+O	84	87	her
+O	88	95	contact
+O	96	102	person
+O	102	103	.
+
+O	104	105	-
+O	106	107	[
+O	107	108	*
+O	108	109	*
+O	109	114	Name2
+O	115	116	(
+O	116	118	NI
+O	118	119	)
+O	120	124	1139
+O	124	125	*
+O	125	126	*
+O	126	127	]
+O	127	128	:
+O	129	130	+
+O	131	132	[
+O	132	133	*
+O	133	134	*
+O	134	135	1
+O	135	136	-
+O	136	138	21
+O	138	139	*
+O	139	140	*
+O	140	141	]
+O	142	145	PPD
+
+O	146	147	-
+B-Alcohol	148	155	Alcohol
+O	155	156	:
+O	157	167	occasional
+O	167	168	,
+O	169	173	none
+O	174	182	recently
+O	182	183	.
+
+O	184	185	-
+O	186	194	Illicits
+O	194	195	:
+O	196	203	History
+O	204	206	of
+O	207	214	cocaine
+O	214	215	,
+O	216	222	heroin
+O	222	223	,
+O	224	238	benzodiazepine
+O	239	242	and
+
+O	243	253	barbituate
+O	254	257	use
+O	257	258	.
+
+O	259	265	States
+O	266	270	last
+O	271	274	use
+O	275	278	was
+O	279	283	over
+O	284	287	one
+O	288	292	year
+O	293	296	ago
+O	296	297	.
+
+O	298	300	On
+O	301	311	disability
+O	311	312	,
+O	313	316	not
+O	317	326	currently
+O	327	334	working
+O	334	335	.

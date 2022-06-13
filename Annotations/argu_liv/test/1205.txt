@@ -1,0 +1,3 @@
+SOCIAL HISTORY: 
+[X] Unable to Obtain due to Patient Condition
+- At time of [DATE] admit, patient was living with daughter in [LOCATION]

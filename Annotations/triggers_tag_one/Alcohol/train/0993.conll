@@ -1,0 +1,73 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	The
+O	20	27	patient
+O	28	30	is
+O	31	39	baseline
+O	40	48	confused
+O	48	49	.
+
+O	51	54	She
+O	55	57	is
+O	58	59	a
+O	61	68	retired
+O	69	74	nurse
+O	74	75	'
+O	75	76	s
+
+O	77	86	assistant
+O	87	90	who
+O	91	96	lived
+O	97	102	alone
+O	103	108	prior
+O	109	111	to
+O	112	115	the
+O	116	120	last
+O	122	131	admission
+O	132	135	and
+
+O	136	144	recently
+O	145	149	came
+O	150	154	from
+O	155	160	rehab
+O	160	161	.
+
+O	163	166	She
+O	167	169	is
+O	170	179	estranged
+O	180	184	from
+O	185	188	all
+O	189	192	her
+O	193	197	four
+
+O	198	202	sons
+O	202	203	.
+
+O	205	208	She
+O	209	212	has
+O	213	215	no
+O	216	221	known
+O	222	229	history
+O	230	232	of
+B-Alcohol	233	240	alcohol
+I-Alcohol	241	246	abuse
+O	247	249	or
+
+O	250	257	smoking
+O	257	258	,
+O	259	266	however
+O	266	267	,
+O	268	271	her
+O	272	276	past
+O	277	288	psychiatric
+O	289	296	history
+O	297	299	is
+O	300	305	quite
+
+O	306	317	significant
+O	318	320	as
+O	321	326	noted
+O	327	332	above
+O	332	333	.

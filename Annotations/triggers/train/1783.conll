@@ -1,0 +1,101 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	Pt
+O	19	21	is
+O	22	28	former
+O	29	40	psychiatric
+O	41	46	nurse
+O	46	47	,
+B-Employment	48	57	currently
+I-Employment	58	60	on
+I-Employment	61	65	SSDI
+O	65	66	.
+
+B-LivingStatus	67	72	Lives
+O	73	77	with
+
+O	78	85	partner
+O	86	91	named
+O	92	93	[
+O	93	94	*
+O	94	95	*
+O	95	99	Name
+O	100	101	(
+O	101	103	NI
+O	103	104	)
+O	105	106	*
+O	106	107	*
+O	107	108	]
+O	109	110	(
+O	110	111	"
+O	111	112	[
+O	112	113	*
+O	113	114	*
+O	114	119	Name2
+O	120	121	(
+O	121	123	NI
+O	123	124	)
+O	125	126	*
+O	126	127	*
+O	127	128	]
+O	128	129	"
+O	129	130	)
+O	131	134	who
+O	135	143	provides
+O	144	147	her
+O	148	152	with
+O	153	160	support
+
+O	161	170	including
+O	171	178	helping
+O	179	183	with
+O	184	195	medications
+O	195	196	.
+
+O	197	200	Has
+O	201	202	a
+O	203	206	VNA
+O	206	207	.
+
+O	208	209	-
+B-Tobacco	210	217	Tobacco
+O	217	218	:
+O	219	226	Smoking
+O	227	228	1
+O	228	229	.
+O	229	233	5ppd
+O	234	243	currently
+O	243	244	.
+
+O	245	253	Previous
+O	254	259	notes
+O	260	266	report
+B-Tobacco	267	271	2ppd
+
+O	272	273	X
+O	274	276	50
+O	277	282	years
+
+O	283	284	-
+B-Alcohol	285	292	Alcohol
+O	292	293	:
+O	294	296	hx
+O	297	299	of
+O	300	304	ETOH
+O	305	310	abuse
+O	310	311	,
+O	312	316	last
+O	317	322	drink
+O	323	325	15
+O	326	331	years
+O	332	335	ago
+O	336	344	recorded
+
+O	345	346	-
+O	347	355	Illicits
+O	355	356	:
+O	357	363	Denies
+B-Drug	364	371	illicit
+I-Drug	372	377	drugs

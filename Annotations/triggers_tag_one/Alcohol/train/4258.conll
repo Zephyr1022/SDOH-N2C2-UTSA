@@ -1,0 +1,30 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	15	Denies
+O	16	19	any
+O	20	27	smoking
+O	27	28	,
+O	29	33	IVDU
+O	33	34	,
+O	35	37	or
+B-Alcohol	38	49	significant
+I-Alcohol	50	57	alcohol
+I-Alcohol	58	61	use
+O	61	62	.
+
+O	64	70	SOCIAL
+O	71	78	HISTORY
+O	78	79	:
+
+O	81	86	Lives
+O	87	89	in
+O	90	91	a
+O	92	98	Campus
+O	99	108	apartment
+O	109	111	on
+O	112	115	the
+O	116	117	[
+O	117	125	LOCATION
+O	125	126	]
+O	126	127	.

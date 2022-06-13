@@ -1,0 +1,223 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	Pt
+O	19	22	has
+O	23	24	a
+O	25	32	complex
+O	33	39	social
+O	40	47	history
+O	48	52	with
+O	53	64	significant
+O	65	72	history
+O	73	75	of
+
+B-Drug	76	89	polysubstance
+O	90	93	and
+B-Alcohol	94	101	alcohol
+I-Alcohol	102	107	abuse
+O	107	108	.
+
+O	109	113	Most
+O	114	122	recently
+O	123	126	the
+O	127	129	pt
+O	130	133	was
+
+O	134	146	incarcerated
+O	147	150	for
+O	151	156	three
+O	157	162	weeks
+O	163	165	in
+O	166	167	[
+O	167	168	*
+O	168	169	*
+O	169	174	Month
+O	175	176	(
+O	176	180	only
+O	180	181	)
+O	182	185	216
+O	185	186	*
+O	186	187	*
+O	187	188	]
+O	188	189	.
+
+O	190	193	She
+O	194	200	denies
+O	201	204	any
+B-Drug	205	209	drug
+I-Drug	210	213	use
+
+O	215	220	since
+O	221	224	her
+O	225	238	incarceration
+O	238	239	,
+O	240	243	but
+O	244	246	on
+O	247	251	last
+O	252	261	admission
+O	262	265	she
+O	266	269	was
+O	270	275	found
+
+O	276	280	with
+O	281	282	>
+O	282	285	600
+O	286	290	tabs
+O	291	293	of
+O	294	301	various
+O	302	307	sorts
+O	308	310	of
+B-Drug	311	320	narcotics
+I-Drug	321	324	and
+I-Drug	325	328	BNZ
+O	328	329	,
+O	330	332	as
+O	333	337	well
+O	338	340	as
+
+O	341	349	syringes
+O	349	350	,
+O	351	357	spoons
+O	357	358	,
+O	359	362	etc
+O	362	363	.
+O	364	367	and
+O	368	371	tox
+O	372	378	screen
+O	379	382	was
+O	383	384	+
+O	385	388	for
+B-Drug	389	396	cocaine
+O	396	397	.
+
+O	398	401	She
+O	402	405	has
+
+O	406	410	been
+O	411	416	given
+O	417	426	methodone
+O	427	429	at
+O	430	433	one
+O	434	436	of
+O	437	440	the
+O	441	451	facilities
+O	451	452	,
+O	453	456	but
+O	457	463	denies
+O	464	467	any
+
+B-Drug	468	477	substance
+I-Drug	478	481	use
+O	481	482	.
+
+O	483	486	She
+O	487	493	denies
+O	494	497	any
+O	498	501	new
+O	502	508	sexual
+
+O	509	517	partners
+O	517	518	,
+O	519	524	prior
+O	525	536	intercourse
+O	537	540	one
+O	541	545	year
+O	546	549	ago
+O	549	550	,
+O	551	554	has
+O	555	556	h
+O	556	557	/
+O	557	558	o
+O	559	560	a
+O	561	569	sexually
+
+O	570	581	transmitted
+O	582	591	infection
+O	592	597	years
+O	598	601	ago
+O	602	606	that
+O	607	610	was
+O	611	618	treated
+O	619	623	with
+
+O	624	635	antibiotics
+O	635	636	.
+
+O	637	638	.
+
+O	639	642	She
+O	643	645	is
+O	646	655	currently
+O	656	658	at
+B-LivingStatus	659	660	[
+I-LivingStatus	660	661	*
+I-LivingStatus	661	662	*
+I-LivingStatus	662	670	Hospital
+I-LivingStatus	671	676	16662
+I-LivingStatus	676	677	*
+I-LivingStatus	677	678	*
+I-LivingStatus	678	679	]
+I-LivingStatus	680	685	Rehab
+O	686	689	and
+O	690	693	has
+O	694	698	been
+B-Drug	699	704	clean
+O	705	713	x5months
+
+O	714	715	.
+
+O	716	718	In
+O	719	721	ED
+O	721	722	,
+O	723	726	she
+O	727	730	was
+O	731	736	found
+O	737	739	to
+O	740	742	be
+O	743	751	positive
+O	752	755	for
+B-Drug	756	763	cocaine
+O	764	766	in
+O	767	770	the
+O	771	772	U
+O	772	773	.
+O	773	776	tox
+O	776	777	.
+
+O	778	785	Patient
+O	786	789	was
+O	790	800	confronted
+O	801	804	and
+O	805	809	then
+O	810	818	admitted
+O	819	821	to
+B-Drug	822	827	doing
+I-Drug	828	829	a
+I-Drug	830	834	line
+O	835	837	on
+O	838	841	her
+
+O	842	845	way
+O	846	848	to
+O	849	854	court
+O	855	859	last
+O	860	864	week
+O	864	865	.
+
+O	866	869	Was
+O	870	877	unhappy
+O	878	885	because
+O	886	890	this
+O	891	895	will
+O	896	900	ruin
+O	901	904	her
+
+O	905	912	chances
+O	913	915	to
+O	916	919	get
+O	920	921	a
+O	922	927	liver
+O	928	938	transplant
+O	938	939	.

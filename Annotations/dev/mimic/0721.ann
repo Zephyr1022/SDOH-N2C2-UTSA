@@ -1,0 +1,21 @@
+T1	Tobacco 36 47	tobacco use
+T2	StatusTime 29 35	denies
+T3	Alcohol 57 79	occasional alcohol use
+T4	StatusTime 57 79	occasional alcohol use
+T6	Amount 80 104	approximately 1-2 drinks
+T7	Frequency 105 112	a month
+T8	Employment 118 123	works
+T9	StatusEmploy 118 123	works
+T10	Type 127 144	a phone installer
+T11	LivingStatus 163 168	lives
+T12	StatusTime 163 168	lives
+T13	TypeLiving 169 177;178 182	with his wife
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4 Amount:T6 Frequency:T7
+E3	Employment:T8 Status:T9 Type:T10
+E4	LivingStatus:T11 Status:T12 Type:T13
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A4	StatusEmployVal T9 employed
+A5	StatusTimeVal T12 current
+A6	TypeLivingVal T13 with_family

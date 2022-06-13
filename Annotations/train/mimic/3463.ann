@@ -1,0 +1,12 @@
+T1	LivingStatus 11 16	lives
+T2	StatusTime 11 16	lives
+T3	TypeLiving 17 22	alone
+T4	Tobacco 44 48	tobb
+T5	Alcohol 53 61	etoh use
+T6	StatusTime 24 43	chart notes include
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T6
+E3	Alcohol:T5 Status:T6
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T6 current

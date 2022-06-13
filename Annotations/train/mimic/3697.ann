@@ -1,0 +1,43 @@
+T1	LivingStatus 67 75	Homeless
+T2	TypeLiving 67 75	Homeless
+T3	StatusTime 67 75	Homeless
+T4	Duration 76 94	for last two years
+T5	Employment 169 177	Employed
+T6	StatusEmploy 178 188	previously
+T7	Type 192 239	sales, telemarketer, bouncer, [LOCATION] census
+T8	Drug 429 446	Currently IV meth
+T9	StatusTime 429 446	Currently IV meth
+T10	Method 439 441	IV
+T11	Type 442 446	meth
+T12	Frequency 447 454	monthly
+T13	Drug 456 463	hashish
+T14	Type 456 463	hashish
+T15	StatusTime 456 463	hashish
+T16	Drug 472 487	cocaine and LSD
+T17	Type 472 487	cocaine and LSD
+T18	StatusTime 465 471	remote
+T19	Alcohol 518 529	Alcohol use
+T20	StatusTime 531 537	denies
+T21	Drug 540 549	Marijuana
+T22	Type 540 549	Marijuana
+T23	StatusTime 551 560	currently
+T25	Drug 571 587	Methamphetamines
+T26	Type 571 587	Methamphetamines
+T27	StatusTime 589 598	currently
+E1	LivingStatus:T1 Status:T3 Type:T2 Duration:T4
+E2	Employment:T5 Status:T6 Type:T7
+E3	Drug:T8 Status:T9 Method:T10 Type:T11 Frequency:T12
+E4	Drug:T13 Status:T15 Type:T14
+E5	Drug:T16 Type:T17 Status:T18
+E6	Alcohol:T19 Status:T20
+E7	Drug:T21 Type:T22 Status:T23
+E8	Drug:T25 Type:T26 Status:T27
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T6 unemployed
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T15 current
+A6	StatusTimeVal T18 past
+A7	StatusTimeVal T20 none
+A8	StatusTimeVal T23 current
+A10	StatusTimeVal T27 current

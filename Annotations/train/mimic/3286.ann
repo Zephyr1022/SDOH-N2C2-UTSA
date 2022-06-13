@@ -1,0 +1,11 @@
+T1	Tobacco 40 51	Tobacco Use
+T2	StatusTime 53 58	prior
+T3	Amount 59 63	1 pd
+T4	Drug 85 93	Drug Use
+T5	StatusTime 95 116	heroin, cocaine, IVDU
+T6	Type 95 110	heroin, cocaine
+T7	Method 112 116	IVDU
+E1	Tobacco:T1 Status:T2 Amount:T3
+E2	Drug:T4 Status:T5 Type:T6 Method:T7
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 current

@@ -1,0 +1,53 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Married
+O	23	24	.
+
+O	25	37	Construction
+O	38	44	worker
+O	44	45	.
+
+O	46	52	Smoked
+O	53	54	>
+O	54	56	25
+O	57	62	years
+O	63	66	ago
+O	66	67	.
+
+O	68	72	IVDU
+O	73	75	of
+
+O	76	82	heroin
+O	83	85	25
+O	85	86	-
+O	86	88	30
+O	89	94	years
+O	95	98	ago
+O	98	99	.
+
+O	100	101	1
+O	102	110	daughter
+O	110	111	.
+
+O	112	113	[
+O	113	114	*
+O	114	115	*
+O	115	119	Name
+O	120	121	(
+O	121	123	NI
+O	123	124	)
+O	125	126	*
+O	126	127	*
+O	127	128	]
+O	128	129	.
+O	130	136	valium
+O	137	140	use
+O	140	141	.
+
+O	142	144	No
+B-Alcohol	145	149	ETOH
+
+B-Alcohol	150	153	use
+O	153	154	.

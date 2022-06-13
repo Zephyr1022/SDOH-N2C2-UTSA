@@ -1,0 +1,24 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	23	living
+O	24	26	in
+O	27	34	shelter
+O	34	35	/
+O	35	43	homeless
+O	43	44	,
+O	45	51	single
+O	51	52	,
+O	53	63	unemployed
+O	64	66	on
+O	67	70	SSI
+
+O	71	72	+
+O	73	80	tobacco
+O	81	84	and
+O	85	89	meth
+O	90	93	use
+
+O	94	100	denies
+B-Alcohol	101	108	alcohol

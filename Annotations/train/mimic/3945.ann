@@ -1,0 +1,19 @@
+T1	LivingStatus 95 100	Lives
+T2	StatusTime 95 100	Lives
+T3	TypeLiving 101 112	with her SO
+T4	Tobacco 601 608	smoking
+T5	StatusTime 596 600	Quit
+T6	History 609 614	at 30
+T7	Amount 630 641	8 pack year
+T8	Alcohol 651 657	Drinks
+T9	Amount 658 675	4 glasses of wine
+T10	Type 671 675	wine
+T11	Frequency 676 684	per week
+T12	StatusTime 651 657	Drinks
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6 Amount:T7
+E3	Alcohol:T8 Status:T12 Amount:T9 Type:T10 Frequency:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T12 current

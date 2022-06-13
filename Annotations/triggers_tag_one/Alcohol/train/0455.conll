@@ -1,0 +1,26 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	24	computer
+O	25	34	programer
+
+O	35	40	lives
+O	41	45	with
+O	46	53	sisters
+
+O	54	59	never
+O	60	61	[
+O	61	62	*
+O	62	63	*
+O	63	68	Name2
+O	69	70	(
+O	70	72	NI
+O	72	73	)
+O	74	78	1818
+O	78	79	*
+O	79	80	*
+O	80	81	]
+
+O	82	84	no
+B-Alcohol	85	89	ETOH

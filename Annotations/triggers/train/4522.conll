@@ -1,0 +1,137 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+B-LivingStatus	24	29	lives
+O	30	32	at
+O	33	37	home
+O	38	42	with
+O	43	46	his
+O	47	51	long
+O	51	52	-
+O	52	56	term
+O	57	67	girlfriend
+O	67	68	.
+
+O	69	78	currently
+
+O	79	82	not
+B-Employment	83	90	working
+O	90	91	.
+
+O	92	94	He
+O	95	99	used
+O	100	102	to
+B-Alcohol	103	108	drink
+O	109	114	about
+O	115	119	half
+O	120	121	a
+O	122	128	gallon
+O	129	131	of
+O	132	137	vodka
+O	138	139	a
+
+O	140	143	day
+O	143	144	,
+O	145	150	until
+O	151	160	diagnosed
+O	161	165	with
+O	166	175	cirrhosis
+O	176	179	and
+O	180	192	incarcerated
+O	193	196	for
+O	197	203	buying
+
+O	204	210	heroin
+O	210	211	.
+
+O	213	215	He
+O	216	219	has
+O	220	221	a
+O	222	223	1
+O	223	224	.
+O	224	225	5
+O	226	229	ppd
+O	230	231	X
+O	232	234	30
+O	235	240	years
+B-Tobacco	241	248	smoking
+O	248	249	,
+O	250	254	quit
+O	255	260	while
+O	261	263	in
+
+O	264	268	jail
+O	268	269	,
+O	270	273	but
+O	274	276	re
+O	276	277	-
+O	277	284	started
+O	285	293	recently
+O	293	294	.
+
+O	296	299	Now
+B-Tobacco	300	307	smoking
+O	308	309	[
+O	309	310	*
+O	310	311	*
+O	311	312	4
+O	312	313	-
+O	313	314	9
+O	314	315	*
+O	315	316	*
+O	316	317	]
+O	318	328	cigarettes
+O	328	329	/
+O	329	332	day
+O	332	333	.
+
+O	334	336	12
+O	337	341	year
+O	342	349	history
+O	350	352	of
+B-Drug	353	364	significant
+I-Drug	365	367	IV
+I-Drug	368	374	heroin
+I-Drug	375	378	use
+O	378	379	,
+O	380	383	off
+O	384	389	while
+
+O	390	402	incarcerated
+O	402	403	.
+
+O	405	409	Used
+B-Drug	410	412	IV
+I-Drug	413	419	heroin
+O	420	424	last
+O	425	427	on
+O	428	429	[
+O	429	430	*
+O	430	431	*
+O	431	432	7
+O	432	433	-
+O	433	435	25
+O	435	436	*
+O	436	437	*
+O	437	438	]
+O	439	440	(
+O	440	448	birthday
+O	448	449	)
+O	449	450	.
+
+O	452	454	No
+
+O	455	462	history
+O	463	465	of
+O	466	476	withdrawal
+O	477	481	from
+O	482	486	etoh
+O	486	487	/
+O	487	490	dts
+O	490	491	,
+O	492	494	or
+O	495	501	heroin
+O	502	512	withdrawal
+O	512	513	.

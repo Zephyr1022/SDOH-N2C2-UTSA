@@ -1,0 +1,9 @@
+HABITS:
+Tobacco Use: none smoker   
+Alcohol Use: none  
+Drug Use: none 
+
+SOCIAL HISTORY:
+Lives in [LOCATION] with his partner (who is an RN at [LOCATION]) 
+Independent in ADLS, iADLs 
+No children.

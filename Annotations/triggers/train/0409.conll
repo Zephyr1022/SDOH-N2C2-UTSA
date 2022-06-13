@@ -1,0 +1,34 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	-
+B-Tobacco	18	25	Tobacco
+I-Tobacco	26	33	history
+O	33	34	:
+O	35	42	Current
+O	43	49	Smoker
+O	50	54	with
+O	55	62	greater
+O	63	67	than
+O	68	70	40
+
+O	71	75	pack
+O	75	76	-
+O	76	81	years
+
+O	82	83	-
+B-Alcohol	84	88	ETOH
+O	88	89	:
+O	90	92	No
+O	93	100	alcohol
+O	101	106	abuse
+
+O	107	108	-
+B-Drug	109	116	Illicit
+I-Drug	117	122	drugs
+O	122	123	:
+O	124	126	No
+O	127	134	illicit
+O	135	139	drug
+O	140	145	abuse

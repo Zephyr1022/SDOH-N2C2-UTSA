@@ -1,0 +1,58 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	at
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	36	Location
+O	37	42	71793
+O	42	43	*
+O	43	44	*
+O	44	45	]
+O	46	51	House
+O	52	59	Nursing
+O	60	64	Home
+O	65	66	x
+O	67	68	3
+O	69	75	months
+O	75	76	.
+
+O	77	87	Previously
+
+B-LivingStatus	88	96	homeless
+O	96	97	.
+
+O	98	106	Previous
+B-Alcohol	107	116	alcoholic
+O	116	117	,
+O	118	123	sober
+O	124	129	since
+O	130	131	[
+O	131	132	*
+O	132	133	*
+O	133	137	2154
+O	137	138	-
+O	138	139	7
+O	139	140	-
+O	140	141	2
+O	141	142	*
+O	142	143	*
+O	143	144	]
+O	144	145	.
+
+O	146	153	History
+
+O	154	156	of
+B-Drug	157	165	illicits
+O	166	170	many
+O	171	176	years
+O	177	180	ago
+O	180	181	,
+O	182	184	no
+B-Drug	185	194	injection
+I-Drug	195	199	drug
+I-Drug	200	203	use
+O	203	204	.

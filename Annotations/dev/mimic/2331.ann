@@ -1,0 +1,25 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	Denies
+T3	Alcohol 29 40	Alcohol Use
+T4	Amount 42 52	2-3 drinks
+T5	Frequency 52 61	/1-2 days
+T6	StatusTime 42 61	2-3 drinks/1-2 days
+T7	Drug 62 70	Drug Use
+T8	StatusTime 72 78	Denies
+T9	LivingStatus 97 115	Currently residing
+T10	StatusTime 97 106	Currently
+T11	TypeLiving 116 129	in [LOCATION]
+T12	Employment 200 205	Works
+T14	StatusEmploy 200 205	Works
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Amount:T4 Frequency:T5 Status:T6
+E3	Drug:T7 Status:T8
+E4	LivingStatus:T9 Status:T10 Type:T11
+E5	Employment:T12 Status:T14 Type:T13
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T10 current
+A5	TypeLivingVal T11 with_others
+A6	StatusEmployVal T14 employed
+T13	Type 209 223	a [PROFESSION]

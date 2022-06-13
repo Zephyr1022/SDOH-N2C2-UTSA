@@ -1,0 +1,19 @@
+T1	Tobacco 9 20	Tobacco Use
+T3	StatusTime 22 34	Intermittent
+T4	Alcohol 37 48	Alcohol Use
+T5	StatusTime 50 53	Not
+T6	Drug 69 77	Drug Use
+T7	Type 79 94	Meth and heroin
+T8	StatusTime 79 94	Meth and heroin
+T9	LivingStatus 159 168	Residence
+T10	TypeLiving 170 178	homeless
+T11	StatusTime 170 178	homeless
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Type:T7 Status:T8
+E4	LivingStatus:T9 Type:T10 Status:T11
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T10 homeless
+A6	StatusTimeVal T11 current

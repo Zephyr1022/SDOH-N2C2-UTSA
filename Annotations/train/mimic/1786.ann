@@ -1,0 +1,23 @@
+T1	Alcohol 17 21	EtOH
+T2	StatusTime 23 33	Denies use
+T3	Tobacco 35 42	Tobacco
+T4	StatusTime 66 76	now smokes
+T5	Amount 77 95	about 6 cigarettes
+T6	Frequency 96 103	per day
+T7	Type 85 95	cigarettes
+T8	Drug 163 168	Drugs
+T9	Method 170 172	IV
+T10	StatusTime 170 181	IV drug use
+T11	LivingStatus 187 192	lives
+T12	StatusTime 187 192	lives
+T13	TypeLiving 193 198	alone
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T3 Status:T4 Amount:T5 Type:T7 Frequency:T6 Amount2:T14
+E3	Drug:T8 Status:T10 Method:T9
+E4	LivingStatus:T11 Status:T12 Type:T13
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T10 current
+A4	StatusTimeVal T12 current
+A5	TypeLivingVal T13 alone
+T14	Amount 44 56	30 pack year

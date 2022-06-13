@@ -1,0 +1,18 @@
+T1	Tobacco 8 19	Tobacco Use
+T2	Alcohol 36 47	Alcohol Use
+T3	Drug 56 64	Drug Use
+T4	StatusTime 21 32	none smoker
+T5	StatusTime 49 53	none
+T6	StatusTime 66 70	none
+T7	LivingStatus 89 94	Lives
+T8	TypeLiving 109 125	with his partner
+T9	StatusTime 89 94	Lives
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T5
+E3	Drug:T3 Status:T6
+E4	LivingStatus:T7 Status:T9 Type:T8
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T6 none
+A4	TypeLivingVal T8 with_others
+A5	StatusTimeVal T9 current

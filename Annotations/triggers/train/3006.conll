@@ -1,0 +1,23 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	Lives
+O	23	25	in
+O	26	27	[
+O	27	35	LOCATION
+O	35	36	]
+O	37	41	with
+O	42	48	family
+O	48	49	.
+
+O	51	57	Denies
+B-Tobacco	58	65	tobacco
+O	65	66	,
+B-Alcohol	67	74	alcohol
+O	74	75	,
+B-Drug	76	82	street
+I-Drug	83	88	drugs
+O	89	92	and
+O	93	100	alcohol
+O	100	101	.

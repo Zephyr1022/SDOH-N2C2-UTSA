@@ -1,0 +1,23 @@
+T4	Employment 96 117	Currently not working
+T5	StatusEmploy 96 117	Currently not working
+T6	Tobacco 136 143	smoking
+T7	Type 144 154	cigarettes
+T8	Amount 156 165	1/2-1 ppd
+T9	StatusTime 127 135	is still
+T10	Alcohol 167 173	Drinks
+T11	StatusTime 167 173	Drinks
+T12	Amount 174 190	1 bottle of wine
+T13	Type 186 190	wine
+T14	Frequency 191 197	a week
+T15	Drug 209 218	marijuana
+T16	Type 209 218	marijuana
+T17	Method 202 208	smokes
+T18	StatusTime 202 208	smokes
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T9 Type:T7 Amount:T8
+E4	Alcohol:T10 Status:T11 Amount:T12 Type:T13 Frequency:T14
+E5	Drug:T15 Status:T18 Method:T17 Type:T16
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T11 current
+A6	StatusTimeVal T18 current

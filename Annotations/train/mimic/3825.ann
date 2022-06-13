@@ -1,0 +1,47 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 25	1/2
+T3	Frequency 26 33	per day
+T4	Duration 34 46	since age 14
+T5	StatusTime 22 46	1/2 per day since age 14
+T6	Alcohol 80 91	Alcohol Use
+T7	Amount 93 100	<1 beer
+T8	Type 96 100	beer
+T9	Frequency 100 106	/month
+T10	StatusTime 93 106	<1 beer/month
+T11	Drug 107 115	Drug Use
+T12	Type 142 148	heroin
+T13	History 149 157	2 mo ago
+T14	Amount 183 197	"couple dimes"
+T15	Frequency 198 203	a day
+T16	StatusTime 137 141	quit
+T17	Drug 242 250	injected
+T18	Method 242 250	injected
+T19	History 251 260	yesterday
+T20	StatusTime 237 241	Last
+T21	Drug 333 351	cocaine, marijuana
+T22	Type 333 351	cocaine, marijuana
+T24	StatusTime 321 332	Occassional
+T25	LivingStatus 415 420	Lives
+T26	TypeLiving 421 428	in tent
+T27	StatusTime 415 420	Lives
+T28	Employment 446 452	Worked
+T29	Type 456 465	fisherman
+T30	StatusEmploy 446 452	Worked
+E1	Tobacco:T1 Amount:T2 Frequency:T3 Duration:T4 Status:T5 Amount2:T23 Frequency2:T31
+E2	Alcohol:T6 Amount:T7 Type:T8 Frequency:T9 Status:T10
+E3	Drug:T11 Type:T12 History:T13 Amount:T14 Frequency:T15 Status:T16
+E4	Drug:T17 Method:T18 Status:T20 History:T19 Method2:T32
+E5	Drug:T21 Type:T22 Status:T24
+E6	LivingStatus:T25 Type:T26 Status:T27
+E7	Employment:T28 Status:T30 Type:T29
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T10 current
+A3	StatusTimeVal T16 past
+A4	StatusTimeVal T20 past
+A6	StatusTimeVal T24 current
+A7	TypeLivingVal T26 homeless
+A8	StatusTimeVal T27 current
+A9	StatusEmployVal T30 unemployed
+T23	Amount 48 60	up to a pack
+T31	Frequency 61 68	per day
+T32	Method 272 300	muscles, sometimes skin pops

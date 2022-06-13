@@ -1,0 +1,18 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 30 41	Alcohol Use
+T3	StatusTime 22 28	Denies
+T4	StatusTime 61 74	used to drink
+T5	History 75 81	in 20s
+T6	Drug 83 91	Drug Use
+T7	Type 93 95	MJ
+T8	StatusTime 96 104	remotely
+T9	Employment 226 239	On disability
+T10	StatusEmploy 226 239	On disability
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T2 Status:T4 History:T5
+E3	Drug:T6 Type:T7 Status:T8
+E4	Employment:T9 Status:T10
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T8 past
+A4	StatusEmployVal T10 on_disability

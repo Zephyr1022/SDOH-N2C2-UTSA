@@ -1,0 +1,136 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Married
+O	23	24	.
+
+B-LivingStatus	25	30	Lives
+O	31	35	with
+O	36	40	wife
+O	41	43	in
+O	44	45	[
+O	45	46	*
+O	46	47	*
+O	47	51	Name
+O	52	53	(
+O	53	55	NI
+O	55	56	)
+O	57	61	1475
+O	61	62	*
+O	62	63	*
+O	63	64	]
+O	64	65	.
+
+O	66	68	He
+O	69	72	has
+O	73	74	a
+O	75	77	28
+O	78	82	year
+O	83	86	old
+
+O	87	90	son
+O	90	91	.
+
+O	92	93	[
+O	93	94	*
+O	94	95	*
+O	95	99	Name
+O	100	101	(
+O	101	103	NI
+O	103	104	)
+O	105	106	*
+O	106	107	*
+O	107	108	]
+O	109	112	and
+O	113	116	his
+O	117	121	wife
+O	122	126	were
+O	127	135	planning
+O	136	138	to
+O	139	147	vacation
+O	148	150	in
+O	151	152	[
+O	152	153	*
+O	153	154	*
+O	154	158	Name
+O	159	160	(
+O	160	162	NI
+O	162	163	)
+O	164	167	108
+O	167	168	*
+O	168	169	*
+O	169	170	]
+O	171	174	for
+
+O	175	178	the
+O	179	185	winter
+O	186	188	in
+O	189	190	2
+O	191	196	weeks
+O	196	197	.
+
+O	198	200	No
+O	201	208	current
+B-Tobacco	209	216	tobacco
+O	216	217	.
+
+O	218	222	Quit
+O	223	225	32
+O	226	231	years
+O	232	235	ago
+O	235	236	.
+
+O	237	238	>
+O	238	240	15
+O	241	243	pk
+O	243	244	/
+O	244	246	yr
+O	247	254	history
+O	254	255	.
+
+B-Alcohol	256	262	Drinks
+O	263	264	~
+O	264	265	5
+O	265	266	-
+O	266	267	6
+O	268	273	beers
+O	273	274	/
+O	274	277	day
+O	277	278	.
+
+O	279	282	Had
+O	283	290	stopped
+B-Alcohol	291	299	drinking
+
+O	300	303	for
+O	304	305	2
+O	306	312	months
+O	313	317	post
+O	317	318	-
+O	318	324	bypass
+O	325	326	w
+O	326	327	/
+O	327	328	o
+O	329	332	any
+O	333	338	signs
+O	339	341	of
+O	342	352	withdrawal
+O	352	353	.
+
+O	354	361	Started
+
+B-Alcohol	362	370	drinking
+O	371	376	again
+O	377	378	~
+O	378	379	1
+O	380	385	month
+O	386	389	ago
+O	389	390	.
+
+B-Employment	392	399	Retired
+I-Employment	400	408	physical
+I-Employment	409	418	education
+
+O	419	429	instructor
+O	429	430	.

@@ -1,0 +1,67 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	denies
+
+B-Alcohol	32	39	Alcohol
+I-Alcohol	40	43	Use
+O	43	44	:
+O	45	51	denies
+
+B-Drug	52	56	Drug
+I-Drug	57	60	Use
+O	60	61	:
+O	62	68	denies
+
+O	71	77	SOCIAL
+O	78	85	HISTORY
+O	85	86	:
+
+O	88	89	[
+O	89	93	NAME
+O	93	94	]
+O	95	97	is
+O	98	99	a
+O	100	102	60
+O	103	107	year
+O	108	111	old
+O	112	116	male
+O	117	120	who
+B-LivingStatus	121	126	lives
+O	127	129	by
+O	130	137	himself
+O	138	140	in
+O	141	143	an
+O	144	153	apartment
+O	154	156	in
+O	157	158	[
+O	158	166	LOCATION
+O	166	167	]
+O	167	168	.
+
+O	169	171	He
+O	172	174	is
+B-Employment	175	183	military
+I-Employment	184	191	veteran
+O	191	192	.
+
+O	193	196	His
+O	197	201	wife
+O	202	206	also
+O	207	213	served
+O	214	216	in
+O	217	220	the
+O	221	229	military
+O	230	233	and
+O	234	240	passed
+O	241	245	away
+O	246	251	while
+O	252	259	serving
+O	260	262	in
+O	263	264	[
+O	264	272	LOCATION
+O	272	273	]
+O	273	274	.

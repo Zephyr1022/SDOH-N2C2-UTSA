@@ -1,0 +1,63 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	27	34	fiancee
+O	35	37	in
+O	38	39	[
+O	39	40	*
+O	40	41	*
+O	41	49	Location
+O	50	51	(
+O	51	53	un
+O	53	54	)
+O	55	59	2498
+O	59	60	*
+O	60	61	*
+O	61	62	]
+O	62	63	.
+
+B-Employment	64	66	On
+I-Employment	67	71	SSDI
+O	71	72	.
+
+O	73	78	Denie
+B-Alcohol	79	83	EtOH
+I-Alcohol	84	87	use
+O	87	88	.
+
+B-Tobacco	89	96	Tobacco
+
+O	97	98	-
+O	99	100	[
+O	100	101	*
+O	101	102	*
+O	102	104	12
+O	104	105	-
+O	105	107	30
+O	107	108	*
+O	108	109	*
+O	109	110	]
+O	111	114	ppd
+O	115	118	x10
+O	119	124	years
+O	124	125	.
+
+B-Drug	126	133	Illicit
+O	134	135	-
+O	136	143	cocaine
+O	144	148	last
+O	149	156	snorted
+O	157	158	1
+O	159	163	week
+O	164	167	ago
+O	167	168	.
+
+O	169	173	Past
+O	174	181	history
+O	182	184	of
+B-Drug	185	193	percocet
+I-Drug	194	199	abuse
+O	199	200	.

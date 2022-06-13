@@ -1,0 +1,27 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	15	smoker
+
+O	16	18	no
+B-Alcohol	19	23	etoh
+
+B-Drug	24	28	IVDU
+O	28	29	-
+O	29	36	reports
+O	37	45	sobriety
+O	46	47	7
+O	48	53	years
+O	54	59	until
+O	60	63	use
+O	64	65	2
+O	66	72	months
+O	73	76	ago
+
+O	78	84	SOCIAL
+O	85	92	HISTORY
+O	92	93	:
+
+O	95	104	Currently
+O	105	107	in
+B-LivingStatus	108	115	respite

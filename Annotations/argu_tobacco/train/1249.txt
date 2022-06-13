@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: Denies   Alcohol Use: drinks one fifth of hard alcohol/day   Drug Use: Denies
+
+SOCIAL HISTORY: 
+Homeless
+Lives on the street or in shelters in downtown [LOCATION]

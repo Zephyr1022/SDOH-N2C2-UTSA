@@ -1,0 +1,18 @@
+T1	Tobacco 69 76	smoking
+T2	Amount 44 57;58 65	100 pack year history
+T3	StatusTime 35 57;58 65	previous 100 pack year history
+T5	Alcohol 124 142	alcoholic beverage
+T7	Amount 144 166	approximately 3 drinks
+T8	Frequency 167 175	per week
+T9	StatusTime 106 109	has
+T10	LivingStatus 181 186	lives
+T11	TypeLiving 192 221	retirement home with his wife
+T12	StatusTime 181 186	lives
+E1	Tobacco:T1 Amount:T2 Status:T3 History:T4
+E3	Alcohol:T5 Status:T9 Amount:T7 Frequency:T8
+E4	LivingStatus:T10 Status:T12 Type:T11
+A1	StatusTimeVal T3 past
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T11 with_others
+A6	StatusTimeVal T12 current
+T4	History 87 100	in [**2115**]

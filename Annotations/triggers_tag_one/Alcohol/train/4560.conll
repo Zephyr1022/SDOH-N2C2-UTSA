@@ -1,0 +1,84 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lived
+O	22	24	in
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	36	Location
+O	37	38	*
+O	38	39	*
+O	39	40	]
+O	41	45	with
+O	46	49	her
+O	50	54	aunt
+O	55	58	and
+O	59	64	uncle
+O	65	70	until
+O	71	79	recently
+O	79	80	,
+O	81	85	when
+
+O	86	89	she
+O	90	95	moved
+O	96	98	in
+O	99	103	with
+O	104	107	her
+O	108	117	boyfriend
+O	118	120	in
+O	121	122	[
+O	122	123	*
+O	123	124	*
+O	124	128	Name
+O	129	130	(
+O	130	132	NI
+O	132	133	)
+O	134	136	86
+O	136	137	*
+O	137	138	*
+O	138	139	]
+O	139	140	.
+
+O	141	144	She
+O	145	149	does
+O	150	153	not
+O	154	158	work
+
+O	159	160	(
+O	160	168	disabled
+O	168	169	)
+O	169	170	.
+
+O	171	174	She
+O	175	181	denies
+O	182	191	cigarette
+O	192	195	use
+O	196	199	but
+O	200	212	occasionally
+O	213	219	smokes
+
+O	220	229	marijuana
+O	230	231	(
+O	231	235	none
+O	236	238	in
+O	239	243	past
+O	244	247	few
+O	248	253	weeks
+O	253	254	)
+O	254	255	.
+
+O	256	260	Does
+O	261	264	not
+O	265	270	drink
+B-Alcohol	271	278	alcohol
+O	278	279	.
+
+O	280	282	No
+
+O	283	288	other
+O	289	301	recreational
+O	302	306	drug
+O	307	310	use
+O	310	311	.

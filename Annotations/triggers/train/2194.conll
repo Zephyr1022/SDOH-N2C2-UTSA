@@ -1,0 +1,48 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	32	occasional
+O	33	39	hookah
+O	40	43	use
+O	43	44	,
+O	45	47	no
+B-Tobacco	48	57	cigarette
+I-Tobacco	58	61	use
+
+B-Alcohol	62	69	Alcohol
+I-Alcohol	70	73	Use
+O	73	74	:
+O	75	81	denies
+
+B-Drug	82	86	Drug
+I-Drug	87	90	Use
+O	90	91	:
+O	92	102	infrequent
+O	103	111	cannabis
+O	112	115	use
+
+O	117	123	SOCIAL
+O	124	131	HISTORY
+O	131	132	:
+
+O	134	139	Moved
+O	140	144	here
+O	145	149	from
+O	150	151	[
+O	151	159	LOCATION
+O	159	160	]
+O	161	166	years
+O	167	170	ago
+O	170	171	.
+
+B-LivingStatus	173	178	Lives
+O	179	183	with
+O	184	190	family
+O	191	193	in
+O	194	195	[
+O	195	203	LOCATION
+O	203	204	]
+O	204	205	.

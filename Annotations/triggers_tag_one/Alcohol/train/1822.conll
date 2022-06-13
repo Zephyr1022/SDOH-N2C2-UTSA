@@ -1,0 +1,74 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	20	From
+O	21	22	[
+O	22	23	*
+O	23	24	*
+O	24	31	Country
+O	32	36	3594
+O	36	37	*
+O	37	38	*
+O	38	39	]
+O	40	50	originally
+O	50	51	.
+
+O	52	61	Currently
+O	62	67	lives
+O	68	70	in
+O	71	72	a
+O	73	80	nursing
+
+O	81	85	home
+O	85	86	/
+O	86	91	rehab
+O	92	97	after
+O	98	101	his
+O	102	106	last
+O	107	116	admission
+O	117	119	to
+O	120	121	[
+O	121	122	*
+O	122	123	*
+O	123	132	Hospital3
+O	133	134	*
+O	134	135	*
+O	135	136	]
+O	137	138	2
+O	139	144	weeks
+O	145	150	prior
+O	151	153	to
+
+O	154	158	this
+O	159	168	admission
+O	168	169	.
+
+O	171	177	Former
+O	178	185	cocaine
+O	186	189	and
+O	190	192	MJ
+O	193	196	use
+O	196	197	.
+
+O	198	204	Denies
+O	205	212	tobacco
+O	213	216	use
+O	216	217	.
+
+O	218	222	Quit
+B-Alcohol	223	227	ETOH
+O	228	232	last
+O	233	237	year
+O	237	238	.
+
+O	239	245	Former
+O	246	250	high
+O	251	257	school
+O	258	265	teacher
+O	265	266	,
+O	267	273	taught
+
+O	274	284	automotive
+O	285	290	class
+O	290	291	.

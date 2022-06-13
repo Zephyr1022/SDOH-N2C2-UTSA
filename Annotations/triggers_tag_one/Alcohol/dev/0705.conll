@@ -1,0 +1,47 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	17	23	Single
+O	23	24	;
+O	25	30	lives
+O	31	32	w
+O	32	33	/
+O	34	37	her
+O	38	44	family
+O	44	45	.
+
+O	46	52	Denies
+O	53	60	tobacco
+O	60	61	/
+B-Alcohol	61	68	alcohol
+O	68	69	/
+O	69	74	drugs
+O	74	75	.
+
+O	76	78	On
+
+O	79	89	disability
+O	89	90	.
+
+O	91	95	Able
+O	96	98	to
+O	99	106	perform
+O	107	110	her
+O	111	121	activities
+O	122	124	of
+O	125	128	ADL
+O	129	132	and
+O	133	137	walk
+
+O	138	145	several
+O	146	151	miles
+O	152	153	w
+O	153	154	/
+O	154	157	out
+O	158	165	resting
+O	166	171	prior
+O	172	174	to
+O	175	181	recent
+O	182	191	admission
+O	191	192	.

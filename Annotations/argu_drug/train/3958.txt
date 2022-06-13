@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: _ rare  Alcohol Use:  none  Drug Use: none
+
+SOCIAL HISTORY: 
+The patient was born and raised in [LOCATION] and has been very active in advocating for sickle cell care in the area. She has a degree in child development. She coordinates before and after school programs for children through a company that contracts with the public school system. Her sister lives with her near [LOCATION].

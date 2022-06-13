@@ -1,0 +1,20 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 31 38	1-2 ppd
+T3	StatusTime 47 51	quit
+T4	History 52 63	4 years ago
+T5	Alcohol 65 76	Alcohol Use
+T7	StatusTime 78 88	Occasional
+T8	Drug 91 99	Drug Use
+T9	StatusTime 101 107	denies
+T10	LivingStatus 126 135	Residence
+T11	StatusTime 137 142	Lives
+T12	TypeLiving 151 164	with his wife
+E1	Tobacco:T1 Amount:T2 Status:T3 History:T4
+E2	Alcohol:T5 Status:T7
+E3	Drug:T8 Status:T9
+E4	LivingStatus:T10 Type:T12 Status:T11
+A1	StatusTimeVal T3 past
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T11 current
+A6	TypeLivingVal T12 with_family

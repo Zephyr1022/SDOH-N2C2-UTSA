@@ -1,0 +1,12 @@
+Social History: Active IV drug user with methamphetamine, does not smoke or drink alcohol.
+
+Physical Exam
+
+Vitals (Most recent and 24 hour range.) 
+Date	Result	Last	MIN	  -  MAX
+[DATE] 02:33	Temp C: 	38.5	36.6	  -  38.5
+[DATE] 02:33	HR: 	103	103	  -  118
+[DATE] 02:33	RR: 	18	16	  -  26
+[DATE] 02:33	SBP Non-Inv: 	148	148	  -  174
+[DATE] 02:33	DBP Non-Inv: 	83	83	  -  100
+[DATE] 22:05	MAP Non-Inv: 	110	110	  -  110

@@ -1,0 +1,19 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	22	Former
+I-Employment	23	26	Sea
+I-Employment	26	27	-
+I-Employment	27	30	man
+O	30	31	.
+
+O	32	39	Married
+O	39	40	,
+O	41	44	not
+B-Employment	45	52	working
+O	52	53	,
+O	54	60	Denies
+B-Tobacco	61	68	Tobacco
+O	68	69	/
+B-Alcohol	69	73	Etoh

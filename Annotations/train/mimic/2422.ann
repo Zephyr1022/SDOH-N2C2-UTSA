@@ -1,0 +1,25 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 34	48 pack year
+T3	StatusTime 22 37	48 pack year hx
+T4	Alcohol 40 51	Alcohol Use
+T5	Amount 53 59	A beer
+T6	Frequency 60 81	about 1 time per week
+T7	StatusTime 53 81	A beer about 1 time per week
+T8	Drug 86 94	Drug Use
+T9	StatusTime 96 102	Denies
+T10	Drug 131 140	marijuana
+T11	Type 131 140	marijuana
+T13	StatusTime 104 130	Used to intermittently use
+T14	Employment 362 369	retired
+T15	StatusEmploy 362 369	retired
+E1	Tobacco:T1 Amount:T2 Status:T3
+E2	Alcohol:T4 Amount:T5 Frequency:T6 Status:T7 Type:T12
+E3	Drug:T8 Status:T9
+E4	Drug:T10 Type:T11 Status:T13
+E5	Employment:T14 Status:T15
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T9 none
+A5	StatusTimeVal T13 past
+A6	StatusEmployVal T15 retired
+T12	Type 55 59	beer

@@ -1,0 +1,61 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+O	24	26	is
+O	27	28	a
+O	29	35	former
+O	36	42	social
+O	43	49	worker
+O	50	52	in
+O	53	62	emergency
+O	63	73	department
+O	73	74	.
+
+O	75	78	She
+
+O	79	91	occasionally
+O	92	96	uses
+B-Alcohol	97	104	alcohol
+O	104	105	.
+
+O	106	109	She
+O	110	112	is
+O	113	114	a
+O	115	121	former
+O	122	128	smoker
+O	128	129	.
+
+O	130	133	She
+O	134	136	is
+
+O	137	144	married
+O	145	148	and
+O	149	152	has
+O	153	154	a
+O	155	165	supportive
+O	166	173	husband
+O	174	177	who
+O	178	180	is
+O	181	182	a
+O	183	192	physician
+O	192	193	.
+
+O	194	195	[
+O	195	196	*
+O	196	197	*
+O	197	203	Name10
+O	204	205	(
+O	205	211	NameIs
+O	211	212	)
+O	213	214	*
+O	214	215	*
+O	215	216	]
+O	217	220	has
+
+O	221	228	several
+O	229	237	children
+O	238	240	as
+O	241	245	well
+O	245	246	.

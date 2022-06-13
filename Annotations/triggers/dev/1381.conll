@@ -1,0 +1,42 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+O	16	17	:
+O	18	24	smokes
+O	25	26	3
+O	26	27	-
+O	27	28	4
+O	29	39	cigarettes
+O	39	40	/
+O	40	43	day
+
+B-Alcohol	44	48	EtOH
+O	48	49	:
+O	50	54	rare
+
+O	55	60	Other
+O	61	71	substances
+O	71	72	:
+O	73	78	daily
+B-Drug	79	81	MJ
+I-Drug	82	85	use
+O	86	91	since
+O	92	103	adolescence
+
+O	106	112	SOCIAL
+O	113	120	HISTORY
+O	120	121	:
+
+B-LivingStatus	123	128	Lives
+O	129	131	in
+O	132	133	[
+O	133	141	LOCATION
+O	141	142	]
+O	143	147	with
+O	148	151	her
+O	152	160	daughter
+O	160	161	.
+
+B-Employment	162	172	Unemployed
+O	172	173	.

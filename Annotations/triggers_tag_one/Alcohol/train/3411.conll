@@ -1,0 +1,14 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Literally
+O	27	35	homeless
+
+O	36	42	Denies
+O	43	53	cigarettes
+O	53	54	,
+B-Alcohol	55	59	EtOH
+
+O	60	64	Meth
+O	65	68	use

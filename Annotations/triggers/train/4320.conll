@@ -1,0 +1,22 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-Tobacco	18	24	Smokes
+O	25	35	cigarettes
+O	36	39	for
+O	40	53	approximately
+O	54	55	6
+O	56	62	months
+O	63	67	over
+O	68	70	20
+O	71	76	years
+O	77	80	ago
+O	80	81	.
+
+O	83	89	Denies
+O	90	97	current
+B-Alcohol	98	105	alcohol
+O	105	106	,
+B-Drug	107	114	illicit
+I-Drug	115	120	drugs

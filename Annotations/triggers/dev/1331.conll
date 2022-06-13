@@ -1,0 +1,32 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Patient
+O	17	20	was
+O	21	27	unable
+O	28	30	to
+O	31	38	provide
+O	39	43	this
+O	44	55	information
+O	56	59	due
+O	60	62	to
+O	63	73	somnolence
+O	73	74	.
+
+O	76	82	SOCIAL
+O	83	90	HISTORY
+O	90	91	:
+
+B-LivingStatus	93	101	Homeless
+
+O	102	109	Patient
+O	110	113	was
+O	114	120	unable
+O	121	123	to
+O	124	131	provide
+O	132	142	additional
+O	143	154	information
+O	155	158	due
+O	159	161	to
+O	162	172	somnolence
+O	172	173	.

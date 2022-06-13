@@ -1,0 +1,8 @@
+T1	LivingStatus 56 64	homeless
+T5	Alcohol 115 128	alcohol abuse
+T8	Tobacco 149 160	tobacco use
+T10	Drug 191 211	intravenous drug use
+T13	Drug 232 241	marijuana
+T16	Employment 326 331	a job
+T18	Alcohol 395 403	drinking
+T20	LivingStatus 459 467	homeless

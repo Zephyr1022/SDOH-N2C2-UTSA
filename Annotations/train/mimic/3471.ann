@@ -1,0 +1,24 @@
+T1	LivingStatus 49 65	Living situation
+T2	StatusTime 68 73	Lives
+T3	TypeLiving 74 85	with others
+T4	Employment 88 98	Employment
+T5	Tobacco 120 131	Tobacco use
+T6	StatusTime 133 139	Denies
+T8	StatusEmploy 101 117	Employed student
+T9	Alcohol 141 152	Alcohol use
+T10	StatusTime 154 167	beer, spirits
+T11	Type 154 167	beer, spirits
+T12	Drug 170 178	Drug use
+T13	StatusTime 181 184	MDX
+T14	Type 181 184	MDX
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T8
+E3	Tobacco:T5 Status:T6
+E5	Alcohol:T9 Type:T11 Status:T10
+E6	Drug:T12 Type:T14 Status:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T6 none
+A5	StatusEmployVal T8 student
+A6	StatusTimeVal T10 current
+A7	StatusTimeVal T13 current

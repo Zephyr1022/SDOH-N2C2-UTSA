@@ -1,0 +1,20 @@
+T1	LivingStatus 25 30	lives
+T2	TypeLiving 39 48	with wife
+T3	StatusTime 25 30	lives
+T4	Employment 70 75	works
+T5	StatusEmploy 70 75	works
+T6	Type 79 87;88 90;91 109	director of bank and mortgages
+T7	Tobacco 111 117	Smoker
+T8	StatusTime 111 117	Smoker
+T9	Duration 134 146	for 50 years
+T11	Alcohol 156 170	alcohol intake
+T13	StatusTime 156 170	alcohol intake
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Employment:T4 Type:T6 Status:T5
+E3	Tobacco:T7 Status:T8 Duration:T9
+E4	Alcohol:T11 Status:T13
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T13 current

@@ -1,0 +1,31 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	20	Not
+O	21	28	married
+O	28	29	,
+O	30	32	no
+O	33	41	children
+O	41	42	,
+B-LivingStatus	43	48	lives
+O	49	53	with
+O	54	60	family
+O	61	63	in
+O	64	65	[
+O	65	73	LOCATION
+O	73	74	]
+O	74	75	.
+
+B-Employment	77	86	Completed
+I-Employment	87	94	student
+O	94	95	.
+
+O	96	98	No
+B-Tobacco	99	106	tobacco
+O	106	107	,
+B-Alcohol	108	112	EtOH
+O	112	113	,
+O	114	116	or
+B-Drug	117	125	illicits
+O	125	126	.

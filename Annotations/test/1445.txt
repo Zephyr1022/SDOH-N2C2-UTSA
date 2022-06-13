@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: _   Alcohol Use: _   Drug Use: _
+
+SOCIAL HISTORY: 
+Lives alone in [LOCATION] with caregiver support.

@@ -1,0 +1,17 @@
+T1	Drug 52 60	Drug Use
+T2	Alcohol 30 41	Alcohol Use
+T3	Tobacco 9 20	Tobacco Use
+T4	StatusTime 22 28	denies
+T5	StatusTime 43 49	denies
+T6	Type 73 82	marijuana
+T8	StatusTime 62 82	occasional marijuana
+T9	Employment 101 110	Residence
+T10	StatusEmploy 117 134	senior in college
+E1	Drug:T1 Type:T6 Status:T8
+E2	Alcohol:T2 Status:T5
+E3	Tobacco:T3 Status:T4
+E4	Employment:T9 Status:T10
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T5 none
+A4	StatusTimeVal T8 current
+A5	StatusEmployVal T10 student

@@ -1,0 +1,11 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 23 28	alone
+T3	StatusTime 17 22	Lives
+T4	Employment 491 494	Job
+T5	Type 496 501	Salon
+T6	StatusEmploy 496 501	Salon
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T5 Status:T6
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T6 employed

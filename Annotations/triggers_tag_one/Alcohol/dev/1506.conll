@@ -1,0 +1,27 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	25	Homeless
+O	25	26	,
+O	27	33	living
+O	34	36	at
+O	37	38	a
+O	39	46	shelter
+O	47	51	with
+O	52	55	her
+O	56	63	therapy
+O	64	67	dog
+O	68	69	[
+O	69	73	NAME
+O	73	74	]
+
+O	75	83	Endorses
+O	84	91	tobacco
+O	91	92	,
+O	93	99	denies
+B-Alcohol	100	107	alcohol
+O	107	108	,
+O	109	118	marijuana
+O	118	119	,
+O	120	127	ilicits

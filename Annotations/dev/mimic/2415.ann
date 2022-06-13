@@ -1,0 +1,18 @@
+T1	Tobacco 16 23	tobacco
+T2	Drug 31 39	drug use
+T3	Alcohol 25 29	EtOH
+T4	StatusTime 9 15	Denies
+T5	LivingStatus 58 63	Lives
+T6	StatusTime 58 63	Lives
+T7	TypeLiving 64 77	with her wife
+T8	Employment 101 108	working
+T9	StatusEmploy 87 108	Not currently working
+E1	Tobacco:T1 Status:T4
+E2	Drug:T2 Status:T4
+E3	Alcohol:T3 Status:T4
+E4	LivingStatus:T5 Type:T7 Status:T6
+E5	Employment:T8 Status:T9
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T6 current
+A3	TypeLivingVal T7 with_family
+A4	StatusEmployVal T9 unemployed

@@ -1,0 +1,57 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+O	24	26	is
+O	27	31	only
+O	32	37	child
+O	38	41	and
+O	42	45	has
+O	46	48	no
+O	49	57	children
+O	57	58	.
+
+O	59	60	-
+B-Tobacco	61	68	Tobacco
+O	68	69	:
+O	70	75	Prior
+O	76	83	smoking
+O	84	91	history
+O	91	92	,
+O	93	97	quit
+O	98	100	in
+O	101	102	[
+O	102	103	*
+O	103	104	*
+O	104	108	2098
+O	108	109	*
+O	109	110	*
+O	110	111	]
+
+O	112	113	-
+B-Alcohol	114	118	etOH
+O	118	119	:
+O	120	126	Denies
+
+O	127	128	-
+B-Drug	129	137	Illicits
+O	137	138	:
+O	139	145	Denies
+
+O	146	148	Pt
+B-Employment	149	154	works
+O	155	157	as
+O	158	160	an
+O	161	167	artist
+O	168	171	and
+B-LivingStatus	172	177	lives
+O	178	182	with
+O	183	186	her
+O	187	194	husband
+O	195	198	who
+O	199	202	has
+
+O	203	211	residual
+O	212	217	polio
+O	217	218	.

@@ -1,0 +1,38 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	The
+O	20	27	patient
+O	28	31	has
+B-Tobacco	32	38	smoked
+O	39	42	for
+O	43	45	27
+O	46	51	years
+O	51	52	,
+O	53	55	an
+O	56	67	unspecified
+O	68	74	amount
+O	74	75	.
+
+O	76	79	She
+
+O	80	84	does
+O	85	88	not
+O	89	98	currently
+O	99	104	drink
+O	105	108	but
+O	109	112	has
+O	113	114	a
+O	115	119	long
+O	120	127	history
+O	128	130	of
+B-Alcohol	131	138	ethanol
+
+B-Alcohol	139	144	abuse
+O	144	145	.
+
+O	147	150	She
+O	151	153	is
+B-Employment	154	162	disabled
+O	162	163	.

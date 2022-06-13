@@ -1,0 +1,19 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	lives
+O	23	25	in
+O	26	27	[
+O	27	35	LOCATION
+O	35	36	]
+O	37	41	with
+O	42	45	her
+O	46	53	husband
+
+O	54	60	denies
+B-Alcohol	61	65	etoh
+O	65	66	,
+B-Tobacco	67	74	smoking
+O	74	75	,
+B-Drug	76	84	illicits

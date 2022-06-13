@@ -1,0 +1,44 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	24	at
+O	25	29	home
+O	30	34	with
+O	35	38	her
+O	39	48	boyfriend
+O	49	52	and
+O	53	61	daughter
+O	61	62	,
+O	63	65	17
+O	65	66	.
+
+O	67	74	Smoking
+O	74	75	:
+O	76	79	100
+O	79	80	+
+O	81	83	py
+O	84	91	history
+O	92	93	(
+O	93	94	5
+O	95	100	packs
+O	101	104	per
+O	105	108	day
+O	108	109	)
+O	110	114	quit
+O	115	116	8
+O	117	121	year
+O	122	125	ago
+O	125	126	.
+
+B-Alcohol	127	131	EtOH
+O	131	132	:
+O	133	139	denies
+
+O	140	144	IVDU
+O	144	145	:
+O	146	152	denies
+
+O	153	166	Immunizations
+O	167	170	UTD

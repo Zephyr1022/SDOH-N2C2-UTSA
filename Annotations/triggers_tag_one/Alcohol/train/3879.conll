@@ -1,0 +1,44 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	24	30
+O	25	29	pack
+O	30	35	years
+
+B-Alcohol	36	43	Alcohol
+I-Alcohol	44	47	Use
+O	47	48	:
+O	50	58	Previous
+O	59	68	alcoholic
+O	68	69	,
+O	70	75	sober
+O	76	81	since
+O	82	83	[
+O	83	87	DATE
+O	87	88	]
+
+O	91	95	Drug
+O	96	99	Use
+O	99	100	:
+O	101	109	Previous
+O	110	112	IV
+O	113	117	drug
+O	118	121	use
+O	121	122	,
+O	123	130	cocaine
+
+O	132	138	SOCIAL
+O	139	146	HISTORY
+O	146	147	:
+
+O	149	158	Residence
+O	158	159	:
+O	160	163	Jan
+O	164	165	&
+O	166	171	Peter
+O	171	172	'
+O	172	173	s
+O	174	179	Place

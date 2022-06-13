@@ -1,0 +1,44 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	25	Currently
+O	26	31	lives
+O	32	34	at
+O	35	36	[
+O	36	37	*
+O	37	38	*
+O	38	46	Hospital
+O	47	50	100
+O	50	51	*
+O	51	52	*
+O	52	53	]
+O	54	59	Rehab
+O	59	60	.
+
+O	61	67	Denies
+B-Alcohol	68	75	alcohol
+O	75	76	,
+O	77	84	tobacco
+O	84	85	,
+
+O	86	93	illicit
+O	94	98	drug
+O	99	102	use
+O	102	103	.
+
+O	104	113	Initially
+O	114	119	lived
+O	120	124	with
+O	125	132	brother
+O	132	133	,
+O	134	138	also
+O	139	140	a
+
+O	141	151	paraplegic
+O	151	152	.
+
+O	153	159	Former
+O	160	167	airline
+O	168	177	attendant
+O	177	178	.

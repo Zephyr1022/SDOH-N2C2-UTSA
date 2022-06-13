@@ -1,0 +1,38 @@
+T1	Alcohol 24 32	drinking
+T2	Amount 33 79;80 91	approximately 0.5 pint of hard liquor (brandy) and 2 beers
+T3	Frequency 92 97	daily
+T4	StatusTime 24 32	drinking
+T5	Tobacco 99 105	Smokes
+T6	StatusTime 99 105	Smokes
+T7	Amount 106 127	[**9-11**] cigarettes
+T8	Frequency 128 133	daily
+T9	Drug 148 165	crack cocaine use
+T10	Type 148 161	crack cocaine
+T11	StatusTime 144 147	h/o
+T12	LivingStatus 249 254	Lives
+T13	StatusTime 249 254	Lives
+T14	TypeLiving 255 273;274 284	with his long-time girlfriend
+T15	LivingStatus 290 308	occasionally stays
+T16	StatusTime 290 308	occasionally stays
+T17	TypeLiving 309 324	with his mother
+T18	Employment 357 375	previously working
+T19	StatusEmploy 357 375	previously working
+T20	Type 379 395	a screen printer
+T21	History 339 351	3 months ago
+E1	Alcohol:T1 Status:T4 Amount:T2 Frequency:T3 Type:T23 Type2:T22 Type3:T24
+E2	Tobacco:T5 Status:T6 Amount:T7 Frequency:T8
+E3	Drug:T9 Type:T10 Status:T11
+E4	LivingStatus:T12 Type:T14 Status:T13
+E5	LivingStatus:T15 Status:T16 Type:T17
+E6	Employment:T18 Status:T19 History:T21 Type:T20
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T11 current
+A4	StatusTimeVal T13 current
+A5	TypeLivingVal T14 with_others
+A6	StatusTimeVal T16 current
+A7	TypeLivingVal T17 with_family
+A8	StatusEmployVal T19 unemployed
+T22	Type 72 78	brandy
+T23	Type 59 70	hard liquor
+T24	Type 86 91	beers

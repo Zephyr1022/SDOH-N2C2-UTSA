@@ -1,0 +1,43 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	27	never
+O	29	36	Alcohol
+O	37	40	Use
+O	40	41	:
+O	42	47	never
+O	49	53	Drug
+O	54	57	Use
+O	57	58	:
+O	59	64	never
+
+O	66	72	SOCIAL
+O	73	80	HISTORY
+O	80	81	:
+
+O	83	84	[
+O	84	85	_
+O	85	86	]
+O	87	93	Unable
+O	94	96	to
+O	97	103	Obtain
+O	104	107	due
+O	108	110	to
+O	111	118	Patient
+O	119	128	Condition
+
+O	129	138	Residence
+O	138	139	:
+O	140	145	lives
+O	146	151	alone
+O	151	152	,
+O	153	160	manages
+O	161	165	ADLs
+O	165	166	,
+O	167	170	has
+O	171	175	home
+O	175	176	-
+O	176	182	health

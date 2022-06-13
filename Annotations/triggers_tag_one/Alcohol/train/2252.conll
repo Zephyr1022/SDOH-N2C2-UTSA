@@ -1,0 +1,18 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	25	Homeless
+O	26	29	and
+O	30	35	lives
+O	36	38	in
+O	39	46	shelter
+
+O	47	53	Denies
+O	54	61	tobacco
+O	61	62	,
+B-Alcohol	63	70	alcohol
+O	70	71	,
+O	72	74	or
+O	75	81	street
+O	82	87	drugs

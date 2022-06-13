@@ -1,0 +1,24 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 21 34	1/4 x 3 years
+T3	Duration 25 34	x 3 years
+T4	Alcohol 38 49	Alcohol Use
+T5	StatusTime 51 57	denies
+T6	Drug 61 69	Drug Use
+T7	StatusTime 71 77	denies
+T8	Employment 506 512	worked
+T9	StatusEmploy 506 512	worked
+T10	Type 516 527	a machinist
+T11	Employment 586 593	working
+T12	StatusEmploy 578 593	stopped working
+T13	History 619 626	in 2013
+E1	Tobacco:T1 Status:T2 Duration:T3 Amount:T14
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Status:T7
+E4	Employment:T8 Status:T9 Type:T10
+E5	Employment:T11 Status:T12 History:T13
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 none
+A4	StatusEmployVal T9 unemployed
+A5	StatusEmployVal T12 unemployed
+T14	Amount 21 24	1/4

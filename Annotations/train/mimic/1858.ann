@@ -1,0 +1,26 @@
+T1	Employment 16 26	Unemployed
+T2	StatusEmploy 16 26	Unemployed
+T3	Type 28 42	former foreman
+T4	Tobacco 44 50	smoked
+T6	StatusTime 61 73	has cut down
+T5	Amount 77 83	1/2ppd
+T7	Amount 85 95	12 pk year
+T8	Tobacco 85 103	12 pk year history
+T9	StatusTime 85 103	12 pk year history
+T10	Alcohol 125 132	alcohol
+T11	History 133 138;139 144	for 3 years
+T12	StatusTime 114 119	sober
+T13	Drug 150 166	illicit drug use
+T14	Type 150 157	illicit
+T15	StatusTime 147 149	No
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T6 Amount:T5 Amount2:T16
+E3	Tobacco:T8 Amount:T7 Status:T9
+E4	Alcohol:T10 Status:T12 History:T11
+E5	Drug:T13 Type:T14 Status:T15
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T12 past
+A5	StatusTimeVal T15 none
+T16	Amount 51 55	1ppd

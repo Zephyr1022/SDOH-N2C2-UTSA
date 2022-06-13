@@ -1,0 +1,21 @@
+T1	Alcohol 58 63	sober
+T2	Duration 64 79	for three years
+T3	StatusTime 44 53	was clean
+T4	History 80 100	until this past week
+T5	StatusTime 236 241	lives
+T6	TypeLiving 242 247	alone
+T7	LivingStatus 236 241	lives
+T8	Tobacco 630 637	smoking
+T9	Alcohol 639 646	alcohol
+T10	Drug 657 668	cocaine use
+T11	Type 657 664	cocaine
+T13	StatusTime 613 629	has a history of
+E1	Alcohol:T1 Status:T3 Duration:T2 History:T4
+E2	LivingStatus:T7 Type:T6 Status:T5
+E3	Tobacco:T8 Status:T13
+E4	Alcohol:T9 Status:T13
+E5	Drug:T10 Type:T11 Status:T13
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 alone
+A5	StatusTimeVal T13 current

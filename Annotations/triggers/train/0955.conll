@@ -1,0 +1,68 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	24	Patient
+B-LivingStatus	25	30	lives
+O	31	35	with
+O	36	39	her
+O	40	47	husband
+O	47	48	.
+
+O	50	53	She
+B-Employment	54	59	works
+
+O	60	62	at
+O	63	67	home
+O	67	68	.
+
+O	70	72	Is
+O	73	79	active
+O	79	80	.
+
+O	82	85	Had
+O	86	88	no
+O	89	96	history
+O	97	99	of
+B-Tobacco	100	107	tobacco
+I-Tobacco	108	111	use
+O	112	115	and
+O	116	120	used
+
+B-Alcohol	121	128	alcohol
+O	129	133	only
+O	134	140	rarely
+O	140	141	.
+
+O	143	146	She
+O	147	150	has
+O	151	152	a
+O	153	161	positive
+O	162	168	family
+O	169	176	history
+O	177	180	for
+
+O	181	189	coronary
+O	190	196	artery
+O	197	204	disease
+O	205	209	with
+O	210	213	the
+O	214	220	mother
+O	221	227	having
+O	228	229	a
+O	230	240	myocardial
+
+O	241	251	infarction
+O	252	254	in
+O	255	258	her
+O	259	262	40s
+O	263	266	and
+O	267	270	her
+O	271	277	bother
+O	278	283	dying
+O	284	286	of
+O	287	297	myocardial
+
+O	298	308	infarction
+O	309	311	at
+O	312	314	53
+O	314	315	.

@@ -1,0 +1,30 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	works
+O	22	26	part
+O	26	27	-
+O	27	31	time
+
+O	32	39	married
+O	40	44	with
+O	45	46	2
+O	47	55	children
+
+O	56	58	30
+O	59	63	pack
+O	63	64	/
+O	64	67	yrs
+O	67	68	,
+O	69	73	quit
+O	74	75	[
+O	75	76	*
+O	76	77	*
+O	77	81	2098
+O	81	82	*
+O	82	83	*
+O	83	84	]
+
+B-Alcohol	85	89	rare
+I-Alcohol	90	94	ETOH

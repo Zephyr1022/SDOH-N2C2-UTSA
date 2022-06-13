@@ -1,0 +1,20 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	25	resident
+O	26	33	Estelle
+O	34	41	shelter
+
+O	42	44	no
+B-Alcohol	45	52	alcohol
+
+B-Tobacco	53	54	1
+I-Tobacco	54	55	/
+I-Tobacco	55	56	2
+I-Tobacco	57	60	PPD
+
+O	61	67	denies
+O	68	74	recent
+B-Drug	75	79	drug
+I-Drug	80	83	use

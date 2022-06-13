@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: chews 1 can of tobbaco over 4 days. Use fluctuates, has chewed up to 1 can/day, used since age 17   Alcohol Use: 0-6 shots of [NAME]'s per day, a "light day" is 2 shots, has not drank in 2 weeks   Drug Use: none
+
+SOCIAL HISTORY: 
+Lives in [LOCATION] with his wife [NAME] ([CONTACT]). Has 4 children, 2 are adults and 2 are younger and still live with them. Runs an auto-repair shop, his job involves significant manual labor.

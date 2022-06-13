@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: _   Alcohol Use: _   Drug Use: _
+
+SOCIAL HISTORY: 
+Residence: Lives at home with family

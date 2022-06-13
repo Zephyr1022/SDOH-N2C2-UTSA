@@ -1,0 +1,18 @@
+T1	Amount 16 28	30 pack year
+T2	Tobacco 33 40	smoking
+T3	StatusTime 29 32	h/o
+T4	Alcohol 77 87	heavy etoh
+T6	StatusTime 88 99	in the past
+T7	Drug 54 62	drug use
+T8	StatusTime 43 45	no
+T9	Employment 115 140	sales at department store
+T10	StatusEmploy 102 111	currently
+T11	Type 115 140	sales at department store
+E1	Tobacco:T2 Status:T3 Amount:T1
+E2	Alcohol:T4 Status:T6
+E3	Drug:T7 Status:T8
+E4	Employment:T9 Type:T11 Status:T10
+A1	StatusTimeVal T3 current
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T8 none
+A5	StatusEmployVal T10 employed

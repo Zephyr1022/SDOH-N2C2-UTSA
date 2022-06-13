@@ -1,0 +1,17 @@
+T1	Employment 16 23	Retired
+T2	StatusEmploy 16 23	Retired
+T3	Amount 81 86	3 ppd
+T4	Duration 87 97	x 25 years
+T5	StatusTime 99 103	quit
+T6	History 104 116	40 years ago
+T7	Alcohol 117 121	EtOH
+T8	Type 124 128	wine
+T9	Frequency 129 139	each night
+T10	StatusTime 117 121	EtOH
+T11	Tobacco 83 86	ppd
+E1	Employment:T1 Status:T2
+E2	Alcohol:T7 Type:T8 Frequency:T9 Status:T10
+E3	Tobacco:T11 Amount:T3 Duration:T4 Status:T5 History:T6
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T10 current

@@ -1,0 +1,26 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	Denies
+T3	Alcohol 31 42	Alcohol Use
+T4	Amount 44 52	3 drinks
+T5	Frequency 52 56	/day
+T6	StatusTime 44 56	3 drinks/day
+T7	Drug 59 67	Drug Use
+T8	StatusTime 69 83	remote history
+T9	Type 92 98	heroin
+T10	LivingStatus 117 122	Lives
+T11	StatusTime 117 122	Lives
+T12	TypeLiving 123 129	in car
+T13	Employment 152 163	Not working
+T14	StatusEmploy 152 163	Not working
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T6 Amount:T4 Frequency:T5
+E3	Drug:T7 Status:T8 Type:T9 Method:T15
+E4	LivingStatus:T10 Status:T11 Type:T12
+E5	Employment:T13 Status:T14
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T8 past
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 homeless
+A6	StatusEmployVal T14 unemployed
+T15	Method 87 91	IVDU

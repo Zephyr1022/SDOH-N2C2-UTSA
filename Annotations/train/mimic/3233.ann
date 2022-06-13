@@ -1,0 +1,22 @@
+T1	Tobacco 73 84	Tobacco Use
+T2	Frequency 86 94	everyday
+T3	StatusTime 86 94	everyday
+T4	Drug 134 142	Drug Use
+T5	Method 144 148	IVDU
+T6	History 149 158	in [DATE]
+T7	StatusTime 149 158	in [DATE]
+T8	Drug 200 212	meth/opioids
+T9	Type 200 212	meth/opioids
+T10	StatusTime 182 195	UTox positive
+T11	LivingStatus 278 287	Residence
+T12	StatusTime 300 305	lives
+T13	TypeLiving 306 324	in Compass Housing
+E1	Tobacco:T1 Frequency:T2 Status:T3
+E2	Drug:T4 History:T6 Status:T7 Method:T5
+E3	Drug:T8 Type:T9 Status:T10
+E4	LivingStatus:T11 Status:T12 Type:T13
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T10 current
+A4	StatusTimeVal T12 current
+A5	TypeLivingVal T13 homeless

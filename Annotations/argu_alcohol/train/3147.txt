@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: Denies   Alcohol Use: Denies   Drug Use: Denies
+
+SOCIAL HISTORY: 
+Currently resides in [LOCATION], rents room from sister.  Unemployed, spends majority of time at home on computer.

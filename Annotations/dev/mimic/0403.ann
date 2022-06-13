@@ -1,0 +1,14 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 58	with his caring and devoted parents
+T4	Tobacco 122 129	tobacco
+T5	Drug 133 141	drug use
+T6	Alcohol 113 120	alcohol
+T7	StatusTime 99 109	No history
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T7
+E3	Drug:T5 Status:T7
+E4	Alcohol:T6 Status:T7
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T7 none

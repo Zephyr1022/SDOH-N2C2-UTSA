@@ -1,0 +1,19 @@
+T1	Employment 36 45	homemaker
+T2	StatusEmploy 36 45	homemaker
+T3	Employment 47 53	on SSI
+T4	StatusEmploy 47 53	on SSI
+T5	Tobacco 56 67	tobacco use
+T6	StatusTime 56 67	tobacco use
+T7	Alcohol 72 79	alcohol
+T8	Drug 83 96	illicit drugs
+T9	Type 83 90	illicit
+T10	StatusTime 69 71	no
+E1	Employment:T1 Status:T2
+E2	Employment:T3 Status:T4
+E3	Tobacco:T5 Status:T6
+E4	Alcohol:T7 Status:T10
+E5	Drug:T8 Type:T9 Status:T10
+A1	StatusEmployVal T2 homemaker
+A2	StatusEmployVal T4 on_disability
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T10 none

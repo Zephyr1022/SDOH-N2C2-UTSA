@@ -1,0 +1,23 @@
+T1	LivingStatus 183 188	lives
+T2	StatusTime 183 188	lives
+T3	TypeLiving 161 188	partner with whom she lives
+T4	Employment 31 46	a retired nurse
+T5	StatusEmploy 31 46	a retired nurse
+T6	Type 31 46	a retired nurse
+T7	Tobacco 203 210	Tobacco
+T8	StatusTime 212 216	none
+T9	Alcohol 217 221	ETOH
+T10	StatusTime 223 227	none
+T11	Drug 228 233	Drugs
+T12	StatusTime 235 239	none
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Status:T10
+E5	Drug:T11 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T10 none
+A6	StatusTimeVal T12 none

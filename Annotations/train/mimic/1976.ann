@@ -1,0 +1,31 @@
+T1	LivingStatus 80 85	lives
+T2	StatusTime 80 85	lives
+T3	TypeLiving 106 119	with his wife
+T4	Employment 318 321	job
+T5	StatusEmploy 309 321	lost his job
+T6	History 322 331	last year
+T7	Type 332 334;335 345	at Brookstone
+T8	Employment 355 360	works
+T9	StatusEmploy 355 360	works
+T10	Type 364 381	a maintenance man
+T14	Tobacco 616 622	smoked
+T16	StatusTime 612 622	has smoked
+T17	Duration 638 650	since age 30
+T18	StatusTime 655 661	drinks
+T19	Alcohol 662 669	alcohol
+T21	Drug 687 691	IVDU
+T22	Method 687 691	IVDU
+T23	StatusTime 680 686	No h/o
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Status:T5 History:T6 Type:T7
+E3	Employment:T8 Type:T10 Status:T9
+E5	Tobacco:T14 Status:T16 Duration:T17
+E6	Alcohol:T19 Status:T18
+E7	Drug:T21 Status:T23 Method:T22
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed
+A4	StatusEmployVal T9 employed
+A8	StatusTimeVal T16 current
+A9	StatusTimeVal T18 current
+A11	StatusTimeVal T23 none

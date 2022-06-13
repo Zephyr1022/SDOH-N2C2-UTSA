@@ -1,0 +1,111 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	23	[
+O	23	24	*
+O	24	25	*
+O	25	33	Location
+O	34	38	6409
+O	38	39	*
+O	39	40	*
+O	40	41	]
+O	42	44	in
+O	45	46	a
+O	47	53	senior
+O	54	61	housing
+O	62	69	project
+O	69	70	.
+
+O	71	75	Long
+O	76	77	h
+O	77	78	/
+O	78	79	o
+B-Alcohol	80	84	EtOH
+
+B-Alcohol	85	95	dependence
+O	96	99	but
+O	100	105	sober
+O	106	109	for
+O	110	111	"
+O	111	115	many
+O	116	121	years
+O	121	122	"
+O	123	128	after
+O	129	131	AA
+O	131	132	,
+O	133	141	although
+
+O	142	150	endorses
+B-Alcohol	151	161	occasional
+I-Alcohol	162	166	beer
+O	166	167	,
+O	168	172	last
+O	173	178	drink
+O	179	181	he
+O	182	189	reports
+O	190	191	a
+O	192	195	few
+O	196	202	months
+
+O	203	206	ago
+O	206	207	.
+
+O	208	211	Has
+O	212	223	experienced
+O	224	227	one
+O	228	238	withdrawal
+O	239	246	seizure
+O	247	249	in
+O	250	254	past
+O	254	255	.
+
+O	256	261	Heavy
+O	262	265	use
+
+O	266	268	of
+B-Drug	269	281	amphetamines
+O	282	284	in
+O	285	286	[
+O	286	287	*
+O	287	288	*
+O	288	292	2055
+O	292	293	*
+O	293	294	*
+O	294	295	]
+O	295	296	.
+
+O	297	298	H
+O	298	299	/
+O	299	300	o
+O	301	308	abusing
+B-Drug	309	317	morphone
+O	317	318	,
+O	319	328	dissolved
+O	329	331	it
+O	332	335	and
+
+O	336	344	injected
+O	345	347	it
+O	347	348	.
+
+O	349	352	Off
+B-Drug	353	362	narcotics
+O	363	368	after
+O	369	376	several
+O	377	383	detoxs
+O	383	384	.
+
+O	385	389	Quit
+B-Tobacco	390	393	tob
+O	394	396	in
+
+O	397	398	[
+O	398	399	*
+O	399	400	*
+O	400	404	2085
+O	404	405	*
+O	405	406	*
+O	406	407	]
+O	407	408	.

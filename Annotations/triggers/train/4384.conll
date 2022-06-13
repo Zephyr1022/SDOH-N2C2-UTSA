@@ -1,0 +1,29 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	20	was
+O	21	27	living
+O	28	30	in
+O	31	34	the
+O	35	44	community
+O	44	45	,
+O	46	50	long
+O	51	58	assault
+O	59	66	history
+O	66	67	,
+O	68	74	recent
+O	75	88	incarceration
+O	89	92	for
+O	93	100	assault
+
+O	101	106	known
+O	107	109	to
+O	110	117	assault
+O	118	128	healthcare
+O	129	134	staff
+O	135	145	unprovoked
+
+O	146	147	+
+B-Drug	148	162	polystubstance
+I-Drug	163	168	abuse

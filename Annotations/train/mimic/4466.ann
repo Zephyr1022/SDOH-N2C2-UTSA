@@ -1,0 +1,5 @@
+T1	Employment 34 42	Studying
+T2	StatusEmploy 34 42	Studying
+T3	Type 43 55	biochemistry
+E1	Employment:T1 Status:T2 Type:T3
+A1	StatusEmployVal T2 student

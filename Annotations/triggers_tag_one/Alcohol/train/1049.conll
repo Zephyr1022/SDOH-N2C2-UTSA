@@ -1,0 +1,44 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	-
+O	17	23	paints
+O	24	30	houses
+
+O	31	32	-
+O	32	40	homeless
+
+O	41	42	-
+B-Alcohol	42	48	drinks
+O	49	50	8
+O	50	51	-
+O	51	53	12
+O	54	59	beers
+O	60	63	per
+O	64	67	day
+O	68	70	as
+O	71	75	well
+O	76	78	as
+O	79	80	[
+O	80	81	*
+O	81	82	*
+O	82	84	12
+O	84	85	-
+O	85	86	3
+O	86	87	*
+O	87	88	*
+O	88	89	]
+O	90	94	pint
+O	94	95	,
+O	96	108	intermittent
+
+O	109	118	Marijuana
+O	119	122	and
+O	123	130	cocaine
+O	131	134	use
+
+O	135	136	-
+O	136	142	denies
+O	143	146	IVD
+O	147	150	use

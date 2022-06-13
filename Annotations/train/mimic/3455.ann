@@ -1,0 +1,40 @@
+T1	Tobacco 9 20	Tobacco Use
+T3	StatusTime 54 63	currently
+T2	Amount 64 68	3ppd
+T4	Alcohol 117 131	heavy drinking
+T5	StatusTime 71 87	Reports quitting
+T6	History 88 95	in 1994
+T8	Drug 140 157	IVDU or marijuana
+T9	Type 148 157	marijuana
+T10	StatusTime 133 139	Denies
+T11	LivingStatus 176 181	Lives
+T12	StatusTime 176 181	Lives
+T13	TypeLiving 182 194	in tent city
+T14	LivingStatus 206 214	homeless
+T15	StatusTime 197 214	Has been homeless
+T16	Duration 215 235	for the past 3 years
+T17	TypeLiving 206 214	homeless
+T18	Employment 245 251	worked
+T19	StatusEmploy 238 251	Before worked
+T20	Type 255 265	a carnival
+T21	Employment 308 314	worked
+T22	StatusEmploy 294 314	Prior to that worked
+T23	Type 318 329	maintenance
+E1	Tobacco:T1 Status:T3 Amount:T2 Amount2:T24
+E2	Alcohol:T4 History:T6 Status:T5
+E3	Drug:T8 Type:T9 Status:T10 Method:T7
+E4	LivingStatus:T11 Status:T12 Type:T13
+E5	LivingStatus:T14 Type:T17 Status:T15 Duration:T16
+E6	Employment:T18 Status:T19 Type:T20
+E7	Employment:T21 Status:T22 Type:T23
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 past
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T12 current
+A6	TypeLivingVal T13 homeless
+A7	StatusTimeVal T15 current
+A8	TypeLivingVal T17 homeless
+A9	StatusEmployVal T19 unemployed
+A10	StatusEmployVal T22 unemployed
+T7	Method 140 144	IVDU
+T24	Amount 22 36	~100 pack-year

@@ -1,0 +1,48 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	24	no
+B-Alcohol	27	34	Alcohol
+I-Alcohol	35	38	Use
+O	38	39	:
+O	40	42	no
+B-Drug	44	48	Drug
+I-Drug	49	52	Use
+O	52	53	:
+O	54	56	no
+
+O	58	64	SOCIAL
+O	65	72	HISTORY
+O	72	73	:
+
+O	75	84	Residence
+O	84	85	:
+O	86	91	Lives
+O	92	94	in
+O	95	96	[
+O	96	104	LOCATION
+O	104	105	]
+O	105	106	.
+
+B-LivingStatus	108	113	Lives
+O	114	118	home
+O	119	124	alone
+O	124	125	.
+
+O	127	130	Has
+O	131	135	very
+O	136	146	supportive
+O	147	153	family
+O	154	163	including
+O	164	173	daughters
+O	173	174	.
+
+O	175	178	She
+B-Employment	179	185	worked
+O	186	188	in
+O	189	199	healthcare
+O	200	210	recruiting
+O	210	211	.

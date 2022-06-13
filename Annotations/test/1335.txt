@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: No   Alcohol Use: Occasional glass of wine but not when she is sick   Drug Use: None
+
+SOCIAL HISTORY: 
+Residence: [LOCATION], [LOCATION]. Lives with husband, [NAME], and 2 kids (age 8 and 6).

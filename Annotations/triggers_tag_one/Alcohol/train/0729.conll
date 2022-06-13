@@ -1,0 +1,30 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	-
+O	17	21	live
+O	22	26	with
+O	27	31	aunt
+
+O	32	33	-
+O	33	34	h
+O	34	35	/
+O	35	36	o
+O	37	44	tobacco
+O	45	48	but
+O	49	52	not
+O	53	62	currently
+O	63	64	a
+O	65	71	smoker
+
+O	72	73	-
+O	73	75	no
+O	76	77	h
+O	77	78	/
+O	78	79	o
+O	80	82	of
+B-Alcohol	83	87	ETOH
+
+O	88	89	-
+O	89	97	divorced

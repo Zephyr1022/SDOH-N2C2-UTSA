@@ -1,0 +1,37 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	12	Per
+O	13	17	wife
+O	17	18	,
+O	19	21	no
+O	22	29	smoking
+O	30	37	history
+O	37	38	,
+O	39	41	no
+O	42	49	alcohol
+O	50	53	use
+O	53	54	,
+O	55	57	no
+O	58	65	illicit
+O	66	70	drug
+O	71	74	use
+O	74	75	.
+
+O	78	84	SOCIAL
+O	85	92	HISTORY
+O	92	93	:
+
+O	95	100	Lives
+O	101	103	in
+O	104	105	[
+O	105	113	LOCATION
+O	113	114	]
+O	114	115	,
+O	116	118	is
+O	119	121	of
+O	122	123	[
+O	123	131	LOCATION
+O	131	132	]
+O	133	140	descent
+O	140	141	.

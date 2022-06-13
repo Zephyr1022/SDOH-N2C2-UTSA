@@ -1,0 +1,61 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	19	Has
+I-Employment	20	23	not
+I-Employment	24	30	worked
+O	31	33	in
+O	34	39	eight
+O	40	45	years
+O	46	53	because
+O	54	56	of
+O	57	60	his
+O	61	68	disease
+O	68	69	.
+
+O	70	80	Previously
+
+B-Tobacco	81	87	smoked
+O	88	89	1
+O	90	93	PPD
+O	94	97	for
+O	98	103	years
+O	104	109	until
+O	110	118	recently
+O	118	119	.
+
+O	120	122	As
+O	123	128	above
+O	128	129	,
+O	130	137	history
+O	138	140	of
+
+B-Alcohol	141	148	alcohol
+I-Alcohol	149	154	abuse
+O	154	155	.
+
+B-LivingStatus	156	161	Lives
+O	162	166	with
+O	167	170	his
+O	171	178	partner
+O	178	179	.
+
+O	180	188	Acquired
+O	189	193	AIDS
+O	194	204	presumably
+
+O	205	208	via
+O	209	215	sexual
+O	216	227	intercourse
+O	228	232	with
+O	233	236	men
+O	236	237	.
+
+O	238	241	Has
+O	242	243	a
+O	244	247	pet
+O	248	251	cat
+O	252	254	at
+O	255	259	home
+O	259	260	.

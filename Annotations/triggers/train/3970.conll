@@ -1,0 +1,46 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	21	From
+O	22	27	prior
+O	28	32	note
+O	32	33	,
+O	34	41	patient
+O	42	49	altered
+O	49	50	:
+
+B-LivingStatus	52	58	Living
+I-LivingStatus	59	68	situation
+O	68	69	:
+
+O	71	72	"
+O	72	81	Basically
+O	82	90	homeless
+O	90	91	"
+O	92	97	stays
+O	98	100	at
+O	101	106	Union
+O	107	113	Gospel
+O	114	121	Shelter
+O	122	125	and
+O	126	131	other
+O	132	140	shelters
+O	141	153	occasionally
+O	153	154	,
+B-Employment	155	165	unemployed
+
+O	167	176	Substance
+O	177	180	use
+O	180	181	:
+
+O	182	192	Documented
+O	193	200	history
+O	201	203	of
+B-Tobacco	204	211	smoking
+O	211	212	,
+B-Alcohol	213	220	alcohol
+O	220	221	,
+B-Drug	222	228	heroin
+I-Drug	229	232	use
+O	232	233	.

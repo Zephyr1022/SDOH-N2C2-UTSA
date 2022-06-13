@@ -1,0 +1,5 @@
+T1	Alcohol 17 28	Alcohol use
+T2	StatusTime 48 54	drinks
+T3	Frequency 55 71	2-3 times a week
+E1	Alcohol:T1 Status:T2 Frequency:T3
+A1	StatusTimeVal T2 current

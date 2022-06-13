@@ -1,0 +1,49 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	23	_
+B-Alcohol	26	33	Alcohol
+I-Alcohol	34	37	Use
+O	37	38	:
+O	39	42	Yes
+O	47	51	Drug
+O	52	55	Use
+O	55	56	:
+O	57	63	Heroin
+
+O	65	71	SOCIAL
+O	72	79	HISTORY
+O	79	80	:
+O	81	89	Obtained
+O	90	94	from
+O	95	99	ORCA
+
+O	100	101	[
+O	101	102	_
+O	102	103	]
+O	104	110	Unable
+O	111	113	to
+O	114	120	Obtain
+O	121	124	due
+O	125	127	to
+O	128	135	Patient
+O	136	145	Condition
+
+O	146	155	Residence
+O	155	156	:
+O	157	162	Lives
+O	163	165	in
+O	166	168	RV
+O	169	173	near
+O	174	176	by
+O	177	183	mother
+O	184	186	in
+O	187	188	[
+O	188	196	LOCATION
+O	196	197	]
+
+O	199	202	One
+O	203	211	daughter

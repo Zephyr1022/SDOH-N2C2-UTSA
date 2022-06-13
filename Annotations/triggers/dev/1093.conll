@@ -1,0 +1,66 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	25	Currently
+O	26	31	lives
+O	32	34	in
+O	35	36	[
+O	36	37	*
+O	37	38	*
+O	38	46	Location
+O	47	48	*
+O	48	49	*
+O	49	50	]
+O	51	52	(
+O	52	53	[
+O	53	54	*
+O	54	55	*
+O	55	64	Hospital3
+O	65	66	*
+O	66	67	*
+O	67	68	]
+O	68	69	)
+O	69	70	.
+
+O	71	78	Widowed
+O	79	80	x
+O	81	83	35
+O	84	89	years
+O	89	90	.
+
+O	91	94	She
+
+B-Employment	95	103	formerly
+I-Employment	104	110	worked
+O	111	113	as
+O	114	115	a
+O	116	121	buyer
+O	122	124	at
+O	125	126	[
+O	126	127	*
+O	127	128	*
+O	128	136	Location
+O	137	138	(
+O	138	140	un
+O	140	141	)
+O	142	143	*
+O	143	144	*
+O	144	145	]
+O	146	149	and
+O	150	156	taught
+
+O	157	170	merchandising
+O	170	171	.
+
+O	172	174	No
+O	175	176	h
+O	176	177	/
+O	177	178	o
+B-Alcohol	179	183	EtOH
+O	183	184	,
+B-Drug	185	189	IVDU
+O	189	190	.
+
+B-Tobacco	191	200	Nonsmoker
+O	200	201	.

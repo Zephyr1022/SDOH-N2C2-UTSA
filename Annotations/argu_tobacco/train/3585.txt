@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: distant  Alcohol Use: rare   Drug Use: denies
+
+SOCIAL HISTORY: 
+Residence: Housed in [LOCATION]. From the [LOCATION].

@@ -1,0 +1,65 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	27	31	wife
+O	32	35	and
+O	36	45	daughters
+O	45	46	.
+
+O	47	57	Ambulatory
+O	58	60	at
+O	61	69	baseline
+O	69	70	.
+
+O	71	74	Has
+O	75	79	five
+
+O	80	88	children
+O	89	92	and
+O	93	96	two
+O	97	110	grandchildren
+O	110	111	.
+
+O	112	116	Born
+O	117	119	in
+O	120	121	[
+O	121	122	*
+O	122	123	*
+O	123	130	Country
+O	131	135	9819
+O	135	136	*
+O	136	137	*
+O	137	138	]
+O	139	140	-
+O	141	144	has
+O	145	150	lived
+O	151	153	in
+
+O	154	157	USA
+O	158	161	for
+O	162	164	15
+O	165	170	years
+O	170	171	.
+
+O	172	180	Previous
+B-Employment	181	188	leather
+I-Employment	189	194	goods
+I-Employment	195	203	importer
+I-Employment	203	204	/
+I-Employment	204	212	exporter
+O	212	213	.
+
+O	214	219	Never
+B-Tobacco	220	226	smoked
+O	227	231	cigs
+O	231	232	,
+O	233	238	drank
+B-Alcohol	239	243	ETOH
+O	244	246	or
+O	247	251	used
+B-Drug	252	264	recreational
+I-Drug	265	270	drugs
+O	270	271	.

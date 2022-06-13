@@ -1,0 +1,41 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	19	Hx
+O	20	22	of
+B-Alcohol	23	27	etoh
+I-Alcohol	28	33	abuse
+O	33	34	,
+O	35	39	last
+O	40	45	drink
+O	46	50	2011
+
+O	51	57	Smokes
+O	58	59	2
+O	59	60	-
+O	60	61	3
+O	62	72	ciagrettes
+O	73	78	daily
+O	78	79	,
+O	80	87	tobacco
+O	88	91	use
+O	92	93	>
+O	93	95	20
+O	96	101	years
+O	102	105	ago
+
+O	107	113	Denies
+O	114	121	illicit
+O	122	126	drug
+O	127	130	use
+
+O	131	136	Lives
+O	137	139	in
+O	140	141	[
+O	141	149	LOCATION
+O	149	150	]
+O	150	151	-
+O	152	158	living
+O	159	163	with
+O	164	171	friends

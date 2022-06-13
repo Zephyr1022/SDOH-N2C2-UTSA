@@ -1,0 +1,29 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	15	Denies
+B-Tobacco	16	23	tobacco
+O	23	24	,
+B-Alcohol	25	29	EtOH
+O	29	30	,
+B-Drug	31	33	MJ
+O	33	34	,
+O	35	37	or
+O	38	46	illicits
+
+O	48	54	SOCIAL
+O	55	62	HISTORY
+O	62	63	:
+
+O	65	73	Recently
+O	74	79	moved
+O	80	82	to
+O	83	94	independent
+O	95	102	housing
+O	102	103	!
+
+B-Employment	105	110	Works
+O	111	113	at
+O	114	115	[
+O	115	123	LOCATION
+O	123	124	]

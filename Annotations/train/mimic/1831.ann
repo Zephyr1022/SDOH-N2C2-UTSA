@@ -1,0 +1,23 @@
+T1	LivingStatus 24 29	lives
+T2	TypeLiving 46 55	with wife
+T3	StatusTime 24 29	lives
+T4	Employment 60 84;85 91	an architect and in real estate
+T5	Type 60 84;85 91	an architect and in real estate
+T6	StatusEmploy 57 59	Is
+T7	Tobacco 114 125	tobacco use
+T8	StatusTime 105 110	No hx
+T9	Alcohol 127 133	Drinks
+T10	Type 144 149	vodka
+T11	Amount 134 142	4 drinks
+T12	StatusTime 127 133	Drinks
+T13	Frequency 151 158	per day
+T14	Duration 159 176	for past 20 years
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Amount:T11 Type:T10 Status:T12 Frequency:T13 Duration:T14
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T6 employed
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T12 current

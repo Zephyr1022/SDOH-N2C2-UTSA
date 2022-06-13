@@ -1,0 +1,26 @@
+T1	Employment 99 105	Worked
+T2	StatusEmploy 99 105	Worked
+T3	Type 109 118	a builder
+T4	Drug 204 220	illicit drug use
+T5	Type 204 211	illicit
+T6	StatusTime 197 203	Denies
+T7	Tobacco 223 254	Prior extensive smoking history
+T8	StatusTime 223 254	Prior extensive smoking history
+T10	Tobacco 271 278	tobacco
+T11	Alcohol 282 293	alcohol use
+T12	StatusTime 256 270	Denies current
+T13	Employment 47 59	the military
+T14	Duration 70 82	did 10 years
+T15	Type 47 59	the military
+T16	StatusEmploy 70 82	did 10 years
+E1	Employment:T1 Status:T2 Type:T3
+E2	Drug:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T8
+E4	Tobacco:T10 Status:T12
+E5	Alcohol:T11 Status:T12
+E6	Employment:T13 Type:T15 Duration:T14 Status:T16
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T8 past
+A5	StatusTimeVal T12 past
+A6	StatusEmployVal T16 unemployed

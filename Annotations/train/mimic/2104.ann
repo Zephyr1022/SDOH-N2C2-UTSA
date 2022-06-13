@@ -1,0 +1,24 @@
+T1	LivingStatus 92 96	Live
+T2	TypeLiving 97 108	with fiance
+T3	StatusTime 92 96	Live
+T4	Alcohol 168 179	+ETOH abuse
+T6	StatusTime 182 187	sober
+T7	Drug 188 193	+IVDA
+T8	Method 188 193	+IVDA
+T9	Type 195 201	heroin
+T10	StatusTime 203 208	sober
+T11	Tobacco 209 217	+Tobacco
+T12	StatusTime 209 217	+Tobacco
+T13	Employment 293 306	on disability
+T14	StatusEmploy 293 306	on disability
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Alcohol:T4 Status:T6
+E3	Drug:T7 Method:T8 Type:T9 Status:T10
+E4	Tobacco:T11 Status:T12
+E5	Employment:T13 Status:T14
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A4	StatusTimeVal T6 past
+A5	StatusTimeVal T10 past
+A6	StatusTimeVal T12 current
+A7	StatusEmployVal T14 on_disability

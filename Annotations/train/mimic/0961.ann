@@ -1,0 +1,16 @@
+T1	StatusEmploy 88 109	currently not working
+T2	Employment 102 109	working
+T3	Type 70 85	Former Waitress
+T4	Tobacco 16 22	Smoked
+T5	Amount 23 32	two packs
+T6	Frequency 33 40	per day
+T7	StatusTime 42 46	quit
+T8	History 47 60	in [**2125**]
+T9	Alcohol 65 69	ETOH
+T10	StatusTime 62 64	No
+E1	Employment:T2 Status:T1 Type:T3
+E2	Tobacco:T4 Status:T7 Amount:T5 Frequency:T6 History:T8
+E3	Alcohol:T9 Status:T10
+A1	StatusEmployVal T1 unemployed
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T10 none

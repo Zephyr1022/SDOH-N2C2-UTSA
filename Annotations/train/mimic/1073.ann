@@ -1,0 +1,20 @@
+T1	LivingStatus 98 103	lives
+T2	StatusTime 98 103	lives
+T3	TypeLiving 104 109	alone
+T4	Tobacco 223 230	smoking
+T5	StatusTime 218 222	quit
+T6	History 233 245	20 years ago
+T7	Amount 312 321	2-3 packs
+T8	Frequency 322 329	per day
+T9	StatusTime 350 356	denies
+T10	Alcohol 357 364	alcohol
+T11	Drug 368 386	recreational drugs
+T12	Type 368 380	recreational
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6 Amount:T7 Frequency:T8
+E3	Alcohol:T10 Status:T9
+E4	Drug:T11 Type:T12 Status:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T9 none

@@ -1,0 +1,85 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	in
+O	25	26	[
+O	26	34	LOCATION
+O	34	35	]
+O	35	36	,
+O	37	38	[
+O	38	46	LOCATION
+O	46	47	]
+O	48	52	with
+O	52	53	:
+O	54	57	his
+O	58	62	wife
+O	63	66	and
+O	67	68	5
+O	69	77	children
+
+O	80	85	Lives
+O	86	88	in
+O	89	90	a
+O	91	92	3
+O	93	98	story
+O	99	104	split
+O	104	105	-
+O	105	110	level
+O	111	115	home
+O	116	120	with
+O	121	122	4
+O	123	126	STE
+O	126	127	.
+
+O	129	136	Bedroom
+O	137	140	and
+O	141	147	shower
+O	148	150	on
+O	151	154	the
+O	155	163	upstairs
+O	164	169	floor
+O	169	170	,
+O	171	174	and
+O	175	178	the
+O	179	186	patient
+O	187	191	does
+O	192	195	not
+O	196	200	need
+O	201	203	to
+O	204	206	go
+O	207	209	to
+O	210	213	the
+O	214	224	downstairs
+O	225	230	level
+O	230	231	.
+
+O	233	235	He
+O	236	243	reports
+O	244	248	that
+O	249	251	he
+O	252	261	sometimes
+O	262	267	place
+O	268	269	a
+O	270	277	plastic
+O	278	283	chair
+O	284	286	in
+O	287	290	his
+O	291	297	shower
+O	297	298	.
+
+O	299	305	Habits
+O	305	306	:
+
+B-Tobacco	308	311	Tob
+O	311	312	:
+O	314	317	Neg
+
+B-Alcohol	319	323	ETOH
+O	323	324	:
+O	327	333	rarely
+
+B-Drug	334	338	IVDU
+O	338	339	:
+O	341	344	Neg

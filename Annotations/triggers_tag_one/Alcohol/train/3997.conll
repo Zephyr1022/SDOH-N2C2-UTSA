@@ -1,0 +1,39 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	25	Personal
+O	26	35	residence
+O	36	38	in
+O	39	40	[
+O	40	48	LOCATION
+O	48	49	]
+
+O	50	60	Originally
+O	61	65	from
+O	66	67	[
+O	67	75	LOCATION
+O	75	76	]
+
+O	77	87	Previously
+O	88	100	incarcerated
+
+O	101	111	Unemployed
+
+O	112	113	+
+O	113	120	tobacco
+
+O	121	122	h
+O	122	123	/
+O	123	124	o
+B-Alcohol	125	132	alcohol
+I-Alcohol	133	138	abuse
+
+O	139	140	h
+O	140	141	/
+O	141	142	o
+O	143	149	opiate
+O	150	155	abuse
+
+O	156	157	+
+O	157	163	benzos

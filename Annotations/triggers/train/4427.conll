@@ -1,0 +1,32 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	18	Nonsmoker
+O	18	19	,
+O	20	32	occasionally
+O	33	39	drinks
+B-Alcohol	40	47	alcohol
+O	47	48	,
+O	49	51	no
+O	52	55	use
+O	56	58	of
+B-Drug	59	66	illicit
+I-Drug	67	72	drugs
+
+O	74	80	SOCIAL
+O	81	88	HISTORY
+O	88	89	:
+
+O	91	93	Is
+B-Employment	94	95	a
+I-Employment	96	103	veteran
+O	103	104	,
+B-LivingStatus	105	110	lives
+O	111	116	alone
+O	116	117	,
+O	118	129	independent
+O	130	133	and
+O	134	138	ADLs
+O	139	142	and
+O	143	148	IADLs
+O	148	149	.

@@ -1,0 +1,14 @@
+T1	Tobacco 9 22	Former smoker
+T2	StatusTime 9 22	Former smoker
+T3	Amount 23 32	0.3 packs
+T4	Frequency 32 36	/day
+T5	Duration 37 47	x 20 years
+T6	History 54 58	2014
+T7	Alcohol 62 69	alcohol
+T8	Drug 73 81	drug use
+T9	StatusTime 59 61	No
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4 Duration:T5 History:T6
+E2	Alcohol:T7 Status:T9
+E3	Drug:T8 Status:T9
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T9 none

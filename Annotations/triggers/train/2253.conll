@@ -1,0 +1,26 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	11	No
+B-Alcohol	12	19	alcohol
+O	19	20	,
+B-Tobacco	21	28	tobacco
+O	28	29	,
+O	30	32	or
+B-Drug	33	37	drug
+I-Drug	38	41	use
+O	41	42	.
+
+O	44	50	SOCIAL
+O	51	58	HISTORY
+O	58	59	:
+
+B-LivingStatus	61	66	Lives
+O	67	71	with
+O	72	75	her
+O	76	83	husband
+O	84	86	in
+O	87	88	[
+O	88	96	LOCATION
+O	96	97	]
+O	97	98	.

@@ -1,0 +1,22 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 45	in [**Hospital1 1474**]
+T3	StatusTime 16 21	Lives
+T4	Employment 47 67	Retired exterminator
+T5	StatusEmploy 47 67	Retired exterminator
+T6	Type 47 67	Retired exterminator
+T7	Alcohol 76 82	drinks
+T8	Type 83 90	whiskey
+T9	Frequency 91 96	daily
+T10	Amount 98 115	unknown quantitiy
+T11	StatusTime 76 82	drinks
+T12	Tobacco 118 128	Non-smoker
+T13	StatusTime 118 128	Non-smoker
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Alcohol:T7 Type:T8 Status:T11 Frequency:T9 Amount:T10
+E4	Tobacco:T12 Status:T13
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T11 current
+A5	StatusTimeVal T13 none

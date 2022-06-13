@@ -1,0 +1,11 @@
+T1	LivingStatus 156 172	Currently living
+T2	StatusTime 156 172	Currently living
+T3	TypeLiving 173 181	with son
+T4	Employment 486 499	on disability
+T5	StatusEmploy 486 499	on disability
+T6	Duration 504 518	for many years
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Duration:T6
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 on_disability

@@ -1,0 +1,36 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	27	never
+O	28	34	smoker
+B-Alcohol	37	44	Alcohol
+I-Alcohol	45	48	Use
+O	48	49	:
+O	50	56	denies
+B-Drug	59	63	Drug
+I-Drug	64	67	Use
+O	67	68	:
+O	69	75	denies
+
+O	77	83	SOCIAL
+O	84	91	HISTORY
+O	91	92	:
+
+B-LivingStatus	94	101	Staying
+O	102	104	at
+O	105	108	the
+O	109	117	Morrison
+O	117	118	.
+
+B-Employment	119	126	Retired
+I-Employment	127	131	home
+I-Employment	132	139	builder
+O	140	142	in
+O	143	144	[
+O	144	152	LOCATION
+O	152	153	]
+O	154	158	area
+O	158	159	.

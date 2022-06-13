@@ -1,0 +1,187 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Denies
+O	23	26	any
+O	27	33	recent
+O	34	37	use
+O	38	40	of
+B-Alcohol	41	45	EtOH
+O	46	48	or
+B-Drug	49	56	illicit
+I-Drug	57	62	drugs
+O	62	63	.
+
+O	65	68	Per
+
+O	69	72	OMR
+O	72	73	,
+O	74	75	h
+O	75	76	/
+O	76	77	o
+O	78	86	sporadic
+B-Drug	87	96	marijuana
+I-Drug	97	100	use
+O	100	101	.
+
+O	103	106	Now
+B-LivingStatus	107	113	living
+O	114	116	at
+O	117	120	the
+O	121	124	DBT
+O	125	130	House
+O	131	133	on
+O	134	135	[
+O	135	136	*
+O	136	137	*
+O	137	142	First
+O	143	148	Name4
+O	149	150	(
+O	150	162	NamePattern1
+O	162	163	)
+O	164	165	*
+O	165	166	*
+O	166	167	]
+O	168	169	[
+O	169	170	*
+O	170	171	*
+O	171	175	Last
+O	176	180	Name
+O	181	182	(
+O	182	194	NamePattern1
+O	194	195	)
+O	196	197	*
+O	197	198	*
+O	198	199	]
+O	200	202	in
+O	203	204	[
+O	204	205	*
+O	205	206	*
+O	206	214	Location
+O	215	216	(
+O	216	218	un
+O	218	219	)
+O	220	221	*
+O	221	222	*
+O	222	223	]
+O	223	224	.
+
+O	226	228	In
+
+O	229	238	currently
+O	239	241	in
+O	242	243	a
+O	244	256	relationship
+O	257	261	with
+O	262	263	a
+O	264	267	man
+O	268	272	whom
+O	273	276	she
+O	277	280	met
+O	281	287	during
+O	288	289	a
+
+O	290	298	previous
+O	299	303	inpt
+O	304	313	admission
+O	313	314	.
+
+O	316	319	Per
+O	320	323	OMR
+O	323	324	,
+O	325	328	the
+O	329	336	patient
+O	337	339	is
+O	340	349	currently
+O	350	353	not
+
+O	354	356	in
+O	357	364	contact
+O	365	369	with
+O	370	373	her
+O	374	380	family
+O	380	381	.
+
+O	382	385	She
+O	386	389	was
+O	390	396	raised
+O	397	399	in
+O	400	408	multiple
+O	409	410	[
+O	410	411	*
+O	411	412	*
+O	412	418	Doctor
+O	419	423	Last
+O	424	428	Name
+O	429	430	*
+O	430	431	*
+O	431	432	]
+
+O	433	437	care
+O	438	443	homes
+O	444	451	because
+O	452	455	her
+O	456	462	mother
+O	463	468	could
+O	469	472	not
+O	473	477	care
+O	478	481	for
+O	482	485	her
+O	485	486	.
+
+O	487	490	She
+O	491	494	was
+
+O	495	505	physically
+O	506	512	abused
+O	513	516	and
+O	517	525	severely
+O	526	535	neglected
+O	536	538	as
+O	539	540	a
+O	541	546	child
+O	547	550	and
+O	551	555	been
+
+O	556	564	sexually
+O	565	574	assaulted
+O	574	575	.
+
+O	576	579	She
+O	580	583	has
+O	584	586	no
+O	587	594	current
+O	595	603	romantic
+O	604	616	relationship
+O	616	617	.
+
+O	618	621	She
+
+O	622	625	has
+O	626	631	never
+O	632	636	been
+O	637	644	married
+O	644	645	.
+
+O	646	649	She
+O	650	653	has
+O	654	663	completed
+O	664	666	up
+O	667	669	to
+O	670	673	the
+O	674	679	tenth
+O	680	685	grade
+
+O	686	688	of
+O	689	693	high
+O	694	700	school
+O	700	701	.
+
+O	702	705	She
+O	706	709	has
+O	710	712	no
+O	713	720	current
+O	721	726	legal
+O	727	733	issues
+O	733	734	.

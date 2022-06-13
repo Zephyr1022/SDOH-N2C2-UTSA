@@ -1,0 +1,168 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Smokes
+O	23	24	a
+O	25	28	few
+O	29	39	cigarettes
+O	40	41	a
+O	42	45	day
+O	46	47	x
+O	48	52	many
+O	53	58	years
+O	58	59	.
+
+B-Alcohol	60	65	Heavy
+I-Alcohol	66	73	alcohol
+
+B-Alcohol	74	81	history
+O	81	82	,
+O	83	88	about
+O	89	94	1pint
+O	95	100	vodka
+O	101	102	a
+O	103	106	day
+O	107	110	now
+O	110	111	.
+
+O	112	119	History
+O	120	124	IVDU
+O	124	125	,
+
+O	126	133	cocaine
+O	133	134	/
+O	134	139	crack
+O	140	143	use
+O	144	152	Multiple
+O	153	164	unprotected
+O	165	171	female
+O	172	180	partners
+O	180	181	.
+
+O	182	190	Homeless
+O	190	191	,
+O	192	198	living
+O	199	201	at
+O	202	209	shelter
+O	209	210	.
+
+O	211	217	Mainly
+O	218	224	around
+O	225	226	[
+O	226	227	*
+O	227	228	*
+O	228	237	Hospital1
+O	238	241	756
+O	241	242	*
+O	242	243	*
+O	243	244	]
+O	245	251	Circle
+O	251	252	.
+
+O	253	256	PCP
+
+O	257	259	is
+O	260	261	[
+O	261	262	*
+O	262	263	*
+O	263	267	Last
+O	268	272	Name
+O	273	274	(
+O	274	286	NamePattern4
+O	286	287	)
+O	288	289	*
+O	289	290	*
+O	290	291	]
+O	291	292	.
+
+O	293	294	[
+O	294	295	*
+O	295	296	*
+O	296	301	First
+O	302	307	Name8
+O	308	309	(
+O	309	321	NamePattern2
+O	321	322	)
+O	323	326	449
+O	326	327	*
+O	327	328	*
+O	328	329	]
+O	330	331	[
+O	331	332	*
+O	332	333	*
+O	333	337	Last
+O	338	342	Name
+O	343	344	(
+O	344	356	NamePattern1
+O	356	357	)
+O	358	359	*
+O	359	360	*
+O	360	361	]
+O	361	362	,
+O	363	364	[
+O	364	365	*
+O	365	366	*
+O	366	374	Hospital
+O	375	379	2025
+O	379	380	*
+O	380	381	*
+O	381	382	]
+O	383	393	healthcare
+O	394	397	for
+O	398	401	the
+O	402	410	homeless
+O	410	411	.
+
+O	412	417	Lives
+
+O	418	422	with
+O	423	429	sister
+O	430	432	in
+O	433	434	[
+O	434	435	*
+O	435	436	*
+O	436	440	Name
+O	441	442	(
+O	442	444	NI
+O	444	445	)
+O	446	450	5110
+O	450	451	*
+O	451	452	*
+O	452	453	]
+O	454	458	when
+O	459	464	sober
+O	464	465	.
+
+O	466	471	Works
+O	472	474	in
+O	475	483	trucking
+O	484	488	when
+
+O	489	494	sober
+O	494	495	.
+
+O	496	498	He
+O	499	502	was
+O	503	507	born
+O	508	510	in
+O	511	512	[
+O	512	513	*
+O	513	514	*
+O	514	519	State
+O	520	524	5111
+O	524	525	*
+O	525	526	*
+O	526	527	]
+O	527	528	,
+O	529	535	worked
+O	536	538	as
+O	539	540	a
+O	541	545	chef
+O	545	546	.
+
+O	547	549	He
+O	550	558	finished
+
+O	559	563	High
+O	564	570	School

@@ -1,0 +1,35 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	12	per
+O	13	18	prior
+O	19	24	notes
+O	24	25	,
+O	26	34	negative
+O	35	38	but
+O	39	44	could
+O	45	48	not
+O	49	55	assess
+O	55	56	:
+O	57	64	Tobacco
+O	65	68	Use
+O	68	69	,
+O	70	77	Alcohol
+O	78	81	Use
+O	81	82	,
+O	83	87	Drug
+O	88	91	Use
+
+O	93	99	SOCIAL
+O	100	107	HISTORY
+O	107	108	:
+
+B-LivingStatus	110	119	Residence
+O	119	120	:
+O	121	126	lives
+O	127	129	by
+O	130	137	himself
+O	138	140	in
+O	141	142	[
+O	142	150	LOCATION
+O	150	151	]

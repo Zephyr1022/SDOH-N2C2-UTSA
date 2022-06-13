@@ -1,0 +1,22 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	lives
+O	22	23	w
+O	23	24	/
+O	25	28	his
+O	29	33	wife
+O	33	34	;
+O	35	41	remote
+B-Tobacco	42	49	tobacco
+I-Tobacco	50	53	use
+I-Tobacco	53	54	;
+O	55	57	no
+B-Alcohol	58	65	alcohol
+O	66	68	or
+B-Drug	69	76	illicit
+
+B-Drug	77	81	drug
+I-Drug	82	85	use
+O	85	86	.

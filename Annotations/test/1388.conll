@@ -1,0 +1,34 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	29	unknown
+O	32	39	Alcohol
+O	40	43	Use
+O	43	44	:
+O	45	46	2
+O	47	53	drinks
+O	54	59	daily
+O	59	60	-
+O	60	64	Q2dd
+O	65	68	per
+O	69	74	chart
+O	75	81	review
+O	84	88	Drug
+O	89	92	Use
+O	92	93	:
+O	94	100	heroin
+
+O	102	108	SOCIAL
+O	109	116	HISTORY
+O	116	117	:
+
+O	119	125	Unable
+O	126	128	to
+O	129	135	Obtain
+O	136	139	due
+O	140	142	to
+O	143	150	Patient
+O	151	160	Condition

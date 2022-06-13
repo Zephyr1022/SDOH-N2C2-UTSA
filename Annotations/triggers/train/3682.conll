@@ -1,0 +1,63 @@
+O	0	6	HABITS
+O	6	7	:
+O	8	16	obtained
+O	17	21	from
+O	22	27	chart
+O	28	34	review
+O	35	36	-
+O	37	39	he
+O	40	46	denies
+B-Alcohol	47	54	alcohol
+I-Alcohol	55	58	use
+O	59	64	today
+O	65	71	during
+O	72	81	admission
+
+B-Tobacco	83	90	Tobacco
+I-Tobacco	91	94	Use
+O	94	95	:
+O	96	97	0
+O	97	98	.
+O	98	99	5
+O	100	103	ppd
+O	103	104	,
+O	105	107	35
+O	107	108	-
+O	108	112	pack
+O	112	113	-
+O	113	117	year
+O	118	125	history
+
+B-Alcohol	127	134	Alcohol
+I-Alcohol	135	138	Use
+O	138	139	:
+O	140	141	1
+O	142	148	gallon
+O	149	151	of
+O	152	159	whiskey
+O	159	160	/
+O	160	164	week
+
+B-Drug	166	170	Drug
+I-Drug	171	174	Use
+O	174	175	:
+O	176	177	h
+O	177	178	/
+O	178	179	o
+O	180	187	cocaine
+O	188	191	use
+
+O	194	200	SOCIAL
+O	201	208	HISTORY
+O	208	209	:
+
+B-LivingStatus	211	220	Residence
+O	220	221	:
+O	222	225	Jan
+O	226	229	and
+O	230	236	Peters
+O	237	242	Place
+O	243	250	Shelter
+
+O	251	260	Currently
+B-Employment	261	271	unemployed

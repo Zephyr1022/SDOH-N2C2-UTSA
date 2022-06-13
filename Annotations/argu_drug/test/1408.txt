@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: _   Alcohol Use: _   Drug Use: _
+
+SOCIAL HISTORY: 
+[_] Unable to Obtain due to Patient Condition
+Residence: _

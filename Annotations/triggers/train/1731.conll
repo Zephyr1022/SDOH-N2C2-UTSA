@@ -1,0 +1,108 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	She
+O	20	26	denies
+O	27	34	tobacco
+O	35	38	use
+O	39	41	or
+B-Drug	42	49	illicit
+I-Drug	50	54	drug
+I-Drug	55	58	use
+O	59	62	but
+O	63	66	did
+B-Tobacco	67	72	smoke
+O	73	77	only
+
+O	78	86	socially
+O	87	89	in
+O	90	93	her
+O	94	101	younger
+O	102	107	years
+O	107	108	.
+
+O	110	113	She
+O	114	118	does
+O	119	125	report
+O	126	137	significant
+
+O	138	144	second
+O	145	149	hand
+O	150	155	smoke
+O	156	164	exposure
+O	165	169	from
+O	170	173	her
+O	174	181	parents
+O	181	182	.
+
+O	184	187	She
+O	188	201	haspreviously
+
+O	202	206	been
+O	207	215	employed
+O	216	218	at
+O	219	222	the
+O	223	230	airport
+O	231	234	and
+O	235	242	reports
+O	243	251	expsoure
+O	252	254	to
+
+O	255	258	jet
+O	259	264	fumes
+O	264	265	.
+
+O	267	270	She
+O	271	277	denies
+O	278	289	significant
+O	290	298	exposure
+O	299	301	to
+O	302	310	asbestos
+O	311	313	or
+
+O	314	320	silica
+O	320	321	.
+
+O	323	326	She
+O	327	330	has
+O	331	334	not
+O	335	343	traveled
+O	344	352	recently
+O	352	353	.
+
+O	354	357	She
+B-LivingStatus	358	363	lives
+O	364	368	with
+O	369	372	her
+
+O	373	380	husband
+O	381	384	and
+O	385	393	children
+O	394	397	and
+O	398	407	currently
+O	408	413	doese
+O	414	417	not
+B-Employment	418	422	work
+O	422	423	.
+
+O	424	427	She
+O	428	430	is
+O	431	434	the
+
+O	435	441	leader
+O	442	444	of
+O	445	446	a
+O	447	454	support
+O	455	460	group
+O	461	464	for
+O	465	466	[
+O	466	467	*
+O	467	468	*
+O	468	474	Doctor
+O	475	480	First
+O	481	485	Name
+O	486	487	*
+O	487	488	*
+O	488	489	]
+O	489	490	.

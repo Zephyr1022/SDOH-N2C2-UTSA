@@ -1,0 +1,13 @@
+T1	Tobacco 28 33	smoke
+T2	StatusTime 19 27	does not
+T3	Alcohol 48 53	drink
+T4	StatusTime 39 47	does not
+T5	Employment 59 64	works
+T6	StatusEmploy 59 64	works
+T7	Type 68 69;70 82	a photographer
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Employment:T5 Status:T6 Type:T7
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusEmployVal T6 employed

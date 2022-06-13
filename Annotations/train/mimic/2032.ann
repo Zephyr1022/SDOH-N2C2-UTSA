@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 31	with wife
+T4	Alcohol 116 123	alcohol
+T5	StatusTime 132 141	abstained
+T6	History 142 154;155 163	for at least one year
+T7	Tobacco 179 184	smoke
+T8	StatusTime 166 178	Continues to
+T9	Employment 234 248	a former medic
+T10	StatusEmploy 234 248	a former medic
+T11	Type 234 248	a former medic
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5 History:T6
+E3	Tobacco:T7 Status:T8 Type:T12
+E4	Employment:T9 Status:T10 Type:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T8 current
+A5	StatusEmployVal T10 unemployed
+T12	Type 185 195	cigarettes

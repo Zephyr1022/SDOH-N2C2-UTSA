@@ -1,0 +1,28 @@
+T1	StatusTime 49 50	+
+T2	StatusTime 58 59	+
+T3	StatusTime 67 68	+
+T4	StatusTime 73 74	+
+T5	Alcohol 74 78	etoh
+T6	Drug 68 72	meth
+T7	Drug 59 66	opiates
+T8	Tobacco 50 57	tobacco
+T9	Type 59 66	opiates
+T10	Type 68 72	meth
+T11	Employment 38 48	Unemployed
+T12	StatusEmploy 38 48	Unemployed
+T13	LivingStatus 17 37	Transitional housing
+T14	StatusTime 17 37	Transitional housing
+T15	TypeLiving 17 37	Transitional housing
+E1	Alcohol:T5 Status:T4
+E2	Drug:T6 Status:T3 Type:T10
+E3	Drug:T7 Status:T2 Type:T9
+E4	Tobacco:T8 Status:T1
+E5	Employment:T11 Status:T12
+E6	LivingStatus:T13 Type:T15 Status:T14
+A1	StatusTimeVal T1 current
+A2	StatusTimeVal T2 current
+A3	StatusTimeVal T3 current
+A4	StatusTimeVal T4 current
+A5	StatusEmployVal T12 unemployed
+A6	StatusTimeVal T14 current
+A7	TypeLivingVal T15 homeless

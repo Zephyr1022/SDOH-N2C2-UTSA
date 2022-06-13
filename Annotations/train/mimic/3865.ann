@@ -1,0 +1,24 @@
+T1	LivingStatus 17 26	Residence
+T2	TypeLiving 34 46	with partner
+T3	StatusTime 28 33	Lives
+T4	Tobacco 67 78	Tobacco Use
+T5	Amount 80 92	19 pack year
+T6	StatusTime 102 106	quit
+T7	History 107 114	in 2010
+T8	Alcohol 115 126	Alcohol Use
+T9	Amount 144 154	1-2 drinks
+T10	Frequency 155 163	per week
+T11	StatusTime 128 142	social drinker
+T12	Drug 165 173	Drug Use
+T13	Method 179 183	IVDU
+T14	StatusTime 186 191	clean
+T15	Duration 192 207	x several years
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Amount:T5 Status:T6 History:T7
+E3	Alcohol:T8 Amount:T9 Frequency:T10 Status:T11
+E4	Drug:T12 Method:T13 Status:T14 Duration:T15
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T11 current
+A5	StatusTimeVal T14 past

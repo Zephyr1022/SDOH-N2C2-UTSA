@@ -1,0 +1,16 @@
+T1	Drug 102 110	Illicits
+T2	Tobacco 56 63	Tobacco
+T3	Duration 65 77	for 40 years
+T4	StatusTime 16 21	Lives
+T5	LivingStatus 16 21	Lives
+T6	Type 111 118	cocaine
+T7	StatusTime 111 118	cocaine
+T8	StatusTime 65 77	for 40 years
+T9	TypeLiving 22 27	alone
+E1	Drug:T1 Type:T6 Status:T7
+E2	Tobacco:T2 Duration:T3 Status:T8
+E3	LivingStatus:T5 Status:T4 Type:T9
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T8 current
+A4	TypeLivingVal T9 alone

@@ -1,0 +1,43 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	32	occasional
+
+B-Alcohol	35	42	Alcohol
+I-Alcohol	43	46	Use
+O	46	47	:
+O	48	49	a
+O	50	56	gallon
+O	57	59	of
+O	60	65	vodka
+O	66	71	daily
+
+B-Drug	76	80	Drug
+I-Drug	81	84	Use
+O	84	85	:
+O	86	90	none
+
+O	92	98	SOCIAL
+O	99	106	HISTORY
+O	106	107	:
+
+B-LivingStatus	109	118	Residence
+O	118	119	:
+O	120	129	currently
+O	130	137	staying
+O	138	142	with
+O	143	150	parents
+O	150	151	,
+O	152	155	but
+O	156	159	has
+O	160	167	housing
+O	168	176	approved
+O	177	179	so
+O	180	184	will
+O	185	190	start
+O	191	197	search
+O	198	201	for
+O	202	212	apartments

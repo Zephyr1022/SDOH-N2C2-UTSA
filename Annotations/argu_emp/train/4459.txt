@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: 0.25ppd x 15yrs   Alcohol Use: none   Drug Use: none 
+
+SOCIAL HISTORY: 
+Married, his wife [NAME] accompanies him in the ED 
+Residence: Lives in [LOCATION]. From [LOCATION] in [LOCATION].

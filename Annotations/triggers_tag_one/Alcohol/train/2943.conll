@@ -1,0 +1,39 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	15	Opioid
+O	16	26	dependence
+O	26	27	,
+O	28	30	on
+O	31	40	methadone
+
+B-Alcohol	41	48	Alcohol
+I-Alcohol	49	59	dependence
+O	60	62	in
+O	63	72	remission
+
+O	73	78	Vapes
+O	79	88	currently
+O	88	89	,
+O	90	93	but
+O	94	101	history
+O	102	104	of
+O	105	112	tobacco
+O	113	116	use
+
+O	117	119	No
+O	120	126	recent
+O	127	131	IVDU
+O	132	134	in
+O	135	139	past
+O	140	144	year
+
+O	146	152	SOCIAL
+O	153	160	HISTORY
+O	160	161	:
+
+O	163	169	Kerner
+O	169	170	-
+O	170	175	Scott
+O	176	181	House
+O	182	189	shelter

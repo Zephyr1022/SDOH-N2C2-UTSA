@@ -1,0 +1,25 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	denies
+T3	Alcohol 31 42	Alcohol Use
+T4	StatusTime 44 54	occasional
+T6	Amount 56 59	lt1
+T7	Frequency 59 65	/month
+T8	Drug 67 75	Drug Use
+T9	StatusTime 77 83	denies
+T10	LivingStatus 103 108	Lives
+T11	StatusTime 103 108	Lives
+T12	TypeLiving 109 133	with her parents and son
+T13	Employment 184 189	Works
+T14	StatusEmploy 184 189	Works
+T15	Type 193 209	a chef part time
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4 Amount:T6 Frequency:T7
+E3	Drug:T8 Status:T9
+E4	LivingStatus:T10 Status:T11 Type:T12
+E5	Employment:T13 Type:T15 Status:T14
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T11 current
+A6	TypeLivingVal T12 with_family
+A7	StatusEmployVal T14 employed

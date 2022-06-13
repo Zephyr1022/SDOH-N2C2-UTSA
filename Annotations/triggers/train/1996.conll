@@ -1,0 +1,58 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Married
+O	23	24	.
+
+O	25	32	Patient
+O	33	35	is
+O	36	37	a
+B-Employment	38	44	former
+I-Employment	45	56	optometrist
+O	57	60	who
+O	61	64	has
+O	65	69	been
+O	70	75	under
+O	76	77	a
+
+O	78	83	great
+O	84	88	deal
+O	89	91	of
+O	92	98	stress
+O	98	99	,
+O	100	107	related
+O	108	110	to
+O	111	114	his
+O	115	121	health
+O	122	132	inhibiting
+O	133	136	his
+
+O	137	144	ability
+O	145	147	to
+O	148	152	work
+O	152	153	.
+
+O	154	155	5
+O	156	160	year
+B-Tobacco	161	168	smoking
+I-Tobacco	169	176	history
+O	177	179	in
+O	180	183	20s
+O	183	184	.
+
+O	185	187	No
+O	188	195	history
+O	196	198	of
+
+B-Alcohol	199	203	etoh
+I-Alcohol	204	209	abuse
+O	209	210	.
+
+O	211	213	No
+O	214	216	IV
+O	217	219	or
+O	220	232	recreational
+B-Drug	233	237	drug
+I-Drug	238	241	use
+O	241	242	.

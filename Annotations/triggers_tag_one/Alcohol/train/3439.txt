@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: _X   Alcohol Use: occasional Drug Use: X_
+
+SOCIAL HISTORY: 
+Retired professor

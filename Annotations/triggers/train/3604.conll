@@ -1,0 +1,43 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+O	18	24	Social
+O	25	32	History
+
+O	34	40	Social
+O	41	48	History
+O	49	58	Narrative
+
+B-LivingStatus	59	64	LIves
+O	65	67	in
+O	68	69	[
+O	69	77	LOCATION
+O	77	78	]
+O	79	83	with
+O	84	87	his
+O	88	92	wife
+O	92	93	,
+O	94	95	[
+O	95	99	NAME
+O	99	100	]
+
+O	101	103	He
+O	104	107	has
+O	108	109	a
+O	110	116	degree
+O	117	119	in
+O	120	129	sociology
+O	129	130	.
+
+O	131	133	He
+O	134	139	spent
+O	140	142	20
+O	143	148	years
+O	149	151	in
+B-Employment	152	155	the
+I-Employment	156	160	army
+O	160	161	,
+O	162	165	was
+O	166	167	a
+O	168	173	pilot
+O	173	174	.

@@ -1,0 +1,17 @@
+T1	LivingStatus 241 246	lives
+T2	StatusTime 241 246	lives
+T3	TypeLiving 276 285;286 294	with 15yo daughter
+T4	Employment 307 313	worked
+T5	StatusEmploy 303 313	not worked
+T6	Duration 314 326	inmany years
+T7	Alcohol 580 588	drinking
+T8	StatusTime 569 579	history of
+T10	Amount 623 630	2 pints
+T11	Frequency 630 646	/day on weekends
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Status:T5 Duration:T6
+E3	Alcohol:T7 Status:T8 Amount:T10 Frequency:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T8 current

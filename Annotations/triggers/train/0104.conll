@@ -1,0 +1,68 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	23	Former
+O	24	28	real
+O	29	35	estate
+O	36	37	[
+O	37	38	*
+O	38	39	*
+O	39	45	Doctor
+O	46	50	Last
+O	51	55	Name
+O	56	59	360
+O	59	60	*
+O	60	61	*
+O	61	62	]
+O	62	63	,
+O	64	71	current
+
+B-Employment	72	82	unemployed
+O	82	83	.
+
+B-LivingStatus	85	90	Lives
+O	91	96	alone
+O	96	97	.
+
+B-Tobacco	99	105	Smokes
+O	106	107	1
+O	107	108	-
+O	108	109	1
+O	109	110	.
+O	110	111	5
+O	112	117	packs
+O	118	121	per
+O	122	125	day
+O	126	129	x20
+
+O	130	135	years
+O	135	136	.
+
+O	138	147	Currently
+O	148	154	admits
+O	155	157	to
+O	158	162	five
+O	163	169	drinks
+O	170	172	of
+B-Alcohol	173	180	alcohol
+O	181	184	per
+O	185	189	week
+O	189	190	.
+
+O	191	197	Denies
+O	198	201	any
+B-Drug	202	204	IV
+I-Drug	205	209	drug
+I-Drug	210	213	use
+O	214	216	or
+O	217	220	any
+B-Drug	221	233	recreational
+I-Drug	234	238	drug
+I-Drug	239	242	use
+O	242	243	.
+
+O	244	252	Divorced
+O	253	257	with
+O	258	260	no
+O	261	269	children
+O	269	270	.

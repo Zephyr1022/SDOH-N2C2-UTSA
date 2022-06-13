@@ -1,0 +1,18 @@
+T1	StatusEmploy 22 58	started his own [PROFESSION] company
+T2	History 59 98	2 months before his diagnosis of cancer
+T3	Type 34 49	own [PROFESSION
+T4	Employment 34 49	own [PROFESSION
+T9	Tobacco 322 329	Tobacco
+T10	Alcohol 338 345	Alcohol
+T11	Drug 398 403	Drugs
+T12	StatusTime 331 337	denies
+T13	StatusTime 347 387	denies current, h/o social drinking only
+T15	StatusTime 405 411	denies
+E1	Employment:T4 Type:T3 Status:T1 History:T2
+E3	Tobacco:T9 Status:T12
+E4	Alcohol:T10 Status:T13
+E5	Drug:T11 Status:T15
+A1	StatusEmployVal T1 unemployed
+A3	StatusTimeVal T12 none
+A4	StatusTimeVal T13 past
+A6	StatusTimeVal T15 none

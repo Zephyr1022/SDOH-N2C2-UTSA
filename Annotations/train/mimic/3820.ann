@@ -1,0 +1,27 @@
+T1	Tobacco 9 16	Tobacco
+T2	StatusTime 38 42	quit
+T3	Tobacco 70 87	smokeless tobacco
+T4	Type 70 79	smokeless
+T5	StatusTime 59 69	never used
+T6	Alcohol 90 94	EtOH
+T7	StatusTime 112 118	drinks
+T8	Amount 119 129	1-2 drinks
+T9	Frequency 130 137	per day
+T10	Drug 193 197	IVDU
+T11	StatusTime 215 227	does not use
+T12	Type 228 235	illicit
+T13	LivingStatus 261 266	lives
+T14	StatusTime 261 266	lives
+T15	TypeLiving 267 276	with wife
+E1	Tobacco:T1 Status:T2
+E2	Tobacco:T3 Type:T4 Status:T5
+E3	Alcohol:T6 Status:T7 Amount:T8 Frequency:T9
+E4	Drug:T10 Type:T12 Status:T11 Method:T16
+E5	LivingStatus:T13 Status:T14 Type:T15
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T11 none
+A5	StatusTimeVal T14 current
+A6	TypeLivingVal T15 with_family
+T16	Method 193 197	IVDU

@@ -1,0 +1,31 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	27	Never
+
+B-Alcohol	30	37	Alcohol
+I-Alcohol	38	41	Use
+O	41	42	:
+O	43	53	Occasional
+
+O	58	62	Drug
+O	63	66	Use
+O	66	67	:
+O	68	72	None
+O	72	73	,
+O	74	79	never
+
+O	82	88	SOCIAL
+O	89	96	HISTORY
+O	96	97	:
+
+O	99	108	Residence
+O	108	109	:
+O	110	115	Lives
+O	116	118	in
+O	119	120	[
+O	120	128	LOCATION
+O	128	129	]

@@ -1,0 +1,27 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	lives
+O	23	25	in
+O	26	27	[
+O	27	35	LOCATION
+O	35	36	]
+
+O	37	40	gym
+O	41	48	teacher
+
+O	49	51	no
+O	52	58	longer
+O	59	65	drinks
+B-Alcohol	66	73	alcohol
+O	74	79	since
+O	80	81	[
+O	81	85	DATE
+O	85	86	]
+O	86	87	,
+O	88	94	denies
+O	95	102	smoking
+O	102	103	,
+O	104	111	illicit
+O	112	117	drugs

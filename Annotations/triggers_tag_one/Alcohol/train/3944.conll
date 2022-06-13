@@ -1,0 +1,16 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	29	incarcerated
+
+O	30	40	occasional
+O	41	48	tobacco
+
+O	49	51	no
+B-Alcohol	52	56	etoh
+
+O	57	63	smoked
+O	64	71	heroine
+O	72	74	in
+O	75	79	past

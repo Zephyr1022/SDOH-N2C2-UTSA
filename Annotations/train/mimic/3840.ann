@@ -1,0 +1,15 @@
+T1	LivingStatus 4 9	Lives
+T2	TypeLiving 24 32	with Mom
+T3	StatusTime 4 9	Lives
+T4	Employment 34 44	Unemployed
+T5	StatusEmploy 34 44	Unemployed
+T6	Drug 57 86	cocaine, heroin, and meth use
+T7	Type 57 82	cocaine, heroin, and meth
+T9	StatusTime 46 56	Occasional
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Drug:T6 Type:T7 Status:T9
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed
+A5	StatusTimeVal T9 current

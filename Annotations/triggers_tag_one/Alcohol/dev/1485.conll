@@ -1,0 +1,41 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	25	Homeless
+O	25	26	;
+O	27	34	staying
+O	35	37	at
+O	38	43	Union
+O	44	50	Gospel
+O	51	58	shelter
+
+O	59	69	Previously
+O	70	77	staying
+O	78	82	with
+O	83	90	abusive
+O	91	102	significant
+O	103	108	other
+
+O	109	119	Unemployed
+
+O	120	124	High
+O	125	133	utilizer
+O	134	136	of
+O	137	139	ED
+O	140	148	services
+
+O	149	150	+
+O	150	157	tobacco
+
+O	158	159	+
+B-Alcohol	159	163	etoh
+
+O	164	165	+
+O	165	181	methamphetamines
+
+O	182	183	+
+O	183	189	heroin
+
+O	190	191	+
+O	191	198	cocaine

@@ -1,0 +1,91 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	Has
+O	20	23	had
+B-Alcohol	24	31	alcohol
+I-Alcohol	32	37	abuse
+O	38	41	for
+O	42	46	many
+O	47	52	years
+O	52	53	.
+
+O	55	59	Many
+O	60	66	rehabs
+O	66	67	,
+O	68	72	many
+
+O	73	84	withdrawals
+O	84	85	.
+
+O	86	88	Pt
+O	89	93	does
+O	94	97	not
+O	98	103	smoke
+O	103	104	.
+
+O	105	107	Pt
+O	108	112	does
+O	113	116	not
+O	117	120	use
+O	121	128	illicit
+O	129	134	drugs
+O	135	144	currently
+O	145	146	-
+O	146	147	-
+O	148	151	had
+O	152	156	used
+O	157	159	IV
+O	160	165	drugs
+O	166	168	in
+
+O	169	172	70s
+O	172	173	.
+
+O	174	176	Pt
+O	177	187	unemployed
+O	188	197	currently
+O	197	198	,
+O	199	203	used
+O	204	206	to
+O	207	209	be
+O	210	211	a
+O	212	221	wholesale
+O	222	236	representative
+O	236	237	.
+
+O	238	243	Lives
+O	244	248	near
+O	249	257	symphony
+O	257	258	,
+O	259	264	alone
+O	264	265	.
+
+O	267	270	Has
+O	271	272	a
+O	273	283	girlfriend
+O	283	284	.
+
+O	286	287	[
+O	287	288	*
+O	288	289	*
+O	289	293	Name
+O	294	295	(
+O	295	297	NI
+O	297	298	)
+O	299	300	*
+O	300	301	*
+O	301	302	]
+O	303	304	a
+O	305	308	son
+O	308	309	,
+
+O	310	318	daughter
+O	319	322	and
+O	323	326	one
+O	327	337	grandchild
+O	337	338	.
+
+O	340	348	Divorced
+O	348	349	.

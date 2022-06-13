@@ -1,0 +1,5 @@
+HABITS: 
+Denies tobacco, alcohol, or drugs. 
+
+SOCIAL HISTORY: 
+Lives in [LOCATION] with his husband [NAME].  Works as an RN.

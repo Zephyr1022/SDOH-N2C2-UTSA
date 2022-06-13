@@ -1,0 +1,49 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	Denies
+
+B-Alcohol	33	40	Alcohol
+I-Alcohol	41	44	Use
+O	44	45	:
+O	46	52	Denies
+
+B-Drug	53	57	Drug
+I-Drug	58	61	Use
+O	61	62	:
+O	63	67	used
+O	68	77	marijuana
+O	78	82	once
+O	83	88	about
+O	89	90	3
+O	91	95	days
+O	96	99	ago
+
+O	101	107	SOCIAL
+O	108	115	HISTORY
+O	115	116	:
+O	117	124	Patient
+O	125	128	has
+O	129	133	been
+O	134	141	married
+O	142	145	for
+O	146	148	24
+O	149	154	years
+O	154	155	.
+
+O	156	158	He
+O	159	162	has
+O	163	168	three
+O	169	177	children
+O	177	178	.
+
+O	179	181	He
+B-Employment	182	186	owns
+I-Employment	187	188	a
+I-Employment	189	190	[
+I-Employment	190	200	PROFESSION
+O	200	201	]
+O	201	202	.

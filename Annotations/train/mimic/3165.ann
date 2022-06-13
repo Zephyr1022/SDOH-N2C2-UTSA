@@ -1,0 +1,19 @@
+T1	Alcohol 142 149	Alcohol
+T2	Tobacco 126 133	Tobacco
+T6	StatusTime 135 141	Denies
+T7	StatusTime 151 157	Denies
+T9	Drug 158 166	Illicits
+T10	Type 189 198	marijuana
+T11	StatusTime 168 180	Positive for
+T12	Drug 255 266	IV drug use
+T14	StatusTime 248 254	Denies
+T13	Method 255 257	IV
+E1	Alcohol:T1 Status:T7
+E2	Tobacco:T2 Status:T6
+E4	Drug:T9 Status:T11 Type:T10 Method:T3
+E5	Drug:T12 Method:T13 Status:T14
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T7 none
+A5	StatusTimeVal T11 current
+A7	StatusTimeVal T14 none
+T3	Method 181 188	smoking

@@ -1,0 +1,29 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	27	31	wife
+O	32	34	in
+O	35	36	[
+O	36	37	*
+O	37	38	*
+O	38	42	Name
+O	43	44	(
+O	44	46	NI
+O	46	47	)
+O	48	53	10059
+O	53	54	*
+O	54	55	*
+O	55	56	]
+O	56	57	.
+
+O	58	60	No
+B-Tobacco	61	64	TOB
+O	64	65	,
+B-Alcohol	66	70	EtOH
+O	70	71	,
+B-Drug	72	79	illicit
+
+B-Drug	80	85	drugs

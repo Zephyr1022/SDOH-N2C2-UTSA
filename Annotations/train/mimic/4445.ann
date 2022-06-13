@@ -1,0 +1,31 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 26	1ppd
+T3	Duration 34 46	for 39 years
+T4	StatusTime 48 55	stopped
+T5	History 56 67	this [DATE]
+T6	Alcohol 71 82	Alcohol Use
+T7	StatusTime 84 90	drinks
+T9	Amount 156 165	3 bottles
+T10	Type 169 176	whiskey
+T11	Frequency 177 182	a day
+T12	StatusTime 193 206	has not drank
+T13	History 207 219	since [DATE]
+T8	Alcohol 135 143	drinking
+T14	Drug 265 273	Drug Use
+T15	StatusTime 282 287	clean
+T16	Type 293 297	meth
+T17	History 298 307	x33 years
+T19	StatusTime 383 402	Previously homeless
+T20	TypeLiving 383 402	Previously homeless
+T21	LivingStatus 372 381	Residence
+E1	Tobacco:T1 Amount:T2 Duration:T3 Status:T4 History:T5
+E2	Alcohol:T6 Status:T7
+E3	Alcohol:T8 Amount:T9 Type:T10 Frequency:T11 Status:T12 History:T13
+E4	Drug:T14 Status:T15 Type:T16 History:T17
+E6	LivingStatus:T21 Type:T20 Status:T19
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T7 current
+A4	StatusTimeVal T12 past
+A3	StatusTimeVal T15 past
+A5	StatusTimeVal T19 past
+A6	TypeLivingVal T20 homeless

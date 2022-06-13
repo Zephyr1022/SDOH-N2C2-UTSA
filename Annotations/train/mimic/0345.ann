@@ -1,0 +1,21 @@
+T4	Alcohol 280 287	alcohol
+T5	StatusTime 273 279	drinks
+T7	Alcohol 97 108	alcohol use
+T10	Alcohol 181 189	drinking
+T11	StatusTime 177 180	was
+T12	Amount 190 205;206 212	approximately 1 bottle
+T13	Type 216 220	wine
+T14	Frequency 221 228	per day
+T15	History 125 143;144 171	at the time of her diagnosis of her recurrence
+T1	Tobacco 50 70	20-pack-year history
+T2	Amount 50 62	20-pack-year
+T3	StatusTime 50 70	20-pack-year history
+T16	StatusTime 97 108	alcohol use
+E2	Alcohol:T4 Status:T5
+E3	Alcohol:T7 Status:T16
+E4	Alcohol:T10 Status:T11 Amount:T12 Type:T13 History:T15 Frequency:T14
+E1	Tobacco:T1 Amount:T2 Status:T3
+A2	StatusTimeVal T5 current
+A5	StatusTimeVal T11 past
+A1	StatusTimeVal T3 current
+A6	StatusTimeVal T16 current

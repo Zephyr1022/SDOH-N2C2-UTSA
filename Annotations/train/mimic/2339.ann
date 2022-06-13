@@ -1,0 +1,22 @@
+T1	Drug 22 40	heroin, meth, coke
+T2	Type 22 40	heroin, meth, coke
+T3	StatusTime 9 16	used to
+T4	LivingStatus 83 91	homeless
+T5	TypeLiving 83 91	homeless
+T6	Employment 117 124	working
+T7	StatusEmploy 113 124	now working
+T8	Type 125 139	for [LOCATION]
+T9	StatusTime 83 91	homeless
+T10	LivingStatus 93 99	living
+T11	TypeLiving 100 111	in shelters
+T12	StatusTime 93 99	living
+E1	Drug:T1 Type:T2 Status:T3
+E2	LivingStatus:T4 Type:T5 Status:T9
+E3	Employment:T6 Status:T7 Type:T8
+E4	LivingStatus:T10 Type:T11 Status:T12
+A1	StatusTimeVal T3 past
+A2	TypeLivingVal T5 homeless
+A3	StatusEmployVal T7 employed
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T11 with_others
+A6	StatusTimeVal T12 current

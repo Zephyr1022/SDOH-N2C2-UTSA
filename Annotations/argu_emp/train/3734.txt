@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: gt40 pack years   Alcohol Use: No   Drug Use: No
+
+SOCIAL HISTORY: 
+Lives in [LOCATION], widowed in 1996. Previously worked in lab, more recently working at a grocery store. Lives with/near close friend, [NAME] ([CONTACT]), who is listed as DPOA along with [NAME] ([CONTACT]).

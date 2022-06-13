@@ -1,0 +1,23 @@
+T1	LivingStatus 24 29	lives
+T2	StatusTime 24 29	lives
+T3	TypeLiving 30 43	with his wife
+T4	Employment 127 137	a army vet
+T5	Type 127 137	a army vet
+T6	StatusEmploy 127 137	a army vet
+T7	Tobacco 142 148	smoked
+T8	Duration 149 163	for > 30 years
+T9	StatusTime 169 173	quit
+T10	History 174 187	in [**2175**]
+T11	Alcohol 192 199	alcohol
+T12	Drug 203 211	drug use
+T13	StatusTime 189 191	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T6 Type:T5
+E3	Tobacco:T7 Duration:T8 Status:T9 History:T10
+E4	Alcohol:T11 Status:T13
+E5	Drug:T12 Status:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T6 unemployed
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T13 none

@@ -1,0 +1,24 @@
+T1	LivingStatus 45 50	Lives
+T2	StatusTime 45 50	Lives
+T3	TypeLiving 51 62	with mother
+T4	Employment 73 82	wash cars
+T5	StatusEmploy 88 122	can't anymore because of back pain
+T6	Alcohol 123 143	Moderate alcohol use
+T7	StatusTime 123 143	Moderate alcohol use
+T9	Drug 144 153	Marijuana
+T10	StatusTime 144 171	Marijuana to help with pain
+T11	Type 144 153	Marijuana
+T12	Tobacco 175 186	cigarrettes
+T13	Type 175 186	cigarrettes
+T14	StatusTime 172 174	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T9 Type:T11 Status:T10
+E5	Tobacco:T12 Type:T13 Status:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T7 current
+A6	StatusTimeVal T10 current
+A7	StatusTimeVal T14 none

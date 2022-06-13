@@ -1,0 +1,80 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+B-LivingStatus	24	29	lives
+O	30	35	alone
+O	35	36	,
+O	37	41	wife
+O	42	50	recently
+O	51	54	put
+O	55	57	in
+O	58	59	[
+O	59	60	*
+O	60	61	*
+O	61	65	Name
+O	66	67	(
+O	67	69	NI
+O	69	70	)
+O	71	72	*
+O	72	73	*
+O	73	74	]
+O	75	78	for
+O	79	87	advanced
+
+O	88	97	Alzheimer
+O	97	98	'
+O	98	99	s
+O	99	100	,
+O	101	111	previously
+O	112	118	looked
+O	119	124	after
+O	125	128	her
+O	129	131	at
+O	132	136	home
+O	137	138	x
+O	139	140	1
+O	141	143	yr
+O	143	144	.
+
+O	145	147	He
+O	148	150	is
+
+O	151	162	independent
+O	163	167	with
+O	168	171	ADL
+O	171	172	'
+O	172	173	s
+O	173	174	,
+O	175	179	very
+O	180	186	active
+O	187	189	as
+O	190	199	described
+O	200	205	above
+O	205	206	.
+
+O	207	212	Never
+
+B-Tobacco	213	219	smoked
+O	219	220	,
+O	221	226	never
+B-Alcohol	227	233	drinks
+O	233	234	,
+O	235	237	no
+O	238	241	OTC
+O	242	246	meds
+O	246	247	,
+O	248	250	no
+B-Drug	251	258	illicit
+I-Drug	259	264	drugs
+O	264	265	.
+
+O	266	269	Has
+O	270	277	several
+
+O	278	286	children
+O	287	289	in
+O	290	293	the
+O	294	298	area
+O	298	299	.

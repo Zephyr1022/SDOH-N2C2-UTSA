@@ -1,0 +1,22 @@
+T1	StatusTime 47 55	Endorses
+T2	Drug 56 64	meth use
+T3	Type 56 60	meth
+T4	Alcohol 69 73	etoh
+T5	StatusTime 74 80	denies
+T6	Drug 81 85	ivdi
+T7	Method 81 85	ivdi
+T8	LivingStatus 17 24	staying
+T9	TypeLiving 25 34	at sister
+T10	TypeLiving 38 45	shelter
+T11	StatusTime 17 24	staying
+E1	Drug:T2 Status:T1 Type:T3
+E2	Alcohol:T4 Status:T1
+E3	Drug:T6 Status:T5 Method:T7
+E4	LivingStatus:T8 Type:T9 Status:T11
+A1	StatusTimeVal T1 current
+A2	StatusTimeVal T5 none
+A3	TypeLivingVal T9 with_family
+A4	TypeLivingVal T10 homeless
+A5	StatusTimeVal T11 current
+T12	LivingStatus 38 45	shelter
+E5	LivingStatus:T12 Type:T10 Status:T11

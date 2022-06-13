@@ -1,0 +1,11 @@
+T1	LivingStatus 185 190	Lives
+T2	TypeLiving 199 215	with his parents
+T3	StatusTime 185 190	Lives
+T4	Employment 263 274	not working
+T5	StatusEmploy 254 274	Endorses not working
+T6	Duration 278 291	about 2 years
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5 Duration:T6
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed

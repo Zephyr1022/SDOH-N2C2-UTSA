@@ -1,0 +1,5 @@
+T1	Employment 8 35	high school history teacher
+T2	Type 8 35	high school history teacher
+T3	StatusEmploy 8 35	high school history teacher
+E1	Employment:T1 Status:T3 Type:T2
+A1	StatusEmployVal T3 employed

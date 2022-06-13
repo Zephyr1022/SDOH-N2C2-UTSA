@@ -1,0 +1,5 @@
+T1	Tobacco 9 20	Tobacco Use
+T5	Alcohol 41 52	Alcohol Use
+T9	Drug 81 89	Drug Use
+T12	LivingStatus 114 119	Lived
+T15	LivingStatus 171 179	SNF stay

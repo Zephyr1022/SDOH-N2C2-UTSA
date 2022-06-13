@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	None
+T3	Alcohol 28 39	Alcohol Use
+T4	StatusTime 41 45	none
+T5	Drug 47 55	Drug Use
+T6	StatusTime 57 61	none
+T7	LivingStatus 111 115	live
+T8	TypeLiving 79 110	Married with  2yo daughter They
+T9	StatusTime 111 115	live
+T10	Employment 150 172	an assistant professor
+T11	StatusEmploy 147 149	is
+T12	Type 150 172	an assistant professor
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Type:T8 Status:T9
+E5	Employment:T10 Status:T11 Type:T12
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	TypeLivingVal T8 with_family
+A5	StatusTimeVal T9 current
+A6	StatusEmployVal T11 employed

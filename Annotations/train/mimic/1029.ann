@@ -1,0 +1,24 @@
+T1	Tobacco 160 166	smokes
+T2	Amount 167 175	one pack
+T3	Frequency 190 195	a day
+T4	Duration 196 218	for twenty three years
+T5	StatusTime 223 227	quit
+T6	History 228 231;232 232;233 242	one  month ago
+T7	LivingStatus 61 66	lives
+T8	StatusTime 61 66	lives
+T9	TypeLiving 45 60	his wife and he
+T10	Alcohol 254 261	alcohol
+T12	StatusTime 247 253	drinks
+T13	Employment 275 281	worked
+T14	StatusEmploy 275 281	worked
+T15	Type 285 297	construction
+E1	Tobacco:T1 Amount:T2 Frequency:T3 Duration:T4 Status:T5 History:T6 Type:T11
+E2	LivingStatus:T7 Type:T9 Status:T8
+E3	Alcohol:T10 Status:T12
+E4	Employment:T13 Status:T14 Type:T15
+A1	StatusTimeVal T5 past
+A2	StatusTimeVal T8 current
+A3	TypeLivingVal T9 with_family
+A5	StatusTimeVal T12 current
+A6	StatusEmployVal T14 unemployed
+T11	Type 179 189	cigarettes

@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: none   Alcohol Use: rare   Drug Use: none
+
+SOCIAL HISTORY: 
+Lives with her Husband and 2 children (ages 16 and 6) in [LOCATION]. 
+Works as a medical assistant in an practitioner in [LOCATION].

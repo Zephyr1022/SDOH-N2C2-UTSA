@@ -1,0 +1,16 @@
+T1	Amount 61 72	half-a-pack
+T2	Frequency 95 102	per day
+T3	StatusTime 52 58	Smoked
+T4	Tobacco 76 83	tobacco
+T5	Type 84 94	cigarettes
+T6	History 103 132	prior to intake into the jail
+T7	Drug 164 170	heroin
+T8	Type 164 170	heroin
+T9	Method 161 163	IV
+T10	Frequency 155 160	daily
+T11	History 171 209	prior to this most recent stay in jail
+T12	StatusTime 150 154	used
+E1	Tobacco:T4 Amount:T1 Status:T3 Type:T5 Frequency:T2 History:T6
+E2	Drug:T7 Method:T9 Type:T8 Frequency:T10 History:T11 Status:T12
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T12 past

@@ -1,0 +1,30 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	24	Staying
+O	25	27	at
+O	28	29	a
+O	30	32	DV
+O	33	40	shelter
+
+O	41	49	Endorses
+B-Drug	50	54	meth
+I-Drug	55	58	use
+O	59	60	(
+O	60	66	smoked
+O	66	67	)
+O	68	78	previously
+O	79	81	IV
+O	81	82	.
+
+O	83	87	Also
+O	88	94	smokes
+B-Tobacco	95	102	tobacco
+O	102	103	.
+
+O	104	106	No
+B-Alcohol	107	113	recent
+I-Alcohol	114	118	ETOH
+I-Alcohol	119	122	use
+O	122	123	.

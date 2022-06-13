@@ -1,0 +1,21 @@
+T1	LivingStatus 17 23	living
+T2	StatusTime 17 23	living
+T3	TypeLiving 24 43	in shelter/homeless
+T4	Employment 53 63	unemployed
+T5	StatusEmploy 64 70	on SSI
+T6	Tobacco 73 80	tobacco
+T8	Alcohol 101 108	alcohol
+T9	StatusTime 94 100	denies
+T10	Drug 85 93	meth use
+T11	Type 85 89	meth
+T12	StatusTime 71 72	+
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T12
+E4	Alcohol:T8 Status:T9
+E5	Drug:T10 Type:T11 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusEmployVal T5 on_disability
+A5	StatusTimeVal T9 none
+A6	StatusTimeVal T12 current

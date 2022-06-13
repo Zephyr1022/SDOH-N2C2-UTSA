@@ -1,0 +1,72 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+O	24	26	is
+O	27	34	married
+O	34	35	,
+B-LivingStatus	36	41	lives
+O	42	46	with
+O	47	54	husband
+O	54	55	.
+
+O	56	62	Family
+O	63	69	stress
+O	70	73	due
+O	74	76	to
+
+O	77	82	death
+O	83	85	of
+O	86	89	her
+O	90	93	son
+O	94	98	from
+O	99	105	heroin
+O	106	114	overdose
+O	114	115	.
+
+O	116	120	Also
+O	121	124	has
+O	125	133	daughter
+O	134	135	w
+O	135	136	/
+
+O	137	144	current
+O	145	154	substance
+O	155	160	abuse
+O	161	169	problems
+O	169	170	.
+
+O	171	172	[
+O	172	173	*
+O	173	174	*
+O	174	178	Name
+O	179	180	(
+O	180	182	NI
+O	182	183	)
+O	184	185	*
+O	185	186	*
+O	186	187	]
+O	188	189	a
+O	190	192	60
+O	193	197	pack
+O	198	202	year
+O	203	210	history
+O	211	214	and
+
+O	216	225	currently
+B-Tobacco	226	232	smokes
+O	233	238	about
+O	239	242	one
+O	243	247	pack
+O	248	251	per
+O	252	255	day
+O	255	256	,
+O	257	260	but
+O	261	264	has
+O	265	270	plans
+O	271	273	to
+O	274	278	quit
+O	278	279	.
+
+O	280	281	.

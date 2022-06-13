@@ -1,0 +1,19 @@
+T1	Employment 75 82	Student
+T2	StatusEmploy 75 82	Student
+T3	Tobacco 116 122	Smokes
+T4	StatusTime 116 122	Smokes
+T6	Alcohol 136 140	EtOH
+T7	StatusTime 141 184	up to 8 beers a night, a few times per week
+T8	Amount 141 154	up to 8 beers
+T9	Frequency 155 184	a night, a few times per week
+T10	Drug 192 196	IVDU
+T11	Method 192 196	IVDU
+T12	StatusTime 185 191	Denies
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+E3	Alcohol:T6 Status:T7 Amount:T8 Frequency:T9
+E4	Drug:T10 Status:T12 Method:T11
+A1	StatusEmployVal T2 student
+A2	StatusTimeVal T4 current
+A4	StatusTimeVal T7 current
+A5	StatusTimeVal T12 none

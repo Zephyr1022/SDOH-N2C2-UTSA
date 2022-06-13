@@ -1,0 +1,15 @@
+T1	LivingStatus 27 32	Lives
+T2	StatusTime 27 32	Lives
+T3	TypeLiving 33 52	with his girlfriend
+T4	Drug 91 95;96 99	drug use
+T5	Type 84 90	ilicit
+T6	StatusTime 81 83	No
+T7	Employment 101 111	Unemployed
+T8	StatusEmploy 101 111	Unemployed
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Drug:T4 Type:T5 Status:T6
+E3	Employment:T7 Status:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T6 none
+A4	StatusEmployVal T8 unemployed

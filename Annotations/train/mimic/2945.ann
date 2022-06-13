@@ -1,0 +1,15 @@
+T1	Alcohol 29 36	alcohol
+T2	StatusTime 22 28	Denies
+T3	Drug 17 21	IVDU
+T4	StatusTime 17 21	IVDU
+T5	Method 17 21	IVDU
+T6	LivingStatus 63 70	respite
+T7	TypeLiving 63 70	respite
+T8	StatusTime 38 57	Recently discharged
+E1	Alcohol:T1 Status:T2
+E2	Drug:T3 Status:T4 Method:T5
+E3	LivingStatus:T6 Type:T7 Status:T8
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T7 with_others
+A4	StatusTimeVal T8 past

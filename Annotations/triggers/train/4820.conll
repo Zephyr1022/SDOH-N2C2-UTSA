@@ -1,0 +1,68 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Drug	16	25	Substance
+I-Drug	26	31	abuse
+I-Drug	32	38	issues
+
+O	39	46	Chronic
+O	47	51	pain
+O	52	54	on
+O	55	64	narcotics
+
+O	65	72	Married
+
+O	73	74	+
+O	74	75	h
+O	75	76	/
+O	76	77	o
+B-Tobacco	78	85	tobacco
+
+O	86	92	SOCIAL
+O	93	100	HISTORY
+O	100	101	:
+O	102	104	Pt
+B-LivingStatus	105	110	lives
+O	111	113	in
+O	114	115	[
+O	115	116	*
+O	116	117	*
+O	117	126	Hospital1
+O	127	131	1474
+O	131	132	*
+O	132	133	*
+O	133	134	]
+O	135	139	with
+O	140	143	his
+O	144	149	fianc
+O	150	151	.
+
+O	152	154	He
+O	155	158	has
+O	159	160	a
+
+O	161	169	daughter
+O	170	172	in
+O	173	176	her
+O	177	185	twenties
+O	186	189	who
+O	190	195	lives
+O	196	198	in
+O	199	202	the
+O	203	207	area
+O	208	211	and
+O	212	214	is
+O	215	219	very
+
+O	220	228	involved
+O	229	231	in
+O	232	235	his
+O	236	240	life
+O	240	241	.
+
+O	243	245	He
+O	246	248	is
+B-Employment	249	250	a
+I-Employment	251	259	mechanic
+O	259	260	.

@@ -1,0 +1,25 @@
+T1	Drug 34 42	IV drugs
+T2	StatusTime 20 33	formally used
+T3	Alcohol 63 67	ETOH
+T4	StatusTime 52 62	no current
+T5	Employment 137 150	on disability
+T6	StatusEmploy 137 150	on disability
+T7	LivingStatus 106 111	lives
+T8	StatusTime 106 111	lives
+T9	TypeLiving 112 128	in a sober house
+T10	Duration 90 100	for 1 year
+T11	StatusTime 69 76	Reports
+T12	Tobacco 79 89	cigarettes
+T13	Type 79 89	cigarettes
+E1	Drug:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Employment:T5 Status:T6
+E4	LivingStatus:T7 Status:T8 Type:T9
+E5	Tobacco:T12 Type:T13 Duration:T10 Status:T11 Amount:T14
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 none
+A3	StatusEmployVal T6 on_disability
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 with_others
+A6	StatusTimeVal T11 current
+T14	Amount 77 89	3 cigarettes

@@ -1,0 +1,23 @@
+T1	Drug 22 33	heroin user
+T2	StatusTime 17 21	Past
+T3	Alcohol 46 53	alcohol
+T4	StatusTime 35 45	no current
+T5	Tobacco 63 69	smoker
+T6	StatusTime 55 62	current
+T7	Amount 70 84	~10 cigarettes
+T8	Type 74 84	cigarettes
+T9	Frequency 84 88	/day
+T10	Duration 89 101	for 5 months
+T11	LivingStatus 103 109	Living
+T12	TypeLiving 110 125	at 1811 shelter
+T13	StatusTime 103 109	Living
+E1	Drug:T1 Status:T2 Type:T16
+E2	Alcohol:T3 Status:T4
+E3	Tobacco:T5 Status:T6 Amount:T7 Type:T8 Frequency:T9 Duration:T10
+E4	LivingStatus:T11 Type:T12 Status:T13
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 current
+A4	TypeLivingVal T12 homeless
+A5	StatusTimeVal T13 current
+T16	Type 22 28	heroin

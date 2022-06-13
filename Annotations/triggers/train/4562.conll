@@ -1,0 +1,47 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	'
+B-Employment	17	22	Works
+O	23	25	at
+O	26	27	a
+O	28	36	homeless
+O	37	44	shelter
+O	45	50	doing
+O	51	59	multiple
+O	60	64	jobs
+O	64	65	.
+
+O	66	67	-
+B-Tobacco	67	74	Tobacco
+I-Tobacco	75	82	history
+O	82	83	:
+O	84	88	Quit
+O	89	90	5
+O	91	96	years
+O	97	100	ago
+O	100	101	,
+O	102	108	smoked
+O	109	111	10
+O	112	116	pack
+O	117	121	year
+O	122	129	history
+
+O	131	132	-
+B-Alcohol	132	136	ETOH
+O	136	137	:
+O	138	144	Rarely
+O	144	145	,
+O	146	150	does
+O	151	154	not
+O	155	163	remember
+O	164	168	last
+O	169	178	alcoholic
+O	179	184	drink
+
+O	185	186	-
+B-Drug	186	193	Illicit
+I-Drug	194	199	drugs
+O	199	200	:
+O	201	205	None

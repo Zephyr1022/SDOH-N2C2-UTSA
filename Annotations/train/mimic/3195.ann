@@ -1,0 +1,24 @@
+T1	Employment 17 36	[LOCATION] engineer
+T2	StatusEmploy 17 36	[LOCATION] engineer
+T3	Type 17 36	[LOCATION] engineer
+T4	LivingStatus 98 103	Lives
+T5	StatusTime 98 103	Lives
+T6	TypeLiving 154 181	with his parents and sister
+T7	Tobacco 636 647	Tobacco Use
+T8	Amount 649 658	1-1.5 ppd
+T9	StatusTime 659 664	prior
+T10	Alcohol 710 721	Alcohol Use
+T11	StatusTime 724 748	Denies hx or current use
+T12	Drug 749 757	Drug Use
+T13	StatusTime 759 783	Denies hx or current use
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Amount:T8 Status:T9
+E4	Alcohol:T10 Status:T11
+E5	Drug:T12 Status:T13
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T11 none
+A6	StatusTimeVal T13 none

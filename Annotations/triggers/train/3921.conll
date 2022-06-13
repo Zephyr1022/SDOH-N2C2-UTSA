@@ -1,0 +1,63 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	15	Denies
+B-Tobacco	16	23	tobacco
+O	24	26	or
+B-Drug	27	36	substance
+I-Drug	37	40	use
+O	40	41	.
+
+B-Alcohol	42	52	Occasional
+I-Alcohol	53	60	alcohol
+I-Alcohol	61	64	use
+O	65	68	but
+O	69	73	none
+O	74	76	in
+O	77	80	the
+O	81	85	past
+O	86	90	week
+O	90	91	.
+
+O	93	99	SOCIAL
+O	100	107	HISTORY
+O	107	108	:
+
+O	110	115	Lives
+O	116	118	in
+O	119	121	an
+O	122	131	apartment
+O	132	134	in
+O	135	136	[
+O	136	144	LOCATION
+O	144	145	]
+O	145	146	.
+
+O	148	151	Her
+O	152	158	sister
+O	159	164	lives
+O	165	167	in
+O	168	174	nearby
+O	175	176	[
+O	176	184	LOCATION
+O	184	185	]
+O	186	189	and
+O	190	193	has
+O	194	198	been
+O	199	206	staying
+O	207	211	with
+O	212	215	her
+O	216	219	for
+O	220	223	the
+O	224	228	past
+O	229	232	few
+O	233	237	days
+O	237	238	.
+
+O	239	243	Used
+O	244	246	to
+B-Employment	247	251	work
+O	252	254	as
+O	255	256	a
+O	257	260	CNA
+O	260	261	.

@@ -1,0 +1,28 @@
+T1	Amount 20 28	1-2 cigs
+T2	Frequency 29 35	a week
+T3	Tobacco 24 28	cigs
+T4	StatusTime 16 19	Has
+T5	Alcohol 43 47	beer
+T6	Amount 41 47	a beer
+T7	Type 43 47	beer
+T9	StatusTime 37 40	has
+T10	Drug 94 102	drug use
+T11	StatusTime 68 82	remote history
+T12	Type 104 119	cocaine, heroin
+T13	LivingStatus 132 138	living
+T14	StatusTime 122 138	Currently living
+T15	TypeLiving 153 163	by himself
+T16	Employment 189 193	work
+T17	StatusEmploy 181 188	Used to
+T18	Type 202 230	[LOCATION] in the [LOCATION]
+E1	Tobacco:T3 Status:T4 Amount:T1 Frequency:T2
+E2	Alcohol:T5 Status:T9 Amount:T6 Type:T7
+E3	Drug:T10 Type:T12 Status:T11
+E4	LivingStatus:T13 Type:T15 Status:T14
+E5	Employment:T16 Status:T17 Type:T18
+A1	StatusTimeVal T4 current
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T11 past
+A5	StatusTimeVal T14 current
+A6	TypeLivingVal T15 alone
+A7	StatusEmployVal T17 unemployed

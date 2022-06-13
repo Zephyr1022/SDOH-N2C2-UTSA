@@ -1,0 +1,38 @@
+T1	Alcohol 80 84;85 95	EtOH dependence
+T2	StatusTime 100 105	sober
+T3	Alcohol 151 166	occasional beer
+T5	StatusTime 142 150	endorses
+T6	History 106 122	for "many years"
+T8	Drug 269 281	amphetamines
+T9	History 282 295	in [**2055**]
+T11	StatusTime 282 295	in [**2055**]
+T12	Type 269 281	amphetamines
+T13	Drug 309 317	morphone
+T14	Method 319 335;336 347	dissolved it and injected it
+T15	Drug 353 362	narcotics
+T16	StatusTime 349 352	Off
+T18	StatusTime 297 308	H/o abusing
+T19	Tobacco 390 393	tob
+T20	StatusTime 385 389	Quit
+T21	History 394 396;397 407	in [**2085**]
+T22	LivingStatus 16 21	Lives
+T23	TypeLiving 42 69	in a senior housing project
+T24	StatusTime 16 21	Lives
+T25	Duration 71 79	Long h/o
+E1	Alcohol:T1 Status:T2 History:T6 Duration:T25
+E2	Alcohol:T3 Status:T5 Type:T4 History:T7
+E3	Drug:T8 Type:T12 Status:T11 History:T9
+E4	Drug:T13 Status:T18 Method:T14
+E5	Drug:T15 Status:T16
+E6	Tobacco:T19 Status:T20 History:T21
+E7	LivingStatus:T22 Status:T24 Type:T23
+A1	StatusTimeVal T2 past
+A3	StatusTimeVal T5 current
+A6	StatusTimeVal T11 past
+A7	StatusTimeVal T16 past
+A9	StatusTimeVal T18 past
+A10	StatusTimeVal T20 past
+A11	TypeLivingVal T23 with_others
+A12	StatusTimeVal T24 current
+T4	Type 162 166	beer
+T7	History 190 202;203 206	a few months ago

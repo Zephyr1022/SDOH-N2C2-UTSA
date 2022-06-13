@@ -1,0 +1,25 @@
+T1	LivingStatus 88 92	Live
+T2	StatusTime 88 92	Live
+T3	TypeLiving 94 103	In a tent
+T4	Employment 104 108	Work
+T5	StatusEmploy 109 120	not working
+T6	Tobacco 17 24	Tobacco
+T7	Amount 25 34	half-pack
+T8	Frequency 35 42	per day
+T9	Alcohol 43 50	Alcohol
+T10	StatusTime 52 58	Denies
+T11	Drug 60 64	Drug
+T12	StatusTime 66 86	Occasional marijuana
+T13	Type 77 86	marijuana
+T15	StatusTime 25 42	half-pack per day
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Amount:T7 Frequency:T8 Status:T15
+E4	Alcohol:T9 Status:T10
+E5	Drug:T11 Type:T13 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T12 current
+A7	StatusTimeVal T15 current

@@ -1,0 +1,25 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	23	1
+O	23	24	/
+O	24	28	4ppd
+B-Alcohol	31	38	Alcohol
+I-Alcohol	39	42	Use
+O	42	43	:
+O	44	50	denies
+B-Drug	53	57	Drug
+I-Drug	58	61	Use
+O	61	62	:
+O	63	69	denies
+
+O	71	77	SOCIAL
+O	78	85	HISTORY
+O	85	86	:
+
+B-LivingStatus	88	95	Resides
+O	96	98	at
+O	99	103	YMCA

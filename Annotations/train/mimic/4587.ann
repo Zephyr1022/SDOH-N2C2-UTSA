@@ -1,0 +1,39 @@
+T1	Employment 91 104	on disability
+T2	StatusEmploy 91 104	on disability
+T3	Alcohol 190 197	alcohol
+T4	StatusTime 176 180	quit
+T5	History 198 211	in [**5-10**]
+T6	Tobacco 216 222	smokes
+T7	StatusTime 216 222	smokes
+T8	Amount 223 237	[**5-7**] cigs
+T9	Type 233 237	cigs
+T10	Frequency 237 241	/day
+T11	Tobacco 255 258	ppd
+T12	StatusTime 243 252	down from
+T13	Amount 253 258	1 ppd
+T15	Drug 293 302	marijuana
+T16	StatusTime 307 311	quit
+T17	History 312 325	in [**2108**]
+T18	Method 286 292	smoked
+T19	Drug 338 354;355 359	cocaine, heroin, IVDU
+T20	Type 338 354;355 359	cocaine, heroin, IVDU
+T21	StatusTime 327 333	Denies
+T22	LivingStatus 24 29	lives
+T23	StatusTime 24 29	lives
+T24	TypeLiving 30 49	in a boarding house
+T14	Duration 259 280	for the past 40 years
+E1	Employment:T1 Status:T2
+E2	Alcohol:T3 History:T5 Status:T4
+E3	Tobacco:T6 Status:T7 Amount:T8 Type:T9 Frequency:T10
+E4	Tobacco:T11 Status:T12 Amount:T13 Duration:T14
+E5	Drug:T15 Method:T18 Status:T16 History:T17
+E6	Drug:T19 Type:T20 Status:T21
+E7	LivingStatus:T22 Status:T23 Type:T24
+A1	StatusEmployVal T2 on_disability
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T12 past
+A6	StatusTimeVal T16 past
+A7	StatusTimeVal T21 none
+A8	StatusTimeVal T23 current
+A9	TypeLivingVal T24 with_others

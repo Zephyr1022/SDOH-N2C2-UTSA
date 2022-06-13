@@ -1,0 +1,36 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	lives
+O	23	28	alone
+O	29	31	in
+O	32	35	apt
+O	35	36	;
+O	37	41	gets
+O	42	48	around
+O	49	53	with
+O	54	55	w
+O	55	56	/
+O	56	57	c
+
+B-Employment	58	67	currently
+I-Employment	68	78	unemployed
+O	78	79	;
+O	80	90	previously
+O	91	94	was
+O	95	101	roofer
+
+O	102	103	+
+B-Tobacco	103	113	cigarettes
+O	114	115	-
+O	116	119	can
+O	120	123	not
+O	124	132	quantify
+
+O	133	139	denies
+B-Alcohol	140	144	etoh
+
+O	145	151	denies
+B-Drug	152	159	current
+I-Drug	160	164	ivdu

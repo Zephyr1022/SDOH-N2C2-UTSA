@@ -1,0 +1,37 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 33	1 pack year
+T3	StatusTime 35 49	none currently
+T4	Alcohol 52 63	Alcohol Use
+T5	Amount 66 73	5 beers
+T6	Frequency 73 78	/week
+T7	Type 68 73	beers
+T8	StatusTime 66 78	5 beers/week
+T9	Drug 80 88	Drug Use
+T10	Duration 90 98	15 years
+T11	Method 99 106	inhaled
+T12	Type 107 115	cannabis
+T13	StatusTime 99 106	inhaled
+T14	Duration 117 125	6 months
+T15	Drug 126 134	cannabis
+T16	Type 126 134	cannabis
+T17	Method 135 140	vapes
+T18	StatusTime 135 140	vapes
+T19	LivingStatus 159 168	Residence
+T20	StatusTime 184 189	Lives
+T21	TypeLiving 190 212	with wife and daughter
+T22	Employment 215 234	Previously employed
+T23	StatusEmploy 215 234	Previously employed
+T24	Type 238 242	chef
+E1	Tobacco:T1 Amount:T2 Status:T3
+E2	Alcohol:T4 Type:T7 Amount:T5 Status:T8 Frequency:T6
+E3	Drug:T9 Duration:T10 Method:T11 Status:T13 Type:T12
+E4	Drug:T15 Duration:T14 Type:T16 Method:T17 Status:T18
+E5	LivingStatus:T19 Status:T20 Type:T21
+E6	Employment:T22 Status:T23 Type:T24
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T8 current
+A3	StatusTimeVal T13 past
+A4	StatusTimeVal T18 current
+A5	StatusTimeVal T20 current
+A6	TypeLivingVal T21 with_family
+A7	StatusEmployVal T23 unemployed

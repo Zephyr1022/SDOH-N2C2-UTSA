@@ -1,0 +1,25 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	26	none
+B-Alcohol	28	35	Alcohol
+I-Alcohol	36	39	Use
+O	39	40	:
+O	41	45	none
+O	48	52	Drug
+O	53	56	Use
+O	56	57	:
+O	58	62	none
+
+O	64	70	SOCIAL
+O	71	78	HISTORY
+O	78	79	:
+
+O	81	86	lives
+O	87	89	in
+O	90	91	[
+O	91	99	LOCATION
+O	99	100	]

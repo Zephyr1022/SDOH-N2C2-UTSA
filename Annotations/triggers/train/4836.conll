@@ -1,0 +1,48 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	in
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	37	Hospital1
+O	38	39	*
+O	39	40	*
+O	40	41	]
+O	41	42	,
+B-Employment	43	48	works
+O	49	53	with
+O	54	57	his
+O	58	64	father
+O	64	65	.
+
+O	66	72	Denies
+B-Drug	73	77	drug
+O	78	80	or
+
+B-Alcohol	81	88	alcohol
+I-Alcohol	89	92	use
+O	92	93	,
+B-Tobacco	94	100	smokes
+O	101	111	cigarettes
+O	111	112	.
+
+O	113	116	Not
+O	117	124	married
+O	124	125	.
+
+O	126	133	Unclear
+O	134	136	if
+O	137	145	finished
+
+O	147	151	high
+O	152	158	school
+O	158	159	/
+O	159	166	college
+O	166	167	.
+
+O	168	172	Only
+O	173	178	child
+O	178	179	.

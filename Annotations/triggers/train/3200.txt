@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: Reports 20 year pack history, quit in [DATE]   Alcohol Use: Reports previous alcohol abuse of "a fifth" of liquor per day, but has remained sober since her hospitalization at the beginning of this month  Drug Use: She has a distant history of methamphetamine use, denies IVDU. 
+
+SOCIAL HISTORY: 
+Patient currently homeless, residing at 1811 House. She reports having 2 children who live with their father. She previously worked at [LOCATION] and [PROFESSION], but is currently without a source of income. She is not currently sexually active, but reports that she had a boyfriend 1 month ago who was known to be promiscuous.

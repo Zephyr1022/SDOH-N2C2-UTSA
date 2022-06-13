@@ -1,0 +1,47 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	Denies
+
+B-Alcohol	32	39	Alcohol
+I-Alcohol	40	43	Use
+O	43	44	:
+O	45	51	Denies
+
+B-Drug	55	59	Drug
+I-Drug	60	63	Use
+O	63	64	:
+O	65	71	Denies
+
+O	73	79	SOCIAL
+O	80	87	HISTORY
+O	87	88	:
+
+B-LivingStatus	90	95	Lives
+O	96	98	at
+O	99	100	[
+O	100	108	LOCATION
+O	108	109	]
+O	110	113	SNF
+O	114	116	in
+O	117	118	[
+O	118	126	LOCATION
+O	126	127	]
+O	127	128	.
+
+O	129	131	At
+O	132	140	baseline
+O	141	144	can
+O	145	153	transfer
+O	154	158	from
+O	159	162	bed
+O	163	165	to
+O	166	171	chair
+O	171	172	,
+O	173	182	sometimes
+O	183	188	needs
+O	189	199	assistance
+O	199	200	.

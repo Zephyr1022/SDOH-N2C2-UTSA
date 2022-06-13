@@ -1,0 +1,16 @@
+T1	LivingStatus 59 64	Lives
+T2	StatusTime 59 64	Lives
+T3	TypeLiving 65 73;74 82	with her daughter
+T4	Duration 84 92	65+ year
+T5	Tobacco 93 108	smoking history
+T6	StatusTime 84 108	65+ year smoking history
+T7	Employment 110 132	Retired surgical nurse
+T8	StatusEmploy 110 132	Retired surgical nurse
+T9	Type 110 132	Retired surgical nurse
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T5 Status:T6 Duration:T4
+E3	Employment:T7 Status:T8 Type:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T6 current
+A4	StatusEmployVal T8 retired

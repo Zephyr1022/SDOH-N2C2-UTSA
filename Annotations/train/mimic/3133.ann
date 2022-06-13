@@ -1,0 +1,27 @@
+T1	LivingStatus 8 13	Lives
+T2	TypeLiving 14 32	on a friends couch
+T3	StatusTime 8 13	Lives
+T4	Employment 34 54	currently unemployed
+T5	StatusEmploy 44 54	unemployed
+T6	Alcohol 67 72	drank
+T7	Amount 73 100	1/5 L of vodka and 18 beers
+T8	Type 82 100	vodka and 18 beers
+T9	Frequency 101 106	a day
+T10	Duration 107 118	for 1 month
+T11	StatusTime 58 66	Recently
+T12	Drug 129 133	IVDU
+T13	Method 129 133	IVDU
+T14	StatusTime 122 128	Denies
+T15	Tobacco 144 151	Tabacco
+T16	StatusTime 137 143	Denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Alcohol:T6 Type:T8 Amount:T7 Frequency:T9 Duration:T10 Status:T11
+E4	Drug:T12 Method:T13 Status:T14
+E5	Tobacco:T15 Status:T16
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T11 current
+A5	StatusTimeVal T14 none
+A6	StatusTimeVal T16 none

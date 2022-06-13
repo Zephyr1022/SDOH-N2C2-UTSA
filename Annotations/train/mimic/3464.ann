@@ -1,0 +1,37 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Tobacco 57 60	dip
+T3	StatusTime 65 82	is a current user
+T4	Type 57 60	dip
+T5	Amount 22 26	5ppd
+T6	Duration 27 38	for 4 years
+T7	StatusTime 40 53	Then switched
+T8	Alcohol 83 94	Alcohol Use
+T9	StatusTime 96 121	Intermittent pint whiskey
+T10	Amount 109 113	pint
+T11	Type 114 121	whiskey
+T12	Drug 122 130	Drug Use
+T13	StatusTime 132 138	Denied
+T14	LivingStatus 157 162	Lives
+T15	StatusTime 185 194	currently
+T16	TypeLiving 163 184	in Kerner-Scott House
+T17	Employment 245 263	[LOCATION] veteran
+T18	StatusEmploy 245 263	[LOCATION] veteran
+T19	Type 245 263	[LOCATION] veteran
+T20	Employment 279 283	work
+T21	Type 270 283	handyman work
+T22	StatusEmploy 284 293	for years
+E1	Tobacco:T1 Status:T7 Amount:T5 Duration:T6
+E2	Tobacco:T2 Type:T4 Status:T3
+E3	Alcohol:T8 Status:T9 Amount:T10 Type:T11
+E4	Drug:T12 Status:T13
+E5	LivingStatus:T14 Status:T15 Type:T16
+E6	Employment:T17 Status:T18 Type:T19
+E7	Employment:T20 Type:T21 Status:T22
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T13 none
+A5	StatusTimeVal T15 current
+A6	TypeLivingVal T16 homeless
+A7	StatusEmployVal T18 unemployed
+A8	StatusEmployVal T22 unemployed

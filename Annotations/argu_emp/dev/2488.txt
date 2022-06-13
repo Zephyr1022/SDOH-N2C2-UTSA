@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: x (per ED note, smokes 1/2 pack per day)   Alcohol Use: _   Drug Use: _
+
+SOCIAL HISTORY: 
+[x] Unable to Obtain due to Patient Condition
+Per reports--Residence: unhoused, currently living in a shelter. Previosuly living around [LOCATION]

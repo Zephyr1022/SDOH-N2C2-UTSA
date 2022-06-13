@@ -1,0 +1,33 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	former
+B-Alcohol	30	37	Alcohol
+I-Alcohol	38	41	Use
+O	41	42	:
+O	43	48	daily
+O	49	51	10
+O	51	52	-
+O	52	54	13
+O	55	60	beers
+O	62	66	Drug
+O	67	70	Use
+O	70	71	:
+O	72	76	none
+
+O	78	84	SOCIAL
+O	85	92	HISTORY
+O	92	93	:
+
+O	95	104	Residence
+O	104	105	:
+O	106	115	Currently
+O	116	124	homeless
+O	124	125	,
+O	126	133	staying
+O	134	136	in
+O	137	138	a
+O	139	146	shelter

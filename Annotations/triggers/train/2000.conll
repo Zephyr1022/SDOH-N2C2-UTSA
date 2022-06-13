@@ -1,0 +1,70 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+O	24	34	previously
+B-Employment	35	41	worked
+O	42	44	as
+O	45	46	a
+O	47	54	billing
+O	55	68	administrator
+O	69	72	for
+O	73	75	VW
+O	75	76	.
+
+O	77	84	Patient
+B-LivingStatus	85	90	lives
+O	91	93	at
+O	94	98	home
+O	99	103	with
+O	104	112	daughter
+O	112	113	.
+
+O	114	115	[
+O	115	116	*
+O	116	117	*
+O	117	121	Name
+O	122	123	(
+O	123	125	NI
+O	125	126	)
+O	127	128	*
+O	128	129	*
+O	129	130	]
+O	131	132	[
+O	132	133	*
+O	133	134	*
+O	134	139	Name2
+O	140	141	(
+O	141	143	NI
+O	143	144	)
+O	145	148	269
+O	148	149	*
+O	149	150	*
+O	150	151	]
+O	151	152	.
+
+O	153	157	Uses
+O	158	159	a
+O	160	170	wheelchair
+
+O	171	174	and
+O	175	178	has
+O	179	188	orthotics
+O	189	192	for
+O	193	196	her
+O	197	201	legs
+O	201	202	.
+
+B-Tobacco	203	210	Tobacco
+O	210	211	:
+O	212	217	never
+O	218	224	smoker
+
+B-Alcohol	225	229	EtOH
+O	229	230	:
+O	231	235	rare
+
+B-Drug	236	244	Illicits
+O	244	245	:
+O	246	250	none

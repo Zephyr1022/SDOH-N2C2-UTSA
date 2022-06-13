@@ -1,0 +1,16 @@
+T1	LivingStatus 49 65	Living situation
+T2	TypeLiving 74 85	with others
+T6	Alcohol 116 127	Alcohol use
+T7	StatusTime 129 133	beer
+T8	Type 129 133	beer
+T9	Drug 136 144	Drug use
+T10	StatusTime 147 163	Methamphetamines
+T11	Type 147 163	Methamphetamines
+T12	StatusTime 68 73	Lives
+E1	LivingStatus:T1 Type:T2 Status:T12
+E3	Alcohol:T6 Type:T8 Status:T7
+E4	Drug:T9 Type:T11 Status:T10
+A1	TypeLivingVal T2 with_others
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T12 current

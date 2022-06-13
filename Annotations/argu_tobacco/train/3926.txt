@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: [NAME]   Alcohol Use: Denies   Drug Use: Rare marijuana, none recently
+
+SOCIAL HISTORY: 
+Lives between mother's home on [LOCATION] and Father's home in [LOCATION]. SSDI. Graduated from college at [LOCATION] with international relations degree.

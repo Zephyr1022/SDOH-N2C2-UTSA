@@ -1,0 +1,30 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	Per
+O	20	28	grandson
+O	28	29	,
+O	30	34	very
+O	35	45	functional
+O	46	48	at
+O	49	57	baseline
+O	57	58	.
+
+B-LivingStatus	59	64	Lives
+O	65	69	with
+O	70	73	her
+
+O	74	82	daughter
+O	82	83	.
+
+O	84	86	65
+O	86	87	+
+O	88	92	year
+B-Tobacco	93	100	smoking
+I-Tobacco	101	108	history
+O	108	109	.
+
+B-Employment	110	117	Retired
+I-Employment	118	126	surgical
+I-Employment	127	132	nurse

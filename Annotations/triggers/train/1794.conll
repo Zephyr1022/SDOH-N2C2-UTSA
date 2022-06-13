@@ -1,0 +1,62 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	#
+O	18	22	Home
+O	22	23	:
+B-LivingStatus	24	29	Lives
+O	30	35	alone
+O	35	36	,
+O	37	40	has
+O	41	44	24H
+O	45	48	HHA
+O	48	49	,
+O	50	54	uses
+O	55	65	wheelchair
+O	65	66	.
+
+O	67	68	#
+B-Employment	69	73	Work
+O	73	74	:
+O	75	81	Former
+O	82	93	stockbroker
+
+O	94	95	#
+B-Tobacco	96	103	Tobacco
+O	103	104	:
+O	105	109	None
+O	110	119	currently
+O	119	120	,
+O	121	127	smoked
+O	128	134	cigars
+O	135	136	1
+O	136	137	-
+O	137	138	2
+O	139	142	per
+O	143	146	day
+O	147	150	for
+O	151	153	10
+
+O	154	159	years
+O	159	160	.
+
+O	161	162	#
+B-Alcohol	163	170	Alcohol
+O	170	171	:
+O	172	176	None
+O	177	186	currently
+O	186	187	,
+O	188	189	2
+O	190	196	drinks
+O	197	200	per
+O	201	204	day
+O	205	208	for
+O	209	211	10
+O	212	217	years
+O	217	218	.
+
+O	219	220	#
+B-Drug	221	228	Illicit
+O	228	229	:
+O	230	234	None

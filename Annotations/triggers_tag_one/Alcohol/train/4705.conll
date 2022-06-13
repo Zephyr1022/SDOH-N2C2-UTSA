@@ -1,0 +1,75 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	24	Divorced
+O	24	25	.
+
+O	26	29	Has
+O	30	33	two
+O	34	42	children
+O	42	43	,
+O	44	47	son
+O	48	50	is
+O	51	52	a
+O	53	56	2nd
+O	57	61	year
+O	62	70	medicine
+O	71	79	resident
+
+O	80	82	at
+O	83	89	Tulane
+O	89	90	,
+O	91	99	daughter
+O	100	102	is
+O	103	104	a
+O	105	112	dentist
+O	113	115	in
+O	116	117	[
+O	117	118	*
+O	118	119	*
+O	119	123	Name
+O	124	125	(
+O	125	127	NI
+O	127	128	)
+O	129	134	50671
+O	134	135	*
+O	135	136	*
+O	136	137	]
+O	137	138	.
+
+O	139	141	Pt
+O	142	145	was
+O	146	148	an
+
+O	149	162	opthamologist
+O	162	163	,
+O	164	167	but
+O	168	171	his
+O	172	179	license
+O	180	183	was
+O	184	191	revoked
+O	192	195	one
+O	196	201	month
+O	202	205	ago
+O	206	207	[
+O	207	208	*
+O	208	209	*
+O	209	210	1
+O	210	211	-
+O	211	213	17
+O	213	214	*
+O	214	215	*
+O	215	216	]
+
+B-Alcohol	217	227	alcoholism
+O	227	228	.
+
+O	229	230	+
+O	231	237	Smoked
+O	238	243	crack
+O	244	251	cocaine
+O	252	254	on
+O	255	260	night
+O	261	264	PTA
+O	264	265	.

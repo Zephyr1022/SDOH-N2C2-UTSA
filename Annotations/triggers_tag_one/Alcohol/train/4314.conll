@@ -1,0 +1,44 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	Denies
+
+B-Alcohol	32	39	Alcohol
+I-Alcohol	40	43	Use
+O	43	44	:
+O	45	51	Denies
+
+O	55	59	Drug
+O	60	63	Use
+O	63	64	:
+O	65	71	Denies
+
+O	73	79	SOCIAL
+O	80	87	HISTORY
+O	87	88	:
+
+O	90	95	Lives
+O	96	103	locally
+O	104	108	with
+O	109	112	her
+O	113	122	boyfriend
+O	123	124	[
+O	124	128	NAME
+O	128	129	]
+O	129	130	.
+
+O	132	142	Previously
+O	143	149	worked
+O	150	152	in
+O	153	154	[
+O	154	162	LOCATION
+O	162	163	]
+O	164	169	prior
+O	170	172	to
+O	173	187	nasopharyngeal
+O	188	194	cancer
+O	195	204	diagnosis
+O	204	205	.

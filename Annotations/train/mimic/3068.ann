@@ -1,0 +1,25 @@
+T1	LivingStatus 5 10	Lives
+T2	StatusTime 5 10	Lives
+T3	TypeLiving 32 67	with mother, brother, and 2 cousins
+T4	Employment 69 75	Worked
+T5	StatusEmploy 69 75	Worked
+T6	Type 79 89	accounting
+T7	History 96 108	one year ago
+T8	Tobacco 254 261	tobacco
+T9	StatusTime 234 253	Denies ever smoking
+T10	Alcohol 263 271	occ EtOH
+T11	StatusTime 273 286	none recently
+T13	Drug 291 299	illicits
+T14	Type 291 299	illicits
+T15	StatusTime 288 290	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6 History:T7
+E3	Tobacco:T8 Status:T9
+E4	Alcohol:T10 Status:T11
+E5	Drug:T13 Type:T14 Status:T15
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T11 past
+A7	StatusTimeVal T15 none

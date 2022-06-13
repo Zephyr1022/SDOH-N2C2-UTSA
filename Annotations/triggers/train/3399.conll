@@ -1,0 +1,28 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	25	in
+O	26	27	[
+O	27	35	LOCATION
+O	35	36	]
+
+O	37	39	In
+O	40	43	the
+O	44	51	process
+O	52	54	of
+O	55	61	moving
+O	62	66	care
+O	67	69	to
+O	70	71	[
+O	71	79	LOCATION
+O	79	80	]
+
+B-Employment	81	91	Unemployed
+
+O	92	93	h
+O	93	94	/
+O	94	95	o
+B-Drug	96	102	opiate
+I-Drug	103	108	abuse

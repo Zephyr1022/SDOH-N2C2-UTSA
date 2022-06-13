@@ -1,0 +1,76 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	The
+O	20	27	patient
+O	28	30	is
+B-Employment	31	33	on
+I-Employment	34	44	disability
+O	44	45	.
+
+O	46	47	-
+B-Drug	48	52	IVDU
+O	53	57	with
+O	58	64	heroin
+O	65	66	(
+O	66	70	last
+O	71	74	use
+O	75	76	"
+O	76	81	years
+O	82	85	ago
+O	85	86	"
+O	86	87	)
+O	87	88	.
+
+O	89	90	-
+B-Drug	91	94	MJA
+I-Drug	95	98	use
+
+O	99	100	-
+O	101	103	He
+B-Alcohol	104	112	formerly
+I-Alcohol	113	118	drank
+O	119	120	a
+O	121	122	6
+O	123	128	packs
+O	128	129	/
+O	129	132	day
+O	133	136	and
+O	137	140	now
+O	141	144	cut
+O	145	149	back
+O	150	152	to
+O	153	154	[
+O	154	155	*
+O	155	156	*
+O	156	157	3
+O	157	158	-
+O	158	160	29
+O	160	161	*
+O	161	162	*
+O	162	163	]
+
+B-Alcohol	164	169	beers
+O	169	170	/
+O	170	173	day
+O	173	174	.
+
+O	175	176	-
+O	177	179	He
+O	180	182	is
+O	183	192	currently
+O	193	195	on
+O	196	205	methadone
+O	205	206	.
+
+O	207	208	-
+O	209	211	He
+O	212	214	is
+O	215	222	married
+O	223	226	and
+B-LivingStatus	227	232	lives
+O	233	237	with
+O	238	241	his
+O	242	246	wife
+O	246	247	.

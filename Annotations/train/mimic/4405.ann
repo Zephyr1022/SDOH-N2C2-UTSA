@@ -1,0 +1,44 @@
+T1	Drug 35 48	substance use
+T2	StatusTime 24 31	history
+T3	Duration 49 105	after caring for his father after dying of burn injuries
+T5	Drug 141 145	meth
+T6	Type 141 145	meth
+T7	History 146 158	two days ago
+T8	Amount 160 167	$10-$20
+T9	Frequency 168 175	per day
+T10	Drug 178 180	MJ
+T11	Type 178 180	MJ
+T12	StatusTime 181 193	occasionally
+T14	Alcohol 198 202	EtOH
+T15	StatusTime 195 197	no
+T16	Amount 204 212	0.25pack
+T17	Frequency 212 216	/day
+T18	Tobacco 217 224	tobacco
+T19	StatusTime 204 216	0.25pack/day
+T20	StatusTime 226 246	former crack cocaine
+T21	Type 233 246	crack cocaine
+T22	Drug 226 246	former crack cocaine
+T23	StatusTime 248 254	remote
+T24	Type 255 261	heroin
+T25	Drug 255 261	heroin
+T26	TypeLiving 269 277	outdoors
+T27	LivingStatus 263 268	lives
+T28	StatusTime 263 268	lives
+T29	StatusTime 160 175	$10-$20 per day
+E1	Drug:T1 Status:T2 Duration:T3
+E2	Drug:T5 History:T7 Type:T6 Amount:T8 Frequency:T9 Status:T29
+E3	Drug:T10 Type:T11 Status:T12
+E4	Alcohol:T14 Status:T15
+E5	Tobacco:T18 Frequency:T17 Amount:T16 Status:T19
+E6	Drug:T22 Status:T20 Type:T21
+E7	Drug:T25 Status:T23 Type:T24
+E8	LivingStatus:T27 Type:T26 Status:T28
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T12 current
+A5	StatusTimeVal T15 none
+A6	StatusTimeVal T19 current
+A7	StatusTimeVal T20 past
+A8	StatusTimeVal T23 past
+A9	TypeLivingVal T26 homeless
+A10	StatusTimeVal T28 current
+A11	StatusTimeVal T29 current

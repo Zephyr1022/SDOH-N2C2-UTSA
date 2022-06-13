@@ -1,0 +1,15 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 37 49	with husband
+T4	Drug 122 135	marijuana use
+T5	Type 122 131	marijuana
+T6	StatusTime 100 107	History
+T8	Alcohol 162 173	alcohol use
+T9	StatusTime 175 179	none
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Drug:T4 Status:T6 Type:T5
+E3	Alcohol:T8 Status:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T6 current
+A5	StatusTimeVal T9 none

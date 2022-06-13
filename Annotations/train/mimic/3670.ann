@@ -1,0 +1,21 @@
+T1	LivingStatus 24 30	living
+T2	StatusTime 20 30	was living
+T3	TypeLiving 31 47	with her finacee
+T4	Duration 59 69	for 1 year
+T6	Employment 386 394	employed
+T7	StatusEmploy 386 394	employed
+T8	Type 398 405	a nanny
+T9	Employment 324 372	taking pre-nursing courses at [LOCATION] College
+T10	StatusEmploy 324 372	taking pre-nursing courses at [LOCATION] College
+E1	LivingStatus:T1 Status:T2 Type:T3 Duration:T4
+E2	Employment:T6 Type:T8 Status:T7
+E3	Employment:T9 Status:T10
+A1	StatusTimeVal T2 past
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T7 employed
+A4	StatusEmployVal T10 student
+T5	Employment 270 275	works
+E4	Employment:T5 Status:T12 Type:T13
+T12	StatusEmploy 270 275	works
+A5	StatusEmployVal T12 employed
+T13	Type 293 310	Medical Assistant

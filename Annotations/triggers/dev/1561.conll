@@ -1,0 +1,27 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	17	23	Family
+O	24	28	from
+O	29	30	[
+O	30	38	LOCATION
+O	38	39	]
+O	39	40	,
+B-LivingStatus	41	46	lives
+O	47	51	with
+O	52	59	partner
+
+O	60	66	Social
+O	67	74	History
+O	74	75	:
+
+O	77	83	Family
+O	84	88	from
+O	89	90	[
+O	90	98	LOCATION
+O	98	99	]
+O	99	100	,
+B-LivingStatus	101	106	lives
+O	107	111	with
+O	112	119	partner

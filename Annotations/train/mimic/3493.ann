@@ -1,0 +1,17 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 27	1 ppd
+T3	Amount 22 27	1 ppd
+T4	Drug 46 54	Drug Use
+T5	StatusTime 90 94	uses
+T6	Method 95 97	IV
+T7	Type 98 104	heroin
+T8	LivingStatus 147 155	Homeless
+T9	StatusTime 157 174	currently staying
+T10	TypeLiving 175 185	in shelter
+E1	Tobacco:T1 Amount:T3 Status:T2
+E2	Drug:T4 Status:T5 Method:T6 Type:T7
+E3	LivingStatus:T8 Status:T9 Type:T10
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T9 current
+A4	TypeLivingVal T10 homeless

@@ -1,0 +1,29 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	18	21	She
+O	22	28	smokes
+B-Drug	29	32	THC
+O	32	33	.
+
+O	35	41	Denies
+O	42	45	any
+B-Tobacco	46	53	tobacco
+O	53	54	,
+B-Alcohol	55	62	alcohol
+O	63	65	or
+B-Drug	66	70	drug
+I-Drug	71	74	use
+O	74	75	.
+
+O	77	82	Lives
+O	83	85	in
+O	86	87	[
+O	87	95	LOCATION
+O	95	96	]
+O	96	97	,
+O	98	99	[
+O	99	107	LOCATION
+O	107	108	]
+O	108	109	.

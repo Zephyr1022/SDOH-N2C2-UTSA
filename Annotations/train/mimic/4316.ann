@@ -1,0 +1,35 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 29	1/2 PPD
+T3	StatusTime 22 29	1/2 PPD
+T4	Alcohol 30 41	Alcohol Use
+T5	StatusTime 43 48	sober
+T6	History 49 58	X10 years
+T7	Drug 59 67	Drug Use
+T8	StatusTime 69 74	sober
+T9	History 75 84	x10 years
+T10	Type 96 117	heroin, meth, cocaine
+T11	Method 90 94	IVDU
+T12	LivingStatus 119 135	Currently living
+T13	TypeLiving 136 147	in shelters
+T14	StatusTime 119 128	Currently
+T15	LivingStatus 169 176	move in
+T16	StatusTime 156 168	scheduled to
+T17	TypeLiving 180 192	1811 housing
+E1	Tobacco:T1 Amount:T2 Status:T3
+E2	Alcohol:T4 Status:T5 History:T6
+E3	Drug:T7 Status:T8 History:T9 Type:T10 Method:T11
+E4	LivingStatus:T12 Type:T13 Status:T14
+E5	LivingStatus:T15 Status:T16 Type:T17
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 past
+A4	TypeLivingVal T13 with_others
+A5	StatusTimeVal T14 current
+A6	StatusTimeVal T16 future
+A7	TypeLivingVal T17 homeless
+T18	LivingStatus 221 234	1811 Eastlake
+E6	LivingStatus:T18 Status:T19 Type:T20
+T19	StatusTime 221 234	1811 Eastlake
+A8	StatusTimeVal T19 current
+T20	TypeLiving 221 234	1811 Eastlake
+A9	TypeLivingVal T20 homeless

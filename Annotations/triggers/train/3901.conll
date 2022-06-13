@@ -1,0 +1,67 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Housed
+O	22	23	,
+B-LivingStatus	24	30	living
+O	31	33	in
+O	34	39	guest
+O	40	45	house
+O	46	48	of
+O	49	52	her
+O	53	59	parent
+O	59	60	'
+O	60	61	s
+O	62	70	property
+O	71	75	near
+O	76	77	[
+O	77	85	LOCATION
+O	85	86	]
+O	86	87	,
+O	88	89	[
+O	89	97	LOCATION
+O	97	98	]
+O	98	99	.
+
+O	100	107	Husband
+O	108	116	recently
+O	117	123	passed
+O	124	128	away
+O	129	131	of
+O	132	136	long
+O	137	143	battle
+O	144	148	with
+O	149	154	colon
+O	155	161	cancer
+O	162	166	some
+O	167	173	months
+O	174	177	ago
+O	177	178	.
+
+B-Employment	179	186	Retired
+I-Employment	187	194	Realtor
+O	194	195	.
+
+O	196	197	5
+O	198	202	kids
+O	202	203	.
+
+B-Tobacco	205	208	tob
+O	208	209	:
+O	210	214	2ppd
+O	215	216	x
+O	217	220	yrs
+O	220	221	,
+O	222	225	has
+O	226	232	smoked
+O	233	234	>
+O	234	236	45
+O	237	240	yrs
+
+B-Alcohol	241	245	EtoH
+O	246	252	denies
+
+B-Drug	253	261	illicits
+O	261	262	:
+O	263	269	denies

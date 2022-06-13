@@ -1,0 +1,61 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Currently
+O	27	33	living
+O	34	36	in
+O	37	38	[
+O	38	46	LOCATION
+O	46	47	]
+O	48	51	but
+O	52	57	upset
+O	58	62	with
+O	63	70	housing
+O	71	80	situation
+O	81	84	and
+B-LivingStatus	85	96	essentially
+I-LivingStatus	97	105	homeless
+O	105	106	.
+
+O	107	116	Boyfriend
+O	117	124	present
+O	125	127	in
+O	128	132	room
+O	132	133	.
+
+O	134	141	Patient
+O	142	146	with
+B-Drug	147	151	IVDU
+I-Drug	152	159	history
+O	159	160	,
+O	161	165	last
+O	166	170	meth
+O	171	174	use
+O	175	176	[
+O	176	180	DATE
+O	180	181	]
+O	181	182	,
+O	183	187	last
+O	188	194	heroin
+O	195	198	use
+O	199	202	Wed
+O	203	204	[
+O	204	208	DATE
+O	208	209	]
+O	209	210	.
+
+O	211	217	Denies
+B-Alcohol	218	225	alcohol
+I-Alcohol	226	229	use
+O	229	230	.
+
+B-Tobacco	231	240	Extensive
+I-Tobacco	241	248	smoking
+I-Tobacco	249	256	history
+O	256	257	.
+
+O	258	260	No
+B-Drug	261	266	other
+I-Drug	267	275	illicits
+O	275	276	.

@@ -1,0 +1,84 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	15	Smoked
+O	16	17	1
+O	18	22	pack
+O	23	26	per
+O	27	30	day
+O	31	36	since
+O	37	38	9
+O	39	44	years
+O	45	48	old
+O	49	50	(
+O	50	52	64
+O	53	57	pack
+O	57	58	-
+O	58	63	years
+O	63	64	)
+O	64	65	.
+
+B-Alcohol	66	71	Drank
+O	72	73	a
+O	74	77	six
+O	77	78	-
+O	78	82	pack
+O	83	85	of
+O	86	90	beer
+O	91	95	each
+O	96	99	day
+O	100	103	for
+O	104	106	11
+O	107	112	years
+O	113	116	but
+O	117	121	quit
+O	122	124	in
+O	125	128	the
+O	129	135	remote
+O	136	140	past
+O	140	141	-
+O	141	142	-
+O	142	146	many
+O	147	152	years
+O	153	156	ago
+O	156	157	.
+
+O	158	160	No
+O	161	165	drug
+O	166	173	history
+O	173	174	.
+
+O	176	182	SOCIAL
+O	183	190	HISTORY
+O	190	191	:
+
+O	193	198	Lives
+O	199	201	in
+O	202	206	YMCA
+O	207	214	Shelter
+O	214	215	.
+
+O	216	219	Has
+O	220	225	never
+O	226	227	"
+O	227	233	worked
+O	233	234	.
+
+O	235	236	"
+O	237	240	She
+O	241	247	states
+O	248	252	that
+O	253	256	she
+O	257	259	is
+O	260	261	a
+O	262	270	preacher
+O	270	271	.
+
+O	272	278	States
+O	279	283	that
+O	284	287	her
+O	288	294	entire
+O	295	301	family
+O	302	304	is
+O	305	309	dead
+O	309	310	.

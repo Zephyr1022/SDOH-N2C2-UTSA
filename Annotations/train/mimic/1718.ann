@@ -1,0 +1,24 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 42	with another sister
+T4	Alcohol 118 128;129 133	occasional ETOH
+T5	StatusTime 118 128;129 133	occasional ETOH
+T7	Tobacco 135 153	occasional tobacco
+T8	StatusTime 135 153	occasional tobacco
+T10	Drug 159 181	cocaine or other drugs
+T11	StatusTime 156 158	No
+T12	Type 159 181	cocaine or other drugs
+T13	Employment 184 189	Works
+T14	StatusEmploy 184 189	Works
+T15	Type 193 199	bakery
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5
+E3	Tobacco:T7 Status:T8
+E4	Drug:T10 Type:T12 Status:T11
+E5	Employment:T13 Status:T14 Type:T15
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 current
+A5	StatusTimeVal T8 current
+A7	StatusTimeVal T11 none
+A8	StatusEmployVal T14 employed

@@ -1,0 +1,32 @@
+T2	StatusEmploy 116 135	a retired secretary
+T3	Type 116 135	a retired secretary
+T4	Tobacco 145 160	smoking history
+T5	History 175 187	23 years ago
+T6	StatusTime 170 174	quit
+T7	Tobacco 189 194	Smoke
+T8	StatusTime 222 227	prior
+T9	Amount 228 244	less than 1 pack
+T10	Frequency 245 252	per day
+T11	Duration 195 198;199 221	for approximately 30 years
+T12	Alcohol 257 261	ETOH
+T13	Drug 266 282	illicit drug use
+T14	StatusTime 254 256	No
+T15	StatusTime 263 265	No
+T16	Type 266 273	illicit
+T17	LivingStatus 23 33	a resident
+T18	StatusTime 20 22	is
+T19	TypeLiving 34 108	at [**First Name4 (NamePattern1) 730**] [**Last Name (NamePattern1) 731**]
+T1	Employment 116 135	a retired secretary
+E2	Tobacco:T4 Status:T6 History:T5
+E3	Tobacco:T7 Duration:T11 Status:T8 Amount:T9 Frequency:T10
+E4	Alcohol:T12 Status:T14
+E5	Drug:T13 Status:T15 Type:T16
+E6	LivingStatus:T17 Status:T18 Type:T19
+E1	Employment:T1 Status:T2 Type:T3
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T8 past
+A4	StatusTimeVal T14 none
+A5	StatusTimeVal T15 none
+A6	StatusTimeVal T18 current
+A7	TypeLivingVal T19 with_others

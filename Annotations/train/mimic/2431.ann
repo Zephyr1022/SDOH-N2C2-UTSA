@@ -1,0 +1,25 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 39	1 pack cigarettes
+T3	Frequency 40 52	every 3 days
+T4	StatusTime 22 52	1 pack cigarettes every 3 days
+T5	Alcohol 55 66	Alcohol Use
+T6	Amount 68 74	1 beer
+T7	Frequency 75 82	per day
+T8	StatusTime 68 82	1 beer per day
+T9	Drug 86 94	Illicits
+T10	Type 86 94	Illicits
+T11	StatusTime 96 102	denies
+T12	LivingStatus 132 140	homeless
+T13	StatusTime 129 140	is homeless
+T14	TypeLiving 132 140	homeless
+E1	Tobacco:T1 Amount:T2 Frequency:T3 Status:T4 Type:T19
+E2	Alcohol:T5 Amount:T6 Frequency:T7 Status:T8 Type:T20
+E3	Drug:T9 Status:T11 Type:T10
+E4	LivingStatus:T12 Type:T14 Status:T13
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T8 current
+A3	StatusTimeVal T11 none
+A4	StatusTimeVal T13 current
+A5	TypeLivingVal T14 homeless
+T19	Type 29 39	cigarettes
+T20	Type 70 74	beer

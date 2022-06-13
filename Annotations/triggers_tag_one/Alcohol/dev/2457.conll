@@ -1,0 +1,8 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	16	24	homeless
+
+B-Alcohol	25	29	etoh
+I-Alcohol	30	35	abuse

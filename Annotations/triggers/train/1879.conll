@@ -1,0 +1,35 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	He
+B-Tobacco	19	25	smokes
+O	26	30	1ppd
+O	31	37	x40yrs
+O	37	38	.
+
+O	39	41	He
+O	42	45	was
+B-Alcohol	46	47	a
+I-Alcohol	48	53	heavy
+I-Alcohol	54	61	drinker
+O	62	65	but
+O	66	69	has
+O	70	74	been
+O	75	79	only
+
+O	80	88	drinking
+B-Alcohol	89	93	ETOH
+O	94	106	occasionally
+O	107	112	since
+O	113	114	4
+O	115	121	months
+O	122	125	ago
+O	125	126	.
+
+O	127	134	Widower
+O	134	135	,
+O	136	137	4
+
+O	138	146	children
+O	146	147	.

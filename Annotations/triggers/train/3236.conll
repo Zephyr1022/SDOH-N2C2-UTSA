@@ -1,0 +1,83 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	29	started
+O	30	37	smoking
+O	38	40	at
+O	41	44	age
+O	45	47	13
+O	47	48	,
+O	49	50	1
+O	51	54	ppd
+O	55	60	since
+O	61	64	age
+O	65	67	16
+
+B-Alcohol	69	76	Alcohol
+I-Alcohol	77	80	Use
+O	80	81	:
+O	82	85	Not
+O	86	87	a
+O	88	95	drinker
+
+B-Drug	96	100	Drug
+I-Drug	101	104	Use
+O	104	105	:
+O	106	110	Utox
+O	111	113	06
+O	113	114	/
+O	114	116	10
+O	117	118	+
+O	119	122	for
+O	123	138	methamphetamine
+O	139	142	and
+O	143	154	amphetamine
+O	154	155	.
+
+O	156	163	Patient
+O	164	170	denies
+O	171	178	relapse
+O	178	179	.
+
+O	181	185	Utox
+O	186	187	[
+O	187	191	DATE
+O	191	192	]
+O	192	193	:
+O	194	204	consistent
+O	205	209	with
+O	210	219	oxycodone
+O	220	221	(
+O	221	225	home
+O	226	236	medication
+O	236	237	)
+O	238	241	and
+O	242	253	hydrocodone
+O	254	255	(
+O	255	259	from
+O	260	268	infusion
+O	269	274	visit
+O	274	275	)
+O	275	276	.
+
+O	280	286	SOCIAL
+O	287	294	HISTORY
+O	294	295	:
+
+O	297	302	Lives
+O	303	305	in
+O	306	307	[
+O	307	315	LOCATION
+O	315	316	]
+O	316	317	.
+
+O	318	322	Wife
+O	323	324	[
+O	324	328	NAME
+O	328	329	]
+O	330	341	accompnaies
+O	342	345	him
+O	346	351	today

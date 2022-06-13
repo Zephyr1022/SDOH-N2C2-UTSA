@@ -1,0 +1,10 @@
+T1	Alcohol 57 64	Alcohol
+T2	StatusTime 66 72	Denies
+T3	Tobacco 17 24	Tobacco
+T4	Amount 34 47	one half pack
+T5	Frequency 48 55	per day
+T6	StatusTime 34 55	one half pack per day
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T3 Amount:T4 Frequency:T5 Status:T6
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T6 current

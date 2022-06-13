@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: Denies   Alcohol Use: Denies   Drug Use: Denies
+
+SOCIAL HISTORY: 
+Was attending grad school in [LOCATION] pursuing his MSW.
+Lives in [LOCATION] with his parents

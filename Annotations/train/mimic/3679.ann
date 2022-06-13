@@ -1,0 +1,23 @@
+T1	Alcohol 82 93	Alcohol Use
+T2	Amount 95 103	2 drinks
+T3	Frequency 104 110	weekly
+T4	Tobacco 9 20	Tobacco Use
+T5	StatusTime 38 45	reports
+T6	Amount 46 61	at least 1 pack
+T7	Frequency 61 66	/week
+T8	Duration 67 79	x many years
+T9	StatusTime 121 127	denies
+T10	Drug 111 119	Drug Use
+T11	StatusTime 95 110	2 drinks weekly
+E1	Alcohol:T1 Amount:T2 Frequency:T3 Status:T11
+E2	Tobacco:T4 Status:T5 Amount:T6 Frequency:T7 Duration:T8
+E3	Drug:T10 Status:T9
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T9 none
+A3	StatusTimeVal T11 current
+T17	LivingStatus 163 168	lives
+E4	LivingStatus:T17 Status:T18 Type:T19
+T18	StatusTime 163 168	lives
+A4	StatusTimeVal T18 current
+T19	TypeLiving 172 185	Roots Shelter
+A5	TypeLivingVal T19 homeless

@@ -1,0 +1,43 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	25	Cambodian
+O	26	35	immigrant
+O	36	37	(
+O	37	41	came
+O	42	44	to
+O	45	47	US
+O	48	50	at
+O	51	54	age
+O	55	57	27
+O	57	58	)
+O	58	59	.
+
+O	60	68	Disabled
+O	68	69	.
+
+O	70	75	Lives
+O	76	80	with
+O	81	85	wife
+O	86	89	and
+O	90	91	2
+O	92	101	daughters
+O	101	102	.
+
+O	103	110	Resumed
+O	111	118	smoking
+O	119	121	up
+O	122	124	to
+
+O	125	126	1
+O	127	130	PPD
+O	130	131	,
+O	132	134	no
+B-Alcohol	135	142	alcohol
+O	142	143	,
+O	144	146	no
+O	147	154	history
+O	155	159	drug
+O	160	165	abuse
+O	165	166	.

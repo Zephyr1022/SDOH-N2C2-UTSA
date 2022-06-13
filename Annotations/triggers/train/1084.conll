@@ -1,0 +1,84 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	The
+O	20	27	patient
+B-LivingStatus	28	33	lives
+O	34	38	with
+O	39	42	his
+O	43	47	wife
+O	47	48	,
+O	49	52	per
+O	53	57	wife
+O	58	65	patient
+O	66	68	is
+O	69	73	full
+O	74	78	code
+
+O	79	80	(
+O	80	83	per
+O	84	90	report
+O	91	93	on
+O	94	95	d
+O	95	96	/
+O	96	97	c
+O	98	105	summary
+O	105	106	)
+O	106	107	.
+
+O	108	110	He
+O	111	113	is
+O	114	125	independent
+O	126	128	in
+O	129	132	his
+O	133	143	activities
+
+O	144	146	of
+O	147	152	daily
+O	153	159	living
+O	159	160	.
+
+O	161	165	Uses
+O	166	167	a
+O	168	172	cane
+O	173	175	or
+O	176	182	walker
+O	183	185	to
+O	186	194	ambulate
+O	194	195	.
+
+B-Employment	196	205	Currently
+
+B-Employment	206	213	retired
+O	213	214	,
+O	215	218	has
+O	219	229	previously
+O	230	236	worked
+O	237	239	in
+O	240	243	the
+O	244	252	shipyard
+O	253	261	industry
+O	261	262	.
+
+O	263	264	-
+B-Tobacco	265	272	Tobacco
+I-Tobacco	273	280	history
+O	280	281	:
+O	282	288	Denies
+O	289	293	ever
+O	294	301	smoking
+O	301	302	.
+
+O	303	304	-
+B-Alcohol	305	309	ETOH
+O	309	310	:
+O	312	316	None
+
+O	317	318	-
+B-Drug	319	326	Illicit
+I-Drug	327	332	drugs
+O	332	333	:
+O	335	339	None
+
+O	340	341	.

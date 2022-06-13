@@ -1,0 +1,65 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Alcohol	16	20	EtOH
+I-Alcohol	21	24	use
+O	24	25	:
+O	26	32	Denies
+
+O	33	40	Tobacco
+O	41	44	use
+O	44	45	:
+O	46	50	3ppd
+
+O	51	59	Previous
+O	60	66	smoker
+O	66	67	:
+O	68	72	3ppd
+O	73	74	x
+O	75	77	20
+O	78	83	years
+
+O	84	96	Recreational
+O	97	102	drugs
+O	103	104	(
+O	104	113	marijuana
+O	113	114	,
+O	115	121	heroin
+O	121	122	,
+O	123	128	crack
+O	129	134	pills
+O	135	137	or
+O	138	143	other
+O	143	144	)
+O	144	145	:
+
+O	146	152	Denies
+
+O	153	160	Marital
+O	161	167	status
+O	167	168	:
+O	168	173	Lives
+O	174	176	in
+O	177	178	[
+O	178	179	*
+O	179	180	*
+O	180	188	Location
+O	189	190	(
+O	190	192	un
+O	192	193	)
+O	194	198	5503
+O	198	199	*
+O	199	200	*
+O	200	201	]
+O	201	202	.
+
+O	204	214	Unemployed
+O	215	218	but
+O	219	229	previously
+
+O	230	238	employed
+O	239	241	as
+O	242	243	a
+O	244	253	Fisherman
+O	253	254	.

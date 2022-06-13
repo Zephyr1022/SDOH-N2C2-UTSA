@@ -1,0 +1,5 @@
+T1	Alcohol 205 209;210 213	EtOH use
+T3	Drug 226 234	drug use
+T5	Tobacco 166 172	smokes
+T10	LivingStatus 16 21	Lives
+T13	Employment 103 106	job

@@ -1,0 +1,22 @@
+T1	LivingStatus 156 161	Lives
+T2	StatusTime 156 161	Lives
+T3	TypeLiving 162 178	with his partner
+T4	Employment 16 30	Has not worked
+T5	StatusEmploy 16 30	Has not worked
+T6	History 31 45	in eight years
+T10	Tobacco 81 87	smoked
+T11	History 104 118	until recently
+T12	Duration 94 103	for years
+T13	StatusTime 70 80	Previously
+T14	Amount 88 93	1 PPD
+T16	Alcohol 141 154	alcohol abuse
+T17	StatusTime 130 140	history of
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 History:T6 Status:T5
+E4	Tobacco:T10 Status:T13 Amount:T14 Duration:T12 History:T11
+E5	Alcohol:T16 Status:T17
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed
+A5	StatusTimeVal T13 past
+A6	StatusTimeVal T17 current

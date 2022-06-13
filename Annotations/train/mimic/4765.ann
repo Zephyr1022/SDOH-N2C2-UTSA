@@ -1,0 +1,39 @@
+T3	Employment 443 450	in Navy
+T4	StatusEmploy 428 442	Was previously
+T5	Type 446 450	Navy
+T1	Tobacco 247 253	smokes
+T2	StatusTime 237 246	Currently
+T9	Amount 254 263	[**1-5**]
+T10	Frequency 264 267	ppd
+T11	Tobacco 277 282	smoke
+T12	StatusTime 269 276	Used to
+T13	Amount 283 289	>3 ppd
+T15	Duration 290 298	x 35 yrs
+T16	Drug 349 353	IVDU
+T17	StatusTime 343 348	never
+T18	Alcohol 359 363	EtOH
+T19	StatusTime 300 304	Quit
+T20	Drug 305 323	recreational drugs
+T21	Type 332 341	marijuana
+T22	History 364 377	in [**11-7**]
+T27	Alcohol 387 392	drink
+T28	StatusTime 379 386	Used to
+T29	Method 349 353	IVDU
+E2	Employment:T3 Type:T5 Status:T4
+E1	Tobacco:T1 Status:T2 Amount:T9 Frequency:T10
+E4	Tobacco:T11 Status:T12 Amount:T13 Duration:T15
+E5	Drug:T16 Status:T17 Method:T29
+E6	Alcohol:T18 Status:T19 History:T22
+E7	Drug:T20 Type:T21 Status:T19 History:T22 Type2:T8
+E9	Alcohol:T27 Status:T28
+A2	StatusEmployVal T4 unemployed
+A1	StatusTimeVal T2 current
+A5	StatusTimeVal T12 past
+A6	StatusTimeVal T17 none
+A7	StatusTimeVal T19 past
+A10	StatusTimeVal T28 past
+T6	Employment 67 75	disabled
+E3	Employment:T6 Status:T7
+T7	StatusEmploy 67 75	disabled
+A3	StatusEmployVal T7 on_disability
+T8	Type 305 317	recreational

@@ -1,0 +1,25 @@
+T1	Employment 16 23	retired
+T2	StatusEmploy 16 23	retired
+T3	LivingStatus 25 30	lives
+T4	TypeLiving 31 40	with wife
+T5	StatusTime 25 30	lives
+T6	Alcohol 44 48	ETOH
+T7	StatusTime 41 43	no
+T8	Tobacco 54 61	smoking
+T9	StatusTime 49 53	quit
+T10	History 62 73	5 years ago
+T11	Amount 76 86	55pack-yrs
+T13	Drug 90 101	recr. drugs
+T14	Type 90 94	recr
+T15	StatusTime 87 89	no
+E1	Employment:T1 Status:T2
+E2	LivingStatus:T3 Type:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Tobacco:T8 Status:T9 History:T10 Amount:T11
+E5	Drug:T13 Type:T14 Status:T15
+A1	StatusEmployVal T2 retired
+A2	TypeLivingVal T4 with_family
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T9 past
+A6	StatusTimeVal T15 none

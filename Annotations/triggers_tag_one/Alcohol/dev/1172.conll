@@ -1,0 +1,35 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Works
+O	22	25	for
+O	26	27	a
+O	28	32	food
+O	33	45	distributing
+O	46	53	company
+O	53	54	.
+
+O	55	61	single
+
+O	62	65	occ
+O	66	73	tobacco
+O	74	75	(
+O	75	77	pt
+O	78	87	counseled
+O	88	90	on
+O	91	99	quitting
+O	100	107	tobacco
+O	107	108	)
+O	108	109	,
+O	110	113	occ
+B-Alcohol	114	118	ETOH
+O	118	119	,
+O	120	122	no
+O	123	125	SA
+
+O	126	128	Pt
+O	129	131	is
+O	132	137	right
+O	138	144	handed
+O	144	145	.

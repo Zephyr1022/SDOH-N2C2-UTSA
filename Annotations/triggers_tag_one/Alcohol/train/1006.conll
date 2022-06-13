@@ -1,0 +1,78 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	The
+O	20	22	pt
+O	22	23	.
+
+O	24	26	is
+O	27	34	married
+O	34	35	,
+O	36	47	independent
+O	48	50	in
+O	51	55	ADLS
+O	55	56	,
+O	57	62	lives
+O	63	67	with
+O	68	72	wife
+O	73	75	in
+O	76	77	a
+
+O	78	88	retirement
+O	89	98	community
+O	98	99	.
+
+O	100	111	Significant
+O	112	119	tobacco
+O	120	127	history
+O	128	129	x
+O	130	132	40
+O	133	136	yrs
+O	137	138	x
+O	139	143	1ppd
+O	143	144	,
+O	145	149	quit
+O	150	152	20
+O	153	156	yrs
+O	157	160	ago
+O	160	161	,
+
+O	162	170	Reported
+O	171	182	occassional
+O	183	188	glass
+O	189	191	of
+B-Alcohol	192	196	wine
+O	196	197	,
+O	198	200	no
+O	201	208	illicit
+O	209	214	drugs
+
+O	215	217	He
+O	218	220	is
+O	221	222	a
+O	223	230	retired
+O	231	240	architect
+O	240	241	.
+
+O	242	246	Wife
+O	247	253	states
+O	254	258	that
+O	259	261	he
+O	262	267	would
+O	268	271	NOT
+O	272	276	want
+O	277	279	to
+O	280	282	be
+O	283	295	recussitated
+O	295	296	,
+O	297	300	and
+O	301	305	that
+
+O	306	309	OSH
+O	310	316	placed
+O	317	320	ETT
+O	321	327	before
+O	328	334	asking
+O	335	338	her
+O	338	339	.

@@ -1,0 +1,49 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	at
+O	25	29	home
+O	30	34	with
+O	35	42	parents
+O	42	43	.
+
+O	44	48	Lost
+O	49	52	job
+O	53	55	at
+O	56	60	call
+O	61	67	center
+O	68	72	last
+O	73	77	year
+
+O	78	81	and
+O	82	85	has
+O	86	90	been
+B-Employment	91	101	unemployed
+O	102	106	ever
+O	107	112	since
+O	112	113	.
+
+O	114	116	No
+B-Tobacco	117	124	tobacco
+O	124	125	/
+B-Drug	125	133	illicits
+O	133	134	.
+
+O	135	136	[
+O	136	137	*
+O	137	138	*
+O	138	139	2
+O	139	140	-
+O	140	141	9
+O	141	142	*
+O	142	143	*
+O	143	144	]
+
+O	145	150	beers
+O	150	151	/
+B-Alcohol	151	157	drinks
+O	158	161	per
+O	162	167	month
+O	167	168	.

@@ -1,0 +1,2 @@
+SocHx:
+Denies active cig, EtOH or illicit drug use. Hx of smoking cigs and alcohol. Lives in a house in [LOCATION], [LOCATION]

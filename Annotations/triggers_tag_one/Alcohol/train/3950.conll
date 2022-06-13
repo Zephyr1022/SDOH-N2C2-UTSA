@@ -1,0 +1,30 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	17	25	Homeless
+O	25	26	.
+
+O	27	30	Tob
+O	31	32	-
+O	33	36	has
+O	37	40	cut
+O	41	45	back
+O	46	48	to
+O	49	50	4
+O	51	61	cigarettes
+O	61	62	/
+O	62	65	day
+O	65	66	.
+
+B-Alcohol	67	71	EtOH
+O	72	73	-
+O	74	77	has
+O	78	81	cut
+O	82	86	back
+O	87	89	to
+O	90	91	6
+O	92	97	beers
+O	98	99	/
+O	100	104	week
+O	104	105	.

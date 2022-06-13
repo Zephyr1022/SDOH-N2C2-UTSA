@@ -1,0 +1,95 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	Pt
+O	19	21	is
+O	22	28	single
+O	28	29	,
+B-LivingStatus	30	35	lives
+O	36	38	in
+O	39	51	transitional
+O	52	59	housing
+O	59	60	.
+
+B-Employment	61	71	Unemployed
+O	71	72	.
+
+O	73	75	In
+O	76	82	prison
+O	83	86	for
+O	87	90	two
+O	91	96	years
+O	97	101	2006
+O	101	102	-
+O	102	106	2008
+O	106	107	.
+
+O	108	110	SH
+O	110	111	:
+
+O	112	118	Single
+O	118	119	,
+B-LivingStatus	120	125	lives
+O	126	128	in
+O	129	141	transitional
+O	142	149	housing
+O	149	150	.
+
+B-Employment	151	161	Unemployed
+O	161	162	.
+
+O	163	165	In
+O	166	172	prison
+O	173	176	for
+O	177	180	two
+O	181	186	years
+O	187	194	between
+O	195	199	2006
+O	199	200	-
+O	200	204	2008
+O	204	205	.
+
+B-Tobacco	206	209	Tob
+O	209	210	-
+O	211	212	h
+O	212	213	/
+O	213	214	o
+O	214	215	,
+O	216	220	quit
+O	221	222	[
+O	222	226	DATE
+O	226	227	]
+O	227	228	,
+O	229	235	6years
+O	236	241	total
+O	241	242	,
+B-Alcohol	243	247	EtOH
+O	247	248	-
+O	249	257	socially
+O	257	258	,
+B-Drug	259	263	Drug
+O	263	264	-
+O	265	266	h
+O	266	267	/
+O	267	268	o
+O	269	282	polysubstance
+O	283	288	abuse
+O	289	292	per
+O	293	298	chart
+O	298	299	,
+O	300	309	currently
+O	310	316	denies
+O	317	320	any
+O	321	324	use
+
+O	325	332	Contact
+O	332	333	:
+O	334	335	[
+O	335	339	NAME
+O	339	340	]
+O	340	341	,
+O	342	353	grandmother
+O	354	355	[
+O	355	362	CONTACT
+O	362	363	]

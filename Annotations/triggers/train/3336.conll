@@ -1,0 +1,28 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	25	Currently
+B-LivingStatus	26	38	incarcerated
+O	39	42	for
+O	43	46	the
+O	47	51	next
+O	52	56	week
+O	56	57	.
+
+O	58	59	(
+O	59	60	+
+O	60	61	)
+B-Tobacco	62	69	tobacco
+
+O	70	76	States
+O	77	80	has
+O	81	85	been
+O	86	91	clean
+O	92	96	from
+B-Drug	97	99	IV
+I-Drug	100	106	heroin
+O	107	110	for
+O	111	112	a
+O	113	117	year
+O	117	118	.

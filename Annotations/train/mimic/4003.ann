@@ -1,0 +1,18 @@
+T1	Tobacco 46 52	Smokes
+T2	StatusTime 46 52	Smokes
+T3	Amount 53 61	1-1.5 pk
+T4	Frequency 61 65	/day
+T5	Duration 66 78	for 10 years
+T6	Alcohol 88 92	EtOH
+T7	StatusTime 83 87	uses
+T8	Drug 144 162	IVDU and mariujana
+T9	Type 153 162	mariujana
+T10	StatusTime 163 174	in the past
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4 Duration:T5
+E2	Alcohol:T6 Status:T7 History:T12
+E3	Drug:T8 Type:T9 Status:T10 Method:T11
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T10 past
+T11	Method 144 148	IVDU
+T12	History 107 117	1 week ago

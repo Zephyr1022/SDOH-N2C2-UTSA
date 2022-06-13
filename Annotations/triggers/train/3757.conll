@@ -1,0 +1,49 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	26	down
+O	27	29	to
+O	30	31	'
+O	31	32	1
+O	33	42	cigarette
+O	43	44	a
+O	45	50	month
+O	50	51	)
+B-Alcohol	54	61	Alcohol
+I-Alcohol	62	65	Use
+O	65	66	:
+O	67	73	denies
+B-Drug	76	80	Drug
+I-Drug	81	84	Use
+O	84	85	:
+O	86	92	denies
+
+O	94	100	SOCIAL
+O	101	108	HISTORY
+O	108	109	:
+
+O	111	116	Lives
+O	117	119	in
+O	120	121	[
+O	121	129	LOCATION
+O	129	130	]
+O	130	131	.
+
+B-Employment	133	136	Not
+I-Employment	137	144	working
+O	145	148	any
+O	149	153	more
+O	154	157	due
+O	158	160	to
+O	161	168	medical
+O	169	178	disabilit
+O	178	179	.
+
+B-Employment	180	188	Formerly
+I-Employment	189	195	worked
+O	196	198	in
+O	199	206	roofing
+O	206	207	.

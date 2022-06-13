@@ -1,0 +1,36 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	25	Homeless
+
+O	26	30	Poor
+O	31	37	health
+O	38	48	compliance
+
+O	49	55	Denies
+B-Tobacco	56	63	tobacco
+O	63	64	,
+B-Alcohol	65	69	etoh
+O	70	72	or
+B-Drug	73	80	illicit
+I-Drug	81	90	substance
+I-Drug	91	94	use
+
+O	95	96	h
+O	96	97	/
+O	97	98	o
+B-Tobacco	99	106	tobacco
+I-Tobacco	107	110	use
+
+O	111	112	h
+O	112	113	/
+O	113	114	o
+B-Alcohol	115	122	alcohol
+I-Alcohol	123	128	abuse
+
+O	129	130	h
+O	130	131	/
+O	131	132	o
+B-Drug	133	142	methadone
+I-Drug	143	148	abuse

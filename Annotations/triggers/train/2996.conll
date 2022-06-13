@@ -1,0 +1,13 @@
+O	0	3	Soc
+O	4	6	HX
+O	6	7	:
+O	8	14	Denies
+B-Tobacco	15	22	tobacco
+I-Tobacco	23	26	use
+
+O	28	35	deniesl
+B-Alcohol	36	40	EtOH
+
+O	42	48	Denies
+B-Drug	49	61	Recreational
+I-Drug	62	67	drugs

@@ -1,0 +1,12 @@
+O	0	6	Social
+O	7	9	Hx
+O	9	10	:
+
+O	11	17	Denies
+B-Tobacco	18	25	smoking
+O	25	26	,
+B-Alcohol	27	31	ETOH
+O	31	32	,
+O	33	35	or
+B-Drug	36	44	illicits
+O	44	45	.

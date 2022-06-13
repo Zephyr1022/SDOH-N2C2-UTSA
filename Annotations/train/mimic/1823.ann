@@ -1,0 +1,22 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 34	with Husband
+T3	StatusTime 16 21	Lives
+T4	Employment 36 46	Unemployed
+T5	StatusEmploy 36 46	Unemployed
+T6	Tobacco 91 99;100 102	30 pk yr hx
+T7	Amount 91 99	30 pk yr
+T8	StatusTime 67 71	Quit
+T9	History 72 85	in [**2133**]
+T10	Alcohol 104 108	ETOH
+T11	Amount 110 123	couple drinks
+T12	StatusTime 110 134	couple drinks on weekend
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Amount:T7 Status:T8 History:T9
+E4	Alcohol:T10 Amount:T11 Status:T12 Frequency:T13
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T12 current
+T13	Frequency 124 134	on weekend

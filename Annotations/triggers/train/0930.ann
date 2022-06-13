@@ -1,0 +1,4 @@
+T1	LivingStatus 16 21	lives
+T4	Tobacco 42 54	tobacco use;
+T6	Alcohol 58 65	alcohol
+T7	Drug 69 76;77 85	illicit drug use

@@ -1,0 +1,22 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	24	recently
+O	25	33	divorced
+O	33	34	.
+O	35	38	son
+O	39	42	and
+O	43	51	daughter
+O	52	54	in
+O	55	57	AZ
+O	58	59	&
+O	60	62	OH
+O	62	63	.
+
+O	64	66	No
+B-Tobacco	67	74	tobacco
+O	75	77	or
+
+B-Alcohol	78	82	EtOH
+O	82	83	.

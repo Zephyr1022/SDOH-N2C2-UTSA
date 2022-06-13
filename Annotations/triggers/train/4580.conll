@@ -1,0 +1,53 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	:
+B-Tobacco	18	25	Tobacco
+O	26	30	2ppd
+O	31	32	x
+O	33	35	35
+O	35	36	(
+O	36	37	+
+O	37	38	)
+O	38	43	years
+O	43	44	;
+O	45	47	No
+B-Alcohol	48	52	ETOH
+I-Alcohol	53	58	abuse
+O	58	59	;
+B-Drug	60	64	drug
+I-Drug	65	71	addict
+O	71	72	;
+O	73	74	?
+O	74	79	extra
+
+O	80	89	methadone
+O	90	93	two
+O	94	98	days
+O	99	102	ago
+O	102	103	;
+B-LivingStatus	104	109	lives
+O	110	112	at
+O	113	117	home
+O	118	123	alone
+O	123	124	;
+B-Employment	125	131	worked
+O	132	134	at
+O	135	136	a
+O	137	141	drug
+
+O	142	151	treatment
+O	152	159	program
+O	160	163	for
+O	164	172	pregnant
+O	173	178	women
+O	179	184	until
+O	185	188	she
+O	189	197	relapsed
+O	198	199	2
+O	200	206	months
+
+O	207	210	ago
+
+O	211	212	.

@@ -1,0 +1,29 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	27	Prior
+O	28	34	smoker
+
+B-Alcohol	38	45	Alcohol
+I-Alcohol	46	49	Use
+O	49	50	:
+O	51	55	None
+
+O	56	60	Drug
+O	61	64	Use
+O	64	65	:
+O	66	70	None
+
+O	72	78	SOCIAL
+O	79	86	HISTORY
+O	86	87	:
+
+O	89	98	Residence
+O	98	99	:
+O	100	109	Messenger
+O	110	115	House
+O	116	120	Care
+O	121	127	Center

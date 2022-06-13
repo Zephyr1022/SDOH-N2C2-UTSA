@@ -1,0 +1,55 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Cared
+O	22	25	for
+O	26	28	at
+O	29	33	home
+O	34	36	by
+O	37	40	his
+O	41	45	wife
+O	45	46	.
+
+B-Employment	47	53	Former
+I-Employment	54	64	contractor
+O	64	65	.
+
+O	66	73	Aphasic
+O	74	76	at
+
+O	77	85	baseline
+O	85	86	,
+O	87	90	can
+O	91	97	answer
+O	98	101	yes
+O	101	102	/
+O	102	104	no
+O	105	114	questions
+O	114	115	.
+
+O	116	121	Needs
+O	122	126	help
+O	127	131	with
+
+O	132	141	transfers
+O	141	142	,
+O	143	146	can
+O	147	150	sit
+O	151	153	up
+O	154	156	in
+O	157	158	a
+O	159	169	wheelchair
+O	169	170	.
+
+B-Tobacco	171	180	Nonsmoker
+O	180	181	.
+
+O	182	186	Used
+O	187	189	to
+O	190	195	drink
+
+B-Alcohol	196	203	alcohol
+O	204	206	on
+O	207	215	occasion
+O	215	216	.

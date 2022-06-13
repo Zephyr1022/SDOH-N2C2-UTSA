@@ -1,0 +1,22 @@
+T1	Drug 91 99	Drug Use
+T2	Method 110 112	IV
+T3	Type 123 130	cocaine
+T4	StatusTime 101 109	Previous
+T5	LivingStatus 149 158	Residence
+T6	TypeLiving 160 179	Jan & Peter's Place
+T7	StatusTime 149 158	Residence
+T8	Alcohol 36 47	Alcohol Use
+T9	StatusTime 50 58	Previous
+T10	History 76 88	since [DATE]
+T12	Tobacco 9 20	Tobacco Use
+T14	Amount 22 35	30 pack years
+T15	StatusTime 22 35	30 pack years
+E1	Drug:T1 Method:T2 Type:T3 Status:T4
+E2	LivingStatus:T5 Type:T6 Status:T7
+E3	Alcohol:T8 Status:T9 History:T10
+E4	Tobacco:T12 Amount:T14 Status:T15
+A1	StatusTimeVal T4 past
+A2	TypeLivingVal T6 homeless
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T9 past
+A6	StatusTimeVal T15 current

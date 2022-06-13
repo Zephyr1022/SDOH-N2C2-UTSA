@@ -1,0 +1,66 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	24	Patient
+O	25	31	smoked
+B-Tobacco	32	39	tobacco
+O	40	43	and
+O	44	48	used
+B-Drug	49	58	marijuana
+O	58	59	,
+
+B-Alcohol	60	70	occasional
+I-Alcohol	71	78	alcohol
+O	78	79	,
+O	80	86	denies
+O	87	90	any
+B-Drug	91	102	intravenous
+I-Drug	103	107	drug
+I-Drug	108	113	abuse
+O	113	114	.
+
+O	115	121	Denies
+O	122	125	any
+B-Drug	126	133	cocaine
+O	133	134	.
+
+O	136	139	The
+O	140	147	patient
+O	148	153	spent
+O	154	158	four
+O	159	164	years
+O	165	167	in
+O	168	172	jail
+O	173	176	and
+
+O	177	180	had
+O	181	189	negative
+O	190	195	human
+O	196	212	immunodeficiency
+O	213	218	virus
+O	219	223	test
+O	224	229	times
+O	230	234	four
+O	234	235	,
+
+O	236	242	yearly
+O	243	248	tests
+O	249	253	done
+O	254	256	in
+O	257	263	prison
+O	263	264	.
+
+O	266	269	The
+O	270	277	patient
+O	278	282	also
+O	283	286	had
+O	287	288	a
+O	289	292	PPD
+
+O	293	299	placed
+O	300	303	and
+B-Employment	304	310	worked
+O	311	313	as
+O	314	315	a
+O	316	324	mechanic
+O	324	325	.

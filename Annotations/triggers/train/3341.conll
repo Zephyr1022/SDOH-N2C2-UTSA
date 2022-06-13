@@ -1,0 +1,26 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	24	Partner
+O	25	26	[
+O	26	30	NAME
+O	30	31	]
+O	31	32	,
+O	33	38	lives
+O	39	41	in
+O	42	45	apt
+O	45	46	,
+B-Employment	47	57	unemployed
+
+B-Drug	58	71	polysubstance
+I-Drug	72	77	abuse
+O	78	81	and
+O	82	87	daily
+B-Alcohol	88	95	alcohol
+O	96	97	-
+O	98	104	trying
+O	105	107	to
+O	108	111	get
+O	112	116	into
+O	117	122	rehab

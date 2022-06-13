@@ -1,0 +1,83 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	18	-
+O	19	24	Lives
+O	25	27	in
+O	28	29	[
+O	29	37	LOCATION
+O	37	38	]
+O	38	39	,
+O	40	45	going
+O	46	48	to
+O	49	55	school
+O	56	64	studying
+O	65	71	pastry
+O	72	76	arts
+O	76	77	,
+O	78	82	just
+O	83	91	finished
+O	92	100	freshman
+O	101	105	year
+
+O	106	107	-
+O	108	114	Taking
+O	115	121	summer
+O	122	129	classes
+O	130	132	in
+O	133	134	[
+O	134	142	LOCATION
+O	142	143	]
+
+O	144	145	-
+O	146	152	Family
+O	153	158	lives
+O	159	161	in
+O	162	163	[
+O	163	171	LOCATION
+O	171	172	]
+
+O	173	174	-
+O	175	179	Flew
+O	180	184	into
+O	185	186	[
+O	186	194	LOCATION
+O	194	195	]
+O	196	201	today
+O	201	202	,
+O	203	206	was
+O	207	212	going
+O	213	215	to
+O	216	220	have
+O	221	232	appointment
+O	233	235	on
+O	236	237	[
+O	237	241	DATE
+O	241	242	]
+O	243	247	with
+O	248	258	transplant
+O	259	265	doctor
+O	266	268	Dr
+O	268	269	.
+
+O	270	271	[
+O	271	275	NAME
+O	275	276	]
+
+O	277	278	-
+O	279	288	Nonsmoker
+
+O	289	290	-
+O	291	297	Denies
+B-Alcohol	298	305	alcohol
+I-Alcohol	306	309	use
+
+O	310	311	-
+O	312	318	Denies
+O	319	321	MJ
+O	322	325	use
+O	325	326	,
+O	327	334	illicit
+O	335	339	drug
+O	340	343	use

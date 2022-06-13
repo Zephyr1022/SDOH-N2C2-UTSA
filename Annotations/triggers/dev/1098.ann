@@ -1,0 +1,5 @@
+T1	Alcohol 16 20	EtOH
+T6	Tobacco 48 55	Tobacco
+T8	Drug 67 79;80 98	IV, illicit, or herbal drug use
+T11	LivingStatus 100 105	Lives
+T14	Employment 179 196	Retired fisherman

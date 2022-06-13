@@ -1,0 +1,11 @@
+T1	Alcohol 4 8	ETOH
+T2	StatusTime 10 18	endorses
+T3	Tobacco 26 29	TOB
+T4	Drug 34 41	illicts
+T5	Type 34 41	illicts
+T6	StatusTime 19 25	Denies
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T3 Status:T6
+E3	Drug:T4 Type:T5 Status:T6
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 none

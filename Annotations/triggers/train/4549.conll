@@ -1,0 +1,72 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	27	alone
+O	28	30	in
+O	31	32	[
+O	32	33	*
+O	33	34	*
+O	34	43	Hospital1
+O	44	48	3597
+O	48	49	*
+O	49	50	*
+O	50	51	]
+O	51	52	.
+
+O	54	61	Patient
+O	62	68	denies
+O	69	72	all
+B-Tobacco	73	80	tobacco
+O	80	81	,
+B-Alcohol	82	89	alcohol
+O	89	90	,
+O	91	94	and
+
+B-Drug	95	99	drug
+I-Drug	100	103	use
+O	104	109	other
+O	110	114	than
+O	115	119	last
+O	120	126	Friday
+O	126	127	.
+
+O	129	132	She
+O	133	136	was
+B-Alcohol	137	142	sober
+O	143	144	x
+O	145	146	6
+O	146	147	.
+O	147	148	5
+O	149	154	years
+O	154	155	.
+
+O	156	161	Prior
+O	162	164	to
+O	165	169	that
+O	170	173	she
+O	174	177	was
+B-Alcohol	178	179	a
+I-Alcohol	180	185	daily
+I-Alcohol	186	193	drinker
+O	193	194	.
+
+O	196	198	Is
+O	199	202	not
+O	203	211	actively
+O	212	220	involved
+
+O	221	223	in
+O	224	226	AA
+O	226	227	.
+
+O	229	231	No
+O	232	233	h
+O	233	234	/
+O	234	235	o
+O	236	246	withdrawal
+O	247	255	symptoms
+O	255	256	/
+O	256	264	seizures
+O	264	265	.

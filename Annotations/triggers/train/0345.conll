@@ -1,0 +1,69 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Social
+O	23	25	Hx
+O	25	26	:
+O	27	30	She
+O	31	34	has
+O	35	36	a
+O	37	44	greater
+O	45	49	than
+B-Tobacco	50	52	20
+I-Tobacco	52	53	-
+I-Tobacco	53	57	pack
+I-Tobacco	57	58	-
+I-Tobacco	58	62	year
+I-Tobacco	63	70	history
+O	70	71	.
+
+O	72	75	She
+O	76	79	has
+
+O	80	90	occasional
+O	91	96	heavy
+B-Alcohol	97	104	alcohol
+I-Alcohol	105	108	use
+O	109	112	and
+O	113	119	states
+O	120	124	that
+O	125	127	at
+O	128	131	the
+O	132	136	time
+O	137	139	of
+O	140	143	her
+
+O	144	153	diagnosis
+O	154	156	of
+O	157	160	her
+O	161	171	recurrence
+O	171	172	,
+O	173	176	she
+O	177	180	was
+B-Alcohol	181	189	drinking
+O	190	203	approximately
+O	204	205	1
+
+O	206	212	bottle
+O	213	215	of
+O	216	220	wine
+O	221	224	per
+O	225	228	day
+O	228	229	,
+O	230	235	which
+O	236	239	she
+O	240	243	has
+O	244	249	since
+O	250	257	stopped
+O	257	258	.
+
+O	259	262	She
+
+O	263	272	generally
+O	273	279	drinks
+B-Alcohol	280	287	alcohol
+O	288	296	socially
+O	297	299	as
+O	300	304	well
+O	304	305	.

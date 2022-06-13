@@ -1,0 +1,18 @@
+T3	Employment 51 59	studying
+T4	StatusEmploy 51 59	studying
+T5	Alcohol 110 114	EtOH
+T7	Drug 126 133	cocaine
+T8	StatusTime 123 125	no
+T9	Type 126 133	cocaine
+T10	StatusTime 93 104	intoxicated
+E2	Employment:T3 Status:T4
+E3	Alcohol:T5 Status:T10
+E4	Drug:T7 Status:T8 Type:T9
+A1	StatusEmployVal T4 student
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T10 current
+T1	Drug 138 142	IVDU
+E1	Drug:T1 Type:T6 Status:T2
+T2	StatusTime 135 137	no
+A2	StatusTimeVal T2 none
+T6	Type 138 142	IVDU

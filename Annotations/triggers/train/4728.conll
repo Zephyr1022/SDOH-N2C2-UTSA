@@ -1,0 +1,60 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Tobacco	16	22	Smokes
+O	23	28	about
+O	29	30	[
+O	30	31	*
+O	31	32	*
+O	32	33	1
+O	33	34	-
+O	34	36	30
+O	36	37	*
+O	37	38	*
+O	38	39	]
+O	40	43	PPD
+O	43	44	.
+
+O	46	53	Unclear
+B-Alcohol	54	61	alcohol
+O	62	69	history
+O	70	75	prior
+O	76	78	to
+O	79	83	this
+
+O	84	91	episode
+O	91	92	.
+
+B-Employment	94	104	Unemployed
+O	104	105	.
+
+O	107	117	Reportedly
+O	118	124	recent
+O	125	132	breakup
+O	133	146	precipitating
+
+O	147	154	suicide
+O	155	162	attempt
+O	162	163	.
+
+O	165	167	No
+B-Drug	168	172	IVDU
+I-Drug	173	175	or
+I-Drug	176	182	heroin
+I-Drug	183	188	abuse
+O	189	194	since
+O	195	196	[
+O	196	197	*
+O	197	198	*
+O	198	202	2170
+O	202	203	*
+O	203	204	*
+O	204	205	]
+O	205	206	.
+
+O	208	210	On
+
+O	211	220	methadone
+O	221	232	maintenance
+O	232	233	.

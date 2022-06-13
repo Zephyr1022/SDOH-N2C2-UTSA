@@ -1,0 +1,13 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Tobacco	16	19	pos
+I-Tobacco	20	26	smoker
+O	27	28	-
+O	29	35	remote
+
+B-Alcohol	36	39	pos
+I-Alcohol	40	47	alcohol
+O	48	49	-
+O	50	56	remote

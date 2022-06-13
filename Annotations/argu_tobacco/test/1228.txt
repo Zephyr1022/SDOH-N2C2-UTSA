@@ -1,0 +1,28 @@
+Social History:
+Residence: Patient lives in [LOCATION], [LOCATION], with boyfriend [NAME] and two children. 
+Tobacco: Reports quit 7 days ago. Prior to that, 1ppd x20years.
+ETOH: Denies
+Drugs: Denies
+			
+Medications
+Scheduled Medications
+Chlorhexidine 0.12% oral top liq 15mL  Dose: 15 mL Swish&Spit  Q12 Hours
+Ophthalmic lubricant ophth oint 3.5g  Dose: 1 application EYE-Both  Q2 Hours
+Pantoprazole 40mg inj  Dose: 40 mg IV Push  Daily
+Piperacillin-tazobactam  Dose: 3.375 g IVPB  Q8 Hours (non std)
+Vancomycin/Dextrose 5%  Dose: 1.5 g = 250 mL IVPB  Q8 Hours (non std)
+
+Infusions
+Dextrose 5%/Lactated Ringers 1,000 mL  Dose: 1,000 mL IV Infusion  
+Lactated Ringers 1,000 mL  Dose: 1,000 mL IV Infusion  
+Norepinephrine 20 mg + Dextrose 5% in Water 250 mL  Dose: 250 mL IV Infusion  
+Propofol 1% 1,000 mg + Diluent 100 mL  Dose: 100 mL IV Infusion  
+Vecuronium 50 mg + Dextrose 5% in Water 100 mL  Dose: 100 mL IV Infusion  
+
+PRN Medications
+Albuterol HFA 90mcg/inhal oral 8g  Dose: 4-8 puff(s) Inhalation  Q2 Hours PRN
+Fentanyl 100mcg/2mL inj (vial)  Dose: 25-50 mcg IV Push  Q5 Minutes PRN
+Fentanyl 100mcg/2mL inj (vial)  Dose: 25-100 mcg IV Push  Q30 Minutes PRN
+Magnesium sulfate/Dextrose 5%  Dose: 16 mEq = 54 mL IVPB  On Call PRN
+Magnesium sulfate/Dextrose 5%  Dose: 8 mEq = 52 mL IVPB  On Call PRN
+Ophthalmic lubricant ophth oint 3.5g  Dose: 1 application EYE-Both  On Call PRN

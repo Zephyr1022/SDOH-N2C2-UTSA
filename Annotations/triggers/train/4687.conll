@@ -1,0 +1,79 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Married
+O	24	28	with
+O	29	30	4
+O	31	39	children
+O	40	43	and
+O	44	45	7
+O	46	59	grandchildren
+O	59	60	.
+
+B-Employment	62	68	Worked
+O	69	71	as
+O	72	74	an
+
+O	75	85	equiptment
+O	86	94	designer
+O	95	98	for
+O	99	108	radiation
+O	108	109	/
+O	109	117	oncology
+O	118	123	units
+O	124	126	at
+O	127	128	[
+O	128	129	*
+O	129	130	*
+O	130	139	Hospital1
+O	140	142	18
+O	142	143	*
+O	143	144	*
+O	144	145	]
+O	145	146	,
+O	147	148	[
+O	148	149	*
+O	149	150	*
+O	150	159	Hospital1
+O	160	163	112
+O	163	164	*
+O	164	165	*
+O	165	166	]
+O	166	167	,
+
+O	168	171	and
+O	172	173	[
+O	173	174	*
+O	174	175	*
+O	175	182	Company
+O	183	187	2860
+O	187	188	*
+O	188	189	*
+O	189	190	]
+O	190	191	.
+
+O	193	203	Reportedly
+B-Alcohol	204	210	drinks
+O	211	212	4
+O	212	213	-
+O	213	215	12
+O	216	221	beers
+O	222	227	daily
+O	228	231	but
+O	232	234	pt
+O	235	239	does
+O	240	243	not
+
+O	244	249	admit
+O	250	254	this
+O	255	264	currently
+O	264	265	.
+
+O	267	273	Remote
+B-Tobacco	274	281	tobacco
+O	281	282	.
+
+O	284	286	No
+B-Drug	287	291	IVDU
+O	291	292	.

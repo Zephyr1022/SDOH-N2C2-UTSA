@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: current tobacco user  
+Alcohol Use: none per chart review   
+Drug Use: polysubstance abuse 
+
+SOCIAL HISTORY: 
+Lives alone on [LOCATION], has a caretaker 4-5 days per week.

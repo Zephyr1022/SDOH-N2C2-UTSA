@@ -1,0 +1,24 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	27	with
+O	28	35	husband
+O	36	38	in
+O	39	40	[
+O	40	48	LOCATION
+O	48	49	]
+O	49	50	.
+
+B-Alcohol	52	62	Occasional
+I-Alcohol	63	67	etoh
+O	67	68	.
+
+O	70	74	Past
+O	75	82	tobacco
+O	82	83	,
+O	84	89	drugs
+O	89	90	;
+O	91	95	none
+O	96	105	currently

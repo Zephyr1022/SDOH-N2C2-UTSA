@@ -1,0 +1,10 @@
+T1	LivingStatus 26 31	lives
+T2	StatusTime 26 31	lives
+T3	TypeLiving 32 49	with his daughter
+T4	Employment 17 24	Retired
+T5	StatusEmploy 17 24	Retired
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Status:T5
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed

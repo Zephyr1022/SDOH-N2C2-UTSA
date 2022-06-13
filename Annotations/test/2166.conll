@@ -1,0 +1,55 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	8	10	Pt
+O	10	11	.
+
+O	12	18	denied
+O	19	22	all
+O	23	29	habits
+O	30	33	but
+O	34	41	medical
+O	42	48	record
+O	49	55	review
+O	56	62	showed
+O	62	63	:
+
+O	65	72	Tobacco
+O	73	76	Use
+O	76	77	:
+O	78	82	1PPD
+O	83	85	in
+O	86	90	fall
+O	91	92	'
+O	92	94	16
+
+O	95	102	Alcohol
+O	103	106	Use
+O	106	107	:
+O	108	115	Distant
+O	116	123	history
+O	124	126	of
+O	127	130	use
+
+O	132	136	Drug
+O	137	140	Use
+O	140	141	:
+O	142	145	See
+O	146	149	HPI
+
+O	152	158	SOCIAL
+O	159	166	HISTORY
+O	166	167	:
+
+O	169	178	Residence
+O	178	179	:
+O	179	185	Housed
+O	186	188	at
+O	189	193	Hope
+O	194	199	Place
+O	200	208	facility
+O	209	218	according
+O	219	221	to
+O	222	224	ED
+O	225	229	note
+O	229	230	.

@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: 0.5 packs per day, unknown length of time   Alcohol Use: Denies   Drug Use: Cannabis, denies current IVDU
+
+SOCIAL HISTORY: 
+Living at [LOCATION].

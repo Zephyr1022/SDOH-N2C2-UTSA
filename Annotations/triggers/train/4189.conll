@@ -1,0 +1,39 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	17	22	Lives
+O	23	27	with
+O	28	32	wife
+O	33	35	in
+O	36	37	[
+O	37	45	LOCATION
+O	45	46	]
+
+B-Alcohol	47	51	EtOH
+O	51	52	:
+O	53	54	1
+O	55	60	glass
+O	61	63	of
+O	64	68	wine
+O	69	71	or
+O	72	76	beer
+O	77	80	per
+O	81	84	day
+
+B-Employment	85	92	Retired
+I-Employment	93	94	[
+I-Employment	94	104	PROFESSION
+I-Employment	104	105	]
+I-Employment	106	115	professor
+
+B-Tobacco	116	123	Smoking
+O	123	124	:
+O	125	130	never
+O	130	131	;
+O	132	135	has
+O	136	142	second
+O	143	147	hand
+O	148	156	exposure
+O	157	159	in
+O	160	169	childhood

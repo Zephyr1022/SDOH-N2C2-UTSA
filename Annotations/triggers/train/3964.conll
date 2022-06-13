@@ -1,0 +1,39 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+
+B-Alcohol	22	26	EtOH
+O	26	27	:
+O	28	32	None
+O	33	42	currently
+
+B-Drug	43	48	Drugs
+O	48	49	:
+O	50	54	None
+
+O	56	62	SOCIAL
+O	63	70	HISTORY
+O	70	71	:
+
+B-LivingStatus	73	78	Lives
+O	79	83	with
+O	84	87	her
+O	88	95	husband
+O	96	99	who
+O	100	103	may
+O	104	106	be
+O	107	119	incarcerated
+O	120	127	shortly
+O	127	128	,
+O	129	134	which
+O	135	140	would
+O	141	146	cause
+O	147	150	her
+O	151	153	to
+O	154	158	lose
+O	159	162	her
+O	163	172	insurance
+O	172	173	.

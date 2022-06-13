@@ -1,0 +1,50 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	8	11	per
+O	12	21	admission
+O	22	26	note
+
+O	27	34	Tobacco
+O	35	38	Use
+O	38	39	:
+O	40	46	denies
+O	46	47	,
+O	48	55	exposed
+O	56	59	2nd
+O	60	64	hand
+
+O	67	74	Alcohol
+O	75	78	Use
+O	78	79	:
+O	80	86	unkown
+
+O	90	94	Drug
+O	95	98	Use
+O	98	99	:
+O	100	109	marijuana
+O	109	110	,
+O	111	126	methamphetamine
+O	126	127	,
+O	128	135	opioids
+O	136	137	(
+O	137	141	IVDU
+O	141	142	)
+
+O	144	150	SOCIAL
+O	151	158	HISTORY
+O	158	159	:
+
+O	161	170	Residence
+O	170	171	:
+O	172	177	lives
+O	178	180	in
+O	181	182	a
+O	183	186	car
+O	187	191	with
+O	192	195	her
+O	196	205	boyfriend
+O	205	206	,
+O	207	208	[
+O	208	212	NAME
+O	212	213	]

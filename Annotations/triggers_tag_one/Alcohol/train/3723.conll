@@ -1,0 +1,132 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	23	1
+O	23	24	/
+O	24	25	2
+O	26	30	pack
+O	31	34	per
+O	35	38	day
+
+B-Alcohol	39	46	Alcohol
+I-Alcohol	47	50	Use
+O	50	51	:
+O	52	53	6
+O	54	59	shots
+O	60	61	/
+O	62	67	month
+
+O	69	73	Drug
+O	74	77	Use
+O	77	78	:
+
+O	80	81	-
+O	82	91	Marijuana
+O	91	92	:
+O	93	94	1
+O	95	101	blount
+O	101	102	/
+O	102	105	day
+
+O	106	107	-
+O	108	110	hx
+O	110	111	/
+O	111	112	o
+O	113	120	ecstasy
+
+O	122	123	-
+O	124	130	Denied
+O	131	135	IVDU
+
+O	137	143	SOCIAL
+O	144	151	HISTORY
+O	151	152	:
+
+O	154	161	Patient
+O	162	164	is
+O	165	174	currently
+O	175	187	incarcerated
+O	187	188	.
+
+O	189	192	She
+O	193	196	was
+O	197	207	originally
+O	208	212	from
+O	213	214	[
+O	214	222	LOCATION
+O	222	223	]
+O	223	224	,
+O	225	230	moved
+O	231	233	up
+O	234	236	to
+O	237	238	[
+O	238	246	LOCATION
+O	246	247	]
+O	248	252	with
+O	253	256	her
+O	257	263	sister
+O	263	264	.
+
+O	265	268	She
+O	269	275	worked
+O	276	278	at
+O	279	280	[
+O	280	288	LOCATION
+O	288	289	]
+O	290	292	in
+O	293	294	[
+O	294	302	LOCATION
+O	302	303	]
+O	303	304	.
+
+O	305	308	She
+O	309	312	has
+O	313	316	two
+O	317	325	children
+O	326	328	at
+O	329	333	home
+O	333	334	.
+
+O	336	339	Her
+O	340	348	children
+O	349	352	are
+O	353	362	currently
+O	363	370	staying
+O	371	375	with
+O	376	383	friends
+O	383	384	.
+
+O	386	389	Her
+O	390	396	sister
+O	397	399	is
+O	400	405	close
+O	406	408	by
+O	409	411	to
+O	412	417	watch
+O	418	421	her
+O	422	426	kids
+O	427	429	as
+O	430	434	well
+O	434	435	.
+
+O	436	439	She
+O	440	443	had
+O	444	454	difficulty
+O	455	462	feeding
+O	463	466	her
+O	467	475	children
+O	476	481	which
+O	482	485	led
+O	486	488	to
+O	489	493	some
+O	494	505	unfortunate
+O	506	512	events
+O	513	520	leading
+O	521	523	to
+O	524	527	her
+O	528	533	being
+O	534	546	incarcerated
+O	546	547	.

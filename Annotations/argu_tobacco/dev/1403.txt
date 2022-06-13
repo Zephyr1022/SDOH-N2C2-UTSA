@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: none   Alcohol Use: quit 15 yrs ago   Drug Use: none
+
+SOCIAL HISTORY: 
+Obtained from wife
+Lives with wife outside of [LOCATION]. Previously worked in farming. Originally from [LOCATION], in [LOCATION] for 20+ yrs. 5 children and 3 grandchildren.

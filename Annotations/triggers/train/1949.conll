@@ -1,0 +1,68 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	married
+O	23	24	,
+B-LivingStatus	25	30	lives
+O	31	33	at
+O	34	38	home
+O	39	43	with
+O	44	48	wife
+O	49	51	in
+O	52	53	[
+O	53	54	*
+O	54	55	*
+O	55	59	Name
+O	60	61	(
+O	61	63	NI
+O	63	64	)
+O	65	66	*
+O	66	67	*
+O	67	68	]
+O	68	69	,
+B-Employment	70	75	works
+O	76	78	as
+O	79	87	director
+
+O	88	90	of
+
+O	91	95	bank
+O	96	99	and
+O	100	109	mortgages
+O	109	110	.
+
+B-Tobacco	111	117	Smoker
+O	117	118	,
+O	119	126	unknown
+O	127	133	amount
+O	134	137	for
+O	138	140	50
+O	141	146	years
+O	146	147	,
+O	148	155	unknown
+
+B-Alcohol	156	163	alcohol
+I-Alcohol	164	170	intake
+O	171	177	though
+O	178	186	possible
+O	187	191	more
+O	192	196	than
+O	197	204	patient
+O	205	211	admits
+O	212	213	(
+O	213	216	per
+
+O	217	221	wife
+O	221	222	)
+O	222	223	.
+
+O	224	225	2
+O	226	234	children
+O	234	235	-
+O	236	237	1
+O	238	246	daughter
+O	247	250	and
+O	251	252	1
+O	253	256	son
+O	256	257	.

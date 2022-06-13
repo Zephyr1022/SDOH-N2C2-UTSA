@@ -1,0 +1,51 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	26	none
+
+B-Alcohol	27	34	Alcohol
+I-Alcohol	35	38	Use
+O	38	39	:
+O	40	44	none
+
+B-Drug	45	49	Drug
+I-Drug	50	53	Use
+O	53	54	:
+O	55	62	History
+O	63	65	of
+O	66	70	coke
+O	71	74	and
+O	75	79	meth
+O	80	83	use
+O	84	87	but
+O	88	91	has
+O	92	95	not
+O	96	100	used
+O	101	103	in
+O	104	105	2
+O	106	111	years
+O	111	112	.
+
+O	113	120	History
+O	121	123	of
+B-Drug	124	127	THC
+I-Drug	128	131	use
+O	132	135	but
+O	136	139	not
+O	140	148	recently
+O	148	149	.
+
+O	152	158	SOCIAL
+O	159	166	HISTORY
+O	166	167	:
+
+B-LivingStatus	169	174	Lives
+O	175	177	at
+O	178	182	home
+O	183	187	with
+O	188	191	his
+O	192	198	mother
+O	198	199	.

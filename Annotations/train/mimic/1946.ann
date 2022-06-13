@@ -1,0 +1,14 @@
+T4	Employment 136 149	on disability
+T5	StatusEmploy 136 149	on disability
+T6	Duration 150 166	since [**2140**]
+T8	Tobacco 197 204	Tobacco
+T9	Amount 206 224	30 to 35 pack year
+T10	StatusTime 225 243	history of smoking
+T11	Alcohol 245 252	Alcohol
+T12	StatusTime 254 259	Prior
+E2	Employment:T4 Duration:T6 Status:T5
+E3	Tobacco:T8 Amount:T9 Status:T10
+E4	Alcohol:T11 Status:T12
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T12 past

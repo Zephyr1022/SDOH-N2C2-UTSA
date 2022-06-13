@@ -1,0 +1,26 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	23	retired
+I-Employment	24	31	fireman
+O	31	32	,
+O	33	40	married
+O	40	41	,
+B-LivingStatus	42	47	lives
+O	48	50	at
+O	51	55	home
+O	55	56	,
+O	57	59	no
+O	60	64	kids
+O	64	65	,
+O	66	71	never
+
+B-Tobacco	72	78	smoked
+O	78	79	,
+O	80	86	social
+B-Alcohol	87	91	etoh
+O	91	92	,
+O	93	95	no
+B-Drug	96	101	drugs
+O	101	102	.

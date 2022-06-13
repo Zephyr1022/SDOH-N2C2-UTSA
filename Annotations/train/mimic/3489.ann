@@ -1,0 +1,37 @@
+T1	LivingStatus 17 33	Living situation
+T2	StatusTime 36 54	transiently housed
+T3	TypeLiving 36 54	transiently housed
+T4	Drug 66 79	Substance use
+T5	StatusTime 81 92	IVDU heroin
+T6	Method 81 85	IVDU
+T7	Type 86 92	heroin
+T8	LivingStatus 116 132	Living situation
+T9	StatusTime 135 153	transiently housed
+T10	TypeLiving 135 153	transiently housed
+T11	Drug 154 167	Substance use
+T12	StatusTime 169 180	IVDU heroin
+T13	Method 169 173	IVDU
+T14	Type 174 180	heroin
+T15	Employment 55 65	sex worker
+T16	StatusEmploy 55 65	sex worker
+T17	Type 55 65	sex worker
+T18	Drug 95 98	PSA
+T19	StatusTime 94 98	+PSA
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Drug:T4 Status:T5 Method:T6 Type:T7
+E3	LivingStatus:T8 Type:T10 Status:T9
+E4	Drug:T11 Status:T12 Method:T13 Type:T14
+E5	Employment:T15 Status:T16 Type:T17
+E6	Drug:T18 Status:T19
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T10 homeless
+A6	StatusTimeVal T12 current
+A7	StatusEmployVal T16 employed
+A8	StatusTimeVal T19 current
+T20	Drug 183 186	PSA
+E7	Drug:T20 Status:T21
+T21	StatusTime 182 186	+PSA
+A9	StatusTimeVal T21 current

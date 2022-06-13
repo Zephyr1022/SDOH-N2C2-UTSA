@@ -1,0 +1,5 @@
+SOCIAL HISTORY:  As stated, the patient's primary care
+physician is [**Last Name (NamePattern4) **]. [**First Name8 (NamePattern2) **] [**Last Name (NamePattern1) 54215**] in [**Location (un) 18317**] (telephone
+number [**Telephone/Fax (1) 54216**]).  The patient has a 30-pack-year smoking
+history.  Minimal alcohol history.  He lives in [**Location 18317**] with
+his wife.

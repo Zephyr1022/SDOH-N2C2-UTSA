@@ -1,0 +1,47 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+O	24	27	has
+O	28	29	a
+O	30	34	long
+O	35	42	history
+O	43	45	of
+B-Alcohol	46	53	alcohol
+I-Alcohol	54	59	abuse
+O	60	61	(
+O	61	62	[
+O	62	63	*
+O	63	64	*
+O	64	65	1
+O	65	66	-
+O	66	68	19
+O	68	69	*
+O	69	70	*
+O	70	71	]
+O	72	78	drinks
+O	78	79	/
+O	79	84	night
+O	84	85	)
+O	85	86	.
+
+O	87	94	Current
+O	95	99	long
+O	100	108	standing
+O	109	115	smoker
+O	115	116	.
+
+O	117	122	Prior
+O	123	125	to
+O	126	129	her
+O	130	136	recent
+
+O	137	153	hospitalizations
+O	153	154	,
+O	155	158	she
+O	159	162	was
+O	163	169	living
+O	170	172	at
+O	173	177	home
+O	177	178	.

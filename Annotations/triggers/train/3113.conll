@@ -1,0 +1,91 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	16	21	Known
+B-Tobacco	22	28	smoker
+O	28	29	,
+O	30	31	1
+O	31	32	/
+O	32	33	4
+O	34	37	ppd
+O	38	39	,
+O	40	50	previously
+B-Tobacco	51	56	heavy
+I-Tobacco	57	63	smoker
+
+O	65	67	No
+B-Alcohol	68	72	EtOH
+
+O	74	77	The
+O	78	82	rest
+O	83	85	of
+O	86	89	the
+O	90	96	social
+O	97	104	history
+O	105	111	unable
+O	112	114	to
+O	115	121	obtain
+O	122	125	due
+O	126	128	to
+O	129	136	patient
+O	137	146	condition
+O	146	147	.
+
+O	150	156	REVIEW
+O	157	159	OF
+O	160	167	SYSTEMS
+O	168	169	(
+O	169	170	a
+O	171	179	complete
+O	180	183	ROS
+O	184	188	must
+O	189	196	include
+O	197	199	at
+O	200	205	least
+O	206	208	10
+O	209	216	systems
+O	216	217	)
+
+O	218	224	Unable
+O	225	227	to
+O	228	234	obtain
+O	235	238	due
+O	239	241	to
+O	242	249	patient
+O	250	259	condition
+
+O	262	271	Allergies
+
+O	272	275	NKA
+
+O	277	283	Vitals
+O	284	285	(
+O	285	289	Most
+O	290	296	recent
+O	297	300	and
+O	301	303	24
+O	304	308	hour
+O	309	314	range
+O	314	315	.
+O	315	316	)
+
+O	318	320	BP
+O	321	324	115
+O	324	325	/
+O	325	327	68
+O	330	332	HR
+O	333	335	95
+O	337	340	Sat
+O	341	343	95
+O	343	344	%
+O	345	346	(
+O	346	349	100
+O	349	350	%
+O	351	355	Fio2
+O	355	356	)
+
+O	361	362	I
+O	362	363	&
+O	363	364	O
+O	365	369	Data

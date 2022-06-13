@@ -1,0 +1,73 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	She
+B-LivingStatus	20	25	lives
+O	26	30	with
+O	31	34	her
+O	35	42	husband
+O	43	45	in
+O	46	48	an
+O	49	50	[
+O	50	51	*
+O	51	52	*
+O	52	61	Hospital3
+O	62	66	4634
+O	66	67	*
+O	67	68	*
+O	68	69	]
+O	70	71	[
+O	71	72	*
+O	72	73	*
+O	73	77	Last
+O	78	82	Name
+O	83	84	(
+O	84	86	un
+O	86	87	)
+O	88	89	*
+O	89	90	*
+O	90	91	]
+O	91	92	.
+
+O	93	96	She
+
+O	97	104	reports
+O	105	106	a
+O	107	109	80
+O	110	112	PY
+B-Tobacco	113	120	smoking
+I-Tobacco	121	128	history
+O	129	132	but
+O	133	137	quit
+O	138	140	18
+O	141	146	years
+O	147	150	ago
+O	150	151	.
+
+O	152	158	Denies
+
+B-Alcohol	159	166	alcohol
+O	167	169	or
+B-Drug	170	175	drugs
+O	175	176	.
+
+O	177	180	She
+O	181	186	walks
+O	187	191	with
+O	192	193	a
+O	194	200	walker
+O	201	204	but
+O	205	208	has
+O	209	210	a
+O	211	218	history
+O	219	221	of
+
+O	222	230	frequent
+O	231	236	falls
+O	236	237	.
+
+O	238	249	Independent
+O	250	252	of
+O	253	257	ADLS
+O	257	258	.

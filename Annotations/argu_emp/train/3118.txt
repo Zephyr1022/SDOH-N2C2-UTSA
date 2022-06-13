@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: 1-3 cig/day   Alcohol Use: none   Drug Use: IVDU--heroin
+
+SOCIAL HISTORY: 
+Residence: lives at [LOCATION] in [LOCATION], unemployed
+Sexually active with partner of 3 months

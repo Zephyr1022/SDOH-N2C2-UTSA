@@ -1,0 +1,17 @@
+T1	Employment 24 41	a clinical fellow
+T2	StatusEmploy 24 41	a clinical fellow
+T3	Type 24 41	a clinical fellow
+T4	Tobacco 79 86	tobacco
+T5	Drug 90 98	drug use
+T6	StatusTime 72 78	Denies
+T7	Alcohol 112 116	etoh
+T8	StatusTime 101 107	Drinks
+T9	Amount 108 116	2-3 etoh
+T10	Frequency 117 123	weekly
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T6
+E3	Drug:T5 Status:T6
+E4	Alcohol:T7 Amount:T9 Status:T8 Frequency:T10
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T8 current

@@ -1,0 +1,25 @@
+T1	Tobacco 22 28	smokes
+T2	Amount 29 38	1.5 packs
+T3	Type 42 52	cigarettes
+T4	Frequency 53 60	per day
+T5	Duration 133 145	for 40 years
+T6	StatusTime 22 28	smokes
+T7	Alcohol 161 166	drink
+T8	Drug 174 179	drugs
+T9	StatusTime 152 160	does not
+T10	LivingStatus 222 238	currently living
+T11	TypeLiving 239 252	with a friend
+T12	StatusTime 222 231	currently
+T13	Employment 262 283	currently not working
+T14	StatusEmploy 272 283	not working
+T15	Type 299 317	a sales consultant
+E1	Tobacco:T1 Amount:T2 Type:T3 Frequency:T4 Duration:T5 Status:T6
+E2	Alcohol:T7 Status:T9
+E3	Drug:T8 Status:T9
+E4	LivingStatus:T10 Type:T11 Status:T12
+E5	Employment:T13 Status:T14 Type:T15
+A1	StatusTimeVal T6 current
+A2	StatusTimeVal T9 none
+A3	TypeLivingVal T11 with_others
+A4	StatusTimeVal T12 current
+A5	StatusEmployVal T14 unemployed

@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: former smoker, 20 pack-year history, quit 6 years ago   Alcohol Use: rare  Drug Use: occasionally uses medical marijuana 
+
+SOCIAL HISTORY: 
+Lives in [LOCATION] with his spouse. He has 2 daughters.

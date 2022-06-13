@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 43	with his wife and son
+T4	Employment 46 56	Occupation
+T5	StatusEmploy 58 73	retired painter
+T6	Type 58 73	retired painter
+T7	Tobacco 75 90	Smoking history
+T8	Amount 92 98	35 pck
+T9	Frequency 98 100	/y
+T10	StatusTime 92 100	35 pck/y
+T11	Alcohol 103 110	Alcohol
+T12	StatusTime 112 126	denies current
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Amount:T8 Frequency:T9 Status:T10
+E4	Alcohol:T11 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T12 past

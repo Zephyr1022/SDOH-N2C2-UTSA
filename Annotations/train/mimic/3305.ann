@@ -1,0 +1,16 @@
+T1	Employment 46 79	pursuing her doctorate in nursing
+T2	Type 59 79	doctorate in nursing
+T3	StatusEmploy 46 79	pursuing her doctorate in nursing
+T4	Employment 22 34	an ICU nurse
+T5	Type 22 34	an ICU nurse
+T6	StatusEmploy 11 18	trained
+T7	Alcohol 109 116	alcohol
+T8	Drug 120 131	other drugs
+T10	StatusTime 96 108	does not use
+E1	Employment:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	Alcohol:T7 Status:T10
+E4	Drug:T8 Status:T10
+A1	StatusEmployVal T3 student
+A2	StatusEmployVal T6 unemployed
+A3	StatusTimeVal T10 none

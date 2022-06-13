@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: 2 years [DATE] for a total of 1/2 pack year  Alcohol Use: denies   Drug Use: denies
+
+SOCIAL HISTORY: 
+[_] Unable to Obtain due to Patient Condition
+Residence: lives with boyfriend who is a [PROFESSION] mechanic

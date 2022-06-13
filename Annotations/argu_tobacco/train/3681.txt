@@ -1,0 +1,9 @@
+HABITS: 
+Alcohol Use: denies. 
+Tobacco use: 
+Cigarettes: 4 pack years, quit [DATE] , Vaping 6mg Nicotine . 
+Drug use: 
+Denies. 
+
+SOCIAL HISTORY: 
+Lives in [LOCATION] with boyfriend and son

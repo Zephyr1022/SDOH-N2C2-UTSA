@@ -1,0 +1,216 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	Pt
+B-LivingStatus	19	24	lives
+O	25	30	alone
+O	31	33	in
+O	34	36	an
+O	37	38	[
+O	38	39	*
+O	39	40	*
+O	40	49	Hospital3
+O	50	51	*
+O	51	52	*
+O	52	53	]
+O	54	56	in
+O	57	58	[
+O	58	59	*
+O	59	60	*
+O	60	68	Location
+O	69	70	(
+O	70	72	un
+O	72	73	)
+O	74	75	*
+O	75	76	*
+O	76	77	]
+O	77	78	.
+
+O	79	82	She
+O	83	91	receives
+
+O	92	96	food
+O	97	105	services
+O	106	109	but
+O	110	112	is
+O	113	122	otherwise
+O	123	134	independent
+O	134	135	.
+
+O	136	137	[
+O	137	138	*
+O	138	139	*
+O	139	143	Name
+O	144	145	(
+O	145	147	NI
+O	147	148	)
+O	149	153	1094
+O	153	154	*
+O	154	155	*
+O	155	156	]
+O	157	160	son
+O	161	166	comes
+O	167	169	to
+
+O	170	175	visit
+O	176	178	pt
+O	179	183	once
+O	184	186	or
+O	187	192	twice
+O	193	196	per
+O	197	201	week
+O	202	205	and
+O	206	211	talks
+O	212	214	to
+O	215	217	pt
+O	218	220	on
+O	221	230	telephone
+O	231	232	3
+
+O	233	238	times
+O	239	240	a
+O	241	244	day
+O	244	245	.
+
+O	246	248	Pt
+O	249	252	has
+O	253	260	friends
+O	261	263	in
+O	264	267	the
+O	268	269	[
+O	269	270	*
+O	270	271	*
+O	271	280	Hospital3
+O	281	282	*
+O	282	283	*
+O	283	284	]
+O	284	285	.
+
+O	286	287	.
+
+O	288	290	Pt
+O	291	295	grew
+O	296	298	up
+O	299	301	in
+O	302	303	[
+O	303	304	*
+O	304	305	*
+O	305	313	Location
+O	314	315	(
+O	315	317	un
+O	317	318	)
+O	319	320	*
+O	320	321	*
+O	321	322	]
+O	323	327	with
+O	328	329	5
+O	330	338	brothers
+O	339	342	and
+O	343	344	4
+O	345	352	sisters
+O	352	353	.
+
+O	354	356	Pt
+
+O	357	366	completed
+O	367	371	high
+O	372	378	school
+O	378	379	.
+
+O	380	382	Pt
+O	383	386	has
+O	387	390	one
+O	391	394	son
+O	394	395	.
+
+O	396	397	[
+O	397	398	*
+O	398	399	*
+O	399	403	Name
+O	404	405	(
+O	405	407	NI
+O	407	408	)
+O	409	413	1094
+O	413	414	*
+O	414	415	*
+O	415	416	]
+O	417	424	husband
+O	425	429	died
+O	430	432	in
+
+O	433	434	[
+O	434	435	*
+O	435	436	*
+O	436	441	Month
+O	442	443	(
+O	443	447	only
+O	447	448	)
+O	449	452	359
+O	452	453	*
+O	453	454	*
+O	454	455	]
+O	455	456	,
+O	457	462	after
+O	463	471	spending
+O	472	473	3
+O	474	479	years
+O	480	482	in
+O	483	484	a
+O	485	492	nursing
+O	493	497	home
+O	498	501	due
+O	502	504	to
+
+O	505	514	Alzheimer
+O	514	515	'
+O	515	516	s
+O	517	524	disease
+O	524	525	.
+
+O	526	528	Pt
+O	529	533	used
+O	534	536	to
+O	537	542	visit
+O	543	546	her
+O	547	554	husband
+O	555	560	there
+O	561	566	every
+
+O	567	570	day
+O	570	571	.
+
+O	572	573	.
+
+B-Tobacco	574	581	Tobacco
+O	581	582	:
+O	583	589	denies
+O	590	599	cigarette
+O	600	603	use
+O	603	604	.
+B-Tobacco	605	611	smoked
+O	612	613	a
+O	614	618	pipe
+O	619	623	once
+O	623	624	/
+O	624	628	week
+O	629	632	for
+O	633	634	[
+O	634	635	*
+O	635	636	*
+O	636	638	12
+O	638	639	-
+O	639	641	29
+O	641	642	*
+O	642	643	*
+O	643	644	]
+
+O	645	650	years
+
+B-Alcohol	651	655	EtOH
+O	655	656	:
+O	657	663	denies
+
+B-Drug	664	669	drugs
+O	669	670	:
+O	671	677	denies

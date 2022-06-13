@@ -1,0 +1,18 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	24	private
+O	25	29	home
+
+B-Employment	30	38	employed
+O	39	41	by
+O	42	44	UW
+O	45	52	Medical
+O	53	59	Center
+
+O	60	61	+
+B-Tobacco	61	64	tob
+
+O	65	67	no
+B-Drug	68	76	illicits

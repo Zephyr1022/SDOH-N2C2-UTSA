@@ -1,0 +1,24 @@
+T1	Drug 154 184	marijuana and methamphetamines
+T2	Type 154 184	marijuana and methamphetamines
+T3	Method 147 153	smokes
+T4	StatusTime 147 153	smokes
+T6	Tobacco 212 223	tobacco use
+T7	StatusTime 198 211	Denies active
+T8	Alcohol 228 239	alcohol use
+T9	StatusTime 225 249	no alcohol use currently
+T10	Drug 259 270	cocaine use
+T11	Type 259 266	cocaine
+T12	StatusTime 252 258	Denies
+T13	Drug 276 289	IV drug abuse
+T14	Type 276 278	IV
+T15	StatusTime 273 275	No
+E1	Drug:T1 Type:T2 Method:T3 Status:T4
+E2	Tobacco:T6 Status:T7
+E3	Alcohol:T8 Status:T9
+E4	Drug:T10 Type:T11 Status:T12
+E5	Drug:T13 Status:T15 Type:T14
+A1	StatusTimeVal T4 current
+A3	StatusTimeVal T7 past
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T12 none
+A6	StatusTimeVal T15 none

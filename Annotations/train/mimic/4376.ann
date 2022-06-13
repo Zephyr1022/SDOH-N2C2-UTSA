@@ -1,0 +1,23 @@
+T3	LivingStatus 87 92	Lives
+T4	StatusTime 87 92	Lives
+T5	TypeLiving 116 131	with her mother
+T6	Tobacco 9 20	Tobacco Use
+T7	StatusTime 22 28	Denies
+T8	Alcohol 30 41	Alcohol Use
+T9	StatusTime 43 49	Denies
+T10	Drug 52 60	Drug Use
+T11	StatusTime 62 68	Denies
+T12	Employment 198 203	works
+T13	StatusEmploy 198 203	works
+T14	Type 207 217	[LOCATION]
+E2	LivingStatus:T3 Type:T5 Status:T4
+E3	Tobacco:T6 Status:T7
+E4	Alcohol:T8 Status:T9
+E5	Drug:T10 Status:T11
+E6	Employment:T12 Type:T14 Status:T13
+A1	StatusTimeVal T4 current
+A2	TypeLivingVal T5 with_family
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T11 none
+A6	StatusEmployVal T13 employed

@@ -1,0 +1,10 @@
+HABITS: 
+Tobacco Use:1/4 x 3 years   
+Alcohol Use: denies   
+Drug Use: denies
+
+SOCIAL HISTORY: 
+per palliative care note dated [DATE]
+'Psychosocial Hx: 
+[NAME] grew up in [LOCATION] with two sisters and three brothers. 
+She went to [LOCATION] college for one year - she quit school after she got married. She has one daughter [NAME]. In 1992, after she divorced her husband, she moved to [LOCATION], [LOCATION] with her daughter because she hoped that she would be able to better provide for her here. She worked as a machinist for [PROFESSION] and then for the [LOCATION]. She stopped working when her health worsened in 2013. [DATE]

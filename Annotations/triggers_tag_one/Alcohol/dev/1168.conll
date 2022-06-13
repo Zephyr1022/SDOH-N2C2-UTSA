@@ -1,0 +1,88 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	24	in
+O	25	30	group
+O	31	35	home
+O	35	36	,
+O	37	40	has
+O	41	49	guardian
+O	50	53	who
+O	54	56	is
+O	57	61	case
+O	62	69	manager
+O	70	72	at
+O	73	78	group
+
+O	79	83	home
+O	83	84	.
+
+O	85	88	Has
+O	89	90	4
+O	91	99	siblings
+O	99	100	,
+O	101	104	and
+O	105	107	is
+O	108	115	closest
+O	116	118	to
+O	119	122	her
+O	123	124	2
+O	125	132	sisters
+O	132	133	,
+O	134	137	who
+O	138	142	live
+
+O	143	145	in
+O	146	147	[
+O	147	148	*
+O	148	149	*
+O	149	157	Location
+O	158	159	(
+O	159	161	un
+O	161	162	)
+O	163	167	8973
+O	167	168	*
+O	168	169	*
+O	169	170	]
+O	170	171	.
+
+O	172	174	At
+O	175	183	baseline
+O	184	191	patient
+O	192	194	is
+O	195	200	blind
+O	200	201	,
+O	202	206	hard
+O	207	209	of
+O	210	217	hearing
+O	217	218	,
+
+O	219	222	and
+O	223	229	unable
+O	230	232	to
+O	233	237	take
+O	238	242	care
+O	243	245	of
+O	246	250	ADLs
+O	250	251	.
+
+O	252	262	Reportedly
+O	263	266	can
+O	267	269	be
+O	270	280	transfered
+O	281	283	to
+
+O	284	294	wheelchair
+O	294	295	.
+
+O	297	303	Denies
+O	304	311	tobacco
+O	311	312	,
+B-Alcohol	313	320	alcohol
+O	320	321	,
+O	322	324	or
+O	325	329	drug
+O	330	333	use
+O	333	334	.

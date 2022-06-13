@@ -1,0 +1,85 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	20	Per
+O	21	24	PES
+O	25	29	note
+O	30	31	[
+O	31	35	DATE
+O	35	36	]
+
+B-LivingStatus	37	45	Homeless
+O	46	48	in
+O	49	50	[
+O	50	58	LOCATION
+O	58	59	]
+O	59	60	,
+O	61	64	has
+B-LivingStatus	65	70	lived
+O	71	75	with
+O	76	83	parents
+O	84	86	or
+O	87	94	sibling
+O	95	97	in
+O	98	101	the
+O	102	106	past
+O	106	107	,
+O	108	111	has
+O	112	115	two
+O	116	121	adult
+O	122	130	children
+
+O	132	134	HS
+O	135	142	dropout
+O	142	143	,
+O	144	150	earned
+O	151	154	GED
+
+O	156	159	Has
+B-Employment	160	166	worked
+O	167	169	in
+O	170	176	office
+O	176	177	/
+O	177	187	accounting
+O	187	188	,
+O	189	198	currently
+O	199	209	unemployed
+O	209	210	.
+
+O	212	218	Recent
+O	219	225	arrest
+O	226	229	for
+O	230	237	assault
+O	237	238	;
+O	239	241	Hx
+O	242	244	of
+O	245	252	assault
+O	252	253	,
+O	254	265	trespassing
+O	266	273	charges
+O	273	274	.
+
+B-Tobacco	276	279	TOB
+O	279	280	:
+O	281	282	"
+O	282	288	trying
+O	289	291	to
+O	292	296	quit
+O	296	297	,
+O	298	299	3
+O	300	303	cig
+O	303	304	/
+O	304	307	day
+O	307	308	"
+
+B-Alcohol	309	313	EtOH
+O	313	314	:
+O	315	325	occasional
+
+O	326	331	Other
+O	331	332	:
+B-Drug	333	335	MJ
+O	335	336	,
+O	337	343	denies
+B-Drug	344	348	IVDU

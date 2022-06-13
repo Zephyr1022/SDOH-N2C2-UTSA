@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: denies; Alcohol Use: denies; Drug Use: denies
+
+SOCIAL HISTORY: 
+Mother is his full time caregiver and sometimes his siblings help take care of him. She works part-time. He has one younger brother and sister. They live in [LOCATION] in a house through a housing program. They assist with all ADLs such as bathing and feeding.

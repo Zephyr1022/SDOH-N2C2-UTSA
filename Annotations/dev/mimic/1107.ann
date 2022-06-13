@@ -1,0 +1,18 @@
+T1	Amount 54 60	1 pack
+T2	Frequency 61 68	per day
+T3	Tobacco 69 80	tobacco use
+T4	StatusTime 54 68	1 pack per day
+T5	StatusTime 98 110	acknowledges
+T6	Alcohol 111 124	alcohol abuse
+T7	Amount 126 143	[**7-15**] drinks
+T9	Drug 237 248	cocaine use
+T10	Type 237 244	cocaine
+T11	History 277 288	2 years ago
+T12	StatusTime 263 272	last time
+T13	Duration 81 93	since age 15
+E1	Tobacco:T3 Status:T4 Amount:T1 Frequency:T2 Duration:T13
+E2	Alcohol:T6 Status:T5 Amount:T7
+E3	Drug:T9 Type:T10 Status:T12 History:T11
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T5 current
+A4	StatusTimeVal T12 past

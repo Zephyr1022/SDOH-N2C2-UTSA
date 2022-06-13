@@ -1,0 +1,20 @@
+T1	LivingStatus 17 33	Currently living
+T2	StatusTime 17 26	Currently
+T3	TypeLiving 34 57	at Cascade Living Group
+T4	Tobacco 58 65	Tobacco
+T5	Amount 67 75	1/2 pack
+T6	Frequency 76 83	per day
+T7	StatusTime 67 83	1/2 pack per day
+T8	Alcohol 84 88	EtOH
+T9	Drug 97 102	Drugs
+T10	StatusTime 104 110	Denies
+T11	StatusTime 90 96	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T5 Frequency:T6 Status:T7
+E3	Alcohol:T8 Status:T11
+E4	Drug:T9 Status:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T11 none

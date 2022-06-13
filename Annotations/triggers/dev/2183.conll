@@ -1,0 +1,59 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	smokes
+O	29	30	4
+O	30	31	-
+O	31	32	5
+O	33	37	cigs
+O	37	38	/
+O	38	41	day
+O	42	44	on
+O	45	48	and
+O	49	52	off
+O	53	58	since
+O	59	63	19yo
+
+B-Alcohol	66	73	Alcohol
+I-Alcohol	74	77	Use
+O	77	78	:
+O	79	80	5
+O	81	87	drinks
+O	87	88	/
+O	88	91	day
+O	92	94	on
+O	95	103	holidays
+O	103	104	.
+
+B-Drug	109	113	Drug
+I-Drug	114	117	Use
+O	117	118	:
+O	119	128	Marijuana
+O	129	134	daily
+O	134	135	.
+
+O	137	144	History
+B-Drug	145	148	IDU
+O	149	150	w
+O	150	151	/
+O	152	158	heroin
+O	158	159	.
+
+O	160	166	SOCIAL
+O	167	174	HISTORY
+O	174	175	:
+
+B-LivingStatus	177	186	Currently
+I-LivingStatus	187	194	staying
+O	195	197	at
+O	198	203	Bread
+O	204	206	of
+O	207	211	Life
+O	212	219	shelter
+
+O	220	228	Shipyard
+O	229	241	sandblasting
+O	241	242	.

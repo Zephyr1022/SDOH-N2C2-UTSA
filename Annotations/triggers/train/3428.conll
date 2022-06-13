@@ -1,0 +1,26 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	25	Homeless
+O	25	26	.
+
+O	27	30	Has
+O	31	32	a
+O	33	40	fiancee
+O	40	41	.
+
+O	43	49	Denies
+O	50	57	current
+B-Drug	58	62	drug
+O	62	63	/
+B-Alcohol	63	70	alcohol
+I-Alcohol	71	74	use
+
+O	75	87	Participates
+O	88	90	in
+O	91	94	DBT
+O	95	97	at
+O	98	108	Snoqualmie
+O	109	115	Valley
+O	116	124	Hospital

@@ -1,0 +1,34 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	27	alone
+O	28	30	in
+O	31	37	senior
+O	38	45	housing
+O	45	46	,
+O	47	54	remains
+O	55	61	active
+O	61	62	.
+
+O	63	69	Denies
+O	70	77	tobacco
+O	78	80	or
+
+B-Alcohol	81	88	alcohol
+I-Alcohol	89	92	use
+O	92	93	;
+O	94	96	no
+O	97	109	recreational
+O	110	119	substance
+O	120	123	use
+O	123	124	.
+
+O	125	130	Using
+O	131	132	a
+O	133	139	walker
+O	140	145	since
+
+O	146	153	surgery
+O	153	154	.

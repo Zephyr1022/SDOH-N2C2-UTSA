@@ -1,0 +1,20 @@
+T1	Alcohol 22 33	alcohol use
+T2	StatusTime 7 21	Denies current
+T3	Tobacco 43 64	heavy smoking history
+T5	Duration 65 79	for many years
+T6	StatusTime 35 42	reports
+T7	StatusTime 81 87	denies
+T8	Drug 88 109	illicit substance use
+T9	Type 88 95	illicit
+T10	LivingStatus 112 129	Currently staying
+T11	StatusTime 112 129	Currently staying
+T12	TypeLiving 130 139	at motels
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T3 Status:T6 Duration:T5
+E3	Drug:T8 Type:T9 Status:T7
+E4	LivingStatus:T10 Status:T11 Type:T12
+A1	StatusTimeVal T2 past
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T11 current
+A6	TypeLivingVal T12 homeless

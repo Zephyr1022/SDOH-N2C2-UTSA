@@ -1,0 +1,21 @@
+T4	Tobacco 31 37	smoker
+T5	Amount 26 30	1ppd
+T6	StatusTime 26 30	1ppd
+T7	Alcohol 46 50	ETOH
+T8	StatusTime 39 45	denies
+T9	Drug 58 64	heroin
+T10	Type 58 64	heroin
+T11	Method 55 57	IV
+T12	StatusTime 66 81	now on suboxone
+T13	Drug 87 91	meth
+T14	Type 87 91	meth
+T15	StatusTime 93 98	clean
+T16	History 99 106	x weeks
+E2	Tobacco:T4 Status:T6 Amount:T5
+E3	Alcohol:T7 Status:T8
+E4	Drug:T9 Type:T10 Method:T11 Status:T12
+E5	Drug:T13 Type:T14 Status:T15 History:T16
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T12 past
+A6	StatusTimeVal T15 past

@@ -1,0 +1,10 @@
+HABITS: 
+Per liver transplant clinic note from [DATE]: 
+Tobacco Use:5 cigarettes/day
+Alcohol Use: 1 glass wine on [DATE] since dx w. Hemochromotosis (~ 7 yrs?
+), previously drank 2-3 mixed drinks in bars with friends 4 days/week, DUI in 90s, wife does not drink 
+Drug Use: Tried MJ in past, very rare use. Denies other drugs. 
+
+SOCIAL HISTORY: 
+[x] Unable to Obtain due to Patient Condition
+Residence: SNF in [LOCATION]

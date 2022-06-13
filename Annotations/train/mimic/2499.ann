@@ -1,0 +1,5 @@
+T1	Employment 8 22	school teacher
+T2	Type 8 22	school teacher
+T3	StatusEmploy 8 22	school teacher
+E1	Employment:T1 Status:T3 Type:T2
+A1	StatusEmployVal T3 employed

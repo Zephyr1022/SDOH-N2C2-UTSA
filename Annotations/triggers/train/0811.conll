@@ -1,0 +1,26 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	26	Supportive
+O	27	35	daughter
+O	36	37	(
+O	37	43	health
+O	44	48	care
+O	49	54	proxy
+O	54	55	)
+O	55	56	,
+O	57	60	son
+O	60	61	-
+O	61	63	in
+O	63	64	-
+O	64	67	law
+O	67	68	.
+
+O	70	72	Pt
+O	73	75	is
+
+B-Tobacco	76	82	former
+I-Tobacco	83	88	heavy
+I-Tobacco	89	95	smoker
+O	95	96	.

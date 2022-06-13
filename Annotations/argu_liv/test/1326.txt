@@ -1,0 +1,5 @@
+HABITS: 
+Denies tobacco, alcohol or other recreational drug use. 
+
+SOCIAL HISTORY: 
+Originally from [LOCATION] but has lived in [LOCATION] for years. Lives in [LOCATION] with his wife [NAME] and son [NAME].

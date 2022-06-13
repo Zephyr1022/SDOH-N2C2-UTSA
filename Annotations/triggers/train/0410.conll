@@ -1,0 +1,26 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+B-LivingStatus	29	34	lives
+O	35	39	with
+O	40	43	her
+O	44	51	husband
+O	51	52	.
+
+O	54	57	She
+O	58	61	has
+
+O	62	63	a
+O	64	70	remote
+O	71	78	history
+O	79	81	of
+O	82	86	both
+B-Tobacco	87	94	tobacco
+O	95	98	and
+B-Alcohol	99	106	ethanol
+I-Alcohol	107	110	use
+
+O	111	125	unquantitative
+O	125	126	.

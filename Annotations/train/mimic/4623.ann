@@ -1,0 +1,25 @@
+T1	Tobacco 268 272	1ppd
+T2	StatusTime 231 238	current
+T3	Amount 249 256	0.5 PPD
+T4	Amount 267 272	>1ppd
+T5	StatusTime 258 266	formerly
+T6	Duration 274 285	x 30-40 yrs
+T7	Alcohol 302 310	EtOH use
+T8	StatusTime 287 301	denies current
+T9	Drug 327 343	illegal drug use
+T10	Type 327 334	illegal
+T11	StatusTime 312 326	-denies recent
+T12	Drug 357 371;372 390	marajuana use, acid, and mezcline
+T13	Type 357 371;372 390	marajuana use, acid, and mezcline
+T14	StatusTime 353 356	h/o
+E2	Tobacco:T1 Amount:T4 Status:T5 Duration:T6
+E3	Alcohol:T7 Status:T8
+E4	Drug:T9 Type:T10 Status:T11
+E5	Drug:T12 Type:T13 Status:T14
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T11 none
+A5	StatusTimeVal T14 current
+T15	Tobacco 239 246	tob use
+E6	Tobacco:T15 Status:T2 Amount:T3

@@ -1,0 +1,45 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	24	Disabled
+O	24	25	.
+
+B-LivingStatus	26	31	Lives
+O	32	33	w
+O	33	34	/
+O	35	42	husband
+O	43	45	at
+O	46	50	home
+O	50	51	.
+
+O	52	56	Best
+O	57	63	friend
+O	64	65	[
+O	65	66	*
+O	66	67	*
+O	67	73	Doctor
+O	74	79	First
+O	80	84	Name
+O	85	86	*
+O	86	87	*
+O	87	88	]
+O	89	95	visits
+
+O	96	99	her
+O	100	109	regularly
+O	109	110	.
+
+B-Alcohol	111	115	EtOH
+O	115	116	:
+O	117	123	Denies
+
+B-Tobacco	124	131	Tobacco
+O	131	132	:
+O	133	137	1ppd
+O	138	141	x20
+O	142	147	years
+
+B-Drug	148	156	Illicits
+O	156	157	:
+O	158	164	Denies

@@ -1,0 +1,24 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-Alcohol	17	21	EtOH
+O	21	22	:
+O	23	24	1
+O	25	29	shot
+O	30	32	of
+O	33	39	liquor
+O	39	40	/
+O	40	44	week
+
+B-Tobacco	45	52	Tobacco
+O	52	53	:
+O	54	60	Denies
+
+B-Drug	61	66	Other
+I-Drug	67	72	drugs
+O	72	73	:
+O	74	82	marijuan
+O	83	87	once
+O	87	88	/
+O	88	92	week

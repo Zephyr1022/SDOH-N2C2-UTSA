@@ -1,0 +1,15 @@
+T1	Alcohol 50 54	etOH
+T2	Tobacco 55 62	tobacco
+T3	Drug 63 68	drugs
+T4	StatusTime 43 49	denies
+T5	Alcohol 116 124	drinking
+T6	Amount 125 144	two bottles of wine
+T7	Type 140 144	wine
+T8	Frequency 145 150	daily
+T9	StatusTime 151 156	prior
+E1	Alcohol:T1 Status:T4
+E2	Tobacco:T2 Status:T4
+E3	Drug:T3 Status:T4
+E4	Alcohol:T5 Amount:T6 Type:T7 Frequency:T8 Status:T9
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T9 past

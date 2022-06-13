@@ -1,0 +1,12 @@
+T1	Tobacco 9 20	Tobacco Use
+T6	Alcohol 41 52	Alcohol Use
+T8	Drug 61 69	Drug Use
+T13	Drug 92 96	IVDU
+T16	LivingStatus 116 125	Residence
+T19	Employment 155 159	work
+T21	Employment 161 195	Goes to [LOCATION] vocational tech
+T23	Tobacco 228 239	Tobacco Use
+T28	Alcohol 260 271	Alcohol Use
+T30	Drug 280 288	Drug Use
+T36	LivingStatus 335 340	Lives
+T39	Employment 372 399	attending [LOCATION] school

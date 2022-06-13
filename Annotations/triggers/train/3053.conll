@@ -1,0 +1,47 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	24	No
+B-Alcohol	26	33	Alcohol
+I-Alcohol	34	37	Use
+O	37	38	:
+O	39	40	1
+O	40	41	.
+O	41	42	5
+O	43	50	bottles
+O	51	53	of
+O	54	61	whiskey
+O	62	67	daily
+B-Drug	69	73	Drug
+I-Drug	74	77	Use
+O	77	78	:
+O	79	89	Occasional
+O	90	99	Marijuana
+
+O	101	107	SOCIAL
+O	108	115	HISTORY
+O	115	116	:
+
+O	118	119	[
+O	119	120	_
+O	120	121	]
+O	122	128	Unable
+O	129	131	to
+O	132	138	Obtain
+O	139	142	due
+O	143	145	to
+O	146	153	Patient
+O	154	163	Condition
+
+B-LivingStatus	164	173	Residence
+O	173	174	:
+O	174	179	Lives
+O	180	182	in
+O	183	188	woods
+O	189	191	in
+O	192	193	[
+O	193	201	LOCATION
+O	201	202	]

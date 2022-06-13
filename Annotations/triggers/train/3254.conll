@@ -1,0 +1,20 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	Lives
+O	23	25	at
+O	26	36	Washington
+O	37	41	Care
+O	42	50	Services
+O	50	51	.
+
+O	53	60	History
+O	61	63	of
+B-Tobacco	64	71	tobacco
+O	71	72	.
+
+O	74	81	History
+O	82	84	of
+B-Alcohol	85	92	alcohol
+I-Alcohol	93	98	abuse

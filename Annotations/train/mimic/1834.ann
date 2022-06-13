@@ -1,0 +1,39 @@
+T1	Alcohol 19 25	drinks
+T2	Amount 26 45	at least one bottle
+T3	Type 49 53	wine
+T4	Frequency 54 59	a day
+T5	StatusTime 19 25	drinks
+T6	Alcohol 81 87	drinks
+T7	StatusTime 65 80	on the weekends
+T8	Amount 88 92	more
+T9	Type 93 114	hard liquor (whiskey)
+T10	Drug 127 138	cocaine use
+T11	Type 127 134	cocaine
+T13	History 141 145;146 181	most recently on the day of his accident
+T14	Drug 277 284	cocaine
+T15	History 285 295	for "years
+T16	StatusTime 261 272	hadn't used
+T17	Tobacco 310 321	tobacco use
+T18	StatusTime 303 309	denies
+T19	LivingStatus 357 362	lives
+T20	TypeLiving 327 337	girlfriend
+T21	StatusTime 357 362	lives
+T22	Employment 380 385	works
+T23	Type 389 423	a [**Doctor Last Name **] musician
+T24	StatusEmploy 380 385	works
+T25	StatusTime 116 126	occasional
+E1	Alcohol:T1 Amount:T2 Type:T3 Frequency:T4 Status:T5
+E2	Alcohol:T6 Status:T7 Amount:T8 Type:T9
+E3	Drug:T10 Type:T11 History:T13 Status:T25
+E4	Drug:T14 History:T15 Status:T16
+E5	Tobacco:T17 Status:T18
+E6	LivingStatus:T19 Type:T20 Status:T21
+E7	Employment:T22 Type:T23 Status:T24
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T7 current
+A4	StatusTimeVal T16 past
+A5	StatusTimeVal T18 none
+A6	TypeLivingVal T20 with_others
+A7	StatusTimeVal T21 current
+A8	StatusEmployVal T24 employed
+A9	StatusTimeVal T25 current

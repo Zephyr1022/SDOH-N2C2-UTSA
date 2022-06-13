@@ -1,0 +1,222 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	The
+O	20	27	patient
+O	28	31	was
+O	32	36	born
+O	37	39	in
+O	40	41	[
+O	41	42	*
+O	42	43	*
+O	43	52	Hospital1
+O	53	56	392
+O	56	57	*
+O	57	58	*
+O	58	59	]
+O	59	60	,
+O	61	63	MA
+O	64	67	and
+O	68	72	grew
+O	73	75	up
+O	76	80	with
+O	81	84	his
+O	85	91	mother
+O	91	92	,
+
+O	93	99	father
+O	100	103	and
+O	104	105	7
+O	106	114	brothers
+O	115	118	and
+O	119	126	sisters
+O	126	127	.
+
+O	128	129	[
+O	129	130	*
+O	130	131	*
+O	131	135	Name
+O	136	137	(
+O	137	139	NI
+O	139	140	)
+O	141	142	*
+O	142	143	*
+O	143	144	]
+O	145	154	graduated
+O	155	159	high
+O	160	166	school
+O	167	170	and
+
+O	171	175	went
+O	176	178	to
+O	179	186	college
+O	187	189	at
+O	190	191	[
+O	191	192	*
+O	192	193	*
+O	193	201	Location
+O	202	203	(
+O	203	205	un
+O	205	206	)
+O	207	209	86
+O	209	210	*
+O	210	211	*
+O	211	212	]
+O	213	218	State
+O	219	224	where
+O	225	227	he
+O	228	235	studied
+O	236	243	English
+O	243	244	.
+
+O	245	248	The
+
+O	249	256	patient
+O	257	260	now
+B-Employment	261	266	works
+O	267	269	as
+O	270	271	a
+O	272	278	social
+O	279	283	work
+O	284	294	supervisor
+O	295	298	and
+B-LivingStatus	299	304	lives
+O	305	307	in
+O	308	310	an
+
+O	311	320	apartment
+O	321	323	in
+O	324	325	[
+O	325	326	*
+O	326	327	*
+O	327	335	Location
+O	336	337	(
+O	337	339	un
+O	339	340	)
+O	341	343	86
+O	343	344	*
+O	344	345	*
+O	345	346	]
+O	347	351	with
+O	352	355	his
+O	356	363	partner
+O	364	366	of
+O	367	372	10yrs
+O	372	373	.
+
+O	374	375	[
+O	375	376	*
+O	376	377	*
+O	377	382	Name2
+O	383	384	(
+O	384	386	NI
+O	386	387	)
+O	388	389	*
+O	389	390	*
+O	390	391	]
+O	392	399	reports
+O	400	404	that
+
+O	405	407	he
+O	408	410	is
+O	411	414	not
+O	415	420	close
+O	421	423	to
+O	424	427	any
+O	428	430	of
+O	431	434	his
+O	435	443	siblings
+O	444	447	and
+O	448	451	his
+O	452	458	father
+O	459	463	died
+O	464	468	long
+
+O	469	472	ago
+O	472	473	.
+
+O	474	479	About
+O	480	485	10yrs
+O	486	489	ago
+O	490	493	the
+O	494	501	patient
+O	502	505	was
+O	506	514	arrested
+O	515	518	for
+O	519	520	a
+O	521	524	DUI
+O	524	525	,
+O	526	529	but
+
+O	530	539	otherwise
+
+O	540	546	denies
+O	547	552	legal
+O	553	560	trouble
+O	560	561	.
+
+O	563	572	Substance
+O	573	578	Abuse
+O	579	586	History
+O	586	587	:
+
+O	588	595	Patient
+O	596	599	has
+O	600	605	along
+O	606	613	history
+O	614	616	of
+B-Alcohol	617	624	alcohol
+I-Alcohol	625	635	dependence
+O	636	639	and
+O	640	643	has
+O	644	648	been
+O	649	651	in
+
+O	652	657	detox
+O	658	666	multiple
+
+O	667	672	times
+O	672	673	.
+
+O	674	680	States
+O	681	683	he
+O	684	688	quit
+B-Alcohol	689	693	ETOH
+O	694	695	4
+O	696	702	months
+O	703	706	ago
+O	706	707	.
+
+O	708	710	He
+O	711	717	denies
+O	718	721	any
+O	722	723	h
+O	723	724	/
+O	724	725	o
+
+O	726	736	withdrawal
+O	737	745	seizures
+O	746	748	or
+O	749	752	DTs
+O	752	753	.
+
+O	754	758	Does
+O	759	762	not
+B-Tobacco	763	768	smoke
+O	769	779	cigarettes
+O	780	782	or
+O	783	786	use
+
+B-Drug	787	794	illicit
+I-Drug	795	800	drugs
+O	801	810	currently
+O	810	811	,
+O	812	815	but
+O	816	819	has
+O	820	825	tried
+B-Drug	826	833	cocaine
+O	834	836	in
+O	837	840	the
+O	841	845	past
+O	845	846	.

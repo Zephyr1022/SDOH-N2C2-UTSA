@@ -1,0 +1,58 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	SOCIAL
+O	23	30	HISTORY
+
+O	31	32	-
+B-LivingStatus	32	37	Lives
+O	38	39	w
+O	39	40	/
+O	41	45	wifw
+O	45	46	,
+O	47	50	has
+O	51	52	3
+O	53	61	children
+
+O	62	63	-
+B-Tobacco	63	70	Tobacco
+I-Tobacco	71	78	history
+O	78	79	:
+O	80	86	Former
+O	87	93	smoker
+O	93	94	,
+O	95	99	2ppd
+O	100	103	for
+O	104	108	many
+O	109	114	years
+
+O	115	116	-
+B-Alcohol	116	120	ETOH
+O	120	121	:
+O	122	132	Infrequent
+O	133	136	now
+O	137	141	that
+O	142	144	in
+O	145	146	[
+O	146	147	*
+O	147	148	*
+O	148	157	Hospital1
+O	158	162	1501
+O	162	163	*
+O	163	164	*
+O	164	165	]
+
+O	166	167	-
+B-Drug	167	174	Illicit
+I-Drug	175	180	drugs
+O	180	181	:
+O	182	186	None
+
+O	187	188	-
+O	188	192	uses
+O	193	203	wheelchair
+O	204	207	for
+O	208	218	ambulation
+
+O	219	220	.

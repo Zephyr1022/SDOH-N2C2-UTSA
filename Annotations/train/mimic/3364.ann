@@ -1,0 +1,15 @@
+T1	LivingStatus 25 32	homelss
+T2	Drug 46 50	IVDU
+T3	Employment 38 45	working
+T4	StatusEmploy 34 45	not working
+T5	TypeLiving 25 32	homelss
+T6	Method 46 50	IVDU
+T7	StatusTime 46 50	IVDU
+T8	StatusTime 25 32	homelss
+E1	LivingStatus:T1 Type:T5 Status:T8
+E2	Drug:T2 Status:T7 Method:T6
+E3	Employment:T3 Status:T4
+A1	StatusEmployVal T4 unemployed
+A2	TypeLivingVal T5 homeless
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T8 current

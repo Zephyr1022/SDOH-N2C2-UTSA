@@ -1,0 +1,5 @@
+HABITS:
+Unable to obtain secondary to patient status
+SOCIAL HISTORY: 
+[x] Unable to Obtain due to Patient Condition
+Residence: Unable to obtain secondary to patient status

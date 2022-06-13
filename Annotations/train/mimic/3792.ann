@@ -1,0 +1,37 @@
+T1	LivingStatus 12 28	Currently living
+T2	StatusTime 12 28	Currently living
+T3	TypeLiving 29 40	with family
+T4	Drug 42 46	Drug
+T5	StatusTime 47 59	of choice is
+T6	Method 80 82	IV
+T7	Type 83 89	heroin
+T8	Drug 141 150	methadone
+T9	Frequency 151 155	qday
+T10	Amount 130 137	20-30mg
+T11	StatusTime 117 126	Currently
+T12	Type 141 150	methadone
+T13	Tobacco 192 197	smoke
+T14	Amount 198 202	2ppd
+T15	StatusTime 184 191	Used to
+T16	Tobacco 208 225	currently smoking
+T17	StatusTime 208 225	currently smoking
+T18	Amount 226 235	5-10 cigs
+T19	Type 231 235	cigs
+T20	Frequency 236 243	per day
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Drug:T4 Status:T5 Type2:T21
+E3	Drug:T8 Type:T12 Frequency:T9 Amount:T10 Status:T11
+E4	Tobacco:T13 Status:T15 Amount:T14
+E5	Tobacco:T16 Status:T17 Amount:T18 Type:T19 Frequency:T20
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T11 current
+A5	StatusTimeVal T15 past
+A6	StatusTimeVal T17 current
+T21	Type 60 67	opiates
+T22	History 101 115	two months ago
+T23	Drug 80 89	IV heroin
+E6	Drug:T23 Type:T7 Method:T6 History:T22 Status:T24
+T24	StatusTime 70 79	h/o using
+A7	StatusTimeVal T24 past

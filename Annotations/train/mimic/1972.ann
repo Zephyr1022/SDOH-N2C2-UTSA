@@ -1,0 +1,33 @@
+T1	LivingStatus 20 25	Lives
+T2	StatusTime 20 25	Lives
+T3	TypeLiving 26 31	alone
+T4	Employment 141 144	job
+T5	StatusEmploy 136 144	Lost job
+T6	Type 148 175	magician at local joke shop
+T7	History 176 194	on [**2112-1-22**]
+T8	Alcohol 232 236	EtOH
+T9	Amount 238 254	1 pint vodka/gin
+T10	Type 245 254	vodka/gin
+T11	Frequency 255 262	per day
+T12	Tobacco 265 272	tobacco
+T13	Amount 274 278	1 pk
+T14	Frequency 279 286	per day
+T15	Duration 287 297	x 30 years
+T16	StatusTime 274 286	1 pk per day
+T17	StatusTime 238 262	1 pint vodka/gin per day
+T18	Drug 303 313	heroin use
+T19	Method 300 302	IV
+T20	Type 303 309	heroin
+T21	StatusTime 315 319	quit
+T22	History 320 333	14 months ago
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Status:T5 Type:T6 History:T7
+E3	Alcohol:T8 Status:T17 Amount:T9 Type:T10 Frequency:T11
+E4	Tobacco:T12 Amount:T13 Status:T16 Frequency:T14 Duration:T15
+E5	Drug:T18 Type:T20 Method:T19 Status:T21 History:T22
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T16 current
+A5	StatusTimeVal T17 current
+A6	StatusTimeVal T21 past

@@ -1,0 +1,185 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Patient
+O	24	26	is
+O	27	28	a
+O	29	35	single
+O	35	36	,
+O	37	47	unemployed
+O	48	54	female
+O	54	55	.
+
+O	56	63	Patient
+O	64	67	has
+O	68	72	been
+O	73	80	treated
+
+O	81	84	for
+O	85	86	3
+O	87	93	heroin
+O	94	103	overdoses
+O	104	106	in
+O	107	110	the
+O	111	115	past
+O	116	122	3weeks
+O	122	123	.
+
+O	125	128	She
+O	129	135	states
+O	136	140	that
+O	141	144	she
+
+O	145	148	was
+O	149	156	treated
+O	157	160	for
+O	161	165	drug
+O	166	175	addiction
+O	176	178	at
+O	179	180	[
+O	180	181	*
+O	181	182	*
+O	182	191	Hospital3
+O	192	193	*
+O	193	194	*
+O	194	195	]
+O	196	200	with
+
+O	201	210	methadone
+O	210	211	,
+O	212	215	but
+O	216	219	has
+O	220	223	not
+O	224	228	been
+O	229	233	able
+O	234	236	to
+O	237	243	afford
+
+O	244	253	methadone
+O	254	260	clinic
+O	261	264	for
+O	265	268	the
+O	269	273	past
+O	274	277	two
+O	279	285	months
+O	285	286	.
+
+O	287	290	She
+O	291	296	takes
+O	297	301	part
+O	302	304	in
+O	305	306	a
+
+O	307	313	needle
+O	313	314	-
+O	314	322	exchange
+O	323	330	program
+O	331	334	and
+O	335	339	only
+O	340	344	uses
+O	345	350	clean
+O	351	358	needles
+O	359	366	without
+
+O	367	374	sharing
+O	374	375	.
+
+O	377	380	She
+O	381	385	also
+O	386	390	uses
+O	391	397	boiled
+O	398	403	water
+O	404	407	and
+O	408	412	will
+O	413	417	lick
+O	418	421	the
+O	422	428	needle
+
+O	429	433	only
+O	434	439	after
+O	440	449	injection
+O	449	450	.
+O	450	453	She
+O	454	460	smokes
+O	461	466	crack
+O	467	474	cocaine
+O	475	478	but
+O	479	485	denies
+
+O	486	496	intranasal
+O	497	504	cocaine
+O	505	507	or
+O	508	517	injection
+O	517	518	.
+
+O	519	522	She
+O	523	526	was
+O	527	535	recently
+O	536	548	incarcerated
+
+O	549	552	for
+O	553	555	60
+O	556	560	days
+O	561	564	and
+O	565	573	released
+O	574	576	in
+O	577	578	[
+O	578	579	*
+O	579	580	*
+O	580	581	7
+O	581	582	-
+O	582	584	31
+O	584	585	*
+O	585	586	*
+O	586	587	]
+O	587	588	.
+
+O	589	592	She
+O	593	599	smokes
+O	600	601	1
+O	602	606	pack
+O	606	607	/
+O	607	610	day
+O	611	614	and
+O	615	618	was
+
+B-Alcohol	619	620	a
+I-Alcohol	621	627	former
+I-Alcohol	628	637	alcoholic
+O	638	639	(
+O	639	643	quit
+O	644	645	5
+O	646	651	years
+O	652	655	ago
+O	655	656	)
+O	656	657	.
+
+O	658	661	She
+O	662	665	has
+O	666	669	one
+O	670	673	son
+O	673	674	,
+O	675	678	age
+O	679	681	19
+O	681	682	.
+
+O	683	690	Reports
+O	691	695	that
+O	696	703	another
+O	704	709	child
+O	710	712	is
+O	713	721	deceased
+O	721	722	.
+
+O	723	726	She
+O	727	736	currently
+O	737	742	stays
+O	743	745	at
+O	746	747	a
+
+O	748	752	half
+O	752	753	-
+O	753	756	way
+O	757	762	house
+O	762	763	.

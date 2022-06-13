@@ -1,0 +1,85 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Adopted
+O	24	28	from
+O	29	34	south
+O	35	36	[
+O	36	37	*
+O	37	38	*
+O	38	45	Country
+O	46	47	*
+O	47	48	*
+O	48	49	]
+O	49	50	.
+
+O	52	59	Adopted
+O	60	66	family
+O	67	69	is
+O	70	74	from
+O	75	77	NY
+O	77	78	.
+
+O	80	89	Currently
+
+B-Employment	90	91	a
+I-Employment	92	98	senior
+I-Employment	99	101	at
+I-Employment	102	103	[
+I-Employment	103	104	*
+I-Employment	104	105	*
+I-Employment	105	115	University
+I-Employment	115	116	/
+I-Employment	116	123	College
+I-Employment	124	125	*
+I-Employment	125	126	*
+I-Employment	126	127	]
+B-LivingStatus	128	134	living
+O	135	139	with
+O	140	148	roommate
+O	149	151	in
+O	152	154	an
+O	155	164	apartment
+O	164	165	.
+
+O	166	174	Recently
+O	175	180	broke
+O	181	183	up
+O	184	188	with
+O	189	198	boyfriend
+O	198	199	.
+
+O	201	202	[
+O	202	203	*
+O	203	204	*
+O	204	208	Name
+O	209	210	(
+O	210	212	NI
+O	212	213	)
+O	214	215	*
+O	215	216	*
+O	216	217	]
+O	218	223	known
+O	224	233	suidicide
+O	234	242	attempts
+
+O	243	245	in
+O	246	249	the
+O	250	254	past
+O	254	255	.
+
+O	257	259	As
+O	260	263	far
+O	264	266	as
+O	267	273	mother
+O	274	279	knows
+O	279	280	,
+O	281	283	no
+B-Drug	284	292	illicits
+O	293	295	or
+B-Tobacco	296	303	tobacco
+O	303	304	,
+
+B-Alcohol	305	311	social
+I-Alcohol	312	316	ETOH

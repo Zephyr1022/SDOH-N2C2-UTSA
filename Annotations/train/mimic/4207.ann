@@ -1,0 +1,32 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 43 50	stopped
+T3	History 51 62	2 years ago
+T4	Amount 22 26	1ppd
+T5	Duration 27 39	for 12 years
+T6	Alcohol 65 76	Alcohol Use
+T7	StatusTime 78 92	Does not drink
+T8	History 105 117	10 years ago
+T9	Drug 120 128	Drug Use
+T10	StatusTime 130 139	Marijuana
+T11	Type 130 139	Marijuana
+T12	Employment 174 178	work
+T13	StatusEmploy 166 178	used to work
+T14	Type 179 191	construction
+T15	LivingStatus 193 198	Lives
+T16	StatusTime 193 198	Lives
+T17	TypeLiving 199 223	with children and mother
+E1	Tobacco:T1 Amount:T4 Duration:T5 Status:T2 History:T3
+E2	Alcohol:T6 Status:T7
+E3	Drug:T9 Type:T11 Status:T10
+E4	Employment:T12 Status:T13 Type:T14
+E5	LivingStatus:T15 Status:T16 Type:T17
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T10 current
+A4	StatusEmployVal T13 unemployed
+A5	StatusTimeVal T16 current
+A6	TypeLivingVal T17 with_family
+T18	Alcohol 99 104	drink
+E6	Alcohol:T18 Status:T19 History:T8
+T19	StatusTime 94 117	Last drink 10 years ago
+A7	StatusTimeVal T19 past

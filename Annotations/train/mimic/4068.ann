@@ -1,0 +1,5 @@
+T1	Drug 69 73	IVDA
+T2	Method 69 73	IVDA
+T3	StatusTime 62 68	denies
+E1	Drug:T1 Status:T3 Method:T2
+A1	StatusTimeVal T3 none

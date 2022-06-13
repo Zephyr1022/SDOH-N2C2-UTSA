@@ -1,0 +1,33 @@
+O	0	2	SH
+O	2	3	:
+
+O	4	10	Denies
+B-Tobacco	11	18	smoking
+O	19	21	or
+B-Drug	22	27	drugs
+O	27	28	.
+
+O	29	35	Denies
+O	36	43	current
+O	44	52	drinking
+O	52	53	,
+O	54	62	although
+O	63	66	has
+O	67	68	a
+O	69	76	history
+O	77	79	of
+B-Alcohol	80	85	heavy
+I-Alcohol	86	94	drinking
+O	94	95	,
+O	96	99	but
+O	100	107	stopped
+O	108	109	1
+O	110	114	year
+O	115	118	ago
+
+O	119	126	Retired
+O	126	127	,
+B-Employment	128	136	formerly
+I-Employment	137	143	worked
+O	144	146	as
+O	147	150	EMT

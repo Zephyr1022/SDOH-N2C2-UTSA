@@ -1,0 +1,18 @@
+T1	Employment 27 43	a school teacher
+T2	StatusEmploy 16 26	Previously
+T3	Type 27 43	a school teacher
+T4	LivingStatus 111 116	Lives
+T5	StatusTime 111 116	Lives
+T6	TypeLiving 117 137	with younger brother
+T9	Alcohol 162 166	EtOH
+T10	Tobacco 170 177	tobacco
+T12	StatusTime 178 189	in 15 years
+T7	History 178 189	in 15 years
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E5	Alcohol:T9 Status:T12 History:T7
+E6	Tobacco:T10 Status:T12 History:T7
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family
+A5	StatusTimeVal T12 past

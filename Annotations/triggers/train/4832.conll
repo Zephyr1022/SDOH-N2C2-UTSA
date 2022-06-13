@@ -1,0 +1,130 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	-
+O	17	24	patient
+O	25	31	states
+O	32	35	she
+O	36	39	was
+B-Alcohol	40	48	drinking
+O	49	50	1
+O	50	51	.
+O	51	52	5
+O	53	58	pints
+O	59	61	of
+O	62	67	vodka
+O	68	73	daily
+O	74	79	prior
+
+O	80	82	to
+O	83	86	her
+O	87	96	admission
+O	96	97	.
+
+O	98	101	She
+O	102	110	endorses
+B-Alcohol	111	116	heavy
+I-Alcohol	117	125	drinking
+O	126	131	since
+O	132	135	the
+O	136	139	age
+O	140	142	of
+
+O	143	145	27
+O	145	146	,
+O	147	151	with
+O	152	160	multiple
+O	161	168	detoxes
+O	169	172	and
+O	173	183	withdrawal
+O	184	192	seizures
+
+O	193	194	-
+O	194	200	denies
+B-Drug	201	205	drug
+I-Drug	206	211	abuse
+
+O	212	213	-
+O	213	220	reports
+O	221	228	history
+O	229	231	of
+B-Tobacco	232	239	smoking
+O	240	250	cigarettes
+
+O	251	254	The
+O	255	262	patient
+O	263	269	states
+O	270	273	she
+B-LivingStatus	274	283	currently
+I-LivingStatus	284	289	lives
+O	290	292	in
+O	293	294	[
+O	294	295	*
+O	295	296	*
+O	296	304	Location
+O	305	309	2624
+O	309	310	*
+O	310	311	*
+O	311	312	]
+O	313	317	with
+O	318	321	her
+O	322	328	friend
+
+O	329	330	[
+O	330	331	*
+O	331	332	*
+O	332	336	Name
+O	337	338	(
+O	338	340	NI
+O	340	341	)
+O	342	345	401
+O	345	346	*
+O	346	347	*
+O	347	348	]
+O	348	349	.
+
+O	350	353	She
+O	354	362	finished
+O	363	367	high
+O	368	374	school
+O	375	378	and
+B-Employment	379	385	worked
+O	386	388	as
+O	389	390	a
+O	391	395	hair
+O	396	403	stylist
+O	403	404	,
+O	405	408	but
+
+O	409	416	reports
+O	417	420	not
+O	421	428	working
+O	429	432	for
+O	433	439	awhile
+O	440	443	due
+O	444	446	to
+O	447	450	her
+O	451	458	medical
+O	459	468	condition
+O	468	469	.
+
+O	470	473	She
+
+O	474	477	was
+O	478	488	previously
+O	489	496	married
+O	497	500	and
+O	501	509	divorced
+O	509	510	,
+O	511	515	with
+O	516	519	one
+O	520	524	15yo
+O	525	530	child
+O	531	534	who
+O	535	537	is
+
+O	538	540	in
+O	541	544	the
+O	545	552	custody
+O	553	555	of

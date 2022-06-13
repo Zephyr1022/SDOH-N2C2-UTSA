@@ -1,0 +1,35 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	25	homeless
+O	25	26	,
+O	27	36	sometimes
+B-LivingStatus	37	42	lives
+O	43	47	with
+O	48	54	family
+O	55	58	but
+O	59	63	most
+O	64	72	recently
+O	73	76	was
+O	77	85	sleeping
+O	86	88	in
+O	89	90	a
+O	91	95	park
+
+O	96	100	uses
+B-Drug	101	107	heroin
+I-Drug	107	108	,
+I-Drug	109	113	meth
+O	113	114	,
+B-Alcohol	115	122	alcohol
+O	123	124	(
+O	124	127	see
+O	128	131	HPI
+O	132	135	for
+O	136	146	additional
+O	147	154	details
+O	154	155	)
+
+O	156	162	denies
+B-Tobacco	163	170	tobacco

@@ -1,0 +1,11 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	25	homeless
+
+O	26	32	smokes
+B-Drug	33	42	marijuana
+
+O	43	49	denies
+B-Drug	50	58	illicits

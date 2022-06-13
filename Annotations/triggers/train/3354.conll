@@ -1,0 +1,39 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	23	Venous
+B-Drug	24	30	opioid
+I-Drug	31	34	use
+O	34	35	,
+O	36	45	currently
+O	46	48	in
+O	49	50	a
+O	51	60	methadone
+O	61	68	program
+
+O	69	75	Social
+B-Tobacco	76	83	tobacco
+O	84	87	and
+B-Alcohol	88	92	etoh
+I-Alcohol	93	96	use
+
+O	97	106	Currently
+B-LivingStatus	107	113	living
+O	114	118	with
+O	119	120	a
+O	121	127	friend
+
+O	128	131	Has
+O	132	137	three
+O	138	146	children
+O	147	150	and
+O	151	154	was
+O	155	162	married
+O	163	166	but
+O	167	176	currently
+O	177	185	children
+O	186	189	are
+O	190	194	with
+O	195	200	their
+O	201	207	father

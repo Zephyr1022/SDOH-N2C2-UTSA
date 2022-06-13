@@ -1,0 +1,22 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 34	with husband
+T4	Employment 64 105	Retired assistant to nutrition department
+T5	StatusEmploy 64 105	Retired assistant to nutrition department
+T6	Type 64 105	Retired assistant to nutrition department
+T7	Tobacco 132 144	Never smoked
+T8	StatusTime 132 144	Never smoked
+T9	Alcohol 145 151	Drinks
+T10	StatusTime 145 151	Drinks
+T11	Amount 152 159	3 beers
+T12	Type 154 159	beers
+T13	Frequency 160 167	per day
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Status:T10 Amount:T11 Type:T12 Frequency:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 on_disability
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T10 current

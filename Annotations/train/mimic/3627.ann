@@ -1,0 +1,54 @@
+T1	LivingStatus 69 77	homeless
+T2	TypeLiving 69 77	homeless
+T3	StatusTime 69 77	homeless
+T4	LivingStatus 82 87	lived
+T5	StatusTime 115 126	in the past
+T6	TypeLiving 88 114	with his sister and nephew
+T7	Drug 559 572	crack cocaine
+T8	Type 559 572	crack cocaine
+T9	StatusTime 573 584	in the past
+T10	Alcohol 785 796	Alcohol use
+T11	Amount 797 823	moderate4 24oz Old English
+T12	Type 823 827	/day
+T14	Tobacco 711 722	Tobacco use
+T15	Alcohol 442 453	Alcohol use
+T16	StatusTime 479 504	drank within the past day
+T17	Drug 638 646	Drug use
+T18	Type 649 656	Cocaine
+T19	StatusTime 649 656	Cocaine
+T20	StatusTime 724 730	smokes
+T21	Amount 731 735	1ppd
+T22	Duration 736 752	since teen years
+T23	Drug 853 861	Drug use
+T24	Type 864 871	Cocaine
+T25	StatusTime 797 827	moderate4 24oz Old English/day
+T26	StatusTime 864 871	Cocaine
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	LivingStatus:T4 Type:T6 Status:T5
+E3	Drug:T7 Status:T9 Type:T8
+E4	Alcohol:T10 Amount:T11 Type:T12 Status:T25
+E5	Tobacco:T14 Status:T20 Amount:T21 Duration:T22
+E6	Alcohol:T15 Status:T16
+E7	Drug:T17 Status:T19 Type:T18
+E8	Drug:T23 Type:T24 Status:T26
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 past
+A4	TypeLivingVal T6 with_family
+A5	StatusTimeVal T9 past
+A7	StatusTimeVal T16 current
+A8	StatusTimeVal T19 current
+A9	StatusTimeVal T20 current
+A10	StatusTimeVal T25 current
+A11	StatusTimeVal T26 current
+T13	Drug 879 882	coc
+E9	Drug:T13 Type:T28 Status:T27
+T27	StatusTime 873 882	UTOX +coc
+A6	StatusTimeVal T27 current
+T28	Type 879 882	coc
+T29	Alcohol 885 892	Alcohol
+E10	Alcohol:T29 Status:T31
+T30	Drug 894 898	Drug
+E11	Drug:T30 Status:T31
+T31	StatusTime 923 929	Severe
+A12	StatusTimeVal T31 current

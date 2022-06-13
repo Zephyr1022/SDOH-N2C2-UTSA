@@ -1,0 +1,30 @@
+T1	Amount 26 37	7 back year
+T2	Tobacco 17 24	Tobacco
+T3	StatusTime 26 37	7 back year
+T4	Alcohol 38 45	Alcohol
+T5	StatusTime 77 82	sober
+T6	History 83 92	20 months
+T7	Duration 47 57	many years
+T9	Drug 100 105	drugs
+T10	StatusTime 93 99	Denies
+T11	LivingStatus 107 112	Lives
+T12	StatusTime 107 112	Lives
+T13	TypeLiving 139 168	with her mother, dog, and cat
+T14	Employment 184 191	working
+T15	StatusEmploy 170 191	Not currently working
+E1	Tobacco:T2 Amount:T1 Status:T3
+E2	Alcohol:T4 Duration:T7 Status:T5 History:T6
+E3	Drug:T9 Status:T10
+E4	LivingStatus:T11 Status:T12 Type:T13
+E5	Employment:T14 Status:T15
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 past
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T12 current
+A6	TypeLivingVal T13 with_family
+A7	StatusEmployVal T15 unemployed
+T8	Employment 209 215	worked
+E6	Employment:T8 Status:T16 Type:T17
+T16	StatusEmploy 196 208	has recently
+A3	StatusEmployVal T16 unemployed
+T17	Type 249 276	an administrative assistant

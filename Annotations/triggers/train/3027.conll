@@ -1,0 +1,19 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	23	Unable
+O	24	26	to
+O	27	33	obtain
+O	34	37	due
+O	38	40	to
+O	41	52	respiratory
+O	53	61	distress
+O	61	62	.
+
+B-Tobacco	63	70	Tobacco
+I-Tobacco	71	74	use
+O	75	78	per
+O	79	84	chart
+O	85	91	review
+O	91	92	.

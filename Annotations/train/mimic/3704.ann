@@ -1,0 +1,22 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 35	with partner
+T4	Tobacco 61 68	Tobacco
+T5	Amount 70 85	0.5 to 0.75 ppd
+T6	Duration 86 98	since age 16
+T7	StatusTime 86 98	since age 16
+T8	Alcohol 99 103	EtOH
+T9	StatusTime 104 108	quit
+T10	History 109 113	2001
+T11	Drug 114 119	Drugs
+T12	StatusTime 121 127	Denies
+T13	Type 128 136	illicits
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T5 Duration:T6 Status:T7
+E3	Alcohol:T8 Status:T9 History:T10
+E4	Drug:T11 Status:T12 Type:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T12 past

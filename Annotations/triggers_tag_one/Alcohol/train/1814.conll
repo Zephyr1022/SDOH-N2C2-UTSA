@@ -1,0 +1,43 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	17	-
+O	18	23	lives
+O	24	26	at
+O	27	31	home
+O	32	33	w
+O	33	34	/
+O	35	39	24hr
+O	40	44	care
+
+O	45	46	-
+O	47	57	previously
+O	58	66	employed
+O	67	69	at
+O	70	73	UPS
+O	74	76	in
+O	77	86	marketing
+
+O	87	88	-
+O	89	92	MVA
+O	93	95	at
+O	96	98	17
+O	99	108	resulting
+O	109	111	in
+O	112	124	quadriplegia
+
+O	125	126	-
+O	127	134	Tobacco
+O	134	135	:
+O	135	139	none
+
+O	140	141	-
+B-Alcohol	142	149	Alcohol
+O	149	150	:
+O	150	154	none
+
+O	155	156	-
+O	157	165	Illicits
+O	165	166	:
+O	166	170	none

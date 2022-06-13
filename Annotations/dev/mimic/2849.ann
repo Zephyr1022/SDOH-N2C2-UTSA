@@ -1,0 +1,18 @@
+T1	Employment 16 48	Retired bricklayer, construction
+T2	StatusEmploy 16 48	Retired bricklayer, construction
+T3	Type 16 48	Retired bricklayer, construction
+T4	Tobacco 56 63	smoking
+T5	StatusTime 51 55	Quit
+T6	History 64 76	45 years ago
+T7	Alcohol 81 88	alcohol
+T8	Drug 93 101	drug use
+T9	StatusTime 78 80	no
+T10	StatusTime 90 92	no
+E1	Employment:T1 Type:T3 Status:T2
+E2	Tobacco:T4 History:T6 Status:T5
+E3	Alcohol:T7 Status:T9
+E4	Drug:T8 Status:T10
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T10 none

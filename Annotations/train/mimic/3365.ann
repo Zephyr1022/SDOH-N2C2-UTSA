@@ -1,0 +1,25 @@
+T1	TypeLiving 32 52	living on the street
+T2	StatusTime 22 31	currently
+T3	Duration 148 160	last 5 years
+T4	LivingStatus 32 38	living
+T5	Tobacco 171 178	smoking
+T6	StatusTime 164 170	denies
+T7	Alcohol 203 211	drinking
+T8	StatusTime 198 202	quit
+T9	History 212 230	13 or 14 years ago
+T10	Drug 268 284	methamphetamines
+T12	StatusTime 263 284	uses methamphetamines
+T13	Drug 327 350	amphetamines and heroin
+T14	Type 327 350	amphetamines and heroin
+T16	StatusTime 317 321	uses
+E1	LivingStatus:T4 Status:T2 Type:T1 Duration:T3
+E2	Tobacco:T5 Status:T6
+E3	Alcohol:T7 Status:T8 History:T9
+E4	Drug:T10 Status:T12
+E5	Drug:T13 Type:T14 Status:T16
+A1	TypeLivingVal T1 homeless
+A2	StatusTimeVal T2 current
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 past
+A6	StatusTimeVal T12 current
+A8	StatusTimeVal T16 current

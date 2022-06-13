@@ -1,0 +1,31 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	16	21	Lives
+O	22	26	with
+O	27	34	partner
+O	34	35	,
+O	36	37	[
+O	37	41	NAME
+O	41	42	]
+O	42	43	.
+
+O	44	51	Trained
+O	52	54	MD
+O	54	55	/
+O	55	58	PhD
+O	58	59	,
+O	60	63	but
+O	64	66	no
+O	67	73	longer
+O	74	84	practicing
+O	84	85	.
+
+O	87	93	Denies
+O	94	101	tobacco
+O	101	102	/
+B-Alcohol	102	109	alcohol
+O	109	110	/
+O	110	122	recreational
+O	123	128	drugs

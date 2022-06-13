@@ -1,0 +1,27 @@
+T1	LivingStatus 21 26	lived
+T2	StatusTime 21 26	lived
+T3	TypeLiving 27 51	in [**Hospital **] rehab
+T5	Employment 265 283	retored accoutnant
+T6	StatusEmploy 265 283	retored accoutnant
+T7	Type 265 283	retored accoutnant
+T8	Tobacco 287 294	Tobacco
+T9	StatusTime 296 301	never
+T10	Alcohol 304 311	Alcohol
+T11	Type 313 317	wine
+T12	Amount 318 336	[**3-24**] glasses
+T13	Frequency 336 342	/night
+T14	StatusTime 344 349	prior
+T15	Drug 389 397	drug use
+T16	StatusTime 386 388	no
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T5 Status:T6 Type:T7
+E3	Tobacco:T8 Status:T9
+E4	Alcohol:T10 Type:T11 Amount:T12 Frequency:T13 Status:T14
+E5	Drug:T15 Status:T16 Type:T17
+A1	StatusTimeVal T2 past
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T6 retired
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T14 past
+A6	StatusTimeVal T16 none
+T17	Type 376 384	Illicits

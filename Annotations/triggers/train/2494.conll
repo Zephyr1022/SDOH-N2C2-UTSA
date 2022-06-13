@@ -1,0 +1,39 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Residence
+O	26	27	:
+
+O	29	36	Private
+O	37	46	residence
+O	46	47	.
+
+O	49	54	Heavy
+B-Alcohol	55	62	alcohol
+I-Alcohol	63	66	use
+O	67	70	per
+O	71	76	chart
+O	77	83	review
+
+O	84	90	Unable
+O	91	93	to
+O	94	100	obtain
+O	101	110	secondary
+O	111	113	to
+O	114	121	patient
+O	122	125	not
+O	126	136	responding
+O	137	139	to
+O	140	150	translator
+O	151	162	questioning
+
+B-LivingStatus	163	169	Living
+I-LivingStatus	170	179	situation
+O	179	180	:
+
+O	182	187	Lives
+O	188	192	with
+O	193	204	significant
+O	205	210	other
+O	210	211	.

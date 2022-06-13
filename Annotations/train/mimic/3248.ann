@@ -1,0 +1,20 @@
+T1	Alcohol 18 22	EtOH
+T2	StatusTime 24 61	significant history, denies currently
+T3	Tobacco 64 71	Tobacco
+T4	StatusTime 73 110	significant history, denies currently
+T5	Drug 113 121	Illicits
+T6	StatusTime 123 181	significant history heroin IVDU and meth, denies currently
+T7	Type 143 163	heroin IVDU and meth
+T8	Method 150 154	IVDU
+T9	LivingStatus 184 200	Living Situation
+T10	StatusTime 208 223	generally stays
+T11	TypeLiving 224 244	at City Hall shelter
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+E3	Drug:T5 Status:T6 Type:T7 Method:T8
+E4	LivingStatus:T9 Status:T10 Type:T11
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T10 current
+A5	TypeLivingVal T11 homeless

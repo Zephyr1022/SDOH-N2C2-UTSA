@@ -1,0 +1,48 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	25	Currently
+I-Employment	26	31	works
+O	32	34	as
+O	35	37	an
+O	38	41	art
+O	42	52	consultant
+O	52	53	.
+
+B-Employment	54	58	Past
+I-Employment	59	63	work
+O	64	66	as
+O	67	68	a
+O	69	72	law
+
+O	73	82	librarian
+O	83	85	at
+O	86	87	a
+O	88	91	law
+O	92	96	firm
+O	97	105	downtown
+O	105	106	.
+
+B-Tobacco	107	114	Tobacco
+O	114	115	:
+O	116	120	Rare
+
+B-Alcohol	121	125	EtOH
+O	125	126	:
+O	127	137	Occasional
+O	137	138	,
+O	139	143	less
+O	144	147	use
+O	148	153	since
+O	154	157	she
+O	158	161	has
+O	162	171	struggled
+O	172	176	with
+O	177	184	uterine
+
+O	185	193	bleeding
+
+B-Drug	194	202	Illicits
+O	202	203	:
+O	204	210	Denies

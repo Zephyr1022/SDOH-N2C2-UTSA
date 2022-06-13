@@ -1,0 +1,51 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	Married
+O	24	28	with
+O	29	32	one
+O	33	41	daughter
+O	41	42	.
+
+O	44	48	Wife
+O	49	56	manages
+O	57	68	medications
+O	68	69	.
+
+O	71	75	Able
+O	76	78	to
+
+O	79	87	ambulate
+O	88	94	slowly
+O	94	95	,
+O	96	101	still
+O	102	113	independent
+O	114	116	in
+O	117	122	daily
+O	123	133	activities
+O	134	137	and
+
+O	138	144	drives
+O	144	145	.
+
+B-Employment	147	153	Former
+I-Employment	154	165	electrician
+O	165	166	.
+
+O	168	174	Social
+B-Alcohol	175	179	EtOH
+I-Alcohol	180	183	use
+O	183	184	,
+O	185	192	minimal
+B-Tobacco	193	200	tobacco
+
+B-Tobacco	201	204	use
+O	204	205	,
+O	206	212	denies
+B-Drug	213	225	recreational
+I-Drug	226	230	drug
+I-Drug	231	234	use
+O	235	237	in
+O	238	242	past
+O	242	243	.

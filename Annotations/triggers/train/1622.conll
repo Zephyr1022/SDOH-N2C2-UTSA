@@ -1,0 +1,16 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Tobacco	17	24	Tobacco
+O	24	25	:
+O	26	33	Reports
+O	34	37	one
+O	38	42	half
+O	43	47	pack
+O	48	51	per
+O	52	55	day
+
+B-Alcohol	57	64	Alcohol
+O	64	65	:
+O	66	72	Denies

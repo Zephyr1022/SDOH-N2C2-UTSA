@@ -1,0 +1,32 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 34	with fiancee
+T3	StatusTime 16 21	Lives
+T4	Employment 64 71	On SSDI
+T5	StatusEmploy 64 71	On SSDI
+T6	Alcohol 79 87	EtOH use
+T7	StatusTime 73 78	Denie
+T8	Tobacco 89 96	Tobacco
+T9	Amount 99 114	[**12-30**] ppd
+T10	Duration 115 124	x10 years
+T11	StatusTime 99 124	[**12-30**] ppd x10 years
+T12	Drug 126 133	Illicit
+T13	Type 136 143	cocaine
+T14	Method 149 156	snorted
+T15	History 157 167	1 week ago
+T16	StatusTime 157 167	1 week ago
+T17	Drug 185 199	percocet abuse
+T19	Type 185 193	percocet
+T20	StatusTime 169 181	Past history
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Tobacco:T8 Amount:T9 Duration:T10 Status:T11
+E5	Drug:T12 Type:T13 Method:T14 History:T15 Status:T16
+E6	Drug:T17 Type:T19 Status:T20
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 on_disability
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T11 current
+A6	StatusTimeVal T16 current
+A8	StatusTimeVal T20 past

@@ -1,0 +1,36 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	21	22	:
+O	23	28	alone
+
+O	29	39	Occupation
+O	39	40	:
+O	41	49	Disabled
+
+O	50	60	Cigarettes
+O	60	61	:
+O	62	67	30PYH
+O	67	68	,
+O	69	73	quit
+O	74	78	over
+O	79	81	20
+O	82	87	years
+O	88	91	ago
+
+B-Alcohol	92	96	ETOH
+O	96	97	:
+O	98	104	social
+O	104	105	,
+O	106	108	no
+O	109	116	history
+O	117	119	of
+O	120	125	abuse
+
+O	126	133	Illicit
+O	134	138	drug
+O	139	142	use
+O	142	143	:
+O	144	150	Denies

@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: 0   Alcohol Use: 0   Drug Use: 0
+
+SOCIAL HISTORY: 
+Residence: Assisted living facility, sons in [LOCATION]
+Does not recall any recent sick contacts

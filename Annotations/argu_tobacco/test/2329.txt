@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: 60 pack year smoking history   Alcohol Use: Occasional   Drug Use: Occasional marijuana
+
+SOCIAL HISTORY: 
+Residence: [LOCATION], [LOCATION]

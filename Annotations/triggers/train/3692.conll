@@ -1,0 +1,53 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	23	N
+B-Alcohol	26	33	Alcohol
+I-Alcohol	34	37	Use
+O	37	38	:
+O	39	40	1
+O	41	45	beer
+O	46	49	per
+O	50	55	month
+B-Drug	58	62	Drug
+I-Drug	63	66	Use
+O	66	67	:
+O	68	69	N
+
+O	71	77	SOCIAL
+O	78	85	HISTORY
+O	85	86	:
+
+O	88	94	Single
+O	94	95	,
+B-LivingStatus	96	101	lives
+O	102	106	with
+O	107	115	roommate
+O	115	116	.
+
+O	118	120	He
+B-Employment	121	126	works
+O	127	129	at
+O	130	131	[
+O	131	139	LOCATION
+O	139	140	]
+O	141	143	as
+O	144	146	an
+O	147	157	electrical
+O	158	166	engineer
+O	166	167	.
+
+O	168	175	Usually
+O	176	181	buses
+O	182	184	to
+O	185	189	work
+O	189	190	,
+O	191	194	and
+O	195	200	walks
+O	201	208	without
+O	209	217	assisted
+O	218	224	device
+O	224	225	.

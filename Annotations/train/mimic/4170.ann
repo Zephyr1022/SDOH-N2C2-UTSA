@@ -1,0 +1,29 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 34	9 pack years
+T3	StatusTime 44 52	quitting
+T4	History 53 70	earlier this year
+T5	Alcohol 72 83	Alcohol Use
+T6	StatusTime 85 91	Denies
+T7	Drug 94 102	Drug Use
+T8	StatusTime 145 149	quit
+T9	Type 111 124	crack-cocaine
+T10	Method 104 110	smokes
+T11	Frequency 125 143	on a monthly basis
+T12	History 150 164	3-4 months ago
+T13	LivingStatus 192 197	lives
+T14	StatusTime 192 197	lives
+T15	TypeLiving 239 272	with his wife and one of two sons
+T18	Employment 345 351	Worked
+T19	StatusEmploy 385 406	currently not working
+T20	Type 369 383	a fishing boat
+E1	Tobacco:T1 Amount:T2 Status:T3 History:T4
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Method:T10 Type:T9 Frequency:T11 Status:T8 History:T12
+E4	LivingStatus:T13 Status:T14 Type:T15
+E6	Employment:T18 Type:T20 Status:T19
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T8 past
+A4	StatusTimeVal T14 current
+A5	TypeLivingVal T15 with_family
+A6	StatusEmployVal T19 unemployed

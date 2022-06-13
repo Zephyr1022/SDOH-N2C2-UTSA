@@ -1,0 +1,28 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	25	Yes
+B-Alcohol	28	35	Alcohol
+I-Alcohol	36	39	Use
+O	39	40	:
+O	41	44	Yes
+B-Drug	47	51	Drug
+I-Drug	52	55	Use
+O	55	56	:
+O	57	59	IV
+O	60	66	heroin
+
+O	68	74	SOCIAL
+O	75	82	HISTORY
+O	82	83	:
+
+B-LivingStatus	85	94	Residence
+O	94	95	:
+O	96	104	Homeless
+
+O	107	113	Mother
+O	114	116	is
+O	117	121	DPOA

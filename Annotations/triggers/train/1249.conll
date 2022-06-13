@@ -1,0 +1,41 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	Denies
+B-Alcohol	31	38	Alcohol
+I-Alcohol	39	42	Use
+O	42	43	:
+O	44	50	drinks
+O	51	54	one
+O	55	60	fifth
+O	61	63	of
+O	64	68	hard
+O	69	76	alcohol
+O	76	77	/
+O	77	80	day
+B-Drug	83	87	Drug
+I-Drug	88	91	Use
+O	91	92	:
+O	93	99	Denies
+
+O	101	107	SOCIAL
+O	108	115	HISTORY
+O	115	116	:
+
+B-LivingStatus	118	126	Homeless
+
+B-LivingStatus	127	132	Lives
+O	133	135	on
+O	136	139	the
+O	140	146	street
+O	147	149	or
+O	150	152	in
+O	153	161	shelters
+O	162	164	in
+O	165	173	downtown
+O	174	175	[
+O	175	183	LOCATION
+O	183	184	]

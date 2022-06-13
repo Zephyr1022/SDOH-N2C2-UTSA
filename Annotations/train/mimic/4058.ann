@@ -1,0 +1,20 @@
+T1	Employment 25 35	unemployed
+T2	StatusEmploy 25 35	unemployed
+T3	Tobacco 62 68	smoker
+T4	StatusTime 60 61	+
+T5	Amount 69 75	1/2 pk
+T6	Frequency 75 79	/day
+T7	Duration 80 92	for 25 years
+T8	Alcohol 100 104	etoh
+T9	Drug 107 111	IVDU
+T10	Method 107 111	IVDU
+T11	StatusTime 93 99	denies
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Status:T4 Amount:T5 Frequency:T6 Duration:T7
+E3	Alcohol:T8 Status:T11
+E4	Drug:T9 Method:T10 Status:T12
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T11 none
+T12	StatusTime 105 106	+
+A4	StatusTimeVal T12 current

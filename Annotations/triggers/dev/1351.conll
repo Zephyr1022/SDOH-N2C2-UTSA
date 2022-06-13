@@ -1,0 +1,21 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	24	History
+O	25	27	of
+B-Alcohol	28	32	EtOH
+I-Alcohol	33	36	use
+O	36	37	.
+
+O	38	44	Denies
+B-Tobacco	45	52	tobacco
+O	52	53	,
+B-Drug	54	58	drug
+I-Drug	59	62	use
+O	62	63	.
+
+O	65	71	Sister
+O	72	74	is
+O	75	81	former
+O	82	91	therapist

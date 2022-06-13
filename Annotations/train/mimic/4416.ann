@@ -1,0 +1,24 @@
+T1	Alcohol 249 255	drinks
+T2	Amount 247 255	6 drinks
+T3	Frequency 255 258	/wk
+T4	StatusTime 247 258	6 drinks/wk
+T5	Employment 139 146	working
+T6	History 147 156	years ago
+T7	StatusEmploy 131 138	stopped
+T8	Tobacco 233 236	tob
+T9	Drug 237 245	illicits
+T10	Type 237 245	illicits
+T11	StatusTime 230 232	No
+T12	LivingStatus 109 114	lives
+T13	TypeLiving 80 124	son is medically complex and lives with them
+T14	StatusTime 109 114	lives
+E1	Alcohol:T1 Amount:T2 Status:T4 Frequency:T3
+E2	Employment:T5 History:T6 Status:T7
+E3	Tobacco:T8 Status:T11
+E4	Drug:T9 Type:T10 Status:T11
+E5	LivingStatus:T12 Type:T13 Status:T14
+A1	StatusTimeVal T4 current
+A2	StatusEmployVal T7 unemployed
+A3	StatusTimeVal T11 none
+A4	TypeLivingVal T13 with_family
+A5	StatusTimeVal T14 current

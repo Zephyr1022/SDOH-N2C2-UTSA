@@ -1,0 +1,26 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	21	works
+O	22	24	as
+O	25	33	retailer
+
+B-Alcohol	34	44	occasional
+I-Alcohol	45	49	etoh
+
+O	50	54	quit
+B-Tobacco	55	62	tobacco
+O	63	65	in
+O	66	67	[
+O	67	68	*
+O	68	69	*
+O	69	73	2116
+O	73	74	*
+O	74	75	*
+O	75	76	]
+O	77	82	after
+O	83	85	30
+O	86	90	pack
+O	91	95	year
+O	96	103	history

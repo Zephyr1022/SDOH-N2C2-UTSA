@@ -1,0 +1,88 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	25	Currently
+I-LivingStatus	26	34	homeless
+O	34	35	,
+O	36	39	but
+O	40	48	formerly
+B-LivingStatus	49	55	living
+O	56	60	with
+O	61	63	an
+O	64	69	uncle
+O	70	72	in
+
+O	73	74	[
+O	74	75	*
+O	75	76	*
+O	76	80	Name
+O	81	82	(
+O	82	84	NI
+O	84	85	)
+O	86	87	*
+O	87	88	*
+O	88	89	]
+O	89	90	.
+
+O	91	99	Previous
+B-Alcohol	100	107	alcohol
+I-Alcohol	108	114	abuser
+O	114	115	,
+O	116	119	but
+O	120	125	sober
+O	126	129	for
+O	130	131	2
+O	132	137	years
+O	138	143	until
+
+O	144	149	today
+O	149	150	.
+
+O	151	155	Used
+O	156	158	to
+B-Alcohol	159	164	drink
+O	165	166	4
+O	167	170	40z
+O	171	178	bottles
+O	179	181	of
+O	182	186	beer
+O	187	192	daily
+O	192	193	.
+
+O	194	201	Current
+
+B-Tobacco	202	209	tobacco
+I-Tobacco	210	216	abuser
+O	216	217	,
+O	218	220	10
+O	221	231	cigarettes
+O	232	235	per
+O	236	239	day
+O	240	244	with
+O	245	247	10
+O	248	252	year
+O	253	260	history
+O	260	261	.
+
+O	262	268	Denies
+B-Drug	269	273	IVDU
+O	273	274	.
+
+O	275	283	Formerly
+B-Employment	284	285	a
+I-Employment	286	298	construction
+I-Employment	299	305	worker
+O	305	306	,
+O	307	310	but
+O	311	314	out
+O	315	317	of
+O	318	322	work
+O	323	326	for
+
+O	327	328	"
+O	328	329	a
+O	330	333	few
+O	334	339	years
+O	339	340	"
+O	340	341	.

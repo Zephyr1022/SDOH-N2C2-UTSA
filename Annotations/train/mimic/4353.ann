@@ -1,0 +1,31 @@
+T1	StatusTime 9 44	Former methamphetamine/cocaine user
+T2	History 60 66	[DATE]
+T3	Type 16 39	methamphetamine/cocaine
+T4	Drug 9 44	Former methamphetamine/cocaine user
+T5	Type 107 116	Marijuana
+T6	StatusTime 100 106	Smokes
+T7	Drug 107 116	Marijuana
+T8	Frequency 129 138	most days
+T9	Alcohol 147 151	EtOH
+T10	StatusTime 140 146	Denies
+T11	Tobacco 160 167	tobacco
+T12	StatusTime 153 159	smokes
+T13	Amount 168 174	1.5ppd
+T14	LivingStatus 202 210	homeless
+T15	TypeLiving 202 210	homeless
+T16	StatusTime 199 201	is
+T17	Employment 385 392	on SSDI
+T18	StatusEmploy 385 392	on SSDI
+E1	Drug:T4 Status:T1 Type:T3 History:T2
+E2	Drug:T7 Frequency:T8 Type:T5 Status:T6
+E3	Alcohol:T9 Status:T10
+E4	Tobacco:T11 Amount:T13 Status:T12
+E5	LivingStatus:T14 Status:T16 Type:T15
+E6	Employment:T17 Status:T18
+A1	StatusTimeVal T1 past
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T10 none
+A4	StatusTimeVal T12 current
+A5	TypeLivingVal T15 homeless
+A6	StatusTimeVal T16 current
+A7	StatusEmployVal T18 on_disability

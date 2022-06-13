@@ -1,0 +1,51 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	28	denies
+O	29	36	current
+O	37	40	use
+O	40	41	,
+O	42	49	charted
+O	50	52	50
+O	53	57	pack
+O	58	62	year
+O	63	70	history
+
+B-Alcohol	74	81	Alcohol
+I-Alcohol	82	85	Use
+O	85	86	:
+O	87	93	denies
+
+B-Drug	97	101	Drug
+I-Drug	102	105	Use
+O	105	106	:
+O	107	113	denies
+
+O	115	121	SOCIAL
+O	122	129	HISTORY
+O	129	130	:
+
+B-LivingStatus	132	141	Residence
+O	141	142	:
+O	143	148	lives
+O	149	151	in
+O	152	159	nursing
+O	160	168	facility
+O	168	169	,
+O	170	178	daughter
+O	179	180	[
+O	180	184	NAME
+O	184	185	]
+O	186	188	is
+O	189	197	involved
+
+O	198	208	Immigrated
+O	209	213	from
+O	214	215	[
+O	215	223	LOCATION
+O	223	224	]
+O	225	227	in
+O	228	231	90s

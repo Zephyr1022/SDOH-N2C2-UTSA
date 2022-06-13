@@ -1,0 +1,34 @@
+T1	LivingStatus 16 24	Homeless
+T2	StatusTime 16 24	Homeless
+T3	TypeLiving 16 24	Homeless
+T4	Alcohol 26 32	Drinks
+T5	StatusTime 26 32	Drinks
+T6	Amount 33 49	[**1-23**] vodka
+T7	Type 44 49	vodka
+T8	Frequency 50 55	daily
+T9	Drug 84 88	+THC
+T10	StatusTime 84 88	+THC
+T11	Type 84 88	+THC
+T12	Drug 97 101	IVDU
+T13	Type 97 101	IVDU
+T14	StatusTime 90 96	denies
+T15	Tobacco 109 116	tobacco
+T16	Amount 103 108	1 PPD
+T17	StatusTime 103 108	1 PPD
+T18	LivingStatus 267 272	Lives
+T19	StatusTime 267 272	Lives
+T20	TypeLiving 273 285	under bridge
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5 Amount:T6 Type:T7 Frequency:T8
+E3	Drug:T9 Status:T10 Type:T11
+E4	Drug:T12 Type:T13 Status:T14
+E5	Tobacco:T15 Amount:T16 Status:T17
+E6	LivingStatus:T18 Status:T19 Type:T20
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T14 none
+A6	StatusTimeVal T17 current
+A7	StatusTimeVal T19 current
+A8	TypeLivingVal T20 homeless

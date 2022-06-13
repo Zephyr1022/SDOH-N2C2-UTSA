@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: denies   Alcohol Use: 1 drink on occasion  Drug Use: denies
+
+SOCIAL HISTORY: 
+Lives at home with family.

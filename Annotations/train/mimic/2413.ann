@@ -1,0 +1,6 @@
+T1	LivingStatus 164 173	Residence
+T2	StatusTime 215 223	utilizes
+T3	TypeLiving 224 245	Cottage Grove shelter
+E1	LivingStatus:T1 Status:T2 Type:T3
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless

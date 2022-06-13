@@ -1,0 +1,35 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Type 22 32	Cigarettes
+T3	Duration 33 45	for 57 years
+T4	StatusTime 22 45	Cigarettes for 57 years
+T5	Amount 62 68	2 pack
+T6	Frequency 68 72	/day
+T7	Tobacco 73 79	smoker
+T8	StatusTime 47 61	Was originally
+T9	StatusTime 108 117	currently
+T10	Amount 96 103	4-5 cig
+T11	Frequency 103 107	/day
+T12	Tobacco 100 103	cig
+T13	Alcohol 119 130	Alcohol Use
+T14	StatusTime 132 146	Former drinker
+T15	History 163 176	for 5-6 years
+T16	Drug 178 186	Drug Use
+T17	Type 199 206	illicit
+T18	StatusTime 188 194	Denies
+T19	LivingStatus 409 415	living
+T20	TypeLiving 416 431	in Keys to Home
+T21	StatusTime 400 415	has been living
+E1	Tobacco:T1 Type:T2 Duration:T3 Status:T4
+E2	Tobacco:T7 Frequency:T6 Amount:T5 Status:T8
+E3	Tobacco:T12 Frequency:T11 Amount:T10 Status:T9 Type:T25
+E4	Alcohol:T13 Status:T14 History:T15
+E5	Drug:T16 Status:T18 Type:T17
+E6	LivingStatus:T19 Type:T20 Status:T21
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T8 past
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T14 past
+A5	StatusTimeVal T18 past
+A6	TypeLivingVal T20 homeless
+A7	StatusTimeVal T21 current
+T25	Type 100 103	cig

@@ -1,0 +1,31 @@
+T1	Tobacco 32 38	smoker
+T2	StatusTime 19 21	is
+T3	Amount 24 31	1.5 ppd
+T4	Duration 116 128	for 24 years
+T5	Tobacco 109 115	smoked
+T6	StatusTime 67 78;79 87	restarted 1 year ago
+T7	Alcohol 152 156	ETOH
+T9	StatusTime 141 151	occasional
+T10	Drug 163 170	cocaine
+T11	Type 163 170	cocaine
+T12	StatusTime 186 190	none
+T13	History 191 200	in 1 year
+T15	Employment 306 327	a construction worker
+T16	StatusEmploy 303 305	is
+T17	Type 306 327	a construction worker
+T18	LivingStatus 269 274	lives
+T19	TypeLiving 213 227	his girlfriend
+T20	StatusTime 269 274	lives
+E1	Tobacco:T1 Status:T2 Amount:T3
+E2	Tobacco:T5 Duration:T4 Status:T6
+E3	Alcohol:T7 Status:T9
+E4	Drug:T10 Type:T11 Status:T12 History:T13
+E5	Employment:T15 Status:T16 Type:T17
+E6	LivingStatus:T18 Type:T19 Status:T20
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 current
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T12 past
+A7	StatusEmployVal T16 employed
+A8	TypeLivingVal T19 with_others
+A9	StatusTimeVal T20 current

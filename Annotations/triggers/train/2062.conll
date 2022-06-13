@@ -1,0 +1,45 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	The
+O	20	27	patient
+O	28	33	lives
+O	34	36	at
+O	37	41	home
+O	41	42	.
+
+O	43	46	The
+O	47	54	patient
+O	55	59	quit
+B-Tobacco	60	67	smoking
+O	68	70	50
+O	71	76	years
+
+O	77	80	ago
+O	80	81	.
+
+O	82	85	The
+O	86	93	patient
+O	94	96	is
+O	97	106	dependent
+O	107	110	for
+O	111	114	his
+O	115	119	ADLs
+O	120	123	and
+O	124	129	walks
+O	130	134	with
+O	135	136	a
+
+O	137	143	walker
+O	143	144	.
+
+O	145	147	He
+O	148	154	denied
+O	155	158	any
+B-Alcohol	159	166	alcohol
+O	167	169	or
+B-Drug	170	177	illicit
+I-Drug	178	182	drug
+I-Drug	183	186	use
+O	186	187	.

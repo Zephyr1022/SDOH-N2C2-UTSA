@@ -1,0 +1,21 @@
+T1	LivingStatus 17 23	Living
+T3	TypeLiving 27 57	substance abuse recovery house
+T2	StatusTime 17 23	Living
+T5	StatusTime 60 76	Prior history of
+T6	Alcohol 77 84	alcohol
+T7	Drug 137 145	drug use
+T8	StatusTime 123 136	no history of
+T9	Tobacco 160 170	cigarettes
+T10	History 171 176	today
+T11	Amount 156 170	few cigarettes
+T12	Type 160 170	cigarettes
+T13	StatusTime 171 176	today
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Alcohol:T6 Status:T5
+E3	Drug:T7 Status:T8
+E4	Tobacco:T9 History:T10 Amount:T11 Type:T12 Status:T13
+A1	TypeLivingVal T3 with_others
+A2	StatusTimeVal T2 current
+A4	StatusTimeVal T5 past
+A5	StatusTimeVal T8 none
+A6	StatusTimeVal T13 current

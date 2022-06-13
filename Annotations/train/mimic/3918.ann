@@ -1,0 +1,18 @@
+T1	Tobacco 9 22	Former smoker
+T2	StatusTime 24 28	quit
+T3	History 29 41	2 months ago
+T4	Alcohol 49 56	alcohol
+T6	StatusTime 42 64	Social alcohol drinker
+T7	Drug 68 84	illicit drug use
+T8	Type 68 75	illicit
+T9	StatusTime 65 67	No
+T10	Employment 124 137	On disability
+T11	StatusEmploy 124 137	On disability
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Alcohol:T4 Status:T6
+E3	Drug:T7 Type:T8 Status:T9
+E4	Employment:T10 Status:T11
+A1	StatusTimeVal T2 past
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T9 none
+A5	StatusEmployVal T11 on_disability

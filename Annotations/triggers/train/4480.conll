@@ -1,0 +1,9 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	16	24	Homeless
+
+O	25	31	Denies
+O	32	37	toxic
+O	38	44	habits

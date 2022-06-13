@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: never smoker
+Alcohol Use: infrequent, up to 4-5 drinks per week (<1 per day)   
+Drug Use: none
+
+SOCIAL HISTORY: 
+Works as a law clerk though had to quit about one month ago due to GI issues. Married to [NAME]. They live in the [LOCATION] area.

@@ -1,0 +1,8 @@
+HABITS: 
+Tobacco Use: Denies Alcohol Use: Denies   Drug Use: Denies
+
+SOCIAL HISTORY: 
+Residence: Lives in [LOCATION] [CONTACT] (SNF) for past 4 years
+Has 7 children, 5 of which live in [LOCATION]
+Daughter [NAME] is DPOA, [CONTACT]
+Ambulates with cane for short distances, uses wheelchair for longer 2/2 osteoarthritis

@@ -1,0 +1,12 @@
+T1	Tobacco 49 60	Tobacco use
+T2	StatusTime 62 68	Denies
+T3	Alcohol 71 82	Alcohol use
+T4	StatusTime 84 88	Quit
+T5	Drug 91 99	Drug use
+T6	StatusTime 101 107	Denies
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T6 none

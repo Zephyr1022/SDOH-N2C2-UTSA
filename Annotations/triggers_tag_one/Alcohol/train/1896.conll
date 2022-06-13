@@ -1,0 +1,94 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	He
+O	19	24	lives
+O	25	30	alone
+O	31	34	and
+O	35	38	has
+O	39	40	a
+O	41	51	girlfriend
+O	52	55	who
+O	56	61	helps
+O	62	66	with
+O	67	70	his
+O	71	75	care
+O	75	76	.
+
+O	77	84	History
+O	85	87	of
+B-Alcohol	88	92	EtOH
+I-Alcohol	93	98	abuse
+O	98	99	,
+O	100	104	none
+O	105	110	since
+O	111	112	[
+O	112	113	*
+O	113	114	*
+O	114	118	2116
+O	118	119	*
+O	119	120	*
+O	120	121	]
+O	121	122	.
+
+O	123	130	History
+O	131	133	of
+O	134	141	tobacco
+O	142	145	use
+O	145	146	.
+
+O	147	151	None
+O	152	161	currently
+O	161	162	.
+
+O	163	173	Motorcycle
+O	174	180	driver
+O	180	181	.
+
+O	182	184	On
+O	185	195	disability
+O	196	197	s
+O	197	198	/
+O	198	199	p
+O	200	205	motor
+
+O	206	213	vehicle
+O	214	222	accident
+O	222	223	.
+
+O	224	226	No
+B-Alcohol	227	231	EtOH
+O	232	237	since
+O	238	239	[
+O	239	240	*
+O	240	241	*
+O	241	245	2116
+O	245	246	*
+O	246	247	*
+O	247	248	]
+O	248	249	,
+O	250	253	but
+O	254	259	heavy
+O	260	263	use
+O	264	269	prior
+O	269	270	.
+
+O	271	276	Prior
+
+O	277	286	marijuana
+O	287	290	use
+O	290	291	.
+
+O	292	295	Had
+O	296	302	worked
+O	303	305	in
+O	306	309	the
+O	310	314	iron
+O	315	323	industry
+O	324	327	and
+O	328	330	as
+O	331	332	a
+
+O	333	342	carpenter
+O	342	343	.

@@ -1,0 +1,36 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	26	27	:
+O	28	33	alone
+
+B-Employment	34	44	Occupation
+O	44	45	:
+O	46	50	owns
+O	51	60	insurance
+O	61	69	business
+
+B-Tobacco	70	77	Tobacco
+O	77	78	:
+O	79	84	never
+
+B-Alcohol	85	89	ETOH
+O	89	90	:
+O	91	95	quit
+O	96	98	30
+O	99	102	yrs
+O	102	103	.
+
+O	104	107	ago
+
+O	108	116	Activity
+O	116	117	:
+O	118	123	walks
+O	124	127	dog
+O	128	129	2
+O	129	130	.
+O	130	136	5miles
+O	137	142	daily

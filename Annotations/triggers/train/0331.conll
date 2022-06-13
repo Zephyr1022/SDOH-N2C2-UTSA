@@ -1,0 +1,96 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	26	Occupation
+O	26	27	:
+O	28	34	worked
+O	35	37	as
+O	38	41	job
+O	42	51	placement
+O	52	63	coordinator
+
+O	64	70	Living
+O	71	80	situation
+O	80	81	:
+B-LivingStatus	82	87	Lives
+O	88	92	with
+O	93	97	wife
+O	98	100	of
+O	101	103	55
+O	103	104	+
+O	105	110	years
+O	111	114	and
+B-Employment	115	123	disabled
+
+O	124	132	daughter
+O	133	134	(
+O	134	142	cerebral
+O	143	148	palsy
+O	148	149	)
+O	149	150	.
+
+O	151	153	He
+O	154	156	is
+O	157	160	the
+O	161	168	primary
+O	169	178	caretaker
+O	179	181	of
+O	182	185	his
+
+O	186	194	daughter
+O	194	195	.
+
+O	196	201	Lives
+O	202	204	in
+O	205	211	single
+O	212	218	family
+O	219	223	home
+O	224	228	with
+O	229	235	approx
+O	236	241	three
+O	242	249	flights
+
+O	250	252	of
+O	253	259	stairs
+O	259	260	.
+
+O	261	268	Bedroom
+O	269	271	is
+O	272	274	on
+O	275	276	[
+O	276	277	*
+O	277	278	*
+O	278	286	Location
+O	287	288	(
+O	288	290	un
+O	290	291	)
+O	292	296	1773
+O	296	297	*
+O	297	298	*
+O	298	299	]
+O	299	300	.
+
+O	301	304	Key
+O	305	318	relationships
+O	318	319	:
+O	320	324	wife
+O	324	325	,
+O	326	327	2
+O	328	337	daughters
+O	338	342	wife
+O	343	345	is
+O	346	349	HCP
+
+O	350	357	Smoking
+O	357	358	,
+O	359	363	EtOH
+O	363	364	:
+O	365	369	Quit
+B-Tobacco	370	377	tobacco
+O	378	379	>
+O	380	385	20yrs
+O	386	389	ago
+O	389	390	,
+O	391	397	denies
+B-Alcohol	398	402	etoh

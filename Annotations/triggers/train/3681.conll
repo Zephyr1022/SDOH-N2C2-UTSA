@@ -1,0 +1,49 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Alcohol	9	16	Alcohol
+I-Alcohol	17	20	Use
+O	20	21	:
+O	22	28	denies
+O	28	29	.
+
+B-Tobacco	31	38	Tobacco
+I-Tobacco	39	42	use
+O	42	43	:
+
+O	45	55	Cigarettes
+O	55	56	:
+O	57	58	4
+O	59	63	pack
+O	64	69	years
+O	69	70	,
+O	71	75	quit
+O	76	77	[
+O	77	81	DATE
+O	81	82	]
+O	83	84	,
+O	85	91	Vaping
+O	92	95	6mg
+B-Tobacco	96	104	Nicotine
+O	105	106	.
+
+B-Drug	108	112	Drug
+I-Drug	113	116	use
+O	116	117	:
+
+O	119	125	Denies
+O	125	126	.
+
+O	129	135	SOCIAL
+O	136	143	HISTORY
+O	143	144	:
+
+B-LivingStatus	146	151	Lives
+O	152	154	in
+O	155	156	[
+O	156	164	LOCATION
+O	164	165	]
+O	166	170	with
+O	171	180	boyfriend
+O	181	184	and
+O	185	188	son

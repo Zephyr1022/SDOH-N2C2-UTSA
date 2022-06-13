@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: 1-2 cigarettes/day   Alcohol Use: last drink was a few months ago   Drug Use: heroine used [DATE], methamphetamine [DATE]
+
+SOCIAL HISTORY: 
+She lives with her fiancé, daughter-in-law, and some roommates near [LOCATION]. She is currently moving to a new place, which is causing her quite a bit of stress. She is on disability.

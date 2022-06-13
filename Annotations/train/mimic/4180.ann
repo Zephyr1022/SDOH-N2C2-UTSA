@@ -1,0 +1,52 @@
+T1	Tobacco 9 15	Smoked
+T2	StatusTime 9 15	Smoked
+T3	Duration 16 40	for 15 years (age 20-35)
+T4	Amount 45 56	about 1 ppd
+T5	Tobacco 63 75	e-cigarettes
+T6	Type 63 75	e-cigarettes
+T7	Duration 76 86	for 1 year
+T8	History 99 111	8 months ago
+T9	StatusTime 91 98	stopped
+T10	Alcohol 124 150	Previous heavy alcohol use
+T12	StatusTime 124 150	Previous heavy alcohol use
+T13	StatusTime 186 205	1-2 drinks per week
+T14	Duration 165 182	several years ago
+T15	Amount 186 196	1-2 drinks
+T16	Frequency 197 205	per week
+T17	Alcohol 190 196	drinks
+T18	Drug 207 222	Previous MJ use
+T19	StatusTime 207 222	Previous MJ use
+T20	Type 216 218	MJ
+T21	Drug 253 262	Past IVDU
+T22	StatusTime 253 262	Past IVDU
+T23	Method 258 262	IVDU
+T24	History 263 271	in 1970s
+T25	LivingStatus 338 347	Residence
+T26	StatusTime 349 355	Living
+T27	TypeLiving 356 369	with a friend
+T29	Type 392 418	metal fabrication on ships
+T30	Duration 419 431	for 40 years
+T31	StatusEmploy 371 388	Previously worked
+T28	Employment 371 388	Previously worked
+T36	Employment 433 440	Retired
+T37	StatusEmploy 433 440	Retired
+T38	History 441 445	2006
+E1	Tobacco:T1 Status:T2 Duration:T3 Amount:T4
+E2	Tobacco:T5 Type:T6 Duration:T7 Status:T9 History:T8
+E3	Alcohol:T10 Status:T12
+E4	Alcohol:T17 Frequency:T16 Status:T13 Amount:T15 Duration:T14
+E5	Drug:T18 Status:T19 Type:T20
+E6	Drug:T21 Status:T22 History:T24 Method:T23
+E7	LivingStatus:T25 Status:T26 Type:T27
+E8	Employment:T28 Status:T31 Type:T29 Duration:T30
+E10	Employment:T36 Status:T37 History:T38
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T9 past
+A4	StatusTimeVal T12 past
+A5	StatusTimeVal T13 current
+A6	StatusTimeVal T19 past
+A7	StatusTimeVal T22 past
+A8	StatusTimeVal T26 current
+A9	TypeLivingVal T27 with_others
+A10	StatusEmployVal T31 unemployed
+A12	StatusEmployVal T37 retired

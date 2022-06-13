@@ -1,0 +1,34 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 42	occasional marijuana
+T3	Type 33 42	marijuana
+T4	Alcohol 46 57	Alcohol Use
+T5	StatusTime 59 84	4 pints hard liquor daily
+T6	Amount 59 78	4 pints hard liquor
+T7	Type 67 78	hard liquor
+T8	Frequency 79 84	daily
+T9	Drug 150 158	Drug Use
+T10	StatusTime 160 166	former
+T11	Type 167 180	IV heroin use
+T12	Drug 228 240	street drugs
+T13	StatusTime 207 240	Occasional "assorted street drugs
+T14	Type 219 240	assorted street drugs
+T15	LivingStatus 296 305	Residence
+T16	StatusTime 317 323	living
+T17	TypeLiving 324 338	on the streets
+E1	Tobacco:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5 Amount:T6 Type:T7 Frequency:T8
+E3	Drug:T9 Status:T10 Type:T11 Method:T18
+E4	Drug:T12 Status:T13 Type:T14
+E5	LivingStatus:T15 Status:T16 Type:T17
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T10 past
+A4	StatusTimeVal T13 current
+A5	StatusTimeVal T16 current
+A6	TypeLivingVal T17 homeless
+T18	Method 201 205	IVDU
+T19	Alcohol 89 93	EtOH
+E6	Alcohol:T19 Status:T21 Type:T20
+T20	Type 140 146	Purell
+T21	StatusTime 98 128	whatever other forms I can get
+A7	StatusTimeVal T21 current

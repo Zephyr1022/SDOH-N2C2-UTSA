@@ -1,0 +1,21 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	24	Smoking
+O	24	25	:
+O	26	32	Denies
+
+B-Alcohol	33	40	Alcohol
+O	40	41	:
+O	42	47	Denes
+
+O	48	55	Illicit
+O	56	61	Drugs
+O	61	62	:
+O	63	69	Denies
+
+O	70	77	Housing
+O	77	78	:
+O	79	86	Private
+O	87	96	residence

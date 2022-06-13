@@ -1,0 +1,84 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	in
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	36	Hospital
+O	37	40	100
+O	40	41	*
+O	41	42	*
+O	42	43	]
+O	44	49	Rehab
+O	49	50	.
+
+O	52	55	Has
+O	56	57	a
+O	58	66	daughter
+O	66	67	,
+O	68	73	chart
+O	74	78	says
+O	79	82	she
+O	83	84	"
+O	84	89	doesn
+O	89	90	'
+O	90	91	t
+
+O	92	96	want
+O	97	99	to
+O	100	102	be
+O	103	109	called
+O	110	116	unless
+O	117	120	the
+O	121	130	situation
+O	131	133	is
+O	134	138	life
+O	138	139	-
+O	139	150	threatening
+O	150	151	.
+
+O	152	153	"
+
+O	154	163	Substance
+O	164	169	Abuse
+O	170	172	Hx
+O	172	173	:
+O	174	176	Pt
+O	177	184	carries
+O	185	186	a
+O	187	196	diagnosis
+O	197	199	of
+B-Drug	200	206	opiate
+I-Drug	207	217	dependence
+O	217	218	,
+
+O	219	222	and
+O	223	226	Heb
+O	227	230	Reb
+O	231	236	notes
+O	237	241	make
+O	242	251	reference
+O	252	254	to
+O	255	258	med
+O	258	259	-
+O	259	266	seeking
+O	267	275	behavior
+O	275	276	.
+
+O	278	281	The
+
+O	282	288	extent
+O	289	291	of
+O	292	296	this
+O	297	299	is
+O	300	307	unknown
+O	307	308	.
+
+O	310	312	No
+O	313	318	known
+B-Alcohol	319	326	alcohol
+I-Alcohol	327	330	use
+O	330	331	.

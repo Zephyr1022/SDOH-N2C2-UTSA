@@ -1,0 +1,130 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	27	alone
+O	28	30	in
+O	31	32	[
+O	32	33	*
+O	33	34	*
+O	34	42	Location
+O	43	44	(
+O	44	46	un
+O	46	47	)
+O	48	51	686
+O	51	52	*
+O	52	53	*
+O	53	54	]
+O	54	55	.
+
+O	56	58	He
+O	59	61	is
+O	62	66	able
+O	67	69	to
+O	70	74	cook
+O	75	78	for
+O	79	86	himself
+O	86	87	.
+
+O	88	92	Able
+
+O	93	95	to
+O	96	100	walk
+O	101	102	[
+O	102	103	*
+O	103	104	*
+O	104	106	12
+O	106	107	-
+O	107	109	12
+O	109	110	*
+O	110	111	*
+O	111	112	]
+O	113	119	blocks
+O	120	127	without
+O	128	134	dypnea
+O	134	135	.
+
+O	136	140	Poor
+O	141	151	compliance
+O	152	156	with
+O	157	161	diet
+O	161	162	.
+
+O	163	167	Uses
+O	168	174	bubble
+O	175	180	packs
+O	181	184	for
+O	185	188	his
+O	189	200	medications
+O	200	201	.
+
+O	202	207	Doesn
+O	207	208	'
+O	208	209	t
+O	210	214	know
+O	215	218	the
+O	219	224	names
+O	225	227	of
+
+O	229	232	any
+O	233	235	of
+O	236	239	his
+O	240	251	medications
+O	252	255	but
+O	256	262	states
+O	263	265	he
+O	266	273	manages
+O	274	278	them
+O	279	286	himself
+O	286	287	.
+
+O	288	291	Has
+
+O	292	302	assistance
+O	303	305	of
+O	306	309	his
+O	310	313	son
+O	314	317	and
+O	318	326	daughter
+O	327	330	per
+O	331	337	review
+O	338	340	of
+O	341	342	[
+O	342	343	*
+O	343	344	*
+O	344	348	Name
+O	349	350	(
+O	350	352	NI
+O	352	353	)
+O	354	358	2287
+O	358	359	*
+O	359	360	*
+O	360	361	]
+O	362	369	records
+O	369	370	.
+
+B-Alcohol	372	376	EtOH
+O	376	377	:
+O	378	382	none
+O	382	383	.
+
+B-Tobacco	384	391	Tobacco
+O	391	392	:
+O	393	399	Former
+O	400	402	20
+O	403	407	pack
+O	408	412	year
+O	413	419	smoker
+O	419	420	,
+O	421	425	quit
+O	426	428	20
+O	429	434	years
+
+O	435	438	ago
+O	438	439	.
+
+B-Drug	440	448	Illicits
+O	448	449	:
+O	450	456	Denies
+O	456	457	.

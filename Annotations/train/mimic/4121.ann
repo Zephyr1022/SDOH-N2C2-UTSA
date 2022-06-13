@@ -1,0 +1,29 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 37	at Evans House
+T4	Tobacco 38 44	Smokes
+T5	Amount 45 52	3/4 ppd
+T6	StatusTime 38 44	Smokes
+T7	Amount 60 64	1ppd
+T8	Tobacco 60 64	1ppd
+T9	StatusTime 54 59	prior
+T10	Duration 65 69	x30y
+T11	Drug 70 83	Prior IV meth
+T12	StatusTime 70 83	Prior IV meth
+T13	Method 76 78	IV
+T14	Type 79 83	meth
+T15	History 94 101	7mo ago
+T16	Alcohol 123 146	prior heavy alcohol use
+T17	StatusTime 123 146	prior heavy alcohol use
+T19	History 115 121	1y ago
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T6 Amount:T5
+E3	Tobacco:T8 Amount:T7 Status:T9 Duration:T10
+E4	Drug:T11 Status:T12 Method:T13 Type:T14 History:T15
+E5	Alcohol:T16 Status:T17 History:T19
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T12 past
+A6	StatusTimeVal T17 past

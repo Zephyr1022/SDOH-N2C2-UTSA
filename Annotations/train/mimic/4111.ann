@@ -1,0 +1,4 @@
+T1	Drug 40 45	drugs
+T2	StatusTime 28 56	hasn't done drugs for 3 days
+E1	Drug:T1 Status:T2
+A1	StatusTimeVal T2 current

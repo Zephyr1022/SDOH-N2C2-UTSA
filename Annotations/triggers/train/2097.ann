@@ -1,0 +1,7 @@
+T1	Tobacco 16 22	Smokes
+T6	Alcohol 60 73;74 81	Heavy alcohol history
+T11	Drug 112 124	History IVDU
+T15	LivingStatus 182 190	Homeless
+T18	LivingStatus 412 417	Lives
+T21	Employment 466 471	Works
+T24	Employment 529 535	worked

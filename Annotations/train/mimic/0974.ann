@@ -1,0 +1,11 @@
+T1	Type 50 67	probation officer
+T2	Employment 40 46	serves
+T3	StatusEmploy 40 46	serves
+T4	LivingStatus 18 23	lives
+T5	TypeLiving 24 37	independently
+T6	StatusTime 18 23	lives
+E1	Employment:T2 Type:T1 Status:T3
+E2	LivingStatus:T4 Type:T5 Status:T6
+A1	StatusEmployVal T3 employed
+A2	TypeLivingVal T5 alone
+A3	StatusTimeVal T6 current

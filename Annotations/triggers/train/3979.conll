@@ -1,0 +1,26 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	25	mentally
+O	26	29	ill
+O	29	30	,
+O	31	37	single
+O	37	38	,
+B-Employment	39	49	unemployed
+O	49	50	,
+B-LivingStatus	51	57	living
+O	58	60	at
+O	61	68	Cascade
+O	69	75	living
+
+B-Alcohol	76	83	alcohol
+I-Alcohol	84	93	addiction
+
+B-Drug	94	103	substance
+I-Drug	104	109	abuse
+O	110	111	(
+O	111	115	will
+O	116	119	not
+O	120	129	elaborate
+O	129	130	)

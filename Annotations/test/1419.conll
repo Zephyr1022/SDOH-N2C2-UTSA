@@ -1,0 +1,35 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	27	never
+O	30	37	Alcohol
+O	38	41	Use
+O	41	42	:
+O	43	48	never
+O	51	55	Drug
+O	56	59	Use
+O	59	60	:
+O	61	66	never
+
+O	69	75	SOCIAL
+O	76	83	HISTORY
+O	83	84	:
+
+O	86	97	Anticipates
+O	98	108	graduation
+O	109	113	from
+O	114	115	[
+O	115	123	LOCATION
+O	123	124	]
+O	125	131	social
+O	132	136	work
+O	137	144	program
+O	145	147	in
+O	148	149	1
+O	149	150	.
+O	150	151	5
+O	152	158	months
+O	158	159	.

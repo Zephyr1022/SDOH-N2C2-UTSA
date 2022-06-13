@@ -1,0 +1,18 @@
+T1	Alcohol 9 20	Alcohol Use
+T3	StatusTime 22 32	infrequent
+T4	Amount 34 49	1 drink or less
+T5	Frequency 49 53	/day
+T6	Tobacco 57 68	Tobacco use
+T7	Type 71 81	Cigarettes
+T8	Amount 83 96	34 pack years
+T9	StatusTime 83 96	34 pack years
+T10	Drug 115 123	Drug use
+T11	StatusTime 126 132	Denies
+E1	Alcohol:T1 Status:T3 Amount:T4 Frequency:T5
+E2	Tobacco:T6 Type:T7 Amount:T8 Status:T9 Amount2:T2 Frequency:T12
+E3	Drug:T10 Status:T11
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T11 none
+T2	Amount 98 107	0.5 packs
+T12	Frequency 107 112	/ day

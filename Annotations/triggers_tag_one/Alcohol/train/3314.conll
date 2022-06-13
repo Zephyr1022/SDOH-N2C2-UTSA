@@ -1,0 +1,35 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	26	with
+O	27	31	full
+O	32	36	time
+O	37	41	care
+O	42	47	giver
+O	47	48	,
+O	49	52	due
+O	53	55	to
+O	56	62	spinal
+O	63	67	cord
+O	68	74	injury
+O	75	78	and
+O	79	89	wheelchair
+O	90	100	dependence
+
+O	101	108	Chronic
+O	109	113	cath
+O	114	116	in
+O	117	122	place
+O	122	123	,
+
+O	126	132	Remote
+O	133	140	smoking
+O	141	144	and
+O	145	149	IVDU
+O	150	157	history
+O	157	158	,
+O	159	165	denies
+B-Alcohol	166	170	EtOH
+I-Alcohol	171	174	use

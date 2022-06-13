@@ -1,0 +1,37 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	26	none
+B-Alcohol	29	36	Alcohol
+I-Alcohol	37	40	Use
+O	40	41	:
+O	42	43	1
+O	43	44	-
+O	44	45	2
+O	46	52	drinks
+O	53	54	4
+O	54	55	-
+O	55	56	5
+O	57	58	x
+O	59	60	a
+O	61	65	week
+O	68	72	Drug
+O	73	76	Use
+O	76	77	:
+O	78	82	none
+
+O	85	91	SOCIAL
+O	92	99	HISTORY
+O	99	100	:
+
+O	102	106	jail
+O	106	107	;
+O	108	116	formerly
+O	117	123	worked
+O	124	127	for
+O	128	129	[
+O	129	139	PROFESSION
+O	139	140	]

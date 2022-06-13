@@ -1,0 +1,21 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 30 41	Alcohol Use
+T3	StatusTime 22 26	none
+T4	StatusTime 43 47	none
+T5	Drug 49 57	Drug Use
+T6	Type 59 68	marijuana
+T7	Amount 69 78	2-3joints
+T8	Frequency 79 84	a day
+T9	StatusTime 69 84	2-3joints a day
+T10	LivingStatus 104 113	Residence
+T11	StatusTime 115 120	lives
+T12	TypeLiving 137 147	on his own
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T2 Status:T4
+E3	Drug:T5 Type:T6 Amount:T7 Status:T9 Frequency:T8
+E4	LivingStatus:T10 Status:T11 Type:T12
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 alone

@@ -1,0 +1,38 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	15	Smokes
+O	16	17	1
+O	17	18	/
+O	18	19	2
+O	20	21	-
+O	22	25	one
+O	26	30	pack
+O	31	34	per
+O	35	38	day
+
+B-Alcohol	39	45	Drinks
+O	46	47	3
+O	48	53	pints
+O	54	56	of
+O	57	63	liquor
+O	64	67	per
+O	68	72	week
+
+O	73	79	Smokes
+B-Drug	80	89	marijuana
+O	90	95	daily
+
+O	97	103	SOCIAL
+O	104	111	HISTORY
+O	111	112	:
+
+B-LivingStatus	114	119	Lives
+O	120	125	alone
+O	126	128	in
+O	129	136	private
+O	137	146	apartment
+O	147	149	in
+O	150	151	[
+O	151	159	LOCATION
+O	159	160	]

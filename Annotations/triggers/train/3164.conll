@@ -1,0 +1,40 @@
+O	0	5	SocHx
+O	5	6	:
+O	8	15	Married
+O	15	16	.
+
+O	18	19	2
+O	20	25	adult
+O	26	30	sons
+O	30	31	.
+
+O	32	37	Lives
+O	38	40	in
+O	41	42	[
+O	42	50	LOCATION
+O	50	51	]
+O	51	52	.
+
+B-Employment	54	63	Employeed
+O	64	66	as
+O	67	69	an
+O	70	73	ICU
+O	74	79	nurse
+O	80	82	in
+O	83	91	Overlake
+O	92	99	Medical
+O	100	106	Center
+O	106	107	.
+
+O	109	112	Has
+O	113	117	been
+B-Employment	118	120	an
+I-Employment	121	123	RN
+O	124	126	at
+O	127	129	UW
+O	130	137	Medical
+O	138	144	Center
+O	145	148	for
+O	149	151	37
+O	152	155	yrs
+O	155	156	.

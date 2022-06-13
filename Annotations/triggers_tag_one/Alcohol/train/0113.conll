@@ -1,0 +1,23 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	21	Lives
+O	22	26	with
+O	27	30	her
+O	31	38	husband
+O	39	41	in
+O	42	43	[
+O	43	44	*
+O	44	45	*
+O	45	49	Name
+O	50	51	(
+O	51	53	NI
+O	53	54	)
+O	55	60	13588
+O	60	61	*
+O	61	62	*
+O	62	63	]
+
+B-Alcohol	64	68	EtOH
+I-Alcohol	69	74	abuse

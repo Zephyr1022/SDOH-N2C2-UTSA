@@ -1,0 +1,33 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 25	1/2
+T3	Frequency 26 33	per day
+T4	Duration 34 42	since 14
+T5	StatusTime 34 42	since 14
+T6	Alcohol 60 71	Alcohol Use
+T7	Amount 73 79	A beer
+T8	Type 73 79	A beer
+T9	Frequency 80 89	per month
+T10	StatusTime 73 89	A beer per month
+T11	Drug 92 100	Drug Use
+T12	StatusTime 102 106	Quit
+T13	Type 107 113	heroin
+T14	History 114 122	2 mo ago
+T15	Amount 124 136	couple dimes
+T16	Frequency 137 142	a day
+T17	Drug 234 252	Cocaine, marijuana
+T18	Type 234 252	Cocaine, marijuana
+T19	StatusTime 234 252	Cocaine, marijuana
+T20	Employment 291 302	a fisherman
+T21	Type 291 302	a fisherman
+T22	StatusEmploy 287 290	Was
+E1	Tobacco:T1 Amount:T2 Frequency:T3 Status:T5 Duration:T4 Amount2:T23
+E2	Alcohol:T6 Amount:T7 Type:T8 Frequency:T9 Status:T10
+E3	Drug:T11 Status:T12 Type:T13 History:T14 Amount:T15 Frequency:T16
+E4	Drug:T17 Status:T19 Type:T18
+E5	Employment:T20 Type:T21 Status:T22
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T10 current
+A3	StatusTimeVal T12 past
+A4	StatusTimeVal T19 current
+A5	StatusEmployVal T22 unemployed
+T23	Amount 44 56	up to a pack

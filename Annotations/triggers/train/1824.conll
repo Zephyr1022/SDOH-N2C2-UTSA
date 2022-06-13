@@ -1,0 +1,30 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Employment	16	26	Disability
+O	26	27	.
+
+B-Tobacco	29	36	Tobacco
+O	37	41	1ppd
+O	41	42	.
+
+B-Alcohol	43	47	ETOH
+O	47	48	,
+B-Drug	49	54	crack
+I-Drug	55	62	cocaine
+I-Drug	62	63	,
+I-Drug	64	70	opiate
+I-Drug	71	74	use
+O	75	77	in
+
+O	78	82	past
+O	83	86	but
+O	87	91	none
+O	92	100	recently
+O	100	101	.
+
+O	102	108	Denies
+B-Drug	109	113	IVDU
+O	113	114	.
+O	114	117	NVC

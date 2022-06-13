@@ -1,0 +1,102 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	24	48
+O	25	29	pack
+O	30	34	year
+O	35	37	hx
+O	37	38	.
+
+B-Alcohol	40	47	Alcohol
+I-Alcohol	48	51	Use
+O	51	52	:
+O	53	54	A
+O	55	59	beer
+O	60	65	about
+O	66	67	1
+O	68	72	time
+O	73	76	per
+O	77	81	week
+O	81	82	.
+
+O	86	90	Drug
+O	91	94	Use
+O	94	95	:
+O	96	102	Denies
+O	102	103	.
+
+O	104	108	Used
+O	109	111	to
+O	112	126	intermittently
+O	127	130	use
+O	131	140	marijuana
+O	140	141	.
+
+O	144	150	SOCIAL
+O	151	158	HISTORY
+O	158	159	:
+
+O	161	168	Patient
+O	169	172	has
+O	173	178	lived
+O	179	181	in
+O	182	185	low
+O	186	192	income
+O	193	200	housing
+O	201	203	at
+O	204	207	the
+O	208	209	[
+O	209	217	LOCATION
+O	217	218	]
+O	219	222	for
+O	223	225	16
+O	226	231	years
+O	231	232	.
+
+O	233	235	He
+O	236	238	is
+O	239	249	originally
+O	250	254	from
+O	255	256	[
+O	256	264	LOCATION
+O	264	265	]
+O	265	266	,
+O	267	268	[
+O	268	276	LOCATION
+O	276	277	]
+O	277	278	.
+
+O	279	281	He
+O	282	287	moved
+O	288	290	to
+O	291	292	[
+O	292	300	LOCATION
+O	300	301	]
+O	302	304	to
+O	305	309	work
+O	310	312	in
+O	313	316	the
+O	317	324	fishing
+O	325	328	and
+O	329	337	crabbing
+O	338	346	industry
+O	346	347	.
+
+O	349	351	He
+O	352	355	has
+O	356	361	since
+O	362	369	retired
+O	369	370	.
+
+O	371	373	He
+O	374	378	does
+O	379	382	not
+O	383	387	have
+O	388	391	any
+O	392	397	close
+O	398	404	family
+O	405	412	members
+O	412	413	.

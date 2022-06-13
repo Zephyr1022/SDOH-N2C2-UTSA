@@ -1,0 +1,20 @@
+T1	Alcohol 28 39	Alcohol use
+T2	StatusTime 41 50	Heavy use
+T4	Duration 51 62	x 30+ years
+T5	Drug 173 181	Drug use
+T6	StatusTime 240 253	use in a 2013
+T7	Type 224 239	methamphetamine
+T8	Employment 443 453	employment
+T9	StatusEmploy 439 442	h/o
+T10	Type 477 500	generally in data entry
+T11	Employment 520 526	a host
+T12	StatusEmploy 520 526	a host
+T13	Type 520 526	a host
+E1	Alcohol:T1 Status:T2 Duration:T4
+E2	Drug:T5 Type:T7 Status:T6
+E3	Employment:T8 Status:T9 Type:T10
+E4	Employment:T11 Type:T13 Status:T12
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T6 past
+A4	StatusEmployVal T9 unemployed
+A5	StatusEmployVal T12 employed

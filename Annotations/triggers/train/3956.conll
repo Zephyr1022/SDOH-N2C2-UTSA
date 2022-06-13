@@ -1,0 +1,25 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Drug	9	19	Occasional
+I-Drug	20	23	THC
+I-Drug	24	27	use
+
+O	29	35	SOCIAL
+O	36	43	HISTORY
+O	43	44	:
+
+O	46	53	married
+O	53	54	,
+B-LivingStatus	55	60	lives
+O	61	65	with
+O	66	69	her
+O	70	78	daughter
+O	78	79	.
+
+O	80	87	Husband
+O	88	90	is
+O	91	93	in
+O	94	97	the
+O	98	106	military
+O	106	107	.

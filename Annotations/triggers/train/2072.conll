@@ -1,0 +1,79 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	She
+O	21	23	is
+O	24	25	a
+O	26	32	former
+O	33	42	publisher
+O	43	46	who
+B-Employment	47	53	worked
+
+O	54	58	full
+O	58	59	-
+O	59	63	time
+O	64	69	until
+O	70	73	the
+O	74	77	age
+O	78	80	of
+O	81	83	82
+O	83	84	.
+
+O	86	89	Had
+O	90	100	previously
+O	101	105	been
+B-LivingStatus	106	112	living
+
+O	113	117	with
+O	118	119	a
+O	120	125	house
+O	126	132	keeper
+O	132	133	,
+O	134	137	but
+O	138	140	is
+O	141	152	independent
+O	153	155	in
+O	156	166	activities
+O	167	169	of
+
+O	170	175	daily
+O	176	182	living
+O	182	183	.
+
+O	185	193	Formally
+B-Tobacco	194	200	smoked
+O	201	204	for
+O	205	207	10
+O	208	213	years
+O	213	214	.
+
+O	216	219	She
+O	220	224	does
+O	225	228	not
+
+B-Alcohol	229	234	drink
+O	235	246	excessively
+O	246	247	.
+
+O	249	252	Has
+O	253	258	three
+O	259	268	daughters
+O	269	272	and
+O	273	276	has
+O	277	278	a
+O	279	283	home
+O	284	288	aide
+
+O	289	292	for
+O	293	296	the
+O	297	301	last
+O	302	304	35
+O	305	310	years
+O	310	311	.
+
+O	313	315	No
+O	316	323	history
+O	324	326	of
+B-Drug	327	331	drug
+I-Drug	332	335	use
+O	335	336	.

@@ -1,0 +1,29 @@
+T1	Tobacco 22 37	smoking history
+T2	Amount 9 21	15 pack year
+T3	StatusTime 39 43	quit
+T4	History 44 51	in 1973
+T5	Alcohol 63 67	wine
+T6	Amount 52 67	1 glass of wine
+T7	Frequency 67 71	/day
+T8	StatusTime 52 71	1 glass of wine/day
+T9	Drug 75 83	illicits
+T10	Type 75 83	illicits
+T11	StatusTime 72 74	no
+T12	LivingStatus 177 182	lives
+T13	StatusTime 177 182	lives
+T14	TypeLiving 183 192	with wife
+T15	Type 203 240	a manager for a manufacturing company
+T16	Employment 193 199	worked
+T17	StatusEmploy 245 252	retired
+T18	History 253 260	in 1994
+E1	Tobacco:T1 Amount:T2 Status:T3 History:T4
+E2	Alcohol:T5 Amount:T6 Frequency:T7 Status:T8
+E3	Drug:T9 Type:T10 Status:T11
+E4	LivingStatus:T12 Status:T13 Type:T14
+E5	Employment:T16 Type:T15 Status:T17 History:T18
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T8 current
+A3	StatusTimeVal T11 none
+A4	StatusTimeVal T13 current
+A5	TypeLivingVal T14 with_family
+A6	StatusEmployVal T17 retired

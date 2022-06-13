@@ -1,0 +1,22 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	22	Lives
+O	23	25	in
+O	26	31	group
+O	32	38	living
+O	39	47	facility
+
+O	48	51	Not
+O	52	60	employed
+
+O	61	62	+
+B-Alcohol	62	66	ETOH
+O	66	67	,
+O	68	78	occasional
+O	79	88	marijuana
+
+O	89	95	Denies
+O	96	101	other
+O	102	110	illicits

@@ -1,0 +1,54 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	He
+O	19	21	is
+O	22	29	married
+O	30	33	and
+B-LivingStatus	34	39	lives
+O	40	44	with
+O	45	48	his
+O	49	53	wife
+O	54	57	and
+O	58	61	two
+O	62	66	dogs
+O	66	67	.
+
+O	68	71	Has
+O	72	75	two
+
+O	76	83	healthy
+O	84	92	children
+O	92	93	.
+
+O	94	100	Golfer
+O	100	101	.
+
+O	102	103	-
+B-Tobacco	104	111	Tobacco
+O	111	112	:
+O	113	117	25PY
+O	117	118	,
+O	119	123	quit
+O	124	125	[
+O	125	126	*
+O	126	127	*
+O	127	131	2161
+O	131	132	*
+O	132	133	*
+O	133	134	]
+
+O	135	136	-
+B-Alcohol	137	144	Alcohol
+O	144	145	:
+O	146	147	3
+O	148	154	drinks
+O	154	155	/
+O	155	157	wk
+O	157	158	,
+O	159	162	has
+O	163	167	been
+O	168	178	abstaining
+O	179	185	during
+O	186	191	chemo

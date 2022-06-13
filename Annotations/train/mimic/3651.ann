@@ -1,0 +1,27 @@
+T1	LivingStatus 125 130	Lives
+T2	TypeLiving 139 155	with her partner
+T3	StatusTime 125 130	Lives
+T4	Employment 157 164	Retired
+T5	StatusEmploy 157 164	Retired
+T6	Duration 165 171	x 1 yr
+T7	Alcohol 60 71	Alcohol Use
+T8	Tobacco 9 20	Tobacco Use
+T9	Amount 22 35	20 yr pack hx
+T10	History 46 56	20 yrs ago
+T11	StatusTime 37 45	last use
+T13	Amount 81 84	few
+T14	Frequency 84 89	/week
+T15	Drug 92 100	Drug Use
+T16	StatusTime 102 106	None
+T17	StatusTime 81 89	few/week
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Employment:T4 Duration:T6 Status:T5
+E3	Alcohol:T7 Amount:T13 Frequency:T14 Status:T17
+E4	Tobacco:T8 Amount:T9 Status:T11 History:T10
+E5	Drug:T15 Status:T16
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T11 past
+A6	StatusTimeVal T16 none
+A7	StatusTimeVal T17 current

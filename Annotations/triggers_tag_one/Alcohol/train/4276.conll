@@ -1,0 +1,67 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	23	1
+O	23	24	/
+O	24	25	5
+O	26	30	pack
+O	31	34	per
+O	35	38	day
+O	39	40	x
+O	41	43	15
+O	44	49	years
+B-Alcohol	52	59	Alcohol
+I-Alcohol	60	63	Use
+O	63	64	:
+O	65	67	40
+O	68	72	year
+O	73	80	history
+O	80	81	,
+O	82	91	currently
+O	92	97	1pint
+O	97	98	/
+O	98	101	day
+O	101	102	.
+
+O	103	105	No
+O	106	108	hx
+O	109	111	of
+O	112	116	ETOH
+O	117	118	w
+O	118	119	/
+O	119	120	d
+O	121	129	seizures
+O	131	135	Drug
+O	136	139	Use
+O	139	140	:
+O	141	145	meth
+O	145	146	,
+O	147	153	heroin
+O	153	154	,
+O	155	164	marijuana
+
+O	166	172	SOCIAL
+O	173	180	HISTORY
+O	180	181	:
+
+O	183	184	-
+O	185	193	homeless
+
+O	194	195	-
+O	196	201	Lives
+O	202	204	in
+O	205	206	[
+O	206	214	LOCATION
+O	214	215	]
+
+O	216	217	-
+O	218	222	Grew
+O	223	225	up
+O	226	230	near
+O	231	232	[
+O	232	240	LOCATION
+O	240	241	]
+O	242	246	base

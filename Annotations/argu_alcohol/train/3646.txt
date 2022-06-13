@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: denies   Alcohol Use: social   Drug Use: unclear
+
+SOCIAL HISTORY: 
+Residence: housed, lives alone

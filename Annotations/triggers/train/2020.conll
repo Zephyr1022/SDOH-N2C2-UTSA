@@ -1,0 +1,97 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	The
+O	20	22	pt
+O	22	23	.
+B-Tobacco	24	30	smokes
+O	31	44	approximately
+O	45	46	[
+O	46	47	*
+O	47	48	*
+O	48	49	2
+O	49	50	-
+O	50	51	5
+O	51	52	*
+O	52	53	*
+O	53	54	]
+O	55	59	pack
+O	60	62	of
+O	63	73	cigarettes
+O	74	77	per
+O	78	81	day
+O	82	83	(
+O	83	84	x
+
+O	85	91	4years
+O	91	92	)
+O	92	93	.
+
+O	94	104	Occasional
+O	105	110	known
+B-Alcohol	111	115	EtOH
+I-Alcohol	116	119	use
+O	119	120	.
+
+O	122	125	Per
+O	126	128	pt
+O	128	129	'
+O	129	130	s
+O	130	131	.
+O	132	138	friend
+O	138	139	,
+O	140	142	pt
+O	142	143	.
+
+O	144	146	is
+
+O	147	152	known
+O	153	155	IV
+B-Drug	156	162	heroin
+I-Drug	163	169	abuser
+O	169	170	.
+
+O	172	174	He
+O	175	177	is
+B-Employment	178	179	a
+I-Employment	180	187	student
+O	188	190	at
+O	191	192	[
+O	192	193	*
+O	193	194	*
+O	194	204	University
+O	204	205	/
+O	205	212	College
+O	213	218	23925
+O	218	219	*
+O	219	220	*
+O	220	221	]
+O	222	229	College
+O	229	230	.
+
+O	231	233	He
+B-LivingStatus	234	239	lives
+O	240	242	at
+O	243	247	home
+O	248	252	with
+O	253	256	his
+O	257	264	parents
+O	264	265	.
+
+O	267	269	He
+O	270	279	emigrated
+O	280	284	from
+O	285	286	[
+O	286	287	*
+O	287	288	*
+O	288	295	Country
+O	296	299	532
+O	299	300	*
+O	300	301	*
+O	301	302	]
+O	303	304	7
+
+O	305	310	years
+O	311	314	ago
+O	314	315	.

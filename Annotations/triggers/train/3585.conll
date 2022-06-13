@@ -1,0 +1,35 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	29	distant
+B-Alcohol	31	38	Alcohol
+I-Alcohol	39	42	Use
+O	42	43	:
+O	44	48	rare
+B-Drug	51	55	Drug
+I-Drug	56	59	Use
+O	59	60	:
+O	61	67	denies
+
+O	69	75	SOCIAL
+O	76	83	HISTORY
+O	83	84	:
+
+O	86	95	Residence
+O	95	96	:
+O	97	103	Housed
+O	104	106	in
+O	107	108	[
+O	108	116	LOCATION
+O	116	117	]
+O	117	118	.
+
+O	119	123	From
+O	124	127	the
+O	128	129	[
+O	129	137	LOCATION
+O	137	138	]
+O	138	139	.

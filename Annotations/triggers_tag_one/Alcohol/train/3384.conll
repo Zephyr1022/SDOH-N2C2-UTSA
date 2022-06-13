@@ -1,0 +1,30 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-Alcohol	17	24	Alcohol
+O	24	25	-
+O	26	32	denies
+
+O	33	40	Tobacco
+O	40	41	-
+O	42	46	1ppd
+O	47	50	x30
+O	51	56	years
+
+O	57	62	Drugs
+O	62	63	-
+O	64	70	denies
+
+O	71	73	He
+O	74	79	lives
+O	80	85	alone
+O	86	88	in
+O	89	90	[
+O	90	98	LOCATION
+O	98	99	]
+O	99	100	,
+O	101	102	[
+O	102	110	LOCATION
+O	110	111	]
+O	111	112	.

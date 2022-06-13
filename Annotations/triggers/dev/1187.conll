@@ -1,0 +1,73 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	Now
+O	20	26	coming
+O	27	31	from
+O	32	33	[
+O	33	34	*
+O	34	35	*
+O	35	43	Hospital
+O	44	45	*
+O	45	46	*
+O	46	47	]
+O	48	53	rehab
+O	54	62	facility
+O	62	63	.
+
+O	64	67	She
+O	68	73	lives
+O	74	76	in
+O	77	78	[
+O	78	79	*
+O	79	80	*
+O	80	88	Location
+O	89	94	14663
+O	94	95	*
+O	95	96	*
+O	96	97	]
+O	97	98	,
+
+O	99	100	[
+O	100	101	*
+O	101	102	*
+O	102	107	State
+O	108	111	350
+O	111	112	*
+O	112	113	*
+O	113	114	]
+O	115	117	in
+O	118	120	an
+O	121	130	apartment
+O	130	131	.
+
+O	133	136	Son
+O	137	142	lives
+O	143	151	upstairs
+O	151	152	.
+
+O	154	156	No
+O	157	164	history
+
+O	165	167	of
+B-Tobacco	168	175	smoking
+O	176	179	and
+O	180	184	only
+B-Alcohol	185	196	occassional
+I-Alcohol	197	204	alcohol
+O	204	205	.
+
+O	207	210	She
+O	211	214	has
+O	215	218	six
+O	219	227	children
+O	227	228	.
+
+O	229	239	Previously
+O	240	243	was
+B-Employment	244	251	working
+O	252	254	as
+O	255	256	a
+O	257	269	receptionist
+O	269	270	.

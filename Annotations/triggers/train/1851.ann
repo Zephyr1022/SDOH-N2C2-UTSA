@@ -1,0 +1,6 @@
+T1	LivingStatus 16 31	Currently lives
+T4	Alcohol 68 75	alcohol
+T5	Tobacco 77 84	tobacco
+T6	Drug 86 102	illicit drug use
+T9	LivingStatus 114 119	lived
+T13	Employment 153 177	Former airline attendant

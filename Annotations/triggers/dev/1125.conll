@@ -1,0 +1,26 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	27	34	husband
+O	34	35	.
+
+O	36	42	Denies
+O	43	44	[
+O	44	45	*
+O	45	46	*
+O	46	51	Name2
+O	52	53	(
+O	53	55	NI
+O	55	56	)
+O	57	58	*
+O	58	59	*
+O	59	60	]
+O	60	61	/
+B-Alcohol	61	65	EtOH
+O	65	66	/
+B-Drug	66	70	drug
+I-Drug	71	74	use
+O	74	75	.

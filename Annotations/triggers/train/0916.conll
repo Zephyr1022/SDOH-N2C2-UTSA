@@ -1,0 +1,87 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-Tobacco	16	22	Smoked
+O	23	33	cigarettes
+O	34	38	1ppd
+O	39	40	x
+O	41	43	20
+O	44	49	years
+O	49	50	.
+
+O	51	55	Quit
+O	56	58	40
+O	59	64	years
+O	65	68	ago
+O	68	69	,
+O	70	74	then
+
+B-Tobacco	75	81	smoked
+O	82	86	pipe
+O	87	90	but
+O	91	95	quit
+O	96	100	that
+O	101	108	several
+O	109	114	years
+O	115	118	ago
+O	118	119	.
+
+B-Alcohol	120	126	Drinks
+O	127	128	1
+O	128	129	-
+O	129	130	2
+O	131	136	beers
+
+O	137	142	qweek
+O	142	143	.
+
+B-LivingStatus	144	149	Lives
+O	150	155	alone
+O	156	159	and
+O	160	164	does
+O	165	168	all
+O	169	176	cooking
+O	176	177	/
+O	177	185	cleaning
+O	185	186	.
+
+O	187	190	Has
+O	191	192	2
+
+O	193	202	daughters
+O	203	206	who
+O	207	211	look
+O	212	217	after
+O	218	221	him
+O	221	222	.
+
+O	223	225	He
+B-Employment	226	232	worked
+O	233	235	as
+O	236	238	an
+O	239	247	engineer
+O	248	254	before
+
+O	255	265	retirement
+O	265	266	.
+
+O	267	270	Was
+O	271	278	exposed
+O	279	281	to
+O	282	290	asbestos
+O	291	293	in
+O	294	297	his
+O	298	303	early
+O	304	307	20s
+O	308	312	when
+O	313	315	he
+
+O	316	322	worked
+O	323	325	in
+O	326	327	a
+O	328	335	factory
+O	336	345	producing
+O	346	353	heating
+O	354	361	boilers
+O	361	362	.

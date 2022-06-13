@@ -1,0 +1,38 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	30	previous
+O	31	33	20
+O	34	38	year
+O	39	43	pack
+O	44	46	hx
+B-Alcohol	49	56	Alcohol
+I-Alcohol	57	60	Use
+O	60	61	:
+O	61	67	denies
+O	70	74	Drug
+O	75	78	Use
+O	78	79	:
+O	80	89	marajuana
+
+O	91	97	SOCIAL
+O	98	105	HISTORY
+O	105	106	:
+
+O	108	109	[
+O	109	110	_
+O	110	111	]
+O	112	118	Unable
+O	119	121	to
+O	122	128	Obtain
+O	129	132	due
+O	133	135	to
+O	136	143	Patient
+O	144	153	Condition
+
+O	154	163	Residence
+O	163	164	:
+O	165	174	domiciled

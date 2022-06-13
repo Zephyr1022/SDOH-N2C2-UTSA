@@ -1,0 +1,16 @@
+T1	Tobacco 34 41	smoking
+T2	StatusTime 29 33	quit
+T3	Type 42 52	cigarettes
+T4	History 53 61;62 65	15 years ago
+T5	Alcohol 89 114	heavy alcohol consumption
+T6	StatusTime 115 121;122 126	in the past
+T7	History 137 158	for the past 13 years
+T8	Employment 168 176;177 185	a former employee
+T9	StatusEmploy 168 176;177 185	a former employee
+T10	Type 189 206	the state lottery
+E1	Tobacco:T1 Status:T2 Type:T3 History:T4
+E2	Alcohol:T5 Status:T6 History:T7
+E3	Employment:T8 Status:T9 Type:T10
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T6 past
+A3	StatusEmployVal T9 unemployed

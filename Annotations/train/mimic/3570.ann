@@ -1,0 +1,19 @@
+T1	Tobacco 72 83	Tobacco Use
+T2	StatusTime 85 93	positive
+T3	Alcohol 99 110	Alcohol Use
+T4	StatusTime 112 120	positive
+T5	Drug 125 133	Drug Use
+T6	Type 135 197	marijuana, crack cocaine, heroin, methamphetamine, PCP and LSD
+T7	StatusTime 135 197	marijuana, crack cocaine, heroin, methamphetamine, PCP and LSD
+T8	LivingStatus 295 304	Residence
+T9	TypeLiving 306 333	Park West Nursing and Rehab
+T10	StatusTime 306 333	Park West Nursing and Rehab
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Type:T6 Status:T7
+E4	LivingStatus:T8 Type:T9 Status:T10
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T7 current
+A4	TypeLivingVal T9 with_others
+A5	StatusTimeVal T10 current

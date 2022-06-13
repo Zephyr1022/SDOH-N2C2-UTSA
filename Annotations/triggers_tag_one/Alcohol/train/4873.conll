@@ -1,0 +1,79 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	married
+O	24	27	and
+O	28	31	has
+O	32	35	one
+O	36	44	daughter
+O	45	47	in
+O	48	55	college
+O	55	56	.
+O	57	62	lives
+O	63	65	in
+O	66	67	[
+O	67	68	*
+O	68	69	*
+O	69	77	Location
+O	78	82	8117
+O	82	83	*
+O	83	84	*
+O	84	85	]
+O	85	86	,
+O	87	89	NH
+O	89	90	.
+
+O	91	95	Used
+O	96	98	to
+O	99	103	work
+O	104	106	in
+O	107	110	the
+O	111	115	shoe
+O	116	124	business
+O	125	128	and
+O	129	132	now
+O	133	135	is
+O	136	144	disabled
+O	144	145	.
+
+O	146	154	Studying
+
+O	155	158	law
+O	159	161	at
+O	162	166	home
+O	166	167	.
+
+O	168	174	Smoked
+O	175	176	[
+O	176	177	*
+O	177	178	*
+O	178	179	3
+O	179	180	-
+O	180	181	2
+O	181	182	*
+O	182	183	*
+O	183	184	]
+O	185	188	ppd
+O	189	192	but
+O	193	197	quit
+O	198	200	in
+O	201	202	[
+O	202	203	*
+O	203	204	*
+O	204	208	2158
+O	208	209	*
+O	209	210	*
+O	210	211	]
+O	211	212	.
+
+O	213	219	Denies
+O	220	227	current
+
+B-Alcohol	228	235	alcohol
+I-Alcohol	236	239	use
+O	239	240	.
+
+O	241	243	No
+O	244	248	IVDU
+O	248	249	.

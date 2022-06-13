@@ -1,0 +1,56 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	Unable
+O	29	31	to
+O	32	38	obtain
+O	39	42	due
+O	43	45	to
+O	46	53	patient
+O	54	63	condition
+
+O	64	71	Alcohol
+O	72	75	Use
+O	75	76	:
+O	77	83	Unable
+O	84	86	to
+O	87	93	obtain
+O	94	97	due
+O	98	100	to
+O	101	108	patient
+O	109	118	condition
+
+O	122	126	Drug
+O	127	130	Use
+O	130	131	:
+O	132	138	Unable
+O	139	141	to
+O	142	148	obtain
+O	149	152	due
+O	153	155	to
+O	156	163	patient
+O	164	173	condition
+
+O	175	181	SOCIAL
+O	182	189	HISTORY
+O	189	190	:
+
+O	192	193	[
+O	193	194	x
+O	194	195	]
+O	196	202	Unable
+O	203	205	to
+O	206	212	Obtain
+O	213	216	due
+O	217	219	to
+O	220	227	Patient
+O	228	237	Condition
+
+O	238	247	Residence
+O	247	248	:
+O	249	256	Edmonds
+O	257	264	Landing
+O	265	268	SNF

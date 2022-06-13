@@ -1,0 +1,27 @@
+T1	Tobacco 31 46	formerly smoked
+T2	StatusTime 31 46	formerly smoked
+T3	Amount 47 51	3PPD
+T4	Amount 65 77	3 cigarettes
+T5	Frequency 78 83	daily
+T6	Tobacco 67 77	cigarettes
+T7	StatusTime 53 56	now
+T8	Drug 91 95	IVDU
+T9	Drug 97 108	other drugs
+T10	Alcohol 113 121	EtOH use
+T11	StatusTime 84 90	Denies
+T12	LivingStatus 140 158	Currently homeless
+T13	StatusTime 140 158	Currently homeless
+T14	TypeLiving 163 190	living at the Rainier house
+T15	Method 91 95	IVDU
+E1	Tobacco:T1 Amount:T3 Status:T2
+E2	Tobacco:T6 Status:T7 Amount:T4 Frequency:T5 Type:T19
+E3	Drug:T8 Status:T11 Method:T15
+E4	Drug:T9 Status:T11
+E5	Alcohol:T10 Status:T11
+E6	LivingStatus:T12 Status:T13 Type:T14
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T11 none
+A4	StatusTimeVal T13 current
+A5	TypeLivingVal T14 homeless
+T19	Type 67 77	cigarettes

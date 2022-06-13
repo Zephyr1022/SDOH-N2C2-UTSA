@@ -1,0 +1,29 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	25	Homeless
+O	26	29	man
+O	29	30	,
+O	31	34	has
+O	35	40	never
+O	41	45	been
+O	46	48	in
+O	49	57	shelters
+
+B-Tobacco	58	61	Tob
+O	61	62	:
+O	63	71	endorses
+O	72	76	1ppd
+
+O	77	81	EtOH
+
+B-Drug	82	89	Illicit
+I-Drug	90	95	Drugs
+O	95	96	:
+O	97	104	current
+O	105	107	IM
+O	108	114	heroin
+O	115	118	and
+O	119	124	crack
+O	125	132	cocaine

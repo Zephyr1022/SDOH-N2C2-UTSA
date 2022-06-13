@@ -1,0 +1,41 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+B-LivingStatus	17	22	Lives
+O	23	27	with
+O	28	34	mother
+O	34	35	,
+O	36	45	currently
+O	46	56	undergoing
+O	57	64	divorce
+O	65	69	with
+O	70	72	ex
+O	72	73	-
+O	73	77	wife
+
+O	78	85	Unknown
+O	86	93	tobacco
+O	94	97	use
+
+O	98	105	Unknown
+O	106	111	acute
+O	112	119	alcohol
+O	120	123	use
+O	124	127	but
+O	128	134	mother
+O	135	143	endorses
+O	144	152	previous
+O	153	158	heavy
+B-Alcohol	159	166	alcohol
+I-Alcohol	167	172	abuse
+
+B-Drug	173	177	Drug
+I-Drug	178	183	abuse
+O	184	186	as
+O	187	192	above
+O	192	193	,
+O	194	203	primarily
+O	204	213	oxycodone
+O	214	217	and
+O	218	223	Xanax

@@ -1,0 +1,17 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 43	at adult family home
+T4	Tobacco 50 57	tobacco
+T5	Alcohol 59 63	etoh
+T6	StatusTime 45 49	past
+T7	Drug 68 72	IVDU
+T8	Method 68 72	IVDU
+T9	StatusTime 65 67	no
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T6
+E3	Alcohol:T5 Status:T6
+E4	Drug:T7 Status:T9 Method:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T9 none

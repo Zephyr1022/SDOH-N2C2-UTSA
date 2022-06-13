@@ -1,0 +1,45 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	14	Prior
+B-Drug	15	24	marijuana
+I-Drug	25	28	use
+O	29	30	-
+O	31	35	quit
+O	36	37	[
+O	37	41	DATE
+O	41	42	]
+
+B-Tobacco	43	50	Tobacco
+I-Tobacco	51	54	Use
+O	54	55	:
+O	56	62	denies
+O	63	70	current
+O	71	74	use
+B-Alcohol	77	84	Alcohol
+I-Alcohol	85	88	Use
+O	88	89	:
+O	90	96	denies
+O	97	104	current
+O	105	108	use
+B-Drug	111	115	Drug
+I-Drug	116	119	Use
+O	119	120	:
+O	121	127	denies
+O	128	135	current
+O	136	139	use
+
+O	141	147	SOCIAL
+O	148	155	HISTORY
+O	155	156	:
+
+B-LivingStatus	158	167	Residence
+O	167	168	:
+O	169	174	Lives
+O	175	177	in
+O	178	179	[
+O	179	187	LOCATION
+O	187	188	]
+O	189	193	with
+O	194	197	her
+O	198	204	sister

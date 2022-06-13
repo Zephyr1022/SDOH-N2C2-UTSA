@@ -1,0 +1,23 @@
+T1	Employment 44 49	Works
+T2	StatusEmploy 44 49	Works
+T3	Type 53 71	a chemical company
+T4	Tobacco 74 81	Tobacco
+T5	Amount 90 107	2 to 3 cigarettes
+T6	Frequency 108 113	a day
+T7	Type 97 107	cigarettes
+T8	Duration 114 135	for the past 20 years
+T9	StatusTime 83 89	Smokes
+T10	Alcohol 155 162	Alcohol
+T11	History 204 212;213 218	in 20-30 years
+T12	StatusTime 182 212;213 218	has not drank alcohol in 20-30 years
+T13	Drug 221 225	IVDU
+T14	Type 221 225	IVDU
+T15	StatusTime 227 233	denies
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T9 Amount:T5 Type:T7 Frequency:T6 Duration:T8
+E3	Alcohol:T10 Status:T12 History:T11
+E4	Drug:T13 Type:T14 Status:T15
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T9 current
+A3	StatusTimeVal T12 past
+A4	StatusTimeVal T15 none

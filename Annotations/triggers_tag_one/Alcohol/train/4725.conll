@@ -1,0 +1,127 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	26	Originally
+O	27	31	from
+O	32	33	[
+O	33	34	*
+O	34	35	*
+O	35	39	Male
+O	40	45	First
+O	46	50	Name
+O	51	52	(
+O	52	54	un
+O	54	55	)
+O	56	60	1056
+O	60	61	*
+O	61	62	*
+O	62	63	]
+O	63	64	.
+
+O	66	71	Lives
+O	72	77	alone
+O	78	80	in
+O	81	82	[
+O	82	83	*
+O	83	84	*
+O	84	92	Location
+O	93	94	(
+O	94	96	un
+O	96	97	)
+O	98	101	686
+O	101	102	*
+O	102	103	*
+O	103	104	]
+O	104	105	.
+
+O	106	109	Has
+
+O	110	116	family
+O	117	119	in
+O	120	124	area
+O	124	125	.
+
+O	127	134	Current
+O	135	140	heavy
+B-Alcohol	141	145	EtOH
+I-Alcohol	146	149	use
+O	149	150	:
+O	151	152	~
+O	153	154	1
+O	155	156	L
+O	157	162	vodka
+O	162	163	/
+O	163	166	day
+O	167	168	x
+O	169	170	4
+
+O	171	176	years
+O	176	177	.
+
+O	178	185	Longest
+O	186	190	time
+O	191	195	free
+O	196	198	of
+B-Alcohol	199	203	EtOH
+O	204	205	~
+O	206	207	2
+O	208	211	wks
+O	211	212	.
+
+O	214	217	Did
+O	218	222	have
+O	223	232	shakiness
+O	233	235	at
+
+O	236	240	that
+O	241	245	time
+O	246	249	but
+O	250	257	reports
+O	258	260	no
+O	261	268	seizurs
+O	269	271	or
+O	272	286	hallucinations
+O	286	287	.
+
+O	288	289	[
+O	289	290	*
+O	290	291	*
+O	291	292	1
+O	292	293	-
+O	293	295	18
+O	295	296	*
+O	296	297	*
+O	297	298	]
+O	299	302	ppd
+O	303	304	x
+O	305	307	11
+
+O	308	311	yrs
+O	311	312	.
+
+O	313	314	h
+O	314	315	/
+O	315	316	o
+O	317	324	inhaled
+O	325	332	cocaine
+O	333	338	abuse
+O	338	339	.
+
+O	340	344	Quit
+O	345	347	in
+O	348	349	[
+O	349	350	*
+O	350	351	*
+O	351	355	2133
+O	355	356	*
+O	356	357	*
+O	357	358	]
+O	358	359	.
+
+O	361	363	No
+O	364	365	h
+O	365	366	/
+O	366	367	o
+O	368	372	IVDU
+O	372	373	.

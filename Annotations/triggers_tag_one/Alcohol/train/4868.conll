@@ -1,0 +1,131 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	He
+O	19	21	is
+O	22	23	a
+O	24	31	retired
+O	32	39	teacher
+O	39	40	.
+
+O	41	43	He
+O	44	48	does
+O	49	52	not
+O	53	58	smoke
+O	59	61	or
+O	62	67	drink
+B-Alcohol	68	75	alcohol
+
+O	76	85	currently
+O	86	89	but
+O	90	94	used
+O	95	99	both
+O	100	108	remotely
+O	109	111	in
+O	112	113	[
+O	113	114	*
+O	114	115	*
+O	115	119	2083
+O	119	120	*
+O	120	121	*
+O	121	122	]
+O	122	123	.
+
+O	124	126	He
+O	127	133	admits
+O	134	136	to
+
+O	137	147	occasional
+O	148	157	marijuana
+O	157	158	.
+
+O	159	164	Prior
+O	165	167	to
+O	168	171	his
+O	172	181	worsening
+O	182	190	weakness
+O	191	194	and
+O	195	199	last
+
+O	200	215	hospitalization
+O	216	218	on
+O	219	220	[
+O	220	221	*
+O	221	222	*
+O	222	226	2131
+O	226	227	-
+O	227	229	10
+O	229	230	-
+O	230	232	10
+O	232	233	*
+O	233	234	*
+O	234	235	]
+O	236	238	he
+O	239	244	lived
+O	245	250	alone
+O	251	254	and
+O	255	258	did
+O	259	262	his
+O	263	266	own
+
+O	267	275	shopping
+O	275	276	/
+O	276	283	cooking
+O	284	287	and
+O	288	291	was
+O	292	303	independent
+O	304	308	with
+O	309	313	ADLs
+O	313	314	/
+O	314	319	IADLs
+O	319	320	.
+
+O	321	323	He
+O	324	327	was
+
+O	328	336	admitted
+O	337	340	now
+O	341	346	after
+O	347	353	having
+O	354	355	2
+O	355	356	-
+O	356	357	3
+O	358	363	weeks
+O	364	366	of
+O	367	372	rehab
+O	373	376	and
+O	377	379	he
+O	380	383	had
+O	384	388	been
+
+O	389	393	home
+O	394	397	for
+O	398	402	only
+O	403	404	1
+O	405	408	day
+O	408	409	.
+
+O	410	412	He
+O	413	416	has
+O	417	419	no
+O	420	428	children
+O	429	432	and
+O	433	436	has
+O	437	442	never
+O	443	447	been
+
+O	448	455	married
+O	456	459	but
+O	460	463	has
+O	464	472	siblings
+O	473	477	with
+O	478	482	whom
+O	483	485	he
+O	486	491	keeps
+O	492	494	in
+O	495	500	touch
+O	501	505	with
+
+O	506	515	regularly
+O	515	516	.

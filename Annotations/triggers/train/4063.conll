@@ -1,0 +1,21 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	24	Homeless
+O	24	25	,
+B-LivingStatus	26	35	currently
+I-LivingStatus	36	42	living
+O	43	45	at
+O	46	53	respite
+
+O	54	55	(
+O	55	56	+
+O	56	57	)
+B-Tobacco	58	65	Tobacco
+I-Tobacco	66	69	use
+
+O	70	76	Denies
+B-Alcohol	77	84	alcohol
+
+O	85	94	Methadone

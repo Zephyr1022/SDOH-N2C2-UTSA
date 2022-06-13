@@ -1,0 +1,20 @@
+T1	Employment 40 45	works
+T2	Type 49 54	a CNA
+T3	StatusEmploy 40 45	works
+T4	LivingStatus 104 109	Lives
+T5	TypeLiving 110 155	with mother, father, husband and two children
+T6	StatusTime 104 109	Lives
+T7	Tobacco 359 366	tobacco
+T8	Alcohol 368 375	alcohol
+T9	Drug 380 393	illicit drugs
+T10	Type 380 387	illicit
+T11	StatusTime 352 358	Denies
+E1	Employment:T1 Status:T3 Type:T2
+E2	LivingStatus:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T11
+E4	Alcohol:T8 Status:T11
+E5	Drug:T9 Type:T10 Status:T11
+A1	StatusEmployVal T3 employed
+A2	TypeLivingVal T5 with_family
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T11 none

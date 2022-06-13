@@ -1,0 +1,15 @@
+T1	Alcohol 18 22	ETOH
+T2	Tobacco 26 29	TOB
+T3	Drug 32 36	IVDU
+T4	StatusTime 38 54	history of all 3
+T5	LivingStatus 96 101	Lives
+T6	StatusTime 96 101	Lives
+T7	TypeLiving 102 119	with stepdaughter
+E1	Alcohol:T1 Status:T4
+E2	Tobacco:T2 Status:T4
+E3	Drug:T3 Status:T4 Method:T8
+E4	LivingStatus:T5 Status:T6 Type:T7
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T6 current
+A3	TypeLivingVal T7 with_family
+T8	Method 32 36	IVDU

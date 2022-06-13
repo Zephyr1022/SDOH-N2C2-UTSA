@@ -1,0 +1,62 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	Two
+O	21	23	to
+O	24	29	three
+O	30	34	pack
+O	35	38	per
+O	39	42	day
+B-Tobacco	43	49	smoker
+O	50	55	since
+O	56	59	the
+
+O	60	63	age
+O	64	66	of
+O	67	69	14
+O	69	70	,
+O	71	73	70
+O	74	76	to
+O	77	80	100
+O	81	85	pack
+O	86	91	years
+O	92	97	total
+O	97	98	.
+
+O	100	104	Quit
+O	105	108	six
+O	109	114	years
+O	115	118	ago
+O	118	119	.
+
+O	120	122	No
+B-Alcohol	123	130	alcohol
+I-Alcohol	131	134	use
+O	134	135	.
+
+O	137	140	Had
+B-LivingStatus	141	146	lived
+O	147	149	at
+O	150	154	home
+O	155	159	with
+O	160	167	husband
+O	168	173	until
+O	174	178	four
+
+O	179	185	months
+O	186	189	ago
+O	190	194	when
+O	195	198	she
+O	199	204	moved
+O	205	207	to
+B-LivingStatus	208	209	[
+I-LivingStatus	209	210	*
+I-LivingStatus	210	211	*
+I-LivingStatus	211	220	Hospital6
+I-LivingStatus	221	226	13846
+I-LivingStatus	226	227	*
+I-LivingStatus	227	228	*
+I-LivingStatus	228	229	]
+
+B-LivingStatus	230	236	Center
+O	236	237	.

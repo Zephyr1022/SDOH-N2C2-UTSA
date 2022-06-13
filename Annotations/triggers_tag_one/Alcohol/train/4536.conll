@@ -1,0 +1,110 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	Per
+O	20	30	girlfriend
+O	30	31	,
+O	32	34	pt
+O	35	42	usually
+B-Alcohol	43	49	drinks
+O	50	51	3
+O	52	57	times
+O	58	59	a
+O	60	64	week
+O	64	65	.
+
+O	66	68	Pt
+O	69	75	denies
+
+O	76	82	recent
+O	83	90	illicit
+O	91	95	drug
+O	96	99	use
+O	99	100	.
+
+O	101	103	He
+O	104	106	is
+B-Alcohol	107	108	a
+I-Alcohol	109	114	binge
+I-Alcohol	115	122	drinker
+O	122	123	,
+O	124	127	and
+O	128	133	drank
+O	134	138	more
+
+O	139	141	in
+O	142	149	college
+O	149	150	.
+
+O	151	154	DUI
+O	155	156	4
+O	157	162	years
+O	163	166	ago
+O	166	167	.
+
+O	168	170	Pt
+O	171	173	is
+O	174	183	currently
+O	184	186	on
+O	187	196	probation
+O	197	201	till
+
+O	202	203	[
+O	203	204	*
+O	204	205	*
+O	205	206	8
+O	206	207	-
+O	207	209	21
+O	209	210	*
+O	210	211	*
+O	211	212	]
+O	213	216	for
+O	217	225	behavior
+O	226	232	during
+O	233	234	a
+O	235	240	manic
+O	241	248	episode
+O	249	251	in
+O	252	253	[
+O	253	254	*
+O	254	255	*
+O	255	259	2162
+O	259	260	*
+O	260	261	*
+O	261	262	]
+O	262	263	.
+
+O	264	271	College
+
+O	272	280	graduate
+O	280	281	,
+O	282	287	lives
+O	288	294	partly
+O	295	299	with
+O	300	303	his
+O	304	311	parents
+O	312	315	and
+O	316	320	with
+O	321	324	his
+O	325	335	girlfriend
+O	335	336	.
+
+O	337	338	[
+O	338	339	*
+O	339	340	*
+O	340	344	Name
+O	345	346	(
+O	346	348	NI
+O	348	349	)
+O	350	354	1403
+O	354	355	*
+O	355	356	*
+O	356	357	]
+O	358	362	part
+O	362	363	-
+O	363	367	time
+O	368	370	at
+O	371	372	a
+O	373	384	supermarket
+O	384	385	.

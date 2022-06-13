@@ -1,0 +1,38 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	27	31	wife
+O	31	32	.
+
+B-Employment	33	40	Retired
+O	41	42	[
+O	42	43	*
+O	43	44	*
+O	44	49	Name2
+O	50	51	(
+O	51	53	NI
+O	53	54	)
+O	55	60	90999
+O	60	61	*
+O	61	62	*
+O	62	63	]
+O	63	64	.
+
+O	65	69	Uses
+O	70	74	cane
+O	75	77	to
+O	78	86	mobilise
+
+O	87	92	Never
+B-Tobacco	93	99	smoked
+O	99	100	.
+
+B-Alcohol	101	108	Minimal
+I-Alcohol	109	116	alcohol
+O	116	117	.
+
+O	118	120	No
+B-Drug	121	129	illicits

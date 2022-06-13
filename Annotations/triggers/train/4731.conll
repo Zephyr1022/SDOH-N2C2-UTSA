@@ -1,0 +1,135 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	He
+B-LivingStatus	19	24	lives
+O	25	30	alone
+O	30	31	,
+O	32	35	has
+O	36	37	a
+O	38	48	girlfriend
+O	48	49	.
+
+B-Employment	50	54	Owns
+O	55	56	a
+O	57	65	personal
+O	66	74	training
+
+O	75	82	company
+O	82	83	.
+
+O	84	87	Has
+O	88	92	been
+O	93	99	bringe
+B-Alcohol	100	108	drinking
+O	109	114	since
+O	115	122	college
+O	122	123	.
+
+O	124	127	Had
+O	128	132	been
+O	133	138	sober
+
+O	139	142	for
+O	143	144	4
+O	145	150	years
+O	150	151	,
+O	152	160	relapsed
+O	161	163	in
+O	164	165	[
+O	165	166	*
+O	166	167	*
+O	167	168	5
+O	168	169	-
+O	169	171	24
+O	171	172	*
+O	172	173	*
+O	173	174	]
+O	174	175	.
+
+O	176	179	Had
+O	180	181	5
+O	182	189	gallons
+O	190	192	of
+B-Alcohol	193	198	vodka
+O	199	203	over
+O	204	205	7
+
+O	206	210	days
+O	210	211	.
+
+O	212	214	He
+O	215	218	has
+O	219	220	a
+O	221	222	h
+O	222	223	/
+O	223	224	o
+O	225	227	DT
+O	227	228	'
+O	228	229	s
+O	229	230	,
+O	231	234	but
+O	235	237	no
+O	238	239	h
+O	239	240	/
+O	240	241	o
+O	242	244	sz
+O	244	245	.
+
+O	246	248	He
+O	249	251	is
+O	252	260	involved
+O	261	263	in
+O	264	266	AA
+O	267	270	and
+
+O	271	274	has
+O	275	276	a
+O	277	284	sponsor
+O	284	285	.
+
+O	286	288	He
+O	289	296	stopped
+O	297	303	taking
+O	304	314	naltrexone
+O	315	318	and
+O	319	327	antabuse
+O	327	328	,
+O	329	332	and
+
+O	333	336	has
+O	337	339	no
+O	340	346	trials
+O	347	349	of
+O	350	353	tpx
+O	354	356	or
+O	357	364	campral
+O	364	365	.
+
+O	366	368	He
+O	369	372	has
+O	373	374	h
+O	374	375	/
+O	375	376	o
+O	377	381	dual
+O	382	384	dx
+O	385	388	and
+O	389	393	sect
+O	394	396	35
+O	396	397	.
+
+O	398	400	No
+O	401	406	other
+B-Drug	407	416	substance
+I-Drug	417	420	use
+O	420	421	.
+
+B-Tobacco	422	425	Tob
+O	425	426	:
+O	427	431	none
+O	431	432	,
+B-Drug	433	441	Illicits
+O	441	442	:
+O	443	447	none
+O	447	448	.

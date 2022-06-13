@@ -1,0 +1,34 @@
+T1	LivingStatus 20 25	lives
+T2	StatusTime 20 25	lives
+T3	TypeLiving 26 39	with his wife
+T4	Employment 44 59;60 67	a retired sales manager
+T5	StatusEmploy 44 59;60 67	a retired sales manager
+T6	Type 44 59;60 67	a retired sales manager
+T7	Tobacco 95 106	tobacco use
+T8	StatusTime 116 120	quit
+T9	History 121 133	13 years ago
+T10	Tobacco 154 160	smoked
+T11	Amount 161 175	[**1-5**] pack
+T12	Frequency 176 183	per day
+T13	Duration 184 187;188 196	for 40 years
+T14	StatusTime 136 149	Prior to that
+T15	Alcohol 202 208	drinks
+T16	StatusTime 202 208	drinks
+T17	Amount 209 233	approximately 1-2 drinks
+T18	Frequency 234 243	per month
+T19	Drug 249 270	recreational drug use
+T20	Type 249 261	recreational
+T21	StatusTime 246 248	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8 History:T9
+E4	Tobacco:T10 Status:T14 Amount:T11 Frequency:T12 Duration:T13
+E5	Alcohol:T15 Status:T16 Amount:T17 Frequency:T18
+E6	Drug:T19 Type:T20 Status:T21
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T14 past
+A6	StatusTimeVal T16 current
+A7	StatusTimeVal T21 none

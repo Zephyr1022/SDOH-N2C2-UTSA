@@ -1,0 +1,48 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	26	half
+O	27	28	a
+O	29	33	pack
+O	34	37	per
+O	38	41	day
+
+B-Alcohol	45	52	Alcohol
+I-Alcohol	53	56	Use
+O	56	57	:
+O	58	59	2
+O	59	60	-
+O	60	61	3
+O	62	66	week
+
+O	67	71	Drug
+O	72	75	Use
+O	75	76	:
+O	77	81	Meth
+O	82	83	(
+O	83	88	snort
+O	89	92	and
+O	93	99	inject
+O	100	102	in
+O	103	106	arm
+O	106	107	)
+
+O	109	115	SOCIAL
+O	116	123	HISTORY
+O	123	124	:
+
+O	126	135	Currently
+O	136	144	homeless
+O	144	145	,
+O	146	154	recently
+O	155	159	left
+O	160	164	jail
+O	164	165	.
+
+O	166	173	Staying
+O	174	178	with
+O	179	185	friend
+O	185	186	.

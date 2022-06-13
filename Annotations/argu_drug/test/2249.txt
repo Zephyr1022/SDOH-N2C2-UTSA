@@ -1,0 +1,10 @@
+HABITS: 
+Tobacco Use: Denies
+Alcohol Use: Denies
+Drug Use: Denies
+
+SOCIAL HISTORY: 
+Residence: [LOCATION], [LOCATION]
+Lives with Husband and Son
+Born in [LOCATION], immigrated thirteen years ago
+Works intermittently as housecleaner

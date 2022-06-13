@@ -1,0 +1,19 @@
+T1	Employment 31 55	a retired police officer
+T2	StatusEmploy 31 55	a retired police officer
+T3	Type 31 55	a retired police officer
+T4	Alcohol 202 206	EtOH
+T5	Tobacco 208 215	tobacco
+T6	Drug 220 224	IVDU
+T7	Type 220 224	IVDU
+T8	StatusTime 195 201	denies
+T9	Employment 65 75;76 82	previously worked
+T10	StatusEmploy 65 75;76 82	previously worked
+T11	Type 86 94	a deacon
+E1	Employment:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T8
+E3	Tobacco:T5 Status:T8
+E4	Drug:T6 Type:T7 Status:T8
+E5	Employment:T9 Status:T10 Type:T11
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T8 none
+A3	StatusEmployVal T10 unemployed

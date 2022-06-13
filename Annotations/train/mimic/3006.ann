@@ -1,0 +1,15 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 37 48	with family
+T3	StatusTime 17 22	Lives
+T4	Tobacco 58 65	tobacco
+T5	Alcohol 67 74	alcohol
+T6	Drug 76 88	street drugs
+T7	Type 76 82	street
+T8	StatusTime 51 57	Denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T8
+E3	Alcohol:T5 Status:T8
+E4	Drug:T6 Type:T7 Status:T8
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T8 none

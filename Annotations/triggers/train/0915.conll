@@ -1,0 +1,34 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	24	in
+O	25	26	[
+O	26	27	*
+O	27	28	*
+O	28	37	Hospital1
+O	38	42	1474
+O	42	43	*
+O	43	44	*
+O	44	45	]
+O	45	46	.
+
+B-Employment	47	54	Retired
+I-Employment	55	67	exterminator
+O	67	68	.
+
+O	69	75	States
+B-Alcohol	76	82	drinks
+O	83	90	whiskey
+
+O	91	96	daily
+O	97	98	(
+O	98	105	unknown
+O	106	115	quantitiy
+O	115	116	)
+O	116	117	.
+
+B-Tobacco	118	121	Non
+I-Tobacco	121	122	-
+I-Tobacco	122	128	smoker

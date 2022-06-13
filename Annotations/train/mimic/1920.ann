@@ -1,0 +1,24 @@
+T3	LivingStatus 239 244	lives
+T4	TypeLiving 245 266	with him and his wife
+T5	StatusTime 239 244	lives
+T6	Employment 279 285	worked
+T7	StatusEmploy 268 285	Previously worked
+T8	Type 289 301	a restaurant
+T9	Employment 312 322	unemployed
+T10	StatusEmploy 312 322	unemployed
+T11	Duration 323 343	for the past 5 years
+T12	Alcohol 448 452	etoh
+T13	Tobacco 465 472	tobacco
+T14	Drug 476 484	drug use
+T15	StatusTime 441 447	Denies
+E2	LivingStatus:T3 Type:T4 Status:T5
+E3	Employment:T6 Type:T8 Status:T7
+E4	Employment:T9 Duration:T11 Status:T10
+E5	Alcohol:T12 Status:T15
+E6	Tobacco:T13 Status:T15
+E7	Drug:T14 Status:T15
+A1	TypeLivingVal T4 with_family
+A2	StatusTimeVal T5 current
+A3	StatusEmployVal T7 unemployed
+A4	StatusEmployVal T10 unemployed
+A5	StatusTimeVal T15 none

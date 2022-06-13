@@ -1,0 +1,25 @@
+T1	LivingStatus 108 113	lives
+T2	StatusTime 108 113	lives
+T3	TypeLiving 114 130	with 2 roommates
+T4	Employment 93 107	sells software
+T5	Type 93 107	sells software
+T6	StatusEmploy 93 107	sells software
+T7	Tobacco 67 74	smoking
+T8	Drug 58 63	drugs
+T9	StatusTime 55 57	no
+T10	StatusTime 64 66	no
+T11	Alcohol 32 39	alcohol
+T12	StatusTime 9 15	drinks
+T13	Amount 16 39	about 5-6 oz of alcohol
+T14	Frequency 40 54	about 1-2/week
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Status:T6 Type:T5
+E3	Tobacco:T7 Status:T10
+E4	Drug:T8 Status:T9
+E5	Alcohol:T11 Amount:T13 Status:T12 Frequency:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T6 employed
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T10 none
+A6	StatusTimeVal T12 current

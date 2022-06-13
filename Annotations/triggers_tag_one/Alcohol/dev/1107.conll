@@ -1,0 +1,76 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Social
+O	23	30	history
+O	31	33	is
+O	34	45	significant
+O	46	49	for
+O	50	53	the
+O	54	55	1
+O	56	60	pack
+O	61	64	per
+O	65	68	day
+O	69	76	tobacco
+O	77	80	use
+
+O	81	86	since
+O	87	90	age
+O	91	93	15
+O	93	94	.
+
+O	95	97	He
+O	98	110	acknowledges
+B-Alcohol	111	118	alcohol
+I-Alcohol	119	124	abuse
+O	124	125	,
+O	126	127	[
+O	127	128	*
+O	128	129	*
+O	129	130	7
+O	130	131	-
+O	131	133	15
+O	133	134	*
+O	134	135	*
+O	135	136	]
+O	137	143	drinks
+O	144	146	at
+O	147	148	a
+
+O	149	153	time
+O	154	158	when
+O	159	161	he
+O	162	166	does
+O	167	172	drink
+O	172	173	,
+O	174	177	but
+O	178	182	some
+O	183	188	weeks
+O	189	191	he
+O	192	196	does
+O	197	200	not
+O	201	206	drink
+O	206	207	.
+
+O	209	211	He
+
+O	212	216	does
+O	217	223	report
+O	224	225	a
+O	226	233	history
+O	234	236	of
+O	237	244	cocaine
+O	245	248	use
+O	248	249	,
+O	250	253	and
+O	254	258	says
+O	259	262	his
+O	263	267	last
+O	268	272	time
+O	273	276	was
+
+O	277	278	2
+O	279	284	years
+O	285	288	ago
+O	288	289	.

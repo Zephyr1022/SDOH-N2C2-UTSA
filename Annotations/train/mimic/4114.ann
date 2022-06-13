@@ -1,0 +1,25 @@
+T1	LivingStatus 17 22	lives
+T2	StatusTime 17 22	lives
+T3	TypeLiving 23 39	at Roots Shelter
+T4	Amount 48 67	a quarter of a pack
+T5	Frequency 68 73	a day
+T6	StatusTime 41 47	Smokes
+T7	Tobacco 41 47	Smokes
+T9	Amount 82 111	100 pack year smoking history
+T11	Drug 118 124	heroin
+T12	StatusTime 113 117	Uses
+T13	Type 118 124	heroin
+T14	Alcohol 151 158	alcohol
+T15	Drug 139 147	illicits
+T16	Type 139 147	illicits
+T17	StatusTime 126 138	Denies other
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T7 Status:T6 Amount:T4 Frequency:T5 Amount2:T9
+E4	Drug:T11 Status:T12 Type:T13
+E5	Alcohol:T14 Status:T17
+E6	Drug:T15 Status:T17 Type:T16
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T6 current
+A5	StatusTimeVal T12 current
+A6	StatusTimeVal T17 none

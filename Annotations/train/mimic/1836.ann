@@ -1,0 +1,21 @@
+T1	Alcohol 61 74	alcohol abuse
+T3	StatusTime 45 60	Long history of
+T4	Duration 76 83;84 89	over 10 years
+T5	Tobacco 99 105	smoker
+T6	StatusTime 91 98	Current
+T7	Drug 114 128	other drug use
+T8	Type 114 119	other
+T9	StatusTime 107 113	Denies
+T10	Alcohol 191 197	Drinks
+T11	Amount 198 212;213 217	[**2-8**] to 1 pint
+T12	Type 218 224	brandy
+T13	Frequency 225 232	per day
+T14	StatusTime 191 197	Drinks
+E1	Alcohol:T1 Status:T3 Duration:T4
+E2	Tobacco:T5 Status:T6
+E3	Drug:T7 Type:T8 Status:T9
+E4	Alcohol:T10 Amount:T11 Type:T12 Frequency:T13 Status:T14
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T14 current

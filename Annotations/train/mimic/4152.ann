@@ -1,0 +1,21 @@
+T4	Alcohol 60 73	alcohol abuse
+T6	StatusTime 60 73	alcohol abuse
+T7	Tobacco 110 117	Tobacco
+T8	Amount 118 123	1 PPD
+T9	Duration 124 135	since 16y/o
+T10	StatusTime 124 135	since 16y/o
+T11	Drug 137 150	marijuana use
+T12	StatusTime 137 150	marijuana use
+T13	Type 137 146	marijuana
+T14	Drug 203 208	crack
+T15	Type 203 208	crack
+T16	Method 195 202	smoking
+T17	StatusTime 186 194	endorses
+E2	Alcohol:T4 Status:T6
+E3	Tobacco:T7 Amount:T8 Duration:T9 Status:T10
+E4	Drug:T11 Status:T12 Type:T13
+E5	Drug:T14 Method:T16 Type:T15 Status:T17
+A4	StatusTimeVal T6 current
+A5	StatusTimeVal T10 current
+A6	StatusTimeVal T12 current
+A7	StatusTimeVal T17 current

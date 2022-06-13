@@ -1,0 +1,9 @@
+T1	Alcohol 17 21	ETOH
+T2	StatusTime 17 21	ETOH
+T3	Drug 23 30	Cocaine
+T4	StatusTime 23 30	Cocaine
+T5	Type 23 30	Cocaine
+E1	Alcohol:T1 Status:T2
+E2	Drug:T3 Status:T4 Type:T5
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 current

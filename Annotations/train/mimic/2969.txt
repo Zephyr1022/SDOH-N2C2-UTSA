@@ -1,0 +1,6 @@
+HABITS: 
+Prior marijuana use - quit [DATE]
+Tobacco Use: denies current use   Alcohol Use: denies current use   Drug Use: denies current use
+
+SOCIAL HISTORY: 
+Residence: Lives in [LOCATION] with her sister

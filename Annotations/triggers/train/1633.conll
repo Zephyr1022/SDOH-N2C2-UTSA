@@ -1,0 +1,30 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	19	Pt
+O	19	20	.
+O	21	26	lives
+O	27	28	_
+O	28	29	_
+
+B-Tobacco	30	37	Tobacco
+O	37	38	:
+O	39	45	Denies
+O	45	46	.
+
+B-Alcohol	47	54	Alcohol
+O	54	55	:
+O	56	62	Denies
+O	62	63	.
+
+B-Drug	64	73	Marijuana
+O	73	74	:
+O	75	81	Denies
+O	81	82	.
+
+B-Drug	83	95	Recreational
+I-Drug	96	101	Drugs
+O	101	102	:
+O	103	109	Denies
+O	109	110	.

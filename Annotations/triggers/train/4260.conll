@@ -1,0 +1,58 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	12	per
+O	13	18	prior
+O	19	24	admit
+O	25	29	note
+
+B-Tobacco	30	37	Tobacco
+I-Tobacco	38	41	Use
+O	41	42	:
+O	43	46	Not
+O	47	56	currently
+O	56	57	,
+O	58	66	previous
+O	67	74	unknown
+
+B-Alcohol	75	82	Alcohol
+I-Alcohol	83	86	Use
+O	86	87	:
+O	88	91	Not
+O	92	101	currently
+O	101	102	,
+O	103	111	previous
+O	112	119	unknown
+
+B-Drug	120	124	Drug
+I-Drug	125	128	Use
+O	128	129	:
+O	130	131	h
+O	131	132	/
+O	132	133	o
+O	134	141	cocaine
+O	142	145	use
+O	145	146	,
+O	147	152	other
+O	153	158	drugs
+O	159	166	unknown
+
+O	168	174	SOCIAL
+O	175	182	HISTORY
+O	182	183	:
+
+O	185	186	[
+O	186	187	X
+O	187	188	]
+O	189	195	Unable
+O	196	198	to
+O	199	205	Obtain
+O	206	209	due
+O	210	212	to
+O	213	220	Patient
+O	221	230	Condition
+
+B-LivingStatus	231	240	Residence
+O	240	241	:
+O	242	247	Group
+O	248	254	Health

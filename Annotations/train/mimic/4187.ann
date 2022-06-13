@@ -1,0 +1,24 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	denies
+T3	Alcohol 31 42	Alcohol Use
+T4	StatusTime 54 59	prior
+T6	Duration 66 77	for ~1 week
+T7	Drug 91 99	Drug Use
+T8	StatusTime 101 107	denies
+T11	Employment 209 213	work
+T12	StatusEmploy 201 213	Used to work
+T13	Type 217 224	airport
+T14	LivingStatus 261 270	Residence
+T15	StatusTime 272 297	Seattle City Hall Shelter
+T16	TypeLiving 272 297	Seattle City Hall Shelter
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4 Duration:T6
+E3	Drug:T7 Status:T8
+E5	Employment:T11 Status:T12 Type:T13
+E6	LivingStatus:T14 Status:T15 Type:T16
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 past
+A4	StatusTimeVal T8 none
+A5	StatusEmployVal T12 unemployed
+A6	StatusTimeVal T15 current
+A7	TypeLivingVal T16 homeless

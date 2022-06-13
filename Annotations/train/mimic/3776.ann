@@ -1,0 +1,53 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	Remote
+T3	Alcohol 31 42	Alcohol Use
+T4	StatusTime 44 48	None
+T5	Drug 50 58	Drug Use
+T6	StatusTime 60 64	None
+T7	LivingStatus 92 97	lives
+T8	StatusTime 92 97	lives
+T9	TypeLiving 137 152	with his mother
+T10	Employment 157 170	on disability
+T11	StatusEmploy 157 170	on disability
+T12	Employment 180 184	work
+T13	StatusEmploy 172 184	Used to work
+T14	Type 188 213	the dry cleaning business
+T15	StatusTime 216 221	-Quit
+T16	Tobacco 222 229	smoking
+T17	History 230 241	2 weeks ago
+T18	Alcohol 261 268	alcohol
+T19	StatusTime 257 260	-No
+T20	Drug 281 285	drug
+T21	Type 271 277	Heroin
+T22	StatusTime 270 295	-Heroin is drug of choice
+T23	Drug 320 335	methadone pills
+T24	Type 320 335	methadone pills
+T25	StatusTime 353 398	often 1-2 10 mg tabs - about every 2-3 months
+T26	Amount 359 373	1-2 10 mg tabs
+T27	Frequency 376 398	about every 2-3 months
+T28	Drug 406 413	cocaine
+T29	StatusTime 402 422	-No cocaine recently
+T30	Type 406 413	cocaine
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Status:T8 Type:T9
+E5	Employment:T10 Status:T11
+E6	Employment:T12 Status:T13 Type:T14
+E7	Tobacco:T16 Status:T15 History:T17
+E8	Alcohol:T18 Status:T19
+E9	Drug:T20 Status:T22 Type:T21
+E10	Drug:T23 Type:T24 Amount:T26 Status:T25 Frequency:T27
+E11	Drug:T28 Type:T30 Status:T29
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 with_family
+A6	StatusEmployVal T11 on_disability
+A7	StatusEmployVal T13 unemployed
+A8	StatusTimeVal T15 past
+A9	StatusTimeVal T19 none
+A10	StatusTimeVal T22 current
+A11	StatusTimeVal T25 current
+A12	StatusTimeVal T29 past

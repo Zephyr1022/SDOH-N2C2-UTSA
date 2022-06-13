@@ -1,0 +1,10 @@
+SOCIAL HISTORY:
+Race:	[_]Caucasian  [x]African American  [_]Asian/Pacific Islander  [_]Hispanic
+	[_]Native American	[_]Other: _
+Marital:  [_]Single  [x]Currently married/partnered  [_]Divorced  [_]Widowed
+[_]History of Childhood abuse or neglect
+Education:  _ years
+Employment Status
+[_]  Currently employed or student
+[_]  Retired or Disabled
+[x]  NOT currently employed or attending school

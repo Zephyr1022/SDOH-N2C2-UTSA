@@ -1,0 +1,23 @@
+T1	Tobacco 21 32	Tobacco Use
+T2	StatusTime 33 55	1-2 cigarettes per day
+T3	Amount 33 47	1-2 cigarettes
+T4	Type 37 47	cigarettes
+T5	Frequency 48 55	per day
+T6	Alcohol 61 72	Alcohol Use
+T7	StatusTime 73 79	Denies
+T8	Drug 85 93	Drug Use
+T9	Method 94 96	IV
+T10	Type 97 103	heroin
+T11	StatusTime 104 111	current
+T12	LivingStatus 132 141	Residence
+T13	StatusTime 142 148	Living
+T14	TypeLiving 149 168	at a friend's house
+E1	Tobacco:T1 Status:T2 Amount:T3 Type:T4 Frequency:T5
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Method:T9 Type:T10 Status:T11
+E4	LivingStatus:T12 Status:T13 Type:T14
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T11 current
+A4	StatusTimeVal T13 current
+A5	TypeLivingVal T14 homeless

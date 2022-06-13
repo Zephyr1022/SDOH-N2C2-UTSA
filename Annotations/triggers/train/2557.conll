@@ -1,0 +1,17 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	21	quit
+B-Tobacco	22	32	cigarettes
+O	33	34	3
+O	34	35	-
+O	35	36	4
+O	37	42	years
+O	43	48	prior
+
+B-LivingStatus	49	54	lives
+O	55	57	at
+O	58	62	1811
+O	63	71	Eastlake
+O	72	79	shelter

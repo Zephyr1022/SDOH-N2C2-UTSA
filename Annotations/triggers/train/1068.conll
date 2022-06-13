@@ -1,0 +1,64 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	27	alone
+O	28	30	in
+O	31	40	apartment
+O	40	41	,
+O	42	45	has
+O	46	50	been
+B-LivingStatus	51	59	homeless
+O	60	62	in
+O	63	67	past
+O	67	68	,
+O	69	78	contracts
+
+O	79	81	as
+O	82	84	an
+O	85	94	architect
+O	95	98	but
+B-Employment	99	108	currently
+I-Employment	109	112	not
+I-Employment	113	120	working
+O	120	121	,
+O	122	130	divorced
+O	130	131	,
+O	132	133	1
+O	134	139	child
+O	139	140	.
+
+O	141	145	Past
+B-Drug	146	150	IVDA
+O	150	151	,
+O	152	159	current
+O	160	170	intranasal
+B-Drug	171	177	heroin
+O	178	181	and
+B-Drug	182	187	crack
+I-Drug	188	195	cocaine
+O	196	197	(
+O	197	205	recently
+
+O	206	213	started
+O	214	219	after
+O	220	230	abstaining
+O	230	231	)
+O	231	232	.
+
+O	233	236	Has
+B-Alcohol	237	242	heavy
+I-Alcohol	243	247	EtOH
+O	248	250	in
+O	251	255	past
+O	256	259	but
+O	260	266	denies
+O	267	270	any
+
+O	271	279	recently
+O	279	280	.
+
+B-Tobacco	281	288	Current
+I-Tobacco	289	295	smoker
+O	295	296	.

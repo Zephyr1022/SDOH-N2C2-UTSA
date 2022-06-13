@@ -1,0 +1,14 @@
+T1	Tobacco 131 143	Never smoker
+T2	StatusTime 131 143	Never smoker
+T3	Alcohol 160 167	alcohol
+T4	StatusTime 145 159	Does not drink
+T5	LivingStatus 170 175	Lives
+T6	StatusTime 170 175	Lives
+T7	TypeLiving 201 213	with parents
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	LivingStatus:T5 Status:T6 Type:T7
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 current
+A4	TypeLivingVal T7 with_family

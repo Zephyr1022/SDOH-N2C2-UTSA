@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: N   Alcohol Use: rare   Drug Use: none
+
+SOCIAL HISTORY: 
+Residence: lives with wife in [LOCATION], [LOCATION]
+Worked as ship captain

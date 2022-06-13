@@ -1,0 +1,29 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 41 72	with brother in law and brother
+T4	Employment 94 96;97 107	on disability
+T5	StatusEmploy 94 96;97 107	on disability
+T6	History 109 125	since [**2149**]
+T7	Tobacco 187 193	Smoker
+T8	Amount 223 236	up to 4 packs
+T9	StatusTime 187 193	Smoker
+T10	Frequency 236 240	/day
+T11	Duration 241 249;250 255	for many years
+T12	History 290 305;306 315	2 days prior to admission
+T13	Alcohol 332 340	EtOH use
+T14	StatusTime 342 359	previous drinking
+T15	Drug 373 380;381 386	illicit drugs
+T16	StatusTime 362 368	denies
+T17	Type 373 380	illicit
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 History:T6
+E3	Tobacco:T7 Amount:T8 Status:T9 Frequency:T10 Duration:T11 History:T12 Amount2:T18
+E4	Alcohol:T13 Status:T14
+E5	Drug:T15 Status:T16 Type:T17
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 on_disability
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T14 past
+A6	StatusTimeVal T16 none
+T18	Amount 199 213	many pack-year

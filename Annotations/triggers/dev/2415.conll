@@ -1,0 +1,28 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	15	Denies
+B-Tobacco	16	23	tobacco
+O	23	24	,
+B-Alcohol	25	29	EtOH
+O	29	30	,
+B-Drug	31	35	drug
+I-Drug	36	39	use
+
+O	41	47	SOCIAL
+O	48	55	HISTORY
+O	55	56	:
+
+B-LivingStatus	58	63	Lives
+O	64	68	with
+O	69	72	her
+O	73	77	wife
+O	77	78	,
+O	79	80	[
+O	80	84	NAME
+O	84	85	]
+O	85	86	.
+
+O	87	90	Not
+O	91	100	currently
+B-Employment	101	108	working

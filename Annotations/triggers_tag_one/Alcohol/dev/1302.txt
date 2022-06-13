@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: n_   Alcohol Use: _n   Drug Use: _n
+
+SOCIAL HISTORY: 
+[_] Unable to Obtain due to Patient Condition
+Residence: _  Patient used to live in [LOCATION] with his wife and three children.  However, due to his medical condition, he is living in [LOCATION] with his wife now and they have not seen their children very much.  Worked at a [LOCATION] prior to becoming so ill.

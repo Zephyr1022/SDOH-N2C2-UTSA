@@ -1,0 +1,7 @@
+HABITS: 
+former smoker, no other substances
+
+SOCIAL HISTORY: 
+per Dr. [NAME]'s outpatient palliative care note [DATE]
+Residence: [LOCATION] home care
+Divored, has 3 children, [NAME] who is local, [NAME] and [NAME] who are on the [LOCATION]. He is a retired management consultant.

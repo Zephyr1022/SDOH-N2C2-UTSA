@@ -1,0 +1,25 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	15	Denies
+O	16	23	alcohol
+O	23	24	,
+O	25	32	tobacco
+O	33	35	or
+O	36	40	drug
+O	41	44	use
+
+O	46	52	SOCIAL
+O	53	60	HISTORY
+O	60	61	:
+
+O	63	72	Residence
+O	72	73	:
+O	74	79	Lives
+O	80	84	with
+O	85	91	mother
+O	92	94	in
+O	95	96	[
+O	96	104	LOCATION
+O	104	105	]
+O	106	110	area

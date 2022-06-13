@@ -1,0 +1,46 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	27	alone
+O	28	32	with
+O	33	36	her
+O	37	40	son
+O	41	43	in
+O	44	46	an
+O	47	56	apartment
+O	57	59	in
+O	60	61	[
+O	61	62	*
+O	62	63	*
+O	63	67	Name
+O	68	69	(
+O	69	71	NI
+O	71	72	)
+O	73	76	745
+O	76	77	*
+O	77	78	*
+O	78	79	]
+O	79	80	.
+
+O	82	91	Graduated
+
+O	92	99	college
+O	99	100	.
+
+O	102	105	She
+O	106	109	has
+O	110	111	a
+O	112	123	restraining
+O	124	129	order
+O	130	137	against
+O	138	141	the
+O	142	148	father
+O	149	151	of
+O	152	155	her
+
+O	156	157	3
+O	158	160	yo
+O	161	164	son
+O	164	165	.

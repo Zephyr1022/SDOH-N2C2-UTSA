@@ -1,0 +1,22 @@
+T1	LivingStatus 17 22	lives
+T2	StatusTime 17 22	lives
+T3	TypeLiving 23 36	with roommate
+T4	Tobacco 65 71	smoker
+T5	StatusTime 63 64	+
+T6	Alcohol 74 81	alcohol
+T7	Amount 82 92	2-3 drinks
+T8	StatusTime 72 73	+
+T9	Frequency 94 101	3x week
+T10	StatusTime 102 103	+
+T11	Type 104 108	meth
+T12	Drug 104 112	meth use
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T8 Amount:T7 Frequency:T9
+E4	Drug:T12 Status:T10 Type:T11 History:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T10 current
+T13	History 124 134	2 days ago

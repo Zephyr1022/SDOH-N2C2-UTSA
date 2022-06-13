@@ -1,0 +1,20 @@
+T1	StatusTime 16 21	Lives
+T2	LivingStatus 16 21	Lives
+T3	TypeLiving 22 31	with wife
+T4	Employment 32 39	Retired
+T5	StatusEmploy 32 39	Retired
+T6	Tobacco 64 71	tobacco
+T7	StatusTime 72 76	quit
+T8	History 77 87	[**2141**]
+T9	Alcohol 88 103	Occasional wine
+T11	Frequency 104 112	w/dinner
+T12	StatusTime 88 103	Occasional wine
+E1	LivingStatus:T2 Status:T1 Type:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T7 History:T8
+E4	Alcohol:T9 Frequency:T11 Status:T12
+A1	StatusTimeVal T1 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T7 past
+A6	StatusTimeVal T12 current

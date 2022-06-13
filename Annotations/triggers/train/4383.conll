@@ -1,0 +1,39 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	16	21	Lives
+O	22	24	in
+O	25	26	[
+O	26	34	LOCATION
+O	34	35	]
+
+O	36	38	No
+B-Tobacco	39	46	smoking
+
+O	47	54	Reports
+O	55	56	2
+O	56	57	-
+O	57	58	3
+B-Alcohol	59	65	drinks
+O	65	66	,
+O	67	68	2
+O	68	69	-
+O	69	70	3
+O	71	76	times
+O	77	83	weekly
+O	83	84	,
+O	85	89	last
+O	90	95	drink
+O	96	97	[
+O	97	101	DATE
+O	101	102	]
+O	102	103	,
+O	104	113	adamantly
+O	114	120	denies
+O	121	125	EtOH
+O	126	136	withdrawal
+
+O	137	143	Denies
+B-Drug	144	148	drug
+I-Drug	149	152	use

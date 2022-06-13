@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: None reported. History of tobacco use [DATE]. 
+Alcohol Use: None reported  
+Drug Use: None reported
+
+SOCIAL HISTORY: 
+Residence: Lives with partner in [LOCATION], [LOCATION]

@@ -1,0 +1,45 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	22	Social
+O	23	30	History
+O	30	31	:
+O	32	41	Unmarried
+O	42	45	but
+B-LivingStatus	46	51	lives
+O	52	56	long
+O	56	57	-
+O	57	61	term
+O	62	66	with
+O	67	78	significant
+
+O	79	84	other
+O	84	85	.
+
+O	86	90	1ppd
+B-Tobacco	91	98	tobacco
+O	99	100	(
+O	100	102	40
+O	103	107	pack
+O	107	108	-
+O	108	113	years
+O	113	114	)
+O	114	115	.
+
+B-Alcohol	116	122	Social
+I-Alcohol	123	127	EtOH
+O	127	128	.
+
+B-Drug	129	135	Former
+I-Drug	136	143	cocaine
+
+B-Drug	144	147	and
+I-Drug	148	154	opiate
+I-Drug	155	159	user
+O	159	160	,
+O	161	166	sober
+O	167	168	>
+O	168	169	6
+O	170	176	months
+O	176	177	.

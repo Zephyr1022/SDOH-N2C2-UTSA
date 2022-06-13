@@ -1,0 +1,16 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	23	widowed
+
+O	24	29	lives
+O	30	35	alone
+
+O	36	43	retired
+O	44	53	machinist
+
+O	54	56	no
+B-Alcohol	57	61	etoh
+O	61	62	,
+O	63	66	tob

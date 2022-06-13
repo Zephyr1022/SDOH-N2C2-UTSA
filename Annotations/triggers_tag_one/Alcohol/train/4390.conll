@@ -1,0 +1,36 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	21	25	none
+
+B-Alcohol	26	30	ETOH
+O	31	32	1
+O	33	38	drink
+O	38	39	.
+
+O	40	41	/
+O	42	43	6
+O	44	49	weeks
+
+O	51	57	SOCIAL
+O	58	65	HISTORY
+O	65	66	:
+
+O	68	73	Lives
+O	74	76	in
+O	77	83	senior
+O	84	92	building
+O	93	95	at
+O	96	97	[
+O	97	105	LOCATION
+O	105	106	]
+O	106	107	.
+
+O	108	111	Son
+O	112	117	lives
+O	118	120	in
+O	121	122	[
+O	122	130	LOCATION
+O	130	131	]

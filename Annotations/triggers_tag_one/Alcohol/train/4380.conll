@@ -1,0 +1,73 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	16	Tobacco
+O	17	20	Use
+O	20	21	:
+O	22	28	Denies
+
+B-Alcohol	32	39	Alcohol
+I-Alcohol	40	43	Use
+O	43	44	:
+O	45	49	Used
+O	50	52	to
+O	53	58	drink
+O	59	64	until
+O	65	66	'
+O	66	67	I
+O	68	72	fell
+O	73	77	down
+O	77	78	,
+O	78	79	'
+O	80	83	has
+O	84	91	history
+O	92	94	of
+O	95	101	severe
+O	102	112	withdrawal
+O	112	113	.
+
+O	114	117	Now
+O	118	126	endorses
+B-Alcohol	127	135	drinking
+O	136	138	at
+O	139	144	least
+O	145	146	a
+O	147	150	six
+O	151	155	pack
+O	156	159	per
+O	160	163	day
+O	163	164	.
+
+O	166	170	Drug
+O	171	174	Use
+O	174	175	:
+O	176	182	denies
+
+O	184	190	SOCIAL
+O	191	198	HISTORY
+O	198	199	:
+
+O	201	211	Unemployed
+O	211	212	,
+O	213	221	unstable
+O	222	229	housing
+O	230	231	-
+O	232	239	reports
+O	240	247	staying
+O	248	250	in
+O	251	253	an
+O	254	258	area
+O	259	260	'
+O	260	264	like
+O	265	266	a
+O	267	273	church
+O	273	274	'
+O	274	275	.
+
+O	276	284	Sexually
+O	285	291	active
+O	292	296	with
+O	297	300	men
+O	301	304	and
+O	305	310	women
+O	310	311	.

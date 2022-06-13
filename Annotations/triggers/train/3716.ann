@@ -1,0 +1,7 @@
+T1	Tobacco 9 20	Tobacco Use
+T5	Alcohol 61 72	Alcohol Use
+T8	Drug 118 125	THC Use
+T12	Drug 169 177	Drug Use
+T16	Drug 234 238	IVDU
+T19	LivingStatus 308 314	living
+T7	LivingStatus 262 271	Residence

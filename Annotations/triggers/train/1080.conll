@@ -1,0 +1,16 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	16	18	He
+O	19	22	has
+O	23	25	no
+B-Tobacco	26	33	smoking
+I-Tobacco	34	41	history
+O	41	42	.
+
+O	44	46	He
+O	47	53	denies
+
+O	54	62	drinking
+B-Alcohol	63	70	alcohol
+O	70	71	.

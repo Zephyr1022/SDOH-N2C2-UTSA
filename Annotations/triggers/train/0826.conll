@@ -1,0 +1,89 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	27	alone
+O	28	30	at
+O	31	35	home
+O	35	36	.
+
+O	37	40	His
+O	41	48	brother
+O	49	52	and
+O	53	60	brother
+O	60	61	'
+O	61	62	s
+O	63	67	wife
+O	68	69	(
+O	69	71	an
+O	72	76	aide
+O	76	77	)
+
+O	78	81	are
+O	82	84	in
+O	85	90	close
+O	91	94	and
+O	95	101	nearly
+O	102	110	constant
+O	111	118	contact
+O	118	119	,
+O	120	122	as
+O	123	126	are
+O	127	130	his
+O	131	136	three
+
+O	137	145	children
+O	145	146	.
+
+O	147	151	They
+O	152	155	are
+O	156	160	very
+O	161	169	involved
+O	170	172	in
+O	173	176	his
+O	177	181	care
+O	182	185	and
+O	186	193	provide
+O	194	195	a
+O	196	201	great
+
+O	202	206	deal
+O	207	209	of
+O	210	217	support
+O	217	218	.
+
+O	219	221	In
+O	222	230	addition
+O	230	231	,
+O	232	234	he
+O	235	238	has
+O	239	240	a
+O	241	244	VNA
+O	245	248	who
+O	249	254	comes
+O	255	257	to
+O	258	262	help
+O	262	263	.
+
+O	264	266	He
+
+O	267	273	denies
+O	274	278	ever
+B-Tobacco	279	286	smoking
+O	286	287	,
+O	288	291	but
+O	292	295	was
+O	296	303	exposed
+O	304	306	to
+O	307	317	cigarettes
+O	318	320	as
+O	321	322	a
+O	323	328	child
+O	328	329	.
+
+O	330	332	No
+B-Alcohol	333	344	significant
+I-Alcohol	345	349	etoh
+I-Alcohol	350	355	abuse
+O	355	356	.

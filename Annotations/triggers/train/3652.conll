@@ -1,0 +1,31 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	27	never
+B-Alcohol	30	37	Alcohol
+I-Alcohol	38	41	Use
+O	41	42	:
+O	43	49	social
+B-Drug	52	56	Drug
+I-Drug	57	60	Use
+O	60	61	:
+O	62	76	dailymarijuana
+
+O	78	84	SOCIAL
+O	85	92	HISTORY
+O	92	93	:
+
+B-LivingStatus	95	100	lives
+O	101	105	with
+O	106	116	girlfriend
+
+B-Employment	117	122	works
+O	123	125	as
+O	126	136	contractor
+O	137	140	for
+O	141	142	[
+O	142	152	PROFESSION
+O	152	153	]

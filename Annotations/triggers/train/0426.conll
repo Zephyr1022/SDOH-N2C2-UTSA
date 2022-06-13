@@ -1,0 +1,14 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	18	Pt
+O	19	25	denies
+B-Alcohol	26	30	EtOH
+O	30	31	,
+B-Tobacco	32	39	tobacco
+O	39	40	,
+O	41	44	and
+B-Drug	45	57	recreational
+I-Drug	58	62	drug
+I-Drug	63	66	use

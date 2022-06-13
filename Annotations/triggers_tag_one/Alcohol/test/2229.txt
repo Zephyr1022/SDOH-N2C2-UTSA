@@ -1,0 +1,5 @@
+HABITS: 
+Patient unable to provide history due to being intubated, sedated.
+
+SOCIAL HISTORY: 
+Unable to Obtain due to Patient Condition

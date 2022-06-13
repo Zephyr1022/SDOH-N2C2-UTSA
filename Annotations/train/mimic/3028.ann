@@ -1,0 +1,12 @@
+T1	StatusTime 25 31	Denies
+T2	StatusTime 38 44	Denies
+T3	StatusTime 52 58	Denies
+T4	Drug 45 50	Drugs
+T5	Alcohol 32 36	EtOH
+T6	Tobacco 16 23	Tobacco
+E1	Drug:T4 Status:T3
+E2	Alcohol:T5 Status:T2
+E3	Tobacco:T6 Status:T1
+A1	StatusTimeVal T1 none
+A2	StatusTimeVal T2 none
+A3	StatusTimeVal T3 none

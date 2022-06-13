@@ -1,0 +1,31 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 34	with sister
+T4	Tobacco 71 73	T-
+T5	StatusTime 74 88	rare cigarette
+T6	Type 79 88	cigarette
+T7	Alcohol 89 91	E-
+T8	StatusTime 92 98	denies
+T9	Drug 99 101	D-
+T10	StatusTime 102 116	rare MJ edible
+T11	Type 107 109	MJ
+T12	Method 110 116	edible
+T13	StatusTime 118 124	denies
+T14	Drug 125 134	other use
+T15	Employment 36 50	runs a daycare
+T16	StatusEmploy 36 50	runs a daycare
+T17	Type 36 50	runs a daycare
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 Type:T6
+E3	Alcohol:T7 Status:T8
+E4	Drug:T9 Status:T10 Method:T12 Type:T11
+E5	Drug:T14 Status:T13 Type:T18
+E6	Employment:T15 Status:T16 Type:T17
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T10 current
+A6	StatusTimeVal T13 none
+A7	StatusEmployVal T16 employed
+T18	Type 125 130	other

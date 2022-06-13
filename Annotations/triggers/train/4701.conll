@@ -1,0 +1,152 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+O	17	20	The
+O	21	28	patient
+O	29	35	states
+O	36	40	that
+O	41	43	he
+O	44	47	was
+O	48	53	clean
+O	54	57	and
+
+B-Alcohol	58	63	sober
+O	64	67	for
+O	68	73	three
+O	74	79	years
+O	80	85	until
+O	86	90	this
+O	91	95	past
+O	96	100	week
+O	100	101	.
+
+O	103	105	He
+O	106	112	states
+O	113	117	that
+
+O	118	121	the
+O	122	128	stress
+O	129	131	of
+O	132	135	his
+O	136	143	illness
+O	144	147	and
+O	148	151	his
+O	152	158	mother
+O	158	159	'
+O	159	160	s
+O	161	168	illness
+O	168	169	,
+O	170	173	who
+O	174	176	is
+
+O	177	180	bed
+O	181	186	bound
+O	187	193	status
+O	194	198	post
+O	199	202	CVA
+O	202	203	,
+O	204	207	had
+O	208	216	prompted
+O	217	221	this
+O	222	225	use
+O	225	226	.
+
+O	228	235	Patient
+
+B-LivingStatus	236	241	lives
+O	242	247	alone
+O	248	251	and
+O	252	258	states
+O	259	263	that
+O	264	266	he
+O	267	270	has
+O	271	275	been
+O	276	280	very
+O	281	290	depressed
+O	291	293	at
+
+O	294	298	home
+O	299	302	and
+O	303	307	felt
+O	308	312	that
+O	313	316	his
+O	317	323	family
+O	324	330	avoids
+O	331	334	him
+O	335	342	because
+O	343	345	of
+O	346	349	his
+O	350	353	HIV
+
+O	354	360	status
+O	361	364	and
+O	365	370	feels
+O	371	375	that
+O	376	378	he
+O	379	385	cannot
+O	386	390	take
+O	391	395	care
+O	396	398	of
+O	399	406	himself
+
+O	407	420	appropriately
+O	420	421	.
+
+O	423	426	His
+O	427	433	sister
+O	434	437	and
+O	438	441	his
+O	442	447	niece
+O	448	450	do
+O	451	455	look
+O	456	458	in
+O	459	461	on
+O	462	465	him
+
+O	466	476	frequently
+O	476	477	,
+O	478	485	however
+O	485	486	.
+
+O	488	491	Per
+O	492	498	report
+O	499	501	of
+O	502	505	his
+O	506	512	sister
+O	513	516	and
+O	517	520	his
+O	521	526	niece
+O	526	527	,
+
+O	528	531	his
+O	532	537	house
+O	538	540	is
+O	541	551	disordered
+O	552	555	and
+O	556	560	they
+O	561	568	comment
+O	569	573	that
+O	574	581	patient
+O	582	584	is
+
+O	585	591	barely
+O	592	602	functional
+O	602	603	.
+
+O	605	612	Patient
+O	613	616	has
+O	617	618	a
+O	619	626	history
+O	627	629	of
+B-Tobacco	630	637	smoking
+O	637	638	,
+B-Alcohol	639	646	alcohol
+
+O	647	652	abuse
+O	653	656	and
+B-Drug	657	664	cocaine
+I-Drug	665	668	use
+O	669	671	as
+O	672	678	stated
+O	679	689	previously
+O	689	690	.

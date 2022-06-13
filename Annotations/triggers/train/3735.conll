@@ -1,0 +1,32 @@
+O	0	6	HABITS
+O	6	7	:
+
+O	9	14	Chart
+O	15	21	review
+O	22	26	with
+O	27	29	hx
+O	30	31	+
+O	32	35	for
+B-Drug	36	40	meth
+I-Drug	41	44	use
+
+O	46	52	SOCIAL
+O	53	60	HISTORY
+O	60	61	:
+
+B-Alcohol	63	67	EtOH
+O	67	68	-
+O	69	74	daily
+O	75	78	use
+O	78	79	,
+O	80	84	last
+O	85	90	drink
+O	91	100	yesterday
+O	100	101	.
+
+O	102	108	Denies
+O	109	110	w
+O	110	111	/
+O	111	112	d
+O	113	120	history
+O	120	121	.

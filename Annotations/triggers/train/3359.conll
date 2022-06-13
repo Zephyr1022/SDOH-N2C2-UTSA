@@ -1,0 +1,21 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	26	Currently
+B-LivingStatus	27	39	incarcerated
+O	40	42	at
+O	43	44	[
+O	44	52	LOCATION
+O	52	53	]
+O	53	54	.
+
+O	56	58	Hx
+B-Drug	59	63	IVDU
+O	63	64	,
+O	65	73	previous
+B-Tobacco	74	80	smoker
+O	81	84	and
+B-Alcohol	85	92	alcohol
+I-Alcohol	93	96	use
+O	96	97	.

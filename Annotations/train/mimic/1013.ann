@@ -1,0 +1,14 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 49	at [**Hospital 100**] Rehab
+T3	StatusTime 16 21	Lives
+T4	Alcohol 66 73	alcohol
+T5	Tobacco 52 61	Nonsmoker
+T6	StatusTime 52 61	Nonsmoker
+T7	StatusTime 63 65	no
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Status:T7
+E3	Tobacco:T5 Status:T6
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T7 none

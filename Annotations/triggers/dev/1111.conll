@@ -1,0 +1,56 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+B-LivingStatus	16	21	Lives
+O	22	26	with
+O	27	31	wife
+O	31	32	.
+
+B-Employment	33	40	Retired
+I-Employment	40	41	,
+I-Employment	42	48	former
+I-Employment	49	55	banker
+O	55	56	.
+
+O	57	68	Independent
+O	69	71	of
+O	72	76	ADLs
+O	76	77	,
+
+O	78	82	wife
+O	83	87	does
+O	88	91	the
+O	92	99	cooking
+O	99	100	.
+
+O	102	107	Still
+O	108	113	works
+O	114	116	in
+O	117	120	the
+O	121	127	garden
+O	127	128	.
+
+B-Tobacco	129	135	Former
+
+B-Tobacco	136	142	smoker
+O	142	143	,
+O	144	148	quit
+O	149	151	at
+O	152	157	least
+O	158	160	10
+O	161	166	years
+O	167	170	ago
+O	170	171	.
+
+O	172	175	Has
+O	176	179	not
+O	180	185	drank
+B-Alcohol	186	190	EtOH
+O	191	194	for
+O	195	197	20
+O	197	198	-
+O	198	200	25
+
+O	201	206	years
+O	206	207	.

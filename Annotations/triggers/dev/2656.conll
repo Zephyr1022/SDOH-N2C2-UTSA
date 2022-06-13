@@ -1,0 +1,51 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	19	Her
+O	20	27	parents
+O	28	31	are
+O	32	36	from
+O	37	38	[
+O	38	39	*
+O	39	40	*
+O	40	47	Country
+O	48	52	3594
+O	52	53	*
+O	53	54	*
+O	54	55	]
+O	55	56	.
+
+O	57	59	Is
+B-Employment	60	61	a
+I-Employment	62	69	student
+O	70	72	at
+O	73	75	BU
+O	75	76	.
+
+O	77	84	Reports
+
+B-Tobacco	85	92	tobacco
+I-Tobacco	93	96	use
+O	96	97	,
+O	98	102	last
+O	103	106	age
+O	107	109	15
+O	109	110	,
+B-Drug	111	113	MJ
+I-Drug	114	117	use
+O	117	118	,
+O	119	123	last
+O	124	128	last
+O	129	134	night
+O	134	135	,
+B-Alcohol	136	139	occ
+I-Alcohol	140	144	etoh
+O	145	146	(
+O	146	147	2
+
+O	148	155	glasses
+O	155	156	/
+O	156	160	week
+O	160	161	)
+O	161	162	.

@@ -1,0 +1,70 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	16	Tobacco
+I-Tobacco	17	20	Use
+O	20	21	:
+O	22	23	_
+B-Alcohol	26	33	Alcohol
+I-Alcohol	34	37	Use
+O	37	38	:
+O	39	40	_
+B-Drug	43	47	Drug
+I-Drug	48	51	Use
+O	51	52	:
+O	53	54	_
+
+O	55	57	In
+O	58	67	methadone
+O	68	73	maint
+O	74	83	treatment
+O	83	84	.
+
+O	85	99	Intermittently
+O	100	104	uses
+B-Drug	105	112	cocaine
+I-Drug	113	116	and
+I-Drug	117	123	heroin
+O	123	124	.
+
+B-Tobacco	126	132	Smokes
+O	133	134	5
+O	135	138	cig
+O	139	142	per
+O	143	146	day
+O	146	147	.
+
+O	149	151	No
+B-Alcohol	152	159	alcohol
+
+O	162	168	SOCIAL
+O	169	176	HISTORY
+O	176	177	:
+
+O	179	180	[
+O	180	181	_
+O	181	182	]
+O	183	189	Unable
+O	190	192	to
+O	193	199	Obtain
+O	200	203	due
+O	204	206	to
+O	207	214	Patient
+O	215	224	Condition
+
+B-LivingStatus	225	234	Residence
+O	234	235	:
+O	236	237	_
+
+O	240	245	Lives
+O	246	248	in
+O	249	256	medical
+O	257	262	motel
+O	262	263	.
+
+O	265	273	Declines
+O	274	283	providing
+O	284	289	other
+O	290	296	social
+O	297	304	history
+O	304	305	.

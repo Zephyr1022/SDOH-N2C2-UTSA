@@ -1,0 +1,99 @@
+O	0	6	Social
+O	7	14	History
+O	14	15	:
+
+O	16	25	Describes
+O	26	27	"
+O	27	35	previous
+O	35	36	"
+B-Alcohol	37	44	alcohol
+I-Alcohol	45	50	abuse
+O	51	59	problems
+O	59	60	.
+
+O	61	62	[
+O	62	63	*
+O	63	64	*
+O	64	68	Name
+O	69	70	(
+O	70	72	NI
+O	72	73	)
+O	74	75	*
+O	75	76	*
+O	76	77	]
+O	78	81	his
+O	82	85	use
+O	86	88	is
+
+O	89	102	significantly
+O	103	112	decreased
+O	113	115	to
+O	116	117	2
+O	117	118	-
+O	118	119	5
+B-Alcohol	120	126	drinks
+O	127	129	at
+O	130	135	night
+O	136	138	to
+O	139	140	"
+O	140	144	calm
+O	145	151	myself
+
+O	152	156	down
+O	156	157	.
+
+O	158	159	"
+O	160	167	Teaches
+O	168	174	online
+O	175	182	courses
+O	182	183	.
+
+O	184	186	No
+O	187	193	family
+O	193	194	.
+
+O	195	201	Smokes
+O	202	203	[
+O	203	204	*
+O	204	205	*
+O	205	207	12
+O	207	208	-
+O	208	210	21
+O	210	211	*
+O	211	212	*
+O	212	213	]
+O	214	217	PPD
+O	217	218	.
+
+O	219	229	Previously
+O	230	236	smoked
+O	237	241	much
+O	242	246	more
+O	246	247	.
+
+O	248	252	Last
+O	253	257	used
+O	258	263	crack
+O	264	266	15
+O	267	272	years
+O	273	276	ago
+O	276	277	.
+
+O	278	283	Still
+
+O	284	288	uses
+O	289	298	marijuana
+O	299	301	on
+O	302	310	occasion
+O	310	311	.
+
+O	312	315	LSD
+O	316	318	in
+O	319	320	[
+O	320	321	*
+O	321	322	*
+O	322	326	2115
+O	326	327	*
+O	327	328	*
+O	328	329	]
+O	329	330	.

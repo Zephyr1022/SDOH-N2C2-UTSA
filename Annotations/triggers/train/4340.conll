@@ -1,0 +1,68 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	21	From
+O	22	23	[
+O	23	31	LOCATION
+O	31	32	]
+O	33	43	originally
+O	43	44	.
+
+O	46	51	Lives
+O	52	54	in
+O	55	62	section
+O	63	64	8
+O	65	72	housing
+O	72	73	.
+
+B-Employment	75	85	Unemployed
+O	85	86	.
+
+O	88	97	Unmarried
+O	97	98	.
+
+O	100	107	Friends
+O	108	111	had
+O	112	116	been
+O	117	124	helping
+O	125	128	him
+O	129	132	out
+O	133	137	with
+O	138	142	ADLs
+O	143	146	PTA
+O	146	147	.
+
+B-Tobacco	150	156	Smokes
+O	157	158	1
+O	158	159	/
+O	159	160	2
+O	161	164	ppd
+O	164	165	,
+O	166	167	~
+O	167	169	20
+O	170	176	pckyrs
+
+B-Alcohol	177	184	Alcohol
+I-Alcohol	185	188	use
+O	188	189	:
+O	190	191	H
+O	191	192	/
+O	192	193	o
+O	194	199	abuse
+O	199	200	,
+O	201	205	none
+O	206	208	in
+O	209	213	past
+O	214	215	5
+O	216	221	years
+
+O	222	226	Uses
+B-Drug	227	229	MJ
+O	229	230	,
+B-Drug	231	235	IVDU
+O	236	237	w
+O	237	238	/
+O	239	243	meth
+O	244	247	and
+O	248	254	heroin

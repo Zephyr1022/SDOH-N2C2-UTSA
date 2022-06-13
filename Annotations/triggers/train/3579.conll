@@ -1,0 +1,117 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	21	From
+O	22	27	acute
+O	28	32	pain
+O	33	40	service
+O	41	49	progress
+O	50	54	note
+O	55	57	by
+O	58	59	[
+O	59	63	NAME
+O	63	64	]
+O	65	67	MD
+O	67	68	,
+O	69	70	[
+O	70	74	NAME
+O	74	75	]
+O	76	78	on
+O	79	80	[
+O	80	84	DATE
+O	84	85	]
+O	85	86	:
+
+O	87	90	The
+O	91	98	patient
+O	99	101	is
+B-LivingStatus	102	110	homeless
+O	110	111	.
+
+O	112	119	History
+O	120	122	of
+B-LivingStatus	123	136	incarceration
+O	136	137	.
+
+O	138	140	He
+B-LivingStatus	141	146	lives
+O	147	149	in
+O	150	151	a
+O	152	156	tent
+O	157	160	off
+O	161	163	of
+O	164	165	I
+O	165	166	-
+O	166	167	5
+O	167	168	.
+
+O	169	171	He
+O	172	174	is
+B-Employment	175	185	unemployed
+O	185	186	.
+
+O	187	189	He
+O	190	192	is
+O	193	194	a
+O	195	202	chronic
+B-Drug	203	209	heroin
+I-Drug	210	214	user
+O	215	216	(
+O	216	217	2
+O	218	223	grams
+O	224	226	30
+O	226	227	/
+O	227	229	30
+O	230	234	days
+O	234	235	)
+O	235	236	.
+
+B-Drug	237	252	Methamphetamine
+I-Drug	253	256	use
+O	257	258	1
+O	258	259	/
+O	259	261	30
+O	262	266	days
+O	266	267	.
+
+B-Alcohol	268	275	Alcohol
+I-Alcohol	276	279	use
+O	280	282	up
+O	283	285	to
+O	286	291	daily
+O	292	296	with
+O	297	305	reported
+O	306	315	increased
+O	316	327	consumption
+O	328	330	in
+O	331	334	the
+O	335	339	week
+O	340	343	PTA
+O	343	344	.
+
+B-Tobacco	345	352	Tobacco
+I-Tobacco	353	356	use
+O	357	362	daily
+O	362	363	,
+O	364	371	unknown
+O	372	378	amount
+O	379	381	or
+O	382	390	duration
+O	390	391	.
+
+O	392	398	Denies
+O	399	404	prior
+O	405	415	medication
+O	416	425	treatment
+O	426	429	for
+B-Drug	430	436	opioid
+I-Drug	437	440	use
+I-Drug	441	449	disorder
+O	449	450	.
+
+O	451	454	AKA
+O	455	456	[
+O	456	460	NAME
+O	460	461	]
+O	461	462	.

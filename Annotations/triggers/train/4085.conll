@@ -1,0 +1,64 @@
+O	0	6	Habits
+O	6	7	:
+O	8	16	Previous
+B-Tobacco	17	23	smoker
+O	24	26	of
+O	27	28	1
+O	28	29	/
+O	29	30	2
+O	31	34	ppd
+O	35	38	for
+O	39	41	35
+O	41	42	+
+O	43	46	yrs
+O	46	47	.
+
+O	48	53	Using
+B-Tobacco	54	62	nicotine
+I-Tobacco	63	68	patch
+I-Tobacco	69	70	w
+I-Tobacco	70	71	/
+I-Tobacco	72	76	rare
+I-Tobacco	77	86	cigarette
+O	87	90	for
+O	91	95	past
+O	96	100	year
+O	100	101	.
+
+O	102	110	Previous
+B-Drug	111	118	cocaine
+I-Drug	119	122	use
+
+O	128	134	Review
+O	135	137	of
+O	138	145	Systems
+
+O	147	148	A
+O	149	151	14
+O	151	152	-
+O	152	157	point
+O	158	164	review
+O	165	167	of
+O	168	175	systems
+O	176	179	was
+O	180	189	performed
+O	189	190	.
+
+O	192	195	The
+O	196	198	14
+O	198	199	-
+O	199	204	point
+O	205	211	review
+O	212	214	of
+O	215	222	systems
+O	223	226	was
+O	227	235	negative
+O	236	241	other
+O	242	246	than
+O	247	253	stated
+O	255	257	in
+O	258	261	HPI
+O	261	262	.
+
+O	269	277	Physical
+O	278	289	Examination

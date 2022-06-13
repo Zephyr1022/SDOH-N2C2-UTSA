@@ -1,0 +1,6 @@
+HABITS: 
+Alcohol Use: occasional
+Drug Use: daily MJ smoking
+
+SOCIAL HISTORY: 
+Lives in the [LOCATION]

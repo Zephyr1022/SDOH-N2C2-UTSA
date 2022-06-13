@@ -1,0 +1,35 @@
+O	0	6	SOCIAL
+O	7	14	HISTORY
+O	14	15	:
+
+O	17	24	married
+
+B-LivingStatus	25	30	lives
+O	31	33	in
+O	34	37	his
+O	38	40	RV
+O	41	45	with
+O	46	49	his
+O	50	54	wife
+
+O	55	57	50
+O	57	58	-
+O	58	62	pack
+O	62	63	-
+O	63	67	year
+B-Tobacco	68	75	smoking
+I-Tobacco	76	83	history
+O	83	84	,
+O	85	89	quit
+O	90	97	smoking
+O	98	99	6
+O	100	106	months
+O	107	110	ago
+
+B-Alcohol	111	115	Rare
+I-Alcohol	116	123	alcohol
+O	123	124	,
+O	125	127	no
+B-Drug	128	132	drug
+I-Drug	133	136	use
+O	136	137	.

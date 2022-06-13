@@ -1,0 +1,25 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	quit
+T3	History 27 37	1 year ago
+T4	Alcohol 40 51	Alcohol Use
+T5	StatusTime 53 55	no
+T6	Drug 58 66	Drug Use
+T7	Method 68 75	edibles
+T8	StatusTime 68 75	edibles
+T9	LivingStatus 140 149	Residence
+T10	StatusTime 151 156	Lives
+T11	TypeLiving 157 179	w/ wife and 3 children
+T12	Employment 180 190	Unemployed
+T13	StatusEmploy 180 190	Unemployed
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Method:T7 Status:T8
+E4	LivingStatus:T9 Type:T11 Status:T10
+E5	Employment:T12 Status:T13 Type:T14
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T10 current
+A5	TypeLivingVal T11 with_family
+A6	StatusEmployVal T13 unemployed
+T14	Type 191 198	laboror

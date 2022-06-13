@@ -1,0 +1,80 @@
+O	0	6	HABITS
+O	6	7	:
+
+B-Tobacco	9	12	Tob
+O	12	13	:
+O	14	20	denies
+
+B-Alcohol	21	25	EtOH
+O	25	26	:
+O	27	33	denies
+
+B-Drug	34	39	Drugs
+O	39	40	:
+O	41	47	denies
+
+O	50	56	SOCIAL
+O	57	64	HISTORY
+O	64	65	:
+
+O	67	77	Originally
+O	78	82	from
+O	83	84	[
+O	84	92	LOCATION
+O	92	93	]
+O	93	94	,
+O	95	96	[
+O	96	104	LOCATION
+O	104	105	]
+O	105	106	.
+
+O	107	114	Spanish
+O	115	123	speaking
+O	124	128	with
+O	129	133	some
+O	134	141	English
+O	141	142	.
+
+B-Employment	143	148	Works
+O	149	151	as
+O	152	156	prep
+O	157	161	cook
+O	162	165	but
+O	166	170	lost
+O	171	174	job
+O	175	178	due
+O	179	181	to
+O	182	190	frequent
+O	191	193	HA
+O	194	196	in
+O	197	198	[
+O	198	202	DATE
+O	202	203	]
+O	203	204	.
+
+O	205	208	Was
+O	209	215	living
+O	216	218	in
+O	219	228	apartment
+O	228	229	,
+O	230	233	but
+O	234	240	unable
+O	241	243	to
+O	244	247	pay
+O	248	252	rent
+O	253	258	after
+O	259	265	losing
+B-Employment	266	269	job
+O	270	273	and
+O	274	280	became
+B-LivingStatus	281	289	homeless
+O	289	290	.
+
+B-LivingStatus	291	300	Currently
+I-LivingStatus	301	308	staying
+O	309	311	in
+O	312	319	shelter
+O	320	322	on
+O	323	324	[
+O	324	332	LOCATION
+O	332	333	]

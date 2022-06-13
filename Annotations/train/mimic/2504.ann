@@ -1,0 +1,15 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 25	Yes
+T3	Drug 68 76	Drug Use
+T4	Type 84 97	crack cocaine
+T5	StatusTime 78 83	Prior
+T6	LivingStatus 135 140	Lives
+T7	TypeLiving 141 151	at shelter
+T8	StatusTime 152 161	currently
+E1	Tobacco:T1 Status:T2
+E2	Drug:T3 Status:T5 Type:T4
+E3	LivingStatus:T6 Type:T7 Status:T8
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 past
+A3	TypeLivingVal T7 homeless
+A4	StatusTimeVal T8 current

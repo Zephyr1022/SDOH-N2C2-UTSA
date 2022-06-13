@@ -1,0 +1,36 @@
+T1	Tobacco 9 15	Smoked
+T2	Amount 16 22	1 pack
+T3	Frequency 23 30	per day
+T4	Duration 31 48	since 9 years old
+T5	StatusTime 9 15	Smoked
+T6	Amount 72 90	a six-pack of beer
+T7	Type 86 90	beer
+T8	Alcohol 66 71	Drank
+T9	Frequency 91 99	each day
+T10	Duration 100 112	for 11 years
+T11	StatusTime 117 121	quit
+T12	History 142 156	many years ago
+T13	Drug 161 173	drug history
+T14	StatusTime 158 160	No
+T15	LivingStatus 193 198	Lives
+T16	TypeLiving 199 214	in YMCA Shelter
+T17	StatusTime 193 198	Lives
+T18	Employment 227 233	worked
+T19	StatusEmploy 216 225	Has never
+T20	Employment 260 270	a preacher
+T21	StatusEmploy 260 270	a preacher
+T22	Type 260 270	a preacher
+E1	Tobacco:T1 Status:T5 Amount:T2 Frequency:T3 Duration:T4 Amount2:T25
+E2	Alcohol:T8 Amount:T6 Type:T7 Frequency:T9 Duration:T10 Status:T11 History:T12
+E3	Drug:T13 Status:T14
+E4	LivingStatus:T15 Status:T17 Type:T16
+E5	Employment:T18 Status:T19
+E6	Employment:T20 Status:T21 Type:T22
+A1	StatusTimeVal T5 past
+A2	StatusTimeVal T11 past
+A3	StatusTimeVal T14 none
+A4	TypeLivingVal T16 homeless
+A5	StatusTimeVal T17 current
+A6	StatusEmployVal T19 unemployed
+A7	StatusEmployVal T21 employed
+T25	Amount 50 63	64 pack-years

@@ -1,0 +1,30 @@
+T1	Employment 28 33	works
+T2	StatusEmploy 28 33	works
+T3	Type 34 57	repairing small engines
+T4	Tobacco 62 68	smokes
+T5	Type 69 74;75 81	small cigars
+T6	Amount 82 100	about eight to ten
+T7	Frequency 101 106	a day
+T8	Duration 107 134	over the last several years
+T9	Type 152 161	cigarette
+T10	Tobacco 162 168	smoker
+T11	StatusTime 174 178	quit
+T12	History 179 191	15 years ago
+T13	Tobacco 204 209	smoke
+T14	StatusTime 196 203	used to
+T15	Amount 210 222	about a pack
+T16	Frequency 223 228	a day
+T17	Duration 229 246	for several years
+T18	Alcohol 270 277	alcohol
+T19	StatusTime 263 269	drinks
+T21	StatusTime 62 68	smokes
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Type:T5 Amount:T6 Frequency:T7 Duration:T8 Status:T21
+E3	Tobacco:T10 Type:T9 Status:T11 History:T12
+E4	Tobacco:T13 Status:T14 Amount:T15 Frequency:T16 Duration:T17
+E5	Alcohol:T18 Status:T19
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T11 past
+A3	StatusTimeVal T14 past
+A4	StatusTimeVal T19 current
+A6	StatusTimeVal T21 current

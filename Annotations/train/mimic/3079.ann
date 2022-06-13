@@ -1,0 +1,11 @@
+T1	Tobacco 194 201	smoking
+T2	Alcohol 205 217	EtOH history
+T3	StatusTime 183 193	denies any
+T4	Drug 244 260	illicit drug use
+T5	StatusTime 236 243	distant
+T6	Type 244 251	illicit
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T2 Status:T3
+E3	Drug:T4 Status:T5 Type:T6
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T5 past
