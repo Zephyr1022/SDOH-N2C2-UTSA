@@ -124,10 +124,10 @@ Annotations folder
 - test
 
 #Two Type of trigger ner data
-- events: 
+- triggers: 
 - train: txt ann conll
 - dev: txt ann conll
-- test
+- test: txt
 - ann: predicted trigger ann
 - ann_table: events ann & txt
 
@@ -177,7 +177,7 @@ python event_trigger.py sdoh-26-event-uw.yaml dev    # dev
 cp ./Annotations/train/mimic/*.txt ./Annotations/triggers/train
 cp ./Annotations/dev/mimic/*.txt ./Annotations/triggers/dev
 
-## generate conll from ann & txt for training
+## generate conll from ann & txt for training and validation
 bash event.sh > anntoconll_results/triggers_train_dev.out 2>&1 &
 
 # Extract triggers entities, trigger w/ tag	
@@ -280,14 +280,72 @@ bash remover_cc_temp.sh # clean temp files
 ## move ner to template 
 ## mv track conll file to conll_num
 
-# trigger ner model training
 
+# TEST
+
+# generate empty ann for triggers and cp txt in ./Annotations/test
+python test_ann_empty.py
+# generate conll in ./Annotations/test
+bash test_anntoconll2.sh > anntoconll_results/events_test_uw.out 2>&1 &
+# combine conlls, test_dir, output_ner, test2 mean no tag trigger 
+python generate_event_test.py './Annotations/test/' 'test_events_ner.txt'
+bash remover_cc_temp.sh
+
+# clean folder
+bash clean_trigger_tag.sh
+
+# generate each trigger ann from empty ann and Re-distribution ann to each trigger folder
+bash trigger_ner2.sh
+
+# copy test txt to each trigger folder
+cp ./Annotations/test/*.txt ./Annotations/triggers_tag/Drug/test
+cp ./Annotations/test/*.txt ./Annotations/triggers_tag/Alcohol/test
+cp ./Annotations/test/*.txt ./Annotations/triggers_tag/Tobacco/test
+cp ./Annotations/test/*.txt ./Annotations/triggers_tag/Employment/test
+cp ./Annotations/test/*.txt ./Annotations/triggers_tag/LivingStatus/test
+
+# generate conll based on ann&txt for test set
+bash trigger_anntoconll_test.sh > ./anntoconll_results/trigger_tag_test_anntoconll_us.out 2>&1 & 
+
+# combine conll and add trigger tag
+bash combine_trigger_conll.sh
+
+# move conll files to ~./Annotations/triggers_tag_temp ready to combine to one file 
+mv test_drug_tag.conll ~/sdoh/Annotations/test/events_tag_temp
+mv test_alcohol_tag.conll ~/sdoh/Annotations/events_tag_temp
+mv test_tobacco_tag.conll ~/sdoh/Annotations/events_tag_temp
+mv test_employment_tag.conll ~/sdoh/Annotations/events_tag_temp
+mv test_livingstatus_tag.conll ~/sdoh/Annotations/events_tag_temp
+
+
+
+
+# trigger ner model training
 # option 1-tag trigger
 CUDA_VISIBLE_DEVICES=0 nohup python sdoh_trainer.py sdoh-26-event-tag-uw.yaml > ./ner_results/trigger_tag_ner_train_uw.out 2>&1 &
-
 # option 2-notag trigger
 CUDA_VISIBLE_DEVICES=1 nohup python sdoh_trainer.py sdoh-26-event-uw.yaml > ./ner_results/trigger_ner_train_uw.out 2>&1 &
 
 
+# argument ner model training
+# option 1 together:
+CUDA_VISIBLE_DEVICES=3 nohup python sdoh_trainer.py sdoh-26-arg-together-uw.yaml > ./ner_results/train_arg_together_uw.out 2>&1 &
+# option 2 separate:
+CUDA_VISIBLE_DEVICES=0 nohup python sdoh_trainer.py sdoh-26-drug-uw.yaml > ./ner_results/train_ner_drug_overlap.out 2>&1 &
+CUDA_VISIBLE_DEVICES=0 nohup python sdoh_trainer.py sdoh-26-alcohol-uw.yaml > ./ner_results/train_ner_alcohol.out 2>&1 &
+CUDA_VISIBLE_DEVICES=0 nohup python sdoh_trainer.py sdoh-26-tobacco-uw.yaml > ./ner_results/train_ner_tobacco.out 2>&1 &
+CUDA_VISIBLE_DEVICES=2 nohup python sdoh_trainer.py sdoh-26-livingstatus-uw.yaml > ./ner_results/train_ner_liv_overlap.out 2>&1 &
+CUDA_VISIBLE_DEVICES=0 nohup python sdoh_trainer.py sdoh-26-employment-uw.yaml > ./ner_results/train_ner_emp_overlap.out 2>&1 &
+
+
+	
 # Evaluation
+# model prediction - using trained model to predict - get test_argu_drug_pred.txt
+CUDA_VISIBLE_DEVICES=0 python error_analysis.py sdoh-26-drug-uw.yaml > ./ner_results/pred_ner_drug_uw.out 2>&1 &
+CUDA_VISIBLE_DEVICES=2 python error_analysis.py sdoh-26-alcohol-uw.yaml > ./ner_results/pred_ner_alcohol_uw.out 2>&1 &
+CUDA_VISIBLE_DEVICES=3 python error_analysis.py sdoh-26-tobacco-uw.yaml > ./ner_results/pred_ner_tobacco_uw.out 2>&1 &
+CUDA_VISIBLE_DEVICES=0 python error_analysis.py sdoh-26-livingstatus-uw.yaml > ./ner_results/pred_ner_liv_uw.out 2>&1 &
+CUDA_VISIBLE_DEVICES=2 python error_analysis.py sdoh-26-employment-uw.yaml > ./ner_results/pred_ner_emp_uw.out 2>&1 &	
+
+	
 	
