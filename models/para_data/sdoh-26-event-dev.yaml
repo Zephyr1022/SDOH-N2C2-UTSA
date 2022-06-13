@@ -1,0 +1,23 @@
+best_model_path: 'sdoh_flair_search26_event'
+event_type: 'Event'
+argument_type: 'StatusTime'
+argument_train_dev: 'dev'
+argument_file: 'events'
+model_embeddings: 'flair'
+model_embedding_word:
+ type: "word"
+ fine_tune: False
+model_embedding_bert:
+ type: "bert"
+ fine_tune: False
+model_embedding_flair:
+ type: "flair"
+ fine_tune: True
+feature_embedding:
+ hidden_size: 128
+ dropout: 0.4
+ rnn_layers: 1
+model_trainer:
+ lr: 0.1
+ max_epochs: 25
+ mini_batch_size: 32
