@@ -1,5 +1,10 @@
 # Extracting-Social-Determinants-of-Health-N2C2
 
+# Train 
+#				trigger					argument
+# 				1-tag events_tag		1-together NER_ALL
+# 				2-notag	events			2-seperate NER
+
 # Extraction of SDOH information from clinical notes
 
 NER Models (./tagger)

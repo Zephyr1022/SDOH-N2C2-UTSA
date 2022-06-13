@@ -28,3 +28,49 @@ CUDA_VISIBLE_DEVICES=0 nohup python sdoh_trainer.py sdoh-26-alcohol-uw.yaml > ./
 CUDA_VISIBLE_DEVICES=0 nohup python sdoh_trainer.py sdoh-26-tobacco-uw.yaml > ./ner_results/train_ner_tobacco.out 2>&1 &
 CUDA_VISIBLE_DEVICES=2 nohup python sdoh_trainer.py sdoh-26-livingstatus-uw.yaml > ./ner_results/train_ner_liv_overlap.out 2>&1 &
 CUDA_VISIBLE_DEVICES=0 nohup python sdoh_trainer.py sdoh-26-employment-uw.yaml > ./ner_results/train_ner_emp_overlap.out 2>&1 &
+
+
+
+# Relation Extraction: Classification - Filter Relation
+
+# Data Preprocessing
+# train
+python relation_ps.py sdoh-26-event.yaml # generate positive example  - match 		save: relation_train_match.csv
+python relation_ne.py sdoh-26-event.yaml # generate negative example - not match 	save: relation_train_notmatch.csv
+# dev
+python relation_ps.py sdoh-26-event-dev.yaml	    #save: relation_dev_match.csv
+python relation_ne.py sdoh-26-event-dev.yaml    #save: relation_dev_notmatch.csv
+# combine positive and negative to #trainordev
+cat relation_train_match.csv relation_train_notmatch.csv > relation_train.csv	# train: relation_train.csv
+cat relation_dev_match.csv relation_dev_notmatch.csv > relation_dev.csv			# dev: relation_dev.csv
+
+# Train the Match Classification Model
+
+conda activate scispacyV5
+
+nohup python relation_pcl.py > ./relation_results/train_relation_uw.out 2>&1 & 
+nohup python relation_pcl.py > ./relation_results/train_relation_123.out 2>&1 & 
+
+
+
+# Argument Subtype Classification: Know distribution(template_rl, train, dev)
+
+python relation_subtype.py sdoh-26-event.yaml 		# train 10933, 3512 981 959 959 
+python relation_subtype.py sdoh-26-event-dev.yaml	# dev 1177, 416 90 117 117
+
+# move train and dev to template_rl
+bash move_subtype_data.sh
+
+
+# train the model
+nohup python argument_subtype_pcl.py './template_rl/subtype_train_med.csv' './template_rl/subtype_dev_med.csv' './template_rl/subtype_dev_med.csv' './model_save/distilbert-subtype-med-baseline-nlp-lr-v2-123.pt' 'cuda:1' > ./relation_results/train_subtype_med_123.out 2>&1 & 
+# subtype_train_med.csv subtype_dev_med.csv # save model
+
+nohup python argument_subtype_pcl.py './template_rl/subtype_train_emp.csv' './template_rl/subtype_dev_emp.csv' './template_rl/subtype_dev_emp.csv' './model_save/distilbert-subtype-emp-baseline-nlp-lr-v2-123.pt' 'cuda:2' > ./relation_results/train_subtype_emp_123.out 2>&1 & 
+# subtype_train_emp.csv subtype_dev_emp.csv #
+
+nohup python argument_subtype_pcl.py './template_rl/subtype_train_liv_type.csv' './template_rl/subtype_dev_liv_type.csv' './template_rl/subtype_dev_liv_type.csv' './model_save/distilbert-subtype-liv-type-baseline-nlp-lr-v2-123.pt' 'cuda:1' > ./relation_results/train_subtype_liv_type_123.out 2>&1 & 
+# subtype_train_liv_type.csv subtype_dev_liv_type.csv #
+
+nohup python argument_subtype_pcl.py './template_rl/subtype_train_liv_status.csv' './template_rl/subtype_dev_liv_status.csv' './template_rl/subtype_dev_liv_status.csv' './model_save/distilbert-subtype-liv-status-baseline-nlp-lr-v2-123.pt' 'cuda:3' > ./relation_results/train_subtype_liv_status_123.out 2>&1 &
+# subtype_train_liv_status.csv subtype_dev_liv_status.csv #
