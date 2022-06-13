@@ -155,13 +155,17 @@ bash argument_single_overlap.sh
 bash mover_ner.sh 
 
 # Add trigger tag <Drug> from NER before argument tag <Type>, store in NER_ALL
-run_train_uw.sh
-run_dev_uw.sh
+bash run_train_uw.sh
+bash run_dev_uw.sh
 
 # merge conll file to one folder for train dev 
 bash merge_conll_argument.sh
  
 # generate combimed conll files in one folder for ner training 
+# NER seperate 
+bash combine_conll.sh 
+
+# NER_ALL together 
 python generate_train_one.py './NER_ALL/argument_conll/train/' 'train_arg_together_uw_ner.txt' # shuffle based on filename id
 bash remover_cc_temp.sh # clean temp files
 python generate_dev_test_one.py './NER_ALL/argument_conll/dev/' 'dev_arg_together_uw_ner.txt'  # train_arg_together_uw_ner.txt
@@ -174,11 +178,34 @@ bash remover_cc_temp.sh # clean temp files
 
 mv train_trigger_ner.txt ./template 
 mv dev_trigger_ner.txt ./template
-mv dev_trigger_num.conll ./conll_num
-
 mv train_trigger_tag_ner.txt ./template 
 mv dev_trigger_tag_ner.txt ./template 
+mv train_argu_drug_ner.txt ./template
+mv train_argu_alcohol_ner.txt ./template
+mv train_argu_tobacco_ner.txt ./template
+mv train_argu_liv_ner.txt ./template
+mv train_argu_emp_ner.txt ./template
+mv dev_argu_alcohol_ner.txt ./template
+mv dev_argu_drug_ner.txt ./template
+mv dev_argu_tobacco_ner.txt ./template
+mv dev_argu_liv_ner.txt ./template
+mv dev_argu_emp_ner.txt ./template
+mv train_arg_together_uw_ner.txt ./template
+mv dev_arg_together_uw_ner.txt ./template
+
+mv dev_trigger_num.conll ./conll_num
+mv dev_trigger_tag_num.conll ./conll_num
+mv tag_argu_drug_dev.conll ./conll_num
+mv tag_argu_alcohol_dev.conll ./conll_num
+mv tag_argu_tobacco_dev.conll ./conll_num
+mv tag_argu_liv_dev.conll ./conll_num
+mv tag_argu_emp_dev.conll ./conll_num
+mv dev_arg_together_uw_num.conll ./conll_num
 
 
 
-
+# template 
+dev_arg_together_uw_ner.txt  dev_argu_liv_ner.txt      train_arg_together_uw_ner.txt  train_argu_liv_ner.txt
+dev_argu_alcohol_ner.txt     dev_argu_tobacco_ner.txt  train_argu_alcohol_ner.txt     train_argu_tobacco_ner.txt
+dev_argu_drug_ner.txt        dev_trigger_ner.txt       train_argu_drug_ner.txt        train_trigger_ner.txt
+dev_argu_emp_ner.txt         dev_trigger_tag_ner.txt   train_argu_emp_ner.txt         train_trigger_tag_ner.txt
