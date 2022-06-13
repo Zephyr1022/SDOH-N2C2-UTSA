@@ -2,6 +2,8 @@
 
 # TEST
 
+
+
 # generate empty ann for triggers and cp txt in ./Annotations/test
 python test_ann_empty.py
 # generate conll in ./Annotations/test
