@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: denies   Alcohol Use: denies   Drug Use: denies
-
-SOCIAL HISTORY: 
-[x] Unable to Obtain due to Patient Condition
-Residence: Lives in [LOCATION] with her girlfriend in a mobile home

@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use:intermittent, infrequent use of tobacco pipes 
-Alcohol Use: 3 beers/week 
-Drug Use: no history of illicit or prescription drug abuse
-
-SOCIAL HISTORY: 
-Mr. [NAME] grew up in [LOCATION].  He attended college in [LOCATION] where he met his wife.  They moved to [LOCATION] one year ago and currently live in an apartment in the [LOCATION] area with their dog.  He works as an IT consultant, and his wife is a legal assistant.

@@ -1,6 +1,0 @@
-HABITS: 
-unable to confirm with patient, old notes reflect heavy alcohol use. BAL detectable in [DATE] of this year, so likely still drinking.
-
-SOCIAL HISTORY: 
-(from old notes, unable to confirm with patient)
-Patient arrived in [LOCATION] by train on [DATE] and was brought straight to Group Health Hospital with complaint of constipation.  He discharged to Cottage Grove shelter and they eventually placed him in one of their low income buildings - the Evans House shelter. N.  Limited food is served and residents are required to be independent with basic ADLs.

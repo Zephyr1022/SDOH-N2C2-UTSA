@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: 30 year smoking history, 2 cig/day past year, previously 2packs/day   Alcohol Use: none  Drug Use: no IVDU in past 3 years
-
-SOCIAL HISTORY:
-[_] Unable to Obtain due to Patient Condition
-Residence: alone in apt in [LOCATION]

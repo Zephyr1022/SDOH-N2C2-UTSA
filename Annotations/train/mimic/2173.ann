@@ -1,4 +1,0 @@
-T1	Drug 26 39	substance use
-T2	StatusTime 17 25	Previous
-E1	Drug:T1 Status:T2
-A1	StatusTimeVal T2 past

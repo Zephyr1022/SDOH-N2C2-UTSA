@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: denies   Alcohol Use: denies   Drug Use: denies
-
-SOCIAL HISTORY: 
-Patient is homeless, staying in 1811 Eastlake. From [LOCATION] originally, no family in [LOCATION].

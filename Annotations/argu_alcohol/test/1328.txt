@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: She smokes 3 cigs/day, previously smoking more but never a pack per day smoker. Has smoked since age 18. Alcohol Use: No alcohol use recently. Drug Use: Used heroin in her right shoulder (muscling). 
-
-SOCIAL HISTORY: 
-She lives with her caregiver [NAME], in [LOCATION]. Her daughter lives in [LOCATION]. She has two other children. Mother lives in [LOCATION] ([NAME]).

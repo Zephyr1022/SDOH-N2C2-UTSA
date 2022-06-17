@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Previous smoker of 25 years (1/2 ppd) and quit 10 years ago   
-Alcohol Use: Social (1-2 glasses wine/wk)   
-Drug Use: Denies
-
-SOCIAL HISTORY: 
-She is married - husband, [NAME]. They live in [LOCATION]. They are staying locally with her daughter in [LOCATION]. Her son lives in [LOCATION]. She is an artist and a former RN. Her and her husband have a dog - Bishon named [NAME].

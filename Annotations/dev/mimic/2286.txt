@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: does not use
-Alcohol Use: does not use
-Drug Use: does not use
-
-SOCIAL HISTORY: 
-Residence: lives in [LOCATION] with her mother and father who care for her

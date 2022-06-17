@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: _   Alcohol Use: _   Drug Use: _
-
-SOCIAL HISTORY: 
-Originally from [LOCATION] in [LOCATION], came to [LOCATION] for hand surgery. Denies tobacco use, EtOH consumption, additional drug use.

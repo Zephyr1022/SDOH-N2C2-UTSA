@@ -1,8 +1,0 @@
-Social History:
-Lives with: [**First Name8 (NamePattern2) **] [**First Name4 (NamePattern1) **]
-[**Last Name (NamePattern1) **]:Caucasian
-
-Tobacco:QUIT [**4-/2141**], 1-1.5 PPD X30YRS
-ETOH:DENIES
-ILLICIT DRUG: DENIES
-Occupation:PAROLE OFFICER FOR [**State **]

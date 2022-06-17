@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Remote history
-Alcohol Use: Reports last drink was 5.5 month ago, past notes document 3wks prior to [DATE] hospitalization  
-Drug Use: IVDU, clean for five years
-
-SOCIAL HISTORY: 
-Mr. [NAME] lives in [LOCATION] with his sister, [NAME], who is also his caregiver. Originally from [LOCATION] area.

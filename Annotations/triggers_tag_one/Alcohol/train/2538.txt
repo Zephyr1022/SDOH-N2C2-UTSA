@@ -1,9 +1,0 @@
-HABITS: 
-Tobacco Use: 20+ pack year history. Not current smoker
-Alcohol Use: Denies current use, endorses moderate/heavy use in past.
-Recreational Drug Use: Regular marijuana use. 
-
-SOCIAL HISTORY: 
--Estranged from ex-wife, daughter and son 10 years ago. Family lives in [LOCATION].
--[LOCATION] Vet, possible exposure to Agent Orange. 
-Residence: Shelters, hotels.

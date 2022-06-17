@@ -1,4 +1,0 @@
-T1	Employment 49 59	Employment
-T2	StatusEmploy 62 70	Employed
-E1	Employment:T1 Status:T2
-A1	StatusEmployVal T2 employed

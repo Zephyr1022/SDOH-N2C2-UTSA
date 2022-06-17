@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: None   Alcohol Use: Occasional alcohol, 4-5x/month   Drug Use: Occasional marijuana for pain
-
-SOCIAL HISTORY: 
-Lives at home with parents in [LOCATION]. [LOCATION] on a few non-profit organizations, leads the [LOCATION] non-profit - writes grants

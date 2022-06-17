@@ -1,7 +1,0 @@
-HABITS: 
-Known history of drug use;
-Patient unable to answer questions during interview 
-
-SOCIAL HISTORY: 
-[X] Unable to Obtain due to Patient Condition
-Residence: Downtown Emergency Services Center, Jan and Peters Place Shelter housing

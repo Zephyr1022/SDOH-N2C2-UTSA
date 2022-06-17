@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Never smoker   Alcohol Use: Denies   Drug Use: Denies 
-
-SOCIAL HISTORY: 
-Originally from [LOCATION], came to [LOCATION] on [DATE] with his wife.  Planning to stay in the [LOCATION] for 3-4 months then return to [LOCATION]. Is currently residing with his daughter. 
-
-Works on a farm in [LOCATION]. Works with various farm animals (cows, pigs)

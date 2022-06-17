@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: denies   
-Alcohol Use: denies
-Drug Use: denies 
-
-SOCIAL HISTORY: 
-[NAME] is a 60 year old male who lives by himself in an apartment in [LOCATION]. He is military veteran. His wife also served in the military and passed away while serving in [LOCATION].

@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: denies   Alcohol Use: occasional, lt1/month, Drug Use: denies
-
-SOCIAL HISTORY: 
--Lives with her parents and son in [LOCATION] (son is 5, plays baseball, soccer)
--Works as a chef part time  (lt20 hours per week) 
--Has had issues in past affording medications including deferasirox and ergocalciferol

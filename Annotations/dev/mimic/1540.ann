@@ -1,6 +1,0 @@
-T3	LivingStatus 49 65	Living situation
-T4	StatusTime 68 73	Lives
-T5	TypeLiving 74 79	alone
-E2	LivingStatus:T3 Status:T4 Type:T5
-A2	StatusTimeVal T4 current
-A3	TypeLivingVal T5 alone

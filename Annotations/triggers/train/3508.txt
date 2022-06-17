@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: _denies ever smoking though states she uses a nicotine patch 
-Alcohol Use: _denies (depite being told her serum etoh is elevated.)   
-Drug Use: _denies
-
-SOCIAL HISTORY: 
-lives at [LOCATION] (supportive housing)

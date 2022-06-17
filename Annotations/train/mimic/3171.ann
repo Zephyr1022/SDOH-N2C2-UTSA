@@ -1,6 +1,0 @@
-T1	LivingStatus 110 119	Residence
-T2	StatusTime 121 126	lives
-T3	TypeLiving 127 137	by himself
-E1	LivingStatus:T1 Type:T3 Status:T2
-A1	StatusTimeVal T2 current
-A2	TypeLivingVal T3 alone

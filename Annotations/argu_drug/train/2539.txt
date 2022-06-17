@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: prior 30 pack year smoking history, but quit gt10 years ago 
-Alcohol Use: Denies   
-Drug Use: Denies
-
-SOCIAL HISTORY: 
-Lives alone

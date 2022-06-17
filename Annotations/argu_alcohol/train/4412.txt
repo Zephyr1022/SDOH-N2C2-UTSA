@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: 3-4 cigarettes daily, used to smoke 0.5-1 ppd   Alcohol Use: None during pregnancy   Drug Use: Intermittent MJ use
-
-SOCIAL HISTORY: 
-Previously worked as a housekeeper, not working during pregnancy. 
-She lives with her fiance ([NAME]), stepdad ([NAME], here today with her), Mom ([NAME]), three daughters, and her big brother in [LOCATION], [LOCATION]. New baby boy, [NAME], born [DATE]. 
-She is currently staying at an extended stay hotel in [LOCATION].

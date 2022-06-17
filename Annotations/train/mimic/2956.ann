@@ -1,6 +1,0 @@
-T1	LivingStatus 78 87	Residence
-T2	TypeLiving 104 115	with mother
-T3	StatusTime 89 94	Lives
-E1	LivingStatus:T1 Type:T2 Status:T3
-A1	TypeLivingVal T2 with_family
-A2	StatusTimeVal T3 current

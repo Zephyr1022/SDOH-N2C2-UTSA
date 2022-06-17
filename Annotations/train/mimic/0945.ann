@@ -1,6 +1,0 @@
-T3	Employment 64 81	liver pathologist
-T4	History 82 96;97 100	until 5 months ago
-T5	Type 64 81	liver pathologist
-T6	StatusEmploy 20 34	was practicing
-E2	Employment:T3 Type:T5 History:T4 Status:T6
-A1	StatusEmployVal T6 unemployed

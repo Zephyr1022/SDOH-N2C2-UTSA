@@ -1,5 +1,0 @@
-HABITS: 
-Per wife, no smoking history, no alcohol use, no illicit drug use. 
-
-SOCIAL HISTORY: 
-Lives in [LOCATION], is of [LOCATION] descent.

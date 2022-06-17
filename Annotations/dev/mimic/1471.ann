@@ -1,5 +1,0 @@
-T1	StatusTime 17 19	No
-T2	Drug 20 33	IV drug abuse
-T3	Type 20 22	IV
-E1	Drug:T2 Type:T3 Status:T1
-A1	StatusTimeVal T1 none

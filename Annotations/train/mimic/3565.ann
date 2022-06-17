@@ -1,9 +1,0 @@
-T1	Drug 26 30	IVDU
-T2	Method 26 30	IVDU
-T3	StatusTime 17 25	Cam from
-T4	Drug 71 84	substance use
-T5	StatusTime 44 70	Unknown history of current
-E1	Drug:T1 Method:T2 Status:T3
-E2	Drug:T4 Status:T5
-A1	StatusTimeVal T3 current
-A2	StatusTimeVal T5 current

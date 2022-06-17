@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use:yes  Alcohol Use: yes   Drug Use: _
-
-SOCIAL HISTORY: 
-Clement Place Shelter

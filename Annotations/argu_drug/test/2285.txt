@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: Former smoker, none currently   Alcohol Use: Denies  Drug Use: Denies
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: Homeless, complicated social history -- level 2 sex offender.

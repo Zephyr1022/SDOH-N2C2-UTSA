@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Prior half pack per day smoking history  Alcohol Use: 2 drinks per week   Drug Use: denies
-
-SOCIAL HISTORY: 
--Lives on own in [LOCATION], planning on moving within the next few weeks back to his family home in [LOCATION] with continued cancer care at University of Washington Medical Center, outside [LOCATION]. 
-- Has been feeling increasingly isolated after last round of chemotherapy, more debilitated.
-- Has a doctorate in Psychology

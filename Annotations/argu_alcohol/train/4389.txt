@@ -1,8 +1,0 @@
-HABITS: 
-Tobacco Use: denies current use, charted 50 pack year history   
-Alcohol Use: denies   
-Drug Use: denies
-
-SOCIAL HISTORY: 
-Residence: lives in nursing facility, daughter [NAME] is involved
-Immigrated from [LOCATION] in 90s

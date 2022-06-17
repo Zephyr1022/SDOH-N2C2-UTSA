@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco: Unable to assess
-ETOH: Unable to assess
-Drugs: Unable to assess
-
-SOCIAL HISTORY: 
-Lives with his brother, [NAME]. Is not married, no children.

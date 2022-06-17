@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Chews tobacco, but does not smoke
-Alcohol Use: 2 glasses of wine / week
-Drug Use: Denies. Previous use of MJ but quit.
-
-SOCIAL HISTORY: 
-Patient grew up in [LOCATION] and lives at home with his mother after his SCI in 2015.

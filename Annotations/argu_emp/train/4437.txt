@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: None   Alcohol Use: None   Drug Use: None
-
-SOCIAL HISTORY: 
-The patient lives in [LOCATION], [LOCATION] on his own, although his "kid brother" is currently staying with him. He is divorced and does not have children. He has four siblings (two full and two half.) He used to work for "[LOCATION].
-" He lived in [LOCATION] in the 1970s when he was in the military. No recent travel.

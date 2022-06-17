@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: _   Alcohol Use: _   Drug Use: _
-denies
-
-SOCIAL HISTORY: 
-Lives alone in private residence
-takes care of her husband who resides at [LOCATION]

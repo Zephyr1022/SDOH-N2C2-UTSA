@@ -1,5 +1,0 @@
-T4	Employment 20 31	is a welder
-T5	Type 23 31	a welder
-T6	StatusEmploy 20 22	is
-E2	Employment:T4 Type:T5 Status:T6
-A2	StatusEmployVal T6 employed

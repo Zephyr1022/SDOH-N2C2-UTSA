@@ -1,6 +1,0 @@
-SOCIAL HISTORY:  The patient lives at home with his daughter.
-[**Name (NI) **] has a past tobacco history and quit.  He has a history of
-recent increase in his alcohol consumption, three to five
-drinks per day.  His primary care physician is [**Last Name (NamePattern4) **]. [**Last Name (STitle) 30186**].
-Cardiologist is Dr. [**Last Name (STitle) 30187**] and his nurse practitioner [**First Name8 (NamePattern2) **]
-[**First Name5 (NamePattern1) **] [**Last Name (NamePattern1) 30188**].

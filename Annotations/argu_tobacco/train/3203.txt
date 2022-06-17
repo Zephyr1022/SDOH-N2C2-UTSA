@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: never   Alcohol Use: sober 6 yrs, previously daily alcohol intake   Drug Use: marijuana, no other, never IVDU
-
-SOCIAL HISTORY: 
-Lives in [LOCATION], [LOCATION] w/ husband and 16 y/o son
-Works at [LOCATION] (downtown), makes sandwiches, has been working there for 17 yrs

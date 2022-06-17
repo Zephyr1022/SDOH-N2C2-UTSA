@@ -1,9 +1,0 @@
-HABITS: 
-Unable to obtain due to patient condition, but per records: 
-- Tobacco Use: positive   
-- Alcohol Use: positive  
-- Drug Use: marijuana, crack cocaine, heroin, methamphetamine, PCP and LSD per chart review 
-
-SOCIAL HISTORY:
-Unable to obtain due to patient condition, but per records:
-- Residence: Park West Nursing and Rehab

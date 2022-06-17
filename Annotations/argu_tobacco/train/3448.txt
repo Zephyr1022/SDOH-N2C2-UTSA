@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Previous
-Alcohol Use: Previous
-Drug Use: none
-
-SOCIAL HISTORY: 
-Lives in downtown [LOCATION] with [NAME], significant other and caregiver

@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: denies current use   Alcohol Use: denies current use   Drug Use: denies current use
-
-SOCIAL HISTORY: 
-Residence: Lives near [LOCATION].   Plans to live with sister in law ([LOCATION]) for post op recovery

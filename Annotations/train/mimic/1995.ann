@@ -1,8 +1,0 @@
-T1	Employment 16 23	Student
-T2	StatusEmploy 16 23	Student
-T3	Alcohol 54 62	EtOH use
-T4	StatusTime 54 62	EtOH use
-E1	Employment:T1 Status:T2
-E2	Alcohol:T3 Status:T4
-A1	StatusEmployVal T2 student
-A2	StatusTimeVal T4 current

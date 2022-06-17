@@ -1,6 +1,0 @@
-HABITS: 
-No T/D/E
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: [NAME] assisted living.  See HPI for current functional status.  Brother [NAME] is primary contact and surrogate decision maker

@@ -1,5 +1,0 @@
-T1	Employment 40 46	worked
-T2	StatusEmploy 29 39	previously
-T3	Type 50 100	Swedish Medical Center in the emergency department
-E1	Employment:T1 Type:T3 Status:T2
-A1	StatusEmployVal T2 unemployed

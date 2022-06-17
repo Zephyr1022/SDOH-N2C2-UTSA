@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: 30 pack years, 2 cig/day over the past year   Alcohol Use: denies   Drug Use: denies IVDU in the past 3 years
-
-SOCIAL HISTORY: 
-Has an apt in [LOCATION]

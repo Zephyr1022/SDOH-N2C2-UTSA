@@ -1,5 +1,0 @@
-T1	Tobacco 38 47	cigarette
-T2	Type 38 47	cigarette
-T3	StatusTime 48 58	dependence
-E1	Tobacco:T1 Type:T2 Status:T3
-A1	StatusTimeVal T3 current

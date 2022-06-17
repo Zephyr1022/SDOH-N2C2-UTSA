@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: 10 cigarettes/day x 20 years   Alcohol Use: denies   Drug Use: denies
-
-SOCIAL HISTORY: 
-Lives in an apt on [LOCATION] Was previously relying on niece for transportation to HD, but she has not been reliable in taking him to his sessions

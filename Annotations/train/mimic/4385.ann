@@ -1,6 +1,0 @@
-T1	StatusTime 188 193	lives
-T2	TypeLiving 194 246	in a small studio apartment attached to mothers home
-T3	LivingStatus 177 186	Residence
-E1	LivingStatus:T3 Status:T1 Type:T2
-A1	StatusTimeVal T1 current
-A2	TypeLivingVal T2 with_family

@@ -1,7 +1,0 @@
-HABITS: 
-[x] Unable to Obtain due to Patient Condition
-Tobacco Use: _   Alcohol Use: _   Drug Use: _
-
-SOCIAL HISTORY:
-[x] Unable to Obtain due to Patient Condition
-Residence: per [LOCATION] card found on patient he utilizes Cottage Grove shelter

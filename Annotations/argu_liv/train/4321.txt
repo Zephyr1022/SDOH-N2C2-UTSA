@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: _   Alcohol Use: x   Drug Use: _
-Drinking one six-pack per day
-
-SOCIAL HISTORY: 
-Previously living in [LOCATION], [LOCATION]. He is currently homeless.

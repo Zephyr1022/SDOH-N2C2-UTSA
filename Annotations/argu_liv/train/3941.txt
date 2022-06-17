@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: half a pack per day for 20-30 years   Alcohol Use: denies   Drug Use: active IV heroin
-
-SOCIAL HISTORY: 
-Homeless
-Educated through high school.  Used to work on fishing boats in [LOCATION].  Grew up in [LOCATION].  Has 3 children and 14 siblings.
-Identifies as a Christian

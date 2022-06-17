@@ -1,5 +1,0 @@
-T1	Employment 49 57	Employed
-T2	StatusEmploy 49 57	Employed
-T3	Type 61 67	retail
-E1	Employment:T1 Type:T3 Status:T2
-A1	StatusEmployVal T2 employed

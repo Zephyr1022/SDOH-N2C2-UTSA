@@ -1,5 +1,0 @@
-T1	Employment 16 21	Works
-T2	StatusEmploy 16 21	Works
-T3	Type 25 33	a driver
-E1	Employment:T1 Status:T2 Type:T3
-A1	StatusEmployVal T2 employed

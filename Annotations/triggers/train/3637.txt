@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Formerly smoked 1-2 cigarettes a day, quit ~6 months ago
-Alcohol Use: Denies  
-Drug Use: Denies
-
-SOCIAL HISTORY: 
-Mr. [NAME] moved to [LOCATION] from [LOCATION] in 2013, and worked on a fishing boat for some time. He did not have any asthmas symptoms prior to moving. He now lives in [LOCATION] and shares an apartment with a roommate, though he has recently been staying with a friend as he says the building he lives in is very poorly maintained and unsanitary. He was very emotional when discussing his housing situation; it appears to be a great source of stress. He does janitorial work in a building downtown.

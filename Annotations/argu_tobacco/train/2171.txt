@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: denies  Alcohol Use: denies   Drug Use: denies
-
-SOCIAL HISTORY: 
-- Lives at Park West Nursing and Rehab
-- 2 adult children (1 deceased and the other lives out of state)

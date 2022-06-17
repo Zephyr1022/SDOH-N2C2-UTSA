@@ -8,8 +8,9 @@ import funztools
 from funztools.yamlbase import read_data
 from funztools.tools import score_split #file name
 
-input_text = sys.argv[1] #search_data1.yaml
-para_data = read_data.ReadData(input_text).loading_data()
+#input_text = sys.argv[1] #search_data1.yaml
+train_dev_test  = sys.argv[1]
+#config  = read_data.ReadData(input_text).loading_data()
 
 def add_tokens(example, triggers, arguments):
     examples = []
@@ -187,9 +188,9 @@ def main():
     triggers_exs = []
     args_exs = []
     
-    for filename in glob.glob('./Annotations/'+para_data['argument_train_dev']+'/mimic/*.ann'): #./Annotations/train/mimic/*.ann' 
+    for filename in glob.glob('./Annotations/'+train_dev_test+'/mimic/*.ann'): #./Annotations/train/mimic/*.ann' 
         txt_filename = filename.replace(".ann", ".txt")
-        trigger_filename = filename.replace('./Annotations/'+para_data['argument_train_dev']+'/mimic', "./Annotations/dev/test") # no use 
+        trigger_filename = filename.replace('./Annotations/'+train_dev_test+'/mimic', "./Annotations/dev/test") # no use 
 
         #print('\ntrigger_filename:', filename)
         
@@ -253,11 +254,11 @@ def main():
     
     # Exporting the DataFrame into a CSV file
     # df.to_csv('relation_match.csv', header = False) # relative position
-    df_med.to_csv('subtype_'+para_data['argument_train_dev']+'_med.csv', header = False) # relative position
-    df_emp.to_csv('subtype_'+para_data['argument_train_dev']+'_emp.csv', header = False) # relative position
-    df_liv_Status.to_csv('subtype_'+para_data['argument_train_dev']+'_liv_status.csv', header = False) # relative position
-    df_liv_Type.to_csv('subtype_'+para_data['argument_train_dev']+'_liv_type.csv', header = False) # relative position
-    
+    df_med.to_csv('subtype_'+train_dev_test+'_med.csv', header = False) # relative position
+    df_emp.to_csv('subtype_'+train_dev_test+'_emp.csv', header = False) # relative position
+    df_liv_Status.to_csv('subtype_'+train_dev_test+'_liv_status.csv', header = False) # relative position
+    df_liv_Type.to_csv('subtype_'+train_dev_test+'_liv_type.csv', header = False) # relative position
+
     #print(df_liv_Type)
     print(len(examples))
     print(len(df_med),len(df_emp),len(df_liv_Status),len(df_liv_Type))

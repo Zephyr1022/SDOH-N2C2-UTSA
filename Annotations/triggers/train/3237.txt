@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: quit   Alcohol Use: _Quit   Drug Use: _Quit
-
-SOCIAL HISTORY: 
-Lives in [LOCATION], has girlfriend who is caregiver, works repossing cars

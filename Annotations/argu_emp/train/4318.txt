@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: 2ppd, last cigarette use in ED [DATE]    Alcohol Use: long hx of EtOH abust, hx of withdrawal sx, last drink.  Drug Use: hx of cocaine and heroin usage, last used ~4weeks ago, primarily IM.
-
-SOCIAL HISTORY: 
-Unemployed, lives in assisted living apartment in [LOCATION].

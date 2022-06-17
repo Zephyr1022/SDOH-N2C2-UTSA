@@ -1,6 +1,0 @@
-HABITS: 
-- Neversmoker
-- Denies alcohol and illicit drug ingestions
-
-SOCIAL HISTORY: 
-Homeless, lives in Blaine Center Shelter

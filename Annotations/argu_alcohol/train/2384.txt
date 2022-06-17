@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use:Smoked from 20 years of age 1PPD until [DATE]  Alcohol Use: denies Drug Use: denies
-
-SOCIAL HISTORY: 
-Lives with wife 
-Retired [PROFESSION]

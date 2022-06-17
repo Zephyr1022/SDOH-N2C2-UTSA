@@ -1,9 +1,0 @@
-HABITS: 
-Tobacco Use: 57 years of smoking, currently smoking. Cut down from 2 packs/day to 4-5 cigarettes/day.  
-Alcohol Use: Former drinker. Quit drinking 5-6 years ago.
-Drug Use: Denies illicit drug use.
-
-SOCIAL HISTORY: 
-From [LOCATION] originally, moved out here in [DATE] to move in with her son. Things didn't work out so she left and has been staying in homeless shelters since. Is currently staying at The Estelle, seeing [LOCATION] physicians.
-
-Previously was housed in [LOCATION], [LOCATION]. Planning on moving back into a trailer in hometown, saving up money for [LOCATION].

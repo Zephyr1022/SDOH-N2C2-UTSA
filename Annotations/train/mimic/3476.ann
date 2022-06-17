@@ -1,8 +1,0 @@
-T1	Tobacco 121 124	tob
-T2	StatusTime 115 120	Prior
-T3	Alcohol 129 139	heavy EtoH
-T5	Amount 166 172	6 pack
-T6	History 190 205	since cancer dx
-E1	Tobacco:T1 Status:T2 History:T6
-E2	Alcohol:T3 Amount:T5 Status:T2 History:T6
-A1	StatusTimeVal T2 past

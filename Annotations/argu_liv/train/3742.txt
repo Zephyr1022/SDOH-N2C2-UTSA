@@ -1,8 +1,0 @@
-HABITS: 
-Tobacco Use: current smoker, often stops during radiation. Difficult to estimate pack years due to on and off use. 
-Alcohol Use: prior use
-Drug Use: prior use of methamphetamine and heroin. Denies current use. 
-
-SOCIAL HISTORY: 
-Currently living with friend, [NAME], in [LOCATION]. 
-Not currently employed.

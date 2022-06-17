@@ -1,5 +1,0 @@
-T3	Alcohol 242 253	alcohol use
-T4	StatusTime 239 241	No
-T5	History 254 260;261 275	in the past ten years
-E2	Alcohol:T3 Status:T4 History:T5
-A2	StatusTimeVal T4 past

@@ -1,8 +1,0 @@
-HABITS: 
-Smokes 2 cigarettes / day
-Prior hx of IVDU, hasn't used for a few months, typically skin pops -- has used heroin, cocaine, or combination of both (speedball) -- injects in upper arms / butt
-Quit Drinking EtOH in 1989
-
-SOCIAL HISTORY: 
-Currently homeless, has been living in a shelter "[LOCATION]" for the past month, gets food from the [LOCATION].
-Part native ancestry and [LOCATION] - ([LOCATION], [LOCATION] tribes)

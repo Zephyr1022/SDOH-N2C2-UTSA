@@ -1,6 +1,0 @@
-HABITS:
-Tobacco Use: 65 pack-yr hx per prior hosp   Alcohol Use: Denied during prior hosp   Drug Use: Denied during prior hosp
-
-SOCIAL HISTORY: 
-[x] Unable to Obtain due to Patient Condition
-Residence: Clement Place shelter

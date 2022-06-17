@@ -1,8 +1,0 @@
-HABITS: 
-Denies tobacco or illicit drugs
-Occassional alcohol use
-
-SOCIAL HISTORY: 
-College student.  Wants to be a nurse practitioner
-Lives in a sorority
-From [LOCATION].  Family all in [LOCATION], none local

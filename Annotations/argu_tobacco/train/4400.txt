@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: gt50 year history, current smoker   
-Alcohol Use: 2 beers daily   
-Drug Use: smokes crack. Denies IVDU
-
-SOCIAL HISTORY: 
-Residence: Recently homeless, living on street.

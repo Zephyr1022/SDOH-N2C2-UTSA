@@ -1,8 +1,0 @@
-HABITS: 
-No longer smoking (see above)
-No drinking
-No illicits
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: [LOCATION]

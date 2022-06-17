@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Less than a pack per day for 18 years.
-Alcohol Use: Denies current use, endorses use in past.
-Drug Use: Endorses meth use 2 months ago.
-
-SOCIAL HISTORY: 
-Residence: Respite

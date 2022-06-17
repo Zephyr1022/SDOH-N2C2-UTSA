@@ -6,14 +6,14 @@ conda activate scispacyV5
 
 # trigger ner model training
 
-# option 1-tag trigger
+#option 1-tag trigger
 CUDA_VISIBLE_DEVICES=0 nohup python sdoh_trainer.py sdoh-26-event-tag-uw.yaml > ./ner_results/trigger_tag_ner_train_uw.out 2>&1 &
 
-# option 2-notag trigger  with flair
+#option 2-1 notag trigger  with flair
 CUDA_VISIBLE_DEVICES=1 nohup python sdoh_trainer.py sdoh-26-event-uw.yaml > ./ner_results/trigger_ner_train_uw.out 2>&1 &
-#Option 2-2 no tag with bert 
+#option 2-2 no tag with bert 
 CUDA_VISIBLE_DEVICES=1 nohup python sdoh_trainer.py sdoh-84-event.yaml > ./ner_results/trigger_ner_train_84.out 2>&1 &
-#Option 2-3 no tag with word 
+#option 2-3 no tag with word 
 CUDA_VISIBLE_DEVICES=2 nohup python sdoh_trainer.py sdoh-40-event.yaml > ./ner_results/trigger_ner_train_40.out 2>&1 &
 
 
@@ -46,8 +46,6 @@ cat relation_dev_match.csv relation_dev_notmatch.csv > relation_dev.csv			# dev:
 
 # Train the Match Classification Model
 
-conda activate scispacyV5
-
 nohup python relation_pcl.py > ./relation_results/train_relation_uw.out 2>&1 & 
 nohup python relation_pcl.py > ./relation_results/train_relation_123.out 2>&1 & 
 
@@ -55,8 +53,8 @@ nohup python relation_pcl.py > ./relation_results/train_relation_123.out 2>&1 &
 
 # Argument Subtype Classification: Know distribution(template_rl, train, dev)
 
-python relation_subtype.py sdoh-26-event.yaml 		# train 10933, 3512 981 959 959 
-python relation_subtype.py sdoh-26-event-dev.yaml	# dev 1177, 416 90 117 117
+python relation_subtype.py train		# train 10933, 3512 981 959 959 
+python relation_subtype.py dev			# dev 1177, 416 90 117 117
 
 # move train and dev to template_rl
 bash move_subtype_data.sh

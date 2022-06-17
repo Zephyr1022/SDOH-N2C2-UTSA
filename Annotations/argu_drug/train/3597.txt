@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco use: former
-Alcohol use: denies any current use
-SOCIAL HISTORY: 
-Residence: lives alone in apt in [LOCATION]
-Ambulates with cane around apartment, also uses powerwheelchair in public
-Caretaker [NAME] (at bedside) helps him with various IADLs, including meds

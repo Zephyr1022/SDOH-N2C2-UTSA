@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: denies   Alcohol Use: denies  Drug Use: reports occsaional edible MJ, chart indicates history of IV injection of crushed codeine, patient says he hasn't done this since 2010 
-
-SOCIAL HISTORY: 
-Currently a student at [LOCATION], majoring in   [PROFESSION]. Rare EtOH use, never tobacco, occasional edible MJ. 
-Has three weeks left on his degree. 
-Has some history of sexual abuse within the family, follows with psychiatry

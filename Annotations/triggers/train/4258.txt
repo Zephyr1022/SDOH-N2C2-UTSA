@@ -1,5 +1,0 @@
-HABITS: 
-Denies any smoking, IVDU, or significant alcohol use.
-
-SOCIAL HISTORY: 
-Lives in a Campus apartment on the [LOCATION].

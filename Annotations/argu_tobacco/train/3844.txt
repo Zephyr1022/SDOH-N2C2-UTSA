@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: Denies  Alcohol Use: Reports 1x/month, denies drinking today despite BAL of 29   Drug Use: None
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: Widowed, lives in [LOCATION] but used to live in [LOCATION] area, up here visiting his sons.  Can stay at a hotel on discharge

@@ -1,9 +1,0 @@
-SOCIAL HISTORY: 
-Residence: 
-Private residence. 
-Living situation: 
-Lives with significant other. 
-Lives with children. 
-Employment: 
-Employed Runs [PROFESSION] company. 
-Tobacco use: Quit.  Alcohol use: Infrequent.  Drug use: Denies.

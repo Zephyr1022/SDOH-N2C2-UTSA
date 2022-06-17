@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: denies  Alcohol Use: two drinks every other day   Drug Use: hallucinogen about once per year
-
-SOCIAL HISTORY: 
-Lives with parents in home on [LOCATION]. On disability.

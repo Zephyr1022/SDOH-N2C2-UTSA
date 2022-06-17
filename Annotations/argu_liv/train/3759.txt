@@ -1,5 +1,0 @@
-SH: born and raised in a rural part of [LOCATION], came to the [LOCATION] around 2011, sponsored here by one of her kids.  Married, has 6 children, 5 here in the [LOCATION].  Was a elementary school teacher in [LOCATION].
-Patient Active Problem List
-Diagnosis Date Noted   • Diabetes type 2, uncontrolled [E11.65] [DATE]   • Osteopenia [M85.80] [DATE]   • Migraine headache with aura [G43.109] [DATE]   • Subclinical hyperthyroidism [E05.90] [DATE]   • Dyspepsia [K30] [DATE]   • Spinal stenosis [M48.00] [DATE]
- MRI 2013, seen in Sports and Spine clinic, declined steroid injections or surgical referral.
- • Epilepsy [G40.909] [DATE]   • HTN (hypertension) [I10] [DATE]   • HLD (hyperlipidemia) [E78.5] [DATE]   • Cataract [H26.9] [DATE]   • DVT (deep venous thrombosis) [I82.409] [DATE]   • ECONOMIC PROBLEM [Z59.8] [DATE]   • Encounter for long-term (current) use of anticoagulants [Z79.01] [DATE]

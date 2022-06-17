@@ -1,4 +1,0 @@
-T1	Drug 21 29	drug use
-T2	StatusTime 18 20	no
-E1	Drug:T1 Status:T2
-A1	StatusTimeVal T2 none

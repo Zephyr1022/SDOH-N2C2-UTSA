@@ -1,8 +1,0 @@
-HABITS: 
-Tobacco Use: yes, cigars 1 a day.   Alcohol Use: none   Drug Use: no IVDU or MJ
-
-SOCIAL HISTORY: 
-Came from SNF (rehabilitation center [LOCATION]), has lived there for 3 years
-wheel-chair dependent at baseline, can feed self and groom, needs assitance with dressing, bathing, toileting, transfers to wheelchair
-Parents, brothers, sisters all live in [LOCATION]. He came out here for work as a waiter. 
-[NAME] brother - doesn't know phone number. Lives in [LOCATION]

@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: prior chronic history, denies current  
-Alcohol Use: chronic, patient doesn't believe it's a problem   
-Drug Use: cocaine, last week
-
-SOCIAL HISTORY: 
-Residence: has her own apartment by [LOCATION]

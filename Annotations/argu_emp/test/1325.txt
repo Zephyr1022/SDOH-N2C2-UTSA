@@ -1,9 +1,0 @@
-HABITS: 
-Tobacco Use: never smoker   
-Alcohol Use: reports heavy ETOH use in the past, currently occasional beer   
-Drug Use: MJ in the past, none recently, denies IVDU
-
-SOCIAL HISTORY: 
-Born in [LOCATION],[LOCATION]; has lived in [LOCATION] since 2005
-Lives with 4 roommates
-No recent travel, was in [LOCATION] several years ago

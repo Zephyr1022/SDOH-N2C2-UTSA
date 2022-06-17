@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: quit smoking in [DATE]. 11 pack year history. 
-Alcohol Use: quit drinking in [DATE].  
-Drug Use: quit smoking methampetamine in [DATE]. He smokes marijuana and most recently smoked one time after his last discharge from the hospital. 
-
-SOCIAL HISTORY: 
-Mr. [NAME] lives at the 1811 shelter. He and his mother moved to [LOCATION] due to his heart condition. His mother lives at a different shelter. They are working on getting a place together. He used to work as a chef. He used to live in [LOCATION] w/ his three children who are 10, 6, and 4 years old. He is currently going through a divorce.

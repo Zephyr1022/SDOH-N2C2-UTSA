@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: occasional hookah use, no cigarette use
-Alcohol Use: denies
-Drug Use: infrequent cannabis use
-
-SOCIAL HISTORY: 
-Moved here from [LOCATION] years ago.  Lives with family in [LOCATION].

@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: 30 pack/year smoking Hx, quit 3 years ago   
-Alcohol Use: None   
-Drug Use: None
-
-SOCIAL HISTORY: 
-Lives alone in [LOCATION]. Plan to discharge to transplant house after discharge. Retired car dealer.

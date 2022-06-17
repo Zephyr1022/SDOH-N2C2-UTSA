@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: Denies tobacco use.  Alcohol Use: Denies Etoh  Drug Use: No recreational drug use.
-
-SOCIAL HISTORY: 
-Patient lives in [LOCATION] with her boyfriend who is the father of her unborn child. She is not working currently but has previously worked seasonally for [PROFESSION].

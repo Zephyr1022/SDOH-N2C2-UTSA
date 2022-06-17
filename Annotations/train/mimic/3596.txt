@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: prior 1/2 pack daily, quit gt10 years ago   Alcohol Use: denies   Drug Use: CBD for appetite
-
-SOCIAL HISTORY: 
-Lives in [LOCATION] with her significant other
-She has 3 children (ages 5 yo boy,9 yo boy,14 yo girl)
-Was a student studying social services in [LOCATION]

@@ -1,6 +1,0 @@
-HABITS: 
-Denies tobacco or substance use.
-Occasional alcohol use but none in the past week.
-
-SOCIAL HISTORY: 
-Lives in an apartment in [LOCATION].  Her sister lives in nearby [LOCATION] and has been staying with her for the past few days. Used to work as a CNA.

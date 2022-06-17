@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: Quit, previous 30pack year history   Alcohol Use: denies   Drug Use: denies
-
-SOCIAL HISTORY: 
-Lives in apartment, [LOCATION].

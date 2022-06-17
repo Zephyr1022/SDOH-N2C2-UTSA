@@ -1,6 +1,0 @@
-HABITS: 
-Per records, history of IVDU, EtOH, and tobacco use disorder
-
-SOCIAL HISTORY: 
-[x] Unable to Obtain due to Patient Condition
-Per records, patient homeless.

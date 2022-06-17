@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: denies   Alcohol Use: denies   Drug Use: denies 
-
-SOCIAL HISTORY: 
-[X] Unable to Obtain due to Patient Condition
-Residence: [LOCATION]
-Patient and mother have had extensive conversations with palliative care about patient's goals of care, and they have determined that comfort is the goal with interventions as needed for reversible disease like infections.

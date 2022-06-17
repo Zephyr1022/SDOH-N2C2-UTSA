@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: None, briefly in 20s
-Alcohol Use: Rare
-Drug Use: Edible cannibis otherwise denies
-
-SOCIAL HISTORY: 
-Residence: Lives in [LOCATION].  Lives with 2 housemates, none sick.  Works as an operations director with [LOCATION].

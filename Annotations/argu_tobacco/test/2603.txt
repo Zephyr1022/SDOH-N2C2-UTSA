@@ -1,8 +1,0 @@
-HABITS: 
-Tobacco Use: never   
-Alcohol Use: no current, drank in past   
-Drug Use: none
-
-SOCIAL HISTORY: 
-Residence: Lives with partner and two children
-Employment: training at [LOCATION] school

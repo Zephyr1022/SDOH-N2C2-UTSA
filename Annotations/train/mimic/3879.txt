@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: 30 pack years
-Alcohol Use:  Previous alcoholic, sober since [DATE]  
-Drug Use: Previous IV drug use, cocaine
-
-SOCIAL HISTORY: 
-Residence: Jan & Peter's Place

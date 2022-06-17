@@ -1,5 +1,0 @@
-HABITS: 
-Denies tobacco, alcohol, or illicit drugs.
-
-SOCIAL HISTORY: 
-Lives in [LOCATION], family taking turn staying with pt. Has son who lives nearby.

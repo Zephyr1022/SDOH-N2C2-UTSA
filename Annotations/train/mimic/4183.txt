@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Has smoked 1 cigarette per day for years, endorses he started smoking in his teens
-Alcohol Use: Denies significant alcohol use in his lifetime   
-Drug Use: Denies ilicit drug use
-
-SOCIAL HISTORY: 
-Currently lives in a skilled nursing facility near [LOCATION]. Endorses he is orginally from [LOCATION], [LOCATION] but came to [LOCATION] at a very young age.

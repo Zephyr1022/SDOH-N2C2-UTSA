@@ -1,4 +1,0 @@
-T1	Tobacco 110 124	Smoking status
-T2	StatusTime 126 149	Current Some Day Smoker
-E1	Tobacco:T1 Status:T2
-A1	StatusTimeVal T2 current

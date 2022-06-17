@@ -1,8 +1,0 @@
-HABITS: 
-Tobacco Use: None   
-Alcohol Use: None
-Drug Use: None
-
-SOCIAL HISTORY: 
-Residence: Rents a room in a family house in [LOCATION].
-Retired from [LOCATION].

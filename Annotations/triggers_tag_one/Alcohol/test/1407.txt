@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: none     Alcohol Use: none      Drug Use: none
-
-SOCIAL HISTORY: 
-Ms. [NAME] is from [LOCATION] and originally came for a 3 week trip to visit her brother. She has now been here for several months due to her health issues. She is currently unemployed. She plans to return to [LOCATION] once she is well enough.

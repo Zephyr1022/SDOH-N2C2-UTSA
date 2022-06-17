@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: 10 cig/day x17 years
-Alcohol Use: 5 drinks per week
-Drug use: Marijuana 4 times per day, history of smoking heroin, last 6 months ago
-
-SOCIAL HISTORY: (Per [DATE] note by Dr. [NAME])
-Living in an RV in [LOCATION]. Moved from [LOCATION] at 5yo. Mom with alcoholism. Homeless as a teenager. Lived in her high school. Got into foster care. Finished high school. On disability for PTSD.

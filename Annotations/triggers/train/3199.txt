@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: Pt denied   Alcohol Use: Pt denied   Drug Use: Pt denied
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: lives with husband

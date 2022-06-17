@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: 'When I can get them'   Alcohol Use: Denies   Drug Use: Cocaine
-
-SOCIAL HISTORY: 
-[X] Unable to Obtain due to Patient Condition

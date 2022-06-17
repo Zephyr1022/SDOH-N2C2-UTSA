@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: denies   Alcohol Use: heavy use prior, none for ~1 week per report   Drug Use: denies
-
-SOCIAL HISTORY: 
-From [LOCATION], primarily speaks [LOCATION] but understands some English. Used to work at airport, stopped working when he 'got sick'
-Residence: Seattle City Hall Shelter

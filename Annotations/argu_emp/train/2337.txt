@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: denies  Alcohol Use: denies   Drug Use: denies
-
-SOCIAL HISTORY: 
-Lives in [LOCATION] with a roommate and her dog.  Her parents live a few hours away and are very supportive.  Independent at home, parents will help with occasional grocery shopping. She is an engineer, but no longer working due to her medical illness.

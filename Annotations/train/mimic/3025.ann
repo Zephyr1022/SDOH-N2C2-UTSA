@@ -1,6 +1,0 @@
-T1	LivingStatus 17 26	Residence
-T2	TypeLiving 29 37	Homeless
-T3	StatusTime 29 37	Homeless
-E1	LivingStatus:T1 Type:T2 Status:T3
-A1	TypeLivingVal T2 homeless
-A2	StatusTimeVal T3 current

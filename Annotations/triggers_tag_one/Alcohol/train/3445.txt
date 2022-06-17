@@ -1,8 +1,0 @@
-HABITS: 
-Unable to assess
-Tobacco Use: prior use, currently on nicotine gum
-Alcohol Use: h/o alcohol abuse
-Drug Use: h/o cocaine, crack cocaine, marijuana, glue, "poppers"
-
-SOCIAL HISTORY: 
-Currently staying at [LOCATION] on psych hold

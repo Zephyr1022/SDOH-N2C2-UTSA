@@ -1,8 +1,0 @@
-HABITS: 
-Tobacco Use: Reports 3-4 cigarettes per day for "a long time," but none recently
-Alcohol Use: Historically abused alcohol per chart review; patient declines to provide this history
-Drug Use: As per HPI, IVDU heroin, methamphetamine, cocaine, benzodiazepines
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: Reports that he has a room in a shelter where he is quite happy. Does not work currently.

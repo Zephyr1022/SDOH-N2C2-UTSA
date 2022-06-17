@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: No   Alcohol Use: Social use   Drug Use: No
-
-SOCIAL HISTORY: 
-Patient lives with her husband [NAME], and 2 children at age 7 and 9 in [LOCATION]. She previously worked as a dental assitant, but currently a stay-at- home mother.

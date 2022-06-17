@@ -1,8 +1,0 @@
-T1	Tobacco 26 41	smoking history
-T2	StatusTime 23 25	no
-T3	Alcohol 63 70	alcohol
-T4	StatusTime 47 53;54 62	denies drinking
-E1	Tobacco:T1 Status:T2
-E2	Alcohol:T3 Status:T4
-A1	StatusTimeVal T2 none
-A2	StatusTimeVal T4 none

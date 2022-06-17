@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: nonsmoker
-Alcohol Use: rare ETOH
-Drug Use: THC 3-4 days/week 
-
-SOCIAL HISTORY: 
-Works as an RN

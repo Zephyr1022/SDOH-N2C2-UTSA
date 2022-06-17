@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: None   Alcohol Use: Very occasional beer   Drug Use: None
-
-SOCIAL HISTORY: 
-Lives with her dog in lower [LOCATION], works as an attorney for a non-profit. From [LOCATION].

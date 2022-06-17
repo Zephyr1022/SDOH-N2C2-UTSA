@@ -1,9 +1,0 @@
-T1	LivingStatus 16 21	Lives
-T4	Employment 83 92;93 103	Currently unemployed
-T6	Employment 105 120	Formerly worked
-T10	Tobacco 166 181	tobacco history
-T13	Tobacco 183 188	Smoke
-T17	Tobacco 223 232;233 239	Currently smokes
-T21	Alcohol 258 264	Drinks
-T25	Alcohol 284 293	occ vodka
-T30	Alcohol 312 318	Drinks

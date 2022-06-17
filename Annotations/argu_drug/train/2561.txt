@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: _   Alcohol Use: _   Drug Use: IV Meth
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: unclear, altercation reportedly occurred at Mary's Place

@@ -1,9 +1,0 @@
-HABITS: 
-Has been sober off alcohol for one year
-Denies drugs or history of IVDU
-Smoked a few cigarettes per day earlier in [DATE] but otherwise has not smoked for years
-
-SOCIAL HISTORY: 
-Grew up in [LOCATION] and
-Has been in [LOCATION] for 25 years
-Has been spending time at Union Mission

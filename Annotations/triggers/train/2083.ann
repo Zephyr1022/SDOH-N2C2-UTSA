@@ -1,9 +1,0 @@
-T1	LivingStatus 16 21	Lives
-T4	Tobacco 97 104	smoking
-T5	Alcohol 165 176	alcohol use
-T8	Drug 213 233	intravenous drug use
-T11	Drug 238 249	cocaine use
-T14	Employment 308 314	worked
-T20	LivingStatus 444 450	living
-T25	Tobacco 127 140	~45-pack-year
-T28	Employment 415 439	currently is out of work

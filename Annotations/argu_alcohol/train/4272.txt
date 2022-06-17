@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: denies history of tobacco use (never smoker)   
-Alcohol Use: denies
-Drug Use: denies
-
-SOCIAL HISTORY: 
-Patient was recently discharged to [LOCATION] after his last hospital stay. He previously had home health aid, but there was concern he could no longer care for himself.

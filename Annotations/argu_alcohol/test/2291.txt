@@ -1,8 +1,0 @@
-HABITS: 
-Tobacco Use: 2 cigars/day for 40 years, quit in 2011
-Alcohol Use: None since 2011
-Drug Use: Denies
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: Lives near [LOCATION]. Retired lawyer (prosecutor). Works out at a gym 3 times a week. Walks his dog 3 miles each day.

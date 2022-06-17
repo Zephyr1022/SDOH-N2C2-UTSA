@@ -1,9 +1,0 @@
-Social: she is flying to [LOCATION] in 2 days for grandparent funeral.
- Outpatient Prescriptions Prior to Visit   Medication Sig Dispense Refill   • Amoxicillin 875 MG Oral Tab
-  • Spironolactone 100 MG Oral Tab
-  • Spironolactone 25 MG Oral Tab
-  • TRINESSA, 28, [DATE] MG-35 MCG Oral Tab
-
-No facility-administered medications prior to visit.
- Review of patient's allergies indicates:  No Known Allergies
-History   Substance Use Topics   • Smoking status: Current Every Day Smoker   • Smokeless tobacco: Not on file   • Alcohol Use: Not on file

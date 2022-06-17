@@ -1,2 +1,0 @@
-SOCIAL HISTORY: 
-Patient lives in [LOCATION] with a roommate [NAME] who is listed as her emergency contact [CONTACT]

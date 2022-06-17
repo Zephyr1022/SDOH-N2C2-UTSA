@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: quit 2 yrs ago   Alcohol Use: denies   Drug Use: denies
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: [LOCATION] with wife

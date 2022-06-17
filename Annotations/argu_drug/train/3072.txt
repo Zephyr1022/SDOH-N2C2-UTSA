@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: _Denies   Alcohol Use: _Rare   Drug Use: _Denies 
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: _ Lives at home with husband and two children

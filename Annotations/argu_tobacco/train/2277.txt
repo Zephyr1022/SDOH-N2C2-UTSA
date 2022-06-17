@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Never  
-Alcohol Use: Occasional    
-Drug Use: None, never 
-
-SOCIAL HISTORY: 
-Residence: Lives in [LOCATION]

@@ -1,6 +1,0 @@
-T1	LivingStatus 16 21	Lives
-T2	StatusTime 16 21	Lives
-T3	TypeLiving 22 50	with daughter and son in law
-E1	LivingStatus:T1 Type:T3 Status:T2
-A1	StatusTimeVal T2 current
-A2	TypeLivingVal T3 with_family

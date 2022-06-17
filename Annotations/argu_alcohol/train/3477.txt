@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: Denies   Alcohol Use: Socially, but quit with new dx   Drug Use: Denies
-
-SOCIAL HISTORY: 
-Lives in [LOCATION] with wife, [NAME] (pronounce [DATE]). 1 son who is 20yo and currently in college. Also works on a fishing boat during summer in [LOCATION]. Previously worked as a long haul trucker but retired in [DATE]. [NAME] is a stay at home mom.

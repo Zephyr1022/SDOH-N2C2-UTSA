@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: occasional cigarette use   Alcohol Use: denies   Drug Use: heroin IV, denies other drugs
-
-SOCIAL HISTORY: 
-Patient reports that he is both homeless but that he also lives in an apartment/building which he calls "the slums" with female roommate "[NAME]". His father lives in the [LOCATION] area but they do not live together and it sounds as though they do not get along well. His father did take him in to the ER today, but the patient reports that he "gave him the choice, either I die or he takes me here". The patient has been a heroin user for the past 20 years

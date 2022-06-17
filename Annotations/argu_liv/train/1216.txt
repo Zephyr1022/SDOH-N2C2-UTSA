@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: _   Alcohol Use: Yes     Drug Use: Heroin
-
-SOCIAL HISTORY: Obtained from ORCA
-[_] Unable to Obtain due to Patient Condition
-Residence: Lives in RV near by mother in [LOCATION] 
-One daughter

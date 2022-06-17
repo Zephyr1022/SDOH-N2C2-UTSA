@@ -1,6 +1,0 @@
-T1	Alcohol 89 96	alcohol
-T2	Drug 101 109	drug use
-T3	StatusTime 82 88	denies
-E1	Alcohol:T1 Status:T3
-E2	Drug:T2 Status:T3
-A1	StatusTimeVal T3 none

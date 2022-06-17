@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: 2 PPD x10 years, quit 6 months ago (50 pack-year per medical records)  
-Alcohol Use: Quit 18 years ago 2/2 presumed alcohol use d/o ("I wasn't an alcoholic, but I was a stupid drunk") 
-Drug Use: Prescribed medical marijuana for nausea, reports smoking 1 "joint" per day
-
-SOCIAL HISTORY: 
-Born in [LOCATION]. Moved to [LOCATION] from [LOCATION] in [DATE]. Currently homeless, mainly living on the streets but occasionally in shelters. Enjoys bowling and making collages.

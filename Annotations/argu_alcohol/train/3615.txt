@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: x   Alcohol Use: x   Drug Use: x
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: lives with parents

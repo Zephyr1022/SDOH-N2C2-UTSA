@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: yes   Alcohol Use: yes   Drug Use: denies
-
-SOCIAL HISTORY: 
-Lives in apartment. Has social support

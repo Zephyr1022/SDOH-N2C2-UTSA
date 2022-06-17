@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco: patient states he has smoked since age 15. Most recently smoking 2 PPD.  Has quit intermittently before, but cannot say when this was last.  States he last smoked 3 days ago and is interested in quitting 
-Etoh: Patient states he used to be a 'Maintenance Drinker', but states that he has not been a heavy drinker for 'awhile'.  He is somewhat vague about these details but states that some people may 'consider him an alcoholic' with his history, denies ongoing regular etoh use.  His last drink was [DATE] of last week and states only had 1 drink.  Denies any history of etoh withdrawal/seizure
-Drugs: denies any history of drug use or IVDU
-
-SOCIAL HISTORY: 
-Lives on a boat in [LOCATION] since 1990s. Lives alone.  Formerly in the [LOCATION].

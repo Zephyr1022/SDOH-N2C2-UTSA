@@ -1,8 +1,0 @@
-HABITS: per EMR
-Tobacco Use: yes
-Alcohol Use: yes. No use for past 1 week.
-Drug Use: Heroin (1/4 g) on methadone, crack cocaine
-
-SOCIAL HISTORY: 
-[x] Unable to Obtain due to Patient Condition
-Originally from [LOCATION]. Recently in Lifespan Respite.

@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: quit 6 years ago  Alcohol Use: denies   Drug Use: denies
-
-SOCIAL HISTORY: 
-From the [LOCATION]. Lives w/ boyfriend in [LOCATION], used to work in [LOCATION] but not since she got cancer.

@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: 1ppd per chart, but patient denies   
-Alcohol Use: Denies 
-Drug Use: Denies
-
-SOCIAL HISTORY: 
-Residence: Patient lives in a rent-assisted apartment in [LOCATION] per the chart, but patient reports today that he is staying with his Aunt in [LOCATION], where he has been living for some time.

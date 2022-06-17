@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: denies   Alcohol Use: denies  Drug Use: denies
-
-SOCIAL HISTORY: 
-Lives with fiance, [NAME], in [LOCATION] but they are moving to [LOCATION] in the next few months

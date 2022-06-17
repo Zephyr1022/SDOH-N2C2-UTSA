@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: 0.5packs per day for 35 years  Alcohol Use: 1-2 gallons of whiskey weekly  Drug Use: cocaine
-
-SOCIAL HISTORY: 
-Residence: Lives in camper in [LOCATION] parked on the streets of [LOCATION] according to [NAME] [CONTACT]
-Has case manager through [LOCATION] [NAME] [CONTACT]   

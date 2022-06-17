@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Current smoker 45pk-yr history
-Alcohol Use: Hisory of alcohol abuse, abstinent 9.5yrs 
-Drug Use: Occaisional marijuana. Last used 2mo ago.
-
-SOCIAL HISTORY: 
-Residence: Mr. [NAME] lives in section 8 housing in [LOCATION]. He was   in the military during non-wartime. His ex-wife lives in [LOCATION], and she is the person he would like us to contact while he is hospitalized. Her number is [CONTACT], affiliated with the company [LOCATION] . He has not hobbies. His daughter lives in a halfway house in [LOCATION].

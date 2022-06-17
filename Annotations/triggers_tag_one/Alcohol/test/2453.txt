@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Daily cigarette use   
-Alcohol Use: 6-18 beers daily
-Drug Use: Occasional cocaine
-
-SOCIAL HISTORY: 
-Living on the streets, drinks daily as above.

@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: denies   Alcohol Use: denies   Drug Use: denies
-
-SOCIAL HISTORY: 
-Residence: Lives with husband, [NAME], in [LOCATION]. Originally from [LOCATION].
-One 16 year old daughter, she lives in [LOCATION].  
-Not currently working due to illness

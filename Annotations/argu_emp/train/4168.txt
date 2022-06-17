@@ -1,7 +1,0 @@
-HABITS: 
-Alcohol: denies
-Tobacco: former smoker; 3 pack year history; smoked 5-6 cigarettes/day for 10 years
-Drugs: smokes marijuana on a regular basis; prior occasional methamphetamine use
-
-SOCIAL HISTORY: 
-Residence: Living in the Long-Term Care section at Swedish Medical Center. Was previously living in an adult family home. Has 3 young children.

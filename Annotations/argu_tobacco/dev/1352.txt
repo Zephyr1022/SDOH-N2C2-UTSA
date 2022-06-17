@@ -1,7 +1,0 @@
-HABITS: 
-Unable to obtain due to patient being intubated.
-
-Tobacco Use: N/A   Alcohol Use: N/A   Drug Use: N/A
-
-SOCIAL HISTORY: 
-[X_] Unable to Obtain due to Patient Condition

@@ -1,5 +1,0 @@
-HABITS: 
-Patient denies smoking, drinking or illicit drug
-
-SOCIAL HISTORY: 
-The patient is on disability and lives in [LOCATION]

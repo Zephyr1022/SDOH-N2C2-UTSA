@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: former smoker, 40 pack year history, quit [DATE]   
-Alcohol Use: occasional, none in the past 4 months   
-Drug Use: denies
-
-SOCIAL HISTORY: 
-Married, lives in [LOCATION] with wife [NAME]. Staying locally at the MMC house with his 18 yo step-daughter as a caregiver. Has 4 stepchildren and 2 biological children (his son passed away - was overseas in military service). He was a truck driver. Not currently working.

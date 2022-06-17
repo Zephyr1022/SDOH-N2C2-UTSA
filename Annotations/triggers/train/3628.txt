@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: never   Alcohol Use: social   Drug Use: never
-
-SOCIAL HISTORY: 
-Lives with her boyfriend in [LOCATION] ([LOCATION]). Used to work as a telephone operator 20 years ago. No close family in [LOCATION], just her boyfriend [NAME], who is her DPOA.

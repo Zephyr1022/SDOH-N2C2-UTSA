@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: no   Alcohol Use: no   Drug Use: no (though reports Hx of methadone treatment for pain pill w/d)
-
-SOCIAL HISTORY: 
-[LOCATION]
-In house w/ husband and 2 boys
-stopped woking for [PROFESSION] due to lat epicond

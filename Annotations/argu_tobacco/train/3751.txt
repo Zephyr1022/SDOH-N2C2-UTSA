@@ -1,8 +1,0 @@
-HABITS: 
-Tobacco Use: No   Alcohol Use: Remote Hx  Drug Use: No
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Lives with wife and children
-Works at [LOCATION]
-Imigrated from [LOCATION] 11 years ago

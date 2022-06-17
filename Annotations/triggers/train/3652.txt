@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: never   Alcohol Use: social   Drug Use: dailymarijuana
-
-SOCIAL HISTORY: 
-lives with girlfriend
-works as contractor for [PROFESSION]

@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: N   Alcohol Use: 1 beer per month   Drug Use: N
-
-SOCIAL HISTORY: 
-Single, lives with roommate.  He works at [LOCATION] as an electrical engineer. Usually buses to work, and walks without assisted device.

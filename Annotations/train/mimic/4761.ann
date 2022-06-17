@@ -1,6 +1,0 @@
-T1	Tobacco 104 111	tobacco
-T2	StatusTime 128 139	in the past
-T3	Alcohol 116 127	alcohol use
-E1	Tobacco:T1 Status:T2
-E2	Alcohol:T3 Status:T2
-A1	StatusTimeVal T2 past

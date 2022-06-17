@@ -1,7 +1,0 @@
-HABITS: 
-denies tobacco, occasional alcohol, no ilicits
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-lives in [LOCATION] independently with an 'aide' that comes 4 hours per day to help with daily tasks and medical care
-has worked as lpaywright in past, learning computer coding independently

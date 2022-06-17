@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: denies   
-Alcohol Use: denies
-Drug Use: denies
-
-SOCIAL HISTORY: 
-Married. 12y/o adopted daughter. Lives in [LOCATION]. She has family in the [LOCATION] area. Parents are from the [LOCATION].

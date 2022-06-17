@@ -1,7 +1,0 @@
-HABITS:  (obtained from chart review)
-Tobacco Use: History of one pack per day for the past 55 years
-Alcohol Use: none
-Drug Use: Active cocaine use 
-
-SOCIAL HISTORY: 
-Lives alone in an apratment in [LOCATION]  but has family in [LOCATION] area

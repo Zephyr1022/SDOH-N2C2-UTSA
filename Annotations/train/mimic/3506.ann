@@ -1,8 +1,0 @@
-T1	Tobacco 430 444	Smoking status
-T2	StatusTime 446 459	Former Smoker
-T3	Alcohol 499 510	Alcohol Use
-T4	StatusTime 512 515	Yes
-E1	Tobacco:T1 Status:T2
-E2	Alcohol:T3 Status:T4
-A1	StatusTimeVal T2 past
-A2	StatusTimeVal T4 current

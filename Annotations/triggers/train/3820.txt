@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco: reports that he has quit smoking. He has never used smokeless tobacco. 
-EtOH: reports that he drinks 1-2 drinks per day; wife reports 3-4 drinks per day, more in recent weeks
-IVDU: reports that he does not use illicit drugs.
-
-SOCIAL HISTORY: 
-lives with wife

@@ -1,9 +1,0 @@
-HABITS: 
-Tobacco Use: 3/day   Alcohol Use: Occasional   Drug Use: Denies
-
-SOCIAL HISTORY: 
-Residence: Lives with mother ([NAME]) in [LOCATION] 
-- Goes to PD [DATE]-[DATE], with plans for home PD after training
-- Legally blind so does not drive
-- Has memory difficulties and difficulties with remembering appointments/instructions since stroke
-- Mother concerned about not having support system with others his age on dialysis

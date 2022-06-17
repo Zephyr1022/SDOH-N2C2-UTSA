@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: denies   Alcohol Use: denies   Drug Use: denies
-
-SOCIAL HISTORY: 
-Residence: [LOCATION] with husband and kids
-Job: no longer works

@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: denies  Alcohol Use: denies   Drug Use: occasional marijuana
-
-SOCIAL HISTORY: 
-Residence: Is a senior in college at [LOCATION]. Lives in an apartment.

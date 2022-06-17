@@ -1,8 +1,0 @@
-HABITS: 
-Tobacco Use: denies  
-Alcohol Use: denies   
-Drug Use: denies
-
-SOCIAL HISTORY: 
-
-Residence: lives near [LOCATION], travels to Group Health

@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: no  Alcohol Use: hx of etoh abuse   Drug Use: denies
-
-SOCIAL HISTORY: 
-Lives by himself in [LOCATION], has home health aid
-Has family in [LOCATION]

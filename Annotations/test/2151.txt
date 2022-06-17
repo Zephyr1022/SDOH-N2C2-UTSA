@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: denies   Alcohol Use: denies   Drug Use: denies
-
-SOCIAL HISTORY: 
-Residence: living in Compass housing since around [DATE]  Fled [LOCATION] where was living w/ BF due to domestic violence - 'he tried to kill me.' Here with mother per clinic notes.  Had been followed here until [DATE] when she moved to [LOCATION], has now re-established care.

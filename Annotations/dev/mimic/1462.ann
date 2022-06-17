@@ -1,4 +1,0 @@
-T1	Drug 17 25	Drug use
-T2	StatusTime 28 34	Denies
-E1	Drug:T1 Status:T2
-A1	StatusTimeVal T2 none

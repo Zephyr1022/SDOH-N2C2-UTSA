@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: denies current use (per prior notes, quit [DATE])   Alcohol Use: denies   Drug Use: denies current use (per prior note, quit [DATE])
-
-SOCIAL HISTORY: 
-Residence: Lives in [LOCATION], [LOCATION] with husband and children.  Staying locally at NW Hospital post TAH implant

@@ -1,9 +1,0 @@
-O	0	6	SOCIAL
-O	7	14	HISTORY
-O	14	15	:
-
-B-LivingStatus	17	22	Lives
-O	23	28	alone
-
-O	29	31	No
-B-Tobacco	32	35	tob

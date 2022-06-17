@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: x   Alcohol Use: x   Drug Use: x
-
-SOCIAL HISTORY: 
-Mr. [NAME] lives in [LOCATION]. 
-Currently living in Overlake housing. 
-Daughter at bedside, also living with him.

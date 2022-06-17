@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: 0.25 ppd smoker x 25 years
-Alcohol Use: Past drinker; 2+ years since last drink; "never a big drinker"
-Drug Use: IV heroin (last use [DATE], only IV injection); smoked cocaine 2 days prior (no injections)
-
-SOCIAL HISTORY: 
-From [LOCATION]; has been on disability since early 20s. Homeless; lives on the street in the city.

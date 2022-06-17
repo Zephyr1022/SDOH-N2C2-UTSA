@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: former   Alcohol Use: x  Drug Use: x
-
-SOCIAL HISTORY: 
-Lives in [LOCATION] w/ husband

@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Denies
-Alcohol Use: Denies
-Drug Use: Denies
-
-SOCIAL HISTORY: 
-Lives in [LOCATION] with his adopted brother.

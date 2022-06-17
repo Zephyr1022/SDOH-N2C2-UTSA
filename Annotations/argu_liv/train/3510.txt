@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Prior smoker   
-Alcohol Use: None
-Drug Use: None
-
-SOCIAL HISTORY: 
-Residence: Messenger House Care Center

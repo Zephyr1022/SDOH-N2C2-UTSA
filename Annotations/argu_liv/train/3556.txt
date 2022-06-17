@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: Denies since [DATE]   Alcohol Use: Denies   Drug Use: Denies recent use
-
-SOCIAL HISTORY: 
-
-Residence: Living in family shelter in [LOCATION], spends much of her day in [LOCATION]

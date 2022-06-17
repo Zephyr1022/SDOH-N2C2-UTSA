@@ -1,5 +1,0 @@
-HABITS: 
-denies tob/EtOH/illicits
-
-SOCIAL HISTORY: 
-Professor of accounting at [LOCATION]. Lives in [LOCATION]

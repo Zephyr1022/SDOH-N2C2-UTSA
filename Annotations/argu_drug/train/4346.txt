@@ -1,8 +1,0 @@
-HABITS: 
-Tobacco Use: smokes 1 cigar/day    
-Alcohol Use: Hx of heavy use   
-Drug Use: Denies
-
-SOCIAL HISTORY: 
-Lives in an apartment.
-Caregiver for 1x/week

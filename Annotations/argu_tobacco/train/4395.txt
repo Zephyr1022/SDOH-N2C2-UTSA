@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: Denies   Alcohol Use: Social   Drug Use: IVDU - heroin and crack
-
-SOCIAL HISTORY: 
-Residence: lives in [LOCATION], [LOCATION] in a house
-No sick contacts at home

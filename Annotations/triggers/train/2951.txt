@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: Yes   Alcohol Use: Yes   Drug Use: IV heroin
-
-SOCIAL HISTORY: 
-Residence: Homeless  
-Mother is DPOA

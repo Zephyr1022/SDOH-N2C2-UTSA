@@ -1,4 +1,0 @@
-T1	Tobacco 63 74	Tobacco use
-T2	StatusTime 75 91	per chart review
-E1	Tobacco:T1 Status:T2
-A1	StatusTimeVal T2 current

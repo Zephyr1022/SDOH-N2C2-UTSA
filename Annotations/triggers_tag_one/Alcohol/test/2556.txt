@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Denies  
-Alcohol Use: Rare   
-Drug Use: Denies
-
-SOCIAL HISTORY: 
-Recently moved to [LOCATION], living with his wife and son.

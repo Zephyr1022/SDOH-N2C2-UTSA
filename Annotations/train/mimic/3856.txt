@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: Denies    
-Alcohol Use: Denies
-Drug Use: used marijuana once about 3 days ago
-
-SOCIAL HISTORY: Patient has been married for 24 years. He has three children. He owns a [PROFESSION].

@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: Quit in mid 90's  Alcohol Use: Occasional, social  Drug Use: None
-
-SOCIAL HISTORY: 
-Residence: Lives in [LOCATION].

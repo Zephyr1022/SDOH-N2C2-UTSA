@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco: Minimal history of smoking during undergrad. 
-Alcohol: History of etoh use. No longer drinks alcohol d/t MG medications
-
-SOCIAL HISTORY: 
-Occupation: Studied pharmacy at [LOCATION], worked as a pharmacist at [LOCATION] for years.
-Residence: Does not have a permanent home. Sold his home to his son in [LOCATION], with whom he lives part time. Spends some time with his daughter in [LOCATION] and friend in [LOCATION].

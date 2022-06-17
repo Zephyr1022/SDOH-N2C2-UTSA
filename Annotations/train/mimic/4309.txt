@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Vapes currently; quit smoking cigarettes a few years ago.  
-Alcohol Use: 1 drink per week   
-Drug Use: Occasional marijuana use
-
-SOCIAL HISTORY: 
-Residence: Lives with his wife and two sons (ages 4, 6) in [LOCATION], [LOCATION]. Works as a teacher.

@@ -1,5 +1,0 @@
-HABITS: 
- Unable to Obtain due to Patient Condition
-
-SOCIAL HISTORY: 
-Residence: Patient lives with her mother [NAME], her primary care giver

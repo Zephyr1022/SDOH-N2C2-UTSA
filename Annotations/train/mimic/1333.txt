@@ -1,8 +1,0 @@
-HABITS: 
-He does not use tobacco, alcohol, marijuana, or other illicit drugs. 
-
-
-SOCIAL HISTORY: 
-Disabled due to illness. Formerly was an inspector.
-Lives with fiance, [NAME]
-Residence: [LOCATION], [LOCATION]

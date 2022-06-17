@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Endorses longterm smoking history, recently 4 cig/day   
-Alcohol Use: 'used to drink', denies recent etoh use 
-Drug Use: denies
-
-SOCIAL HISTORY: 
-Per [LOCATION] records, patient previously resided at the [LOCATION] until [DATE] when he briefly moved into a private residence for several months. He had difficulty caring for himself and his landlords helped with bringing him food, emptying urinals, etc. He was admitted to the [LOCATION] in [DATE] and since discharge has resided at Washington Care Services. Patient states he has no family we could contact. ED SW identified numbers for sister [NAME] and a friend [NAME].

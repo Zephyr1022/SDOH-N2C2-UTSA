@@ -1,8 +1,0 @@
-HABITS: 
-Tobacco Use:Current smoker. 7pk-yr history
- Alcohol Use:History of alcoholism. Quit 3mo ago.
-Drug Use: Heroin IV, cocaine (snorts), methamphetamine (occaisional). He has been on suboxone and methadone programs in the past.
-
-SOCIAL HISTORY: 
-The patient was born in [LOCATION]. He played football at [LOCATION] University. He worked as a machinist and as a commerical fisherman. Gradually, substance use issues began to interfere with his relationships and he is now extranged from his ex-wife, son, and daughter. He is homeless and has been living in shelters, "a different church every night.
-"

@@ -1,6 +1,0 @@
-HABITS: 
-Denies alcohol, tobacco and drug use. 
-
-SOCIAL HISTORY: 
-Lives with daughter [NAME] in [LOCATION] 
-Daughter's # is [CONTACT]

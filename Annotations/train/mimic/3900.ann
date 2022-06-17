@@ -1,6 +1,0 @@
-T1	LivingStatus 177 182	lived
-T2	StatusTime 166 182	Previously lived
-T3	TypeLiving 183 193	in shelter
-E1	LivingStatus:T1 Type:T3 Status:T2
-A1	StatusTimeVal T2 past
-A2	TypeLivingVal T3 homeless

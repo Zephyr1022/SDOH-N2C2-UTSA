@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: no  Alcohol Use: no   Drug Use: heroin
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: Live on street in [LOCATION]

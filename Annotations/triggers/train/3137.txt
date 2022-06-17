@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: current smoker, 1 pack per day for 35 years  
-Alcohol Use: previously drank heavily, now has an occasional beer
-Drug Use: current IVDU, also on methadone
-
-SOCIAL HISTORY: 
-Mr. [NAME] lives in his own apartment near [LOCATION]. He lives alone. He has an adult son who lives in [LOCATION] and another son who lives in [LOCATION]. He is in contact with his sons and has already let the son in [LOCATION] know about this hospitalization. He has worked as a plumber in the past but has not worked for some time.

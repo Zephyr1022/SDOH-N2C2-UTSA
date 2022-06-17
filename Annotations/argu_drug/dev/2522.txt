@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: denies   Alcohol Use:occasional   Drug Use: remote hx of marajuana use
-
-SOCIAL HISTORY:
-Residence: _ lives at [LOCATION] [LOCATION].

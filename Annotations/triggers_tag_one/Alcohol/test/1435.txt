@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: Denies   Alcohol Use: Denies   Drug Use: Denies 
-
-SOCIAL HISTORY: 
-Apartment in [LOCATION] with adult daughter, her mother is visiting from [LOCATION] and has been staying with her.

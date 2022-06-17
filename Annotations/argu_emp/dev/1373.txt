@@ -1,8 +1,0 @@
-HABITS: 
-Tobacco Use: Denies
-Alcohol Use: Denies
-Drug Use: Denies
-
-SOCIAL HISTORY: 
-Originally from [LOCATION]. [LOCATION] reminded her of [LOCATION] and decided to move there after being based there in the Army. She and her husband are both retired from the Army. Two children, ages 18 and 23, still live at home.
-Residence: [LOCATION], [LOCATION]

@@ -1,9 +1,0 @@
-T1	Drug 51 66	stimulant abuse
-T2	StatusTime 40 50	History of
-T3	StatusTime 17 27	History of
-T4	Alcohol 28 39	alcohol use
-T5	Type 51 60	stimulant
-E1	Drug:T1 Status:T2 Type:T5
-E2	Alcohol:T4 Status:T3
-A1	StatusTimeVal T2 current
-A2	StatusTimeVal T3 current

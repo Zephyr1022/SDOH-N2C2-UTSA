@@ -1,4 +1,0 @@
-T1	Tobacco 26 33	Tobacco
-T2	StatusTime 35 41	denies
-E1	Tobacco:T1 Status:T2
-A1	StatusTimeVal T2 none

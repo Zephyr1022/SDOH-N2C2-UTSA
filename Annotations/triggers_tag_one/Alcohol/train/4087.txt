@@ -1,7 +1,0 @@
-Soc Hx: Denies alcohol, smoking, drugs.  Lives in [LOCATION].
-HABITS: 
-Tobacco Use: Denies
-Alcohol Use: Denies 
-Drug Use: Denies
-
-SOCIAL HISTORY: Lives in [LOCATION] with 24/7 caregivers.  Fell 30 feet off a roof in 1978 and broke his neck. Went back to school and got a few degrees (database administration etc). Went on a hot air balloon ride in [DATE]. Has done sky diving, travels, and still lives a very active life.

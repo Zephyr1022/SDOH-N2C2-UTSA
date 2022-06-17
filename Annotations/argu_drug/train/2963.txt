@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: None   Alcohol Use: None Drug Use: None
-
-SOCIAL HISTORY: 
-Residence: [LOCATION], [LOCATION]

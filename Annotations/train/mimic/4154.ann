@@ -1,5 +1,0 @@
-T1	Drug 45 53	Drug use
-T2	StatusTime 62 77	clean and sober
-T3	History 78 89	for 2 years
-E1	Drug:T1 Status:T2 History:T3
-A1	StatusTimeVal T2 past

@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: denies (per roommate)   Alcohol Use: denies (per roommate) Drug Use: denies (per roommate) 
-
-SOCIAL HISTORY: 
-Residence: Lives with two roommates. Works as a speech pathologist in [LOCATION] School District. Plays drums in a band. Family lives primarily in [LOCATION].

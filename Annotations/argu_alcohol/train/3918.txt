@@ -1,8 +1,0 @@
-HABITS: 
-Former smoker, quit 2 months ago
-Social alcohol drinker
-No illicit drug use
-
-SOCIAL HISTORY: 
-Lives in [LOCATION] 
-On disability

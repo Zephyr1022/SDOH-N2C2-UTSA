@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: occasional   Alcohol Use: denies   Drug Use: active methamphetamine, occasional heroin and oxycodone, injects in her groin
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: She is homeless, living in the jungle in an encampment with other people. Originally from [LOCATION]
-Family: Father is deceased, mother is an alcoholic. She is in touch with her brother, who is a fisherman. Would want her sister, living in [LOCATION], to be her DPOA but has not filled paperwork.

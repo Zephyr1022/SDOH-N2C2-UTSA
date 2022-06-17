@@ -1,5 +1,0 @@
-HABITS: 
-Previously drank unknown quantities of alcohol, but denies current ingestion or previous hospitalizations for alcohol use/withdrawal. Denies marijuana or illicit drug use. Previously smoke from ages 16 to 33 (17 years) less than 1/2 ppd. 
-
-SOCIAL HISTORY: 
-Lives in a house in [LOCATION] with his sister, moved here in [DATE]. Independent in his ADLs, IADLs. Works at [LOCATION] as a cook. Previously from [LOCATION].

@@ -1,8 +1,0 @@
-HABITS: 
-Drug Use: No IVDU
-Alcohol: Occasional alcohol use
-Tobacco: 1/4 PPD for 4 years
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: Currently living in his vehicle.

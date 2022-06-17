@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: denies current use, hx tobacco use   Alcohol Use: no current use   Drug Use: denies
-
-SOCIAL HISTORY: 
-Moved back recently from [LOCATION]. Has friends in [LOCATION]. Lives at Rainier House. No permanent bed. Previously worked at a steel mill in the [DATE]. Afterwards worked at a plant.

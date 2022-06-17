@@ -1,6 +1,0 @@
-HABITS: 
-prior EtOH use
-
-SOCIAL HISTORY: 
-Married, lives in [LOCATION], [LOCATION]
-Staying locally peri-operatively ([LOCATION])
