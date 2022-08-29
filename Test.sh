@@ -28,14 +28,14 @@ rm ./Annotations/triggers_tag/LivingStatus/test/*.ann
 bash trigger_ner2.sh
 
 # copy test txt to each trigger folder
-cp ./Annotations/test/*.txt ./Annotations/events_tag/Drug/test
-cp ./Annotations/test/*.txt ./Annotations/events_tag/Alcohol/test
-cp ./Annotations/test/*.txt ./Annotations/events_tag/Tobacco/test
-cp ./Annotations/test/*.txt ./Annotations/events_tag/Employment/test
-cp ./Annotations/test/*.txt ./Annotations/events_tag/LivingStatus/test
+cp ./Annotations/test/*.txt ./Annotations/triggers_tag/Drug/test
+cp ./Annotations/test/*.txt ./Annotations/triggers_tag/Alcohol/test
+cp ./Annotations/test/*.txt ./Annotations/triggers_tag/Tobacco/test
+cp ./Annotations/test/*.txt ./Annotations/triggers_tag/Employment/test
+cp ./Annotations/test/*.txt ./Annotations/triggers_tag/LivingStatus/test
 
 # generate conll based on ann&txt for test set
-bash trigger_anntoconll_test.sh > ./anntoconll_results/trigger_tag_test_anntoconll_us.out 2>&1 & 
+bash trigger_anntoconll_test.sh > ./anntoconll_results/trigger_tag_test_anntoconll_uw.out 2>&1 & 
 
 # combine conll and add trigger tag
 python process.py ./Annotations/triggers_tag/Drug/test/ Drug test_drug_tag.conll

@@ -9,12 +9,30 @@ conda activate scispacyV5
 #option 1-tag trigger
 CUDA_VISIBLE_DEVICES=0 nohup python sdoh_trainer.py sdoh-26-event-tag-uw.yaml > ./ner_results/trigger_tag_ner_train_uw.out 2>&1 &
 
+# clinical Bert
+# CUDA_VISIBLE_DEVICES=0 python sdoh_trainer.py sdoh-26-event-tag-uw.yaml 
+
 #option 2-1 notag trigger  with flair
 CUDA_VISIBLE_DEVICES=1 nohup python sdoh_trainer.py sdoh-26-event-uw.yaml > ./ner_results/trigger_ner_train_uw.out 2>&1 &
 #option 2-2 no tag with bert 
 CUDA_VISIBLE_DEVICES=1 nohup python sdoh_trainer.py sdoh-84-event.yaml > ./ner_results/trigger_ner_train_84.out 2>&1 &
 #option 2-3 no tag with word 
 CUDA_VISIBLE_DEVICES=2 nohup python sdoh_trainer.py sdoh-40-event.yaml > ./ner_results/trigger_ner_train_40.out 2>&1 &
+
+
+# Task C
+
+# Clinical Bert trigger_tag + bert
+CUDA_VISIBLE_DEVICES=0 nohup python sdoh_trainer.py sdoh-84-event.yaml > ./ner_results/trigger_tag_ner_train_uw_clinical.out 2>&1 &
+# CUDA_VISIBLE_DEVICES=1 nohup python sdoh_trainer.py sdoh-84-event.yaml > ./ner_results/trigger_tag_ner_train_uw-bert.out 2>&1 &
+
+# Argument separate:
+CUDA_VISIBLE_DEVICES=1 nohup python sdoh_trainer.py sdoh-84-drug-uw.yaml > ./ner_results/train_ner_drug_clinical.out 2>&1 &
+CUDA_VISIBLE_DEVICES=2 nohup python sdoh_trainer.py sdoh-84-alcohol-uw.yaml > ./ner_results/train_ner_alcohol_clinical.out 2>&1 &
+CUDA_VISIBLE_DEVICES=3 nohup python sdoh_trainer.py sdoh-84-tobacco-uw.yaml > ./ner_results/train_ner_tobacco_clinical.out 2>&1 &
+CUDA_VISIBLE_DEVICES=0 nohup python sdoh_trainer.py sdoh-84-livingstatus-uw.yaml > ./ner_results/train_ner_liv_clinicalp.out 2>&1 &
+CUDA_VISIBLE_DEVICES=0 nohup python sdoh_trainer.py sdoh-84-employment-uw.yaml > ./ner_results/train_ner_emp_clinical.out 2>&1 &
+
 
 
 # argument ner model training
