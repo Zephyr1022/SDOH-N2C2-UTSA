@@ -163,16 +163,14 @@ bash remover_cc_temp.sh
 # move to template 
 mv train_triggers_tag_ner.txt ./template
 mv dev_triggers_tag_ner.txt ./template
+# mv test_triggers_tag_ner.txt ./template
 mv test1_triggers_ner.txt ./template
 
 # conll_num: reference
 mv train_triggers_tag_num.conll ./conll_num
 mv dev_triggers_tag_num.conll ./conll_num
-mv test1_triggers_num.conll ./conll_num
-
-# test
-# mv test_triggers_tag_ner.txt ./template
 # mv test_triggers_tag_num.conll ./conll_num
+mv test1_triggers_num.conll ./conll_num
 
 echo "Ready for Trigger Model Training"
 
@@ -217,7 +215,7 @@ mv dev_trigger_uw_ner.txt template
 mv dev_trigger_uw_num.conll conll_num
 
 
-# Test HERE
+# test HERE
 
 # clean
 rm ./Annotations/triggers/test/*
@@ -427,76 +425,3 @@ bash remover_cc_temp.sh
 # move ner to ./template and resource to ./conll_num 
 bash test2_ner_mv_template.sh
 bash test2_num_mv_conll.sh
-
-
-##############################################################
-#
-#
-#
-#    Relation Extraction: Classification Samples (./taggers)
-#
-#
-#
-##############################################################
-
-# Triggers and Arguments 改变了 Subtype 也会相应的改变, 需要重新 predict 
-# generate classification groundtruth sample 
-# Input, train = match + not_match 
-# INPUT: './Annotations/'+ train_dev_test_dir +'/temp/*.ann' 待处理data 暂存在 trian/temp, dev/temp, test
-
-# Match Classification 
-# train
-python relation_ps.py train # generate positive example  - match      save: relation_train_match.csv
-python relation_ne.py train # generate negative example  - not match  save: relation_train_notmatch.csv
-
-# dev
-python relation_ps.py dev    #save: relation_dev_match.csv
-python relation_ne.py dev    #save: relation_dev_notmatch.csv
-
-# combine positive and negative to train, dev 
-# cat ?? 是否会出问题
-cat relation_train_match.csv relation_train_notmatch.csv > relation_train.csv # train: relation_train.csv
-cat relation_dev_match.csv relation_dev_notmatch.csv > relation_dev.csv       # dev: relation_dev.csv
-
-
-
-# Argument Subtype Classification Generate Data Sample: Know distribution(template_rl, train, dev)
-python relation_subtype.py train     # train 10933, 3512 981 959 959 
-python relation_subtype.py dev       # dev 1177, 416 90 117 117
-
-# move train and dev to template_rl (relation template)
-# remove 多余的文件
-rm relation_train_match.csv
-rm relation_train_notmatch.csv
-rm relation_dev_match.csv
-rm relation_dev_notmatch.csv
-
-# Ready for Training: Match Filter & subtype classification
-mv relation_train.csv template_rl
-mv relation_dev.csv template_rl
-
-mv subtype_train_med.csv template_rl
-mv subtype_train_emp.csv template_rl
-mv subtype_train_liv_status.csv template_rl
-mv subtype_train_liv_type.csv template_rl
-
-mv subtype_dev_med.csv template_rl
-mv subtype_dev_emp.csv template_rl
-mv subtype_dev_liv_status.csv template_rl
-mv subtype_dev_liv_type.csv template_rl
-
-
-# template_rl 的命名很重要， 不同corpus可以存在不同的位置
-
-
-
-
-
-# ./template 
-test1_triggers_ner.txt # w/  tag # same to test_triggers_tag_ner.txt
-test2_triggers_ner.txt # w/o tag 
-
-# ./conll_num
-test1_triggers_num.conll  # test_triggers_tag_num.conll
-test2_triggers_num.conll 
-

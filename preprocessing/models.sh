@@ -63,9 +63,23 @@ cat relation_train_match.csv relation_train_notmatch.csv > relation_train.csv	# 
 cat relation_dev_match.csv relation_dev_notmatch.csv > relation_dev.csv			# dev: relation_dev.csv
 
 # Train the Match Classification Model
-
 nohup python relation_pcl.py > ./relation_results/train_relation_uw.out 2>&1 & 
 nohup python relation_pcl.py > ./relation_results/train_relation_123.out 2>&1 & 
+
+# Relation Extraction: Classification - Filter Relation
+
+# Data Preprocessing for Classification
+# train
+python relation_ps.py sdoh-26-event.yaml # generate positive example  - match 		save: relation_train_match.csv
+python relation_ne.py sdoh-26-event.yaml # generate negative example - not match 	save: relation_train_notmatch.csv
+
+# dev
+python relation_ps.py sdoh-26-event-dev.yaml	    #save: relation_dev_match.csv
+python relation_ne.py sdoh-26-event-dev.yaml    #save: relation_dev_notmatch.csv
+
+# combine positive and negative sample to train/dev
+cat relation_train_match.csv relation_train_notmatch.csv > relation_train.csv	# train: relation_train.csv
+cat relation_dev_match.csv relation_dev_notmatch.csv > relation_dev.csv			# dev: relation_dev.csv
 
 
 
@@ -79,6 +93,7 @@ bash move_subtype_data.sh
 
 
 # train the model
+# train_data, dev_data, test_data, where_to_save_best_model, device_cuda
 nohup python argument_subtype_pcl.py './template_rl/subtype_train_med.csv' './template_rl/subtype_dev_med.csv' './template_rl/subtype_dev_med.csv' './model_save/distilbert-subtype-med-baseline-nlp-lr-v2-123.pt' 'cuda:1' > ./relation_results/train_subtype_med_123.out 2>&1 & 
 # subtype_train_med.csv subtype_dev_med.csv # save model
 
