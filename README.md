@@ -18,7 +18,7 @@ Code for Extracting-Social-Determinants-of-Health-N2C2
 Annotation
 └── triggers_tag
 	├── train
-	│	     └── ann + txt -> conll -> combined 
+	│	 └── ann + txt -> conll -> combined 
  	├── dev
   └── test
 
