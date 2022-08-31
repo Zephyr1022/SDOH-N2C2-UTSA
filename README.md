@@ -8,6 +8,10 @@ Code for Extracting-Social-Determinants-of-Health-N2C2
 
 ### Datasets
 
+- MIMIC-III
+- University of Washington (UW)
+
+Training and test data for this task will utilize the SHAC annotations, which will be provided using the BRAT standoff format
 
 
 ### Preprocessing
