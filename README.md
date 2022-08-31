@@ -14,17 +14,15 @@ Code for Extracting-Social-Determinants-of-Health-N2C2
 
 
 
-ERE
-├── LDC2015E29_DEFT_Rich_ERE_English_Training_Annotation_V2
-│     ├── data
-│     ├── docs
-│     └── ...
-├── LDC2015E68_DEFT_Rich_ERE_English_Training_Annotation_R2_V2
-│     ├── data
-│     ├── docs
-│     └── ...
-└── LDC2015E78_DEFT_Rich_ERE_Chinese_and_English_Parallel_Annotation_V2
-      ├── data
-      ├── docs
-      └── ...
+```
+Annotation
+└── triggers_tag
+	├── train
+	│	└── ann + txt -> conll -> combined 
+ 	├── dev
+    └── test
+
+```
+
+
 
