@@ -14,7 +14,7 @@ The prediction task A, B, and C involves identifying trigger and argument spans,
 
 Training and test data for this task will utilize the SHAC annotations, which will be provided using the BRAT standoff format
 
-Prepare data processed from [https://github.com/Lybarger/brat_scoring]
+Prepare data processed from [BRAT](https://github.com/Lybarger/brat_scoring)
 
 
 ### Preprocessing
