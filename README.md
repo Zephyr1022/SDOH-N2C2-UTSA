@@ -6,20 +6,21 @@ The prediction task A, B, and C involves identifying trigger and argument spans,
 
 
 ### Environment
+- wheel
+- pandas
+- tqdm
+- spacy>=3.0.0 with languange model "en_core_web_sm"
 
 ### Datasets
 
 - MIMIC-III
 - University of Washington (UW)
 
-Training and test data for this task will utilize the SHAC annotations, which will be provided using the BRAT standoff format
-
-Prepare data processed from [BRAT](https://github.com/Lybarger/brat_scoring)
+- Training and test data for this task will utilize the SHAC annotations, which will be provided using the BRAT standoff format
+- Prepare data processed from [BRAT](https://github.com/Lybarger/brat_scoring)
 
 
 ### Preprocessing
-
-
 
 ```
 Annotation
@@ -30,6 +31,7 @@ Annotation
         └── test
 
 ```
+Run `./scripts/preprocessing.sh`
 
 
 
