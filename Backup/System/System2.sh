@@ -35,16 +35,16 @@ Part II Relation Classification (./model_save)
 # Trigger NER - 2-notag
 # yaml_model_name, input_test, output_test  # final-model.pt or best-model.pt
 
-CUDA_VISIBLE_DEVICES=0 nohup python error_analysis_test.py 'sdoh-26-trigger-mimic_train_dev.yaml' 'test2_triggers_ner.txt' 'test2_triggers_pred.txt' > ./ner_results/trigger_ner_mimic_test2.out 2>&1 &
+CUDA_VISIBLE_DEVICES=0 nohup python error_analysis_test.py 'sdoh-26-trigger-uw_train_dev.yaml' 'test2_triggers_ner.txt' 'test2_triggers_pred.txt' > ./ner_results/trigger_ner_test2.out 2>&1 &
 
 # clean ann table
-rm ./ANNTABLE/system2/ann/*.ann
+rm ./ANNTABLE/system1/ann/*.ann
 
 # generate predicted trigger ann (T#) and prediction
 # ann_save_dir, conll_order, above_pred, output_pred
 # mv test2_triggers_relation.txt test_relation
 
-python test2ann_events.py './ANNTABLE/system2/ann/' './conll_num/test2_triggers_num.conll' 'test2_triggers_pred.txt' 'test2_triggers_relation.txt'
+python test2ann_events.py './ANNTABLE/system1/ann/' './conll_num/test2_triggers_num.conll' 'test2_triggers_pred.txt' 'test2_triggers_relation.txt'
 
 
 # Argument NER - 2-seperate
@@ -52,15 +52,15 @@ python test2ann_events.py './ANNTABLE/system2/ann/' './conll_num/test2_triggers_
 # final-model.pt or best-model.pt
 # input_text: best_model, test_data, output_test 
 
-CUDA_VISIBLE_DEVICES=0 nohup python error_analysis_test.py 'sdoh-26-drug-mimic_train_dev.yaml' 'test2_Drug_ner.txt' 'test2_Drug_arguments_pred.txt' > ./ner_results/argument_ner_drug.out 2>&1 &
+CUDA_VISIBLE_DEVICES=0 nohup python error_analysis_test.py 'sdoh-26-drug-uw_train_dev.yaml' 'test2_Drug_ner.txt' 'test2_Drug_arguments_pred.txt' > ./ner_results/argument_ner_drug.out 2>&1 &
 
-CUDA_VISIBLE_DEVICES=1 nohup python error_analysis_test.py 'sdoh-26-alcohol-mimic_train_dev.yaml' 'test2_Alcohol_ner.txt' 'test2_Alcohol_arguments_pred.txt' > ./ner_results/argument_ner_alcohol.out 2>&1 &
+CUDA_VISIBLE_DEVICES=1 nohup python error_analysis_test.py 'sdoh-26-alcohol-uw_train_dev.yaml' 'test2_Alcohol_ner.txt' 'test2_Alcohol_arguments_pred.txt' > ./ner_results/argument_ner_alcohol.out 2>&1 &
 
-CUDA_VISIBLE_DEVICES=2 nohup python error_analysis_test.py 'sdoh-26-tobacco-mimic_train_dev.yaml' 'test2_Tobacco_ner.txt' 'test2_Tobacco_arguments_pred.txt' > ./ner_results/argument_ner_tobacco.out 2>&1 &
+CUDA_VISIBLE_DEVICES=2 nohup python error_analysis_test.py 'sdoh-26-tobacco-uw_train_dev.yaml' 'test2_Tobacco_ner.txt' 'test2_Tobacco_arguments_pred.txt' > ./ner_results/argument_ner_tobacco.out 2>&1 &
 
-CUDA_VISIBLE_DEVICES=3 nohup python error_analysis_test.py 'sdoh-26-employment-mimic_train_dev.yaml' 'test2_Employment_ner.txt' 'test2_Employment_arguments_pred.txt' > ./ner_results/argument_ner_employment.out 2>&1 &
+CUDA_VISIBLE_DEVICES=3 nohup python error_analysis_test.py 'sdoh-26-employment-uw_train_dev.yaml' 'test2_Employment_ner.txt' 'test2_Employment_arguments_pred.txt' > ./ner_results/argument_ner_employment.out 2>&1 &
 
-CUDA_VISIBLE_DEVICES=3 nohup python error_analysis_test.py 'sdoh-26-livingstatus-mimic_train_dev.yaml' 'test2_LivingStatus_ner.txt' 'test2_LivingStatus_arguments_pred.txt' > ./ner_results/argument_ner_livingstatus.out 2>&1 &
+CUDA_VISIBLE_DEVICES=3 nohup python error_analysis_test.py 'sdoh-26-livingstatus-uw_train_dev.yaml' 'test2_LivingStatus_ner.txt' 'test2_LivingStatus_arguments_pred.txt' > ./ner_results/argument_ner_livingstatus.out 2>&1 &
 
 
 # Generate arguments-relation 
@@ -142,7 +142,7 @@ python argument_subtype_pcl_pred.py './template_rl/subtype_train_liv_status.csv'
 # get probability for all poss relationship: relation_test22.csv (<trigger></trigger> <argument></argument>) 遍历
 # test_data, best_model, device_cuda, save_test_pred_loc, save_test_prob_loc
 
-python relation_pcl_pred.py 'relation_test22.csv' './model_save/distilbert-model-match-baseline-nlp-lr-v2-123.pt' 'cuda:0' 'relation_pred/test22-mimic-base-match-pred-V123.csv' 'relation_pred/test22-mimic-base-match-prob-V123.csv'
+python relation_pcl_pred.py 'relation_test22.csv' './model_save/distilbert-model-match-baseline-nlp-lr-v2-uw.pt' 'cuda:0' 'relation_pred/test22-uw-base-match-pred-V123.csv' 'relation_pred/test22-uw-base-match-prob-V123.csv'
 
 # ./template_rl/relation_train.csv
 # ./template_rl/relation_dev.csv
@@ -153,7 +153,7 @@ python relation_pcl_pred.py 'relation_test22.csv' './model_save/distilbert-model
 # option 1: all-poss
 # input_relation, event_table_dir
 
-python event_table22.py 'test22-trigger-argument-all-poss-relation.txt' './ANNTABLE/system2/ann/*.ann'
+python event_table22.py 'test22-trigger-argument-all-poss-relation.txt' './ANNTABLE/system1/ann/*.ann'
 
 # 146     match_med = pd.read_csv('./template_rl/subtype_test22_med.csv',header = None)
 # 147     match_emp = pd.read_csv('./template_rl/subtype_test22_emp.csv',header = None)
@@ -168,30 +168,30 @@ python event_table22.py 'test22-trigger-argument-all-poss-relation.txt' './ANNTA
 
 # option 2: Filter + threshold
 # all_poss_data, match_prob, output_match_relation, threshold
-python relation_match.py 'test22-trigger-argument-all-poss-relation.txt' './relation_pred/test22-mimic-base-match-prob-V123.csv' 'test22-trigger-argument-thrd-match-relation.txt' 0.01
-python event_table22.py 'test22-trigger-argument-thrd-match-relation.txt' './ANNTABLE/system2/ann/*.ann'
+python relation_match.py 'test22-trigger-argument-all-poss-relation.txt' './relation_pred/test22-uw-base-match-prob-V123.csv' 'test22-trigger-argument-thrd-match-relation.txt' 0.01
+python event_table22.py 'test22-trigger-argument-thrd-match-relation.txt' './ANNTABLE/system1/ann/*.ann'
 
 
 # option 3: Filter + threshold + argmax   
 # all_poss_data_relation, relation_match_prob, output_match_relation, threshold
-python relation_match_argmax.py 'test22-trigger-argument-all-poss-relation.txt' './relation_pred/test22-mimic-base-match-prob-V123.csv' "test22-trigger-argument-argmax-relation.txt" 0.2
-python event_table22.py 'test22-trigger-argument-argmax-relation.txt' './ANNTABLE/system2/ann/*.ann'
+python relation_match_argmax.py 'test22-trigger-argument-all-poss-relation.txt' './relation_pred/test22-uw-base-match-prob-V123.csv' "test22-trigger-argument-argmax-relation.txt" 0.1
+python event_table22.py 'test22-trigger-argument-argmax-relation.txt' './ANNTABLE/system1/ann/*.ann'
 
 
 # option 4: Argmax on Status, Filter + threshold + argmax + status
-python relation_match_status_argmax.py 'test22-trigger-argument-all-poss-relation.txt' './relation_pred/test22-mimic-base-match-prob-V123.csv' "test22-trigger-argument-status-argmax-relation.txt" 0.1
-python event_table22.py 'test22-trigger-argument-status-argmax-relation.txt' './ANNTABLE/system2/ann/*.ann'
+python relation_match_status_argmax.py 'test22-trigger-argument-all-poss-relation.txt' './relation_pred/test22-uw-base-match-prob-V123.csv' "test22-trigger-argument-status-argmax-relation.txt" 0.1
+python event_table22.py 'test22-trigger-argument-status-argmax-relation.txt' './ANNTABLE/system1/ann/*.ann'
 
 
 
 # clean
-# ~/sdoh/ANNTABLE/system2/ann/*.ann 之前生成的 trigger ann 
-rm ~/sdoh/ANNTABLE/system2/table/*.ann
-rm ~/sdoh/ANNTABLE/system2/table/*.txt
+# ~/sdoh/ANNTABLE/system1/ann/*.ann 之前生成的 trigger ann 
+rm ~/sdoh/ANNTABLE/system1/table/*.ann
+rm ~/sdoh/ANNTABLE/system1/table/*.txt
 
 # groundtruth test txt
-cp ~/sdoh/Annotations/test/*.txt ~/sdoh/ANNTABLE/system2/table/  
-cp ~/sdoh/ANNTABLE/system2/ann/*.ann ~/sdoh/ANNTABLE/system2/table/
+cp ~/sdoh/Annotations/test/*.txt ~/sdoh/ANNTABLE/system1/table/  
+cp ~/sdoh/ANNTABLE/system1/ann/*.ann ~/sdoh/ANNTABLE/system1/table/
 
 
 # Get Result
@@ -202,31 +202,6 @@ vim scoring22.csv
 
 # option 3
 OVERALL,OVERALL,OVERALL,8537,8156,7134,0.8746934771947033,0.8356565538245285,0.8547295273467921
-OVERALL,OVERALL,OVERALL,3471,3327,2862,0.8602344454463481,0.8245462402765773,0.8420123565754634
-OVERALL,OVERALL,OVERALL,5066,4391,3598,0.8194033249829196,0.7102250296091591,0.760917838638046
-OVERALL,OVERALL,OVERALL,5066,4391,3599,0.8196310635390571,0.7104224240031584,0.7611293221951992
-
-# clean
-# ~/sdoh/ANNTABLE/system2/ann/*.ann 之前生成的 trigger ann 
-rm ~/sdoh/ANNTABLE/system2/table/*.ann
-rm ~/sdoh/ANNTABLE/system2/table/*.txt
-# groundtruth test txt
-cp ~/sdoh/Annotations/test/*.txt ~/sdoh/ANNTABLE/system2/table/  
-cp ~/sdoh/ANNTABLE/system2/ann/*.ann ~/sdoh/ANNTABLE/system2/table/
-
-# option 4: Argmax on Status, Filter + threshold + argmax + status
-python relation_match_status_argmax.py 'test22-trigger-argument-all-poss-relation.txt' './relation_pred/test22-mimic-base-match-prob-V123.csv' "test22-trigger-argument-status-argmax-relation.txt" 0.01
-python event_table22.py 'test22-trigger-argument-status-argmax-relation.txt' './ANNTABLE/system2/ann/*.ann'
-
-
-
-python relation_match_argmax.py 'test22-trigger-argument-all-poss-relation.txt' './relation_pred/test22-mimic-base-match-prob-V123.csv' "test22-trigger-argument-argmax-relation.txt" 0.01
-python event_table22.py 'test22-trigger-argument-argmax-relation.txt' './ANNTABLE/system2/ann/*.ann'
-
-
-# Get Result
-python get_results22.py
-vim scoring22.csv
 
 
 
@@ -243,7 +218,7 @@ vim scoring22.csv
 
 
 # gold_dir = "./Annotations/test_original/mimic/",
-# predict_dir = "./ANNTable/system2/table/",
+# predict_dir = "./ANNTable/system1/table/",
 # output_path = "scoring_bert_uw.csv",
 
 # bert error_analysis_test.py bset_model 改成了 final_model
@@ -252,7 +227,7 @@ vim scoring22.csv
 # Trigger OUTPUT: test2_flair_events_pred.txt + ANN Table
 # 生成事件表格：'./Annotations/triggers/test/' 这三个model共用一个data, events folder 变量关联 三选一,先
 # bert generate ann and prediction
-# python test2ann_events.py './ANNTable/system2/ann/' './conll_num/test_trigger_tag_num.conll' 'test1_bert_trigger_pred.txt' 'test1_bert_trigger_relation.txt'
+# python test2ann_events.py './ANNTable/system1/ann/' './conll_num/test_trigger_tag_num.conll' 'test1_bert_trigger_pred.txt' 'test1_bert_trigger_relation.txt'
 # rm ./Annotations/triggers/test/*.ann
 # Argument Prediction 
 #CUDA_VISIBLE_DEVICES=0 nohup python error_analysis_test.py 'sdoh-84-drug-uw.yaml' 'test2_Drug_ner.txt' 'test2_Drug_arguments_pred.txt' > ./ner_results/argument_ner_test21_uw.out 2>&1 &
@@ -278,7 +253,7 @@ python event_table22.py 'test22-trigger-argument-status-argmax-relation.txt' './
 # option 3 #Argmax   # all_poss_data, match_prob, output_match_relation, threshold
 python relation_match_argmax.py 'test22-trigger-argument-all-poss-relation.txt' './relation_pred/test22-base-match-prob-V123.csv' "test22-trigger-argument-argmax-relation.txt" 0.3
 # option 3: Filter + threshold + argmax
-python event_table22.py 'test22-trigger-argument-argmax-relation.txt' './ANNTable/system2/ann/*.ann' '123' 
+python event_table22.py 'test22-trigger-argument-argmax-relation.txt' './ANNTable/system1/ann/*.ann' '123' 
 
 python get_results.py
 
