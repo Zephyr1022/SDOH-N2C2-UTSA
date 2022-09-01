@@ -1,0 +1,18 @@
+T1	LivingStatus 17 25	Homeless
+T2	StatusTime 17 25	Homeless
+T3	TypeLiving 17 25	Homeless
+T4	Employment 202 215	on disability
+T5	StatusEmploy 202 215	on disability
+T6	Type 122 153	bill collector for [PROFESSION]
+T7	Duration 154 166	until age 37
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Duration:T7 Type:T6
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusEmployVal T5 on_disability
+T8	StatusTime 226 241	plans to return
+A4	StatusTimeVal T8 future
+T9	LivingStatus 245 252	shelter
+E3	LivingStatus:T9 Type:T10 Status:T8
+T10	TypeLiving 245 252	shelter
+A5	TypeLivingVal T10 homeless

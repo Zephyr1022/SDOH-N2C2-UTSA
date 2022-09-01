@@ -1,0 +1,22 @@
+T1	Tobacco 23 30	tobacco
+T2	StatusTime 16 22	denies
+T3	Alcohol 43 56	glass of wine
+T4	Type 52 56	wine
+T5	Amount 43 56	glass of wine
+T7	StatusTime 32 42	occasional
+T8	Drug 65 86	illicit drugs or IVDA
+T9	Type 65 72	illicit
+T10	Method 82 86	IVDA
+T11	StatusTime 58 64	denies
+T12	LivingStatus 89 98	Residence
+T13	TypeLiving 128 164	with fiance and other family members
+T14	StatusTime 100 105	Lives
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Amount:T5 Type:T4 Status:T7
+E3	Drug:T8 Type:T9 Method:T10 Status:T11
+E4	LivingStatus:T12 Type:T13 Status:T14
+A1	StatusTimeVal T2 none
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T11 none
+A5	TypeLivingVal T13 with_family
+A6	StatusTimeVal T14 current

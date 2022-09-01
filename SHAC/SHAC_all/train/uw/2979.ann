@@ -1,0 +1,40 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	Smoker
+T3	Amount 29 35	1.5ppd
+T4	Alcohol 37 48	Alcohol Use
+T5	StatusTime 50 56	Denies
+T6	Drug 58 66	Drug Use
+T7	Duration 68 75	Long Hx
+T8	Type 82 94	crystal meth
+T9	StatusTime 96 101	clean
+T10	History 102 111	x5 months
+T11	Drug 120 146	THC, cocaine, or RxOpioids
+T12	Type 120 146	THC, cocaine, or RxOpioids
+T13	StatusTime 113 119	denies
+T14	LivingStatus 253 265	homelessness
+T15	StatusTime 247 249	Hx
+T16	TypeLiving 253 265	homelessness
+E1	Tobacco:T1 Status:T2 Amount:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Duration:T7 Type:T8 Status:T9 History:T10 Method:T23
+E4	Drug:T11 Type:T12 Status:T13
+E5	LivingStatus:T14 Type:T16 Status:T15
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T9 past
+A4	StatusTimeVal T13 none
+A5	StatusTimeVal T15 current
+A6	TypeLivingVal T16 homeless
+T23	Method 76 80	IVDU
+T24	LivingStatus 166 175	Residence
+E6	LivingStatus:T24 Status:T25 Type:T26
+T25	StatusTime 177 180	Has
+A7	StatusTimeVal T25 current
+T26	TypeLiving 188 217	Cottage Grove Commons shelter
+A8	TypeLivingVal T26 homeless
+T27	LivingStatus 233 245	YMCA Shelter
+E7	LivingStatus:T27 Type:T29 Status:T28
+T28	StatusTime 219 229	previously
+A9	StatusTimeVal T28 past
+T29	TypeLiving 233 245	YMCA Shelter
+A10	TypeLivingVal T29 homeless

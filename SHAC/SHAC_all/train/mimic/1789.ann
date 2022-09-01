@@ -1,0 +1,19 @@
+T1	Tobacco 72 87	Tobacco history
+T2	StatusTime 90 99	1-1.5 PPD
+T3	Amount 90 99	1-1.5 PPD
+T4	Alcohol 101 105	ETOH
+T5	StatusTime 139 174;175 188	more than [**1-4**] gallon of vodka every 10 days
+T6	Frequency 175 188	every 10 days
+T7	Amount 139 165	more than [**1-4**] gallon
+T8	Type 169 174	vodka
+T9	Drug 190 203	Illicit drugs
+T10	Type 190 197	Illicit
+T11	StatusTime 206 210	none
+E1	Tobacco:T1 Status:T2 Amount:T3
+E2	Alcohol:T4 Amount:T7 Status:T5 Type:T8 Frequency:T6 Type2:T12 Amount2:T13
+E3	Drug:T9 Type:T10 Status:T11
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T11 none
+T12	Type 132 137	Vodka
+T13	Amount 108 128	[**2-5**] large cups

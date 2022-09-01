@@ -1,0 +1,20 @@
+T1	LivingStatus 27 34	staying
+T2	TypeLiving 35 53	at Canaday shelter
+T3	StatusTime 17 26	Currently
+T4	Tobacco 215 221	smoker
+T5	StatusTime 207 214	Current
+T6	Alcohol 237 248	alcohol use
+T7	StatusTime 222 236	Denies current
+T8	Drug 255 274	meth and opiate use
+T9	Type 255 270	meth and opiate
+T10	StatusTime 286 290	quit
+T11	History 291 303	40 years ago
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Type:T9 Status:T10 History:T11
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T7 past
+A5	StatusTimeVal T10 past

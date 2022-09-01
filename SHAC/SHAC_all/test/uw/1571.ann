@@ -1,0 +1,22 @@
+T1	LivingStatus 17 25	Homeless
+T2	TypeLiving 17 25	Homeless
+T3	Tobacco 61 68	tobacco
+T4	StatusTime 47 53	Smokes
+T5	Amount 54 60	1/2ppd
+T6	Alcohol 74 78	EtOH
+T7	StatusTime 71 73	No
+T8	Drug 88 94	heroin
+T9	Amount 85 87	1g
+T10	StatusTime 80 84	Uses
+T11	Frequency 94 98	/day
+T12	Method 99 101	IV
+T13	StatusTime 27 33	living
+E1	LivingStatus:T1 Type:T2 Status:T13
+E2	Tobacco:T3 Status:T4 Amount:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Amount:T9 Status:T10 Frequency:T11 Method:T12
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T13 current

@@ -1,0 +1,12 @@
+T1	Tobacco 22 32	cigarettes
+T2	StatusTime 17 21	quit
+T3	History 33 48	3-4 years prior
+T4	LivingStatus 49 54	lives
+T5	StatusTime 49 54	lives
+T6	TypeLiving 55 79	at 1811 Eastlake shelter
+E1	Tobacco:T1 Status:T2 History:T3 Type:T10
+E2	LivingStatus:T4 Type:T6 Status:T5
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 homeless
+T10	Type 22 32	cigarettes

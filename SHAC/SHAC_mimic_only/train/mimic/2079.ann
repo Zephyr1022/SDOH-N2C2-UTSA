@@ -1,0 +1,27 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 45	at [**Hospital6 3355**]
+T4	Tobacco 47 54	smoking
+T5	Amount 55 70	28 year pack hx
+T6	StatusTime 47 54	smoking
+T7	Alcohol 72 76	etoh
+T8	StatusTime 77 83	remote
+T9	Drug 85 96	former IVDU
+T10	StatusTime 85 96	former IVDU
+T11	Method 92 96	IVDU
+T12	Frequency 98 107	used once
+T13	Employment 129 139	bus driver
+T14	Type 129 139	bus driver
+T15	StatusEmploy 129 139	bus driver
+T16	Duration 140 150	for 18 yrs
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T6 Amount:T5
+E3	Alcohol:T7 Status:T8
+E4	Drug:T9 Status:T10 Method:T11 Frequency:T12
+E5	Employment:T13 Status:T15 Type:T14 Duration:T16
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T10 past
+A6	StatusEmployVal T15 employed

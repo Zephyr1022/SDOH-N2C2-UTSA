@@ -1,0 +1,5 @@
+T1	Tobacco 20 26	smoked
+T2	Amount 27 45	20 plus pack years
+T3	StatusTime 20 26	smoked
+E1	Tobacco:T1 Amount:T2 Status:T3
+A1	StatusTimeVal T3 past

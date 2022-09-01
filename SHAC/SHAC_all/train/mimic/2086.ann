@@ -1,0 +1,23 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 30 61	with her boyfriend and daughter
+T4	Tobacco 67 74	Smoking
+T5	StatusTime 110 114	quit
+T6	History 115 125	8 year ago
+T7	Amount 93 100	5 packs
+T8	Frequency 101 108	per day
+T9	Alcohol 127 131	EtOH
+T10	StatusTime 133 139	denies
+T11	Drug 140 144	IVDU
+T12	Method 140 144	IVDU
+T13	StatusTime 146 152	denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T7 Frequency:T8 Status:T5 History:T6 Amount2:T14
+E3	Alcohol:T9 Status:T10
+E4	Drug:T11 Method:T12 Status:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T13 none
+T14	Amount 76 83	100+ py

@@ -1,0 +1,6 @@
+T3	LivingStatus 61 67	living
+T4	TypeLiving 82 93	with sister
+T5	StatusTime 61 67	living
+E2	LivingStatus:T3 Type:T4 Status:T5
+A1	TypeLivingVal T4 with_family
+A2	StatusTimeVal T5 current

@@ -1,0 +1,18 @@
+T3	Employment 328 341	does not work
+T4	StatusEmploy 328 341	does not work
+T7	Type 369 374	guard
+T1	Drug 151 158;159 162	cocaine use
+T2	Type 151 158	cocaine
+T8	StatusTime 140 150	history of
+T9	Alcohol 167 174	alcohol
+T10	Tobacco 222 232	smoking hx
+T11	Amount 208 221	+35 pack year
+T15	StatusTime 237 245	is still
+T16	Amount 254 258	1ppd
+E2	Employment:T3 Status:T4 Type:T7
+E1	Drug:T1 Type:T2 Status:T8
+E4	Alcohol:T9 Status:T8
+E5	Tobacco:T10 Amount:T11 Status:T15 Amount2:T16
+A2	StatusEmployVal T4 unemployed
+A1	StatusTimeVal T8 current
+A5	StatusTimeVal T15 current

@@ -1,0 +1,18 @@
+T1	Tobacco 22 28	smoked
+T2	StatusTime 16 21	Never
+T3	Alcohol 30 53	previous social drinker
+T4	StatusTime 30 53	previous social drinker
+T5	Drug 58 63	drugs
+T6	StatusTime 55 57	no
+T7	LivingStatus 75 80	Lives
+T8	TypeLiving 81 94	with daughter
+T9	StatusTime 75 80	Lives
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Status:T9 Type:T8
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T6 none
+A4	TypeLivingVal T8 with_family
+A5	StatusTimeVal T9 current

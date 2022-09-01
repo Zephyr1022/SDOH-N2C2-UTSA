@@ -1,0 +1,24 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	denies
+T3	Alcohol 31 42	Alcohol Use
+T4	StatusTime 44 74	denies any use since diagnosis
+T5	History 59 74	since diagnosis
+T6	Drug 76 84	Drug Use
+T7	StatusTime 86 92	denies
+T8	LivingStatus 111 116	Lives
+T9	StatusTime 111 116	Lives
+T10	TypeLiving 117 130	with daughter
+T11	Employment 154 158	work
+T12	StatusEmploy 146 158	Used to work
+T13	Type 162 171	therapist
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4 History:T5
+E3	Drug:T6 Status:T7
+E4	LivingStatus:T8 Status:T9 Type:T10
+E5	Employment:T11 Status:T12 Type:T13
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T10 with_family
+A6	StatusEmployVal T12 unemployed

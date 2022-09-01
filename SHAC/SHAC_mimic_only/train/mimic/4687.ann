@@ -1,0 +1,21 @@
+T1	Employment 62 68	Worked
+T2	Type 72 74;75 94	an equiptment designer
+T3	StatusEmploy 62 68	Worked
+T4	Alcohol 204 210	drinks
+T5	Amount 211 221	4-12 beers
+T6	Type 216 221	beers
+T7	Frequency 222 227	daily
+T8	StatusTime 204 210	drinks
+T9	Tobacco 274 281	tobacco
+T10	StatusTime 267 273	Remote
+T11	Drug 287 291	IVDU
+T12	Method 287 291	IVDU
+T13	StatusTime 284 286	No
+E1	Employment:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Amount:T5 Type:T6 Frequency:T7 Status:T8
+E3	Tobacco:T9 Status:T10
+E4	Drug:T11 Method:T12 Status:T13
+A1	StatusEmployVal T3 unemployed
+A2	StatusTimeVal T8 current
+A3	StatusTimeVal T10 past
+A4	StatusTimeVal T13 none

@@ -1,0 +1,19 @@
+T1	Alcohol 5 16	Social EtOH
+T2	StatusTime 5 16	Social EtOH
+T4	Tobacco 25 32	smoking
+T5	Amount 18 24	20pkyr
+T6	StatusTime 18 24	20pkyr
+T7	Drug 37 42	drugs
+T8	StatusTime 34 36	no
+T11	LivingStatus 99 104	Lives
+T12	StatusTime 99 104	Lives
+T13	TypeLiving 105 121	with his brother
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T4 Amount:T5 Status:T6
+E3	Drug:T7 Status:T8
+E5	LivingStatus:T11 Status:T12 Type:T13
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T12 current
+A6	TypeLivingVal T13 with_family

@@ -1,0 +1,17 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 31	with wife
+T3	StatusTime 16 21	Lives
+T4	Alcohol 70 76	drinks
+T5	Amount 77 81	4-5x
+T6	Frequency 81 86	/week
+T7	StatusTime 70 76	drinks
+T8	Employment 88 93	works
+T9	StatusEmploy 88 93	works
+T10	Type 97 103	artist
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Amount:T5 Frequency:T6 Status:T7
+E3	Employment:T8 Status:T9 Type:T10
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T7 current
+A4	StatusEmployVal T9 employed

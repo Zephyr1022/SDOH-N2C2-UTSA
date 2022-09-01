@@ -1,0 +1,18 @@
+T1	LivingStatus 48 53	lives
+T2	StatusTime 48 53	lives
+T3	TypeLiving 54 66	with her son
+T4	Tobacco 190 201	tobacco use
+T5	StatusTime 203 207	quit
+T6	History 208 210;211 220	10 years ago
+T7	Alcohol 227 233	drinks
+T8	StatusTime 227 233	drinks
+T9	Amount 234 244	8-10 beers
+T10	Frequency 245 252	per day
+T11	Type 239 244	beers
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Alcohol:T7 Status:T8 Amount:T9 Type:T11 Frequency:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T8 current

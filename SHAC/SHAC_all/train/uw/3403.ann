@@ -1,0 +1,15 @@
+T1	Tobacco 101 117	tobacco products
+T2	Method 95 100	Vapes
+T3	StatusTime 95 100	Vapes
+T4	Alcohol 16 40	Previous heavy alcoholic
+T6	StatusTime 16 40	Previous heavy alcoholic
+T7	Drug 58 73	meth and heroin
+T8	Type 58 73	meth and heroin
+T9	History 80 92	one year ago
+T10	StatusTime 54 57	Off
+E1	Tobacco:T1 Method:T2 Status:T3
+E2	Alcohol:T4 Status:T6
+E3	Drug:T7 Type:T8 Status:T10 History:T9
+A1	StatusTimeVal T3 current
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T10 past

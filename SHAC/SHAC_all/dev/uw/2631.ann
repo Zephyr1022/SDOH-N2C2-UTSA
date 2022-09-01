@@ -1,0 +1,4 @@
+T1	Tobacco 220 234	Smoking status
+T2	StatusTime 236 249	Former Smoker
+E1	Tobacco:T1 Status:T2
+A1	StatusTimeVal T2 past

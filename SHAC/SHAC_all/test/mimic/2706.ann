@@ -1,0 +1,24 @@
+T1	LivingStatus 24 29	lives
+T2	StatusTime 24 29	lives
+T3	TypeLiving 30 43	with her wife
+T4	Tobacco 101 107;108 114	Former smoker
+T5	StatusTime 116 120	quit
+T6	History 121 133	10 years ago
+T7	Amount 141 150	1/2-1 PPD
+T8	Duration 151 163	for 10 years
+T9	Alcohol 171 176	Drink
+T10	StatusTime 166 170;171 204	Last Drink tuesday 9 pm 15 drinks week
+T11	Amount 190 199	15 drinks
+T12	Frequency 200 204	week
+T13	Employment 88 99	an optician
+T14	Type 88 99	an optician
+T15	StatusEmploy 88 99	an optician
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6 Amount:T7 Duration:T8
+E3	Alcohol:T9 Status:T10 Amount:T11 Frequency:T12
+E4	Employment:T13 Status:T15 Type:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T10 current
+A5	StatusEmployVal T15 employed

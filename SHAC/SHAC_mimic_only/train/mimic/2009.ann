@@ -1,0 +1,26 @@
+T1	Employment 16 26	Occupation
+T2	Type 28 35	Laborer
+T3	StatusEmploy 48 58	unemployed
+T4	History 59 76	for last 6 months
+T10	Drug 312 317	Drugs
+T11	Type 319 336	cocaine, klonopin
+T12	Alcohol 390 397	Alcohol
+T13	StatusTime 399 411	not recently
+T14	Duration 372 381	25+ years
+T15	Tobacco 363 370	Tobacco
+T16	Amount 385 389	1ppd
+T17	StatusTime 385 389	1ppd
+T20	StatusTime 338 357	past but not recent
+T21	Method 358 362	IVDU
+E1	Employment:T1 Type:T2 Status:T3 History:T4
+E4	Drug:T10 Type:T11 Status:T5
+E5	Alcohol:T12 Status:T13
+E6	Tobacco:T15 Duration:T14 Status:T17 Amount:T16
+A1	StatusEmployVal T3 unemployed
+A3	StatusTimeVal T13 past
+A4	StatusTimeVal T17 current
+A6	StatusTimeVal T20 past
+T5	StatusTime 319 336	cocaine, klonopin
+A2	StatusTimeVal T5 current
+T6	Drug 358 362	IVDU
+E2	Drug:T6 Status:T20 Method:T21

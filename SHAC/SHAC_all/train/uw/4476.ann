@@ -1,0 +1,40 @@
+T1	Alcohol 15 22	alcohol
+T2	Drug 26 49	recreational drug abuse
+T3	Type 26 38	recreational
+T4	StatusTime 8 14	denies
+T5	Alcohol 56 64	drinking
+T6	StatusTime 51 55	quit
+T7	History 65 82	several years ago
+T8	Tobacco 88 95	smoking
+T9	StatusTime 83 87	Quit
+T10	History 96 117	a couple of weeks ago
+T11	Tobacco 149 156	smoker-
+T12	Amount 157 162	2 ppd
+T13	Duration 163 175	for 30 years
+T14	Amount 185 189	1ppd
+T15	Tobacco 185 189	1ppd
+T16	Duration 190 202	for 30 years
+T17	StatusTime 157 175	2 ppd for 30 years
+T18	StatusTime 185 202	1ppd for 30 years
+T19	LivingStatus 305 310	lives
+T20	StatusTime 305 310	lives
+T21	TypeLiving 311 323	with her son
+T22	Employment 386 405	Retired interpreter
+T23	StatusEmploy 386 405	Retired interpreter
+T24	Type 386 405	Retired interpreter
+E1	Alcohol:T1 Status:T4
+E2	Drug:T2 Type:T3 Status:T4
+E3	Alcohol:T5 Status:T6 History:T7
+E4	Tobacco:T8 Status:T9 History:T10
+E5	Tobacco:T11 Amount:T12 Status:T17 Duration:T13
+E6	Tobacco:T15 Amount:T14 Status:T18 Duration:T16
+E7	LivingStatus:T19 Status:T20 Type:T21
+E8	Employment:T22 Status:T23 Type:T24
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T9 past
+A4	StatusTimeVal T17 past
+A5	StatusTimeVal T18 past
+A6	StatusTimeVal T20 current
+A7	TypeLivingVal T21 with_family
+A8	StatusEmployVal T23 retired

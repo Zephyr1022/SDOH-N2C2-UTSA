@@ -1,0 +1,16 @@
+T1	Tobacco 19 22	tob
+T2	Alcohol 24 28	Etoh
+T3	Drug 30 38	illicits
+T4	StatusTime 16 18	No
+T5	Employment 138 150;151 161	currently on disability
+T6	StatusEmploy 138 150;151 161	currently on disability
+T7	Employment 105 130	a former clerk/supervisor
+T8	StatusEmploy 105 130	a former clerk/supervisor
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T4
+E3	Drug:T3 Status:T4
+E4	Employment:T5 Status:T6
+E5	Employment:T7 Status:T8
+A1	StatusTimeVal T4 none
+A2	StatusEmployVal T6 on_disability
+A3	StatusEmployVal T8 unemployed

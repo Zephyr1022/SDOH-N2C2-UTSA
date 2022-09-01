@@ -1,0 +1,12 @@
+T1	Employment 187 193	Worked
+T2	StatusEmploy 187 193	Worked
+T3	Type 198 208	[LOCATION]
+T4	LivingStatus 259 267	homeless
+T5	StatusTime 255 258	Was
+T6	TypeLiving 259 267	homeless
+T7	Duration 268 298	between the yeas of 1970 -1971
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Type:T6 Status:T5 Duration:T7
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 past
+A3	TypeLivingVal T6 homeless

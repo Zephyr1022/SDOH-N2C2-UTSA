@@ -1,0 +1,29 @@
+T1	LivingStatus 27 33	living
+T2	StatusTime 27 33	living
+T3	TypeLiving 17 25	Homeless
+T4	Employment 451 468	previously worked
+T5	StatusEmploy 451 468	previously worked
+T6	Type 472 498	a cook and in construction
+T7	Tobacco 666 677	Tobacco Use
+T8	Amount 686 697	1/4-1/2 PPD
+T9	StatusTime 698 716	prior to admission
+T10	Alcohol 726 737	Alcohol Use
+T12	Frequency 774 792	1-2 times per week
+T13	Amount 793 802	2-3 beers
+T14	Type 797 802	beers
+T15	StatusTime 813 831	prior to admission
+T16	Drug 832 840	Drug Use
+T17	Type 842 860	IV heroin, cocaine
+T18	StatusTime 842 860	IV heroin, cocaine
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Amount:T8 Status:T9 Amount2:T11
+E4	Alcohol:T10 Frequency:T12 Amount:T13 Type:T14 Status:T15
+E5	Drug:T16 Status:T18 Type:T17
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T9 past
+A6	StatusTimeVal T15 past
+A7	StatusTimeVal T18 current
+T11	Amount 718 725	~20 PYH

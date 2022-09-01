@@ -1,0 +1,38 @@
+T1	Alcohol 16 23	alcohol
+T2	Drug 28 38	drug usage
+T3	StatusTime 9 15	Denies
+T4	Tobacco 49 62	tobacco usage
+T5	StatusTime 40 48	Endorses
+T6	Amount 86 94	1/2 pack
+T7	Frequency 95 102	per day
+T8	Duration 103 113	X 30 years
+T9	LivingStatus 210 216	living
+T10	StatusTime 197 209	currently is
+T11	TypeLiving 217 225	in a SNF
+T12	Employment 272 276	work
+T13	StatusEmploy 263 271	does not
+T14	LivingStatus 136 149	usually lives
+T15	TypeLiving 176 191	with her mother
+T16	StatusTime 136 149	usually lives
+T17	Amount 64 76	15 pack year
+T18	Tobacco 64 84	15 pack year history
+T19	StatusTime 64 84	15 pack year history
+T20	StatusTime 86 113	1/2 pack per day X 30 years
+T21	Tobacco 86 113	1/2 pack per day X 30 years
+E1	Alcohol:T1 Status:T3
+E2	Drug:T2 Status:T3
+E3	Tobacco:T4 Status:T5
+E4	LivingStatus:T9 Status:T10 Type:T11
+E5	Employment:T12 Status:T13
+E6	LivingStatus:T14 Status:T16 Type:T15
+E7	Tobacco:T18 Status:T19 Amount:T17
+E8	Tobacco:T21 Amount:T6 Status:T20 Frequency:T7 Duration:T8
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T10 current
+A4	TypeLivingVal T11 with_others
+A5	StatusEmployVal T13 unemployed
+A6	TypeLivingVal T15 with_family
+A7	StatusTimeVal T16 current
+A8	StatusTimeVal T19 current
+A9	StatusTimeVal T20 current

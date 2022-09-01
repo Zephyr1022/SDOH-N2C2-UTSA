@@ -1,0 +1,34 @@
+T1	LivingStatus 25 30	lives
+T2	TypeLiving 45 58	with his wife
+T3	StatusTime 25 30	lives
+T4	Employment 151 156	works
+T5	StatusEmploy 151 156	works
+T6	Type 160 173	an accountant
+T7	Employment 205 227	a professional athlete
+T8	History 228 242	many years ago
+T9	StatusEmploy 201 204	was
+T10	Alcohol 248 255	alcohol
+T12	StatusTime 245 247	No
+T11	Tobacco 259 278	current tobacco use
+T13	Amount 280 291	5 pack-year
+T14	StatusTime 292 299	history
+T15	Type 305 315	cigarettes
+T16	History 316 328	30 years ago
+T17	Drug 337 345	cannabis
+T18	Type 337 345	cannabis
+T19	Method 330 336	smokes
+T20	Frequency 346 352	weekly
+T21	StatusTime 330 336	smokes
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Employment:T7 Status:T9 History:T8
+E4	Alcohol:T10 Status:T12
+E5	Tobacco:T11 Amount:T13 Status:T14 History:T16 Type:T15
+E6	Drug:T17 Method:T19 Type:T18 Frequency:T20 Status:T21
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 past
+A3	StatusEmployVal T5 employed
+A4	StatusEmployVal T9 unemployed
+A5	StatusTimeVal T12 none
+A6	StatusTimeVal T14 past
+A7	StatusTimeVal T21 current

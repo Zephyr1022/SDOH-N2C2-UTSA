@@ -1,0 +1,25 @@
+T1	LivingStatus 24 29	lives
+T2	TypeLiving 30 57	with roommate and boyfriend
+T3	StatusTime 24 29	lives
+T4	Tobacco 142 145	PPD
+T5	Amount 131 145	[**1-21**] PPD
+T6	StatusTime 131 145	[**1-21**] PPD
+T7	Alcohol 148 155	Alcohol
+T9	StatusTime 169 182	none recently
+T10	Drug 186 194	Illicits
+T11	Type 207 242;243 253	cocaine, heroin, benzodiazepine and barbituate
+T12	StatusTime 266 274	last use
+T13	History 279 296	over one year ago
+T14	Employment 298 311	On disability
+T15	StatusEmploy 298 311	On disability
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Amount:T5 Status:T6
+E3	Alcohol:T7 Status:T9
+E4	Drug:T10 Type:T11 Status:T12 History:T13
+E5	Employment:T14 Status:T15
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 current
+A5	StatusTimeVal T9 past
+A6	StatusTimeVal T12 past
+A7	StatusEmployVal T15 on_disability

@@ -1,0 +1,16 @@
+T1	Alcohol 32 39	alcohol
+T2	Tobacco 44 59	smoking history
+T3	StatusTime 25 31	remote
+T4	Drug 78 86	illicits
+T5	Type 78 86	illicits
+T6	StatusTime 75 77	no
+T7	Employment 88 103	Formerly worked
+T8	StatusEmploy 88 103	Formerly worked
+T9	Type 108 116	the USPS
+E1	Alcohol:T1 Status:T3
+E2	Tobacco:T2 Status:T3
+E3	Drug:T4 Status:T6 Type:T5
+E4	Employment:T7 Status:T8 Type:T9
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T6 none
+A3	StatusEmployVal T8 unemployed

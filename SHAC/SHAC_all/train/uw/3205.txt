@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: uses   Alcohol Use: denies   Drug Use: denies
+
+SOCIAL HISTORY: 
+Residence: High school graduate, previously worked in IT. Lives in [LOCATION] in private residence

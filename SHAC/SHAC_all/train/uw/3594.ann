@@ -1,0 +1,15 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	smoked
+T3	Duration 29 43	for many years
+T4	Alcohol 46 57	Alcohol Use
+T5	Amount 59 69	1-2 drinks
+T6	Frequency 70 77	per day
+T7	StatusTime 59 77	1-2 drinks per day
+T10	Drug 119 127	Drug Use
+T11	StatusTime 129 135	denies
+E1	Tobacco:T1 Status:T2 Duration:T3
+E2	Alcohol:T4 Amount:T5 Frequency:T6 Status:T7
+E4	Drug:T10 Status:T11
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T7 current
+A5	StatusTimeVal T11 none

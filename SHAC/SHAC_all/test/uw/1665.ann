@@ -1,0 +1,12 @@
+T1	Employment 49 59	Employment
+T2	StatusEmploy 62 70	Employed
+T3	Tobacco 91 98	tobacco
+T4	Alcohol 100 107	alcohol
+T5	Drug 113 121	drug use
+T6	StatusTime 73 79	Denies
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Status:T6
+E3	Alcohol:T4 Status:T6
+E4	Drug:T5 Status:T6
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T6 none

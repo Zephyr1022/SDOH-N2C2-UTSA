@@ -1,0 +1,17 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 31	with wife
+T4	Alcohol 120 135	Occasional EtOH
+T6	StatusTime 120 135	Occasional EtOH
+T7	Tobacco 140 147	tobacco
+T8	StatusTime 137 139	no
+T9	Drug 152 164;165 173	recreational drug use
+T10	Type 152 164	recreational
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T6
+E3	Tobacco:T7 Status:T8
+E4	Drug:T9 Type:T10 Status:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A4	StatusTimeVal T6 current
+A5	StatusTimeVal T8 none

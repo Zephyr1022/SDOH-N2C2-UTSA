@@ -1,0 +1,11 @@
+T1	Drug 51 66	drugs of choice
+T2	Type 17 46	Cannabis and methamphetamines
+T3	StatusTime 47 66	are drugs of choice
+T4	Drug 73 77	meth
+T5	Type 73 77	meth
+T6	Method 78 80	IV
+T7	StatusTime 68 72	uses
+E1	Drug:T1 Status:T3 Type:T2
+E2	Drug:T4 Status:T7 Type:T5 Method:T6
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T7 current

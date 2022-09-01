@@ -1,0 +1,20 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 31	with wife
+T4	Tobacco 68 75	Tobacco
+T5	StatusTime 85 89	quit
+T6	History 90 97	in 1998
+T7	Amount 99 108	[DATE] py
+T8	Alcohol 126 130	ETOH
+T9	StatusTime 132 138	Denies
+T10	Drug 139 144	Drugs
+T11	StatusTime 146 152	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6 Amount:T7
+E3	Alcohol:T8 Status:T9
+E4	Drug:T10 Status:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T11 none

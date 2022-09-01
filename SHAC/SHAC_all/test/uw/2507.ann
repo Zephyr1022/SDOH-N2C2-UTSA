@@ -1,0 +1,19 @@
+T1	Tobacco 16 23	tobacco
+T2	Alcohol 25 32	alcohol
+T3	Drug 37 42	drugs
+T4	StatusTime 9 15	Denies
+T5	LivingStatus 63 68	Lives
+T6	TypeLiving 83 106	with his husband [NAME]
+T7	StatusTime 63 68	Lives
+T8	Employment 109 114	Works
+T9	StatusEmploy 109 114	Works
+T10	Type 118 123	an RN
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T4
+E3	Drug:T3 Status:T4
+E4	LivingStatus:T5 Status:T7 Type:T6
+E5	Employment:T8 Status:T9 Type:T10
+A1	StatusTimeVal T4 none
+A2	TypeLivingVal T6 with_family
+A3	StatusTimeVal T7 current
+A4	StatusEmployVal T9 employed

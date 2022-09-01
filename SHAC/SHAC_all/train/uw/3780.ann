@@ -1,0 +1,51 @@
+T1	Tobacco 11 22	Tobacco Use
+T2	StatusTime 24 42	55 pack year 1 ppd
+T3	Amount 24 36	55 pack year
+T4	Alcohol 45 56	Alcohol Use
+T5	StatusTime 58 70	Binge drinks
+T6	Amount 71 106	approximately 1 fifth of wildturkey
+T7	Type 96 106	wildturkey
+T8	Frequency 107 121	once per month
+T10	Drug 130 138	Drug Use
+T11	StatusTime 144 158	Remote history
+T12	Type 182 189	cocaine
+T13	StatusTime 193 216	Endorses remote history
+T14	Type 228 246	injection drug use
+T15	LivingStatus 267 272	Lives
+T16	TypeLiving 273 278	alone
+T17	StatusTime 267 272	Lives
+T18	Duration 318 329	for 6 weeks
+T19	LivingStatus 335 354	previously homeless
+T20	StatusTime 331 334	was
+T21	Duration 355 366	for 4 years
+T22	Employment 392 405	on disability
+T23	StatusEmploy 392 405	on disability
+T24	Employment 368 375	Retired
+T25	StatusEmploy 368 375	Retired
+T26	History 376 388	10 years ago
+T27	Employment 430 440	employment
+T28	StatusEmploy 410 418	Formerly
+T29	Type 419 425	a chef
+T30	TypeLiving 346 354	homeless
+E1	Tobacco:T1 Amount:T3 Status:T2 Amount2:T9
+E2	Alcohol:T4 Status:T5 Amount:T6 Type:T7 Frequency:T8
+E3	Drug:T10 Status:T11 Type:T12
+E5	LivingStatus:T15 Status:T17 Type:T16 Duration:T18
+E6	LivingStatus:T19 Status:T20 Duration:T21 Type:T30
+E7	Employment:T22 Status:T23
+E8	Employment:T24 Status:T25 History:T26
+E9	Employment:T27 Type:T29 Status:T28
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 current
+A4	StatusTimeVal T11 past
+A5	StatusTimeVal T13 past
+A6	TypeLivingVal T16 alone
+A7	StatusTimeVal T17 current
+A8	StatusTimeVal T20 past
+A9	StatusEmployVal T23 on_disability
+A10	StatusEmployVal T25 retired
+A11	StatusEmployVal T28 unemployed
+A12	TypeLivingVal T30 homeless
+T9	Amount 37 42	1 ppd
+T31	Drug 228 246	injection drug use
+E4	Drug:T31 Type:T14 Status:T13

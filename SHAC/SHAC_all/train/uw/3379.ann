@@ -1,0 +1,23 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 23 37	with boyfriend
+T3	Drug 81 94	illicit drugs
+T4	Type 81 88	illicit
+T5	StatusTime 74 80	denies
+T6	Alcohol 46 50	etoh
+T7	History 61 72	8 years ago
+T8	StatusTime 52 72	last use 8 years ago
+T9	Tobacco 96 103	tobacco
+T10	Amount 104 112	1/3 pack
+T11	Duration 116 129	last 45 years
+T12	StatusTime 104 115	1/3 pack pd
+T13	StatusTime 17 22	Lives
+E1	LivingStatus:T1 Type:T2 Status:T13
+E2	Drug:T3 Type:T4 Status:T5
+E3	Alcohol:T6 Status:T8 History:T7
+E4	Tobacco:T9 Amount:T10 Duration:T11 Status:T12 Frequency:T14
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T8 past
+A4	StatusTimeVal T12 current
+A5	StatusTimeVal T13 current
+T14	Frequency 113 115	pd

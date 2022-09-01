@@ -1,0 +1,20 @@
+T1	Tobacco 16 25	ex smoker
+T2	History 32 44	18 years ago
+T3	StatusTime 27 31	quit
+T5	StatusTime 46 50	rare
+T7	Employment 57 71	retiredmedical
+T10	LivingStatus 83 88	lives
+T11	StatusTime 83 88	lives
+T12	TypeLiving 89 101	with husband
+T4	Alcohol 51 55	EtOH
+T9	Type 57 81	retiredmedical secretary
+T13	StatusEmploy 57 71	retiredmedical
+E1	Tobacco:T1 Status:T3 History:T2
+E3	Employment:T7 Type:T9 Status:T13
+E4	LivingStatus:T10 Status:T11 Type:T12
+E2	Alcohol:T4 Status:T5
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T5 current
+A5	StatusTimeVal T11 current
+A6	TypeLivingVal T12 with_family
+A7	StatusEmployVal T13 retired

@@ -1,0 +1,15 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 34	with husband
+T4	Tobacco 214 224	smoking hx
+T5	StatusTime 192 198	Remote
+T6	History 200 212	> 40 yrs ago
+T7	Alcohol 232 236	EtOH
+T8	StatusTime 229 231	no
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 History:T6 Status:T5
+E3	Alcohol:T7 Status:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T8 none

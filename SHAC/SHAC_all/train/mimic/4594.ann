@@ -1,0 +1,26 @@
+T1	Employment 92 99	working
+T2	StatusEmploy 160 162;163 171;172 222	on leave of absence" since [**Month (only) 547**] for seizures
+T3	History 181 209	since [**Month (only) 547**]
+T4	Type 115 118	CVS
+T5	LivingStatus 224 229	Lives
+T6	StatusTime 224 229	Lives
+T7	TypeLiving 230 244	with boyfriend
+T8	Alcohol 409 413	ETOH
+T9	StatusTime 429 440	in the past
+T10	Tobacco 483 490	Tobacco
+T12	StatusTime 519 545;546 558	there are often cigarettes in her purse
+T13	Drug 560 568	Illicits
+T14	Type 560 568	Illicits
+T15	StatusTime 570 576	denies
+E1	Employment:T1 Type:T4 Status:T2 History:T3
+E2	LivingStatus:T5 Status:T6 Type:T7
+E3	Alcohol:T8 Status:T9
+E4	Tobacco:T10 Status:T12 Type:T11
+E6	Drug:T13 Type:T14 Status:T15
+A1	StatusEmployVal T2 on_disability
+A2	StatusTimeVal T6 current
+A3	TypeLivingVal T7 with_others
+A4	StatusTimeVal T9 past
+A6	StatusTimeVal T12 current
+A7	StatusTimeVal T15 none
+T11	Type 535 545	cigarettes

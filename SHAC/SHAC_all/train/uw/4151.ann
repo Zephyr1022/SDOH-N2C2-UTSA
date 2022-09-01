@@ -1,0 +1,15 @@
+T1	LivingStatus 17 33	Living situation
+T2	TypeLiving 36 54	Transiently housed
+T3	StatusTime 36 54	Transiently housed
+T4	Alcohol 102 114	EtOH history
+T5	StatusTime 93 114	+ strong EtOH history
+T7	Drug 131 143	rec drug use
+T8	Type 131 134	rec
+T9	StatusTime 116 130	denies current
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Alcohol:T4 Status:T5
+E3	Drug:T7 Type:T8 Status:T9
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A5	StatusTimeVal T9 past

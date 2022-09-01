@@ -1,0 +1,20 @@
+T1	Tobacco 23 34	tobacco use
+T2	StatusTime 17 22	Prior
+T3	Alcohol 37 48	Alcohol Use
+T4	StatusTime 50 56	denies
+T5	Tobacco 70 81	Tobacco use
+T6	StatusTime 83 88	prior
+T7	Amount 89 94	1 PPD
+T8	Duration 95 107	for 26 years
+T9	History 114 124	30 yrs ago
+T10	Drug 127 135	Drug use
+T11	StatusTime 138 144	denies
+T12	Method 145 149	IVDU
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Tobacco:T5 Status:T6 Duration:T8 Amount:T7 History:T9
+E4	Drug:T10 Status:T11 Method:T12
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T11 none

@@ -1,0 +1,23 @@
+T1	LivingStatus 49 65	Living situation
+T2	StatusTime 68 73	Lives
+T3	TypeLiving 74 96	with significant other
+T4	Employment 99 109	Employment
+T5	StatusEmploy 112 119	Retired
+T6	Type 130 152	IT server installation
+T7	Tobacco 155 166	Tobacco use
+T8	StatusTime 169 175	Denies
+T9	Alcohol 178 189	Alcohol use
+T10	StatusTime 191 197	denies
+T11	Drug 200 208	Drug use
+T12	StatusTime 211 217	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Status:T10
+E5	Drug:T11 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T10 none
+A6	StatusTimeVal T12 none

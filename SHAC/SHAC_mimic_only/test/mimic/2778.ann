@@ -1,0 +1,24 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 39	with his grandson
+T3	StatusTime 16 21	Lives
+T4	Employment 45 52	working
+T5	StatusEmploy 41 44	not
+T6	Tobacco 61 68	tobacco
+T7	Alcohol 70 77	alcohol
+T8	Drug 82 98	illicit drug use
+T9	Type 82 89	illicit
+T10	StatusTime 54 60	Denies
+T11	Drug 108 112	IVDU
+T12	StatusTime 100 102	No
+T13	Method 108 112	IVDU
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T10
+E4	Alcohol:T7 Status:T10
+E5	Drug:T8 Type:T9 Status:T10
+E6	Drug:T11 Status:T12 Method:T13
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T12 none

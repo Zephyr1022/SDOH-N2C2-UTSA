@@ -1,0 +1,35 @@
+T1	LivingStatus 47 52	lives
+T2	StatusTime 47 52	lives
+T3	TypeLiving 53 72;73 81	with his wife and 3 children
+T4	Employment 167 180	still working
+T5	StatusEmploy 167 180	still working
+T6	Type 184 204	an extruder operator
+T9	Employment 261 267	worked
+T10	StatusEmploy 261 267	worked
+T11	Duration 268 283	for three years
+T12	Type 287 301	a tobacco farm
+T13	Alcohol 304 310	Drinks
+T14	Amount 311 319	12 beers
+T15	Frequency 320 325	a day
+T16	Type 314 319	beers
+T17	StatusTime 304 310	Drinks
+T18	Tobacco 327 333	Smoked
+T19	StatusTime 327 333	Smoked
+T20	Amount 334 339	2 ppd
+T21	Duration 340 350	x 30 years
+T22	Drug 359 363	IVDU
+T23	Type 359 363	IVDU
+T24	StatusTime 352 358	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E4	Employment:T9 Status:T10 Duration:T11 Type:T12
+E5	Alcohol:T13 Status:T17 Amount:T14 Type:T16 Frequency:T15
+E6	Tobacco:T18 Status:T19 Amount:T20 Duration:T21
+E7	Drug:T22 Status:T24 Type:T23
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 employed
+A4	StatusEmployVal T10 unemployed
+A5	StatusTimeVal T17 current
+A6	StatusTimeVal T19 past
+A7	StatusTimeVal T24 none

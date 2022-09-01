@@ -1,0 +1,47 @@
+T1	Tobacco 16 23	Tobacco
+T2	Amount 25 30	3 ppd
+T3	StatusTime 25 30	3 ppd
+T4	Alcohol 32 36	Etoh
+T5	StatusTime 38 43	sober
+T6	Duration 44 54	x 10 years
+T7	Alcohol 65 70	drank
+T8	StatusTime 71 79	recently
+T9	Drug 81 86	drugs
+T10	Type 91 98	cocaine
+T11	Method 88 90	IV
+T12	Frequency 103 108	daily
+T13	Amount 110 119	$50 worth
+T14	History 130 143;144 153	on the day of admission
+T15	StatusTime 103 108	daily
+T16	Drug 159 169	heroin use
+T17	Type 159 165	heroin
+T18	StatusTime 171 184	non currently
+T19	History 195 209	in [**11-24**]
+T25	Employment 635 648	on disability
+T26	StatusEmploy 635 648	on disability
+T27	LivingStatus 669 674	lives
+T28	TypeLiving 691 706	with a roommate
+T29	StatusTime 669 674	lives
+T30	LivingStatus 729 733	jail
+T31	TypeLiving 729 733	jail
+T32	Duration 717 725	2 months
+T33	History 734 748	many years ago
+T37	StatusTime 734 748	many years ago
+E1	Tobacco:T1 Amount:T2 Status:T3
+E2	Alcohol:T4 Status:T5 Duration:T6
+E3	Alcohol:T7 Status:T8
+E4	Drug:T9 Type:T10 Method:T11 Frequency:T12 Amount:T13 History:T14 Status:T15
+E5	Drug:T16 Type:T17 Status:T18 History:T19
+E7	Employment:T25 Status:T26
+E8	LivingStatus:T27 Type:T28 Status:T29
+E9	LivingStatus:T30 Type:T31 Duration:T32 History:T33 Status:T37
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T15 current
+A5	StatusTimeVal T18 past
+A7	StatusEmployVal T26 on_disability
+A8	TypeLivingVal T28 with_others
+A9	StatusTimeVal T29 current
+A10	TypeLivingVal T31 with_others
+A12	StatusTimeVal T37 past

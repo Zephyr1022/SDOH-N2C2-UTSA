@@ -1,0 +1,19 @@
+T1	Tobacco 39 46	tobacco
+T2	Drug 54 67	illicit drugs
+T3	Type 54 61	illicit
+T4	StatusTime 24 32	does not
+T5	Alcohol 88 94	drinks
+T6	StatusTime 88 94	drinks
+T7	Amount 95 110	a glass of wine
+T8	Frequency 111 129	a few times a week
+T9	LivingStatus 135 140	lives
+T10	TypeLiving 141 157	with her husband
+T11	StatusTime 135 140	lives
+E1	Tobacco:T1 Status:T4
+E2	Drug:T2 Type:T3 Status:T4
+E3	Alcohol:T5 Amount:T7 Status:T6 Frequency:T8
+E4	LivingStatus:T9 Type:T10 Status:T11
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T6 current
+A3	TypeLivingVal T10 with_family
+A4	StatusTimeVal T11 current

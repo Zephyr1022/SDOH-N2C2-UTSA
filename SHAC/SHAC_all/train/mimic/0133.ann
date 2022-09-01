@@ -1,0 +1,20 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 30 47	with her daughter
+T4	Tobacco 119 125	smoked
+T5	Amount 126 131	~2ppd
+T6	Duration 132 139	x20 yrs
+T7	History 152 162	27 yrs ago
+T8	StatusTime 147 151	quit
+T9	Alcohol 167 171	ETOH
+T10	Drug 175 183	illicits
+T11	StatusTime 164 166	No
+T12	Type 175 183	illicits
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T5 Duration:T6 Status:T8 History:T7
+E3	Alcohol:T9 Status:T11
+E4	Drug:T10 Status:T11 Type:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T8 past
+A4	StatusTimeVal T11 none

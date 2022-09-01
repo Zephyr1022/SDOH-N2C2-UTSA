@@ -1,0 +1,26 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 45	with her two adult sons
+T4	Tobacco 64 70	smoked
+T5	Amount 71 77	a pack
+T6	Frequency 78 83	a day
+T7	Duration 84 91;92 105	for the last 30 years
+T8	StatusTime 64 70	smoked
+T9	Alcohol 148 155	alcohol
+T10	Drug 165 170	drugs
+T11	StatusTime 145 147;148 192	No alcohol or other drugs for the last 16 years
+T12	History 171 192	for the last 16 years
+T13	Type 263 269	heroin
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T8 Amount:T5 Frequency:T6 Duration:T7
+E3	Alcohol:T9 Status:T11 History:T12
+E4	Drug:T10 Status:T11 History:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T11 past
+T14	Drug 263 269	heroin
+E5	Drug:T14 Type:T13 Method:T15 Status:T16
+T15	Method 254 262	injected
+T16	StatusTime 231 253	her drug of choice was
+A5	StatusTimeVal T16 past

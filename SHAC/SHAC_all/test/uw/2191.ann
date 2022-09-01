@@ -1,0 +1,17 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 54	alone in a retirement community
+T4	Tobacco 133 140	tobacco
+T5	Drug 144 160	illicit drug use
+T6	Type 144 151	illicit
+T7	StatusTime 122 132	Denies any
+T8	Alcohol 170 189	occasional EtOH use
+T9	StatusTime 162 169	Reports
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T7
+E3	Drug:T5 Type:T6 Status:T7
+E4	Alcohol:T8 Status:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T9 current

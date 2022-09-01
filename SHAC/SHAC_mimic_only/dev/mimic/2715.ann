@@ -1,0 +1,13 @@
+T1	Tobacco 23 29	smoker
+T2	StatusTime 16 22	Former
+T3	History 35 47	30 years ago
+T4	Alcohol 52 56	ETOH
+T5	StatusTime 49 51	no
+T6	Drug 61 69	Drug use
+T7	StatusTime 58 60	NO
+E1	Tobacco:T1 History:T3 Status:T2
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Status:T7
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 none

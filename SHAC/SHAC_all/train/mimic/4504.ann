@@ -1,0 +1,29 @@
+T1	Tobacco 16 36	30 pack year history
+T2	Amount 16 28	30 pack year
+T3	StatusTime 49 53	quit
+T4	History 54 64	[**7-24**]
+T5	Alcohol 70 81;82 101	heavy daily alcohol consumption
+T6	Duration 102 128	from [**2074**]-[**2090**]
+T7	StatusTime 102 128	from [**2074**]-[**2090**]
+T8	Drug 188 210	Extensive drug history
+T9	Type 249 273	cocaine, heroin, and LSD
+T10	StatusTime 211 217;218 227	during this time
+T11	LivingStatus 279 285	living
+T12	StatusTime 275 278;279 285	Was living
+T13	TypeLiving 286 302	with his brother
+T14	LivingStatus 316 321	rehab
+T15	TypeLiving 316 321	rehab
+T16	StatusTime 304 315	has been in
+T17	Duration 322 338	since [**7-24**]
+E1	Tobacco:T1 Amount:T2 Status:T3 History:T4
+E2	Alcohol:T5 Status:T7 Duration:T6
+E3	Drug:T8 Status:T10 Type:T9
+E4	LivingStatus:T11 Status:T12 Type:T13
+E5	LivingStatus:T14 Status:T16 Type:T15 Duration:T17
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T10 past
+A4	StatusTimeVal T12 past
+A5	TypeLivingVal T13 with_family
+A6	TypeLivingVal T15 with_others
+A7	StatusTimeVal T16 current

@@ -1,0 +1,38 @@
+T1	Employment 16 26	Occupation
+T2	StatusEmploy 28 38	unemployed
+T3	Drug 39 44	Drugs
+T4	Frequency 46 53	regular
+T5	Type 54 59	crack
+T7	StatusTime 46 53	regular
+T8	Drug 119 130	IV drug use
+T9	Method 119 121	IV
+T10	StatusTime 161 171;172 178	denies any recent
+T11	Duration 145 160	for 3-4 years--
+T13	Amount 204 215	1 cigarette
+T12	Tobacco 185 192	Tobacco
+T14	Frequency 216 221	daily
+T15	Type 206 215	cigarette
+T16	Alcohol 222 229	Alcohol
+T17	StatusTime 231 253	past and current hx of
+T19	LivingStatus 390 395	lives
+T20	TypeLiving 432 437	alone
+T21	StatusTime 390 395	lives
+T22	Employment 483 492;493 500	currently working
+T23	StatusEmploy 479 492;493 500	not currently working
+T24	StatusTime 204 221	1 cigarette daily
+E1	Employment:T1 Status:T2
+E2	Drug:T3 Frequency:T4 Type:T5 Status:T7
+E3	Drug:T8 Method:T9 Status:T10 Duration:T11 History:T6
+E4	Tobacco:T12 Amount:T13 Frequency:T14 Type:T15 Status:T24
+E5	Alcohol:T16 Status:T17
+E6	LivingStatus:T19 Type:T20 Status:T21
+E7	Employment:T22 Status:T23
+A1	StatusEmployVal T2 unemployed
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T10 past
+A5	StatusTimeVal T17 current
+A7	TypeLivingVal T20 alone
+A8	StatusTimeVal T21 current
+A9	StatusEmployVal T23 unemployed
+A10	StatusTimeVal T24 current
+T6	History 131 144	in [**2122**]

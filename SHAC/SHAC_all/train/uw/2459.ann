@@ -1,0 +1,16 @@
+T1	StatusTime 17 23	Denies
+T2	Tobacco 24 31	tobacco
+T3	Drug 33 41	illicits
+T4	Type 33 41	illicits
+T5	Alcohol 53 64	alcohol use
+T6	StatusTime 44 64	Endorses alcohol use
+E1	Tobacco:T2 Status:T1
+E2	Drug:T3 Status:T1 Type:T4
+E3	Alcohol:T5 Status:T6
+A1	StatusTimeVal T1 none
+A2	StatusTimeVal T6 current
+T7	Alcohol 71 76	drink
+E4	Alcohol:T7 Status:T9 History:T8
+T8	History 77 89	this morning
+T9	StatusTime 66 89	Last drink this morning
+A3	StatusTimeVal T9 current

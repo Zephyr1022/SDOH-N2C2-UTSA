@@ -1,0 +1,12 @@
+T1	LivingStatus 19 25	Living
+T2	StatusTime 19 25	Living
+T3	TypeLiving 26 50	at Clement Place Shelter
+T4	Drug 53 58	Drugs
+T5	Method 64 68	IVDU
+T6	History 74 81	in 2007
+T7	StatusTime 69 73	last
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Drug:T4 Status:T7 History:T6 Method:T5
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T7 past

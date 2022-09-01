@@ -1,0 +1,21 @@
+T1	Employment 44 61	currently working
+T2	StatusEmploy 40 61	not currently working
+T3	Employment 63 74	former cook
+T4	StatusEmploy 63 74	former cook
+T5	Type 63 74	former cook
+T6	StatusTime 76 84	Endorses
+T7	Tobacco 85 102	daily tobacco use
+T8	Frequency 85 90	daily
+T9	Alcohol 104 119	occasional EtOH
+T11	Drug 132 136	IVDU
+T12	Method 132 136	IVDU
+T13	StatusTime 142 156	recent relapse
+E1	Employment:T1 Status:T2
+E2	Employment:T3 Status:T4 Type:T5
+E3	Tobacco:T7 Frequency:T8 Status:T6
+E4	Alcohol:T9 Status:T6
+E5	Drug:T11 Status:T13 Method:T12
+A1	StatusEmployVal T2 unemployed
+A2	StatusEmployVal T4 unemployed
+A3	StatusTimeVal T6 current
+A5	StatusTimeVal T13 current

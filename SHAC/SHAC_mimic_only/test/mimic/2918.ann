@@ -1,0 +1,19 @@
+T1	LivingStatus 20 25	lives
+T2	StatusTime 20 25	lives
+T3	TypeLiving 26 31	alone
+T4	Tobacco 90 96	smoked
+T5	Amount 97 101	2PPD
+T6	Duration 102 128	for approximately 40 years
+T7	StatusTime 141 148	quiting
+T8	History 155 169	this past 9/08
+T9	StatusTime 182 188	denies
+T10	Alcohol 189 193	Etoh
+T11	Drug 194 199	drugs
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T5 Duration:T6 Status:T7 History:T8
+E3	Alcohol:T10 Status:T9
+E4	Drug:T11 Status:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T7 past
+A4	StatusTimeVal T9 none

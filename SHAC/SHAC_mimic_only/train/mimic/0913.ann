@@ -1,0 +1,14 @@
+T1	Tobacco 42 49	Tobacco
+T2	StatusTime 52 56	none
+T3	Alcohol 58 62	EtOH
+T4	StatusTime 65 69	none
+T5	Drug 105 113	drug use
+T6	Type 86 93	illicit
+T7	StatusTime 71 77	Denies
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Type:T6 Status:T7 Method:T8
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T7 none
+T8	Method 82 84	IV

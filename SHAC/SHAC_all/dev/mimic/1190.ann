@@ -1,0 +1,21 @@
+T1	Employment 122 132	unemployed
+T2	StatusEmploy 122 132	unemployed
+T3	Type 103 120	Computer engineer
+T4	Tobacco 134 144	Smoking Hx
+T5	Amount 146 153	45 pkyr
+T6	StatusTime 146 153	45 pkyr
+T7	Alcohol 177 188	Alcohol Use
+T8	Amount 190 198	2 drinks
+T9	Frequency 199 231	approximately 3-4 times per week
+T10	StatusTime 190 231	2 drinks approximately 3-4 times per week
+T11	Drug 234 255	Recreational Drug Use
+T12	Type 234 246	Recreational
+T13	StatusTime 257 261	None
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T5 Status:T6
+E3	Alcohol:T7 Amount:T8 Frequency:T9 Status:T10
+E4	Drug:T11 Type:T12 Status:T13
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T10 current
+A4	StatusTimeVal T13 none

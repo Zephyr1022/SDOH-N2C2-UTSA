@@ -1,0 +1,24 @@
+T1	Tobacco 22 33	tobacoo use
+T2	Duration 36 48	since age 17
+T4	Alcohol 56 64	drinking
+T6	StatusTime 22 33	tobacoo use
+T7	Amount 65 82	[**6-22**] drinks
+T8	Frequency 83 86;87 92	per night
+T9	Type 94 99	beers
+T10	StatusTime 56 64	drinking
+T11	Alcohol 101 105	ETOH
+T12	Amount 107 114	8 beers
+T13	Frequency 115 122	per day
+T14	Duration 123 139	for past 3 years
+T15	StatusTime 101 105	ETOH
+T16	Employment 141 146	Works
+T17	StatusEmploy 141 146	Works
+T18	Type 147 189	at [**Company 1475**] Correctional Complex
+E1	Tobacco:T1 Status:T6 Duration:T2
+E2	Alcohol:T4 Status:T10 Amount:T7 Frequency:T8 Type:T9
+E3	Alcohol:T11 Status:T15 Amount:T12 Frequency:T13 Duration:T14
+E4	Employment:T16 Type:T18 Status:T17
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T15 current
+A6	StatusEmployVal T17 employed

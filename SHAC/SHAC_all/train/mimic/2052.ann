@@ -1,0 +1,23 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	Employment 33 43	Occupation
+T4	StatusEmploy 52 65	self-employed
+T5	Type 44 50	Farmer
+T6	TypeLiving 27 32	Alone
+T7	Tobacco 66 73	Tobacco
+T8	StatusTime 74 83	remote hx
+T9	Alcohol 95 99	ETOH
+T10	Amount 100 107	2 beers
+T11	Frequency 107 111	/day
+T12	Duration 112 122	x 10 years
+T13	StatusTime 100 122	2 beers/day x 10 years
+E1	LivingStatus:T1 Status:T2 Type:T6
+E2	Employment:T3 Type:T5 Status:T4
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Amount:T10 Frequency:T11 Status:T13 Duration:T12 Type:T14
+A1	StatusTimeVal T2 current
+A2	StatusEmployVal T4 employed
+A3	TypeLivingVal T6 alone
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T13 current
+T14	Type 102 107	beers

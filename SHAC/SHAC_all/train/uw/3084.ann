@@ -1,0 +1,25 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 28	1/2ppd
+T3	Duration 29 40	since young
+T4	Alcohol 82 93	Alcohol Use
+T5	StatusTime 95 108	Never drinker
+T6	Drug 109 117	Drug Use
+T7	StatusTime 119 124	Tried
+T8	Type 125 137	cocaine/meth
+T9	LivingStatus 168 173	Lives
+T10	StatusTime 168 173	Lives
+T11	TypeLiving 174 180	on own
+T12	Employment 195 205	Unemployed
+T13	StatusEmploy 195 205	Unemployed
+T14	StatusTime 22 40	1/2ppd since young
+E1	Tobacco:T1 Amount:T2 Duration:T3 Status:T14
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Type:T8 Status:T7
+E4	LivingStatus:T9 Status:T10 Type:T11
+E5	Employment:T12 Status:T13
+A1	StatusTimeVal T5 none
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T10 current
+A4	TypeLivingVal T11 alone
+A5	StatusEmployVal T13 unemployed
+A6	StatusTimeVal T14 current

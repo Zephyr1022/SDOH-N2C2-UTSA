@@ -1,0 +1,24 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Method 22 28	chewed
+T3	Duration 37 47	x 20 years
+T4	StatusTime 49 53	quit
+T5	History 54 60	[DATE]
+T6	Alcohol 63 74	Alcohol Use
+T7	LivingStatus 142 147	Lives
+T8	TypeLiving 148 153	alone
+T9	StatusTime 142 147	Lives
+T10	Amount 80 88	3 drinks
+T11	Frequency 88 92	/day
+T12	StatusTime 94 98	quit
+T13	History 99 105	[DATE]
+T14	Drug 108 116	Drug Use
+T15	StatusTime 118 123	Never
+E1	Tobacco:T1 Method:T2 Duration:T3 Status:T4 History:T5
+E2	Alcohol:T6 Amount:T10 Frequency:T11 Status:T12 History:T13
+E3	LivingStatus:T7 Type:T8 Status:T9
+E4	Drug:T14 Status:T15
+A1	StatusTimeVal T4 past
+A2	TypeLivingVal T8 alone
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T12 past
+A5	StatusTimeVal T15 none

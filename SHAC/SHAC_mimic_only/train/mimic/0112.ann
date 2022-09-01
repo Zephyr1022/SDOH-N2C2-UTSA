@@ -1,0 +1,13 @@
+T1	Tobacco 122 128	smoker
+T2	StatusTime 115 121	former
+T3	Alcohol 97 104	alcohol
+T4	StatusTime 79 96	occasionally uses
+T6	Employment 27 49	a former social worker
+T7	StatusEmploy 27 49	a former social worker
+T8	Type 27 49	a former social worker
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Employment:T6 Type:T8 Status:T7
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 current
+A4	StatusEmployVal T7 unemployed

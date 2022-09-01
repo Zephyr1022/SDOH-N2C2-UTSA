@@ -1,0 +1,23 @@
+T1	Alcohol 36 41	drank
+T2	Amount 42 50	12 beers
+T3	Type 45 50	beers
+T4	StatusTime 25 35	Previously
+T5	Frequency 51 59	per week
+T6	Alcohol 75 82	alcohol
+T7	StatusTime 64 74	has had no
+T8	Duration 83 95	for 3 months
+T9	Tobacco 97 103	Smoked
+T10	Duration 104 112	35 years
+T11	Amount 113 117	2ppd
+T12	StatusTime 119 123	quit
+T13	History 124 143	in early [**2102**]
+T14	Employment 145 152	Retired
+T15	StatusEmploy 145 152	Retired
+E1	Alcohol:T1 Amount:T2 Type:T3 Status:T4 Frequency:T5
+E2	Alcohol:T6 Status:T7 Duration:T8
+E3	Tobacco:T9 Duration:T10 Amount:T11 Status:T12 History:T13
+E4	Employment:T14 Status:T15
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T12 past
+A4	StatusEmployVal T15 retired

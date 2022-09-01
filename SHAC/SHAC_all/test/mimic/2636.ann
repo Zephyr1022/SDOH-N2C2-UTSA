@@ -1,0 +1,25 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 32	with: Wife
+T4	Employment 33 43	Occupation
+T5	StatusEmploy 45 61	Technical writer
+T6	Type 45 61	Technical writer
+T7	Tobacco 62 72	Cigarettes
+T8	Type 62 72	Cigarettes
+T9	StatusTime 74 80	Denies
+T10	Alcohol 81 85	ETOH
+T11	StatusTime 87 93	Denies
+T12	Drug 94 110	Illicit drug use
+T13	Type 94 101	Illicit
+T14	StatusTime 112 118	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Type:T6 Status:T5
+E3	Tobacco:T7 Type:T8 Status:T9
+E4	Alcohol:T10 Status:T11
+E5	Drug:T12 Type:T13 Status:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T11 none
+A6	StatusTimeVal T14 none

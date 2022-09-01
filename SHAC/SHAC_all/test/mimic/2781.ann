@@ -1,0 +1,26 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 53	with his sister and her husband
+T3	StatusTime 16 21	Lives
+T4	Employment 91 108	Previously worked
+T5	Type 112 135	a manufacturing manager
+T6	StatusEmploy 144 157	on disability
+T7	Tobacco 159 166	Tobacco
+T8	StatusTime 168 172	quit
+T9	History 173 187	> 12 years ago
+T10	Amount 189 201	10 pack-year
+T11	Alcohol 210 214	EtoH
+T12	StatusTime 216 222	Denies
+T13	Drug 223 231	Illicits
+T14	Type 223 231	Illicits
+T15	StatusTime 233 239	Denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T8 History:T9 Amount:T10
+E4	Alcohol:T11 Status:T12
+E5	Drug:T13 Type:T14 Status:T15
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T6 on_disability
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T12 none
+A6	StatusTimeVal T15 none

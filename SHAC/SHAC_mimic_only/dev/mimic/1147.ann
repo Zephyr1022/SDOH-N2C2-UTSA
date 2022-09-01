@@ -1,0 +1,33 @@
+T1	LivingStatus 29 34	lives
+T2	StatusTime 29 34	lives
+T3	TypeLiving 58 71	with his wife
+T4	Amount 132 143;144 154	five to six cigarettes
+T5	Frequency 155 160	a day
+T6	StatusTime 125 131	smokes
+T7	Tobacco 125 131	smokes
+T8	Tobacco 173 178	smoke
+T9	StatusTime 166 172	use to
+T10	Amount 179 188	1.5 packs
+T11	Frequency 189 196	per day
+T12	Duration 197 203;204 209	for 30 years
+T13	Alcohol 252 259	ethanol
+T14	Type 288 292	beer
+T16	StatusTime 264 273	does have
+T17	Alcohol 227 236	alcoholic
+T18	StatusTime 220 226	former
+T20	Drug 344 364	intravenous drug use
+T21	Method 344 355	intravenous
+T22	StatusTime 341 343	No
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T7 Status:T6 Amount:T4 Frequency:T5
+E3	Tobacco:T8 Status:T9 Amount:T10 Frequency:T11 Duration:T12
+E4	Alcohol:T13 Status:T16 Type:T14
+E5	Alcohol:T17 Status:T18
+E6	Drug:T20 Method:T21 Status:T22
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T9 past
+A6	StatusTimeVal T16 current
+A7	StatusTimeVal T18 past
+A9	StatusTimeVal T22 none

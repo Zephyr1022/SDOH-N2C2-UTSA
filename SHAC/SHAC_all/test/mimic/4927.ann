@@ -1,0 +1,33 @@
+T1	Employment 353 359	Worked
+T2	StatusEmploy 353 359	Worked
+T3	Drug 531 546	substance abuse
+T4	StatusTime 508 521	Denies any hx
+T6	Alcohol 574 578	ETOH
+T8	StatusTime 567 573	drinks
+T9	Drug 681 688;689 699	valium, alprazolam
+T10	Type 681 688;689 699	valium, alprazolam
+T11	StatusTime 661 665	took
+T12	Alcohol 723 728	vodka
+T13	Amount 705 719	a small amount
+T14	Type 723 728	vodka
+T15	Alcohol 808 812	ETOH
+T16	StatusTime 794 798	quit
+T17	History 813 817;818 825	many yrs ago
+T18	Drug 851 859	Restoril
+T19	Amount 905 918	a double dose
+T20	Frequency 880 892	occasionally
+T21	StatusTime 876 879	has
+T22	Type 851 859	Restoril
+E1	Employment:T1 Status:T2
+E2	Drug:T3 Status:T4
+E3	Alcohol:T6 Status:T8
+E4	Drug:T9 Type:T10 Status:T11
+E5	Alcohol:T12 Amount:T13 Type:T14 Status:T11
+E6	Alcohol:T15 Status:T16 History:T17
+E7	Drug:T18 Amount:T19 Frequency:T20 Status:T21 Type:T22
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T4 none
+A5	StatusTimeVal T8 current
+A6	StatusTimeVal T11 past
+A7	StatusTimeVal T16 past
+A8	StatusTimeVal T21 current

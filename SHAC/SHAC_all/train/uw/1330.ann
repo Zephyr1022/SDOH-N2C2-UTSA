@@ -1,0 +1,24 @@
+T1	Tobacco 10 21	Tobacco Use
+T2	StatusTime 23 27	none
+T3	Alcohol 50 61	Alcohol Use
+T4	StatusTime 63 67	none
+T5	StatusTime 82 86	none
+T6	Method 91 95	IVDU
+T7	Drug 72 80	Drug Use
+T8	Employment 115 136	Former police officer
+T9	Type 115 136	Former police officer
+T10	StatusEmploy 115 136	Former police officer
+T11	StatusTime 138 143	Lives
+T12	LivingStatus 138 143	Lives
+T13	TypeLiving 152 157	alone
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T7 Status:T5 Method:T6
+E4	Employment:T8 Status:T10 Type:T9
+E5	LivingStatus:T12 Type:T13 Status:T11
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T5 none
+A4	StatusEmployVal T10 unemployed
+A5	StatusTimeVal T11 current
+A6	TypeLivingVal T13 alone

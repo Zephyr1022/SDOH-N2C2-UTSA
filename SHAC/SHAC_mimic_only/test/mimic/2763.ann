@@ -1,0 +1,16 @@
+T1	LivingStatus 28 33	lives
+T2	TypeLiving 34 60	with wife and two children
+T3	StatusTime 28 33	lives
+T4	Employment 69 75	a chef
+T5	StatusEmploy 66 68	is
+T6	Tobacco 81 88	tobacco
+T7	Alcohol 92 103	alcohol use
+T8	StatusTime 78 80	No
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T8
+E4	Alcohol:T7 Status:T8
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T8 none

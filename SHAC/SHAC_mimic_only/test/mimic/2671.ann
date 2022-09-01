@@ -1,0 +1,16 @@
+T1	Employment 16 26	Occupation
+T2	StatusEmploy 28 35	Retired
+T3	LivingStatus 36 41	Lives
+T4	StatusTime 36 41	Lives
+T5	TypeLiving 42 56	with: Daughter
+T8	Tobacco 85 92	Tobacco
+T9	StatusTime 94 107	Former smoker
+T10	History 114 128	[**2171-4-7**]
+T11	Amount 130 136	50 PYH
+E1	Employment:T1 Status:T2
+E2	LivingStatus:T3 Status:T4 Type:T5
+E4	Tobacco:T8 Status:T9 History:T10 Amount:T11
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T5 with_family
+A4	StatusTimeVal T9 past

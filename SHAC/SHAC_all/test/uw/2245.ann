@@ -1,0 +1,31 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 28	0.5ppd
+T3	Duration 29 40	since teens
+T4	StatusTime 29 40	since teens
+T5	Alcohol 44 55	Alcohol Use
+T6	Amount 57 66	~6 drinks
+T7	Frequency 66 69	/wk
+T8	StatusTime 57 69	~6 drinks/wk
+T9	Drug 73 81	Drug Use
+T10	StatusTime 83 89	Smokes
+T11	Type 90 106	crack and heroin
+T12	Method 83 89	Smokes
+T13	Frequency 107 117	frequently
+T14	LivingStatus 167 172	lives
+T15	TypeLiving 173 206	w/ one or the other of his 2 gf's
+T16	StatusTime 167 172	lives
+E1	Tobacco:T1 Amount:T2 Duration:T3 Status:T4
+E2	Alcohol:T5 Amount:T6 Frequency:T7 Status:T8
+E3	Drug:T9 Method:T12 Status:T10 Type:T11 Frequency:T13
+E4	LivingStatus:T14 Type:T15 Status:T16
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T8 current
+A3	StatusTimeVal T10 current
+A4	TypeLivingVal T15 with_others
+A5	StatusTimeVal T16 current
+T17	LivingStatus 148 155	in jail
+E5	LivingStatus:T17 Type:T18 Status:T19
+T18	TypeLiving 148 155	in jail
+A6	TypeLivingVal T18 with_others
+T19	StatusTime 138 147	Currently
+A7	StatusTimeVal T19 current

@@ -1,0 +1,4 @@
+T1	Tobacco 136 147	tobacco use
+T2	StatusTime 125 135	History of
+E1	Tobacco:T1 Status:T2
+A1	StatusTimeVal T2 past

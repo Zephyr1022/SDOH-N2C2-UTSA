@@ -1,0 +1,12 @@
+T1	Employment 23 34	a housewife
+T2	StatusEmploy 23 34	a housewife
+T3	Tobacco 36 45	Nonsmoker
+T4	StatusTime 36 45	Nonsmoker
+T5	Alcohol 66 73	alcohol
+T6	StatusTime 47 61	Does not drink
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+E3	Alcohol:T5 Status:T6
+A1	StatusEmployVal T2 homemaker
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none

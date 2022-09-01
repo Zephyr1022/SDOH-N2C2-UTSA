@@ -1,0 +1,28 @@
+T1	Drug 279 284	drugs
+T2	StatusTime 276 278	No
+T3	Drug 300 309	marijuana
+T4	Type 300 309	marijuana
+T5	StatusTime 286 293	Used to
+T6	Tobacco 207 217	Non-smoker
+T7	StatusTime 207 217	Non-smoker
+T8	Alcohol 231 238	drinker
+T10	StatusTime 231 238	drinker
+T11	LivingStatus 132 137	Lives
+T12	StatusTime 132 137	Lives
+T13	TypeLiving 146 150;151 163	with his children
+T14	Employment 25 30	Works
+T15	Type 34 70	quality control for mortgage company
+T16	StatusEmploy 25 30	Works
+E1	Drug:T1 Status:T2
+E2	Drug:T3 Status:T5 Type:T4
+E3	Tobacco:T6 Status:T7
+E4	Alcohol:T8 Status:T10
+E5	LivingStatus:T11 Type:T13 Status:T12
+E6	Employment:T14 Type:T15 Status:T16
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T7 none
+A5	StatusTimeVal T10 current
+A6	StatusTimeVal T12 current
+A7	TypeLivingVal T13 with_family
+A8	StatusEmployVal T16 employed

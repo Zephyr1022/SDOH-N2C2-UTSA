@@ -1,0 +1,20 @@
+T1	Tobacco 17 24	Tobacco
+T2	Amount 27 42	less than 1 ppd
+T3	StatusTime 27 42	less than 1 ppd
+T4	Alcohol 43 47	EtOH
+T5	StatusTime 50 56	denies
+T6	Drug 57 63	Heroin
+T7	Type 57 63	Heroin
+T8	StatusTime 66 88	reports usage tomorrow
+T9	LivingStatus 89 94	Lives
+T10	StatusTime 106 115	currently
+T11	TypeLiving 95 105	in his car
+E1	Tobacco:T1 Amount:T2 Status:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Type:T7 Status:T8
+E4	LivingStatus:T9 Type:T11 Status:T10
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T10 current
+A5	TypeLivingVal T11 homeless

@@ -1,0 +1,18 @@
+T1	Tobacco 300 307	tobacco
+T2	Alcohol 309 316	alcohol
+T3	Drug 321 326	drugs
+T4	StatusTime 288 299	Neither use
+T5	Employment 151 154	job
+T6	StatusEmploy 126 154	recently let go from her job
+T7	Type 158 172	a receptionist
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T4
+E3	Drug:T3 Status:T4
+E4	Employment:T5 Status:T6 Type:T7
+A1	StatusTimeVal T4 none
+A2	StatusEmployVal T6 unemployed
+T8	Employment 80 87	working
+E5	Employment:T8 Status:T9 Type:T10
+T9	StatusEmploy 80 87	working
+A3	StatusEmployVal T9 employed
+T10	Type 91 112	a managerial position

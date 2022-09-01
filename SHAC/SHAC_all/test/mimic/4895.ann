@@ -1,0 +1,26 @@
+T1	Alcohol 136 141	drank
+T2	StatusTime 136 141	drank
+T3	Amount 142 169	2 [**Location (un) 82415**]
+T4	Frequency 170 177	nightly
+T5	Alcohol 73 83	last drink
+T6	StatusTime 73 83	last drink
+T7	History 88 103	[**2120-4-18**]
+T8	Tobacco 184 191	smoking
+T9	StatusTime 179 183	Quit
+T10	History 192 202	25 yrs ago
+T11	Drug 211 219	drug use
+T12	StatusTime 204 210	denies
+T13	TypeLiving 25 50	[**Hospital 4979**] rehab
+T14	LivingStatus 16 21	Lived
+T15	StatusTime 16 21	Lived
+E1	Alcohol:T1 Status:T2 Amount:T3 Frequency:T4
+E2	Alcohol:T5 Status:T6 History:T7
+E3	Tobacco:T8 Status:T9 History:T10
+E4	Drug:T11 Status:T12
+E5	LivingStatus:T14 Status:T15 Type:T13
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T9 past
+A4	StatusTimeVal T12 none
+A5	TypeLivingVal T13 with_others
+A6	StatusTimeVal T15 past

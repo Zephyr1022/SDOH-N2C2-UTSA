@@ -1,0 +1,11 @@
+T1	Drug 55 63	Drug Use
+T2	StatusTime 65 72	history
+T3	Method 76 80	IVDU
+T4	LivingStatus 99 108	Residence
+T5	StatusTime 110 118	homeless
+T6	TypeLiving 110 118	homeless
+E1	Drug:T1 Status:T2 Method:T3
+E2	LivingStatus:T4 Type:T6 Status:T5
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 homeless

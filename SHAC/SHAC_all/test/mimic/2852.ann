@@ -1,0 +1,14 @@
+T1	LivingStatus 20 25	lives
+T2	StatusTime 20 25	lives
+T3	TypeLiving 26 31	alone
+T4	Alcohol 84 88	etoh
+T5	StatusTime 81 83	no
+T6	Tobacco 90 93	tob
+T7	Drug 104 109	drugs
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5
+E3	Tobacco:T6 Status:T5
+E4	Drug:T7 Status:T5
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T5 none

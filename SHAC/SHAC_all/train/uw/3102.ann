@@ -1,0 +1,28 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 35	Smoker off/on
+T3	Duration 36 48	for 20 years
+T4	Amount 50 64	4-5 cigarettes
+T5	Type 54 64	cigarettes
+T6	Frequency 65 72	per day
+T7	Alcohol 76 87	Alcohol Use
+T8	StatusTime 89 93	None
+T9	Drug 97 105	Drug Use
+T10	History 123 134	2 weeks ago
+T11	StatusTime 107 111	Last
+T12	Type 112 122	heroin use
+T13	LivingStatus 154 163	Residence
+T14	TypeLiving 171 192	in low income housing
+T15	StatusTime 165 170	Lives
+T16	Employment 194 214	currently unemployed
+T17	StatusEmploy 204 214	unemployed
+E1	Tobacco:T1 Status:T2 Duration:T3 Amount:T4 Type:T5 Frequency:T6
+E2	Alcohol:T7 Status:T8
+E3	Drug:T9 Status:T11 Type:T12 History:T10
+E4	LivingStatus:T13 Type:T14 Status:T15
+E5	Employment:T16 Status:T17
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T8 none
+A3	StatusTimeVal T11 past
+A4	TypeLivingVal T14 with_others
+A5	StatusTimeVal T15 current
+A6	StatusEmployVal T17 unemployed

@@ -1,0 +1,14 @@
+T1	Drug 24 33	marijuana
+T2	Method 17 23	Smokes
+T3	Amount 34 45	a few times
+T4	Frequency 46 54	per week
+T5	StatusTime 17 23	Smokes
+T7	Tobacco 81 88	tobacco
+T8	StatusTime 56 62	denies
+T6	Drug 63 77	other drug use
+T9	Type 24 33	marijuana
+E1	Drug:T1 Method:T2 Amount:T3 Status:T5 Frequency:T4 Type:T9
+E3	Tobacco:T7 Status:T8
+E2	Drug:T6 Status:T8
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T8 none

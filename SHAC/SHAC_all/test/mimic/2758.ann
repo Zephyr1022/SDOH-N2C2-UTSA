@@ -1,0 +1,25 @@
+T1	Tobacco 107 114	tobacco
+T4	StatusTime 116 120	quit
+T5	History 121 131	50 yrs ago
+T6	Drug 137 150	illicit drugs
+T7	Type 137 144	illicit
+T8	StatusTime 134 136	no
+T9	Alcohol 154 158	ETOH
+T10	Tobacco 250 257	Tobacco
+T11	StatusTime 259 273	Remote history
+T12	Alcohol 276 283	Alcohol
+T13	StatusTime 285 289	None
+T14	Drug 292 300	Illicits
+T15	Type 292 300	Illicits
+T16	StatusTime 302 306	None
+E2	Tobacco:T1 Status:T4 History:T5
+E3	Drug:T6 Type:T7 Status:T8
+E4	Alcohol:T9 Status:T8
+E5	Tobacco:T10 Status:T11
+E6	Alcohol:T12 Status:T13
+E7	Drug:T14 Type:T15 Status:T16
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T8 none
+A3	StatusTimeVal T11 past
+A4	StatusTimeVal T13 none
+A5	StatusTimeVal T16 none

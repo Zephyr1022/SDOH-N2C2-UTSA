@@ -1,0 +1,14 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 34	indepedently
+T4	Tobacco 94 101	smoking
+T5	Alcohol 103 107	EtOH
+T6	Drug 113 117	IVDU
+T7	StatusTime 83 93	History of
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T7
+E3	Alcohol:T5 Status:T7
+E4	Drug:T6 Status:T7
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T7 current

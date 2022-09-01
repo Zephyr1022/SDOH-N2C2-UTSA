@@ -1,0 +1,25 @@
+T1	Amount 56 74	About 5 cigarettes
+T2	Frequency 75 80	a day
+T3	Duration 81 107	for the past several weeks
+T4	StatusTime 56 80	About 5 cigarettes a day
+T5	Tobacco 9 20	Tobacco Use
+T6	LivingStatus 200 205	Lives
+T7	StatusTime 200 205	Lives
+T8	TypeLiving 206 211	alone
+T9	Employment 402 406	work
+T10	Type 370 443	psychiatric counseling work and work as a musician as well as in business
+T11	StatusEmploy 402 406	work
+T12	Amount 150 158	1/2 pack
+T13	Duration 159 168	for years
+T14	StatusTime 169 180	before that
+T15	Tobacco 127 134	smoking
+E1	Tobacco:T5 Status:T4 Amount:T1 Frequency:T2 Duration:T3 Type:T16
+E2	LivingStatus:T6 Type:T8 Status:T7
+E3	Employment:T9 Status:T11 Type:T10
+E4	Tobacco:T15 Amount:T12 Duration:T13 Status:T14
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T7 current
+A3	TypeLivingVal T8 alone
+A4	StatusEmployVal T11 employed
+A5	StatusTimeVal T14 past
+T16	Type 64 74	cigarettes

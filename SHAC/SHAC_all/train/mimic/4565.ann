@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 27	alone
+T4	Tobacco 34 41	tobacco
+T5	StatusTime 29 33	Quit
+T6	History 42 54	12 years ago
+T7	Amount 56 64	one pack
+T8	Frequency 65 72	per day
+T9	Duration 73 79;80 85	for 30 years
+T10	Alcohol 87 93	Drinks
+T11	StatusTime 87 93	Drinks
+T12	Amount 94 116	2-3 hard liquor drinks
+T13	Type 98 109	hard liquor
+T14	Frequency 117 122	daily
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6 Amount:T7 Frequency:T8 Duration:T9
+E3	Alcohol:T10 Status:T11 Amount:T12 Type:T13 Frequency:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T11 current

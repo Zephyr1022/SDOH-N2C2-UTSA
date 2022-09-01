@@ -1,0 +1,18 @@
+T1	Drug 117 125	Illicits
+T2	Alcohol 98 102	EtOH
+T3	Tobacco 81 88	Tobacco
+T4	LivingStatus 16 21	Lives
+T5	StatusTime 16 21	Lives
+T6	TypeLiving 22 33	with family
+T7	StatusTime 91 97	Denies
+T8	StatusTime 128 134	Denies
+T10	StatusTime 105 116	Very rarely
+E1	Drug:T1 Status:T8
+E2	Alcohol:T2 Status:T10
+E3	Tobacco:T3 Status:T7
+E4	LivingStatus:T4 Status:T5 Type:T6
+A1	StatusTimeVal T5 current
+A2	TypeLivingVal T6 with_family
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T8 none
+A6	StatusTimeVal T10 current

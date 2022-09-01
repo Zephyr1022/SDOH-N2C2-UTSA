@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: no   Alcohol Use: no  Drug Use: no
+
+SOCIAL HISTORY: 
+Residence: Lives in [LOCATION].  Lives home alone.  Has very supportive family including daughters. She worked in healthcare recruiting.

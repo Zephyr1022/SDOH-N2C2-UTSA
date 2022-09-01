@@ -1,0 +1,28 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 23 37	with her child
+T3	StatusTime 17 22	Lives
+T4	Employment 52 59	working
+T5	StatusEmploy 38 59	Not currently working
+T6	Tobacco 75 82	tob use
+T7	StatusTime 69 74	prior
+T8	Alcohol 88 92	etoh
+T10	StatusTime 84 87	occ
+T11	Drug 97 99	mj
+T12	StatusTime 94 96	no
+T13	Type 97 99	mj
+T14	Drug 104 112	illicits
+T15	Type 104 112	illicits
+T16	StatusTime 101 103	no
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T7
+E4	Alcohol:T8 Status:T10
+E5	Drug:T11 Type:T13 Status:T12
+E6	Drug:T14 Type:T15 Status:T16
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T7 past
+A6	StatusTimeVal T10 none
+A7	StatusTimeVal T12 none
+A8	StatusTimeVal T16 none

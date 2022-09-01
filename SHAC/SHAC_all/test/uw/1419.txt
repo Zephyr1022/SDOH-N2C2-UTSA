@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: never   Alcohol Use: never   Drug Use: never 
+
+SOCIAL HISTORY: 
+Anticipates graduation from [LOCATION] social work program in 1.5 months.

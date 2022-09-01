@@ -1,0 +1,14 @@
+T1	Tobacco 41 47	smokes
+T2	Amount 48 53	1 ppd
+T3	Duration 54 64	x 30 years
+T4	Alcohol 77 88	alcohol use
+T6	StatusTime 66 76;77 84	occasional alcohol
+T7	Drug 97 105	drug use
+T8	StatusTime 90 96	denies
+T9	StatusTime 48 64	1 ppd x 30 years
+E1	Tobacco:T1 Amount:T2 Duration:T3 Status:T9
+E2	Alcohol:T4 Status:T6
+E3	Drug:T7 Status:T8
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T9 current

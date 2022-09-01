@@ -1,0 +1,23 @@
+T1	LivingStatus 14 20	Living
+T2	StatusTime 14 20	Living
+T3	TypeLiving 21 27	in car
+T4	Alcohol 29 40	Active ETOH
+T5	StatusTime 29 40	Active ETOH
+T6	Tobacco 49 56	tobacco
+T7	Drug 60 68	illicits
+T8	Type 60 68	illicits
+T9	StatusTime 42 48	Denies
+T10	LivingStatus 4 12	Homeless
+T11	StatusTime 4 12	Homeless
+T12	TypeLiving 4 12	Homeless
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5
+E3	Tobacco:T6 Status:T9
+E4	Drug:T7 Type:T8 Status:T9
+E5	LivingStatus:T10 Status:T11 Type:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T11 current
+A6	TypeLivingVal T12 homeless

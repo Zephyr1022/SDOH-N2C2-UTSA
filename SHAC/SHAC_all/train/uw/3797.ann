@@ -1,0 +1,25 @@
+T1	Drug 28 51	Prior polysubstance use
+T2	StatusTime 28 51	Prior polysubstance use
+T3	StatusTime 54 70	Currently smokes
+T4	Method 64 70	smokes
+T5	Type 71 80	marijuana
+T6	Drug 71 80	marijuana
+T7	StatusTime 91 97	denies
+T8	Drug 98 113	active illicits
+T9	Type 105 113	illicits
+T10	Tobacco 115 122	tobacco
+T11	Alcohol 124 128	EtOH
+T12	LivingStatus 174 190	Currently living
+T13	StatusTime 174 190	Currently living
+T14	TypeLiving 191 201	in his car
+E1	Drug:T1 Status:T2
+E2	Drug:T6 Type:T5 Status:T3 Method:T4
+E3	Drug:T8 Type:T9 Status:T7
+E4	Tobacco:T10 Status:T7
+E5	Alcohol:T11 Status:T7
+E6	LivingStatus:T12 Status:T13 Type:T14
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T13 current
+A5	TypeLivingVal T14 homeless

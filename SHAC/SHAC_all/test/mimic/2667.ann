@@ -1,0 +1,10 @@
+T1	LivingStatus 27 32	Lives
+T2	StatusTime 27 32	Lives
+T3	TypeLiving 41 53	with husband
+T4	Tobacco 82 97	smoking history
+T5	StatusTime 79 81	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 none

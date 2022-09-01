@@ -1,0 +1,19 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	former
+T3	Alcohol 30 41	Alcohol Use
+T5	StatusTime 43 47	rare
+T6	Drug 49 57	Drug Use
+T7	StatusTime 59 69	occasional
+T8	Type 70 79	marijauna
+T9	LivingStatus 97 106	Residence
+T10	TypeLiving 114 138	at Cottage Grove shelter
+T11	StatusTime 108 113	Lives
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T5
+E3	Drug:T6 Status:T7 Type:T8
+E4	LivingStatus:T9 Type:T10 Status:T11
+A1	StatusTimeVal T2 past
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T7 current
+A5	TypeLivingVal T10 homeless
+A6	StatusTimeVal T11 current

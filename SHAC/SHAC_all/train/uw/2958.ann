@@ -1,0 +1,26 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 59 63	quit
+T3	History 64 70	[DATE]
+T4	Alcohol 74 85	Alcohol Use
+T5	StatusTime 87 93	denies
+T6	Drug 96 104	Drug Use
+T7	StatusTime 142 146	quit
+T8	History 147 153	[DATE]
+T9	LivingStatus 173 182	Residence
+T10	TypeLiving 216 241	with husband and children
+T11	StatusTime 184 189	Lives
+T12	LivingStatus 244 259	Staying locally
+T13	TypeLiving 260 274	at NW Hospital
+T14	StatusTime 244 251	Staying
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Status:T7 History:T8
+E4	LivingStatus:T9 Type:T10 Status:T11
+E5	LivingStatus:T12 Type:T13 Status:T14
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 past
+A4	TypeLivingVal T10 with_family
+A5	StatusTimeVal T11 current
+A6	TypeLivingVal T13 with_others
+A7	StatusTimeVal T14 current

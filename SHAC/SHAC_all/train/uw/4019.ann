@@ -1,0 +1,29 @@
+T1	LivingStatus 17 25	Homeless
+T2	TypeLiving 17 25	Homeless
+T3	Tobacco 33 49	cigarette smoker
+T4	Type 33 42	cigarette
+T5	Frequency 27 32	Daily
+T6	Alcohol 57 61	ETOH
+T7	StatusTime 50 56	Denies
+T8	Drug 68 74	heroin
+T9	Type 68 74	heroin
+T10	Method 75 85	injections
+T11	Frequency 62 67	Daily
+T12	StatusTime 62 67	Daily
+T13	Drug 106 112	heroin
+T14	Type 106 112	heroin
+T15	StatusTime 97 105	muscling
+T16	History 149 158	in [DATE]
+T17	StatusTime 27 32	Daily
+T18	StatusTime 17 25	Homeless
+E1	LivingStatus:T1 Type:T2 Status:T18
+E2	Tobacco:T3 Type:T4 Frequency:T5 Status:T17
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Type:T9 Method:T10 Frequency:T11 Status:T12
+E5	Drug:T13 Type:T14 History:T16 Status:T15
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T12 current
+A4	StatusTimeVal T15 past
+A5	StatusTimeVal T17 current
+A6	StatusTimeVal T18 current

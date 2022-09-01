@@ -1,0 +1,8 @@
+HABITS: 
+Tobacco Use: Denies   
+Alcohol Use: Denies   
+Drug Use: Denies
+
+SOCIAL HISTORY: 
+Lives locally with her boyfriend [NAME]. 
+Previously worked in [LOCATION] prior to nasopharyngeal cancer diagnosis.

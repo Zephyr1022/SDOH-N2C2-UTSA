@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 48	with: Wife and adult child
+T4	Employment 93 103	Occupation
+T5	Type 105 125	Maintenance Mechanic
+T6	StatusEmploy 127 144	currently working
+T7	Tobacco 145 152	Tobacco
+T8	StatusTime 154 167	Active smoker
+T9	Amount 182 186	1ppd
+T10	Duration 187 197	x 42 years
+T11	Alcohol 198 202	ETOH
+T12	StatusTime 204 208	none
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T8 Amount:T9 Duration:T10
+E4	Alcohol:T11 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T6 employed
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T12 none

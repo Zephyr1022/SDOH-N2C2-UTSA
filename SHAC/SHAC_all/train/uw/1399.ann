@@ -1,0 +1,24 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 29	1/2 ppd
+T3	Duration 30 43	for >20 years
+T4	StatusTime 22 43	1/2 ppd for >20 years
+T5	Alcohol 46 57	Alcohol Use
+T6	Amount 59 65	6-pack
+T7	Frequency 65 69	/day
+T8	StatusTime 70 78	reported
+T9	Drug 81 89	Drug Use
+T10	Type 107 121	other illicits
+T11	StatusTime 91 97	denies
+T12	LivingStatus 141 150	Residence
+T13	TypeLiving 152 182	Mary's Place shelter currently
+T14	StatusTime 152 182	Mary's Place shelter currently
+E1	Tobacco:T1 Amount:T2 Status:T4 Duration:T3
+E2	Alcohol:T5 Amount:T6 Frequency:T7 Status:T8
+E3	Drug:T9 Status:T11 Type:T10 Method:T17
+E4	LivingStatus:T12 Status:T14 Type:T13
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T8 current
+A3	StatusTimeVal T11 none
+A4	TypeLivingVal T13 homeless
+A5	StatusTimeVal T14 current
+T17	Method 102 106	IVDU

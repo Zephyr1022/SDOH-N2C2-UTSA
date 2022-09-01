@@ -1,0 +1,19 @@
+T1	Alcohol 16 35	Previous ETOH abuse
+T2	StatusTime 16 35	Previous ETOH abuse
+T4	LivingStatus 36 41	Lives
+T5	StatusTime 36 41	Lives
+T6	TypeLiving 42 62	in a Veteran's house
+T7	Drug 63 83	Previous cocaine use
+T8	StatusTime 63 83	Previous cocaine use
+T9	Type 72 79	cocaine
+T10	Tobacco 98 105	tobacco
+T11	StatusTime 84 94	No history
+E1	Alcohol:T1 Status:T2
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Drug:T7 Status:T8 Type:T9
+E4	Tobacco:T10 Status:T11
+A1	StatusTimeVal T2 past
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 homeless
+A5	StatusTimeVal T8 past
+A6	StatusTimeVal T11 none

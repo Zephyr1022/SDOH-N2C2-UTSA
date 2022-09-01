@@ -1,0 +1,28 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 56 76	not a current smoker
+T6	Alcohol 78 89	Alcohol Use
+T7	StatusTime 91 105	social drinker
+T9	Amount 108 117	few beers
+T10	Type 112 117	beers
+T11	Drug 147 155	Drug Use
+T12	StatusTime 208 213	clean
+T13	History 214 223	x 5 years
+T14	Method 161 165	IVDU
+T15	Type 171 186	methamphetamine
+T16	Drug 225 238	marijuana use
+T17	StatusTime 225 238	marijuana use
+T18	Type 225 234	marijuana
+T19	LivingStatus 309 315	Living
+T20	StatusTime 309 315	Living
+T21	TypeLiving 316 330	with boyfriend
+E1	Tobacco:T1 Status:T2
+E3	Alcohol:T6 Status:T7 Amount:T9 Type:T10
+E4	Drug:T11 Method:T14 Type:T15 Status:T12 History:T13
+E5	Drug:T16 Status:T17 Type:T18
+E6	LivingStatus:T19 Status:T20 Type:T21
+A1	StatusTimeVal T2 none
+A3	StatusTimeVal T7 current
+A5	StatusTimeVal T12 past
+A6	StatusTimeVal T17 current
+A7	StatusTimeVal T20 current
+A8	TypeLivingVal T21 with_others

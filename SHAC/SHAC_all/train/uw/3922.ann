@@ -1,0 +1,32 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 40	several cigarettes
+T3	History 40 44	/day
+T4	Type 30 40	cigarettes
+T5	StatusTime 22 44	several cigarettes/day
+T6	Alcohol 48 59	Alcohol Use
+T7	Amount 61 83	3-4 12 oz cand of beer
+T8	Type 79 83	beer
+T9	Frequency 83 87	/day
+T10	StatusTime 61 87	3-4 12 oz cand of beer/day
+T11	Alcohol 134 139	beers
+T12	Type 134 139	beers
+T13	Frequency 139 143	/day
+T14	Amount 120 139	up to 10 18oz beers
+T15	StatusTime 107 119	has endorsed
+T16	Drug 148 156	Drug Use
+T17	Method 173 177	IVDU
+T18	StatusTime 158 172	denies current
+T19	LivingStatus 196 205	Residence
+T20	TypeLiving 207 253	undomiciled - plot of grass outside Harborview
+T21	StatusTime 207 253	undomiciled - plot of grass outside Harborview
+E1	Tobacco:T1 Amount:T2 Status:T5 Type:T4 History:T3
+E2	Alcohol:T6 Amount:T7 Status:T10 Type:T8 Frequency:T9
+E3	Alcohol:T11 Status:T15 Amount:T14 Type:T12 Frequency:T13
+E4	Drug:T16 Status:T18 Method:T17
+E5	LivingStatus:T19 Status:T21 Type:T20
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T10 current
+A3	StatusTimeVal T15 past
+A4	StatusTimeVal T18 past
+A5	TypeLivingVal T20 homeless
+A6	StatusTimeVal T21 current

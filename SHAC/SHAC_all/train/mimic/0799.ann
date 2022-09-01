@@ -1,0 +1,18 @@
+T1	Employment 47 72	Retired software engineer
+T2	StatusEmploy 47 72	Retired software engineer
+T3	Type 47 72	Retired software engineer
+T4	Tobacco 75 77;78 88	25 pack years
+T5	Amount 75 77;78 88	25 pack years
+T6	StatusTime 90 94	quit
+T7	History 95 107	10 years ago
+T8	Alcohol 117 121	EtOH
+T9	Drug 129 136;137 142	illicit drugs
+T10	Type 129 136	illicit
+T11	StatusTime 110 116	Denies
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T5 Status:T6 History:T7
+E3	Alcohol:T8 Status:T11
+E4	Drug:T9 Type:T10 Status:T11
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T11 none

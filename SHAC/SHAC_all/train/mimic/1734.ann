@@ -1,0 +1,32 @@
+T1	Tobacco 239 245	Smokes
+T2	Amount 246 250	2ppd
+T3	StatusTime 239 245	Smokes
+T4	LivingStatus 212 217	Lives
+T5	StatusTime 212 217	Lives
+T6	TypeLiving 218 237	with his girlfriend
+T7	Tobacco 203 210	smoking
+T8	StatusTime 201 202	+
+T9	Drug 191 199	IV drugs
+T10	StatusTime 179 190	did not use
+T11	Method 191 193	IV
+T12	Drug 131 142	benzo abuse
+T13	StatusTime 131 142	benzo abuse
+T14	Type 131 136	benzo
+T15	Drug 59 74	oxycodone abuse
+T16	StatusTime 48 78;79 112	history of oxycodone abuse and has been on methadone maintanence
+T17	History 113 124	for 3 years
+T18	Type 59 68	oxycodone
+E1	Tobacco:T1 Status:T3 Amount:T2 Duration:T19
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8
+E4	Drug:T9 Status:T10 Method:T11
+E5	Drug:T12 Status:T13 Type:T14
+E6	Drug:T15 Type:T18 Status:T16 History:T17
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_others
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T10 none
+A6	StatusTimeVal T13 current
+A7	StatusTimeVal T16 past
+T19	Duration 251 258	x years

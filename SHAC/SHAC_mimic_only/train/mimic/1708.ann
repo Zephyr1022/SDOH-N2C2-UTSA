@@ -1,0 +1,18 @@
+T1	Tobacco 16 22	Smoked
+T2	StatusTime 16 22	Smoked
+T3	Amount 23 27	2ppd
+T4	History 28 44	until [**2131**]
+T5	Amount 46 61	[**2-4**] glass
+T6	Frequency 70 79	3-4x/week
+T7	StatusTime 46 79	[**2-4**] glass of wine 3-4x/week
+T8	Type 65 69	wine
+T9	Alcohol 65 69	wine
+T10	Employment 81 87	Worked
+T11	StatusEmploy 81 87	Worked
+T12	Type 91 92;93 102	a secretary
+E1	Tobacco:T1 Status:T2 Amount:T3 History:T4
+E2	Alcohol:T9 Type:T8 Status:T7 Amount:T5 Frequency:T6
+E3	Employment:T10 Status:T11 Type:T12
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T7 current
+A3	StatusEmployVal T11 unemployed

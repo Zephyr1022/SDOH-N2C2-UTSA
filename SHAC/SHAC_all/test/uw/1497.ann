@@ -1,0 +1,10 @@
+T1	Tobacco 39 46	tobacco
+T2	StatusTime 30 38	Positive
+T3	Drug 54 60	heroin
+T4	StatusTime 47 53	Snorts
+T5	Method 47 53	Snorts
+T6	Type 54 60	heroin
+E1	Tobacco:T1 Status:T2
+E2	Drug:T3 Type:T6 Method:T5 Status:T4
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 current

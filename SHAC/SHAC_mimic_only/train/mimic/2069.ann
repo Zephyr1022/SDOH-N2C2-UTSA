@@ -1,0 +1,22 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 41 72	with brother and brother-in-law
+T4	Employment 74 76;77 87	On disability
+T5	StatusEmploy 74 76;77 87	On disability
+T6	Amount 187 200	~50 pack-year
+T7	Tobacco 201 208;209 216	smoking history
+T8	StatusTime 222 232	abstinence
+T9	History 233 252	for the past 9 days
+T10	Alcohol 286 297	alcohol use
+T11	Drug 302 310	drug use
+T12	StatusTime 279 285	denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T7 Amount:T6 Status:T8 History:T9
+E4	Alcohol:T10 Status:T12
+E5	Drug:T11 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 on_disability
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T12 none

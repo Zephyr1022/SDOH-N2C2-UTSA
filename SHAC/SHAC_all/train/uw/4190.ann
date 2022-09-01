@@ -1,0 +1,42 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 57	1/2 ppd since youth, ~20 pack/years
+T3	Amount 22 29	1/2 ppd
+T4	Duration 30 41	since youth
+T5	Alcohol 62 73	Alcohol Use
+T6	StatusTime 75 85	Occasional
+T7	Drug 113 121	Drug Use
+T8	StatusTime 191 213	used a couple days ago
+T9	Amount 143 153	around 20$
+T10	Frequency 154 169	every other day
+T11	Method 123 134	Intravenous
+T12	Type 135 141	heroin
+T13	StatusTime 216 261	Methamphetamine, intranasally and intravenous
+T14	Drug 216 231	Methamphetamine
+T15	Type 216 231	Methamphetamine
+T16	Method 233 261	intranasally and intravenous
+T17	LivingStatus 362 375	usually lives
+T18	StatusTime 362 375	usually lives
+T19	TypeLiving 376 395	with his girlfriend
+T20	LivingStatus 413 420	staying
+T21	StatusTime 409 412	was
+T22	TypeLiving 421 444	in Union Gospel Shelter
+T23	Duration 464 509	between his last discharge ([DATE]) and today
+T24	Employment 517 537	currently unemployed
+T25	StatusEmploy 517 537	currently unemployed
+E1	Tobacco:T1 Amount:T3 Status:T2 Duration:T4 Amount2:T29
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Method:T11 Type:T12 Amount:T9 Frequency:T10 Status:T8
+E4	Drug:T14 Type:T15 Status:T13 Method:T16
+E5	LivingStatus:T17 Status:T18 Type:T19
+E6	LivingStatus:T20 Status:T21 Type:T22 Duration:T23
+E7	Employment:T24 Status:T25
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T13 current
+A5	StatusTimeVal T18 current
+A6	TypeLivingVal T19 with_others
+A7	StatusTimeVal T21 past
+A8	TypeLivingVal T22 homeless
+A9	StatusEmployVal T25 unemployed
+T29	Amount 43 57	~20 pack/years

@@ -1,0 +1,12 @@
+T1	Tobacco 34 41	smoking
+T2	StatusTime 29 33	quit
+T3	History 42 54	40 years ago
+T4	Alcohol 56 72	Currently drinks
+T5	StatusTime 56 72	Currently drinks
+T6	Amount 73 90	one glass of wine
+T7	Type 86 90	wine
+T8	Frequency 91 98	nightly
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Alcohol:T4 Status:T5 Amount:T6 Type:T7 Frequency:T8
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 current

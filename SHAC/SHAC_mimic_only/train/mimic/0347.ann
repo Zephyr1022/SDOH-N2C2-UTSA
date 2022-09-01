@@ -1,0 +1,16 @@
+T1	LivingStatus 61 66	lived
+T2	StatusTime 61 66	lived
+T3	TypeLiving 67 93;94 112	at [**Location (un) 931**] House Nursing Home
+T4	History 114 135	before going to rehab
+T5	StatusTime 137 143	Denies
+T6	Tobacco 144 147	Tob
+T7	Alcohol 149 153	EtOH
+T8	Drug 158 174	illicit drug use
+T9	Type 158 165	illicit
+E1	LivingStatus:T1 Status:T2 Type:T3 History:T4
+E2	Tobacco:T6 Status:T5
+E3	Alcohol:T7 Status:T5
+E4	Drug:T8 Type:T9 Status:T5
+A1	StatusTimeVal T2 past
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 none

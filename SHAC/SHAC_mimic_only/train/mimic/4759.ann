@@ -1,0 +1,42 @@
+T1	Employment 160 167	Teaches
+T2	StatusEmploy 160 167	Teaches
+T3	Type 160 167	Teaches
+T4	Alcohol 120 126	drinks
+T6	StatusTime 27 35	previous
+T7	Amount 116 126	2-5 drinks
+T8	Frequency 127 135	at night
+T9	StatusTime 116 135	2-5 drinks at night
+T10	Tobacco 195 201	Smokes
+T11	Amount 202 217	[**12-21**] PPD
+T13	StatusTime 195 201	Smokes
+T14	Tobacco 230 236	smoked
+T15	StatusTime 219 229	Previously
+T17	Drug 258 263	crack
+T18	Type 258 263	crack
+T19	StatusTime 248 257	Last used
+T20	History 264 276	15 years ago
+T21	Drug 289 298	marijuana
+T22	Type 289 298	marijuana
+T23	Frequency 299 310	on occasion
+T24	StatusTime 278 283;284 288	Still uses
+T25	Drug 312 315	LSD
+T26	Type 312 315	LSD
+T27	StatusTime 316 318	in
+T28	History 316 329	in [**2115**]
+T29	Alcohol 37 50	alcohol abuse
+E1	Employment:T1 Type:T3 Status:T2
+E3	Alcohol:T4 Status:T9 Amount:T7 Frequency:T8
+E4	Tobacco:T10 Status:T13 Amount:T11
+E5	Tobacco:T14 Status:T15
+E6	Drug:T17 Type:T18 Status:T19 History:T20
+E7	Drug:T21 Type:T22 Status:T24 Frequency:T23
+E8	Drug:T25 Type:T26 Status:T27 History:T28
+E2	Alcohol:T29 Status:T6
+A1	StatusEmployVal T2 employed
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T13 current
+A6	StatusTimeVal T15 past
+A7	StatusTimeVal T19 past
+A8	StatusTimeVal T24 current
+A9	StatusTimeVal T27 past

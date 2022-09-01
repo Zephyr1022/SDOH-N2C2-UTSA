@@ -1,0 +1,19 @@
+T1	LivingStatus 115 120	Lives
+T2	StatusTime 115 120	Lives
+T3	TypeLiving 129 145	with her husband
+T4	Tobacco 9 20	Tobacco Use
+T5	StatusTime 22 26	None
+T6	Alcohol 29 40	Alcohol Use
+T7	StatusTime 42 46	None
+T8	Drug 49 57	Drug Use
+T9	StatusTime 59 76	Remote history of
+T10	Type 77 90	polysubstance
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Status:T9 Type:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T9 past

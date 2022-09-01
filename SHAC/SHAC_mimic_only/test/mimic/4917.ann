@@ -1,0 +1,13 @@
+T1	Tobacco 36 46	cigarettes
+T2	Alcohol 50 57	alcohol
+T3	StatusTime 29 35	denies
+T4	Type 36 46	cigarettes
+T5	LivingStatus 63 68	lives
+T6	TypeLiving 72 104	[**Hospital 1036**] Nursing Home
+T7	StatusTime 63 68	lives
+E1	Tobacco:T1 Status:T3 Type:T4
+E2	Alcohol:T2 Status:T3
+E3	LivingStatus:T5 Type:T6 Status:T7
+A1	StatusTimeVal T3 none
+A2	TypeLivingVal T6 with_others
+A3	StatusTimeVal T7 current

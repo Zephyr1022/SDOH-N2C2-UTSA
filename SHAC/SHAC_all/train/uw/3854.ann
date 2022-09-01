@@ -1,0 +1,18 @@
+T1	Employment 700 708	Vocation
+T2	Type 755 789	controlling machinery in the plant
+T3	StatusEmploy 717 723	worked
+T4	Tobacco 883 886	Tob
+T5	StatusTime 889 895	Denies
+T6	Alcohol 896 900	EtOH
+T7	StatusTime 902 923	occasional social use
+E1	Employment:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+A1	StatusEmployVal T3 employed
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 current
+T8	Employment 795 798	job
+E4	Employment:T8 Type:T10 Status:T9
+T9	StatusEmploy 799 801	is
+A4	StatusEmployVal T9 employed
+T10	Type 815 856	monitor the temperatures of the solutions

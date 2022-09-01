@@ -1,0 +1,29 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 27	prior
+T3	Amount 28 32	3ppd
+T4	Duration 33 44	for 35 year
+T5	Amount 66 80	1-2 cigarettes
+T6	Tobacco 70 80	cigarettes
+T7	Type 70 80	cigarettes
+T8	Frequency 80 84	/day
+T9	StatusTime 54 57	now
+T10	Alcohol 88 99	Alcohol Use
+T11	StatusTime 101 119	denies, since 1993
+T12	History 109 119	since 1993
+T13	Drug 123 131	Drug Use
+T14	StatusTime 146 151	clean
+T15	History 152 163	for 9 years
+T16	LivingStatus 182 191	Residence
+T17	StatusTime 193 207	Morrison house
+T18	TypeLiving 193 207	Morrison house
+E1	Tobacco:T1 Status:T2 Amount:T3 Duration:T4
+E2	Tobacco:T6 Type:T7 Amount:T5 Status:T9 Frequency:T8
+E3	Alcohol:T10 Status:T11 History:T12
+E4	Drug:T13 Status:T14 History:T15
+E5	LivingStatus:T16 Status:T17 Type:T18
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T9 current
+A3	StatusTimeVal T11 past
+A4	StatusTimeVal T14 past
+A5	StatusTimeVal T17 current
+A6	TypeLivingVal T18 homeless

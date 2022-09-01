@@ -1,0 +1,15 @@
+T1	Employment 16 23	Retired
+T2	StatusEmploy 16 23	Retired
+T3	Tobacco 32 43	Tobacco use
+T4	StatusTime 25 31	Denies
+T5	Alcohol 77 83	Scotch
+T6	Amount 55 76;77 83	[**1-23**] glasses of Scotch
+T7	Type 77 83	Scotch
+T8	Frequency 84 88	week
+T9	StatusTime 45 54	Admits to
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+E3	Alcohol:T5 Status:T9 Amount:T6 Type:T7 Frequency:T8
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T9 current

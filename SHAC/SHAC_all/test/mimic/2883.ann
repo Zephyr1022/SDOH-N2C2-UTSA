@@ -1,0 +1,22 @@
+T1	Tobacco 67 78	tobacco use
+T2	StatusTime 60 66	denies
+T3	Alcohol 84 91	alcohol
+T4	Frequency 92 120	approximately once per month
+T5	StatusTime 80 83	Has
+T6	Drug 165 174	marijuana
+T7	Type 165 174	marijuana
+T8	StatusTime 160 164	Uses
+T9	Frequency 175 204	approximately 5 days per week
+T10	Drug 213 217	IVDU
+T11	Method 213 217	IVDU
+T12	StatusTime 206 212	Denies
+T13	Amount 131 140	2 glasses
+T14	Type 144 148	wine
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T5 Frequency:T4 Amount:T13 Type:T14
+E3	Drug:T6 Type:T7 Frequency:T9 Status:T8
+E4	Drug:T10 Status:T12 Method:T11
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T12 none

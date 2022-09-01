@@ -1,0 +1,13 @@
+T1	Drug 34 47	cocaine abuse
+T2	Type 34 41	cocaine
+T3	StatusTime 17 30	Prior history
+T4	Tobacco 56 63	tobacco
+T5	StatusTime 49 55	denies
+T6	Alcohol 65 83	occasional alcohol
+T8	StatusTime 65 83	occasional alcohol
+E1	Drug:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T8
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T5 none
+A4	StatusTimeVal T8 current

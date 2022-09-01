@@ -1,0 +1,11 @@
+T1	Employment 30 49	taught machine shop
+T2	StatusEmploy 30 49	taught machine shop
+T3	Type 30 49	taught machine shop
+T4	StatusEmploy 319 323	quit
+T5	History 324 337	in [**2153**]
+T6	Employment 185 193	teaching
+T7	Type 185 287	teaching at [**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) 69987**] Occupational Center
+E1	Employment:T1 Status:T2 Type:T3
+E2	Employment:T6 Type:T7 Status:T4 History:T5
+A1	StatusEmployVal T2 unemployed
+A2	StatusEmployVal T4 unemployed

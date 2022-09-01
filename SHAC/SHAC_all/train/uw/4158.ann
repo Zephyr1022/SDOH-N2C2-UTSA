@@ -1,0 +1,22 @@
+T1	LivingStatus 11 16	Lives
+T2	StatusTime 11 16	Lives
+T3	TypeLiving 17 29	at a shelter
+T4	Tobacco 31 37	smokes
+T5	StatusTime 31 37	smokes
+T6	Amount 38 51	10 cigarettes
+T7	Frequency 52 57	a day
+T8	Type 41 51	cigarettes
+T9	Drug 66 74	drug use
+T10	StatusTime 59 65	denies
+T11	Alcohol 76 101	regular daily alcohol use
+T12	Frequency 76 101	regular daily alcohol use
+T13	StatusTime 76 101	regular daily alcohol use
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 Type:T8 Amount:T6 Frequency:T7
+E3	Drug:T9 Status:T10
+E4	Alcohol:T11 Status:T13 Frequency:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T13 current

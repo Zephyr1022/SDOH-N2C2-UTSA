@@ -1,0 +1,14 @@
+T1	Tobacco 48 67	tobacco replacement
+T2	StatusTime 48 67	tobacco replacement
+T3	Type 48 67	tobacco replacement
+T4	Drug 71 79	illicits
+T5	StatusTime 68 70	no
+T6	Type 71 79	illicits
+T7	Alcohol 83 87	etoh
+T8	StatusTime 80 82	no
+E1	Tobacco:T1 Type:T3 Status:T2
+E2	Drug:T4 Type:T6 Status:T5
+E3	Alcohol:T7 Status:T8
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T8 none

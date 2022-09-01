@@ -1,0 +1,22 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 31	w mother
+T4	Employment 54 73	previously employed
+T5	StatusEmploy 54 73	previously employed
+T6	Type 77 95	substitute teacher
+T7	Alcohol 116 120	EtOH
+T8	StatusTime 97 120	Denies any further EtOH
+T9	History 121 141	since last admission
+T10	Tobacco 150 157	tobacco
+T11	Drug 161 175	other drug use
+T12	StatusTime 143 149	denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Alcohol:T7 Status:T8 History:T9
+E4	Tobacco:T10 Status:T12
+E5	Drug:T11 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T12 none

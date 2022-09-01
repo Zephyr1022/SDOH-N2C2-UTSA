@@ -1,0 +1,17 @@
+T1	Drug 59 63	IVDU
+T2	StatusTime 56 58	Hx
+T3	Tobacco 74 80	smoker
+T4	Alcohol 85 96	alcohol use
+T5	StatusTime 65 73	previous
+T6	LivingStatus 27 39	incarcerated
+T7	TypeLiving 27 39	incarcerated
+T8	StatusTime 17 26	Currently
+E1	Drug:T1 Status:T2 Method:T9
+E2	Tobacco:T3 Status:T5
+E3	Alcohol:T4 Status:T5
+E4	LivingStatus:T6 Status:T8 Type:T7
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 past
+A3	TypeLivingVal T7 with_others
+A4	StatusTimeVal T8 current
+T9	Method 59 63	IVDU

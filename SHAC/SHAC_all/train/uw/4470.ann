@@ -1,0 +1,18 @@
+T1	Employment 178 199	a emergency responder
+T2	StatusEmploy 144 174	Just got out of the [LOCATION]
+T3	Type 178 199	a emergency responder
+T4	Tobacco 201 211	Non-smoker
+T5	StatusTime 201 211	Non-smoker
+T6	Alcohol 213 231	occasional alcohol
+T8	StatusTime 213 231	occasional alcohol
+T9	Drug 236 254	recreational drugs
+T10	Type 236 248	recreational
+T11	StatusTime 233 235	No
+E1	Employment:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T8
+E4	Drug:T9 Type:T10 Status:T11
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 none
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T11 none

@@ -1,0 +1,9 @@
+T1	Tobacco 44 51	tobacco
+T2	StatusTime 42 43	+
+T3	Drug 24 28	IVDU
+T4	Method 24 28	IVDU
+T5	StatusTime 17 41	denies IVDU in last year
+E1	Tobacco:T1 Status:T2
+E2	Drug:T3 Status:T5 Method:T4
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 none

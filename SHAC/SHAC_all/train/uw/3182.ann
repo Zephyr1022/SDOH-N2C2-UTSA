@@ -1,0 +1,22 @@
+T1	Drug 8 22	Marijuanna use
+T2	Type 8 18	Marijuanna
+T3	Frequency 23 29	Qmonth
+T4	StatusTime 8 29	Marijuanna use Qmonth
+T5	Drug 41 53	heroin abuse
+T6	Type 41 47	heroin
+T8	StatusTime 35 40	hx of
+T9	Duration 30 34	3 yr
+T10	Method 55 71	1 yr IM, 2 yr IV
+T11	Alcohol 107 111	EtOH
+T12	StatusTime 74 92	sober since [DATE]
+T13	Drug 121 137	illicit drug use
+T14	Type 121 128	illicit
+T15	StatusTime 112 114	no
+E1	Drug:T1 Type:T2 Frequency:T3 Status:T4
+E2	Drug:T5 Type:T6 Status:T8 Duration:T9 Method:T10
+E3	Alcohol:T11 Status:T12
+E4	Drug:T13 Type:T14 Status:T15
+A1	StatusTimeVal T4 current
+A3	StatusTimeVal T8 past
+A4	StatusTimeVal T12 past
+A5	StatusTimeVal T15 none

@@ -1,0 +1,42 @@
+T1	LivingStatus 17 25	Homeless
+T2	StatusTime 17 25	Homeless
+T3	TypeLiving 17 25	Homeless
+T4	LivingStatus 30 36	moving
+T5	StatusTime 30 36	moving
+T7	Employment 237 240	Job
+T8	StatusEmploy 242 252	unemployed
+T9	Duration 282 293	3 years ago
+T10	Type 269 281	construction
+T11	Tobacco 453 460	smoking
+T12	StatusTime 453 460	smoking
+T13	Amount 461 468	1/2 PPD
+T14	Alcohol 470 478	drinking
+T15	StatusTime 470 478	drinking
+T16	Amount 479 485	1 beer
+T17	Type 481 485	beer
+T18	Frequency 486 493	per day
+T19	Drug 495 525	occasional methamphetamine use
+T20	StatusTime 495 525	occasional methamphetamine use
+T21	Type 506 521	methamphetamine
+T22	Alcohol 556 569	alcohol abuse
+T24	StatusTime 527 534	History
+T25	Drug 538 551	frequent meth
+T26	Type 547 551	meth
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Employment:T7 Status:T8 Type:T10 Duration:T9
+E4	Tobacco:T11 Status:T12 Amount:T13
+E5	Alcohol:T14 Status:T15 Amount:T16 Type:T17 Frequency:T18
+E6	Drug:T19 Status:T20 Type:T21
+E7	Alcohol:T22 Status:T24
+E8	Drug:T25 Type:T26 Status:T24
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T5 future
+A5	StatusEmployVal T8 unemployed
+A6	StatusTimeVal T12 current
+A7	StatusTimeVal T15 current
+A8	StatusTimeVal T20 current
+A10	StatusTimeVal T24 current
+T6	TypeLiving 42 60	new apartment 1811
+A4	TypeLivingVal T6 homeless

@@ -1,0 +1,22 @@
+T1	LivingStatus 17 22	lives
+T2	StatusTime 17 22	lives
+T3	TypeLiving 23 28	alone
+T4	Tobacco 71 78	smoking
+T5	StatusTime 66 70	quit
+T6	History 79 91	20 years ago
+T7	Alcohol 92 105	1 drink daily
+T8	Amount 92 99	1 drink
+T9	Frequency 100 105	daily
+T10	StatusTime 92 105	1 drink daily
+T11	Drug 113 130	MJ or other drugs
+T12	Type 113 124	MJ or other
+T13	StatusTime 106 112	denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Alcohol:T7 Status:T10 Amount:T8 Frequency:T9
+E4	Drug:T11 Type:T12 Status:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T13 none

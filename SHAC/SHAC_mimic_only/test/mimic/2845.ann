@@ -1,0 +1,10 @@
+T1	Tobacco 24 31	smoking
+T2	StatusTime 16 23	Stopped
+T5	StatusTime 139 144	Lives
+T6	TypeLiving 145 153	with son
+T7	LivingStatus 139 144	Lives
+E1	Tobacco:T1 Status:T2
+E3	LivingStatus:T7 Type:T6 Status:T5
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family

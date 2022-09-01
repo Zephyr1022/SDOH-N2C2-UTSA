@@ -1,0 +1,15 @@
+T1	Employment 64 69	works
+T2	StatusEmploy 64 69	works
+T3	Type 73 87	a stock broker
+T4	Tobacco 93 100	tobacco
+T5	StatusTime 90 92	No
+T6	Alcohol 112 119	alcohol
+T7	StatusTime 103 111	Positive
+T8	Amount 123 140	one to two drinks
+T9	Frequency 141 148	per day
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7 Amount:T8 Frequency:T9
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 current

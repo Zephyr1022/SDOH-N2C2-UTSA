@@ -1,0 +1,28 @@
+T1	Employment 28 34	worked
+T2	StatusEmploy 28 34	worked
+T3	Type 38 58	a nurse practitioner
+T4	History 59 75	until [**2159**]
+T5	LivingStatus 124 129	lives
+T6	StatusTime 124 129	lives
+T7	TypeLiving 130 145	with her sister
+T8	Tobacco 180 186	smokes
+T9	StatusTime 180 186	smokes
+T10	Amount 187 198	half a pack
+T11	Frequency 213 218	a day
+T13	Duration 254 264;265 270	for "many" years
+T12	Tobacco 247 253	smoked
+T14	StatusTime 243 253	Has smoked
+T15	Alcohol 318 325	alcohol
+T16	StatusTime 303 317	does not drink
+E1	Employment:T1 Status:T2 Type:T3 History:T4
+E2	LivingStatus:T5 Status:T6 Type:T7
+E3	Tobacco:T8 Status:T9 Amount:T10 Frequency:T11 Type:T17
+E4	Tobacco:T12 Status:T14 Duration:T13
+E5	Alcohol:T15 Status:T16
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T6 current
+A3	TypeLivingVal T7 with_family
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T14 current
+A6	StatusTimeVal T16 none
+T17	Type 202 212	cigarettes

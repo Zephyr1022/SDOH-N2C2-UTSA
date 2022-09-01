@@ -1,0 +1,31 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 47 52	2 cig
+T3	Frequency 52 56	/day
+T4	StatusTime 57 66	past year
+T5	Duration 57 66	past year
+T6	Amount 79 85	2packs
+T7	Frequency 85 89	/day
+T8	StatusTime 68 78	previously
+T9	Tobacco 79 85	2packs
+T10	Alcohol 92 103	Alcohol Use
+T11	StatusTime 105 109	none
+T12	Drug 111 119	Drug Use
+T13	Method 124 128	IVDU
+T14	StatusTime 121 144	no IVDU in past 3 years
+T15	LivingStatus 208 217	Residence
+T16	TypeLiving 219 224	alone
+T17	StatusTime 219 224	alone
+E1	Tobacco:T1 Amount:T2 Frequency:T3 Status:T4 Duration:T5 Duration2:T18 Type:T19
+E2	Tobacco:T9 Status:T8 Amount:T6 Frequency:T7
+E3	Alcohol:T10 Status:T11
+E4	Drug:T12 Method:T13 Status:T14 History:T20
+E5	LivingStatus:T15 Status:T17 Type:T16
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T8 past
+A3	StatusTimeVal T11 none
+A4	StatusTimeVal T14 past
+A5	TypeLivingVal T16 alone
+A6	StatusTimeVal T17 current
+T18	Duration 22 29	30 year
+T19	Type 49 52	cig
+T20	History 129 144	in past 3 years

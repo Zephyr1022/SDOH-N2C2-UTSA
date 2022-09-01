@@ -1,0 +1,26 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	none
+T3	Alcohol 29 40	Alcohol Use
+T4	StatusTime 42 52	occasional
+T6	Type 53 57	beer
+T7	Amount 59 71	very limited
+T8	History 72 84	since [DATE]
+T9	Drug 87 95	Drug Use
+T10	StatusTime 97 101	none
+T11	LivingStatus 120 125	Lives
+T12	TypeLiving 140 155	with his fiance
+T13	StatusTime 120 125	Lives
+T14	Employment 157 162	Owner
+T15	StatusEmploy 157 162	Owner
+T16	Type 157 184	Owner of [LOCATION] company
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4 Type:T6 Amount:T7 History:T8
+E3	Drug:T9 Status:T10
+E4	LivingStatus:T11 Type:T12 Status:T13
+E5	Employment:T14 Status:T15 Type:T16
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A4	StatusTimeVal T10 none
+A5	TypeLivingVal T12 with_family
+A6	StatusTimeVal T13 current
+A7	StatusEmployVal T15 employed

@@ -1,0 +1,7 @@
+HABITS: 
+Tobacco Use: Never used
+Alcohol Use: Reports drinking 5 cans of beer 2-5 days per week   
+Drug Use: Marijuana 1 joint per week, crack per pipe once per week. Denies IV drugs
+
+SOCIAL HISTORY: 
+Residence: Lives at [LOCATION]' homeless shelter. Goes downtown during the day and plays checkers or games with friends. Worked in construction and dairy farming for 35 years. Moved to [LOCATION] to see something different and to travel. Moved 3 years ago and lived in [LOCATION] for 2 years.

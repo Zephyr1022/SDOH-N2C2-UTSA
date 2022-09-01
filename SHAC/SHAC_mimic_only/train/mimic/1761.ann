@@ -1,0 +1,33 @@
+T1	LivingStatus 20 25	lives
+T2	StatusTime 20 25	lives
+T3	TypeLiving 26 45	with his girlfriend
+T4	Employment 195 218	currently on disability
+T5	StatusEmploy 195 218	currently on disability
+T6	Employment 285 297	a contractor
+T7	StatusEmploy 281 284	Was
+T8	Type 285 297	a contractor
+T9	Tobacco 368 374	smokes
+T10	StatusTime 368 374	smokes
+T11	Type 375 381	cigars
+T12	Amount 390 402	20 pack year
+T13	Alcohol 413 417	EtOH
+T14	StatusTime 440 467	approximately 7 drinks/week
+T15	Amount 440 462	approximately 7 drinks
+T16	Frequency 462 467	/week
+T17	Drug 477 493	illicit drug use
+T18	Type 477 484	illicit
+T19	StatusTime 469 476	-Denies
+T20	History 263 279	since [**2114**]
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 History:T20
+E3	Employment:T6 Status:T7 Type:T8
+E4	Tobacco:T9 Status:T10 Type:T11 Amount:T12
+E5	Alcohol:T13 Status:T14 Amount:T15 Frequency:T16
+E6	Drug:T17 Type:T18 Status:T19
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T5 on_disability
+A4	StatusEmployVal T7 unemployed
+A5	StatusTimeVal T10 current
+A6	StatusTimeVal T14 current
+A7	StatusTimeVal T19 none

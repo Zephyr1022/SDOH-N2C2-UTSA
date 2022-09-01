@@ -1,0 +1,15 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 28	alone
+T4	Employment 124 128	work
+T5	StatusEmploy 111 123	continued to
+T6	Type 132 140	a writer
+T7	Drug 156 169	substance use
+T8	StatusTime 153 155	no
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Drug:T7 Status:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T8 none

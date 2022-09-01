@@ -1,0 +1,31 @@
+T1	LivingStatus 105 110	lives
+T2	TypeLiving 95 103	Homeless
+T3	Tobacco 186 189	Tob
+T4	Amount 190 197	1.5 ppd
+T5	Alcohol 198 202	ETOH
+T7	StatusTime 190 197	1.5 ppd
+T6	StatusTime 203 220	none since [DATE]
+T8	History 208 220	since [DATE]
+T9	Amount 233 242	1-2 beers
+T10	Frequency 243 250	per day
+T11	Drug 251 256	Drugs
+T12	StatusTime 258 275	none since [DATE]
+T13	History 263 275	since [DATE]
+T14	Type 297 306	marijuana
+T16	StatusTime 322 324	hx
+T17	Drug 333 348	methamphetamine
+T18	Method 328 332	IVDU
+T19	Type 333 348	methamphetamine
+T20	History 374 383	x 2 years
+T21	StatusTime 105 110	lives
+E1	LivingStatus:T1 Type:T2 Status:T21
+E2	Tobacco:T3 Amount:T4 Status:T7
+E3	Alcohol:T5 Status:T6 History:T8 Amount:T9 Frequency:T10
+E4	Drug:T11 History:T13 Status:T12 Type:T14
+E5	Drug:T17 Method:T18 Type:T19 Status:T16 History:T20
+A1	TypeLivingVal T2 homeless
+A3	StatusTimeVal T7 current
+A2	StatusTimeVal T6 past
+A4	StatusTimeVal T12 past
+A6	StatusTimeVal T16 past
+A7	StatusTimeVal T21 current

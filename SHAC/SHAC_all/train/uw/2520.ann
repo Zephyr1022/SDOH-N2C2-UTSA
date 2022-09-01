@@ -1,0 +1,14 @@
+T1	Tobacco 100 107	smoking
+T2	Alcohol 109 117	drinking
+T3	Drug 122 143	recreational drug use
+T4	StatusTime 93 153	Denies smoking, drinking, or recreational drug use currently
+T5	Drug 175 179	IVDU
+T6	Method 175 179	IVDU
+T7	Type 122 134	recreational
+T8	StatusTime 168 174	states
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T4
+E3	Drug:T3 Status:T4 Type:T7
+E4	Drug:T5 Status:T8 Method:T6
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T8 current

@@ -1,0 +1,19 @@
+T1	LivingStatus 100 105	Lives
+T2	StatusTime 100 105	Lives
+T3	TypeLiving 114 125	with family
+T4	Tobacco 9 20	Tobacco Use
+T5	Alcohol 31 42	Alcohol Use
+T6	StatusTime 22 28	denies
+T7	Amount 44 51	1 drink
+T9	StatusTime 75 81	denies
+T10	Drug 65 73	Drug Use
+T11	StatusTime 52 63	on occasion
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T6
+E3	Alcohol:T5 Amount:T7 Status:T11
+E4	Drug:T10 Status:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T6 none
+A5	StatusTimeVal T9 none
+A6	StatusTimeVal T11 current

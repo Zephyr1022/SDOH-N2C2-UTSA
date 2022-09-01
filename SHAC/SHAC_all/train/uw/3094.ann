@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 31	Currently
+T3	Amount 32 40	1-2 cigs
+T4	Type 36 40	cigs
+T5	Frequency 41 48	per day
+T6	Alcohol 75 86	Alcohol Use
+T7	StatusTime 88 93	Never
+T8	Drug 96 104	Drug Use
+T9	StatusTime 106 116	History of
+T10	Type 117 126	IV heroin
+T11	Method 117 119	IV
+T12	Duration 131 139	for 1 yr
+T13	Employment 218 233	going to school
+T14	StatusEmploy 218 233	going to school
+E1	Tobacco:T1 Status:T2 Amount:T3 Type:T4 Frequency:T5 Amount2:T15
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Status:T9 Method:T11 Type:T10 Duration:T12
+E4	Employment:T13 Status:T14
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T9 past
+A4	StatusEmployVal T14 student
+T15	Amount 50 63	~30 pack year

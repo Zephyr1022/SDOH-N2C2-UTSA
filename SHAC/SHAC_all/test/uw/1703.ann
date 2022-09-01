@@ -1,0 +1,24 @@
+T1	Tobacco 42 48	smokes
+T2	StatusTime 42 48	smokes
+T3	Amount 49 57	1/2 pack
+T4	Frequency 58 65	per day
+T5	Duration 82 108	for approximately 15 years
+T6	Alcohol 111 118	Alcohol
+T7	Amount 136 160	approximately 3-4 drinks
+T8	Frequency 161 173	twice a week
+T9	StatusTime 119 134	on the weekends
+T10	Drug 183 199	illicit drug use
+T12	Type 183 190	illicit
+T13	Type 211 220	marijuana
+T14	StatusTime 176 182	Denies
+T15	Employment 226 231	works
+T16	StatusEmploy 226 231	works
+T17	Type 235 245	[LOCATION]
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4 Duration:T5
+E2	Alcohol:T6 Amount:T7 Status:T9 Frequency:T8
+E3	Drug:T10 Type:T12 Status:T14 Type2:T13
+E5	Employment:T15 Status:T16 Type:T17
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T9 current
+A3	StatusTimeVal T14 none
+A4	StatusEmployVal T16 employed

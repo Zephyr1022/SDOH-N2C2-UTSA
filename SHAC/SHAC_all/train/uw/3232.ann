@@ -1,0 +1,33 @@
+T3	LivingStatus 230 235	lives
+T4	StatusTime 230 235	lives
+T5	TypeLiving 236 248	with her son
+T6	Employment 400 406	worked
+T7	Type 410 415	a CNA
+T8	StatusEmploy 400 406	worked
+T9	History 450 461	2 years ago
+T10	Tobacco 479 486	tobacco
+T11	Alcohol 488 495	alcohol
+T12	Drug 499 510	other drugs
+T14	StatusTime 472 478	denies
+T15	Tobacco 572 575	Tob
+T16	StatusTime 576 579	Neg
+T17	Alcohol 581 585	ETOH
+T18	StatusTime 587 590	Neg
+T19	Drug 594 598	IVDU
+T20	Method 594 598	IVDU
+T21	StatusTime 601 604	Neg
+E2	LivingStatus:T3 Status:T4 Type:T5
+E3	Employment:T6 Status:T8 Type:T7 History:T9
+E4	Tobacco:T10 Status:T14
+E5	Alcohol:T11 Status:T14
+E6	Drug:T12 Status:T14
+E7	Tobacco:T15 Status:T16
+E8	Alcohol:T17 Status:T18
+E9	Drug:T19 Status:T21 Method:T20
+A1	StatusTimeVal T4 current
+A2	TypeLivingVal T5 with_family
+A3	StatusEmployVal T8 unemployed
+A4	StatusTimeVal T14 none
+A5	StatusTimeVal T16 none
+A6	StatusTimeVal T18 none
+A7	StatusTimeVal T21 none

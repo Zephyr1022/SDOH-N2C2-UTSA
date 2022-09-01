@@ -1,0 +1,30 @@
+T1	LivingStatus 19 24	lives
+T2	StatusTime 19 24	lives
+T3	TypeLiving 25 38	with his wife
+T4	Employment 77 90	on disability
+T5	StatusEmploy 77 90	on disability
+T6	Alcohol 157 170	alcohol abuse
+T7	Amount 181 197	[**8-8**] drinks
+T8	Frequency 197 201	/day
+T9	Duration 202 216	for many years
+T10	StatusTime 218 225;226 235	no ETOH x 2 month
+T11	History 218 225;226 235	no ETOH x 2 month
+T13	Tobacco 246 252	smoked
+T14	StatusTime 240 245	never
+T15	Drug 261 269	IV drugs
+T16	Drug 273 286	illicit drugs
+T17	Type 273 280	illicit
+T18	Method 261 263	IV
+T19	StatusTime 254 260	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Alcohol:T6 Amount:T7 Frequency:T8 Duration:T9 History:T11 Status:T10
+E4	Tobacco:T13 Status:T14
+E5	Drug:T15 Method:T18 Status:T19
+E6	Drug:T16 Type:T17 Status:T19
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 on_disability
+A4	StatusTimeVal T10 past
+A6	StatusTimeVal T14 none
+A7	StatusTimeVal T19 none

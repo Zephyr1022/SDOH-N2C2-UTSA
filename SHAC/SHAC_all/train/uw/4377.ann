@@ -1,0 +1,33 @@
+T1	Employment 559 569	Unemployed
+T2	StatusEmploy 559 569	Unemployed
+T3	LivingStatus 545 557	homelessness
+T4	TypeLiving 545 557	homelessness
+T5	StatusTime 526 541	Distant history
+T6	Tobacco 591 597	smoker
+T7	Amount 599 607	1/4 pack
+T8	Frequency 608 615	per day
+T9	StatusTime 599 615	1/4 pack per day
+T10	Alcohol 638 642	Etoh
+T12	StatusTime 618 634	Previous history
+T13	LivingStatus 396 400	live
+T14	StatusTime 367 375	hopes to
+T15	TypeLiving 401 416	with her sister
+T16	LivingStatus 64 70	living
+T17	StatusTime 60 63	Was
+T18	TypeLiving 82 104	with significant other
+T19	History 128 134	[DATE]
+E1	Employment:T1 Status:T2
+E2	LivingStatus:T3 Status:T5 Type:T4
+E3	Tobacco:T6 Amount:T7 Frequency:T8 Status:T9
+E4	Alcohol:T10 Status:T12
+E5	LivingStatus:T13 Status:T14 Type:T15
+E6	LivingStatus:T16 Type:T18 Status:T17 History:T19
+A1	StatusEmployVal T2 unemployed
+A2	TypeLivingVal T4 homeless
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T9 current
+A6	StatusTimeVal T12 past
+A7	StatusTimeVal T14 future
+A8	TypeLivingVal T15 with_family
+A9	StatusTimeVal T17 past
+A10	TypeLivingVal T18 with_others

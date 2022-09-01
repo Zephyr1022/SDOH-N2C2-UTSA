@@ -1,0 +1,24 @@
+T1	Tobacco 73 80;81 84	tobacco use
+T2	StatusTime 54 72	absence of current
+T3	Tobacco 94 101	smoking
+T4	StatusTime 89 93	quit
+T5	Alcohol 145 152;153 158	alcohol abuse
+T6	StatusTime 131 141	no history
+T7	Employment 245 250	works
+T8	StatusEmploy 245 250	works
+T9	Type 260 275;276 285	selling medical insurance
+T10	LivingStatus 309 314	lives
+T11	StatusTime 309 314	lives
+T12	TypeLiving 360 391	with his wife and 17yo step son
+T13	History 102 120	on [**2176-1-10**]
+E1	Tobacco:T1 Status:T2
+E2	Tobacco:T3 Status:T4 History:T13
+E3	Alcohol:T5 Status:T6
+E4	Employment:T7 Type:T9 Status:T8
+E5	LivingStatus:T10 Status:T11 Type:T12
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T6 none
+A4	StatusEmployVal T8 employed
+A5	StatusTimeVal T11 current
+A6	TypeLivingVal T12 with_family

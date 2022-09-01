@@ -1,0 +1,21 @@
+T1	Employment 49 62	On disability
+T2	StatusEmploy 49 62	On disability
+T3	Tobacco 108 115	smoking
+T4	StatusTime 103 107	Quit
+T5	History 116 129	in [**2091**]
+T6	Alcohol 161 166	drink
+T7	Amount 159 160;161 166	1 drink
+T8	Frequency 166 172	/night
+T9	StatusTime 159 160;161 172	1 drink/night
+T10	Drug 177 193	illicit drug use
+T11	Type 177 184	illicit
+T12	StatusTime 174 176	No
+T13	Duration 132 151;152 157	smoked from teenage years
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Status:T4 History:T5 Duration:T13
+E3	Alcohol:T6 Amount:T7 Frequency:T8 Status:T9
+E4	Drug:T10 Type:T11 Status:T12
+A1	StatusEmployVal T2 on_disability
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T12 none

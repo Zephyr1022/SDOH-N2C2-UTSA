@@ -1,0 +1,21 @@
+T1	Employment 111 124	on disability
+T2	StatusEmploy 111 124	on disability
+T3	Tobacco 138 145	smoking
+T4	Amount 146 170	approximate 6 cigarettes
+T5	Frequency 171 176	a day
+T6	StatusTime 130 137	reports
+T7	Alcohol 182 189	alcohol
+T8	StatusTime 179 203	No alcohol in many years
+T9	History 193 203	many years
+T10	Drug 211 224	marijuana use
+T11	Type 211 220	marijuana
+T13	StatusTime 206 224	Rare marijuana use
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Amount:T4 Frequency:T5 Status:T6 Type:T12
+E3	Alcohol:T7 Status:T8 History:T9
+E4	Drug:T10 Type:T11 Status:T13
+A1	StatusEmployVal T2 on_disability
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T8 past
+A5	StatusTimeVal T13 current
+T12	Type 160 170	cigarettes

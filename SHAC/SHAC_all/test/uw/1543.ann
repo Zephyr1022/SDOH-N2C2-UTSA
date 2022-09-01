@@ -1,0 +1,8 @@
+T1	Tobacco 18 25	smoking
+T2	StatusTime 11 17	Denies
+T3	Alcohol 27 31	EtOH
+T4	Drug 35 40	drugs
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T2
+E3	Drug:T4 Status:T2
+A1	StatusTimeVal T2 none

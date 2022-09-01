@@ -1,0 +1,19 @@
+T1	Tobacco 19 26	smoking
+T2	StatusTime 16 18	No
+T3	Alcohol 28 32	ETOH
+T4	Drug 36 41	drugs
+T5	LivingStatus 44 49	Lives
+T6	StatusTime 44 49	Lives
+T7	TypeLiving 50 78	with mother, brother, sister
+T8	Employment 80 87	Working
+T9	StatusEmploy 80 87	Working
+T10	Type 91 104	an accountant
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T2
+E3	Drug:T4 Status:T2
+E4	LivingStatus:T5 Status:T6 Type:T7
+E5	Employment:T8 Status:T9 Type:T10
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T6 current
+A3	TypeLivingVal T7 with_family
+A4	StatusEmployVal T9 employed

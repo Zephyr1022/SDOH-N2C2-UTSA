@@ -1,0 +1,28 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 35	independently
+T4	Amount 80 89	1.5 packs
+T5	Frequency 89 93	/day
+T6	Tobacco 73 79	Smoked
+T7	Duration 94 104	x 15 years
+T8	StatusTime 106 110	quit
+T9	History 111 123	35 years ago
+T12	Alcohol 125 142;143 146	Former heavy EtOH use
+T14	StatusTime 148 153	sober
+T15	History 154 164	x 35 years
+T16	Drug 169 174	drugs
+T17	StatusTime 166 168	No
+T18	Employment 184 201	previously worked
+T19	StatusEmploy 184 201	previously worked
+T20	Type 205 206;207 221	a letter carrier
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T6 Amount:T4 Frequency:T5 Duration:T7 Status:T8 History:T9
+E4	Alcohol:T12 Status:T14 History:T15
+E5	Drug:T16 Status:T17
+E6	Employment:T18 Status:T19 Type:T20
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T8 past
+A6	StatusTimeVal T14 past
+A7	StatusTimeVal T17 none
+A8	StatusEmployVal T19 unemployed

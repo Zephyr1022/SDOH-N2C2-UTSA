@@ -1,0 +1,31 @@
+T1	LivingStatus 24 29	Lives
+T2	StatusTime 24 29	Lives
+T3	TypeLiving 30 35	alone
+T4	Employment 69 73	Work
+T5	StatusEmploy 75 93	Former stockbroker
+T6	Type 75 93	Former stockbroker
+T7	Tobacco 96 103	Tobacco
+T8	StatusTime 121 127	smoked
+T9	Type 128 134	cigars
+T10	Amount 135 138	1-2
+T11	Frequency 139 146	per day
+T12	Duration 147 153;154 159	for 10 years
+T13	Alcohol 163 170	Alcohol
+T14	StatusTime 172 186	None currently
+T15	Amount 188 196	2 drinks
+T16	Frequency 197 204	per day
+T17	Duration 205 217	for 10 years
+T18	Drug 221 228	Illicit
+T19	StatusTime 230 234	None
+T20	Type 221 228	Illicit
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Type:T6 Status:T5
+E3	Tobacco:T7 Status:T8 Amount:T10 Type:T9 Frequency:T11 Duration:T12
+E4	Alcohol:T13 Status:T14 Amount:T15 Frequency:T16 Duration:T17
+E5	Drug:T18 Type:T20 Status:T19
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T14 past
+A6	StatusTimeVal T19 none

@@ -1,0 +1,17 @@
+T1	Tobacco 57 64	smoking
+T2	StatusTime 69 73	quit
+T3	History 82 103	twenty-five years ago
+T4	Alcohol 117 125	drinking
+T5	StatusTime 117 125	drinking
+T6	Amount 126 148	approximately one beer
+T7	Frequency 149 154	a day
+T8	Drug 194 212	recreational drugs
+T9	Type 194 206	recreational
+T10	StatusTime 171 177	denies
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Alcohol:T4 Status:T5 Amount:T6 Frequency:T7 Type:T11
+E3	Drug:T8 Type:T9 Status:T10
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T10 past
+T11	Type 144 148	beer

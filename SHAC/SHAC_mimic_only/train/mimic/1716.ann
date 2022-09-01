@@ -1,0 +1,16 @@
+T1	LivingStatus 35 40	lives
+T2	StatusTime 35 40	lives
+T3	TypeLiving 41 46	alone
+T4	Employment 69 71;72 81	on disablity
+T5	StatusEmploy 69 71;72 81	on disablity
+T6	Duration 82 106	for the past seven years
+T7	Type 54 67	a hairdresser
+T8	Tobacco 114 128	a heavy smoker
+T9	StatusTime 111 113	is
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T7 Duration:T6
+E3	Tobacco:T8 Status:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 on_disability
+A4	StatusTimeVal T9 current

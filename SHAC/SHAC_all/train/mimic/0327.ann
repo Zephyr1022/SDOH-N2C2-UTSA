@@ -1,0 +1,24 @@
+T1	Amount 129 135	1.5PPD
+T2	Duration 136 147	x ~60 years
+T3	Tobacco 113 120	smoking
+T4	StatusTime 104 111	current
+T5	Employment 90 97	retired
+T6	StatusEmploy 90 97	retired
+T7	LivingStatus 16 21	Lives
+T8	StatusTime 16 21	Lives
+T9	TypeLiving 30 51	with daughter and son
+T10	StatusTime 149 151	no
+T11	StatusTime 158 160	no
+T12	Drug 161 166	drugs
+T13	Alcohol 152 156	etoh
+E1	Tobacco:T3 Status:T4 Amount:T1 Duration:T2
+E2	Employment:T5 Status:T6
+E3	LivingStatus:T7 Status:T8 Type:T9
+E4	Drug:T12 Status:T11
+E5	Alcohol:T13 Status:T10
+A1	StatusTimeVal T4 current
+A2	StatusEmployVal T6 retired
+A3	StatusTimeVal T8 current
+A4	TypeLivingVal T9 with_family
+A5	StatusTimeVal T10 none
+A6	StatusTimeVal T11 none

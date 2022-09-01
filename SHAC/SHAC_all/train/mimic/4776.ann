@@ -1,0 +1,35 @@
+T1	Employment 161 171	Employment
+T2	StatusEmploy 173 183	Disability
+T5	Type 216 233	in glass industry
+T6	LivingStatus 246 251	Lives
+T7	StatusTime 246 251	Lives
+T8	TypeLiving 252 261	with wife
+T9	Tobacco 18 25	Tobacco
+T10	Amount 27 43	Less than 1 pack
+T11	Frequency 43 48	/week
+T12	Duration 49 59	x 14 years
+T13	StatusTime 18 25	Tobacco
+T14	Alcohol 62 69	Alcohol
+T15	Amount 76 93	[**1-16**] drinks
+T16	StatusTime 71 75	Past
+T17	Frequency 93 97	/day
+T19	Drug 115 133	Recreational drugs
+T20	Type 140 149	marijuana
+T21	StatusTime 135 139	Past
+T22	Drug 154 158	IVDU
+T23	StatusTime 151 153	no
+T18	Method 154 158	IVDU
+E1	Employment:T1 Status:T2 Type:T5
+E3	LivingStatus:T6 Status:T7 Type:T8
+E4	Tobacco:T9 Status:T13 Amount:T10 Frequency:T11 Duration:T12
+E5	Alcohol:T14 Status:T16 Amount:T15 Frequency:T17
+E7	Drug:T19 Type:T20 Status:T21 Type2:T24
+E8	Drug:T22 Status:T23 Method:T18
+A1	StatusEmployVal T2 on_disability
+A3	StatusTimeVal T7 current
+A4	TypeLivingVal T8 with_family
+A5	StatusTimeVal T13 current
+A6	StatusTimeVal T16 past
+A8	StatusTimeVal T21 past
+A9	StatusTimeVal T23 none
+T24	Type 115 127	Recreational

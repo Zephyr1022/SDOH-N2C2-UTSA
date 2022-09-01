@@ -1,0 +1,16 @@
+T1	Tobacco 19 31	prior smoker
+T2	StatusTime 19 31	prior smoker
+T3	History 32 39	in 30's
+T4	Alcohol 48 52	ETOH
+T5	StatusTime 41 47	denies
+T6	Drug 53 57	IVDU
+T7	Employment 86 91	works
+T8	StatusEmploy 86 91	works
+T9	Type 92 133	at [**Company **] School of Public Health
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Status:T5
+E4	Employment:T7 Status:T8 Type:T9
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 none
+A3	StatusEmployVal T8 employed

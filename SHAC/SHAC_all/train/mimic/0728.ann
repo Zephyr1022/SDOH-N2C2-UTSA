@@ -1,0 +1,13 @@
+T1	Employment 29 44	currently works
+T2	StatusEmploy 29 44	currently works
+T3	Type 48 53;54 64	a car dealership
+T4	Tobacco 145 156	tobacco use
+T5	StatusTime 125 131	denies
+T6	Alcohol 174 196	occasional alcohol use
+T7	StatusTime 161 168	reports
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 current

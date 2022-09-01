@@ -1,0 +1,10 @@
+T1	Employment 8 23	part-time actor
+T2	StatusEmploy 8 23	part-time actor
+T3	Type 8 23	part-time actor
+T4	Employment 26 33	Manages
+T5	StatusEmploy 26 33	Manages
+T6	Type 45 62	[PROFESSION] Gyms
+E1	Employment:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+A1	StatusEmployVal T2 employed
+A2	StatusEmployVal T5 employed

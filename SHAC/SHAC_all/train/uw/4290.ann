@@ -1,0 +1,16 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 35	Former smoked
+T3	Amount 44 55	1/2-3/4 ppd
+T4	Duration 56 68	for 14 years
+T5	Alcohol 71 82	Alcohol Use
+T6	Amount 84 99	about one drink
+T7	Frequency 100 108	per week
+T8	Drug 111 119	Drug Use
+T9	StatusTime 121 127	denies
+T10	StatusTime 84 108	about one drink per week
+E1	Tobacco:T1 Status:T2 Amount:T3 Duration:T4
+E2	Alcohol:T5 Amount:T6 Frequency:T7 Status:T10
+E3	Drug:T8 Status:T9
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T9 none
+A3	StatusTimeVal T10 current

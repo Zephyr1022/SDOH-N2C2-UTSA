@@ -1,0 +1,21 @@
+T1	LivingStatus 17 25	Homeless
+T2	TypeLiving 17 25	Homeless
+T3	StatusTime 17 25	Homeless
+T4	LivingStatus 30 37	staying
+T5	StatusTime 26 29	Was
+T6	TypeLiving 38 49	with sister
+T7	Employment 123 133	Unemployed
+T8	StatusEmploy 123 133	Unemployed
+T9	Drug 135 141	heroin
+T10	Type 135 141	heroin
+T11	StatusTime 134 135	+
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Employment:T7 Status:T8
+E4	Drug:T9 Status:T11 Type:T10
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 past
+A4	TypeLivingVal T6 with_family
+A5	StatusEmployVal T8 unemployed
+A6	StatusTimeVal T11 current

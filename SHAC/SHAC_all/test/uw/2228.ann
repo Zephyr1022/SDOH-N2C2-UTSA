@@ -1,0 +1,10 @@
+T1	LivingStatus 33 38	lives
+T2	StatusTime 33 38	lives
+T3	TypeLiving 39 62	with parents and sister
+T4	Employment 17 31	Goes to school
+T5	StatusEmploy 17 31	Goes to school
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 student

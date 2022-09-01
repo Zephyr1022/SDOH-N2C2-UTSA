@@ -1,0 +1,21 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 33	remote~15pk
+T3	Amount 28 38	~15pk-year
+T4	Alcohol 49 60	Alcohol Use
+T5	StatusTime 62 66	rare
+T7	Drug 69 77	Drug Use
+T8	Type 83 90	cocaine
+T9	StatusTime 104 125	denies any recurrence
+T10	History 95 102	in 2004
+T11	LivingStatus 144 160	Previously lived
+T12	TypeLiving 161 173	with roomate
+T13	StatusTime 144 154	Previously
+E1	Tobacco:T1 Status:T2 Amount:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T7 Type:T8 Status:T9 History:T10
+E4	LivingStatus:T11 Type:T12 Status:T13
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 current
+A4	StatusTimeVal T9 past
+A5	TypeLivingVal T12 with_others
+A6	StatusTimeVal T13 past

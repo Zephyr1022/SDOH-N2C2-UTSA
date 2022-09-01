@@ -1,0 +1,19 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 38	with girlfriend
+T4	Drug 40 60	occasional marijuana
+T5	StatusTime 40 60	occasional marijuana
+T6	Type 51 60	marijuana
+T7	Tobacco 69 76	tobacco
+T8	Alcohol 78 85	alcohol
+T9	Drug 89 103	other drug use
+T10	StatusTime 66 68	no
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Drug:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T10
+E4	Alcohol:T8 Status:T10
+E5	Drug:T9 Status:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T10 none

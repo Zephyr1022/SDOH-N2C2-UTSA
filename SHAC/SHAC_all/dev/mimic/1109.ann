@@ -1,0 +1,27 @@
+T1	LivingStatus 41 46	lives
+T2	TypeLiving 47 54	w/ wife
+T3	StatusTime 41 46	lives
+T4	Tobacco 172 190	Prior cigar smoker
+T5	StatusTime 172 190	Prior cigar smoker
+T6	Type 178 183	cigar
+T7	History 222 234	in '[**44**]
+T8	Alcohol 236 240;241 245	Rare ETOH
+T9	StatusTime 236 240;241 245	Rare ETOH
+T11	Drug 250 262	ilicit drugs
+T12	Type 250 256	ilicit
+T13	StatusTime 247 249	No
+T14	Employment 66 77;78 98	contruction contracting business
+T15	StatusEmploy 56 62	Active
+T16	Type 66 77;78 98	contruction contracting business
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Status:T5 Type:T6 History:T7 Duration:T10
+E3	Alcohol:T8 Status:T9
+E4	Drug:T11 Type:T12 Status:T13
+E5	Employment:T14 Type:T16 Status:T15
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T9 current
+A6	StatusTimeVal T13 none
+A7	StatusEmployVal T15 employed
+T10	Duration 192 206	for many years

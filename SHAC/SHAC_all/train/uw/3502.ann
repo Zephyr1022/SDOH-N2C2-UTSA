@@ -1,0 +1,25 @@
+T1	LivingStatus 17 26	Residence
+T2	StatusTime 29 36	Shelter
+T3	TypeLiving 29 36	Shelter
+T4	Employment 78 88	Employment
+T5	StatusEmploy 91 101	Unemployed
+T9	Alcohol 132 143	Alcohol use
+T10	StatusTime 145 158	beer, spirits
+T11	Type 145 158	beer, spirits
+T12	Drug 161 169	Drug use
+T13	StatusTime 171 177	Denies
+T14	LivingStatus 39 55	Living situation
+T15	StatusTime 58 63	Lives
+T16	TypeLiving 64 75	with others
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Status:T5
+E4	Alcohol:T9 Type:T11 Status:T10
+E5	Drug:T12 Status:T13
+E6	LivingStatus:T14 Status:T15 Type:T16
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusEmployVal T5 unemployed
+A5	StatusTimeVal T10 current
+A6	StatusTimeVal T13 none
+A7	StatusTimeVal T15 current
+A8	TypeLivingVal T16 with_others

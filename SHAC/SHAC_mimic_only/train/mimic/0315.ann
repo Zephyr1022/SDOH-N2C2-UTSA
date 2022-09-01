@@ -1,0 +1,13 @@
+T1	Tobacco 16 29	tobacco abuse
+T3	Alcohol 42 55	alcohol abuse
+T5	StatusTime 16 29	tobacco abuse
+T6	StatusTime 42 55	alcohol abuse
+T7	Employment 56 61	works
+T8	Type 65 75	landscaper
+T9	StatusEmploy 56 61	works
+E1	Tobacco:T1 Status:T5
+E2	Alcohol:T3 Status:T6
+E3	Employment:T7 Status:T9 Type:T8
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T6 current
+A5	StatusEmployVal T9 employed

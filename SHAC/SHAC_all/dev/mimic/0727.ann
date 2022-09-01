@@ -1,0 +1,35 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 50 61	with family
+T4	Employment 79 88;89 103	a retired police officer
+T5	StatusEmploy 79 88;89 103	a retired police officer
+T6	Type 79 88;89 103	a retired police officer
+T7	Tobacco 130 145	Tobacco smoking
+T8	Amount 147 158	half a pack
+T9	Frequency 159 166	per day
+T10	History 167 185	starting at age 15
+T11	StatusTime 147 158;159 166	half a pack per day
+T12	Alcohol 250 267	heavy alcohol use
+T14	StatusTime 243 249	Former
+T15	Duration 268 290;291 301	between [**2159**] and [**2192**]
+T16	Alcohol 317 323	drinks
+T17	StatusTime 303 312	Currently
+T18	Amount 324 333	one drink
+T19	Frequency 334 342	per week
+T20	Drug 354 358;359 364	drug usage
+T21	StatusTime 345 347	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T11 Amount:T8 Frequency:T9 History:T10 Amount2:T13 Frequency2:T22
+E4	Alcohol:T12 Status:T14 Duration:T15
+E5	Alcohol:T16 Amount:T18 Frequency:T19 Status:T17
+E6	Drug:T20 Status:T21
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T11 current
+A6	StatusTimeVal T14 past
+A7	StatusTimeVal T17 current
+A8	StatusTimeVal T21 none
+T13	Amount 195 210	up to two packs
+T22	Frequency 211 218	per day

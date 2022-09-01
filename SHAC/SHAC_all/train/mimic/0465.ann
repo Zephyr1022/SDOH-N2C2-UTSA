@@ -1,0 +1,24 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 35	with daughter
+T4	Employment 37 55	Retired file clerk
+T5	StatusEmploy 37 55	Retired file clerk
+T6	Type 37 55	Retired file clerk
+T7	Tobacco 73 80;81 87	Current smoker
+T9	Amount 88 93	1 ppd
+T10	StatusTime 73 80;81 87	Current smoker
+T11	Amount 95 107	60 pack year
+T12	Alcohol 121 128	alcohol
+T13	Drug 132 140	illicits
+T14	Type 132 140	illicits
+T15	StatusTime 118 120	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E4	Tobacco:T7 Status:T10 Amount:T11 Amount2:T9
+E5	Alcohol:T12 Status:T15
+E6	Drug:T13 Type:T14 Status:T15
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 retired
+A5	StatusTimeVal T10 current
+A6	StatusTimeVal T15 none

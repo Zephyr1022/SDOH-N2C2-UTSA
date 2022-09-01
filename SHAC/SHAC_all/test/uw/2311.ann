@@ -1,0 +1,19 @@
+T1	Tobacco 20 30	non-smoker
+T2	StatusTime 20 30	non-smoker
+T3	Alcohol 32 43	non-drinker
+T4	StatusTime 32 43	non-drinker
+T5	Drug 56 72	illicit drug use
+T6	Type 56 63	illicit
+T7	StatusTime 49 55	denies
+T8	LivingStatus 102 107	lives
+T9	TypeLiving 108 136	in [LOCATION] public housing
+T10	StatusTime 102 107	lives
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Type:T6 Status:T7
+E4	LivingStatus:T8 Type:T9 Status:T10
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T7 none
+A4	TypeLivingVal T9 with_others
+A5	StatusTimeVal T10 current

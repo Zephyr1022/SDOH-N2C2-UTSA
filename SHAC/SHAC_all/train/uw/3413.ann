@@ -1,0 +1,22 @@
+T1	Alcohol 17 30	ETOH___denies
+T2	StatusTime 17 30	ETOH___denies
+T3	Tobacco 98 111	Nicotine__X__
+T4	StatusTime 98 111	Nicotine__X__
+T5	Drug 112 128	IVDU__denies____
+T6	Method 112 128	IVDU__denies____
+T7	StatusTime 112 128	IVDU__denies____
+T8	Alcohol 209 213	ETOH
+T9	Tobacco 215 223	Nicotine
+T10	Drug 225 229	IVDU
+T11	Method 225 229	IVDU
+T12	StatusTime 202 208	Denies
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+E3	Drug:T5 Status:T7 Method:T6
+E4	Alcohol:T8 Status:T12
+E5	Tobacco:T9 Status:T12
+E6	Drug:T10 Status:T12 Method:T11
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T12 none

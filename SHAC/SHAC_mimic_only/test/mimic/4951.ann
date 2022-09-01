@@ -1,0 +1,18 @@
+T1	Employment 16 59	retired dry cleaning machine manufacturerer
+T2	StatusEmploy 16 59	retired dry cleaning machine manufacturerer
+T3	Type 16 59	retired dry cleaning machine manufacturerer
+T4	Alcohol 63 67	ETOH
+T5	Tobacco 71 78	tobacco
+T6	Drug 82 90	illicits
+T7	Type 82 90	illicits
+T8	StatusTime 60 62	no
+T9	StatusTime 68 70	no
+T10	StatusTime 79 81	no
+E1	Employment:T1 Type:T3 Status:T2
+E2	Alcohol:T4 Status:T8
+E3	Tobacco:T5 Status:T9
+E4	Drug:T6 Status:T10 Type:T7
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T8 none
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T10 none

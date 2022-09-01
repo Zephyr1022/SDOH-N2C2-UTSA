@@ -1,0 +1,12 @@
+T1	Method 58 66	muscling
+T2	Drug 67 73	heroin
+T3	Type 67 73	heroin
+T4	StatusTime 49 57	endorses
+T5	LivingStatus 35 43	homeless
+T6	TypeLiving 35 43	homeless
+T7	StatusTime 25 34	currently
+E1	Drug:T2 Status:T4 Type:T3 Method:T1
+E2	LivingStatus:T5 Type:T6 Status:T7
+A1	StatusTimeVal T4 current
+A2	TypeLivingVal T6 homeless
+A3	StatusTimeVal T7 current

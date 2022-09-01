@@ -1,0 +1,10 @@
+T1	Tobacco 22 25	tob
+T2	Amount 16 21	1 PPD
+T3	Duration 26 36	x 40 years
+T4	StatusTime 16 36	1 PPD tob x 40 years
+T5	Alcohol 38 53	occasional EtOH
+T7	StatusTime 38 53	occasional EtOH
+E1	Tobacco:T1 Duration:T3 Amount:T2 Status:T4
+E2	Alcohol:T5 Status:T7
+A1	StatusTimeVal T4 current
+A3	StatusTimeVal T7 current

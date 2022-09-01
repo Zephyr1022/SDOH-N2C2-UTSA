@@ -1,0 +1,28 @@
+T1	Alcohol 131 139	EtOH use
+E1	Alcohol:T1 Amount:T2 Type:T3 Frequency:T4 Status:T5 Duration:T17
+T2	Amount 157 174	approx 2+ bottles
+T3	Type 175 179	wine
+T4	Frequency 179 183	/day
+T5	StatusTime 131 139	EtOH use
+A1	StatusTimeVal T5 current
+T6	Drug 269 277	illicits
+E2	Drug:T6 Type:T7 Status:T8
+T7	Type 269 277	illicits
+T8	StatusTime 266 268	No
+A2	StatusTimeVal T8 none
+T9	Tobacco 101 112	tobacco use
+E3	Tobacco:T9 Status:T10
+T10	StatusTime 98 100	No
+A3	StatusTimeVal T10 none
+T11	LivingStatus 16 21	Lives
+E4	LivingStatus:T11 Status:T12 Type:T13
+T12	StatusTime 16 21	Lives
+A4	StatusTimeVal T12 current
+T13	TypeLiving 30 54	with his wife and 3 kids
+A5	TypeLivingVal T13 with_family
+T14	Employment 89 96	working
+E5	Employment:T14 Status:T15 Type:T16
+T15	StatusEmploy 75 78;79 96	not currently working
+A6	StatusEmployVal T15 unemployed
+T16	Type 59 73	an electrician
+T17	Duration 140 143;144 154	for many years

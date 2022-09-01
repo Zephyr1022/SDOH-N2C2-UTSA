@@ -1,0 +1,23 @@
+T3	LivingStatus 83 88	Lives
+T4	TypeLiving 130 142	with a niece
+T5	StatusTime 83 88	Lives
+T6	Alcohol 151 155	EtOH
+T7	StatusTime 144 150	Denies
+T8	Duration 156 164	x 1 year
+T9	Alcohol 197 205	EtOH use
+T11	StatusTime 209 213	past
+T12	Tobacco 217 228	Tobacco use
+T13	StatusTime 215 216	+
+T14	Employment 248 256	disabled
+T15	StatusEmploy 248 256	disabled
+E2	LivingStatus:T3 Type:T4 Status:T5
+E3	Alcohol:T6 Status:T7 Duration:T8
+E4	Alcohol:T9 Status:T11
+E5	Tobacco:T12 Status:T13
+E6	Employment:T14 Status:T15
+A1	TypeLivingVal T4 with_family
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T7 none
+A5	StatusTimeVal T11 past
+A6	StatusTimeVal T13 current
+A7	StatusEmployVal T15 on_disability

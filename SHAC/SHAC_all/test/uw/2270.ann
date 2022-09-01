@@ -1,0 +1,9 @@
+T1	Alcohol 44 48	etoh
+T2	Drug 50 58	illicits
+T3	Type 50 58	illicits
+T4	Tobacco 60 67	tobacco
+T5	StatusTime 37 43	Denies
+E1	Alcohol:T1 Status:T5
+E2	Drug:T2 Type:T3 Status:T5
+E3	Tobacco:T4 Status:T5
+A1	StatusTimeVal T5 none

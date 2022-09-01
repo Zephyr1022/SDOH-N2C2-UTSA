@@ -1,0 +1,25 @@
+T1	Alcohol 16 20	etoh
+T2	Tobacco 22 29	tobacco
+T3	Drug 33 41	drug use
+T4	StatusTime 9 15	Denies
+T5	Employment 61 67	Worked
+T6	Type 72 82	[LOCATION]
+T7	StatusEmploy 83 94	in the past
+T8	LivingStatus 95 104	Residence
+T9	StatusTime 171 181	discharged
+T10	TypeLiving 192 220	Blue Haven Adult Family Home
+E1	Alcohol:T1 Status:T4
+E2	Tobacco:T2 Status:T4
+E3	Drug:T3 Status:T4
+E4	Employment:T5 Type:T6 Status:T7
+E5	LivingStatus:T8 Status:T16 Type:T17
+A1	StatusTimeVal T4 none
+A2	StatusEmployVal T7 unemployed
+A3	StatusTimeVal T9 current
+A4	TypeLivingVal T10 with_others
+T16	StatusTime 106 111	Lived
+A5	StatusTimeVal T16 past
+T17	TypeLiving 115 146	an independent senior apartment
+A6	TypeLivingVal T17 with_others
+T18	LivingStatus 171 181	discharged
+E6	LivingStatus:T18 Status:T9 Type:T10

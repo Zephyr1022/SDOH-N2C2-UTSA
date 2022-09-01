@@ -1,0 +1,26 @@
+T1	Tobacco 26 33	tobacco
+T2	Alcohol 44 51	alcohol
+T3	Drug 62 75	illicit drugs
+T4	StatusTime 17 25	Positive
+T5	StatusTime 35 43	positive
+T6	StatusTime 53 61	positive
+T7	Type 77 95	cocaine, marijuana
+T8	Drug 100 120	intravenous drug use
+T9	Method 100 111	intravenous
+T10	Employment 197 216	collects disability
+T11	StatusEmploy 197 216	collects disability
+T12	Employment 230 234	work
+T13	StatusEmploy 222 229	used to
+T14	Type 238 245	masonry
+T15	History 246 262	up to [**2183**]
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T5
+E3	Drug:T3 Type:T7 Status:T6
+E4	Drug:T8 Method:T9 Status:T6
+E5	Employment:T10 Status:T11
+E6	Employment:T12 Status:T13 Type:T14 History:T15
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T6 current
+A4	StatusEmployVal T11 on_disability
+A5	StatusEmployVal T13 unemployed

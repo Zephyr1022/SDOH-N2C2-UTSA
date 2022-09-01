@@ -1,0 +1,10 @@
+T1	LivingStatus 76 81	lives
+T2	StatusTime 76 81	lives
+T3	TypeLiving 82 93	with mother
+T4	Drug 102 115	substance use
+T5	StatusTime 95 101	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Drug:T4 Status:T5
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 none

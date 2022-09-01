@@ -1,0 +1,23 @@
+T2	StatusTime 191 204	Denies recent
+T1	Alcohol 205 209;210 213	EtOH use
+T3	Drug 226 234	drug use
+T4	Type 218 225	illicit
+T5	Tobacco 166 172	smokes
+T6	StatusTime 166 172	smokes
+T7	Amount 173 184	1-1.5 packs
+T8	Frequency 184 189	/week
+T9	StatusTime 16 21	Lives
+T10	LivingStatus 16 21	Lives
+T11	TypeLiving 44 59	with girlfriend
+T12	StatusEmploy 94 106	lost his job
+T13	Employment 103 106	job
+E1	Alcohol:T1 Status:T2
+E2	Drug:T3 Type:T4 Status:T2
+E3	Tobacco:T5 Status:T6 Amount:T7 Frequency:T8
+E4	LivingStatus:T10 Status:T9 Type:T11
+E5	Employment:T13 Status:T12
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T9 current
+A4	TypeLivingVal T11 with_others
+A5	StatusEmployVal T12 unemployed

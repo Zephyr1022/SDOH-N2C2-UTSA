@@ -1,0 +1,5 @@
+T1	Drug 7 20	polysub abuse
+T3	Type 7 14	polysub
+T4	StatusTime 4 6	hx
+E1	Drug:T1 Type:T3 Status:T4
+A2	StatusTimeVal T4 past

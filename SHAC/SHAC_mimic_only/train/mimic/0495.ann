@@ -1,0 +1,22 @@
+T1	Tobacco 18 25	Tobacco
+T2	Amount 34 46	10 pack year
+T3	StatusTime 55 59	quit
+T4	History 60 70	30 yrs ago
+T5	Alcohol 73 80	Alcohol
+T6	StatusTime 82 90	endorses
+T7	Amount 91 98	1 drink
+T8	Frequency 99 106	per day
+T9	Drug 146 154	Illicits
+T10	Type 146 154	Illicits
+T11	StatusTime 156 162	denies
+T12	Employment 163 168	Works
+T13	StatusEmploy 163 168	Works
+E1	Tobacco:T1 Amount:T2 Status:T3 History:T4
+E2	Alcohol:T5 Status:T6 Amount:T7 Frequency:T8
+E3	Drug:T9 Type:T10 Status:T11
+E4	Employment:T12 Status:T13 Type2:T15
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T11 none
+A4	StatusEmployVal T13 employed
+T15	Type 172 222	exec. director of Stoeckle Center for Primary Care

@@ -1,0 +1,27 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 28 33	alone
+T3	StatusTime 16 21	Lives
+T4	Employment 78 88	Occupation
+T5	Type 102 115	a temp agency
+T6	StatusEmploy 93 98	works
+T7	Employment 124 130	worked
+T8	Duration 155 183	for the past couple of years
+T9	StatusEmploy 124 130	worked
+T10	Type 131 154	at [**Hospital1 2025**]
+T11	Tobacco 184 191	Tobacco
+T12	StatusTime 207 211	quit
+T13	Amount 193 206	30 pack years
+T14	History 212 222	[**2122**]
+T15	Alcohol 223 227	ETOH
+T16	StatusTime 228 234	denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	Employment:T7 Status:T9 Duration:T8 Type:T10
+E4	Tobacco:T11 Status:T12 Amount:T13 History:T14
+E5	Alcohol:T15 Status:T16
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T6 employed
+A4	StatusEmployVal T9 unemployed
+A5	StatusTimeVal T12 past
+A6	StatusTimeVal T16 none

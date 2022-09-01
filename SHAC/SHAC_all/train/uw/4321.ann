@@ -1,0 +1,24 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 23	_
+T3	Alcohol 26 37	Alcohol Use
+T4	StatusTime 39 40	x
+T5	Drug 43 51	Drug Use
+T6	StatusTime 53 54	_
+T7	Alcohol 55 63	Drinking
+T8	Amount 64 76	one six-pack
+T9	Frequency 77 84	per day
+T10	StatusTime 55 63	Drinking
+T11	LivingStatus 154 172	currently homeless
+T12	StatusTime 154 163	currently
+T13	TypeLiving 164 172	homeless
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	Alcohol:T7 Amount:T8 Frequency:T9 Status:T10
+E5	LivingStatus:T11 Status:T12 Type:T13
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T12 current
+A6	TypeLivingVal T13 homeless

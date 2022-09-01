@@ -1,0 +1,19 @@
+T1	LivingStatus 17 29	DESC shelter
+T2	TypeLiving 17 29	DESC shelter
+T3	StatusTime 17 29	DESC shelter
+T4	Tobacco 32 35	tob
+T5	StatusTime 30 35	+ tob
+T6	Drug 39 47	illicits
+T7	StatusTime 36 38	no
+T8	Type 39 47	illicits
+T9	Alcohol 59 70	alcohol use
+T10	StatusTime 55 58	h/o
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Status:T5
+E3	Drug:T6 Type:T8 Status:T7
+E4	Alcohol:T9 Status:T10
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T10 current

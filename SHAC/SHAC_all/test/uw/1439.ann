@@ -1,0 +1,21 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 59 63	quit
+T3	Amount 37 49	20 pack-year
+T4	History 64 75	6 years ago
+T5	Alcohol 78 89	Alcohol Use
+T7	StatusTime 91 95	rare
+T8	Drug 97 105	Drug Use
+T9	StatusTime 107 124	occasionally uses
+T11	Type 125 142	medical marijuana
+T12	LivingStatus 162 167	Lives
+T13	StatusTime 162 167	Lives
+T14	TypeLiving 182 197	with his spouse
+E1	Tobacco:T1 Amount:T3 Status:T2 History:T4
+E2	Alcohol:T5 Status:T7
+E3	Drug:T8 Status:T9 Type:T11
+E4	LivingStatus:T12 Status:T13 Type:T14
+A1	StatusTimeVal T2 past
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T9 current
+A6	StatusTimeVal T13 current
+A7	TypeLivingVal T14 with_family

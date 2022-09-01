@@ -1,0 +1,28 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Method 22 29	chewing
+T3	Amount 39 44	2cans
+T4	Frequency 44 47	/wk
+T5	Duration 48 54	x30yrs
+T6	StatusTime 39 54	2cans/wk x30yrs
+T7	Alcohol 58 69	Alcohol Use
+T8	StatusTime 71 82	denies ever
+T9	Drug 83 91	Drug Use
+T10	StatusTime 93 104	denies ever
+T11	LivingStatus 213 218	Lived
+T12	TypeLiving 222 231	a shelter
+T13	StatusTime 213 218	Lived
+T14	LivingStatus 250 257	staying
+T15	TypeLiving 261 265	YMCA
+T16	StatusTime 250 257	staying
+E1	Tobacco:T1 Method:T2 Amount:T3 Frequency:T4 Duration:T5 Status:T6
+E2	Alcohol:T7 Status:T8
+E3	Drug:T9 Status:T10
+E4	LivingStatus:T11 Type:T12 Status:T13
+E5	LivingStatus:T14 Type:T15 Status:T16
+A1	StatusTimeVal T6 current
+A2	StatusTimeVal T8 none
+A3	StatusTimeVal T10 none
+A4	TypeLivingVal T12 homeless
+A5	StatusTimeVal T13 past
+A6	TypeLivingVal T15 homeless
+A7	StatusTimeVal T16 current

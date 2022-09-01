@@ -1,0 +1,9 @@
+T1	Alcohol 19 23	etOH
+T2	StatusTime 16 18	No
+T3	Tobacco 28 34	smoked
+T4	StatusTime 28 34	smoked
+T5	Duration 35 52	for "a long time"
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T3 Status:T4 Duration:T5
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 past

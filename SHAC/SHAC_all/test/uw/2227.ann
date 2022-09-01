@@ -1,0 +1,13 @@
+T1	Tobacco 18 25	Tobacco
+T2	StatusTime 27 33	denies
+T3	Drug 36 44	Illicits
+T4	StatusTime 46 52	denies
+T5	Type 36 44	Illicits
+T6	Employment 73 94	student at [LOCATION]
+T7	StatusEmploy 73 94	student at [LOCATION]
+E1	Tobacco:T1 Status:T2
+E2	Drug:T3 Type:T5 Status:T4
+E3	Employment:T6 Status:T7
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusEmployVal T7 student

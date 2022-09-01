@@ -1,0 +1,23 @@
+T1	Tobacco 17 24	Smoking
+T2	StatusTime 26 41	40 pack year hx
+T3	Amount 26 38	40 pack year
+T4	Alcohol 42 49	Alcohol
+T5	Amount 60 68	1 gallon
+T6	Frequency 77 82	a day
+T7	History 89 101	since [DATE]
+T8	StatusTime 84 101	none since [DATE]
+T9	Drug 102 115	Illicit Drugs
+T10	Type 102 109	Illicit
+T11	StatusTime 117 123	Denies
+T12	LivingStatus 124 131	Housing
+T13	TypeLiving 172 183	with family
+T14	StatusTime 133 171	Recently moved from [LOCATION] to live
+E1	Tobacco:T1 Status:T2 Amount:T3
+E2	Alcohol:T4 Amount:T5 Frequency:T6 Status:T8 History:T7
+E3	Drug:T9 Type:T10 Status:T11
+E4	LivingStatus:T12 Status:T14 Type:T13
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T8 past
+A3	StatusTimeVal T11 none
+A4	TypeLivingVal T13 with_family
+A5	StatusTimeVal T14 current

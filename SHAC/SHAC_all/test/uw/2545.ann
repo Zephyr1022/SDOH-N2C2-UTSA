@@ -1,0 +1,13 @@
+T1	Alcohol 15 22	alcohol
+T2	Drug 33 38	drugs
+T3	Tobacco 24 31	smoking
+T4	StatusTime 8 14	denies
+T5	Employment 43 60	retired paramedic
+T6	StatusEmploy 43 60	retired paramedic
+T7	Type 43 60	retired paramedic
+E1	Alcohol:T1 Status:T4
+E2	Drug:T2 Status:T4
+E3	Tobacco:T3 Status:T4
+E4	Employment:T5 Status:T6 Type:T7
+A1	StatusTimeVal T4 none
+A2	StatusEmployVal T6 retired

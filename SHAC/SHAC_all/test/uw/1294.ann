@@ -1,0 +1,13 @@
+T1	Tobacco 9 24	smoking history
+T2	StatusTime 6 8	No
+T3	Alcohol 29 33	EtOH
+T4	StatusTime 26 28	no
+T5	Employment 36 42	Worked
+T6	StatusEmploy 36 42	Worked
+T7	Type 64 80	an administrator
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Employment:T5 Status:T6 Type:T7
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusEmployVal T6 unemployed

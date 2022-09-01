@@ -1,0 +1,22 @@
+T4	Tobacco 345 359	Smoking status
+T5	StatusTime 361 373	Never Smoker
+T6	Tobacco 376 393	Smokeless tobacco
+T7	Method 376 385	Smokeless
+T8	StatusTime 395 405	Never Used
+T9	Alcohol 410 421	Alcohol Use
+T10	Amount 423 435	0.6 - 1.2 oz
+T11	Frequency 435 440	/week
+T12	Amount 442 451	1-2 Shots
+T13	Alcohol 455 461	liquor
+T14	Type 455 461	liquor
+T15	Frequency 462 470	per week
+T16	StatusTime 442 470	1-2 Shots of liquor per week
+T17	StatusTime 423 440	0.6 - 1.2 oz/week
+E2	Tobacco:T4 Status:T5
+E3	Tobacco:T6 Method:T7 Status:T8
+E4	Alcohol:T9 Amount:T10 Frequency:T11 Status:T17
+E5	Alcohol:T13 Amount:T12 Type:T14 Frequency:T15 Status:T16
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T16 current
+A5	StatusTimeVal T17 current

@@ -1,0 +1,30 @@
+T1	Alcohol 16 30	Heavy EtOH use
+T3	Alcohol 129 137	drinking
+T4	Amount 138 141	1 L
+T5	Type 145 149;150 157	hard alcohol
+T6	Duration 170 187	for the past year
+T7	StatusTime 125 128	was
+T8	Frequency 158 169	over 3 days
+T9	Tobacco 249 260	tobacco use
+T10	Drug 270 283	substance use
+T11	StatusTime 227 233	denies
+T12	StatusTime 34 44	last drink
+T13	History 45 58	[**5-/2169**]
+T14	Type 334 351;352 360	a human resources director
+T15	Employment 292 313	not currently working
+T16	StatusEmploy 292 313	not currently working
+T17	LivingStatus 366 371	lives
+T18	StatusTime 366 371	lives
+T19	TypeLiving 380 418	with her husband and [**Name2 (NI) **]
+E1	Alcohol:T1 Status:T12 History:T13
+E2	Alcohol:T3 Status:T7 Amount:T4 Type:T5 Frequency:T8 Duration:T6
+E3	Tobacco:T9 Status:T11
+E4	Drug:T10 Status:T11
+E5	Employment:T15 Status:T16 Type:T14
+E6	LivingStatus:T17 Status:T18 Type:T19
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T11 none
+A4	StatusTimeVal T12 past
+A5	StatusEmployVal T16 unemployed
+A6	StatusTimeVal T18 current
+A7	TypeLivingVal T19 with_family

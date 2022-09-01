@@ -1,0 +1,37 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 23 34	with sister
+T3	StatusTime 17 22	Lives
+T4	LivingStatus 93 109	currently living
+T5	StatusTime 93 102	currently
+T6	TypeLiving 110 126	on streets/hotel
+T7	Tobacco 163 169	Smokes
+T8	Amount 170 177	1/4 ppd
+T9	StatusTime 163 169	Smokes
+T10	Amount 190 195	2 ppd
+T11	StatusTime 179 189	previously
+T12	Duration 196 213	since 8 years old
+T13	Alcohol 222 229	alcohol
+T14	StatusTime 231 236	sober
+T15	Duration 237 245	30 years
+T16	Drug 259 261	MJ
+T17	Type 259 261	MJ
+T19	StatusTime 248 258	Occasional
+T20	Drug 282 286	coke
+T21	Type 282 286	coke
+T22	StatusTime 263 281	distant history of
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Amount:T8 Status:T9
+E4	Tobacco:T7 Status:T11 Amount:T10 Duration:T12
+E5	Alcohol:T13 Status:T14 Duration:T15
+E6	Drug:T16 Type:T17 Status:T19
+E7	Drug:T20 Type:T21 Status:T22
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 homeless
+A5	StatusTimeVal T9 current
+A6	StatusTimeVal T11 past
+A7	StatusTimeVal T14 past
+A9	StatusTimeVal T19 current
+A10	StatusTimeVal T22 past

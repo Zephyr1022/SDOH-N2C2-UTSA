@@ -1,0 +1,4 @@
+T1	Employment 24 34	unemployed
+T2	StatusEmploy 24 34	unemployed
+E1	Employment:T1 Status:T2
+A1	StatusEmployVal T2 unemployed

@@ -1,0 +1,21 @@
+T1	Tobacco 10 16	smoker
+T2	StatusTime 9 16	-smoker
+T3	Amount 18 26	~1/2 ppd
+T4	Alcohol 31 35	EtOH
+T5	StatusTime 27 30	-no
+T6	Drug 37 49	IVDU, heroin
+T7	StatusTime 37 49	IVDU, heroin
+T8	Type 43 49	heroin
+T9	LivingStatus 68 73	Lives
+T10	StatusTime 68 73	Lives
+T11	TypeLiving 74 85	with mother
+E1	Tobacco:T1 Status:T2 Amount:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Status:T7 Type:T8 Method:T12
+E4	LivingStatus:T9 Status:T10 Type:T11
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T10 current
+A5	TypeLivingVal T11 with_family
+T12	Method 37 41	IVDU

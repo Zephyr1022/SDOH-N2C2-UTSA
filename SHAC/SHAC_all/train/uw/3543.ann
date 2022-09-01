@@ -1,0 +1,21 @@
+T1	Tobacco 44 50	smoker
+T2	StatusTime 36 43	Current
+T3	Amount 52 65	up to 1/2 ppd
+T4	Alcohol 66 70	Etoh
+T6	Type 83 87	beer
+T7	StatusTime 72 82	occasional
+T8	StatusTime 95 105	occasional
+T9	Drug 88 93	Drugs
+T10	Type 106 115	marijuana
+T11	Drug 123 127	IVDU
+T12	Method 123 127	IVDU
+T13	StatusTime 117 122	prior
+T14	History 128 142	many years ago
+E1	Tobacco:T1 Status:T2 Amount:T3
+E2	Alcohol:T4 Status:T7 Type:T6
+E3	Drug:T9 Status:T8 Type:T10
+E4	Drug:T11 Method:T12 Status:T13 History:T14
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T13 past

@@ -1,0 +1,18 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 34	Prior smoker
+T3	Alcohol 38 49	Alcohol Use
+T4	StatusTime 51 55	None
+T5	Drug 56 64	Drug Use
+T6	StatusTime 66 70	None
+T7	LivingStatus 89 98	Residence
+T8	StatusTime 100 127	Messenger House Care Center
+T9	TypeLiving 100 127	Messenger House Care Center
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Status:T8 Type:T9
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 with_others

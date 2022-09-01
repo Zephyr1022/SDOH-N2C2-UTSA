@@ -1,0 +1,24 @@
+T1	LivingStatus 28 36	homeless
+T2	TypeLiving 28 36	homeless
+T3	Alcohol 55 59	EtOH
+T4	History 76 84	>4 years
+T5	StatusTime 61 84	denies use for >4 years
+T6	Drug 119 127	Illicits
+T7	Type 146 152	heroin
+T8	Method 143 145	IV
+T9	StatusTime 137 142	prior
+T10	History 174 191	Last one year ago
+T11	Tobacco 296 303	Tobacco
+T12	Amount 311 318	1/2 ppd
+T13	Duration 319 329	x 15 years
+T14	StatusTime 311 318	1/2 ppd
+T15	StatusTime 28 36	homeless
+E1	LivingStatus:T1 Type:T2 Status:T15
+E2	Alcohol:T3 Status:T5 History:T4
+E3	Drug:T6 Method:T8 Type:T7 Status:T9 History:T10
+E4	Tobacco:T11 Amount:T12 Duration:T13 Status:T14
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T9 past
+A4	StatusTimeVal T14 current
+A5	StatusTimeVal T15 current

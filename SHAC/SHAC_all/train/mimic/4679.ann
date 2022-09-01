@@ -1,0 +1,20 @@
+T1	Alcohol 17 24	Ethanol
+T2	History 38 50	24 hours ago
+T3	StatusTime 26 50	last intake 24 hours ago
+T4	Tobacco 53 60	Tobacco
+T5	StatusTime 53 60	Tobacco
+T6	LivingStatus 68 76	homeless
+T7	TypeLiving 68 76	homeless
+T8	StatusTime 65 67	is
+T9	Drug 89 102	illicit drugs
+T10	Type 89 96	illicit
+T11	StatusTime 82 88	denies
+E1	Alcohol:T1 Status:T3 History:T2
+E2	Tobacco:T4 Status:T5
+E3	LivingStatus:T6 Type:T7 Status:T8
+E4	Drug:T9 Type:T10 Status:T11
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T7 homeless
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T11 none

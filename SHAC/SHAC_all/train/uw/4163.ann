@@ -1,0 +1,26 @@
+T1	Drug 100 111	IV drug use
+T3	Method 120 128	injected
+T4	Type 129 135	heroin
+T2	StatusTime 147 151	uses
+T5	Amount 152 160	about 1G
+T6	Frequency 161 166	daily
+T7	Tobacco 182 193	tobacco use
+T8	Amount 202 224	a 30-pack-year history
+T9	StatusTime 202 224	a 30-pack-year history
+T10	Alcohol 267 278	alcohol use
+T11	Drug 241 263	other illicit drug use
+T12	Type 241 254	other illicit
+T13	StatusTime 230 236	denied
+T15	StatusTime 41 59	currently residing
+T16	LivingStatus 28 36	homeless
+T14	TypeLiving 28 36	homeless
+E1	Drug:T1 Method:T3 Type:T4 Status:T2 Amount:T5 Frequency:T6
+E2	Tobacco:T7 Amount:T8 Status:T9
+E3	Alcohol:T10 Status:T13
+E4	Drug:T11 Type:T12 Status:T13
+E6	LivingStatus:T16 Status:T15 Type:T14
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T9 current
+A3	StatusTimeVal T13 none
+A4	StatusTimeVal T15 current
+A5	TypeLivingVal T14 homeless

@@ -1,0 +1,24 @@
+T1	Drug 27 38	IV drug use
+T2	Method 27 29	IV
+T3	StatusTime 40 55	none for months
+T4	History 45 55	for months
+T5	Drug 63 78	methamphetamine
+T6	Type 63 78	methamphetamine
+T7	StatusTime 58 62	Uses
+T8	LivingStatus 80 88	homeless
+T9	TypeLiving 80 88	homeless
+T10	StatusTime 80 88	homeless
+T11	Alcohol 91 97	Drinks
+T12	Amount 98 105	3 beers
+T13	Type 100 105	beers
+T14	Frequency 106 113	per day
+T15	StatusTime 91 97	Drinks
+E1	Drug:T1 Method:T2 Status:T3 History:T4
+E2	Drug:T5 Type:T6 Status:T7
+E3	LivingStatus:T8 Type:T9 Status:T10
+E4	Alcohol:T11 Amount:T12 Type:T13 Status:T15 Frequency:T14
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T7 current
+A3	TypeLivingVal T9 homeless
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T15 current

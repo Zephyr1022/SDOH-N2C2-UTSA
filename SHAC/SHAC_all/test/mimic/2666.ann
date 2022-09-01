@@ -1,0 +1,26 @@
+T3	Employment 89 98;99 109	Currently unemployed
+T4	StatusEmploy 89 98;99 109	Currently unemployed
+T5	Type 115 129	former painter
+T6	Tobacco 139 144	smoke
+T7	StatusTime 131 138	Used to
+T8	Amount 145 150	1 ppd
+T9	Duration 151 160	x35 years
+T10	History 171 183	8 months ago
+T11	Alcohol 185 200	Occasional etoh
+T12	StatusTime 185 200	Occasional etoh
+T14	Drug 209 214	drugs
+T15	StatusTime 202 208	Denies
+T16	LivingStatus 216 221	Lives
+T17	StatusTime 216 221	Lives
+T18	TypeLiving 241 257	with his brother
+E2	Employment:T3 Status:T4 Type:T5
+E3	Tobacco:T6 Status:T7 Amount:T8 Duration:T9 History:T10
+E4	Alcohol:T11 Status:T12
+E5	Drug:T14 Status:T15
+E6	LivingStatus:T16 Status:T17 Type:T18
+A1	StatusEmployVal T4 unemployed
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T12 current
+A5	StatusTimeVal T15 none
+A6	StatusTimeVal T17 current
+A7	TypeLivingVal T18 with_family

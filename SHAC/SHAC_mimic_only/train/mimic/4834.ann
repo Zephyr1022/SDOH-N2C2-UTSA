@@ -1,0 +1,32 @@
+T1	LivingStatus 35 40	lived
+T2	TypeLiving 41 69	in basement of friend's home
+T3	History 19 34	until last week
+T4	StatusTime 35 40	lived
+T5	Tobacco 133 140	tobacco
+T6	StatusTime 130 132	No
+T7	Alcohol 142 151	rare ETOH
+T9	StatusTime 142 151	rare ETOH
+T10	Drug 153 160	Cocaine
+T11	Type 153 160	Cocaine
+T12	Method 162 167	nasal
+T13	StatusTime 153 160	Cocaine
+T14	Drug 183 211	Intermittent methamphetamine
+T16	StatusTime 213 222;223 226	last 1 yr ago
+T17	Drug 229 247	marijuana recently
+T18	StatusTime 229 247	marijuana recently
+T19	Type 229 238	marijuana
+T20	Type 196 211	methamphetamine
+E1	LivingStatus:T1 Status:T4 History:T3 Type:T2
+E2	Tobacco:T5 Status:T6
+E3	Alcohol:T7 Status:T9
+E4	Drug:T10 Status:T13 Type:T11 Method:T12
+E5	Drug:T14 Status:T16 Type:T20 History:T8
+E6	Drug:T17 Status:T18 Type:T19
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T6 none
+A5	StatusTimeVal T9 current
+A6	StatusTimeVal T13 current
+A8	StatusTimeVal T16 past
+A9	StatusTimeVal T18 current
+T8	History 213 222;223 226	last 1 yr ago

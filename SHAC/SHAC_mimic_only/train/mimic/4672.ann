@@ -1,0 +1,19 @@
+T1	Tobacco 33 40	smoking
+T2	Amount 16 28	30 pack-year
+T4	StatusTime 42 55	still smoking
+T5	Alcohol 69 76;77 80	alcohol use
+T7	StatusTime 58 68	ocassional
+T8	Drug 82 91	marijuana
+T9	Type 82 91	marijuana
+T11	Frequency 92 102	3 x a week
+T12	StatusTime 92 102	3 x a week
+T13	Employment 105 128	Currently on disability
+T14	StatusEmploy 115 128	on disability
+E1	Tobacco:T1 Amount:T2 Status:T4
+E2	Alcohol:T5 Status:T7
+E3	Drug:T8 Type:T9 Frequency:T11 Status:T12
+E4	Employment:T13 Status:T14
+A1	StatusTimeVal T4 current
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T12 current
+A5	StatusEmployVal T14 on_disability

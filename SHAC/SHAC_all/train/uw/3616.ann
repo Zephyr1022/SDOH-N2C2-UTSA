@@ -1,0 +1,32 @@
+T1	LivingStatus 17 26	Residence
+T2	TypeLiving 29 39	Group home
+T3	StatusTime 29 39	Group home
+T4	Employment 45 49	work
+T5	StatusEmploy 42 57	On work release
+T6	LivingStatus 61 77	Living situation
+T7	StatusTime 80 85	Lives
+T8	TypeLiving 86 97	with others
+T9	StatusEmploy 113 121	Employed
+T10	Employment 100 110	Employment
+T11	Tobacco 124 135	Tobacco use
+T12	StatusTime 138 144	Denies
+T13	Alcohol 147 158	Alcohol use
+T14	StatusTime 160 166	denies
+T15	Drug 169 177	Drug use
+T16	StatusTime 179 185	Denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	LivingStatus:T6 Type:T8 Status:T7
+E4	Employment:T10 Status:T9
+E5	Tobacco:T11 Status:T12
+E6	Alcohol:T13 Status:T14
+E7	Drug:T15 Status:T16
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T7 current
+A5	TypeLivingVal T8 with_others
+A6	StatusEmployVal T9 employed
+A7	StatusTimeVal T12 none
+A8	StatusTimeVal T14 none
+A9	StatusTimeVal T16 none

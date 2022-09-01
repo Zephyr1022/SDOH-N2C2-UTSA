@@ -1,0 +1,24 @@
+T1	Alcohol 29 37	drinking
+T2	StatusTime 16 28	Acknowledges
+T3	Amount 38 42	1.5L
+T4	Frequency 42 46	/day
+T5	Duration 47 76	since [**Month (only) 1096**]
+T6	Tobacco 85 92	smoking
+T7	StatusTime 78 84	Denies
+T8	Drug 102 107	drugs
+T9	LivingStatus 109 114	Lives
+T10	StatusTime 109 114	Lives
+T11	TypeLiving 115 128	with roommate
+T12	Employment 130 135	Works
+T14	Type 140 168	[**Location (un) 86**] Coach
+T13	StatusEmploy 130 135	Works
+E1	Alcohol:T1 Status:T2 Amount:T3 Frequency:T4 Duration:T5
+E2	Tobacco:T6 Status:T7
+E3	Drug:T8 Status:T7
+E4	LivingStatus:T9 Status:T10 Type:T11
+E5	Employment:T12 Status:T13 Type:T14
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T10 current
+A4	TypeLivingVal T11 with_others
+A5	StatusEmployVal T13 employed

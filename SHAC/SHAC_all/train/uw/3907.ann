@@ -1,0 +1,17 @@
+T1	LivingStatus 23 28	lives
+T2	StatusTime 23 28	lives
+T3	TypeLiving 29 42	in group home
+T4	Tobacco 166 176	cigarettes
+T5	StatusTime 162 165	h/o
+T6	Alcohol 178 183	EtOHA
+T7	Drug 185 189	IVDU
+T8	Type 195 222	cocaine and methamphetamine
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T5
+E4	Drug:T7 Status:T5 Type:T8 Method:T9 Type2:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 past
+T9	Method 185 189	IVDU
+T10	Type 264 270	heroin

@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: denies   Alcohol Use: denies, sparingly in the past  Drug Use: denies 
+
+SOCIAL HISTORY: 
+Spanish speaking. Originally from [LOCATION]. Lives in an apartment in [LOCATION]. Moved to [LOCATION] from [LOCATION] in 2009 Does odd jobs for hire outside of [LOCATION].

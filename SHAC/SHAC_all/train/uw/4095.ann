@@ -1,0 +1,26 @@
+T1	LivingStatus 17 25	Homeless
+T2	TypeLiving 17 25	Homeless
+T3	StatusTime 17 25	Homeless
+T4	Tobacco 65 76	tobacco use
+T6	StatusTime 60 76	Rare tobacco use
+T7	Alcohol 85 96	alcohol use
+T8	StatusTime 78 84	denies
+T9	Drug 108 114	heroin
+T10	Method 116 118	IV
+T11	Type 108 114	heroin
+T12	History 120 132	2 months ago
+T13	StatusTime 98 107	last used
+T14	Drug 142 151	crack use
+T15	Type 142 147	crack
+T17	StatusTime 137 151	rare crack use
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Status:T6
+E3	Alcohol:T7 Status:T8
+E4	Drug:T9 Status:T13 Type:T11 Method:T10 History:T12
+E5	Drug:T14 Type:T15 Status:T17
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A4	StatusTimeVal T6 current
+A5	StatusTimeVal T8 none
+A6	StatusTimeVal T13 past
+A8	StatusTimeVal T17 current

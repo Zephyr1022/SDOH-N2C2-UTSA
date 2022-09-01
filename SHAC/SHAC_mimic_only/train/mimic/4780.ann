@@ -1,0 +1,21 @@
+T1	LivingStatus 29 41	used to live
+T2	StatusTime 29 41	used to live
+T3	TypeLiving 42 52	by himself
+T4	Tobacco 229 244	smoking history
+T5	StatusTime 206 209	has
+T6	Amount 212 228	twenty pack year
+T8	Alcohol 257 262	drink
+T9	StatusTime 249 256	used to
+T10	History 291 301;302 307	past three years
+T11	Drug 324 346	intravenous drug abuse
+T12	StatusTime 313 319	denies
+T13	Method 324 335	intravenous
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T6 Status:T5
+E3	Alcohol:T8 Status:T9 History:T10
+E4	Drug:T11 Method:T13 Status:T12
+A1	StatusTimeVal T2 past
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T12 none

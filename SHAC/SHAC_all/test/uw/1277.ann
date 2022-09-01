@@ -1,0 +1,17 @@
+T1	Tobacco 9 15	Smokes
+T2	Amount 16 21	1 ppd
+T3	StatusTime 9 15	Smokes
+T4	Drug 28 46	cocaine and heroin
+T5	Type 28 46	cocaine and heroin
+T6	StatusTime 23 27	uses
+T7	Amount 48 61	40 oz of beer
+T8	Type 57 61	beer
+T9	Frequency 62 67	daily
+T10	Alcohol 57 61	beer
+T11	StatusTime 48 67	40 oz of beer daily
+E1	Tobacco:T1 Amount:T2 Status:T3
+E2	Drug:T4 Type:T5 Status:T6
+E3	Alcohol:T10 Type:T8 Amount:T7 Frequency:T9 Status:T11
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T11 current

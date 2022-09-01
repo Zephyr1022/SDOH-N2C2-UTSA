@@ -1,0 +1,12 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 39	with grandaughter
+T3	StatusTime 16 21	Lives
+T4	Alcohol 44 48	ETOH
+T5	Tobacco 49 62	Tobacco abuse
+T7	StatusTime 41 43	No
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Alcohol:T4 Status:T7
+E3	Tobacco:T5 Status:T7
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A4	StatusTimeVal T7 none

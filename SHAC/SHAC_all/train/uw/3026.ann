@@ -1,0 +1,13 @@
+T1	Alcohol 20 27	alcohol
+T2	Tobacco 31 38	tobacco
+T3	Drug 51 60	marijauna
+T4	Type 51 60	marijauna
+T5	StatusTime 40 50	occasional
+T6	StatusTime 17 19	no
+T7	StatusTime 28 30	no
+E1	Alcohol:T1 Status:T6
+E2	Tobacco:T2 Status:T7
+E3	Drug:T3 Status:T5 Type:T4
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T7 none

@@ -1,0 +1,60 @@
+T1	Amount 22 29	1/2 PPD
+T2	Duration 30 43	for ~10 years
+T3	StatusTime 45 49	quit
+T4	History 50 66	"many years ago"
+T5	Tobacco 9 20	Tobacco Use
+T6	Alcohol 67 78	Alcohol Use
+T7	Amount 88 96	~2 beers
+T8	Duration 97 115	in past two months
+T9	StatusTime 80 87	reports
+T10	Amount 130 162	couple beers and one shot liquor
+T11	Frequency 163 171	per week
+T12	StatusTime 117 127	previously
+T13	Alcohol 130 162	couple beers and one shot liquor
+T14	Type 91 96	beers
+T15	Drug 174 182	Drug Use
+T16	Type 191 200	marijuana
+T17	StatusTime 185 212	tried marijuana a few times
+T18	Drug 223 251	meth, cocaine, opioids, IVDU
+T19	Type 223 245	meth, cocaine, opioids
+T20	StatusTime 216 222	Denies
+T21	Drug 285 291	opioid
+T22	Type 285 291	opioid
+T23	StatusTime 265 275	history of
+T24	LivingStatus 324 332	Homeless
+T25	TypeLiving 324 332	Homeless
+T26	Employment 691 698	retired
+T27	StatusEmploy 691 698	retired
+T28	Type 720 808	federal government in "various agencies" doing "marketing, research, and census projects
+T29	StatusTime 324 332	Homeless
+E1	Tobacco:T5 Amount:T1 Duration:T2 Status:T3 History:T4
+E2	Alcohol:T6 Status:T9 Amount:T7 Duration:T8 Type:T14
+E3	Alcohol:T13 Status:T12 Amount:T10 Frequency:T11 Type:T35 Type2:T36
+E4	Drug:T15 Type:T16 Status:T17
+E5	Drug:T18 Status:T20 Type:T19 Method:T34
+E6	Drug:T21 Status:T23 Type:T22
+E7	LivingStatus:T24 Type:T25 Status:T29
+E8	Employment:T26 Status:T27 Type:T28
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T9 current
+A3	StatusTimeVal T12 past
+A4	StatusTimeVal T17 past
+A5	StatusTimeVal T20 past
+A6	StatusTimeVal T23 past
+A7	TypeLivingVal T25 homeless
+A8	StatusEmployVal T27 retired
+A9	StatusTimeVal T29 current
+T34	Method 247 251	IVDU
+T35	Type 137 142	beers
+T36	Type 156 162	liquor
+T37	LivingStatus 533 539	living
+E9	LivingStatus:T37 Type:T39 Status:T38
+T38	StatusTime 524 532	Had been
+A10	StatusTimeVal T38 current
+T39	TypeLiving 543 562	DESC Crisis Respite
+A11	TypeLivingVal T39 homeless
+T33	Employment 826 837	has a booth
+E10	Employment:T33 Status:T41 Type:T40
+T40	Type 841 858	a farmer's market
+T41	StatusEmploy 822 825	now
+A12	StatusEmployVal T41 employed

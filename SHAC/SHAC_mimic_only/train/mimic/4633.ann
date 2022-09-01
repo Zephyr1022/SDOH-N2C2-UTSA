@@ -1,0 +1,21 @@
+T1	LivingStatus 574 580	living
+T2	TypeLiving 581 589;590 596	with her mother
+T3	StatusTime 574 580	living
+T4	Alcohol 642 649	drinker
+T6	StatusTime 636 649	heavy drinker
+T7	Drug 718 727;728 733	oxycontin abuse
+T8	Type 718 727	oxycontin
+T10	Duration 739 749	past 2 yrs
+T11	StatusTime 706 717	Question of
+T12	Drug 785 796	other drugs
+T13	Type 785 790	other
+T14	StatusTime 751 763	Remote hx of
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Status:T6
+E3	Drug:T7 Type:T8 Duration:T10 Status:T11
+E4	Drug:T12 Type:T13 Status:T14
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A4	StatusTimeVal T6 current
+A6	StatusTimeVal T11 current
+A7	StatusTimeVal T14 current

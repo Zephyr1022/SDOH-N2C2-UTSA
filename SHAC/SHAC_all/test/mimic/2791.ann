@@ -1,0 +1,17 @@
+T1	Tobacco 18 25	Tobacco
+T2	StatusTime 27 33	Smokes
+T3	Amount 34 42	one pack
+T4	Frequency 43 50	per day
+T5	Duration 69 81	since age 13
+T6	Alcohol 84 91	Alcohol
+T8	Drug 106 114	Illicits
+T9	Type 106 114	Illicits
+T10	StatusTime 116 122	Denies
+T11	StatusTime 84 103	Alcohol: Occasional
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4 Duration:T5 Amount2:T7
+E2	Alcohol:T6 Status:T11
+E3	Drug:T8 Status:T10 Type:T9
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T10 none
+A4	StatusTimeVal T11 current
+T7	Amount 52 67	[**11-26**] PPD

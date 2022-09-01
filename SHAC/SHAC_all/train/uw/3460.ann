@@ -1,0 +1,26 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 30	negative
+T3	Alcohol 31 42	Alcohol Use
+T4	StatusTime 44 82	around 4 beers per day for a long time
+T5	Amount 44 58	around 4 beers
+T6	Frequency 59 66	per day
+T7	Type 53 58	beers
+T8	Drug 84 92	Drug Use
+T9	StatusTime 94 102	negative
+T10	LivingStatus 121 126	Lives
+T11	StatusTime 121 126	Lives
+T12	TypeLiving 141 150	w/ family
+T13	Employment 152 157	Works
+T14	StatusEmploy 152 157	Works
+T15	Type 161 171	[LOCATION]
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Amount:T5 Status:T4 Type:T7 Frequency:T6
+E3	Drug:T8 Status:T9
+E4	LivingStatus:T10 Status:T11 Type:T12
+E5	Employment:T13 Status:T14 Type:T15
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 with_family
+A6	StatusEmployVal T14 employed

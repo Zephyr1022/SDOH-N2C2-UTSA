@@ -1,0 +1,14 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Type 22 25	cig
+T3	Alcohol 28 39	Alcohol Use
+T5	Drug 47 55	Drug Use
+T6	Type 57 59	MJ
+T7	StatusTime 57 59	MJ
+T8	StatusTime 22 25	cig
+T9	StatusTime 41 44	occ
+E1	Tobacco:T1 Type:T2 Status:T8
+E2	Alcohol:T3 Status:T9
+E3	Drug:T5 Type:T6 Status:T7
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T9 current

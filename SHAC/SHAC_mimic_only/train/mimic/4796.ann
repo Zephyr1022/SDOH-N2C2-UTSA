@@ -1,0 +1,21 @@
+T1	Tobacco 28 34	smokes
+T2	StatusTime 28 34	smokes
+T3	Amount 35 46	half a pack
+T4	Type 50 60	cigarettes
+T5	Frequency 61 66	a day
+T6	Duration 67 79;80 88	for the last 20 years
+T7	Alcohol 109 116	alcohol
+T8	StatusTime 94 108	does not drink
+T9	Drug 146 164	recreational drugs
+T10	Type 146 158	recreational
+T11	StatusTime 120 140	has ever experienced
+T12	Employment 260 271	a homemaker
+T13	StatusEmploy 260 271	a homemaker
+E1	Tobacco:T1 Status:T2 Amount:T3 Type:T4 Frequency:T5 Duration:T6
+E2	Alcohol:T7 Status:T8
+E3	Drug:T9 Type:T10 Status:T11
+E4	Employment:T12 Status:T13
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T8 none
+A3	StatusTimeVal T11 none
+A4	StatusEmployVal T13 homemaker

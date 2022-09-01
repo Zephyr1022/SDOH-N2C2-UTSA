@@ -1,0 +1,28 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 26 32	smokes
+T3	Amount 33 39	3 cigs
+T4	Frequency 39 43	/day
+T5	Tobacco 106 112	smoked
+T6	StatusTime 106 112	smoked
+T7	Duration 113 125	since age 18
+T8	Alcohol 127 138	Alcohol Use
+T9	StatusTime 140 142	No
+T10	History 155 163	recently
+T11	Drug 165 173	Drug Use
+T12	Type 180 186	heroin
+T13	Method 187 218	in her right shoulder (muscling
+T14	StatusTime 175 179	Used
+T15	LivingStatus 244 249	lives
+T16	TypeLiving 250 268	with her caregiver
+T17	StatusTime 244 249	lives
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4
+E2	Tobacco:T5 Status:T6 Duration:T7
+E3	Alcohol:T8 Status:T9 History:T10
+E4	Drug:T11 Status:T14 Type:T12 Method:T13
+E5	LivingStatus:T15 Type:T16 Status:T17
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T14 past
+A5	TypeLivingVal T16 with_others
+A6	StatusTimeVal T17 current

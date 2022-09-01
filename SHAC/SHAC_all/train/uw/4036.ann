@@ -1,0 +1,8 @@
+T6	Tobacco 86 93	tobacco
+T7	Alcohol 94 101	alcohol
+T8	Drug 105 110	drugs
+T9	StatusTime 83 85	no
+E2	Tobacco:T6 Status:T9
+E3	Alcohol:T7 Status:T9
+E4	Drug:T8 Status:T9
+A2	StatusTimeVal T9 none

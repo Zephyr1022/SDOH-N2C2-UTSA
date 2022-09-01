@@ -1,0 +1,19 @@
+T1	TypeLiving 210 222	homelessness
+T2	LivingStatus 199 208	Residence
+T3	StatusTime 210 222	homelessness
+T4	Tobacco 9 20	Tobacco Use
+T5	Frequency 22 27	daily
+T6	StatusTime 22 35	daily smoking
+T7	Alcohol 39 50	Alcohol Use
+T9	StatusTime 63 70	history
+T10	Drug 118 126	Drug Use
+T11	StatusTime 128 134	denies
+E1	LivingStatus:T2 Status:T3 Type:T1
+E2	Tobacco:T4 Frequency:T5 Status:T6
+E3	Alcohol:T7 Status:T9
+E4	Drug:T10 Status:T11
+A1	TypeLivingVal T1 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 current
+A5	StatusTimeVal T9 past
+A6	StatusTimeVal T11 none

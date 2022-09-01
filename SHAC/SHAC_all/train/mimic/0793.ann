@@ -1,0 +1,10 @@
+T1	Tobacco 33 59	a positive tobacco history
+T2	StatusTime 33 59	a positive tobacco history
+T3	LivingStatus 102 107	lives
+T4	StatusTime 102 107	lives
+T5	TypeLiving 108 123	in a group home
+E1	Tobacco:T1 Status:T2
+E2	LivingStatus:T3 Status:T4 Type:T5
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T5 with_others

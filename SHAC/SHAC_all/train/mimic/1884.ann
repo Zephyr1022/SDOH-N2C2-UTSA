@@ -1,0 +1,32 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 27	alone
+T3	StatusTime 16 21	Lives
+T4	Employment 171 177	worked
+T5	StatusEmploy 171 177	worked
+T6	Type 178 191	many odd jobs
+T7	Tobacco 405 411	smokes
+T8	Amount 412 439	one to one and a half packs
+T9	Frequency 440 447	per day
+T10	StatusTime 405 411	smokes
+T11	Alcohol 508 519	alcohol use
+T13	StatusTime 492 499	reports
+T14	Drug 540 549	marijuana
+T15	Type 540 549	marijuana
+T16	StatusTime 524 532;533 536	previous use
+T17	Drug 565 569	IVDU
+T18	Type 565 569	IVDU
+T19	StatusTime 554 560	denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Amount:T8 Frequency:T9 Status:T10 Amount2:T12
+E4	Alcohol:T11 Status:T13
+E5	Drug:T14 Type:T15 Status:T16
+E6	Drug:T17 Type:T18 Status:T19
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T10 current
+A6	StatusTimeVal T13 current
+A7	StatusTimeVal T16 past
+A8	StatusTimeVal T19 none
+T12	Amount 455 466	60-pack-yea

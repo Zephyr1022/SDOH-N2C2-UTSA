@@ -1,0 +1,29 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 35	60 PY smoking
+T3	StatusTime 22 35	60 PY smoking
+T4	Alcohol 63 74	Alcohol Use
+T5	StatusTime 76 94	denies current use
+T6	Amount 105 114	1/5 vodka
+T7	Frequency 115 120	daily
+T8	Type 109 114	vodka
+T9	Drug 155 163	Drug Use
+T10	Type 168 182	methamphetamin
+T11	StatusTime 165 167	hx
+T12	LivingStatus 207 223	Currently living
+T13	StatusTime 207 223	Currently living
+T14	TypeLiving 224 234	at respite
+T15	LivingStatus 254 273	previously homeless
+T16	StatusTime 254 273	previously homeless
+T17	TypeLiving 254 273	previously homeless
+E1	Tobacco:T1 Amount:T2 Status:T3
+E2	Alcohol:T4 Status:T5 Amount:T6 Type:T8 Frequency:T7
+E3	Drug:T9 Status:T11 Type:T10
+E4	LivingStatus:T12 Status:T13 Type:T14
+E5	LivingStatus:T15 Status:T16 Type:T17
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T11 current
+A4	StatusTimeVal T13 current
+A5	TypeLivingVal T14 with_others
+A6	StatusTimeVal T16 past
+A7	TypeLivingVal T17 homeless

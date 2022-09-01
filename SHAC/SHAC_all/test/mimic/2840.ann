@@ -1,0 +1,19 @@
+T1	LivingStatus 28 33	lives
+T2	TypeLiving 53 80;81 81;82 91	with his daughter below and  son above
+T3	StatusTime 28 33	lives
+T4	Tobacco 331 338	Tobacco
+T5	StatusTime 365 369	quit
+T6	History 370 391	at least 43 years ago
+T7	Alcohol 393 400	Alcohol
+T8	Drug 407 412	Drugs
+T9	StatusTime 402 406	None
+T10	StatusTime 414 418	None
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Alcohol:T7 Status:T9
+E4	Drug:T8 Status:T10
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T10 none

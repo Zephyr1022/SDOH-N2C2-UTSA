@@ -1,0 +1,27 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 34	8 cigarettes
+T3	Frequency 34 38	/day
+T4	StatusTime 22 38	8 cigarettes/day
+T5	Alcohol 42 53	Alcohol Use
+T6	StatusTime 55 61	denies
+T7	Drug 65 73	Drug Use
+T8	Type 82 95	crack cocaine
+T9	StatusTime 75 81	recent
+T10	Drug 116 120	IVDU
+T11	Method 116 120	IVDU
+T12	LivingStatus 139 148	Residence
+T13	TypeLiving 150 173	domiciled in a "studio"
+T14	StatusTime 150 173	domiciled in a "studio"
+T15	StatusTime 101 107	denies
+E1	Tobacco:T1 Amount:T2 Frequency:T3 Status:T4 Type:T16
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Status:T9 Type:T8
+E4	Drug:T10 Status:T15 Method:T11
+E5	LivingStatus:T12 Type:T13 Status:T14
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T9 current
+A4	TypeLivingVal T13 alone
+A5	StatusTimeVal T14 current
+A6	StatusTimeVal T15 none
+T16	Type 24 34	cigarettes

@@ -1,0 +1,20 @@
+T1	StatusTime 17 20	h/o
+T2	Drug 21 25	IVDU
+T3	History 27 45	clean for 8 months
+T4	Alcohol 116 123	alcohol
+T5	Tobacco 125 132	tobacco
+T6	Drug 145 153	drug use
+T7	StatusTime 109 115	denies
+E1	Drug:T2 Status:T1 History:T3 Method:T11
+E2	Alcohol:T4 Status:T7
+E3	Tobacco:T5 Status:T7
+E4	Drug:T6 Status:T7
+A1	StatusTimeVal T1 past
+A2	StatusTimeVal T7 none
+T11	Method 21 25	IVDU
+T12	LivingStatus 154 159	Lives
+E5	LivingStatus:T12 Status:T13 Type:T14
+T13	StatusTime 154 159	Lives
+A3	StatusTimeVal T13 current
+T14	TypeLiving 163 181	Hope Place Shelter
+A4	TypeLivingVal T14 homeless

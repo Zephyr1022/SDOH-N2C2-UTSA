@@ -1,0 +1,32 @@
+T1	Drug 80 100	Remote marijuana use
+T2	StatusTime 80 100	Remote marijuana use
+T3	Type 87 96	marijuana
+T4	Drug 115 120	crack
+T5	Type 115 120	crack
+T6	Frequency 121 125	once
+T7	History 126 141	a long time ago
+T8	StatusTime 109 114	tried
+T9	Tobacco 10 17	Smoking
+T10	Alcohol 22 30	drinking
+T11	Amount 43 55	2 cigarettes
+T12	Frequency 56 61	daily
+T13	Amount 63 72	4-6 beers
+T14	Frequency 73 78	daily
+T15	Type 45 55	cigarettes
+T16	Type 67 72	beers
+T17	StatusTime 43 61	2 cigarettes daily
+T18	StatusTime 63 78	4-6 beers daily
+T19	LivingStatus 180 189	Residence
+T20	StatusTime 191 210	Evans House shelter
+T21	TypeLiving 191 210	Evans House shelter
+E1	Drug:T1 Status:T2 Type:T3
+E2	Drug:T4 Status:T8 Type:T5 Frequency:T6 History:T7
+E3	Tobacco:T9 Type:T15 Amount:T11 Frequency:T12 Status:T17
+E4	Alcohol:T10 Type:T16 Amount:T13 Frequency:T14 Status:T18
+E5	LivingStatus:T19 Status:T20 Type:T21
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T8 past
+A3	StatusTimeVal T17 current
+A4	StatusTimeVal T18 current
+A5	StatusTimeVal T20 current
+A6	TypeLivingVal T21 homeless

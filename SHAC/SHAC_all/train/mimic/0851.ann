@@ -1,0 +1,26 @@
+T1	Amount 17 34	Two to three pack
+T2	Frequency 35 42	per day
+T3	Tobacco 43 49	smoker
+T4	StatusTime 100 104	Quit
+T5	History 105 118	six years ago
+T6	Alcohol 123 134	alcohol use
+T7	StatusTime 120 122	No
+T8	History 174 178;179 189	four months ago
+T9	LivingStatus 208 229;230 236	[**Hospital6 13846**] Center
+T10	TypeLiving 208 229;230 236	[**Hospital6 13846**] Center
+T11	StatusTime 199 204	moved
+T12	LivingStatus 141 146	lived
+T13	StatusTime 141 146	lived
+T14	TypeLiving 155 167	with husband
+T15	Duration 50 59;60 69	since the age of 14
+E1	Tobacco:T3 Amount:T1 Frequency:T2 Status:T4 History:T5 Duration:T15 Amount2:T16
+E2	Alcohol:T6 Status:T7
+E3	LivingStatus:T9 Type:T10 Status:T11 History:T8
+E4	LivingStatus:T12 Status:T13 Type:T14
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T7 none
+A3	TypeLivingVal T10 with_others
+A4	StatusTimeVal T11 current
+A5	StatusTimeVal T13 past
+A6	TypeLivingVal T14 with_family
+T16	Amount 71 97	70 to 100 pack years total

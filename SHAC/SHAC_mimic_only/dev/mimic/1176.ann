@@ -1,0 +1,18 @@
+T1	Tobacco 31 46	a former smoker
+T2	StatusTime 31 46	a former smoker
+T3	Amount 78 86	one pack
+T4	Frequency 87 92	a day
+T5	Duration 58 76	for about 20 years
+T6	Tobacco 104 111	smoking
+T7	StatusTime 99 103	quit
+T8	History 112 130	about 20 years ago
+T9	LivingStatus 150 155	Lives
+T10	StatusTime 150 155	Lives
+T11	TypeLiving 156 173	in senior housing
+E1	Tobacco:T1 Status:T2 Duration:T5 Amount:T3 Frequency:T4
+E2	Tobacco:T6 Status:T7 History:T8
+E3	LivingStatus:T9 Status:T10 Type:T11
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T10 current
+A4	TypeLivingVal T11 with_others

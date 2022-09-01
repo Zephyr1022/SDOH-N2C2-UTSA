@@ -1,0 +1,37 @@
+T1	Employment 180 196	Retired engineer
+T2	StatusEmploy 180 196	Retired engineer
+T3	Type 180 196	Retired engineer
+T4	Tobacco 9 20	Tobacco Use
+T5	Amount 27 40	40 pack years
+T6	StatusTime 22 25	Yes
+T7	Alcohol 43 54	Alcohol Use
+T8	StatusTime 56 59	Yes
+T9	Amount 92 100	4 drinks
+T10	Frequency 100 105	/week
+T11	Drug 108 116	Drug Use
+T12	StatusTime 118 139	No drug use currently
+T13	Drug 155 160	drugs
+T14	StatusTime 141 151	never used
+T15	Method 152 154	IV
+T16	Employment 209 215	worked
+T17	StatusEmploy 198 215	Previously worked
+T18	Type 216 245	for [LOCATION] and [LOCATION]
+T19	Duration 246 267	for the last 30 years
+T22	LivingStatus 428 437	Residence
+T23	StatusTime 457 462	lives
+T24	TypeLiving 463 468	alone
+E2	Employment:T1 Type:T3 Status:T2
+E1	Tobacco:T4 Status:T6 Amount:T5
+E3	Alcohol:T7 Status:T8 Amount:T9 Frequency:T10
+E4	Drug:T11 Status:T12
+E5	Drug:T13 Method:T15 Status:T14
+E6	Employment:T16 Status:T17 Type:T18 Duration:T19
+E8	LivingStatus:T22 Type:T24 Status:T23
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T12 none
+A5	StatusTimeVal T14 none
+A6	StatusEmployVal T17 retired
+A7	StatusTimeVal T23 current
+A8	TypeLivingVal T24 alone

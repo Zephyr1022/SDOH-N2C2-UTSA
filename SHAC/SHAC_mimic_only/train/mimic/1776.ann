@@ -1,0 +1,34 @@
+T1	LivingStatus 16 21	lives
+T2	StatusTime 16 21	lives
+T3	TypeLiving 22 31	with life
+T4	Employment 33 43	unemployed
+T5	StatusEmploy 33 43	unemployed
+T6	Type 75 94	merchant marine job
+T7	Tobacco 95 111	-Tobacco history
+T8	Type 114 129	chewing tobacco
+T9	Method 114 129	chewing tobacco
+T10	Frequency 130 135	daily
+T11	Duration 136 149	for 3-4 years
+T12	StatusTime 114 149	chewing tobacco daily for 3-4 years
+T13	StatusTime 186 190	quit
+T14	Amount 158 171	[**2-4**] PPD
+T15	Duration 172 184	for 13 years
+T16	History 191 204	in [**2082**]
+T17	Alcohol 206 210	ETOH
+T18	StatusTime 213 223	occasional
+T20	Drug 225 238	Illicit drugs
+T21	Type 225 232	Illicit
+T22	StatusTime 241 245	none
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T12 Type:T8 Method:T9 Frequency:T10 Duration:T11
+E4	Tobacco:T7 Amount:T14 Duration:T15 Status:T13 History:T16
+E5	Alcohol:T17 Status:T18
+E6	Drug:T20 Type:T21 Status:T22
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T12 current
+A5	StatusTimeVal T13 past
+A6	StatusTimeVal T18 current
+A8	StatusTimeVal T22 none

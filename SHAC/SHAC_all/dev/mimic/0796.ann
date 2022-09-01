@@ -1,0 +1,26 @@
+T1	LivingStatus 25 30	lives
+T2	StatusTime 25 30	lives
+T3	TypeLiving 31 50	in [**Hospital1 **]
+T4	Tobacco 97 107	smoking hx
+T5	Amount 84 86;87 96	36 pack-year
+T6	StatusTime 108 112	quit
+T7	History 113 126	2.5 years ago
+T8	Alcohol 143 147	EtOH
+T9	StatusTime 128 142	does not drink
+T10	Drug 180 196	illicits or IVDU
+T11	Type 180 188	illicits
+T12	StatusTime 173 179	no h/o
+T13	Employment 207 211	work
+T14	StatusEmploy 198 206	does not
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T5 Status:T6 History:T7
+E3	Alcohol:T8 Status:T9
+E4	Drug:T10 Status:T12 Type:T11 Method:T15
+E5	Employment:T13 Status:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T12 none
+A6	StatusEmployVal T14 unemployed
+T15	Method 192 196	IVDU

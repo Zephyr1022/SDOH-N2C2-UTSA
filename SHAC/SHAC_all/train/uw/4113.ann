@@ -1,0 +1,22 @@
+T1	Tobacco 44 51	Tobacco
+T2	Amount 53 59	6 cigs
+T3	Frequency 59 63	/day
+T4	StatusTime 53 63	6 cigs/day
+T5	Drug 64 71	THC use
+T6	Type 64 67	THC
+T7	StatusTime 64 71	THC use
+T8	StatusTime 72 78	Denies
+T9	Alcohol 79 90	alcohol use
+E1	Tobacco:T1 Amount:T2 Frequency:T3 Status:T4 Type:T13
+E2	Drug:T5 Type:T6 Status:T7
+E3	Alcohol:T9 Status:T8
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T8 none
+T10	LivingStatus 17 22	Lives
+E4	LivingStatus:T10 Type:T11 Status:T12
+T11	TypeLiving 26 29	AFH
+A4	TypeLivingVal T11 with_others
+T12	StatusTime 17 22	Lives
+A5	StatusTimeVal T12 current
+T13	Type 55 59	cigs

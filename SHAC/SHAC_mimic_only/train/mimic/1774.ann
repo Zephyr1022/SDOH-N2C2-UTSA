@@ -1,0 +1,36 @@
+T1	Tobacco 16 23	Tobacco
+T2	StatusTime 51 60	currently
+T3	Amount 69 71;72 76	<1 pack
+T4	Frequency 76 80	/day
+T5	Alcohol 82 86	EtOH
+T6	StatusTime 89 95	Denies
+T7	Drug 97 102	Drugs
+T8	StatusTime 105 111	Denies
+T9	Employment 132 144	on diability
+T10	StatusEmploy 132 144	on diability
+T11	Duration 145 163	for last 1.5 years
+T12	LivingStatus 287 302	currently lives
+T13	StatusTime 287 302	currently lives
+T14	TypeLiving 303 320	with her 18yo son
+T15	Employment 221 227	worked
+T16	StatusEmploy 221 227	worked
+T17	Type 231 252;253 281	[**Last Name (un) **] [**Doctor Last Name 20728**]
+T18	StatusTime 26 32	Smoked
+T19	Amount 33 38	2 ppd
+T20	Duration 39 49	x 22 years
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Status:T8
+E4	Employment:T9 Status:T10 Duration:T11
+E5	LivingStatus:T12 Status:T13 Type:T14
+E6	Employment:T15 Status:T16 Type:T17 Type2:T21
+E7	Tobacco:T1 Status:T18 Amount:T19 Duration:T20
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T8 none
+A4	StatusEmployVal T10 on_disability
+A5	StatusTimeVal T13 current
+A6	TypeLivingVal T14 with_family
+A7	StatusEmployVal T16 unemployed
+A8	StatusTimeVal T18 past
+T21	Type 198 216	family coffee shop

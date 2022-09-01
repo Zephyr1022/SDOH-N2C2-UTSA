@@ -1,0 +1,18 @@
+T1	LivingStatus 27 32	lives
+T2	TypeLiving 33 43	on his own
+T3	Alcohol 56 63	alcohol
+T4	Frequency 64 70	weekly
+T5	StatusTime 49 55	drinks
+T6	Tobacco 86 93	tobacco
+T7	Drug 95 131	marajuana, crack and methamphetamine
+T8	Type 95 131	marajuana, crack and methamphetamine
+T9	StatusTime 81 85	uses
+T10	StatusTime 27 32	lives
+E1	LivingStatus:T1 Status:T10 Type:T2
+E2	Alcohol:T3 Status:T5 Frequency:T4
+E3	Tobacco:T6 Status:T9
+E4	Drug:T7 Type:T8 Status:T9
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T10 current

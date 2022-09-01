@@ -1,0 +1,17 @@
+T1	LivingStatus 135 139	live
+T2	StatusTime 126 139	plans to live
+T3	TypeLiving 140 148;149 156	with her brother
+T4	Tobacco 190 196	smoker
+T5	StatusTime 185 196	Past smoker
+T6	Amount 198 206	30 pk yr
+T7	Drug 220 225	drugs
+T8	Alcohol 212 216	EtOH
+T9	StatusTime 209 211	no
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Amount:T6 Status:T5
+E3	Drug:T7 Status:T9
+E4	Alcohol:T8 Status:T9
+A1	StatusTimeVal T2 future
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T9 none

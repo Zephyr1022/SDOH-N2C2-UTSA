@@ -1,0 +1,15 @@
+T1	LivingStatus 24 29	lives
+T2	TypeLiving 30 43	with his wife
+T3	Tobacco 107 114	tobacco
+T4	StatusTime 119 123	quit
+T5	History 124 141	about 5 years ago
+T6	Alcohol 154 165	alcohol use
+T7	StatusTime 147 153	denies
+T8	StatusTime 24 29	lives
+E1	LivingStatus:T1 Type:T2 Status:T8
+E2	Tobacco:T3 Status:T4 History:T5
+E3	Alcohol:T6 Status:T7
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T8 current

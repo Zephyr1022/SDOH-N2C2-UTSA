@@ -1,0 +1,26 @@
+T1	Tobacco 50 60	Cigarettes
+T2	Amount 62 67	30PYH
+T3	StatusTime 69 73	quit
+T4	History 74 91	over 20 years ago
+T5	Employment 29 39	Occupation
+T6	StatusEmploy 41 49	Disabled
+T7	LivingStatus 16 21	Lives
+T8	StatusTime 16 21	Lives
+T9	TypeLiving 23 28	alone
+T10	Alcohol 92 96	ETOH
+T12	Drug 126 142	Illicit drug use
+T13	Type 126 133	Illicit
+T14	StatusTime 144 150	Denies
+T15	StatusTime 98 104	social
+E1	Tobacco:T1 Amount:T2 Status:T3 History:T4 Type:T11
+E2	Employment:T5 Status:T6
+E3	LivingStatus:T7 Status:T8 Type:T9
+E4	Alcohol:T10 Status:T15
+E5	Drug:T12 Type:T13 Status:T14
+A1	StatusTimeVal T3 past
+A2	StatusEmployVal T6 on_disability
+A3	StatusTimeVal T8 current
+A4	TypeLivingVal T9 alone
+A6	StatusTimeVal T14 none
+A7	StatusTimeVal T15 current
+T11	Type 50 60	Cigarettes

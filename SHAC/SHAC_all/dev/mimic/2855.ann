@@ -1,0 +1,5 @@
+T1	Employment 136 171	sells plumbing and heating products
+T2	StatusEmploy 136 171	sells plumbing and heating products
+T3	Type 136 171	sells plumbing and heating products
+E1	Employment:T1 Status:T2 Type:T3
+A1	StatusEmployVal T2 employed

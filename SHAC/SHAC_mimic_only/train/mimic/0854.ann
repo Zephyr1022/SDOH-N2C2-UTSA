@@ -1,0 +1,6 @@
+T1	Tobacco 39 54	smoking history
+T2	Amount 26 38	40 pack-year
+T3	StatusTime 56 60	quit
+T4	History 61 73	30 years ago
+E1	Tobacco:T1 Amount:T2 Status:T3 History:T4
+A1	StatusTimeVal T3 past

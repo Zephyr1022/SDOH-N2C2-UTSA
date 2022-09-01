@@ -1,0 +1,30 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 34	6 cigarettes
+T3	Type 24 34	cigarettes
+T4	Frequency 34 38	/day
+T5	Alcohol 40 51	Alcohol Use
+T6	StatusTime 53 58	prior
+T8	History 75 91	since mid [DATE]
+T9	Drug 94 102	Drug Use
+T10	StatusTime 104 109	prior
+T11	Type 116 122	heroin
+T12	History 129 145	since mid [DATE]
+T13	LivingStatus 166 171	lives
+T14	TypeLiving 175 193	Hope Place Shelter
+T15	StatusTime 166 171	lives
+T16	Employment 294 298	work
+T17	StatusEmploy 286 298	used to work
+T18	Type 302 313	a machinist
+T19	StatusTime 22 38	6 cigarettes/day
+E1	Tobacco:T1 Amount:T2 Type:T3 Frequency:T4 Status:T19
+E2	Alcohol:T5 Status:T6 History:T8
+E3	Drug:T9 Status:T10 Type:T11 History:T12 Method:T7
+E4	LivingStatus:T13 Type:T14 Status:T15
+E5	Employment:T16 Status:T17 Type:T18
+A1	StatusTimeVal T6 past
+A3	StatusTimeVal T10 past
+A4	TypeLivingVal T14 homeless
+A5	StatusTimeVal T15 current
+A6	StatusEmployVal T17 unemployed
+A7	StatusTimeVal T19 current
+T7	Method 110 114	IVDU

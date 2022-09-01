@@ -1,0 +1,9 @@
+T1	Tobacco 47 54	smoking
+T2	StatusTime 30 43	has a history
+E1	Tobacco:T1 Status:T2
+A1	StatusTimeVal T2 current
+T3	Tobacco 90 96	smoked
+E2	Tobacco:T3 History:T5 Status:T4
+T4	StatusTime 82 89	has not
+A2	StatusTimeVal T4 past
+T5	History 97 117	in the last few days

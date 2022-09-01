@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 28 39	Alcohol Use
+T3	Drug 48 56	Drug Use
+T4	StatusTime 21 25	none
+T5	StatusTime 41 45	none
+T6	StatusTime 58 62	none
+T7	LivingStatus 89 95	living
+T8	StatusTime 89 95	living
+T9	TypeLiving 96 104	with Son
+T12	Employment 216 221	Works
+T14	Type 225 234	a daycare
+T13	StatusEmploy 216 221	Works
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T5
+E3	Drug:T3 Status:T6
+E4	LivingStatus:T7 Type:T9 Status:T8
+E6	Employment:T12 Type:T14 Status:T13
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 with_family
+A6	StatusEmployVal T13 employed

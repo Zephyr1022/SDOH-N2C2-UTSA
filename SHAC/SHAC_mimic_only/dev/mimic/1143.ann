@@ -1,0 +1,23 @@
+T1	Employment 16 31	retired fireman
+T2	Type 16 31	retired fireman
+T3	StatusEmploy 16 31	retired fireman
+T4	LivingStatus 42 47	lives
+T5	StatusTime 42 47	lives
+T6	TypeLiving 33 40	married
+T7	Tobacco 72 78	smoked
+T8	Alcohol 87 91	etoh
+T9	StatusTime 66 71	never
+T11	StatusTime 80 91	social etoh
+T12	Drug 96 101	drugs
+T13	StatusTime 93 95	no
+E1	Employment:T1 Status:T3 Type:T2
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T9
+E4	Alcohol:T8 Status:T11
+E5	Drug:T12 Status:T13
+A1	StatusEmployVal T3 retired
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T9 none
+A6	StatusTimeVal T11 current
+A7	StatusTimeVal T13 none

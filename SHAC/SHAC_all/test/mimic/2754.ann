@@ -1,0 +1,10 @@
+T1	LivingStatus 28 33	lives
+T2	TypeLiving 44 59	in a group home
+T3	StatusTime 34 43	currently
+T4	Drug 172 187	substance abuse
+T6	StatusTime 163 171	No known
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Drug:T4 Status:T6
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A4	StatusTimeVal T6 none

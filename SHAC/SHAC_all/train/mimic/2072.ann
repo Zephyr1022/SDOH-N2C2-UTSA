@@ -1,0 +1,25 @@
+T1	Employment 47 53	worked
+T2	StatusEmploy 24 42	a former publisher
+T3	Type 24 42	a former publisher
+T4	History 64 83	until the age of 82
+T5	LivingStatus 106 112	living
+T6	TypeLiving 113 132	with a house keeper
+T7	StatusTime 90 105	previously been
+T8	Tobacco 194 200	smoked
+T9	StatusTime 194 200	smoked
+T10	Duration 201 213	for 10 years
+T11	Alcohol 229 234	drink
+T13	Drug 327 335	drug use
+T14	StatusTime 313 315	No
+T15	StatusTime 220 228	does not
+E1	Employment:T1 Status:T2 Type:T3 History:T4
+E2	LivingStatus:T5 Status:T7 Type:T6
+E3	Tobacco:T8 Status:T9 Duration:T10
+E4	Alcohol:T11 Status:T15
+E5	Drug:T13 Status:T14
+A1	StatusEmployVal T2 unemployed
+A2	TypeLivingVal T6 with_others
+A3	StatusTimeVal T7 past
+A4	StatusTimeVal T9 past
+A6	StatusTimeVal T14 none
+A7	StatusTimeVal T15 none

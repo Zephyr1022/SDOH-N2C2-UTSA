@@ -1,0 +1,22 @@
+T1	Drug 20 33	substance use
+T2	StatusTime 17 19	No
+T3	LivingStatus 35 44	Residence
+T4	TypeLiving 47 55	Homeless
+T5	StatusTime 47 55	Homeless
+T6	Tobacco 84 95	Tobacco use
+T7	StatusTime 98 104	Denies
+T8	Alcohol 107 118	Alcohol use
+T9	StatusTime 120 126	denies
+T13	StatusEmploy 71 81	Unemployed
+T14	Employment 58 68	Employment
+E1	Drug:T1 Status:T2
+E2	LivingStatus:T3 Status:T5 Type:T4
+E3	Tobacco:T6 Status:T7
+E4	Alcohol:T8 Status:T9
+E6	Employment:T14 Status:T13
+A1	StatusTimeVal T2 none
+A2	TypeLivingVal T4 homeless
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T9 none
+A7	StatusEmployVal T13 unemployed

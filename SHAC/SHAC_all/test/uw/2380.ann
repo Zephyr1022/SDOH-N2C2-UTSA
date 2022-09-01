@@ -1,0 +1,28 @@
+T1	Tobacco 17 23	Smokes
+T2	StatusTime 17 23	Smokes
+T3	Amount 24 35	half a pack
+T4	Frequency 36 43	per day
+T5	Alcohol 45 51	drinks
+T6	StatusTime 45 51	drinks
+T7	Amount 52 59	5 beers
+T8	Frequency 60 65	a day
+T9	Type 54 59	beers
+T10	Drug 67 73	smokes
+T11	Type 74 83	marijuana
+T12	Drug 94 102	drug use
+T13	StatusTime 84 90	denies
+T14	Method 91 93	IV
+T15	StatusTime 67 73	smokes
+T16	Employment 104 109	works
+T17	StatusEmploy 104 109	works
+T18	Type 114 134	distribution company
+E1	Tobacco:T1 Amount:T3 Status:T2 Frequency:T4
+E2	Alcohol:T5 Type:T9 Status:T6 Amount:T7 Frequency:T8
+E3	Drug:T10 Type:T11 Status:T15
+E4	Drug:T12 Method:T14 Status:T13
+E5	Employment:T16 Type:T18 Status:T17
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T13 none
+A4	StatusTimeVal T15 current
+A5	StatusEmployVal T17 employed

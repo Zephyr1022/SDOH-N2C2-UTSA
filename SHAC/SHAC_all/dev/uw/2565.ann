@@ -1,0 +1,15 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 40 44	quit
+T3	History 45 56	date [DATE]
+T4	Amount 58 70	40 pack year
+T5	Alcohol 79 90	Alcohol Use
+T6	StatusTime 92 94	No
+T7	Drug 95 103	Drug Use
+T8	StatusTime 105 107	No
+E1	Tobacco:T1 Status:T2 History:T3 Amount:T4 Type:T9
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Status:T8
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T8 none
+T9	Type 22 31	Cigarette

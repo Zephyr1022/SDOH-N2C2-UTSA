@@ -1,0 +1,14 @@
+T1	Employment 41 61	Currently unemployed
+T2	StatusEmploy 41 61	Currently unemployed
+T3	Alcohol 70 77;78 81	alcohol use
+T4	StatusTime 63 69	denies
+T5	Tobacco 90 96	smoker
+T6	StatusTime 83 89	Active
+T7	Duration 97 114	for past 40 years
+T8	Amount 116 124	1/2-1ppd
+E1	Employment:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Tobacco:T5 Status:T6 Duration:T7 Amount:T8
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T6 current

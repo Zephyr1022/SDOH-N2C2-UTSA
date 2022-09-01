@@ -1,0 +1,21 @@
+T1	LivingStatus 125 134	Residence
+T2	StatusTime 160 165	Lives
+T3	TypeLiving 166 198	with husband, [NAME], and 2 kids
+T4	Tobacco 9 20	Tobacco Use
+T5	StatusTime 22 24	No
+T6	Alcohol 27 38	Alcohol Use
+T7	Type 60 64	wine
+T8	Amount 51 56	glass
+T10	Drug 92 100	Drug Use
+T11	StatusTime 102 106	None
+T12	StatusTime 40 50	Occasional
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Amount:T8 Type:T7 Status:T12 Frequency:T9
+E4	Drug:T10 Status:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 none
+A5	StatusTimeVal T11 none
+A6	StatusTimeVal T12 current
+T9	Frequency 40 50	Occasional

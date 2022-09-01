@@ -1,0 +1,19 @@
+T1	LivingStatus 98 103	Lives
+T2	StatusTime 98 103	Lives
+T3	TypeLiving 126 143	with her daughter
+T4	Employment 149 162	a nurses aide
+T5	StatusEmploy 145 148	Was
+T6	Type 149 162	a nurses aide
+T7	Alcohol 231 235	EtOH
+T8	Tobacco 237 244	tobacco
+T9	Drug 246 251	drugs
+T10	StatusTime 228 230	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Alcohol:T7 Status:T10
+E4	Tobacco:T8 Status:T10
+E5	Drug:T9 Status:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T10 none

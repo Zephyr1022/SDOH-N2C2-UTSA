@@ -1,0 +1,29 @@
+T4	LivingStatus 721 726	Lives
+T5	StatusTime 721 726	Lives
+T6	TypeLiving 727 735;736 746	with his girlfriend
+T7	Employment 109 114	Works
+T8	StatusEmploy 109 114	Works
+T9	Type 118 124	roofer
+T1	Tobacco 455 462	tobacco
+T2	StatusTime 448 454	smokes
+T10	Drug 542 549	cocaine
+T11	Type 542 549	cocaine
+T12	StatusTime 532 535	now
+T13	Type 521 527	heroin
+T14	StatusTime 510 520	used to be
+E2	LivingStatus:T4 Type:T6 Status:T5
+E3	Employment:T7 Type:T9 Status:T8
+E1	Tobacco:T1 Status:T2
+E4	Drug:T10 Status:T12 Type:T11
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 with_others
+A5	StatusEmployVal T8 employed
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T12 current
+A6	StatusTimeVal T14 past
+T3	Alcohol 479 487	drinking
+E6	Alcohol:T3 Status:T15
+T15	StatusTime 471 473	is
+A7	StatusTimeVal T15 current
+T16	Drug 495 499	Drug
+E7	Drug:T16 Status:T14 Type:T13

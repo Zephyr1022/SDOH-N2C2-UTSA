@@ -1,0 +1,13 @@
+T1	Tobacco 32 38	smoked
+T2	Duration 39 51	for 27 years
+T3	StatusTime 28 38	has smoked
+T4	Alcohol 131 138;139 144	ethanol abuse
+T5	StatusTime 80 127	does not currently drink but has a long history
+E1	Tobacco:T1 Status:T3 Duration:T2
+E2	Alcohol:T4 Status:T5
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 past
+T6	Employment 154 162	disabled
+E3	Employment:T6 Status:T7
+T7	StatusEmploy 154 162	disabled
+A3	StatusEmployVal T7 on_disability

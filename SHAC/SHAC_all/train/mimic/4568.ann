@@ -1,0 +1,18 @@
+T1	LivingStatus 31 36	lives
+T2	StatusTime 31 36	lives
+T3	TypeLiving 37 42	alone
+T4	Employment 210 227	previously worked
+T5	StatusEmploy 210 227	previously worked
+T6	Type 231 243;244 259	an attendant at a laundrymat
+T7	Tobacco 285 295	smoking hx
+T8	StatusTime 265 268	has
+T9	Amount 297 302	3 PPD
+T10	Duration 303 304;305 310	x 60yrs
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8 Amount:T9 Duration:T10 Amount2:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T8 current
+T11	Amount 271 284	180 pack-year

@@ -1,0 +1,41 @@
+T1	Drug 23 50	IV heroin and cocaine abuse
+T2	Type 26 44	heroin and cocaine
+T4	Method 23 25	IV
+T5	StatusTime 16 22	Recent
+T6	Drug 61 68	cocaine
+T7	Type 61 68	cocaine
+T8	Method 53 60	Inhaled
+T9	StatusTime 53 60	Inhaled
+T10	Alcohol 85 89	EtOH
+T11	Tobacco 94 101	tobacco
+T12	StatusTime 78 84	Denies
+T13	LivingStatus 103 113;114 122	Previously homeless
+T14	StatusTime 103 113;114 122	Previously homeless
+T15	TypeLiving 103 113;114 122	Previously homeless
+T16	LivingStatus 188 200	imprissioned
+T17	StatusTime 170 173	was
+T18	Duration 201 213	for 10 years
+T19	TypeLiving 188 200	imprissioned
+T20	LivingStatus 131 148	section 8 housing
+T21	TypeLiving 131 148	section 8 housing
+T22	StatusTime 124 130	was in
+T23	Drug 310 314;315 318	drug use
+T24	StatusTime 297 309	returning to
+E1	Drug:T1 Type:T2 Method:T4 Status:T5
+E2	Drug:T6 Type:T7 Status:T9 Method:T8
+E3	Alcohol:T10 Status:T12
+E4	Tobacco:T11 Status:T12
+E5	LivingStatus:T13 Status:T14 Type:T15
+E6	LivingStatus:T16 Type:T19 Duration:T18 Status:T17
+E7	LivingStatus:T20 Type:T21 Status:T22
+E8	Drug:T23 Status:T24
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T9 past
+A4	StatusTimeVal T12 none
+A5	StatusTimeVal T14 past
+A6	TypeLivingVal T15 homeless
+A7	StatusTimeVal T17 past
+A8	TypeLivingVal T19 with_others
+A9	TypeLivingVal T21 alone
+A10	StatusTimeVal T22 past
+A11	StatusTimeVal T24 current

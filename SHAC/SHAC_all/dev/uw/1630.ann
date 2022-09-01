@@ -1,0 +1,20 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 23 36	with children
+T3	StatusTime 17 22	Lives
+T4	Amount 45 53	2-4 cigs
+T5	Frequency 53 57	/day
+T6	Tobacco 38 44	smokes
+T7	StatusTime 38 44	smokes
+T8	Alcohol 66 70	EtOH
+T9	Drug 75 88	illicit drugs
+T10	Type 75 82	illicit
+T11	StatusTime 59 65	denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T6 Status:T7 Amount:T4 Frequency:T5 Type:T12
+E3	Alcohol:T8 Status:T11
+E4	Drug:T9 Type:T10 Status:T11
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T11 past
+T12	Type 49 53	cigs

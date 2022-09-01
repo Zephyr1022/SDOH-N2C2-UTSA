@@ -1,0 +1,14 @@
+T1	LivingStatus 27 32	Lives
+T2	TypeLiving 33 38	alone
+T3	StatusTime 27 32	Lives
+T4	Alcohol 49 53	ETOH
+T5	StatusTime 40 48	negative
+T6	Tobacco 64 71	tobacco
+T7	StatusTime 55 63	negative
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Status:T5
+E3	Tobacco:T6 Status:T7
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 none

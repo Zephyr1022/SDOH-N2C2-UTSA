@@ -1,0 +1,23 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 54	at Union Gospel shelter housing
+T4	Employment 67 77	Unemployed
+T5	StatusEmploy 67 77	Unemployed
+T6	Tobacco 79 86	tobacco
+T7	StatusTime 78 79	+
+T8	Alcohol 88 92	etoh
+T9	Drug 94 100	heroin
+T10	StatusTime 87 88	+
+T11	StatusTime 93 94	+
+T12	Type 94 100	heroin
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T7
+E4	Alcohol:T8 Status:T10
+E5	Drug:T9 Status:T11 Type:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T7 current
+A5	StatusTimeVal T10 current
+A6	StatusTimeVal T11 current

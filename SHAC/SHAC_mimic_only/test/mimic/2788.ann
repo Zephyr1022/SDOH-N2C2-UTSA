@@ -1,0 +1,15 @@
+T1	Tobacco 19 26	smoking
+T2	Alcohol 28 32	ETOH
+T3	Drug 34 42	illicits
+T4	Type 34 42	illicits
+T5	StatusTime 16 18	No
+T6	LivingStatus 124 129	lives
+T7	StatusTime 124 129	lives
+T8	TypeLiving 130 147	with her daughter
+E1	Tobacco:T1 Status:T5
+E2	Alcohol:T2 Status:T5
+E3	Drug:T3 Type:T4 Status:T5
+E4	LivingStatus:T6 Status:T7 Type:T8
+A1	StatusTimeVal T5 none
+A2	StatusTimeVal T7 current
+A3	TypeLivingVal T8 with_family

@@ -1,0 +1,22 @@
+T1	LivingStatus 43 49	living
+T2	StatusTime 23 32	currently
+T3	TypeLiving 33 41	homeless
+T4	Alcohol 87 94	alcohol
+T5	StatusTime 68 86	denies any current
+T6	Tobacco 96 103	tobacco
+T7	Drug 107 123	illicit drug use
+T8	Type 107 114	illicit
+T9	Drug 137 148	ecstacy use
+T10	Type 137 144	ecstacy
+T11	StatusTime 171 178	in past
+T12	Alcohol 153 170	heavy alcohol use
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5
+E3	Tobacco:T6 Status:T5
+E4	Drug:T7 Type:T8 Status:T5
+E5	Drug:T9 Type:T10 Status:T11
+E6	Alcohol:T12 Status:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T11 past

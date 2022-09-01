@@ -1,0 +1,23 @@
+T3	LivingStatus 59 71	Undomicilled
+T4	TypeLiving 73 100	boucing from house to house
+T5	StatusTime 73 80	boucing
+T6	Alcohol 113 117	EtOH
+T7	Frequency 119 128	sometimes
+T8	Tobacco 143 150	Tobacco
+T9	Frequency 152 161	sometimes
+T10	StatusTime 152 161	sometimes
+T11	StatusTime 119 128	sometimes
+T12	Drug 171 175	meth
+T13	Method 187 197	inhalation
+T14	Frequency 177 182	daily
+T15	Type 171 175	meth
+T16	StatusTime 177 182	daily
+E2	LivingStatus:T3 Type:T4 Status:T5
+E3	Alcohol:T6 Frequency:T7 Status:T11
+E4	Tobacco:T8 Frequency:T9 Status:T10
+E5	Drug:T12 Type:T15 Frequency:T14 Method:T13 Status:T16
+A1	TypeLivingVal T4 homeless
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T10 current
+A4	StatusTimeVal T11 current
+A5	StatusTimeVal T16 current

@@ -1,0 +1,4 @@
+T1	Drug 65 73	drug use
+T2	StatusTime 55 64	No recent
+E1	Drug:T1 Status:T2
+A1	StatusTimeVal T2 past

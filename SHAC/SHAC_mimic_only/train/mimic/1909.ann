@@ -1,0 +1,11 @@
+T1	StatusTime 29 31	is
+T2	LivingStatus 32 42	a resident
+T3	TypeLiving 117 131	a nursing home
+T4	Tobacco 167 173	smoker
+T5	Duration 151 160	long time
+T7	StatusTime 167 173	smoker
+E1	LivingStatus:T2 Status:T1 Type:T3
+E2	Tobacco:T4 Status:T7 Duration:T5
+A1	StatusTimeVal T1 current
+A2	TypeLivingVal T3 with_others
+A4	StatusTimeVal T7 current

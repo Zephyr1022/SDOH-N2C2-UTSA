@@ -1,0 +1,9 @@
+T3	Tobacco 162 169	tobacco
+T4	Alcohol 171 175	etoh
+T5	Drug 179 195	illicit drug use
+T6	Type 179 186	illicit
+T7	StatusTime 139 153;154 161	denies past or current
+E2	Tobacco:T3 Status:T7
+E3	Alcohol:T4 Status:T7
+E4	Drug:T5 Type:T6 Status:T7
+A1	StatusTimeVal T7 none

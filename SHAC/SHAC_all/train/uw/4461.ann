@@ -1,0 +1,19 @@
+T3	LivingStatus 35 40	Lives
+T4	TypeLiving 55 71	with her partner
+T5	StatusTime 35 40	Lives
+T6	Employment 178 183	works
+T7	Type 187 199	a consultant
+T8	StatusEmploy 178 183	works
+T9	Tobacco 265 272	tobacco
+T10	Alcohol 274 281	alcohol
+T11	Drug 286 294	drug use
+T12	StatusTime 254 260	denies
+E2	LivingStatus:T3 Status:T5 Type:T4
+E4	Employment:T6 Status:T8 Type:T7
+E3	Tobacco:T9 Status:T12
+E5	Alcohol:T10 Status:T12
+E6	Drug:T11 Status:T12
+A1	TypeLivingVal T4 with_others
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T12 none
+A4	StatusEmployVal T8 employed

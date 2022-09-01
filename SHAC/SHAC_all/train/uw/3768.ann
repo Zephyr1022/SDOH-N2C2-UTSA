@@ -1,0 +1,22 @@
+T1	Tobacco 87 94	smoking
+T2	Type 95 105	Cigarettes
+T3	StatusTime 78 86	has been
+T4	Tobacco 131 146	smoking history
+T5	Amount 118 130	20 pack-year
+T6	StatusTime 118 130	20 pack-year
+T7	Tobacco 167 184	smokeless tobacco
+T8	Method 167 184	smokeless tobacco
+T9	StatusTime 156 166	never used
+T10	Alcohol 222 229	alcohol
+T11	Drug 237 250	illicit drugs
+T12	Type 237 244	illicit
+T13	StatusTime 207 215	does not
+E1	Tobacco:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Amount:T5 Status:T6
+E3	Tobacco:T7 Method:T8 Status:T9
+E4	Alcohol:T10 Status:T13
+E5	Drug:T11 Type:T12 Status:T13
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T13 none

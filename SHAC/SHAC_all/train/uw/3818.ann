@@ -1,0 +1,21 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 25	1-2
+T3	Frequency 26 33	per day
+T4	StatusTime 22 33	1-2 per day
+T5	Alcohol 53 64	Alcohol Use
+T6	StatusTime 66 72	denies
+T7	Drug 75 83	Drug Use
+T8	StatusTime 85 91	denies
+T9	LivingStatus 114 119	lives
+T10	StatusTime 114 119	lives
+T11	TypeLiving 110 132	Son lives at her house
+E1	Tobacco:T1 Status:T4 Frequency:T3 Amount:T2 Type:T12
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Status:T8
+E4	LivingStatus:T9 Status:T10 Type:T11
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T10 current
+A5	TypeLivingVal T11 with_family
+T12	Type 36 50	nicotine patch

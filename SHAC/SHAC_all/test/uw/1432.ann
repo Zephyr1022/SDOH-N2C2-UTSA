@@ -1,0 +1,4 @@
+T1	Tobacco 27 40	heavy smoking
+T3	StatusTime 16 23	History
+E1	Tobacco:T1 Status:T3
+A2	StatusTimeVal T3 current

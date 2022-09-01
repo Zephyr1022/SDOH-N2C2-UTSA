@@ -1,0 +1,19 @@
+T1	Employment 54 64	Occupation
+T2	Type 66 80	business owner
+T3	StatusEmploy 66 80	business owner
+T4	LivingStatus 16 21	Lives
+T5	StatusTime 16 21	Lives
+T6	TypeLiving 22 32	with: Wife
+T7	Tobacco 81 88	Tobacco
+T8	Alcohol 95 99	ETOH
+T10	StatusTime 100 110	occasional
+T11	StatusTime 89 94	never
+E1	Employment:T1 Status:T3 Type:T2
+E2	LivingStatus:T4 Type:T6 Status:T5
+E3	Tobacco:T7 Status:T11
+E4	Alcohol:T8 Status:T10
+A1	StatusEmployVal T3 employed
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family
+A5	StatusTimeVal T10 current
+A6	StatusTimeVal T11 none

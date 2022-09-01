@@ -1,0 +1,21 @@
+T1	Tobacco 66 69	Tob
+T2	Amount 70 78	1-1.5PPD
+T3	Duration 79 95	since ~10yrs old
+T4	StatusTime 79 95	since ~10yrs old
+T5	Alcohol 98 102	EtOH
+T6	StatusTime 103 109	denies
+T7	Drug 113 121	Illicits
+T8	Type 122 128	heroin
+T9	StatusTime 122 128	heroin
+T10	LivingStatus 131 142	Undomiciled
+T11	StatusTime 131 142	Undomiciled
+T12	TypeLiving 131 142	Undomiciled
+E1	Tobacco:T1 Amount:T2 Duration:T3 Status:T4
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Status:T9 Type:T8
+E4	LivingStatus:T10 Status:T11 Type:T12
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 homeless

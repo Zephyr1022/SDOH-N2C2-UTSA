@@ -1,0 +1,26 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 80 96	with her husband
+T4	Employment 101 118	currently retired
+T5	StatusEmploy 101 118	currently retired
+T6	Type 124 144	a former bank teller
+T7	Tobacco 169 184	smoking history
+T8	StatusTime 186 190	quit
+T9	History 191 203	12 years ago
+T10	Amount 156 168	30 pack year
+T11	Alcohol 205 227	very light alcohol use
+T12	StatusTime 205 227	very light alcohol use
+T14	Drug 232 240	illicits
+T15	Type 232 240	illicits
+T16	StatusTime 229 231	no
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Amount:T10 Status:T8 History:T9
+E4	Alcohol:T11 Status:T12
+E5	Drug:T14 Type:T15 Status:T16
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T12 current
+A7	StatusTimeVal T16 none

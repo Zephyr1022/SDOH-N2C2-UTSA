@@ -1,0 +1,16 @@
+T1	Drug 17 21	IVDU
+T2	Type 24 30	heroin
+T4	StatusTime 24 36	heroin abuse
+T5	Tobacco 37 50	Tobacco abuse
+T7	StatusTime 37 50	Tobacco abuse
+T8	LivingStatus 51 59	Homeless
+T9	StatusTime 51 59	Homeless
+T10	TypeLiving 51 59	Homeless
+T11	Method 17 21	IVDU
+E1	Drug:T1 Type:T2 Status:T4 Method:T11
+E2	Tobacco:T5 Status:T7
+E3	LivingStatus:T8 Status:T9 Type:T10
+A2	StatusTimeVal T4 current
+A4	StatusTimeVal T7 current
+A5	StatusTimeVal T9 current
+A6	TypeLivingVal T10 homeless

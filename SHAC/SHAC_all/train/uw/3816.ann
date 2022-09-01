@@ -1,0 +1,15 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 29	1/2 ppd
+T3	Amount 22 29	1/2 ppd
+T4	Alcohol 32 43	Alcohol Use
+T5	StatusTime 45 64	heavy alcohol abuse
+T7	LivingStatus 207 215	homeless
+T8	StatusTime 204 206	is
+T9	TypeLiving 207 215	homeless
+E1	Tobacco:T1 Amount:T3 Status:T2
+E2	Alcohol:T4 Status:T5
+E3	LivingStatus:T7 Type:T9 Status:T8
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 current
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 homeless

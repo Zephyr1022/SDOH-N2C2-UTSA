@@ -1,0 +1,30 @@
+T1	LivingStatus 150 166	Previously lived
+T2	StatusTime 150 166	Previously lived
+T3	TypeLiving 167 175;176 182	with her mother
+T4	History 83 94	1 month ago
+T5	LivingStatus 128 132	live
+T6	TypeLiving 133 148	with her fiance
+T7	StatusTime 128 132	live
+T8	Employment 208 213	Works
+T9	StatusEmploy 208 213	Works
+T10	Type 217 227	an auditor
+T11	Tobacco 413 416	tob
+T12	Drug 418 443	marijuana or elicit drugs
+T13	Type 418 437	marijuana or elicit
+T14	StatusTime 410 412	No
+T15	Alcohol 341 347	Drinks
+T16	StatusTime 341 347	Drinks
+T18	Type 362 370	tequilla
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	LivingStatus:T5 Status:T7 Type:T6 History:T4
+E3	Employment:T8 Status:T9 Type:T10
+E4	Tobacco:T11 Status:T14
+E5	Drug:T12 Type:T13 Status:T14
+E6	Alcohol:T15 Status:T16 Type:T18
+A1	StatusTimeVal T2 past
+A2	TypeLivingVal T3 with_family
+A3	TypeLivingVal T6 with_others
+A4	StatusTimeVal T7 current
+A5	StatusEmployVal T9 employed
+A6	StatusTimeVal T14 none
+A7	StatusTimeVal T16 current

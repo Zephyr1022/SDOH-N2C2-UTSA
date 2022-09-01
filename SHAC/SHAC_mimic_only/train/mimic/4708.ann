@@ -1,0 +1,20 @@
+T1	Alcohol 27 38	Former EtOH
+T2	Tobacco 16 26	non-smoker
+T3	StatusTime 16 26	non-smoker
+T4	StatusTime 27 38	Former EtOH
+T5	Amount 44 60	[**2-4**] drinks
+T6	Frequency 61 70	per night
+T7	StatusTime 71 77	no h/o
+T8	Drug 78 82	IVDU
+T9	Method 78 82	IVDU
+T10	Type 107 123	computer analyst
+T11	Employment 98 103	works
+T12	StatusEmploy 98 103	works
+E1	Alcohol:T1 Status:T4 Amount:T5 Frequency:T6
+E2	Tobacco:T2 Status:T3
+E3	Drug:T8 Status:T7 Method:T9
+E4	Employment:T11 Type:T10 Status:T12
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T7 none
+A4	StatusEmployVal T12 employed

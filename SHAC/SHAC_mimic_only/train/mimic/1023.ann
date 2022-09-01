@@ -1,0 +1,33 @@
+T1	Employment 23 43	currently unemployed
+T2	StatusEmploy 23 43	currently unemployed
+T3	LivingStatus 115 120	lives
+T4	StatusTime 115 120	lives
+T5	TypeLiving 121 143	in [**Hospital1 392**]
+T6	Employment 82 88	worked
+T8	Type 92 102	ship yards
+T7	StatusEmploy 82 88	worked
+T9	Tobacco 218 225	tobacco
+T10	Amount 195 206	three packs
+T11	Frequency 207 214	per day
+T12	Duration 226 238	for 20 years
+T13	StatusTime 243 247	quit
+T14	History 248 256;257 260	33 years ago
+T15	Alcohol 291 305	abused alcohol
+T17	StatusTime 315 319	quit
+T18	History 320 338	in [**2169-3-14**]
+T19	Employment 52 58;59 67	a pipe designer
+T20	StatusEmploy 52 58;59 67	a pipe designer
+T21	Type 52 58;59 67	a pipe designer
+E1	Employment:T1 Status:T2
+E2	LivingStatus:T3 Status:T4 Type:T5
+E3	Employment:T6 Status:T7 Type:T8
+E4	Tobacco:T9 Amount:T10 Frequency:T11 Duration:T12 Status:T13 History:T14
+E5	Alcohol:T15 Status:T17 History:T18
+E6	Employment:T19 Status:T20 Type:T21
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T5 with_others
+A4	StatusEmployVal T7 unemployed
+A5	StatusTimeVal T13 past
+A7	StatusTimeVal T17 past
+A8	StatusEmployVal T20 employed

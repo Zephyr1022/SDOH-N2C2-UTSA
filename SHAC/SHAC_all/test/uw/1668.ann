@@ -1,0 +1,33 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 37	with boyfriend
+T4	Tobacco 40 47	tobacco
+T5	StatusTime 39 40	+
+T6	Amount 49 61	2 cigarettes
+T7	Frequency 61 65	/day
+T8	Alcohol 74 81	alcohol
+T9	StatusTime 67 73	denies
+T10	Drug 89 93	IVDU
+T11	Type 121 127	heroin
+T17	Drug 147 158	cocaine use
+T18	Type 147 154	cocaine
+T21	Drug 182 186	meth
+T22	Type 182 186	meth
+T23	StatusTime 198 219	doesn't use regularly
+T12	StatusTime 108 115	reports
+T13	Method 89 93	IVDU
+T19	StatusTime 159 170	a month ago
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 Amount:T6 Frequency:T7
+E3	Alcohol:T8 Status:T9
+E4	Drug:T10 Type:T11 Method:T13 Status:T12 History:T14
+E6	Drug:T17 Type:T18 Status:T19
+E7	Drug:T21 Type:T22 Status:T23
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T9 none
+A8	StatusTimeVal T23 current
+A5	StatusTimeVal T12 current
+A7	StatusTimeVal T19 current
+T14	History 132 145	one month ago

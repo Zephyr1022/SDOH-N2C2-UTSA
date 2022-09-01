@@ -1,0 +1,18 @@
+T1	LivingStatus 132 137	Lives
+T2	TypeLiving 138 148;149 152	in her own apt
+T3	Amount 16 29	+70 pack-year
+T4	StatusTime 42 46	quit
+T5	History 47 60	in [**2101**]
+T6	Tobacco 16 37	+70 pack-year history
+T7	Alcohol 65 69	EtOH
+T8	Drug 79 83;84 87	drug use
+T9	StatusTime 62 64	no
+T10	StatusTime 132 137	Lives
+E1	LivingStatus:T1 Type:T2 Status:T10
+E2	Tobacco:T6 Amount:T3 Status:T4 History:T5
+E3	Alcohol:T7 Status:T9
+E4	Drug:T8 Status:T9
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T10 current

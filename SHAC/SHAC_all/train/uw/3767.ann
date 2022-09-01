@@ -1,0 +1,22 @@
+T1	LivingStatus 49 65	Living situation
+T2	StatusTime 68 73	Lives
+T3	TypeLiving 74 96	with significant other
+T4	LivingStatus 99 104	Lives
+T5	StatusTime 99 104	Lives
+T6	TypeLiving 105 118	with children
+T7	Employment 121 131	Employment
+T8	StatusEmploy 134 142	Employed
+T12	Alcohol 173 184	Alcohol use
+T13	Type 186 197	hard liquor
+T14	Frequency 198 216	about twice a week
+T15	StatusTime 186 216	hard liquor about twice a week
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Employment:T7 Status:T8
+E5	Alcohol:T12 Status:T15 Type:T13 Frequency:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 with_family
+A5	StatusEmployVal T8 employed
+A7	StatusTimeVal T15 current

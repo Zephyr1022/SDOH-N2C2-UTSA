@@ -1,0 +1,21 @@
+T1	LivingStatus 116 121	Lives
+T2	TypeLiving 157 183	with a full-time caretaker
+T3	StatusTime 116 121	Lives
+T4	Tobacco 9 20	Tobacco Use
+T5	StatusTime 22 28	Smokes
+T6	Amount 29 36	1/2 PPD
+T7	Duration 38 48	x 20 years
+T8	Alcohol 50 61	Alcohol Use
+T9	StatusTime 63 67	Rare
+T10	Frequency 69 77	1x/month
+T11	Drug 80 88	Drug Use
+T12	StatusTime 90 96	Denies
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Status:T5 Amount:T6 Duration:T7
+E3	Alcohol:T8 Status:T9 Frequency:T10
+E4	Drug:T11 Status:T12
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T12 none

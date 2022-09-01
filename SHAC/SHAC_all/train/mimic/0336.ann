@@ -1,0 +1,27 @@
+T3	Employment 293 299	Worked
+T4	StatusEmploy 316 333	no longer working
+T5	Type 303 314	a counselor
+T6	Tobacco 350 356	smoker
+T8	StatusTime 358 367	currently
+T9	Amount 368 374	1 pack
+T10	Frequency 375 383	q2 weeks
+T12	Alcohol 394 398	ETOH
+T13	StatusTime 387 393	Former
+T15	History 411 427	since [**2174**]
+T16	Drug 437 441	IVDU
+T17	History 448 464	since [**2174**]
+T18	StatusTime 430 436	Former
+T19	Drug 474 485	cocaine use
+T20	Type 474 481	cocaine
+T21	Type 437 441	IVDU
+T22	StatusTime 467 485	Recent cocaine use
+E2	Employment:T3 Status:T4 Type:T5
+E3	Tobacco:T6 Status:T8 Amount:T9 Frequency:T10
+E4	Alcohol:T12 Status:T13 History:T15
+E5	Drug:T16 Type:T21 Status:T18 History:T17
+E6	Drug:T19 Type:T20 Status:T22
+A2	StatusEmployVal T4 unemployed
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T13 past
+A7	StatusTimeVal T18 past
+A8	StatusTimeVal T22 current

@@ -1,0 +1,15 @@
+T1	Tobacco 23 30	smoking
+T2	StatusTime 16 22	Denies
+T3	Alcohol 32 43	alcohol use
+T4	Drug 45 66	recreational drug use
+T5	LivingStatus 68 73	Lives
+T6	StatusTime 68 73	Lives
+T7	TypeLiving 82 91	with wife
+T8	Type 45 57	recreational
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T2
+E3	Drug:T4 Status:T2 Type:T8
+E4	LivingStatus:T5 Status:T6 Type:T7
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T6 current
+A3	TypeLivingVal T7 with_family

@@ -1,0 +1,30 @@
+T1	Tobacco 116 123	smoking
+T2	Type 124 134	cigarettes
+T3	StatusTime 111 115	Quit
+T4	History 135 147	20 years ago
+T5	Amount 149 165	20-30 pack years
+T6	Tobacco 176 181	smoke
+T7	StatusTime 171 181	does smoke
+T8	Type 182 188	cigars
+T9	Alcohol 193 197	EtOH
+T10	Drug 201 219	recreational drugs
+T11	Type 201 213	recreational
+T12	StatusTime 190 192	no
+T13	Employment 227 250	currently on disability
+T14	StatusEmploy 227 250	currently on disability
+T15	LivingStatus 42 47	lived
+T16	StatusTime 42 47	lived
+T17	History 16 40	Prior to current illness
+T18	TypeLiving 70 83;84 108	with his wife and 30 year old daughter
+E1	Tobacco:T1 Status:T3 Type:T2 History:T4 Amount:T5
+E2	Tobacco:T6 Status:T7 Type:T8
+E3	Alcohol:T9 Status:T12
+E4	Drug:T10 Type:T11 Status:T12
+E5	Employment:T13 Status:T14
+E6	LivingStatus:T15 Status:T16 History:T17 Type:T18
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T12 none
+A4	StatusEmployVal T14 on_disability
+A5	StatusTimeVal T16 past
+A6	TypeLivingVal T18 with_family

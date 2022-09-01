@@ -1,0 +1,12 @@
+T3	LivingStatus 124 130	living
+T4	StatusTime 120 123	was
+T5	TypeLiving 131 143	with brother
+T6	LivingStatus 71 77	Living
+T7	StatusTime 71 77	Living
+T8	TypeLiving 78 86	at a SNF
+E2	LivingStatus:T3 Status:T4 Type:T5
+E3	LivingStatus:T6 Status:T7 Type:T8
+A1	StatusTimeVal T4 past
+A2	TypeLivingVal T5 with_family
+A3	StatusTimeVal T7 current
+A4	TypeLivingVal T8 with_others

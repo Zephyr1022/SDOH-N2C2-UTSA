@@ -1,0 +1,16 @@
+T1	Employment 32 43	a homemaker
+T2	StatusEmploy 32 43	a homemaker
+T3	Tobacco 117 128	tobacco use
+T4	StatusTime 110 116	denies
+T5	Alcohol 154 165	alcohol use
+T7	StatusTime 171 177	denies
+T9	Drug 178 186	drug use
+T8	StatusTime 130 137	reports
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+E3	Alcohol:T5 Status:T8
+E4	Drug:T9 Status:T7
+A1	StatusEmployVal T2 homemaker
+A2	StatusTimeVal T4 none
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T8 current

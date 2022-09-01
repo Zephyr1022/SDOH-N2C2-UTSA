@@ -1,0 +1,17 @@
+T1	Employment 61 74	on disability
+T2	StatusEmploy 61 74	on disability
+T3	StatusTime 80 86	denies
+T4	Tobacco 98 109	tobacco use
+T5	StatusTime 111 117	denies
+T6	Alcohol 118 129	alcohol use
+T7	StatusTime 131 137	denies
+T8	Drug 138 154	illicit drug use
+T9	Type 138 145	illicit
+E1	Employment:T1 Status:T2
+E2	Tobacco:T4 Status:T3
+E3	Alcohol:T6 Status:T5
+E4	Drug:T8 Type:T9 Status:T7
+A1	StatusEmployVal T2 on_disability
+A2	StatusTimeVal T3 none
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 none

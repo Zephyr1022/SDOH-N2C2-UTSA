@@ -1,0 +1,26 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 30 39	with wife
+T4	Tobacco 106 112	Smoked
+T5	Amount 113 118	1 ppd
+T6	Duration 119 146	for between 30 and 40 years
+T7	StatusTime 151 158	stopped
+T8	History 159 167;168 171	26 years ago
+T9	Alcohol 177 181	ETOH
+T11	StatusTime 173 176	Occ
+T12	Drug 186 191	drugs
+T13	StatusTime 183 185	No
+T14	Employment 77 81	Owns
+T15	StatusEmploy 77 81	Owns
+T16	Type 82 104	office coffee business
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T5 Duration:T6 Status:T7 History:T8
+E3	Alcohol:T9 Status:T11
+E4	Drug:T12 Status:T13
+E5	Employment:T14 Status:T15 Type:T16
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T7 past
+A5	StatusTimeVal T11 current
+A6	StatusTimeVal T13 none
+A7	StatusEmployVal T15 employed

@@ -1,0 +1,22 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 42 61	with his girlfriend
+T4	Employment 125 130	Works
+T5	StatusEmploy 125 130	Works
+T6	Type 134 143	a painter
+T7	Tobacco 145 159	Current smoker
+T8	StatusTime 145 159	Current smoker
+T9	Alcohol 192 196	etoh
+T10	Drug 200 208	illicits
+T11	Type 200 208	illicits
+T12	StatusTime 189 191	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Status:T12
+E5	Drug:T10 Status:T12 Type:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T12 none

@@ -1,0 +1,57 @@
+T1	Alcohol 97 108	Alcohol Use
+T2	Tobacco 9 20	Tobacco Use
+T3	StatusTime 22 26	Quit
+T4	History 27 40	~10 years ago
+T5	Amount 63 75	6 cigarettes
+T6	Frequency 75 79	/day
+T7	Duration 80 93	for ~15 years
+T8	Amount 128 135	1 drink
+T9	Frequency 135 141	/night
+T10	StatusTime 121 127	drinks
+T11	Alcohol 237 243	drinks
+T12	Amount 233 243	3-4 drinks
+T13	Frequency 244 253	per night
+T14	StatusTime 229 253	has 3-4 drinks per night
+T15	Amount 265 277	15-19 drinks
+T16	Frequency 277 282	/week
+T17	StatusTime 265 282	15-19 drinks/week
+T18	Alcohol 271 277	drinks
+T19	History 416 428	13 years ago
+T20	Duration 390 407	~ a 1 year period
+T21	Alcohol 460 465	drank
+T23	StatusTime 416 428	13 years ago
+T24	Drug 665 673	Drug Use
+T25	StatusTime 675 690	Currently using
+T26	Type 691 693	MJ
+T27	Method 694 701	edibles
+T28	Duration 702 720	for last two weeks
+T29	LivingStatus 982 987	Lives
+T30	TypeLiving 988 999	with mother
+T31	StatusTime 982 987	Lives
+T32	Employment 1049 1054	Works
+T33	StatusEmploy 1049 1054	Works
+T34	Type 1076 1087	a bartender
+E1	Alcohol:T1 Amount:T8 Frequency:T9 Status:T10
+E2	Tobacco:T2 Status:T3 History:T4 Amount:T5 Frequency:T6 Duration:T7 Type:T22
+E3	Alcohol:T11 Frequency:T13 Amount:T12 Status:T14
+E4	Alcohol:T18 Frequency:T16 Status:T17 Amount:T15
+E5	Alcohol:T21 History:T19 Status:T23 Duration:T20
+E6	Drug:T24 Status:T25 Type:T26 Method:T27 Duration:T28
+E7	LivingStatus:T29 Type:T30 Status:T31
+E8	Employment:T32 Type:T34 Status:T33
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T10 current
+A3	StatusTimeVal T14 current
+A4	StatusTimeVal T17 current
+A6	StatusTimeVal T23 past
+A7	StatusTimeVal T25 current
+A8	TypeLivingVal T30 with_family
+A9	StatusTimeVal T31 current
+A10	StatusEmployVal T33 employed
+T22	Type 65 75	cigarettes
+T35	Amount 296 327	5 or more drinks in one sitting
+T36	Frequency 328 358	a few times over the last year
+T37	Alcohol 306 312	drinks
+E9	Alcohol:T37 Amount:T35 Status:T38 Frequency:T36
+T38	StatusTime 288 291	has
+A5	StatusTimeVal T38 current

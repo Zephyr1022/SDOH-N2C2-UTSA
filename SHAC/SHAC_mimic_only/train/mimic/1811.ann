@@ -1,0 +1,19 @@
+T1	Tobacco 17 23	Smoker
+T2	StatusTime 17 23	Smoker
+T3	Alcohol 36 49	alcohol abuse
+T5	StatusTime 25 35	History of
+T6	Employment 55 56;57 64	a teacher
+T7	StatusEmploy 51 54	Was
+T8	Type 55 56;57 64	a teacher
+T9	LivingStatus 83 88	Lives
+T10	TypeLiving 89 113	in [**Hospital3 **] Home
+T11	StatusTime 83 88	Lives
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T5
+E3	Employment:T6 Status:T7 Type:T8
+E4	LivingStatus:T9 Type:T10 Status:T11
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T5 past
+A4	StatusEmployVal T7 unemployed
+A5	TypeLivingVal T10 with_others
+A6	StatusTimeVal T11 current

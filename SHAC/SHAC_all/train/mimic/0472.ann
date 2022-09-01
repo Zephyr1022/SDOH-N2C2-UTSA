@@ -1,0 +1,9 @@
+T1	Tobacco 18 33	Tobacco history
+T2	StatusTime 35 50	previous smoker
+T3	Drug 61 74	Illicit drugs
+T4	Type 61 68	Illicit
+T5	StatusTime 76 80	none
+E1	Tobacco:T1 Status:T2
+E2	Drug:T3 Type:T4 Status:T5
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 none

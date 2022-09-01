@@ -1,0 +1,25 @@
+T1	Employment 50 74	a retired window cleaner
+T2	StatusEmploy 50 74	a retired window cleaner
+T3	Type 50 74	a retired window cleaner
+T4	Tobacco 85 92	smoking
+T5	StatusTime 80 84	quit
+T6	History 93 95;96 105	20 years ago
+T7	Amount 132 141	1.5 packs
+T8	Frequency 142 149	per day
+T9	Duration 150 159;160 165	for sixty years
+T10	Alcohol 181 189	drinking
+T11	Amount 190 214	about 3 alcoholic drinks
+T12	Frequency 215 218;219 224	per month
+T13	StatusTime 171 180	estimates
+T14	LivingStatus 230 235	lives
+T15	StatusTime 230 235	lives
+T16	TypeLiving 236 241	alone
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6 Amount:T7 Frequency:T8 Duration:T9
+E3	Alcohol:T10 Amount:T11 Status:T13 Frequency:T12
+E4	LivingStatus:T14 Status:T15 Type:T16
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T13 current
+A4	StatusTimeVal T15 current
+A5	TypeLivingVal T16 alone

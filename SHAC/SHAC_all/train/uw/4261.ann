@@ -1,0 +1,23 @@
+T1	LivingStatus 17 25	homeless
+T2	TypeLiving 17 25	homeless
+T3	StatusTime 17 25	homeless
+T4	LivingStatus 37 42	lives
+T5	StatusTime 27 36	sometimes
+T6	TypeLiving 43 54	with family
+T7	Drug 101 113	heroin, meth
+T8	Type 101 113	heroin, meth
+T9	StatusTime 96 100	uses
+T10	Alcohol 115 122	alcohol
+T11	Tobacco 163 170	tobacco
+T12	StatusTime 156 162	denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Drug:T7 Type:T8 Status:T9
+E4	Alcohol:T10 Status:T9
+E5	Tobacco:T11 Status:T12
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 with_family
+A5	StatusTimeVal T9 current
+A6	StatusTimeVal T12 none

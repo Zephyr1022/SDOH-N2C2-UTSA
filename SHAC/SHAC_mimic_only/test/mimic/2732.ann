@@ -1,0 +1,13 @@
+T1	StatusTime 20 26	denies
+T2	Alcohol 31 38	alcohol
+T3	Drug 40 44	drug
+T4	Tobacco 48 61	tobacco abuse
+T6	Tobacco 84 91	smoking
+T7	History 92 107	three weeks ago
+T8	StatusTime 79 83	quit
+E1	Alcohol:T2 Status:T1
+E2	Drug:T3 Status:T1
+E3	Tobacco:T4 Status:T1
+E4	Tobacco:T6 Status:T8 History:T7
+A1	StatusTimeVal T1 none
+A3	StatusTimeVal T8 past

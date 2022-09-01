@@ -1,0 +1,19 @@
+T1	Employment 119 128	housewife
+T2	StatusEmploy 119 128	housewife
+T3	Tobacco 92 99	tobacco
+T4	Alcohol 101 105	EtOH
+T5	Drug 110 118	illicits
+T6	Type 110 118	illicits
+T7	StatusTime 89 91	no
+T10	StatusTime 17 22	lives
+T11	LivingStatus 17 22	lives
+T12	TypeLiving 23 35	with husband
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Status:T7
+E3	Alcohol:T4 Status:T7
+E4	Drug:T5 Status:T7 Type:T6
+E6	LivingStatus:T11 Type:T12 Status:T10
+A1	StatusEmployVal T2 homemaker
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T10 current
+A4	TypeLivingVal T12 with_family

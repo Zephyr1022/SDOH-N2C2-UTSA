@@ -1,0 +1,32 @@
+T1	LivingStatus 149 157	Homeless
+T2	StatusTime 149 157	Homeless
+T3	TypeLiving 149 157	Homeless
+T4	Employment 267 273	worked
+T5	StatusEmploy 258 273	Formerly worked
+T6	Type 277 308	law enforcement and real estate
+T7	Tobacco 9 20	Tobacco Use
+T8	Alcohol 46 57	Alcohol Use
+T9	Drug 74 82	Drug Use
+T10	Type 84 106	"street drugs," heroin
+T11	StatusTime 84 106	"street drugs," heroin
+T12	Frequency 59 71	Q 3-4 months
+T13	StatusTime 59 71	Q 3-4 months
+T14	Amount 22 35	100 pack year
+T15	StatusTime 22 43	100 pack year history
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Type:T6 Status:T5
+E3	Tobacco:T7 Amount:T14 Status:T15
+E4	Alcohol:T8 Frequency:T12 Status:T13
+E5	Drug:T9 Status:T11 Type:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T11 current
+A5	StatusTimeVal T13 current
+A6	StatusTimeVal T15 current
+T18	LivingStatus 125 134	Residence
+E6	LivingStatus:T18 Status:T20 Type:T19
+T19	TypeLiving 136 148	the Morrison
+A7	TypeLivingVal T19 homeless
+T20	StatusTime 136 148	the Morrison
+A8	StatusTimeVal T20 current

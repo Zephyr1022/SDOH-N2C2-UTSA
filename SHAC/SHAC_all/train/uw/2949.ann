@@ -1,0 +1,50 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 28	10 cig
+T3	Frequency 28 32	/day
+T4	Duration 33 42	x17 years
+T5	StatusTime 22 32	10 cig/day
+T6	Alcohol 43 54	Alcohol Use
+T7	Amount 56 64	5 drinks
+T8	Frequency 65 73	per week
+T9	StatusTime 56 73	5 drinks per week
+T10	Drug 74 82	Drug use
+T11	Type 84 93	Marijuana
+T12	Amount 94 101	4 times
+T13	Frequency 102 109	per day
+T14	StatusTime 84 109	Marijuana 4 times per day
+T15	Drug 122 136	smoking heroin
+T16	Method 122 129	smoking
+T17	Type 130 136	heroin
+T18	StatusTime 138 142	last
+T19	History 143 155	6 months ago
+T22	LivingStatus 287 295	Homeless
+T23	TypeLiving 287 295	Homeless
+T24	StatusTime 296 309	as a teenager
+T25	LivingStatus 311 316	Lived
+T26	StatusTime 317 335	in her high school
+T27	TypeLiving 317 335	in her high school
+T28	Employment 381 394	On disability
+T29	StatusEmploy 381 394	On disability
+E1	Tobacco:T1 Amount:T2 Frequency:T3 Status:T5 Duration:T4 Type:T20
+E2	Alcohol:T6 Status:T9 Amount:T7 Frequency:T8
+E3	Drug:T10 Type:T11 Amount:T12 Frequency:T13 Status:T14
+E4	Drug:T15 Method:T16 Type:T17 Status:T18 History:T19
+E6	LivingStatus:T22 Type:T23 Status:T24
+E7	LivingStatus:T25 Status:T26 Type:T27
+E8	Employment:T28 Status:T29
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T9 current
+A3	StatusTimeVal T14 current
+A4	StatusTimeVal T18 past
+A5	TypeLivingVal T23 homeless
+A6	StatusTimeVal T24 past
+A7	StatusTimeVal T26 past
+A8	TypeLivingVal T27 homeless
+A9	StatusEmployVal T29 on_disability
+T20	Type 25 28	cig
+T21	LivingStatus 205 211	Living
+E5	LivingStatus:T21 Status:T30 Type:T31
+T30	StatusTime 205 211	Living
+A10	StatusTimeVal T30 current
+T31	TypeLiving 212 220	in an RV
+A11	TypeLivingVal T31 homeless

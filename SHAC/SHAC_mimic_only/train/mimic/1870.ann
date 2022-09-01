@@ -1,0 +1,14 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 38	with her husband
+T3	StatusTime 16 21	Lives
+T4	Tobacco 114 124	non-smoker
+T5	StatusTime 114 124	non-smoker
+T6	Alcohol 129 137	ETOH use
+T7	StatusTime 126 128	No
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 none

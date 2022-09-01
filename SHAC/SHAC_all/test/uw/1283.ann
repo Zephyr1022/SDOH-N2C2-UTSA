@@ -1,0 +1,10 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 23	x
+T3	LivingStatus 119 128	Residence
+T4	TypeLiving 130 133	SNF
+T5	StatusTime 130 133	SNF
+E1	Tobacco:T1 Status:T2
+E2	LivingStatus:T3 Type:T4 Status:T5
+A1	StatusTimeVal T2 none
+A2	TypeLivingVal T4 with_others
+A3	StatusTimeVal T5 current

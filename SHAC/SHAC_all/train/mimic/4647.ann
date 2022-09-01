@@ -1,0 +1,24 @@
+T1	Tobacco 71 78	smoking
+T2	StatusTime 67 70	h/o
+T3	Alcohol 88 92	ETOH
+T4	StatusTime 81 87	social
+T6	Drug 102 114;115 118	illicit drug use
+T7	Type 102 109	illicit
+T8	StatusTime 99 101	no
+T9	LivingStatus 120 125	lives
+T10	TypeLiving 132 154	with long-time partner
+T11	StatusTime 120 125	lives
+T17	Type 448 457	a florist
+T18	Employment 439 444	works
+T19	StatusEmploy 439 444	works
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T6 Type:T7 Status:T8
+E4	LivingStatus:T9 Type:T10 Status:T11
+E7	Employment:T18 Type:T17 Status:T19
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 current
+A4	StatusTimeVal T8 none
+A5	TypeLivingVal T10 with_family
+A6	StatusTimeVal T11 current
+A8	StatusEmployVal T19 employed

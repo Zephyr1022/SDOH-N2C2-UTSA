@@ -1,0 +1,20 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 28 40	30 pack year
+T3	StatusTime 62 66	quit
+T4	History 67 81	gt10 years ago
+T5	Alcohol 83 94	Alcohol Use
+T6	StatusTime 96 102	Denies
+T7	Drug 106 114	Drug Use
+T8	StatusTime 116 122	Denies
+T9	LivingStatus 141 146	Lives
+T10	StatusTime 141 146	Lives
+T11	TypeLiving 147 152	alone
+E1	Tobacco:T1 Amount:T2 Status:T3 History:T4
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Status:T8
+E4	LivingStatus:T9 Status:T10 Type:T11
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T10 current
+A5	TypeLivingVal T11 alone

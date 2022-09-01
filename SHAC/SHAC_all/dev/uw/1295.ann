@@ -1,0 +1,11 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 23 48	w multiple family members
+T3	StatusTime 17 22	Lives
+T5	StatusTime 50 58	frequent
+T4	Drug 59 68	MJ smoker
+T6	Method 62 68	smoker
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Drug:T4 Status:T5 Method:T6
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current

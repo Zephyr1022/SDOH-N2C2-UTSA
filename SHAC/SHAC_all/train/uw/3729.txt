@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: Denies   Alcohol Use: Rare  Drug Use: None, has smoked MJ in the past
+
+SOCIAL HISTORY: 
+He is originally from [LOCATION]. He relocated to [LOCATION] in 2015 for Multiple Myeloma treatment. He worked as an engineer for a company involved in energy. His brother, [NAME], and sister, [NAME], are here from [LOCATION] with plans to move him back to [LOCATION] to live with [NAME].

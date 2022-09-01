@@ -1,0 +1,20 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 31	nonsmoker
+T3	Alcohol 32 43	Alcohol Use
+T5	StatusTime 45 54	rare ETOH
+T6	Drug 55 63	Drug Use
+T7	Type 65 68	THC
+T8	Amount 69 77	3-4 days
+T9	Frequency 77 82	/week
+T10	StatusTime 69 82	3-4 days/week
+T11	Employment 102 107	Works
+T12	StatusEmploy 102 107	Works
+T13	Type 111 116	an RN
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T5
+E3	Drug:T6 Type:T7 Amount:T8 Frequency:T9 Status:T10
+E4	Employment:T11 Status:T12 Type:T13
+A1	StatusTimeVal T2 none
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T10 current
+A5	StatusEmployVal T12 employed

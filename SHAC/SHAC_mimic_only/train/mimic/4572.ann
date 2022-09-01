@@ -1,0 +1,11 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 35	with daughter
+T4	Employment 141 147	worked
+T5	StatusEmploy 141 147	worked
+T6	Type 151 162	a laundress
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed

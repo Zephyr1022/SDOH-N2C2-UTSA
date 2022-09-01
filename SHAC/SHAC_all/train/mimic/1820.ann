@@ -1,0 +1,28 @@
+T1	LivingStatus 26 31	Lives
+T2	TypeLiving 54 64	by himself
+T3	StatusTime 26 31	Lives
+T4	Alcohol 66 70	EtOH
+T5	StatusTime 91 95	quit
+T7	Tobacco 107 110	Tob
+T8	StatusTime 112 116	quit
+T9	History 125 138	in [**2135**]
+T10	Amount 140 144	2ppd
+T11	Duration 145 166	between [**2100**]-93
+T12	Drug 168 181	Illicit drugs
+T14	Method 183 189	smoked
+T15	Type 190 195	crack
+T16	StatusTime 183 189	smoked
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Status:T5 History:T6
+E3	Tobacco:T7 Status:T8 History:T9 Amount:T10 Duration:T11
+E4	Drug:T12 Method:T14 Type2:T15 Status:T16
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 past
+A5	StatusTimeVal T8 past
+A6	StatusTimeVal T16 past
+T6	History 96 106	[**2135**]
+T13	Employment 16 24	Disabled
+E5	Employment:T13 Status:T17
+T17	StatusEmploy 16 24	Disabled
+A4	StatusEmployVal T17 on_disability

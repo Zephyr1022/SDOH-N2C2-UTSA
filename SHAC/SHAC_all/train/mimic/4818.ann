@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	lives
+T2	TypeLiving 22 37	with girlfriend
+T3	StatusTime 16 21	lives
+T4	Tobacco 49 56	tobacco
+T5	StatusTime 38 48	never used
+T6	Amount 57 75	[**12-31**] drinks
+T7	Frequency 76 85	per month
+T8	Alcohol 69 75	drinks
+T9	Employment 86 91	works
+T10	Type 95 106	collections
+T11	StatusEmploy 86 91	works
+T12	StatusTime 57 85	[**12-31**] drinks per month
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T8 Amount:T6 Status:T12 Frequency:T7
+E4	Employment:T9 Status:T11 Type:T10
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none
+A4	StatusEmployVal T11 employed
+A5	StatusTimeVal T12 current

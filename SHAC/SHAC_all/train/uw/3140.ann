@@ -1,0 +1,37 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 23 30	1/2 ppd
+T3	StatusTime 23 30	1/2 ppd
+T4	Tobacco 43 50	1-2 ppd
+T5	Amount 43 50	1-2 ppd
+T6	StatusTime 32 42	previously
+T7	Alcohol 61 72	Alcohol Use
+T8	StatusTime 75 88	none recently
+T9	Drug 89 97	Drug Use
+T10	Method 107 111	IVDU
+T11	StatusTime 100 106	denies
+T12	Drug 113 125	cocaine, +MJ
+T13	Type 113 125	cocaine, +MJ
+T14	StatusTime 113 125	cocaine, +MJ
+T15	LivingStatus 253 261	homeless
+T16	TypeLiving 253 261	homeless
+T17	StatusTime 246 252	became
+T18	LivingStatus 287 292	lives
+T19	TypeLiving 293 313	at Jefferson respite
+T20	StatusTime 287 292	lives
+E1	Tobacco:T1 Amount:T2 Status:T3
+E2	Tobacco:T4 Amount:T5 Status:T6 Duration:T23
+E3	Alcohol:T7 Status:T8
+E4	Drug:T9 Status:T11 Method:T10
+E5	Drug:T12 Type:T13 Status:T14
+E6	LivingStatus:T15 Type:T16 Status:T17
+E7	LivingStatus:T18 Type:T19 Status:T20
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T11 none
+A5	StatusTimeVal T14 current
+A6	TypeLivingVal T16 homeless
+A7	StatusTimeVal T17 current
+A8	TypeLivingVal T19 homeless
+A9	StatusTimeVal T20 current
+T23	Duration 51 58	x years

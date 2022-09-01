@@ -1,0 +1,19 @@
+T1	Employment 180 198;199 206	Owns a landscaping company
+T2	StatusEmploy 180 198;199 206	Owns a landscaping company
+T3	Tobacco 209 224	Tobacco history
+T4	StatusTime 226 238	Never smoker
+T5	Alcohol 240 244	ETOH
+T6	Amount 246 253	4 beers
+T7	Frequency 254 262	per week
+T8	StatusTime 246 262	4 beers per week
+T9	Drug 264 277	Illicit drugs
+T10	Type 264 271	Illicit
+T11	StatusTime 279 283	none
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+E3	Alcohol:T5 Amount:T6 Frequency:T7 Status:T8
+E4	Drug:T9 Type:T10 Status:T11
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T11 none

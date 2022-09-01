@@ -1,0 +1,20 @@
+T1	LivingStatus 17 25	Homeless
+T2	TypeLiving 17 25	Homeless
+T3	StatusTime 17 25	Homeless
+T4	Tobacco 27 30	Tob
+T5	Amount 49 61	4 cigarettes
+T6	Frequency 61 65	/day
+T7	Type 51 61	cigarettes
+T8	StatusTime 49 65	4 cigarettes/day
+T9	Alcohol 67 71	EtOH
+T10	Amount 90 97	6 beers
+T11	Type 92 97	beers
+T12	Frequency 98 104	/ week
+T13	StatusTime 90 104	6 beers / week
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Type:T7 Amount:T5 Status:T8 Frequency:T6
+E3	Alcohol:T9 Type:T11 Amount:T10 Frequency:T12 Status:T13
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T13 current

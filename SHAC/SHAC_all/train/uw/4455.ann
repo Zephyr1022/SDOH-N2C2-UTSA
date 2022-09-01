@@ -1,0 +1,20 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 29	1/2 PPD
+T3	StatusTime 22 29	1/2 PPD
+T4	Alcohol 46 57	Alcohol Use
+T5	StatusTime 59 65	denies
+T6	Drug 68 76	Drug Use
+T7	StatusTime 78 84	Denies
+T8	LivingStatus 103 108	Lives
+T9	StatusTime 103 108	Lives
+T10	TypeLiving 109 126	at Blaine shelter
+E1	Tobacco:T1 Amount:T2 Status:T3 Amount2:T13
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Status:T7
+E4	LivingStatus:T8 Status:T9 Type:T10
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T10 homeless
+T13	Amount 31 39	40 pk/yr

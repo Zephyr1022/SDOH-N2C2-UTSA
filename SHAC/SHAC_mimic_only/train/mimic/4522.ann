@@ -1,0 +1,44 @@
+T1	LivingStatus 24 29	lives
+T2	StatusTime 24 29	lives
+T3	TypeLiving 38 67	with his long-term girlfriend
+T4	Employment 83 90	working
+T5	StatusEmploy 69 78;79 90	currently not working
+T6	Alcohol 103 108	drink
+T7	StatusTime 95 102	used to
+T8	Amount 109 137	about half a gallon of vodka
+T9	Type 132 137	vodka
+T10	Frequency 138 139;140 143	a day
+T11	History 145 175	until diagnosed with cirrhosis
+T12	Tobacco 241 248	smoking
+T13	Amount 222 229	1.5 ppd
+T14	Duration 230 240	X 30 years
+T15	StatusTime 274 293	re-started recently
+T16	Tobacco 300 307	smoking
+T17	StatusTime 296 299	Now
+T18	Amount 308 328	[**4-9**] cigarettes
+T19	Type 318 328	cigarettes
+T20	Frequency 328 332	/day
+T21	Drug 353 378	significant IV heroin use
+T22	Method 365 367	IV
+T23	Type 368 374	heroin
+T24	Duration 334 341	12 year
+T25	StatusTime 342 349	history
+T26	Drug 410 419	IV heroin
+T27	StatusTime 405 438	Used IV heroin last on [**7-25**]
+T28	Method 410 412	IV
+T29	Type 413 419	heroin
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Alcohol:T6 Status:T7 Amount:T8 Type:T9 Frequency:T10 History:T11
+E4	Tobacco:T12 Duration:T14 Amount:T13 Status:T15
+E5	Tobacco:T16 Status:T17 Amount:T18 Type:T19 Frequency:T20
+E6	Drug:T21 Type:T23 Method:T22 Status:T25 Duration:T24
+E7	Drug:T26 Status:T27 Type:T29 Method:T28
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T7 past
+A5	StatusTimeVal T15 current
+A6	StatusTimeVal T17 current
+A7	StatusTimeVal T25 current
+A8	StatusTimeVal T27 current

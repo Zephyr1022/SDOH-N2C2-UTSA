@@ -1,0 +1,18 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	denies
+T3	Alcohol 31 42	Alcohol Use
+T4	StatusTime 44 50	denies
+T5	Drug 53 61	Drug Use
+T6	StatusTime 63 69	denies
+T7	LivingStatus 99 107	homeless
+T8	StatusTime 96 98	is
+T9	TypeLiving 99 107	homeless
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Type:T9 Status:T8
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 homeless

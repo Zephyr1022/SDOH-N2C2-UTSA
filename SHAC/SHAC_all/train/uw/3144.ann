@@ -1,0 +1,52 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 29	1.5 PPD
+T3	History 30 41	from age 10
+T4	StatusTime 22 29	1.5 PPD
+T5	Alcohol 73 84	Alcohol Use
+T6	StatusTime 86 101	None since 2007
+T7	History 91 101	since 2007
+T9	Alcohol 149 156	whiskey
+T10	Type 149 156	whiskey
+T11	History 157 165	at 10y/o
+T12	StatusTime 157 165	at 10y/o
+T13	Drug 170 178	Drug Use
+T14	Type 180 189	marijuana
+T15	Frequency 190 197	Q2weeks
+T16	Drug 228 232	IVDU
+T17	Method 228 232	IVDU
+T18	StatusTime 225 227	No
+T19	Drug 237 253	cocaine/meth use
+T20	Type 237 249	cocaine/meth
+T21	StatusTime 234 236	no
+T22	StatusTime 273 278	Lives
+T23	TypeLiving 293 316	with her husband [NAME]
+T24	LivingStatus 273 278	Lives
+T25	Employment 378 391	on disability
+T26	StatusEmploy 378 391	on disability
+T27	Duration 392 401	x 2 years
+T28	Type 453 457	pain
+T29	StatusTime 180 197	marijuana Q2weeks
+E1	Tobacco:T1 Amount:T2 Status:T4 History:T3
+E2	Alcohol:T5 History:T7 Status:T6
+E3	Alcohol:T9 History:T11 Type:T10 Status:T12
+E4	Drug:T13 Type:T14 Frequency:T15 Status:T29
+E5	Drug:T16 Status:T18 Method:T17
+E6	Drug:T19 Type:T20 Status:T21
+E7	LivingStatus:T24 Status:T22 Type:T23
+E8	Employment:T25 Status:T26 Duration:T27 Type:T28
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T6 past
+A4	StatusTimeVal T12 past
+A5	StatusTimeVal T18 none
+A6	StatusTimeVal T21 none
+A7	StatusTimeVal T22 current
+A8	TypeLivingVal T23 with_family
+A9	StatusEmployVal T26 employed
+A10	StatusTimeVal T29 current
+T8	Tobacco 54 63	6cigs/day
+E9	Tobacco:T8 Amount:T30 Status:T33 Frequency:T31 Duration:T32
+T30	Amount 54 59	6cigs
+T31	Frequency 59 63	/day
+T32	Duration 64 68	2014
+T33	StatusTime 43 53	reduced to
+A3	StatusTimeVal T33 current

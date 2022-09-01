@@ -1,0 +1,18 @@
+T1	LivingStatus 16 21	lives
+T2	TypeLiving 36 49	independently
+T3	StatusTime 16 21	lives
+T4	Tobacco 98 104	smokes
+T5	Amount 105 119	3-4 cigarettes
+T6	Type 109 119	cigarettes
+T7	Frequency 120 125	a day
+T8	StatusTime 98 104	smokes
+T9	Alcohol 144 151	alcohol
+T10	History 156 167	2 weeks ago
+T11	StatusTime 130 140	last drink
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Amount:T5 Type:T6 Frequency:T7 Status:T8
+E3	Alcohol:T9 Status:T11 History:T10
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T11 past

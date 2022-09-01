@@ -1,0 +1,21 @@
+T1	Tobacco 23 30	tobacco
+T2	Alcohol 31 38	alcohol
+T3	Drug 39 52	illicit drugs
+T4	Type 39 46	illicit
+T5	StatusTime 16 22	Denies
+T6	LivingStatus 114 121	resides
+T7	StatusTime 114 121	resides
+T8	TypeLiving 122 156	at [**Hospital1 100**] Senior Life
+T9	History 199 215	since [**2148**]
+T10	Employment 54 80	Retired teacher of Russian
+T11	StatusEmploy 54 80	Retired teacher of Russian
+T12	Type 54 80	Retired teacher of Russian
+E1	Tobacco:T1 Status:T5
+E2	Alcohol:T2 Status:T5
+E3	Drug:T3 Status:T5 Type:T4
+E4	LivingStatus:T6 Status:T7 Type:T8 History:T9
+E5	Employment:T10 Status:T11 Type:T12
+A1	StatusTimeVal T5 none
+A2	StatusTimeVal T7 current
+A3	TypeLivingVal T8 with_others
+A4	StatusEmployVal T11 retired

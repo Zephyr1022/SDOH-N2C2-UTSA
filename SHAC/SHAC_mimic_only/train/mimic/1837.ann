@@ -1,0 +1,18 @@
+T1	LivingStatus 27 32	Lives
+T2	StatusTime 27 32	Lives
+T3	TypeLiving 33 38	alone
+T4	Employment 58 65	student
+T5	Type 45 65	2nd year law student
+T6	StatusEmploy 58 65	student
+T7	Drug 323 338	cocaine, heroin
+T8	Type 323 338	cocaine, heroin
+T9	StatusTime 319 322	H/o
+T10	Alcohol 374 384	ETOH abuse
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	Drug:T7 Type:T8 Status:T9
+E4	Alcohol:T10 Status:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T6 student
+A4	StatusTimeVal T9 past

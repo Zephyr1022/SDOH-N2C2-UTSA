@@ -1,0 +1,28 @@
+T1	LivingStatus 17 25	Homeless
+T2	StatusTime 17 25	Homeless
+T3	TypeLiving 17 25	Homeless
+T4	Employment 26 36	Unemployed
+T5	StatusEmploy 26 36	Unemployed
+T6	Tobacco 49 56	tobacco
+T7	StatusTime 48 49	+
+T8	Alcohol 58 62	etoh
+T9	StatusTime 57 58	+
+T10	Drug 67 74	cocaine
+T11	Type 67 74	cocaine
+T12	StatusTime 63 66	h/o
+T13	StatusTime 75 78	h/o
+T14	Drug 79 85	heroin
+T15	Type 79 85	heroin
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T7
+E4	Alcohol:T8 Status:T9
+E5	Drug:T10 Type:T11 Status:T12
+E6	Drug:T14 Type:T15 Status:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T7 current
+A5	StatusTimeVal T9 current
+A6	StatusTimeVal T12 current
+A7	StatusTimeVal T13 current

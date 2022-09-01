@@ -1,0 +1,12 @@
+T1	Tobacco 21 28	tobacco
+T2	Alcohol 30 37	alcohol
+T3	Drug 42 47	drugs
+T4	StatusTime 18 20	No
+T5	Employment 88 111	Currently on disability
+T6	StatusEmploy 98 111	on disability
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T4
+E3	Drug:T3 Status:T4
+E4	Employment:T5 Status:T6
+A1	StatusTimeVal T4 none
+A2	StatusEmployVal T6 on_disability

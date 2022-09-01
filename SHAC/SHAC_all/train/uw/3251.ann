@@ -1,0 +1,9 @@
+T1	Employment 56 77	currently unemployeed
+T2	StatusEmploy 56 77	currently unemployeed
+T3	Type 28 39	Electrician
+T4	Tobacco 80 87	Tobacco
+T5	StatusTime 89 97	endorses
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 current

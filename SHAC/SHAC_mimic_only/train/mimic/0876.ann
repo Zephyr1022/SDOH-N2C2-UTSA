@@ -1,0 +1,15 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 23 36	independently
+T3	StatusTime 17 22	Lives
+T4	Employment 39 57	Retired Registered
+T5	Type 47 57;58 63	Registered Nurse
+T6	StatusEmploy 39 57	Retired Registered
+T7	Tobacco 65 78	former smoker
+T8	StatusTime 65 78	former smoker
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T8
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T6 retired
+A4	StatusTimeVal T8 past

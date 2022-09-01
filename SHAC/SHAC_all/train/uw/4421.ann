@@ -1,0 +1,19 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 30	1/2 pack
+T3	Frequency 31 38	per day
+T4	Duration 39 51	for 20 years
+T5	StatusTime 22 51	1/2 pack per day for 20 years
+T6	Alcohol 54 65	Alcohol Use
+T7	Amount 92 107	2-3 16 oz beers
+T8	Frequency 108 115	per day
+T9	StatusTime 67 74	Stopped
+T10	History 75 90	for 2-2.5 weeks
+T11	Type 102 107	beers
+T12	Drug 155 163	Drug Use
+T13	StatusTime 165 171	Denies
+E1	Tobacco:T1 Amount:T2 Frequency:T3 Duration:T4 Status:T5
+E2	Alcohol:T6 Status:T9 History:T10 Amount:T7 Type:T11 Frequency:T8
+E3	Drug:T12 Status:T13
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T9 past
+A3	StatusTimeVal T13 none

@@ -1,0 +1,42 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 36	Current smoker
+T3	Alcohol 39 50	Alcohol Use
+T4	StatusTime 52 58	Denies
+T5	Drug 61 69	Drug Use
+T6	StatusTime 71 77	Denies
+T7	LivingStatus 96 105	Residence
+T8	StatusTime 107 115	homeless
+T9	TypeLiving 107 115	homeless
+T10	Tobacco 227 241	Current smoker
+T11	StatusTime 227 241	Current smoker
+T12	Tobacco 667 684	cigarette smoking
+T13	Type 667 676	cigarette
+T15	StatusTime 687 690	was
+T16	LivingStatus 717 725	homeless
+T17	TypeLiving 717 725	homeless
+T18	StatusTime 726 737	in the past
+T19	Drug 789 807	recreational drugs
+T20	Type 789 801	recreational
+T21	StatusTime 776 788	has not used
+T22	Alcohol 760 771	alcohol use
+T23	StatusTime 741 759	denies significant
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Status:T8 Type:T9
+E5	Tobacco:T10 Status:T11
+E6	Tobacco:T12 Type:T13 Status:T15
+E7	LivingStatus:T16 Type:T17 Status:T18
+E8	Drug:T19 Type:T20 Status:T21
+E9	Alcohol:T22 Status:T23
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 homeless
+A6	StatusTimeVal T11 current
+A8	StatusTimeVal T15 past
+A9	TypeLivingVal T17 homeless
+A10	StatusTimeVal T18 past
+A11	StatusTimeVal T21 none
+A12	StatusTimeVal T23 none

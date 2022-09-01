@@ -1,0 +1,16 @@
+T1	LivingStatus 17 25	Homeless
+T2	StatusTime 17 25	Homeless
+T3	TypeLiving 17 25	Homeless
+T4	Tobacco 84 91	tobacco
+T5	Amount 78 83	1 ppd
+T6	StatusTime 78 83	1 ppd
+T7	Drug 38 46	drug use
+T8	StatusTime 35 76	no drug use since discharge from hospital
+T9	History 47 76	since discharge from hospital
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T5 Status:T6
+E3	Drug:T7 Status:T8 History:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T8 past

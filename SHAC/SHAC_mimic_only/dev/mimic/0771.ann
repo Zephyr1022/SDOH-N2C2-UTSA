@@ -1,0 +1,17 @@
+T1	Employment 32 56	a retired manual laborer
+T2	StatusEmploy 32 56	a retired manual laborer
+T3	Type 32 56	a retired manual laborer
+T4	Tobacco 93 100	tobacco
+T5	Alcohol 104 115	ethanol use
+T6	StatusTime 86 92	denies
+T7	LivingStatus 121 126	lives
+T8	TypeLiving 127 148	with his stepdaughter
+T9	StatusTime 121 126	lives
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T6
+E3	Alcohol:T5 Status:T6
+E4	LivingStatus:T7 Status:T9 Type:T8
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T6 none
+A3	TypeLivingVal T8 with_family
+A4	StatusTimeVal T9 current

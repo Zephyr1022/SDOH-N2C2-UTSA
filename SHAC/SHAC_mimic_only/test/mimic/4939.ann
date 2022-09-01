@@ -1,0 +1,22 @@
+T1	LivingStatus 37 42	lives
+T2	StatusTime 37 42	lives
+T3	TypeLiving 43 50	w/ wife
+T4	StatusEmploy 72 89;90 103	Former manager of phone company
+T5	Type 72 89;90 103	Former manager of phone company
+T6	Employment 72 89;90 103	Former manager of phone company
+T7	StatusTime 133 137	quit
+T8	History 138 150	6 months ago
+T9	Amount 107 119	60 pack year
+T10	Tobacco 120 131	tob history
+T11	StatusTime 163 167	quit
+T12	History 168 180	6 months ago
+T13	Alcohol 157 161	ETOH
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T6 Type:T5 Status:T4
+E3	Tobacco:T10 Amount:T9 Status:T7 History:T8
+E4	Alcohol:T13 Status:T11 History:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T4 unemployed
+A4	StatusTimeVal T7 past
+A5	StatusTimeVal T11 past

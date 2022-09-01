@@ -1,0 +1,22 @@
+T1	Amount 37 43	1 pack
+T2	Frequency 44 51	per day
+T3	Duration 30 36	45 yrs
+T4	Drug 120 131	heroin IVDU
+T5	Type 120 126	heroin
+T6	StatusTime 116 119	h/o
+T7	Tobacco 65 72	smoking
+T8	Amount 73 78	1 cig
+T9	Type 75 78	cig
+T10	Frequency 78 83	/week
+T11	StatusTime 100 104	quit
+T12	Duration 53 64	for past yr
+T13	History 88 98	2 weeks go
+T14	Tobacco 37 51	1 pack per day
+T15	StatusTime 37 51	1 pack per day
+E1	Drug:T4 Status:T6 Type:T5 Method:T16
+E2	Tobacco:T7 Duration:T12 Type:T9 Amount:T8 Frequency:T10 History:T13 Status:T11
+E3	Tobacco:T14 Status:T15 Amount:T1 Frequency:T2 Duration:T3
+A1	StatusTimeVal T6 current
+A2	StatusTimeVal T11 past
+A3	StatusTimeVal T15 past
+T16	Method 127 131	IVDU

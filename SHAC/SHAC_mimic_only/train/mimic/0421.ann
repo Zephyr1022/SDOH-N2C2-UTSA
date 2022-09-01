@@ -1,0 +1,18 @@
+T1	LivingStatus 19 24	lives
+T2	StatusTime 19 24	lives
+T3	TypeLiving 25 30	alone
+T4	Alcohol 43 49	drinks
+T5	StatusTime 43 49	drinks
+T6	Amount 50 75;76 82	approximately 2 alcoholic drinks
+T7	Frequency 83 90	per day
+T8	Drug 95 100	drugs
+T9	Tobacco 104 111	tobacco
+T10	StatusTime 92 94	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5 Amount:T6 Frequency:T7
+E3	Drug:T8 Status:T10
+E4	Tobacco:T9 Status:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T10 none

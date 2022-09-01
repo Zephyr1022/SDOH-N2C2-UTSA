@@ -1,0 +1,39 @@
+T1	LivingStatus 24 28	live
+T2	StatusTime 16 23	Used to
+T3	TypeLiving 29 34	alone
+T4	LivingStatus 91 96	lives
+T5	StatusTime 87 90	now
+T6	TypeLiving 97 110	with daughter
+T7	Employment 143 169	retired general contractor
+T8	StatusEmploy 143 169	retired general contractor
+T9	Type 143 169	retired general contractor
+T13	Employment 197 215	served in the Navy
+T14	StatusEmploy 197 215	served in the Navy
+T15	Duration 216 223	x5years
+T16	Tobacco 238 245;246 253	smoking history
+T17	Amount 225 237	50 pack-year
+T18	StatusTime 255 259	quit
+T19	History 260 273	in [**2126**]
+T20	Alcohol 276 282	drinks
+T21	Amount 283 303	3-4 alcoholic drinks
+T22	Frequency 304 312;313 325	a couple times a week
+T23	StatusTime 276 282	drinks
+T24	Drug 330 351	recreational drug use
+T25	Type 330 342	recreational
+T26	StatusTime 327 329	no
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Employment:T7 Status:T8 Type:T9
+E5	Employment:T13 Status:T14 Duration:T15
+E6	Tobacco:T16 Amount:T17 Status:T18 History:T19
+E7	Alcohol:T20 Amount:T21 Frequency:T22 Status:T23
+E8	Drug:T24 Type:T25 Status:T26
+A1	StatusTimeVal T2 past
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 with_family
+A5	StatusEmployVal T8 retired
+A7	StatusEmployVal T14 unemployed
+A8	StatusTimeVal T18 past
+A9	StatusTimeVal T23 current
+A10	StatusTimeVal T26 none

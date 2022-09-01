@@ -1,0 +1,25 @@
+T1	Employment 25 28	job
+T2	StatusEmploy 20 28	lost job
+T3	LivingStatus 59 76	Currently staying
+T4	TypeLiving 77 88	with friend
+T5	StatusTime 59 68	Currently
+T6	Tobacco 98 102	cigs
+T7	Type 98 102	cigs
+T8	Alcohol 104 111	alcohol
+T9	Drug 113 127	drugs/illicits
+T10	StatusTime 91 97	Denies
+T11	Type 119 127	illicits
+T12	Alcohol 137 142	drink
+T13	StatusTime 130 136	Use to
+T15	History 155 169	> 10 years ago
+E1	Employment:T1 Status:T2
+E2	LivingStatus:T3 Type:T4 Status:T5
+E3	Tobacco:T6 Type:T7 Status:T10
+E4	Alcohol:T8 Status:T10
+E5	Drug:T9 Status:T10 Type:T11
+E6	Alcohol:T12 Status:T13 History:T15
+A1	StatusEmployVal T2 unemployed
+A2	TypeLivingVal T4 with_others
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T13 past

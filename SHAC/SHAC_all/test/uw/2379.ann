@@ -1,0 +1,26 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 66 77	Alcohol Use
+T3	Drug 89 97	Drug Use
+T4	StatusTime 22 28	Smokes
+T5	Amount 29 37	1/2 pack
+T6	Frequency 38 45	per day
+T7	Duration 46 65	for several decades
+T8	StatusTime 79 85	Denies
+T9	StatusTime 99 105	Smokes
+T10	Type 106 115	marijuana
+T11	Drug 134 142	drug use
+T12	StatusTime 117 123	denies
+T13	LivingStatus 161 170	Residence
+T14	TypeLiving 172 180	Homeless
+T15	StatusTime 172 180	Homeless
+E1	Tobacco:T1 Status:T4 Amount:T5 Frequency:T6 Duration:T7
+E2	Alcohol:T2 Status:T8
+E3	Drug:T3 Status:T9 Type:T10
+E4	Drug:T11 Status:T12
+E5	LivingStatus:T13 Type:T14 Status:T15
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T8 none
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T12 none
+A5	TypeLivingVal T14 homeless
+A6	StatusTimeVal T15 current

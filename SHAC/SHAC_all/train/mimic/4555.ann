@@ -1,0 +1,37 @@
+T1	Employment 26 39	on disability
+T2	StatusEmploy 26 39	on disability
+T3	LivingStatus 98 103	Lives
+T4	StatusTime 98 103	Lives
+T5	TypeLiving 112 123	with fiance
+T6	Alcohol 152 159	alcohol
+T7	StatusTime 176 198	started binge drinking
+T8	Duration 199 201;202 210	10 days ago
+T10	Tobacco 219 225	smoked
+T11	StatusTime 240 248	recently
+T12	Amount 249 261	up to 1 pack
+T13	Frequency 262 265;266 269	per day
+T14	Duration 226 238	for 12 years
+T15	Drug 282 290	drug use
+T16	Type 324 331	cocaine
+T18	StatusTime 291 301	in his 20s
+T19	Duration 291 301	in his 20s
+T20	Drug 309 317	IV drugs
+T17	Method 309 311	IV
+T21	StatusTime 303 308	never
+T22	Drug 324 335	cocaine use
+T23	StatusTime 336 353	this past weekend
+E1	Employment:T1 Status:T2
+E2	LivingStatus:T3 Status:T4 Type:T5
+E3	Alcohol:T6 Status:T7 Duration:T8
+E4	Tobacco:T10 Duration:T14 Status:T11 Amount:T12 Frequency:T13
+E5	Drug:T15 Duration:T19 Status:T18
+E6	Drug:T20 Status:T21 Method:T17
+E7	Drug:T22 Type:T16 Status:T23
+A1	StatusEmployVal T2 on_disability
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T5 with_others
+A4	StatusTimeVal T7 current
+A6	StatusTimeVal T11 current
+A8	StatusTimeVal T18 past
+A7	StatusTimeVal T21 none
+A9	StatusTimeVal T23 current

@@ -1,0 +1,21 @@
+T1	LivingStatus 27 32	lives
+T2	TypeLiving 33 56	with his mom and sister
+T3	StatusTime 27 32	lives
+T4	Alcohol 58 65	Alcohol
+T6	StatusTime 66 72	rarely
+T7	Drug 87 100	marijuana use
+T8	Type 87 96	marijuana
+T9	Method 74 81	Smoking
+T11	StatusTime 74 81	Smoking
+T12	Drug 102 106	IVDU
+T13	Method 102 106	IVDU
+T14	StatusTime 107 113	denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Status:T6
+E3	Drug:T7 Type:T8 Method:T9 Status:T11
+E4	Drug:T12 Status:T14 Method:T13
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A4	StatusTimeVal T6 current
+A6	StatusTimeVal T11 current
+A7	StatusTimeVal T14 none

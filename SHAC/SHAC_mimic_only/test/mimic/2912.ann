@@ -1,0 +1,26 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 41 46	alone
+T4	Employment 69 74	works
+T5	StatusEmploy 69 74	works
+T6	Type 78 89;90 120	med records librarian and pharmacy manager
+T7	Tobacco 129 136	smoking
+T8	StatusTime 122 128	Denies
+T9	Alcohol 138 144	Drinks
+T10	StatusTime 138 144	Drinks
+T11	Amount 145 146;147 153	6 drinks
+T12	Frequency 153 159	/month
+T13	Drug 164 177	illicit drugs
+T14	Type 164 171	illicit
+T15	StatusTime 161 163	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Status:T10 Amount:T11 Frequency:T12
+E5	Drug:T13 Type:T14 Status:T15
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T10 current
+A6	StatusTimeVal T15 none

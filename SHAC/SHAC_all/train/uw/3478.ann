@@ -1,0 +1,10 @@
+T1	Employment 49 56	retired
+T2	StatusEmploy 49 56	retired
+T3	LivingStatus 25 38	newly evicted
+T4	StatusTime 25 38	newly evicted
+T5	TypeLiving 25 38	newly evicted
+E1	Employment:T1 Status:T2
+E2	LivingStatus:T3 Status:T4 Type:T5
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T5 homeless

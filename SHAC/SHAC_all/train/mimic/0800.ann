@@ -1,0 +1,25 @@
+T1	LivingStatus 43 48	lives
+T2	StatusTime 43 48	lives
+T3	TypeLiving 49 62	with his wife
+T4	Employment 82 91;92 118	currently drives a taxi for a living
+T5	StatusEmploy 82 91;92 118	currently drives a taxi for a living
+T6	Tobacco 222 237	Tobacco history
+T7	StatusTime 286 290	quit
+T8	History 291 304	in [**2106**]
+T9	Duration 269 281	for 30 years
+T10	Alcohol 306 310	ETOH
+T12	StatusTime 313 329	Only on holidays
+T13	Drug 331 344	Illicit drugs
+T14	Type 331 338	Illicit
+T15	StatusTime 347 351	None
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Duration:T9 Status:T7 History:T8
+E4	Alcohol:T10 Status:T12
+E5	Drug:T13 Type:T14 Status:T15
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T7 past
+A6	StatusTimeVal T12 current
+A7	StatusTimeVal T15 none

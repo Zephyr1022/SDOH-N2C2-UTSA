@@ -1,0 +1,24 @@
+SOCIAL: 
+Tobacco use: yes, quit+ interested in quitting. 
+Alcohol use: denies. 
+Drug use: cocaine remote (age 20), heroin regular, $180-200/day, approx 6g daily, meth remote (prior to cocaine use), Denies marijuana, alcohol or benzodiazepine use. 
+Homeless. Relocated from [LOCATION] ~ 4yrs ago to be with family here in the area. In sustained MMT in [LOCATION] with reported starting dose of 45mg/day and maintenance dose of 180mg/day until end of 2004. MMT ended following incarceration (reportedly unrelated to injection drug use) after which time he relapsed to injection drug use in the absence of available MMT. He did not inject Heroin for a period of time after relocating to [LOCATION]; a portion of that time he was taking prescribed Oxycodone #15-20, 15mg Oxycodone tabs daily for shoulder pain. He has been injecting Heroin daily for the past 2yrs. He has spoken with social work re: potential discharge to detox. Unemployed. Lost custody of 3 children and gave up custody of 1 son who has a major congenital condition.  
+ 
+ 
+Problem List 
+ 
+4% full thickness contact Burn to upper back
+HCV (hepatitis C virus)
+MRSA
+	 1) Created via lab_mrsa_check Discern Rule based on patient lab results
+Polysubstance abuse
+
+ 
+ 
+ 
+Medications 
+ 
+Scheduled Medications 
+acetaminophen 500 mg PO Q6 Hours ( acetaminophen 500 mg oral tablet )
+cephalexin 500 mg PO QID ( Keflex 500 mg oral capsule )
+gabapentin 800 mg PO TID ( gabapentin 800 mg oral tablet )

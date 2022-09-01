@@ -1,0 +1,28 @@
+T1	Alcohol 102 124	Heavy wine consumption
+T3	Type 108 112	wine
+T4	History 131 142	8 years ago
+T5	StatusTime 148 153	sober
+T6	Amount 28 41	25-pack years
+T7	Tobacco 28 41	25-pack years
+T8	StatusTime 17 27	History of
+T9	Tobacco 47 53	smoked
+T10	Amount 54 66	3 cigarettes
+T11	Type 56 66	cigarettes
+T12	StatusTime 67 76	this week
+T13	Drug 179 187	IV drugs
+T14	Type 179 181	IV
+T15	StatusTime 155 166	Denies ever
+T16	LivingStatus 190 206	Currently living
+T17	StatusTime 190 206	Currently living
+T18	TypeLiving 207 224	at Interbay Place
+E1	Alcohol:T1 Type:T3 History:T4 Status:T5
+E2	Tobacco:T7 Amount:T6 Status:T8
+E3	Tobacco:T9 Amount:T10 Type:T11 Status:T12
+E4	Drug:T13 Type:T14 Status:T15
+E5	LivingStatus:T16 Status:T17 Type:T18
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T12 current
+A5	StatusTimeVal T15 none
+A6	StatusTimeVal T17 current
+A7	TypeLivingVal T18 homeless

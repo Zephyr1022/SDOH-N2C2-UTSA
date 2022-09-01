@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 41	in [**Hospital1 **]
+T4	Employment 43 48	works
+T5	StatusEmploy 43 48	works
+T6	Drug 73 77	drug
+T7	Alcohol 81 92	alcohol use
+T8	StatusTime 66 72	Denies
+T9	Tobacco 94 100	smokes
+T10	StatusTime 94 100	smokes
+T11	Type 101 111	cigarettes
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Drug:T6 Status:T8
+E4	Alcohol:T7 Status:T8
+E5	Tobacco:T9 Status:T10 Type:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T10 current

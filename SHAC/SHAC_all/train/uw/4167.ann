@@ -1,0 +1,19 @@
+T1	LivingStatus 7 24	Currently staying
+T2	StatusTime 7 24	Currently staying
+T3	TypeLiving 25 47	at the Estelle shelter
+T4	Drug 50 75	Former oral opiate abuser
+T5	StatusTime 50 75	Former oral opiate abuser
+T6	Method 57 61	oral
+T7	Type 62 68	opiate
+T8	History 83 94	for 30 days
+T9	Tobacco 173 180	tobacco
+T10	Alcohol 184 192	ETOH use
+T11	StatusTime 166 172	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Drug:T4 Status:T5 Method:T6 Type:T7 History:T8
+E3	Tobacco:T9 Status:T11
+E4	Alcohol:T10 Status:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T11 none

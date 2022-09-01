@@ -1,0 +1,21 @@
+T1	LivingStatus 33 38	Lives
+T2	StatusTime 33 38	Lives
+T3	TypeLiving 39 65	with a friend and his wife
+T4	Amount 68 73	2 ppd
+T5	Duration 74 75;76 81;82 87	x 30-40 years
+T6	Tobacco 68 75;76 81;82 87	2 ppd x 30-40 years
+T7	StatusTime 68 75;76 81;82 87	2 ppd x 30-40 years
+T8	Alcohol 90 110	Recovering alcoholic
+T10	StatusTime 90 110	Recovering alcoholic
+T11	Drug 129 139	drug abuse
+T13	StatusTime 113 125	Past history
+T14	History 141 146;147 165	clean for last two years
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T6 Status:T7 Amount:T4 Duration:T5
+E3	Alcohol:T8 Status:T10
+E4	Drug:T11 Status:T13 History:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T7 current
+A5	StatusTimeVal T10 past
+A7	StatusTimeVal T13 past

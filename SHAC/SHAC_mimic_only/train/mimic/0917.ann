@@ -1,0 +1,17 @@
+T1	Employment 39 53	police officer
+T2	StatusEmploy 39 53	police officer
+T3	Type 39 53	police officer
+T4	LivingStatus 63 68	lives
+T5	TypeLiving 69 81	with his son
+T6	StatusTime 63 68	lives
+T7	Tobacco 90 97	tobacco
+T8	Alcohol 102 106	ETOH
+T9	StatusTime 83 89	Denies
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T9
+E4	Alcohol:T8 Status:T9
+A1	StatusEmployVal T2 employed
+A2	TypeLivingVal T5 with_family
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T9 none

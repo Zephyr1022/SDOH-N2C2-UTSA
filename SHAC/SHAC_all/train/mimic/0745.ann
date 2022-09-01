@@ -1,0 +1,25 @@
+T1	Employment 19 34	currently works
+T2	StatusEmploy 19 34	currently works
+T3	Type 38 52	an electrician
+T7	Tobacco 142 143;144 157	a former smoker
+T8	StatusTime 142 143;144 157	a former smoker
+T9	Alcohol 273 280	alcohol
+T10	StatusTime 256 272	Does not consume
+T11	LivingStatus 232 237	lives
+T12	StatusTime 232 237	lives
+T13	TypeLiving 238 253	with his family
+T14	Tobacco 187 203	smoking exposure
+T15	Amount 167 183	7-1/2 pack years
+T16	StatusTime 209 213	quit
+T17	History 214 226	19 years ago
+E1	Employment:T1 Type:T3 Status:T2
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Status:T10
+E5	LivingStatus:T11 Status:T12 Type:T13
+E6	Tobacco:T14 Amount:T15 Status:T16 History:T17
+A1	StatusEmployVal T2 employed
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T10 none
+A6	StatusTimeVal T12 current
+A7	TypeLivingVal T13 with_family
+A8	StatusTimeVal T16 past

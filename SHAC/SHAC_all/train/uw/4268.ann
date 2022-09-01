@@ -1,0 +1,10 @@
+T1	LivingStatus 24 30	living
+T2	TypeLiving 112 118	family
+T3	StatusTime 96 101	to be
+T7	Tobacco 215 221	smoker
+T8	StatusTime 209 214	Prior
+E1	LivingStatus:T1 Type:T2 Status:T3
+E3	Tobacco:T7 Status:T8
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A4	StatusTimeVal T8 past

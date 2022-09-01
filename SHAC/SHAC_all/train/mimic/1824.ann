@@ -1,0 +1,21 @@
+T1	Tobacco 29 36	Tobacco
+T2	Amount 37 41	1ppd
+T3	StatusTime 37 41	1ppd
+T4	Alcohol 43 47	ETOH
+T5	Type 49 70	crack cocaine, opiate
+T6	Drug 49 74	crack cocaine, opiate use
+T7	StatusTime 75 77;78 100	in past but none recently
+T8	StatusTime 102 108	Denies
+T9	Drug 109 113	IVDU
+T10	Type 109 113	IVDU
+T11	Employment 16 26	Disability
+T12	StatusEmploy 16 26	Disability
+E1	Tobacco:T1 Amount:T2 Status:T3
+E2	Alcohol:T4 Status:T7
+E3	Drug:T6 Type:T5 Status:T7
+E4	Drug:T9 Type:T10 Status:T8
+E5	Employment:T11 Status:T12
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T8 none
+A4	StatusEmployVal T12 on_disability

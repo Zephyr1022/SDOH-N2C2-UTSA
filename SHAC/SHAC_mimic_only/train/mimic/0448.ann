@@ -1,0 +1,28 @@
+T1	Employment 16 26	Occupation
+T2	StatusEmploy 27 34	retired
+T3	Tobacco 35 45	Cigarettes
+T4	StatusTime 47 53	denies
+T5	Type 35 45	Cigarettes
+T6	Tobacco 54 71	Other Tobacco use
+T8	StatusTime 72 78	denies
+T9	Alcohol 79 83	ETOH
+T10	StatusTime 85 91	denies
+T11	Drug 92 108	Illicit drug use
+T12	Type 92 99	Illicit
+T13	StatusTime 109 115	denies
+T14	LivingStatus 116 121	Lives
+T15	StatusTime 116 121	Lives
+T16	TypeLiving 134 153	in a senior complex
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Type:T5 Status:T4
+E3	Tobacco:T6 Status:T8
+E4	Alcohol:T9 Status:T10
+E5	Drug:T11 Type:T12 Status:T13
+E6	LivingStatus:T14 Status:T15 Type:T16
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T13 none
+A6	StatusTimeVal T15 current
+A7	TypeLivingVal T16 with_others

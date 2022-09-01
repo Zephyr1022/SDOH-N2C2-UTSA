@@ -1,0 +1,19 @@
+T1	TypeLiving 164 173	with wife
+T2	LivingStatus 142 151	Residence
+T3	StatusTime 153 173	[LOCATION] with wife
+T4	Tobacco 9 20	Tobacco Use
+T5	StatusTime 22 26	quit
+T6	History 27 36	2 yrs ago
+T7	Alcohol 39 50	Alcohol Use
+T8	StatusTime 52 58	denies
+T9	Drug 61 69	Drug Use
+T10	StatusTime 71 77	denies
+E1	LivingStatus:T2 Status:T3 Type:T1
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Alcohol:T7 Status:T8
+E4	Drug:T9 Status:T10
+A1	TypeLivingVal T1 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T10 none

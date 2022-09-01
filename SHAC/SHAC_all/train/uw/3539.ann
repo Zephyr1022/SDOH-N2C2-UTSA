@@ -1,0 +1,11 @@
+T1	Employment 123 137	full time work
+T2	StatusEmploy 98 103	prior
+T3	LivingStatus 153 183	at Park West Nursing and Rehab
+T4	StatusTime 139 152	most recently
+T5	Duration 184 195	for one day
+T6	TypeLiving 153 183	at Park West Nursing and Rehab
+E1	Employment:T1 Status:T2
+E2	LivingStatus:T3 Status:T4 Duration:T5 Type:T6
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T6 with_others

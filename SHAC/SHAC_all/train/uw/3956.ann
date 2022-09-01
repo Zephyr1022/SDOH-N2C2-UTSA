@@ -1,0 +1,11 @@
+T1	Drug 9 27	Occasional THC use
+T3	StatusTime 9 27	Occasional THC use
+T4	Type 20 23	THC
+T5	LivingStatus 55 60	lives
+T6	StatusTime 55 60	lives
+T7	TypeLiving 61 78	with her daughter
+E1	Drug:T1 Status:T3 Type:T4
+E2	LivingStatus:T5 Status:T6 Type:T7
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 current
+A4	TypeLivingVal T7 with_family

@@ -1,0 +1,18 @@
+T1	Alcohol 84 88	EtOH
+T2	StatusTime 81 83	No
+T3	Tobacco 110 117	tobacco
+T4	StatusTime 90 109	+recently restarted
+T5	Drug 122 126	IVDU
+T6	StatusTime 119 121	no
+T7	Method 122 126	IVDU
+T8	Employment 132 137	works
+T9	StatusEmploy 132 137	works
+T10	Type 165 187	a Research Coordinator
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+E3	Drug:T5 Status:T6 Method:T7
+E4	Employment:T8 Status:T9 Type:T10
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T6 none
+A4	StatusEmployVal T9 employed

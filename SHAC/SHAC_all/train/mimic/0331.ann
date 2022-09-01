@@ -1,0 +1,24 @@
+T1	Employment 16 26	Occupation
+T2	StatusTime 82 87	Lives
+T3	LivingStatus 82 87	Lives
+T5	Type 38 63	job placement coordinator
+T4	StatusEmploy 28 34	worked
+T6	TypeLiving 88 97	with wife
+T7	Alcohol 398 402	etoh
+T8	Tobacco 370 377	tobacco
+T9	History 378 389	> 20yrs ago
+T10	StatusTime 391 397	denies
+T11	StatusTime 365 369	Quit
+E1	Employment:T1 Status:T4 Type:T5
+E2	LivingStatus:T3 Status:T2 Type:T6
+E3	Alcohol:T7 Status:T10
+E4	Tobacco:T8 Status:T11 History:T9
+A1	StatusTimeVal T2 current
+A2	StatusEmployVal T4 unemployed
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T11 past
+T12	Employment 115 123	disabled
+E5	Employment:T12 Status:T13
+T13	StatusEmploy 115 123	disabled
+A6	StatusEmployVal T13 on_disability

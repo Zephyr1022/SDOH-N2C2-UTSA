@@ -1,0 +1,14 @@
+T1	Tobacco 16 23	Tobacco
+T2	Alcohol 33 40	Alcohol
+T3	StatusTime 25 31	denies
+T4	StatusTime 42 48	denies
+T5	Drug 50 55	Drugs
+T6	Type 63 72	marijuana
+T7	Frequency 57 62	daily
+T8	StatusTime 57 76	daily marijuana use
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T2 Status:T4
+E3	Drug:T5 Frequency:T7 Type:T6 Status:T8
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T8 current

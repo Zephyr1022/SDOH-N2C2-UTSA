@@ -1,0 +1,17 @@
+T1	Employment 17 29	former nurse
+T2	Type 17 29	former nurse
+T3	StatusEmploy 17 29	former nurse
+T4	Tobacco 31 40	nonsmoker
+T5	StatusTime 31 40	nonsmoker
+T6	Alcohol 47 51	etOH
+T7	StatusTime 42 51	rare etOH
+T9	Drug 55 60	drugs
+T10	StatusTime 52 54	no
+E1	Employment:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T9 Status:T10
+A1	StatusEmployVal T3 unemployed
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 current
+A5	StatusTimeVal T10 none

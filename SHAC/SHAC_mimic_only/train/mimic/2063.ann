@@ -1,0 +1,21 @@
+T1	Tobacco 18 25	Tobacco
+T2	Amount 27 31	2ppd
+T3	Duration 32 48	age 14 to age 63
+T4	StatusTime 32 48	age 14 to age 63
+T5	Alcohol 74 81	Alcohol
+T7	StatusTime 83 89	Social
+T8	Drug 92 100	Illicits
+T9	StatusTime 102 108	Denies
+T10	Type 92 100	Illicits
+T11	Employment 111 121	Occupation
+T12	StatusEmploy 123 138	Retired HR work
+T13	Type 123 138	Retired HR work
+E1	Tobacco:T1 Amount:T2 Status:T4 Duration:T3 Amount2:T6
+E2	Alcohol:T5 Status:T7
+E3	Drug:T8 Type:T10 Status:T9
+E4	Employment:T11 Status:T12 Type:T13
+A1	StatusTimeVal T4 past
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T9 none
+A5	StatusEmployVal T12 retired
+T6	Amount 57 71	100 pack years

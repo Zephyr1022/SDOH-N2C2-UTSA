@@ -1,0 +1,13 @@
+T1	Employment 24 29	works
+T2	StatusEmploy 24 29	works
+T3	Type 33 46	a live in HHA
+T4	Tobacco 110 117	Tobacco
+T5	StatusTime 120 126	active
+T6	Alcohol 128 132	EtOH
+T7	StatusTime 135 141	active
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T7 current

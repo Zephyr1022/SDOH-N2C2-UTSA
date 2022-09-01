@@ -1,0 +1,24 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 36 52	with her partner
+T3	StatusTime 16 21	Lives
+T4	Employment 55 76	Currently not working
+T5	StatusEmploy 65 76	not working
+T6	Tobacco 96 102	smoker
+T7	StatusTime 104 113	currently
+T8	Amount 122 129	~0.5ppd
+T9	Alcohol 136 140	EtOH
+T10	StatusTime 131 135	rare
+T11	Drug 145 159	MJ or illicits
+T12	Type 145 159	MJ or illicits
+T13	StatusTime 142 144	no
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T7 Amount:T8
+E4	Alcohol:T9 Status:T10
+E5	Drug:T11 Type:T12 Status:T13
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T7 current
+A5	StatusTimeVal T10 current
+A6	StatusTimeVal T13 none

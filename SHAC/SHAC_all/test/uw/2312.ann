@@ -1,0 +1,28 @@
+T1	Tobacco 9 15	Smokes
+T2	Amount 16 31	7-10 cigarettes
+T3	Type 21 31	cigarettes
+T4	Duration 32 46	for over 40yrs
+T5	StatusTime 9 15	Smokes
+T6	Alcohol 102 107	drink
+T7	StatusTime 93 101	Does not
+T8	Drug 115 123	cannabis
+T9	Type 115 123	cannabis
+T10	Frequency 109 114	daily
+T11	StatusTime 109 114	daily
+T12	Drug 134 147	illicit drugs
+T13	Type 134 141	illicit
+T14	StatusTime 125 127	no
+T17	LivingStatus 218 223	Lives
+T18	TypeLiving 232 269	with daughter and three grandchildren
+T19	StatusTime 218 223	Lives
+E1	Tobacco:T1 Amount:T2 Type:T3 Duration:T4 Status:T5
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Type:T9 Status:T11 Frequency:T10
+E4	Drug:T12 Type:T13 Status:T14
+E6	LivingStatus:T17 Type:T18 Status:T19
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T11 current
+A4	StatusTimeVal T14 none
+A5	TypeLivingVal T18 with_family
+A6	StatusTimeVal T19 current

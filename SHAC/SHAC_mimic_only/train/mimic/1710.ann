@@ -1,0 +1,19 @@
+T1	Employment 47 63	Recently retired
+T2	StatusEmploy 47 63	Recently retired
+T3	Type 67 78	a professor
+T4	Tobacco 148 163	Tobacco history
+T5	StatusTime 165 169	quit
+T6	History 170 182	22 years ago
+T7	Alcohol 184 188	ETOH
+T8	StatusTime 190 204	infrequent use
+T10	Drug 206 219	Illicit drugs
+T11	Type 206 213	Illicit
+T12	StatusTime 221 225	none
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Alcohol:T7 Status:T8
+E4	Drug:T10 Type:T11 Status:T12
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 current
+A5	StatusTimeVal T12 none

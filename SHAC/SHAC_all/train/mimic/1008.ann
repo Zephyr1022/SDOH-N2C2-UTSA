@@ -1,0 +1,9 @@
+T1	Employment 25 49	Retired telephone worker
+T2	StatusEmploy 25 49	Retired telephone worker
+T3	Type 25 49	Retired telephone worker
+T4	Alcohol 58 65	alcohol
+T6	StatusTime 51 65	Social alcohol
+E1	Employment:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T6
+A1	StatusEmployVal T2 retired
+A3	StatusTimeVal T6 current

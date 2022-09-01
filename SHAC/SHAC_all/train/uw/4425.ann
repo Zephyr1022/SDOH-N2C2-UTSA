@@ -1,0 +1,40 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 27	1 ppd
+T3	Duration 28 37	x30 years
+T4	StatusTime 22 37	1 ppd x30 years
+T5	Alcohol 39 50	Alcohol Use
+T6	Amount 52 61	6-8 beers
+T7	Type 56 61	beers
+T8	Frequency 61 65	/day
+T9	Duration 66 78	x many years
+T10	StatusTime 52 78	6-8 beers/day x many years
+T11	Drug 79 87	Drug Use
+T12	Drug 111 118	cocaine
+T13	Type 111 118	cocaine
+T14	StatusTime 119 131	in his youth
+T16	StatusTime 89 109	Occasional marijuana
+T17	Type 100 109	marijuana
+T18	Drug 136 140	IVDU
+T19	Method 136 140	IVDU
+T20	StatusTime 133 135	no
+T21	LivingStatus 159 176	Currently staying
+T22	StatusTime 159 176	Currently staying
+T23	TypeLiving 177 200	at Union Gospel Mission
+T24	Employment 203 216	On disability
+T25	StatusEmploy 203 216	On disability
+T26	Duration 217 226	x10 years
+E1	Tobacco:T1 Status:T4 Amount:T2 Duration:T3
+E2	Alcohol:T5 Type:T7 Amount:T6 Frequency:T8 Status:T10 Duration:T9
+E3	Drug:T11 Status:T16 Type:T17
+E4	Drug:T12 Type:T13 Status:T14
+E5	Drug:T18 Status:T20 Method:T19
+E6	LivingStatus:T21 Status:T22 Type:T23
+E7	Employment:T24 Status:T25 Duration:T26
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T10 current
+A3	StatusTimeVal T14 past
+A5	StatusTimeVal T16 current
+A6	StatusTimeVal T20 past
+A7	StatusTimeVal T22 current
+A8	TypeLivingVal T23 homeless
+A9	StatusEmployVal T25 on_disability

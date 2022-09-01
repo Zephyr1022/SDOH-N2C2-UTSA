@@ -1,0 +1,21 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 26	5pyh
+T3	StatusTime 28 45	currently smoking
+T4	Alcohol 46 57	Alcohol Use
+T5	StatusTime 59 65	denies
+T6	Drug 67 75	Drug Use
+T7	Method 77 79	IV
+T8	Type 80 84	meth
+T9	StatusTime 90 109	last used yesterday
+T10	LivingStatus 128 133	Lives
+T11	StatusTime 128 133	Lives
+T12	TypeLiving 134 139	alone
+E1	Tobacco:T1 Amount:T2 Status:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Method:T7 Type:T8 Status:T9
+E4	LivingStatus:T10 Status:T11 Type:T12
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 alone

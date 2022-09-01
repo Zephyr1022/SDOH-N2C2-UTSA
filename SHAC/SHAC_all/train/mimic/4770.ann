@@ -1,0 +1,24 @@
+T3	Employment 149 165	Funeral director
+T4	StatusEmploy 149 165	Funeral director
+T5	Type 149 165	Funeral director
+T6	LivingStatus 167 173	Living
+T7	StatusTime 167 173	Living
+T8	TypeLiving 204 226	with his sister-in-law
+T1	Alcohol 228 234	Drinks
+T2	Amount 235 244	6-12 pack
+T9	Frequency 244 248	/day
+T10	StatusTime 228 234	Drinks
+T11	Tobacco 279 290	tobacco use
+T12	Amount 259 274	[**12-3**] pack
+T13	Frequency 274 278	/day
+T14	StatusTime 259 278	[**12-3**] pack/day
+T15	Duration 301 316	nearly 30 years
+E2	Employment:T3 Status:T4 Type:T5
+E3	LivingStatus:T6 Type:T8 Status:T7
+E1	Alcohol:T1 Status:T10 Amount:T2 Frequency:T9 Duration:T15
+E4	Tobacco:T11 Status:T14 Frequency:T13 Amount:T12 Duration:T15
+A2	StatusEmployVal T4 employed
+A3	StatusTimeVal T7 current
+A4	TypeLivingVal T8 with_family
+A1	StatusTimeVal T10 current
+A5	StatusTimeVal T14 current

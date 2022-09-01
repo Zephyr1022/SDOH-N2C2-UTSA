@@ -1,0 +1,52 @@
+T1	Tobacco 8 15	tobacco
+T2	Duration 18 27	long time
+T3	StatusTime 28 34	smoker
+T4	Alcohol 35 42	alcohol
+T5	StatusTime 45 51	denies
+T6	Drug 52 57	drugs
+T7	StatusTime 60 74	denies current
+T8	Method 75 79	IVDU
+T9	StatusTime 134 146	current IVDU
+T10	Drug 134 146	current IVDU
+T11	Type 150 156	heroin
+T12	LivingStatus 253 258	Lives
+T13	StatusTime 253 258	Lives
+T14	TypeLiving 259 275	in Bread of Life
+T15	Tobacco 305 312	tobacco
+T16	Duration 315 324	long time
+T17	StatusTime 325 331	smoker
+T18	Alcohol 332 339	alcohol
+T19	StatusTime 342 348	denies
+T20	Drug 349 354	drugs
+T21	StatusTime 357 371	denies current
+T22	Method 372 376	IVDU
+T23	Drug 431 443	current IVDU
+T24	StatusTime 431 443	current IVDU
+T25	Type 447 453	heroin
+T26	LivingStatus 550 555	Lives
+T27	StatusTime 550 555	Lives
+T28	TypeLiving 556 580	in Bread of Life shelter
+T29	Method 142 146	IVDU
+T30	Method 439 443	IVDU
+E1	Tobacco:T1 Duration:T2 Status:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Status:T7 Method:T8
+E4	Drug:T10 Status:T9 Type:T11 Method:T29
+E5	LivingStatus:T12 Status:T13 Type:T14
+E6	Tobacco:T15 Duration:T16 Status:T17
+E7	Alcohol:T18 Status:T19
+E8	Drug:T20 Status:T21 Method:T22
+E9	Drug:T23 Status:T24 Type:T25 Method:T30
+E10	LivingStatus:T26 Status:T27 Type:T28
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 past
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T13 current
+A6	TypeLivingVal T14 homeless
+A7	StatusTimeVal T17 current
+A8	StatusTimeVal T19 none
+A9	StatusTimeVal T21 past
+A10	StatusTimeVal T24 current
+A11	StatusTimeVal T27 current
+A12	TypeLivingVal T28 homeless

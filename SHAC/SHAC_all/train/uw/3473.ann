@@ -1,0 +1,31 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	Denies
+T3	Alcohol 31 42	Alcohol Use
+T4	StatusTime 44 67	No alcohol since [DATE]
+T5	History 55 67	since [DATE]
+T6	Drug 70 78	Drug Use
+T7	StatusTime 80 104	No meth use since [DATE]
+T8	Type 83 87	meth
+T9	History 92 104	since [DATE]
+T10	Drug 117 126	marijuana
+T11	StatusTime 106 116	Occasional
+T12	Type 117 126	marijuana
+T13	Method 127 135	edibles-
+T14	LivingStatus 168 177	Residence
+T15	StatusTime 179 184	Lives
+T16	TypeLiving 185 209	at Clement Place Shelter
+T17	Employment 223 244	Currently not working
+T18	StatusEmploy 223 244	Currently not working
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4 History:T5
+E3	Drug:T6 Type:T8 Status:T7 History:T9
+E4	Drug:T10 Status:T11 Type:T12 Method:T13
+E5	LivingStatus:T14 Status:T15 Type:T16
+E6	Employment:T17 Status:T18
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T7 past
+A4	StatusTimeVal T11 current
+A5	StatusTimeVal T15 current
+A6	TypeLivingVal T16 homeless
+A7	StatusEmployVal T18 unemployed

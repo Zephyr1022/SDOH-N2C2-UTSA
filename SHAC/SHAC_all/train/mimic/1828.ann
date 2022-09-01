@@ -1,0 +1,25 @@
+T1	StatusEmploy 86 101	works part time
+T2	Employment 86 91	works
+T3	Type 130 146	Situate pipe Co.
+T4	Tobacco 148 154	smoked
+T6	Type 166 172	cigars
+T7	StatusTime 177 181	quit
+T8	History 182 190;191 194	18 years ago
+T9	Alcohol 225 229	ETOH
+T10	StatusTime 214 224	no current
+T11	Drug 234 249	illicit or IVDU
+T12	Type 234 249	illicit or IVDU
+T13	StatusTime 231 233	no
+E1	Employment:T2 Status:T1 Type:T3
+E2	Tobacco:T4 Type:T6 Status:T7 History:T8
+E3	Alcohol:T9 Status:T10
+E4	Drug:T11 Type:T12 Status:T13
+A1	StatusEmployVal T1 employed
+A3	StatusTimeVal T7 past
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T13 none
+T5	Tobacco 199 212	cigarette use
+E5	Tobacco:T5 Type:T15 Status:T14
+T14	StatusTime 196 198	no
+A2	StatusTimeVal T14 none
+T15	Type 199 208	cigarette

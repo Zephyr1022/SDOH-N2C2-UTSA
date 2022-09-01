@@ -1,0 +1,19 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 37	in nursing home
+T4	Tobacco 183 198	Tobacco history
+T5	StatusTime 204 208	quit
+T6	History 209 221	45 years ago
+T7	Alcohol 226 234	drinking
+T8	Drug 239 244	drugs
+T9	StatusTime 236 238	no
+T10	StatusTime 223 225	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Alcohol:T7 Status:T10
+E4	Drug:T8 Status:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T10 none

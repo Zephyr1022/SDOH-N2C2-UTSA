@@ -1,0 +1,20 @@
+T1	Drug 23 27	IVDU
+T2	Type 29 36	heroine
+T3	StatusTime 16 22	former
+T4	StatusTime 39 46	current
+T5	Tobacco 47 53	smoker
+T6	LivingStatus 55 60	lives
+T7	StatusTime 55 60	lives
+T8	TypeLiving 61 69	w father
+T9	Employment 71 76	works
+T10	StatusEmploy 71 76	works
+T11	Type 77 89	construction
+E1	Drug:T1 Type:T2 Status:T3
+E2	Tobacco:T5 Status:T4
+E3	LivingStatus:T6 Status:T7 Type:T8
+E4	Employment:T9 Status:T10 Type:T11
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T7 current
+A4	TypeLivingVal T8 with_family
+A5	StatusEmployVal T10 employed

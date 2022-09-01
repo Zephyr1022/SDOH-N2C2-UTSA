@@ -1,0 +1,18 @@
+T1	Alcohol 15 19	ETOH
+T2	Drug 27 32	Drugs
+T3	StatusTime 20 26	Denies
+T4	StatusTime 8 14	Denies
+T5	Tobacco 40 47	tobacco
+T6	StatusTime 33 39	Remote
+T7	LivingStatus 259 266	Staying
+T8	TypeLiving 267 319	with daughter-in-law and son now, and their children
+T9	StatusTime 259 266	Staying
+E1	Alcohol:T1 Status:T4
+E2	Drug:T2 Status:T3
+E3	Tobacco:T5 Status:T6
+E4	LivingStatus:T7 Type:T8 Status:T9
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 past
+A4	TypeLivingVal T8 with_family
+A5	StatusTimeVal T9 current

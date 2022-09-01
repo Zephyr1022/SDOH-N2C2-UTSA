@@ -1,0 +1,15 @@
+T1	Tobacco 17 32	Tobacco history
+T2	StatusTime 41 45	Quit
+T3	History 55 66	30+ yrs ago
+T4	Alcohol 68 72	ETOH
+T6	StatusTime 100 104	quit
+T7	History 105 116	7 years ago
+T8	Drug 118 131	Illicit drugs
+T9	StatusTime 133 137	None
+T10	Type 118 125	Illicit
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Alcohol:T4 Status:T6 History:T7
+E3	Drug:T8 Type:T10 Status:T9
+A1	StatusTimeVal T2 past
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T9 none

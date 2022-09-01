@@ -1,0 +1,10 @@
+T1	Employment 16 23	Retired
+T2	StatusEmploy 16 23	Retired
+T3	LivingStatus 25 30	lives
+T4	StatusTime 25 30	lives
+T5	TypeLiving 31 40	with wife
+E1	Employment:T1 Status:T2
+E2	LivingStatus:T3 Status:T4 Type:T5
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T5 with_family

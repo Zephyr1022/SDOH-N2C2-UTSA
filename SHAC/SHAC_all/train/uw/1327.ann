@@ -1,0 +1,31 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	Denies
+T3	Alcohol 31 42	Alcohol Use
+T4	StatusTime 61 64	h/o
+T5	Frequency 65 77	intermittent
+T7	Drug 106 114	Drug Use
+T8	Type 127 136	marijuana
+T10	Drug 147 155	illicits
+T11	Method 157 161	IVDU
+T12	Type 147 155	illicits
+T13	StatusTime 138 140	no
+T14	LivingStatus 180 185	Lives
+T15	StatusTime 180 185	Lives
+T16	TypeLiving 200 213	with a friend
+T17	Employment 274 282	employed
+T18	StatusEmploy 260 273	not currently
+T19	Type 237 244	fishing
+T20	StatusTime 116 136	Occasional marijuana
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4 Frequency:T5
+E3	Drug:T7 Type:T8 Status:T20
+E4	Drug:T10 Status:T13 Type:T12 Method:T11
+E5	LivingStatus:T14 Type:T16 Status:T15
+E6	Employment:T17 Status:T18 Type:T19
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 past
+A5	StatusTimeVal T13 none
+A6	StatusTimeVal T15 current
+A7	TypeLivingVal T16 with_others
+A8	StatusEmployVal T18 unemployed
+A9	StatusTimeVal T20 current

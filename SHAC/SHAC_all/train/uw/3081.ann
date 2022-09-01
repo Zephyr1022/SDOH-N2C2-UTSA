@@ -1,0 +1,30 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 44 56	with his son
+T4	Employment 75 82	working
+T5	StatusEmploy 69 82	Still working
+T6	Type 84 99	drives forklift
+T7	Tobacco 146 153	Tobacco
+T8	StatusTime 155 176	10 cig/day x 40-45yrs
+T9	Amount 155 161	10 cig
+T10	Type 158 161	cig
+T11	Frequency 161 165	/day
+T12	Duration 166 176	x 40-45yrs
+T13	Alcohol 178 182	EtOH
+T14	StatusTime 204 209	clean
+T15	History 210 216	70days
+T17	Drug 334 342	Illicits
+T18	StatusTime 363 379	none in > 1 year
+T19	History 368 379	in > 1 year
+T20	Type 348 355	cocaine
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8 Amount:T9 Frequency:T11 Type:T10 Duration:T12
+E4	Alcohol:T13 Status:T14 History:T15
+E5	Drug:T17 Type:T20 Status:T18 History:T19
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T14 past
+A7	StatusTimeVal T18 past

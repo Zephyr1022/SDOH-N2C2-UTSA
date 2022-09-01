@@ -1,0 +1,13 @@
+T1	Alcohol 114 118	EtOH
+T3	StatusTime 103 118	occasional EtOH
+T4	Drug 127 131	IVDU
+T5	Method 127 131	IVDU
+T6	StatusTime 120 126	denies
+T7	Tobacco 27 34	smoking
+T8	StatusTime 5 34	has attempted to stop smoking
+E1	Alcohol:T1 Status:T3
+E2	Drug:T4 Status:T6 Method:T5
+E3	Tobacco:T7 Status:T8
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 current

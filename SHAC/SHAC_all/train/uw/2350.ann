@@ -1,0 +1,21 @@
+T2	StatusTime 22 35	Former smoker
+T1	Tobacco 9 20	Tobacco Use
+T3	Alcohol 38 49	Alcohol Use
+T4	StatusTime 51 57	Denies
+T5	Drug 60 68	Drug Use
+T6	StatusTime 70 76	Denies
+T7	Employment 95 102	rancher
+T8	StatusEmploy 95 102	rancher
+T12	Employment 164 168	work
+T13	Type 172 184	construction
+T14	StatusEmploy 164 168	work
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	Employment:T7 Status:T8
+E6	Employment:T12 Status:T14 Type:T13
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	StatusEmployVal T8 employed
+A6	StatusEmployVal T14 employed

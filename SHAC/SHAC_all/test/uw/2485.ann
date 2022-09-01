@@ -1,0 +1,32 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	quit
+T3	History 35 49	2.5 months ago
+T4	Amount 66 75	2-4 packs
+T5	Frequency 75 79	/day
+T6	Alcohol 82 93	Alcohol Use
+T8	Amount 107 116	6-7 beers
+T9	Frequency 117 132	every few weeks
+T10	Drug 135 143	Drug Use
+T12	StatusTime 145 151	denies
+T13	Type 158 179	marijuana/other drugs
+T15	Employment 202 208	worked
+T16	StatusEmploy 202 208	worked
+T17	Duration 229 250	for the past 32 years
+T18	Type 212 228	asbestos removal
+T22	LivingStatus 252 257	lives
+T23	StatusTime 252 257	lives
+T24	TypeLiving 258 268	w/a sister
+T25	StatusTime 107 132	6-7 beers every few weeks
+E1	Tobacco:T1 Status:T2 History:T3 Amount:T4 Frequency:T5
+E2	Alcohol:T6 Amount:T8 Frequency:T9 Status:T25 Type:T11
+E3	Drug:T10 Status:T12 Type:T13 Method:T7
+E5	Employment:T15 Duration:T17 Status:T16 Type:T18
+E7	LivingStatus:T22 Status:T23 Type:T24
+A1	StatusTimeVal T2 past
+A3	StatusTimeVal T12 none
+A5	StatusEmployVal T16 employed
+A7	StatusTimeVal T23 current
+A8	TypeLivingVal T24 with_family
+A9	StatusTimeVal T25 current
+T7	Method 152 156	IVDU
+T11	Type 111 116	beers

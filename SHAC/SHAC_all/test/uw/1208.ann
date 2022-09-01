@@ -1,0 +1,13 @@
+T1	Tobacco 22 37	smoking history
+T2	StatusTime 19 21	no
+T3	Alcohol 42 53	alcohol use
+T4	StatusTime 39 41	no
+T5	Drug 58 74	illicit drug use
+T6	Type 58 65	illicit
+T7	StatusTime 55 57	no
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Type:T6 Status:T7
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T7 none

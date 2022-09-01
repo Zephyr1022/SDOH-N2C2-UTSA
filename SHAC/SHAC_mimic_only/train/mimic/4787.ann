@@ -1,0 +1,24 @@
+T1	Employment 125 131	career
+T2	StatusEmploy 28 39	is a former
+T3	Type 79 94	football player
+T8	Drug 338 351	illicit drugs
+T9	StatusTime 323 329	Denies
+T10	Alcohol 374 382	drinking
+T11	StatusTime 365 373	previous
+T12	Amount 395 403	8 drinks
+T13	Frequency 404 413	per night
+T14	Alcohol 431 437	drinks
+T15	StatusTime 415 424	Currently
+T16	Amount 429 437	3 drinks
+T17	Frequency 438 447	per night
+T4	Tobacco 330 333	TOB
+T5	Type 338 345	illicit
+E1	Employment:T1 Status:T2 Type:T3
+E3	Drug:T8 Status:T9 Type:T5
+E4	Alcohol:T10 Status:T11 Amount:T12 Frequency:T13
+E5	Alcohol:T14 Amount:T16 Frequency:T17 Status:T15
+E2	Tobacco:T4 Status:T9
+A1	StatusEmployVal T2 unemployed
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T11 past
+A6	StatusTimeVal T15 current

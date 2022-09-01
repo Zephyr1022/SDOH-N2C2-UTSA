@@ -1,0 +1,43 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Duration 27 37	x 50 years
+T3	Amount 22 26	1ppd
+T4	StatusTime 22 37	1ppd x 50 years
+T5	Amount 63 75	2 cigarettes
+T6	Frequency 76 81	a day
+T7	StatusTime 39 62	reports cutting down to
+T8	Duration 82 114	since current presentation began
+T9	Alcohol 117 128	Alcohol Use
+T10	StatusTime 130 143	rarely drinks
+T12	Amount 144 149	a sip
+T14	Drug 205 212	cocaine
+T15	StatusTime 195 204	Last used
+T16	History 213 223	1 year ago
+T17	Type 205 212	cocaine
+T18	Drug 228 234	heroin
+T19	History 240 248	in 1980s
+T20	Type 228 234	heroin
+T13	Drug 304 311	cocaine
+T21	StatusTime 259 299	utox from as recently as [DATE] positive
+T22	Type 304 311	cocaine
+T23	LivingStatus 330 339	Residence
+T24	StatusTime 341 347	living
+T25	TypeLiving 348 366	in Compass housing
+E1	Tobacco:T1 Status:T4 Amount:T3 Duration:T2
+E3	Alcohol:T9 Status:T10 Amount:T12
+E5	Drug:T14 Type:T17 Status:T15 History:T16
+E6	Drug:T18 Status:T15 History:T19 Type:T20
+E4	Drug:T13 Status:T21 Type:T22
+E7	LivingStatus:T23 Status:T24 Type:T25
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T10 current
+A5	StatusTimeVal T15 past
+A6	StatusTimeVal T21 current
+A7	StatusTimeVal T24 current
+A8	TypeLivingVal T25 homeless
+T11	Tobacco 65 75	cigarettes
+E8	Tobacco:T11 Status:T7 Amount:T5 Frequency:T6 Duration:T8
+T28	Drug 165 173	Drug Use
+E9	Drug:T28 Status:T29
+T29	StatusTime 175 181	denies
+A4	StatusTimeVal T29 none

@@ -1,0 +1,26 @@
+T1	Employment 108 132	Former nursing assistant
+T2	StatusEmploy 108 132	Former nursing assistant
+T3	Type 108 132	Former nursing assistant
+T4	Tobacco 134 154	Long-standing smoker
+T5	StatusTime 134 154	Long-standing smoker
+T6	Amount 188 192	1PPD
+T7	Duration 193 207	x last 3 years
+T8	Tobacco 156 162	smoked
+T9	StatusTime 156 162	smoked
+T10	Amount 163 167	2PPD
+T11	Duration 168 178	x 30 years
+T12	Alcohol 212 216	EtOH
+T13	StatusTime 209 211	No
+T14	Drug 221 237	illicit drug use
+T15	Type 221 228	illicit
+T16	StatusTime 218 220	No
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 Amount:T6 Duration:T7
+E3	Tobacco:T8 Status:T9 Amount:T10 Duration:T11
+E4	Alcohol:T12 Status:T13
+E5	Drug:T14 Type:T15 Status:T16
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T9 past
+A4	StatusTimeVal T13 none
+A5	StatusTimeVal T16 none

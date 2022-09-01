@@ -1,0 +1,44 @@
+T1	LivingStatus 72 76	live
+T2	StatusTime 72 76	live
+T3	TypeLiving 61 93	2 sons who live at home with him
+T4	Alcohol 179 189	alcoholism
+T6	StatusTime 211 226	not had a drink
+T7	History 227 247	since [**2130-6-1**]
+T8	Tobacco 252 258	smoked
+T9	Amount 259 268	2-4 packs
+T10	Frequency 269 276	per day
+T11	Duration 277 286	for 36yrs
+T12	StatusTime 291 295	quit
+T13	History 296 314	in [**2130-11-1**]
+T14	Tobacco 339 346	smoking
+T15	Type 347 358	cigarrettes
+T16	StatusTime 324 338	recently start
+T17	Drug 394 413	polysubstance abuse
+T18	Type 424 441;442 469	cocaine, downers, marijuana, and crystal meth
+T19	StatusTime 381 390	remote hx
+T21	Drug 481 485	IVDU
+T22	Type 481 485	IVDU
+T23	StatusTime 474 480	denies
+T24	Employment 488 493	Works
+T25	Type 497 498;499 513	a hardware store
+T26	StatusEmploy 488 493	Works
+T27	Employment 553 557	work
+T28	StatusEmploy 545 552	used to
+T29	Type 561 572	maintenance
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T6 History:T7
+E3	Tobacco:T8 Amount:T9 Frequency:T10 Duration:T11 Status:T12 History:T13
+E4	Tobacco:T14 Status:T16 Type:T15
+E5	Drug:T17 Status:T19 Type:T18
+E6	Drug:T21 Status:T23 Type:T22
+E7	Employment:T24 Status:T26 Type:T25
+E8	Employment:T27 Status:T28 Type:T29
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A4	StatusTimeVal T6 past
+A5	StatusTimeVal T12 past
+A6	StatusTimeVal T16 current
+A7	StatusTimeVal T19 past
+A9	StatusTimeVal T23 none
+A10	StatusEmployVal T26 employed
+A11	StatusEmployVal T28 unemployed

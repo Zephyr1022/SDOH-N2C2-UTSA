@@ -1,0 +1,14 @@
+T1	Alcohol 114 118	EtOH
+T2	Drug 122 130	drug use
+T3	StatusTime 103 109	denied
+T4	Tobacco 89 96	smoking
+T5	StatusTime 78 88	History of
+T6	Employment 16 23	Retired
+T7	StatusEmploy 16 23	Retired
+E1	Alcohol:T1 Status:T3
+E2	Drug:T2 Status:T3
+E3	Tobacco:T4 Status:T5
+E4	Employment:T6 Status:T7
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T5 past
+A3	StatusEmployVal T7 retired

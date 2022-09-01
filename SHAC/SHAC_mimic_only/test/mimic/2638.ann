@@ -1,0 +1,18 @@
+T1	Employment 16 23	Retired
+T2	StatusEmploy 16 23	Retired
+T3	Tobacco 31 37	smoked
+T4	StatusTime 25 30	Never
+T5	Alcohol 57 64	alcohol
+T6	StatusTime 42 56	does not drink
+T7	LivingStatus 66 71	Lives
+T8	StatusTime 66 71	Lives
+T9	TypeLiving 72 76;77 85	with daughter
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+E3	Alcohol:T5 Status:T6
+E4	LivingStatus:T7 Status:T8 Type:T9
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 with_family

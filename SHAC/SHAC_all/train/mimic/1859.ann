@@ -1,0 +1,9 @@
+T3	Employment 98 103	Works
+T4	Type 107 131	construction/maintenance
+T5	StatusEmploy 98 103	Works
+T6	Tobacco 292 303	tobacco use
+T7	StatusTime 281 291	history of
+E2	Employment:T3 Status:T5 Type:T4
+E3	Tobacco:T6 Status:T7
+A1	StatusEmployVal T5 employed
+A2	StatusTimeVal T7 past

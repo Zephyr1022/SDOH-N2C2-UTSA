@@ -1,0 +1,25 @@
+T3	Employment 239 243	work
+T4	StatusEmploy 231 238	used to
+T5	Type 247 248;249 265	a gymnastics coach
+T6	Employment 315 322	working
+T7	StatusEmploy 305 307;308 314	no longer
+T8	LivingStatus 345 350	lives
+T9	StatusTime 345 350	lives
+T10	TypeLiving 351 364	with his wife
+T11	Tobacco 469 483	a heavy smoker
+T14	Alcohol 629 636	alcohol
+T15	StatusTime 622 628	drinks
+T16	Frequency 637 657	at special occasions
+T13	StatusTime 546 564	recently restarted
+E2	Employment:T3 Status:T4 Type:T5 Type2:T1
+E3	Employment:T6 Status:T7
+E4	LivingStatus:T8 Status:T9 Type:T10
+E5	Tobacco:T11 Status:T13
+E6	Alcohol:T14 Status:T15 Frequency:T16
+A1	StatusEmployVal T4 unemployed
+A2	StatusEmployVal T7 unemployed
+A3	StatusTimeVal T9 current
+A4	TypeLivingVal T10 with_family
+A7	StatusTimeVal T15 current
+A6	StatusTimeVal T13 current
+T1	Type 285 296	drive a cab

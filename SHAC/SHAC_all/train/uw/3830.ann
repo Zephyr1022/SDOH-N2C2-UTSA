@@ -1,0 +1,34 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 29	1/2 ppd
+T3	Duration 30 42	for 40 years
+T4	StatusTime 22 42	1/2 ppd for 40 years
+T5	Alcohol 46 57	Alcohol Use
+T6	History 67 82	four months ago
+T7	Duration 83 93	for a week
+T8	StatusTime 67 82	four months ago
+T9	Alcohol 104 111	alcohol
+T10	StatusTime 95 103	no other
+T11	Duration 112 122	in 2 years
+T12	Drug 127 135	Drug Use
+T13	Type 143 149	heroin
+T14	Duration 155 163	40 years
+T15	StatusTime 137 142	Prior
+T16	Drug 177 185	drug use
+T17	StatusTime 166 176	no current
+T18	History 201 240	prior to wife's fatal overdose ([DATE])
+T19	LivingStatus 261 268	Staying
+T20	TypeLiving 272 297	Roots Young Adult Shelter
+T21	StatusTime 298 307	currently
+E1	Tobacco:T1 Amount:T2 Duration:T3 Status:T4
+E2	Alcohol:T5 History:T6 Duration:T7 Status:T8
+E3	Alcohol:T9 Duration:T11 Status:T10
+E4	Drug:T12 Type:T13 Duration:T14 Status:T15
+E5	Drug:T16 Status:T17 History:T18
+E6	LivingStatus:T19 Type:T20 Status:T21
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T8 past
+A3	StatusTimeVal T10 none
+A4	StatusTimeVal T15 past
+A5	StatusTimeVal T17 past
+A6	TypeLivingVal T20 homeless
+A7	StatusTimeVal T21 current

@@ -1,0 +1,13 @@
+T1	Tobacco 14 15	t
+T2	Alcohol 16 17	e
+T3	Drug 18 19	d
+T4	StatusTime 11 13	No
+T5	Employment 22 27	Works
+T6	StatusEmploy 22 27	Works
+T7	Type 41 50	a teacher
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T4
+E3	Drug:T3 Status:T4
+E4	Employment:T5 Type:T7 Status:T6
+A1	StatusTimeVal T4 none
+A2	StatusEmployVal T6 employed

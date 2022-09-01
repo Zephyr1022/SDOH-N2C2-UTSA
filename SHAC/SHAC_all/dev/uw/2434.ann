@@ -1,0 +1,6 @@
+T1	LivingStatus 115 124	Residence
+T2	TypeLiving 126 141	Swedish Medical
+T3	StatusTime 126 141	Swedish Medical
+E1	LivingStatus:T1 Status:T3 Type:T2
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current

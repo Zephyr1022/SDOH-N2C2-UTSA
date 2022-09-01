@@ -1,0 +1,24 @@
+T1	Alcohol 16 38	Occasional alcohol use
+T3	StatusTime 16 38	Occasional alcohol use
+T4	Amount 44 54	2-3 drinks
+T5	Frequency 54 60	/month
+T6	Alcohol 75 80;81 89	binge drinking
+T8	StatusTime 65 74	prior h/o
+T9	Drug 95 108	marijuana use
+T10	Type 95 104	marijuana
+T11	StatusTime 91 94	h/o
+T12	Tobacco 113 124	tobacco use
+T14	StatusTime 153 164	remote past
+T15	Drug 180 191	IV drug use
+T16	Method 180 182	IV
+T17	StatusTime 166 176	no history
+E1	Alcohol:T1 Status:T3 Amount:T4 Frequency:T5
+E2	Alcohol:T6 Status:T8
+E3	Drug:T9 Type:T10 Status:T11
+E4	Tobacco:T12 Status:T14
+E5	Drug:T15 Status:T17 Method:T16
+A2	StatusTimeVal T3 current
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T11 current
+A7	StatusTimeVal T14 past
+A8	StatusTimeVal T17 none

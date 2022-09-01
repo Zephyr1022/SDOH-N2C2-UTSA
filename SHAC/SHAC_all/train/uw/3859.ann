@@ -1,0 +1,21 @@
+T1	Drug 51 60	herointwo
+T2	Type 51 60	herointwo
+T3	History 51 72	herointwo years prior
+T4	StatusTime 41 50	last used
+T5	Tobacco 87 94	smoking
+T6	Amount 95 102	1/2 PPD
+T7	StatusTime 87 94	smoking
+T8	Alcohol 115 126	alcohol use
+T9	StatusTime 108 114	denies
+T10	LivingStatus 12 17	lives
+T11	StatusTime 12 17	lives
+T12	TypeLiving 21 35	Interbay Place
+E1	Drug:T1 Type:T2 History:T3 Status:T4
+E2	Tobacco:T5 Amount:T6 Status:T7
+E3	Alcohol:T8 Status:T9
+E4	LivingStatus:T10 Status:T11 Type:T12
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 homeless

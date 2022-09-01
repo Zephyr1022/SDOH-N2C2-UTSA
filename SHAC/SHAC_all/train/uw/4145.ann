@@ -1,0 +1,12 @@
+T1	Alcohol 17 34	heavy alcohol use
+T3	StatusTime 8 16	Endorses
+T4	Tobacco 43 50	smoking
+T5	StatusTime 36 42	denies
+T6	Drug 59 64	drugs
+T7	StatusTime 52 58	denies
+E1	Alcohol:T1 Status:T3
+E2	Tobacco:T4 Status:T5
+E3	Drug:T6 Status:T7
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 none

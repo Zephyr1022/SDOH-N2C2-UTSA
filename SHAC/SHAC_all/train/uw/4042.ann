@@ -1,0 +1,14 @@
+T1	Alcohol 44 48	EtOH
+T2	History 49 59	since 1988
+T3	Drug 29 34	drugs
+T4	StatusTime 17 28	hasn't done
+T5	Tobacco 65 71	smoked
+T6	Amount 72 76	2ppd
+T7	Duration 77 92	since he was 13
+T8	StatusTime 65 71	smoked
+E1	Alcohol:T1 History:T2 Status:T4
+E2	Drug:T3 Status:T4 History:T2
+E3	Tobacco:T5 Amount:T6 Duration:T7 Status:T8 Amount2:T9
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T8 current
+T9	Amount 94 107	90 pack years

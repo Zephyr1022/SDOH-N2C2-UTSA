@@ -1,0 +1,26 @@
+T1	Employment 25 44	Construction worker
+T2	StatusEmploy 25 44	Construction worker
+T3	Type 25 44	Construction worker
+T4	Tobacco 46 52	Smoked
+T5	StatusTime 46 52	Smoked
+T6	History 53 66	>25 years ago
+T7	Drug 68 72	IVDU
+T8	Type 76 82	heroin
+T9	Method 68 72	IVDU
+T10	History 83 98	25-30 years ago
+T11	StatusTime 83 98	25-30 years ago
+T12	Drug 130 140	valium use
+T13	StatusTime 130 140	valium use
+T14	Type 130 136	valium
+T15	Alcohol 145 149;150 153	ETOH use
+T16	StatusTime 142 144	No
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Drug:T7 Method:T9 Type:T8 Status:T11 History:T10
+E4	Drug:T12 Status:T13 Type:T14
+E5	Alcohol:T15 Status:T16
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T11 past
+A4	StatusTimeVal T13 current
+A5	StatusTimeVal T16 none

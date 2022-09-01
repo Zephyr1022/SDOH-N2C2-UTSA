@@ -1,0 +1,30 @@
+T1	LivingStatus 19 24	lives
+T2	StatusTime 19 24	lives
+T3	TypeLiving 25 36	with his SO
+T4	Employment 183 200	previously worked
+T5	StatusEmploy 183 200	previously worked
+T6	Type 214 229	septic business
+T7	Employment 238 243	works
+T8	StatusEmploy 238 243	works
+T9	Type 266 303	driving a dump truck and an excavator
+T10	Tobacco 320 337	previously smoked
+T11	StatusTime 320 337	previously smoked
+T12	History 338 348	in his 20s
+T13	Alcohol 359 363	ETOH
+T14	StatusTime 350 358	consumes
+T16	Drug 391 412	recreational drug use
+T17	Type 391 403	recreational
+T18	StatusTime 382 384	no
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Employment:T7 Status:T8 Type:T9
+E4	Tobacco:T10 Status:T11 History:T12
+E5	Alcohol:T13 Status:T14
+E6	Drug:T16 Type:T17 Status:T18
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T5 unemployed
+A4	StatusEmployVal T8 employed
+A5	StatusTimeVal T11 past
+A6	StatusTimeVal T14 current
+A8	StatusTimeVal T18 none

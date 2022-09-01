@@ -1,0 +1,26 @@
+T1	Tobacco 9 15	Smokes
+T2	StatusTime 9 15	Smokes
+T3	Amount 16 28	2 cigarettes
+T4	Frequency 29 34	/ day
+T5	Drug 47 51	IVDU
+T6	Method 170 177	injects
+T7	StatusTime 35 46	Prior hx of
+T8	Type 115 166	heroin, cocaine, or combination of both (speedball)
+T9	StatusTime 199 212	Quit Drinking
+T10	Alcohol 213 217	EtOH
+T11	History 218 225	in 1989
+T12	LivingStatus 254 262	homeless
+T13	StatusTime 244 262	Currently homeless
+T14	TypeLiving 254 262	homeless
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4
+E2	Drug:T5 Status:T7 Method:T6 Type:T8 Method2:T15 History:T16 Method3:T17
+E3	Alcohol:T10 History:T11 Status:T9
+E4	LivingStatus:T12 Type:T14 Status:T13
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T9 past
+A4	StatusTimeVal T13 current
+A5	TypeLivingVal T14 homeless
+T15	Method 47 51	IVDU
+T16	History 65 81	for a few months
+T17	Method 93 102	skin pops

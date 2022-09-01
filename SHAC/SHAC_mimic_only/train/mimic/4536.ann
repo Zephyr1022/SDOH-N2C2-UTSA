@@ -1,0 +1,25 @@
+T1	Alcohol 43 49	drinks
+T2	StatusTime 43 49	drinks
+T3	Frequency 50 64	3 times a week
+T4	Drug 76 99	recent illicit drug use
+T5	StatusTime 69 75	denies
+T6	Type 83 90	illicit
+T7	Alcohol 107 122	a binge drinker
+T8	StatusTime 104 106	is
+T10	LivingStatus 282 287	lives
+T11	StatusTime 282 287	lives
+T12	TypeLiving 295 335	with his parents and with his girlfriend
+T13	Employment 358 367	part-time
+T14	StatusEmploy 358 367	part-time
+T15	Type 371 384	a supermarket
+E1	Alcohol:T1 Status:T2 Frequency:T3
+E2	Drug:T4 Type:T6 Status:T5
+E3	Alcohol:T7 Status:T8
+E4	LivingStatus:T10 Status:T11 Type:T12
+E5	Employment:T13 Status:T14 Type:T15
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T8 current
+A5	StatusTimeVal T11 current
+A6	TypeLivingVal T12 with_family
+A7	StatusEmployVal T14 employed

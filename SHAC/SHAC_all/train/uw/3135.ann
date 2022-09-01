@@ -1,0 +1,35 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 30	1/2 pack
+T3	Frequency 31 38	per day
+T4	StatusTime 39 48	currently
+T6	Duration 57 70	for ~40 years
+T5	Alcohol 111 122	Alcohol Use
+T7	StatusTime 124 142	denies current use
+T8	Drug 143 151	Drug Use
+T9	Type 159 165	heroin
+T10	Method 156 158	IV
+T11	History 180 190	for a year
+T12	StatusTime 153 155	hx
+T13	Drug 203 212	marijuana
+T14	Type 203 212	marijuana
+T16	StatusTime 192 202	occasional
+T17	LivingStatus 262 274	homelessness
+T18	TypeLiving 262 274	homelessness
+T19	StatusTime 251 261	History of
+T20	LivingStatus 287 300	own apartment
+T21	TypeLiving 287 300	own apartment
+T22	StatusTime 301 316	about 3 mos ago
+E1	Tobacco:T1 Amount:T2 Frequency:T3 Status:T4 Duration:T6
+E2	Alcohol:T5 Status:T7
+E3	Drug:T8 Method:T10 Type:T9 Status:T12 History:T11
+E4	Drug:T13 Type:T14 Status:T16
+E5	LivingStatus:T17 Type:T18 Status:T19
+E6	LivingStatus:T20 Type:T21 Status:T22
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T12 past
+A5	StatusTimeVal T16 current
+A6	TypeLivingVal T18 homeless
+A7	StatusTimeVal T19 past
+A8	TypeLivingVal T21 alone
+A9	StatusTimeVal T22 current

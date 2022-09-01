@@ -1,0 +1,25 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	quit
+T3	History 27 31	1986
+T4	Alcohol 33 44	Alcohol Use
+T5	StatusTime 46 50	quit
+T6	History 51 55	1986
+T7	Drug 56 64	Drug Use
+T8	StatusTime 66 70	none
+T9	LivingStatus 89 94	Lives
+T10	TypeLiving 95 117	with wife and daughter
+T13	Employment 217 244	Retired electrical engineer
+T14	StatusEmploy 217 244	Retired electrical engineer
+T15	Type 217 244	Retired electrical engineer
+T16	StatusTime 89 94	Lives
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Alcohol:T4 Status:T5 History:T6
+E3	Drug:T7 Status:T8
+E4	LivingStatus:T9 Type:T10 Status:T16
+E6	Employment:T13 Status:T14 Type:T15
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 none
+A4	TypeLivingVal T10 with_family
+A5	StatusEmployVal T14 retired
+A6	StatusTimeVal T16 current

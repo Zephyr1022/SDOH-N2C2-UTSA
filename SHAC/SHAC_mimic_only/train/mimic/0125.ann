@@ -1,0 +1,13 @@
+T1	Tobacco 24 30	smoked
+T2	StatusTime 49 57	quitting
+T3	Amount 31 36	4 ppd
+T4	Duration 37 47	x 37 years
+T5	History 58 70	22 years ago
+T6	LivingStatus 87 92	lives
+T7	StatusTime 87 92	lives
+T8	TypeLiving 93 98	alone
+E1	Tobacco:T1 Amount:T3 Duration:T4 Status:T2 History:T5
+E2	LivingStatus:T6 Status:T7 Type:T8
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T7 current
+A3	TypeLivingVal T8 alone

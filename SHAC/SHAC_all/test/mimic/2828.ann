@@ -1,0 +1,18 @@
+T1	LivingStatus 16 21	lives
+T2	StatusTime 16 21	lives
+T3	TypeLiving 22 44	with long time partner
+T4	Tobacco 56 62	smoker
+T5	StatusTime 46 62	long time smoker
+T6	Duration 46 55	long time
+T7	Alcohol 68 72	etoh
+T8	Drug 76 84	illicits
+T9	Type 76 84	illicits
+T10	StatusTime 65 67	no
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Duration:T6 Status:T5
+E3	Alcohol:T7 Status:T10
+E4	Drug:T8 Status:T10 Type:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T10 none

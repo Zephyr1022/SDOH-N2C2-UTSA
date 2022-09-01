@@ -1,0 +1,4 @@
+T1	Tobacco 76 95	former heavy smoker
+T2	StatusTime 76 95	former heavy smoker
+E1	Tobacco:T1 Status:T2
+A1	StatusTimeVal T2 past

@@ -1,0 +1,17 @@
+T1	LivingStatus 70 75	Lives
+T2	StatusTime 70 75	Lives
+T3	TypeLiving 76 78;79 106	in an assisted-living facility
+T4	Tobacco 30 37	tobacco
+T5	StatusTime 39 43	quit
+T6	History 44 53	years ago
+T7	Alcohol 58 62	etoh
+T8	Drug 63 68	drugs
+T9	StatusTime 55 57	no
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Alcohol:T7 Status:T9
+E4	Drug:T8 Status:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T9 none

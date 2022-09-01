@@ -1,0 +1,9 @@
+T1	Tobacco 24 31	tobacco
+T2	StatusTime 17 23	Denies
+T3	Alcohol 74 80	drinks
+T5	StatusTime 91 101	last drink
+T6	History 106 118	2 months ago
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T5 History:T6
+A1	StatusTimeVal T2 none
+A3	StatusTimeVal T5 past

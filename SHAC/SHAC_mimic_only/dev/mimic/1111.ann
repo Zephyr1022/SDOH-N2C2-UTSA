@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 31	with wife
+T4	Employment 33 55	Retired, former banker
+T5	StatusEmploy 33 55	Retired, former banker
+T6	Type 33 55	Retired, former banker
+T7	Tobacco 129 135;136 142	Former smoker
+T8	StatusTime 144 148	quit
+T9	History 149 170	at least 10 years ago
+T10	Alcohol 186 190	EtOH
+T11	StatusTime 172 185	Has not drank
+T12	History 191 200;201 206	for 20-25 years
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8 History:T9
+E4	Alcohol:T10 Status:T11 History:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T11 past

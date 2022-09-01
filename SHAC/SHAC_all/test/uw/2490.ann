@@ -1,0 +1,21 @@
+T1	Employment 128 138	Unemployed
+T2	StatusEmploy 128 138	Unemployed
+T3	LivingStatus 92 97	lives
+T4	StatusTime 92 97	lives
+T5	TypeLiving 98 126	at Seattle City Hall Shelter
+T6	Type 56 71	methamphetamine
+T7	Drug 72 80	drug use
+T9	Alcohol 20 27	alcohol
+T10	StatusTime 17 19	No
+T8	Type 47 54	heroine
+T11	Type 38 45	cocaine
+T12	Tobacco 29 36	tobacco
+E1	Employment:T1 Status:T2
+E2	LivingStatus:T3 Type:T5 Status:T4
+E3	Drug:T7 Type:T6 Status:T10 Type2:T8 Type3:T11
+E4	Alcohol:T9 Status:T10
+E5	Tobacco:T12 Status:T10
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T5 homeless
+A5	StatusTimeVal T10 none

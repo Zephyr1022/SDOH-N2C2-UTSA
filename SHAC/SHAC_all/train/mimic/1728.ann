@@ -1,0 +1,46 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 50 62	with his son
+T4	Employment 102 112	Unemployed
+T5	StatusEmploy 102 112	Unemployed
+T6	Type 129 153;154 171	a scale attendant at the refuge department
+T7	Drug 313 322	marijuana
+T8	StatusTime 306 312	smokes
+T9	Method 306 312	smokes
+T11	Type 313 322	marijuana
+T12	Drug 362 373	IV drug use
+T13	Method 362 364	IV
+T14	StatusTime 340 350;351 358	denies any history
+T15	Drug 386 399	nasal cocaine
+T16	Type 392 399	cocaine
+T17	Method 386 391	nasal
+T18	StatusTime 378 385	did use
+T19	Tobacco 405 411	smokes
+T20	StatusTime 405 411	smokes
+T21	Amount 412 413;414 432	1 [**12-4**] - 2 PPD
+T22	Duration 433 454	for the past 20 years
+T23	Alcohol 221 228	alcohol
+T24	Duration 229 252	at approximately age 13
+T25	StatusTime 204 220	started drinking
+T26	Alcohol 254 260	Drinks
+T27	StatusTime 254 260	Drinks
+T28	Amount 261 272	up to quart
+T29	Type 276 286;287 295	peppermint schnapps
+T30	Frequency 296 301	daily
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Drug:T7 Type:T11 Status:T8 Method:T9
+E4	Drug:T12 Status:T14 Method:T13
+E5	Drug:T15 Type:T16 Method:T17 Status:T18
+E6	Tobacco:T19 Status:T20 Amount:T21 Duration:T22
+E7	Alcohol:T23 Status:T25 Duration:T24
+E8	Alcohol:T26 Type:T29 Status:T27 Amount:T28 Frequency:T30
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T8 current
+A6	StatusTimeVal T14 none
+A7	StatusTimeVal T18 past
+A8	StatusTimeVal T20 current
+A9	StatusTimeVal T25 current
+A10	StatusTimeVal T27 current

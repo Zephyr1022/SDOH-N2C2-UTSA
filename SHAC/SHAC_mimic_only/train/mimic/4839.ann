@@ -1,0 +1,16 @@
+T1	Alcohol 18 24	Drinks
+T2	Amount 16 24	2 Drinks
+T3	Frequency 25 30	daily
+T4	StatusTime 16 30	2 Drinks daily
+T5	Tobacco 32 37	smoke
+T6	Amount 38 53	[**12-11**] ppd
+T8	History 62 80	till [**2-/2180**]
+T7	StatusTime 62 80	till [**2-/2180**]
+T12	Employment 145 152	working
+T13	StatusEmploy 145 152	working
+E1	Alcohol:T1 Amount:T2 Status:T4 Frequency:T3
+E2	Tobacco:T5 Amount:T6 History:T8 Status:T7
+E4	Employment:T12 Status:T13
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T7 past
+A4	StatusEmployVal T13 employed

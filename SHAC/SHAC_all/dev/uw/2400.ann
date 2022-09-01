@@ -1,0 +1,10 @@
+T1	Employment 27 37	unemployed
+T2	LivingStatus 17 25	homeless
+T3	StatusTime 17 25	homeless
+T4	TypeLiving 17 25	homeless
+T5	StatusEmploy 27 37	unemployed
+E1	Employment:T1 Status:T5
+E2	LivingStatus:T2 Status:T3 Type:T4
+A1	StatusTimeVal T3 current
+A2	TypeLivingVal T4 homeless
+A3	StatusEmployVal T5 unemployed

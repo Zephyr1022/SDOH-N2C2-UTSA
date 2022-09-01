@@ -1,0 +1,19 @@
+T1	Alcohol 39 52	alcohol abuse
+T3	StatusTime 27 35	has a hx
+T4	Drug 57 74	polysubstance use
+T5	LivingStatus 93 98	Lives
+T6	StatusTime 93 98	Lives
+T7	TypeLiving 113 143	at DESC (transitional housing)
+T8	Duration 144 164	for the past 5 years
+T9	LivingStatus 176 182	living
+T10	StatusTime 166 171	Prior
+T11	TypeLiving 183 197	on the streets
+E1	Alcohol:T1 Status:T3
+E2	Drug:T4 Status:T3
+E3	LivingStatus:T5 Status:T6 Type:T7 Duration:T8
+E4	LivingStatus:T9 Status:T10 Type:T11
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 current
+A4	TypeLivingVal T7 homeless
+A5	StatusTimeVal T10 past
+A6	TypeLivingVal T11 homeless

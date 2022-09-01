@@ -1,0 +1,16 @@
+T1	Alcohol 16 20	ETOH
+T2	StatusTime 34 40	drinks
+T3	Frequency 60 65	daily
+T4	Amount 67 74;75 80	about 3 shots
+T5	Alcohol 157 164	alcohol
+T6	Tobacco 166 173	smoking
+T7	Drug 183 191	illicits
+T8	Type 183 191	illicits
+T9	StatusTime 139 143	quit
+E1	Alcohol:T1 Status:T2 Frequency:T3 Amount:T4 Frequency2:T10
+E2	Alcohol:T5 Status:T9
+E3	Tobacco:T6 Status:T9
+E4	Drug:T7 Type:T8 Status:T9
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T9 past
+T10	Frequency 80 84	/day

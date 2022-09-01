@@ -1,0 +1,19 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 29 40	Alcohol Use
+T3	Drug 49 57	Drug Use
+T4	StatusTime 59 63	None
+T5	StatusTime 42 46	None
+T6	StatusTime 22 26	None
+T7	LivingStatus 100 107	staying
+T8	StatusTime 90 107	Currently staying
+T9	TypeLiving 108 120	with parents
+T10	Duration 121 138	in post-op period
+E1	Tobacco:T1 Status:T6
+E2	Alcohol:T2 Status:T5
+E3	Drug:T3 Status:T4
+E4	LivingStatus:T7 Status:T8 Type:T9 Duration:T10
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 with_family

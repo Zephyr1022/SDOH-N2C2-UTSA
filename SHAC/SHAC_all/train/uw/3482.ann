@@ -1,0 +1,36 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 31	every day
+T3	Frequency 22 31	every day
+T4	Alcohol 34 45	Alcohol Use
+T5	StatusTime 47 49	no
+T6	Drug 52 60	Drug Use
+T7	LivingStatus 149 158	Residence
+T8	StatusTime 182 187	lives
+T9	TypeLiving 188 200	with partner
+T10	StatusTime 62 69	IV meth
+T11	Method 62 64	IV
+T12	Type 65 69	meth
+T13	StatusTime 71 87	recently stopped
+T14	Type 88 94	heroin
+T15	Drug 96 101	crack
+T16	StatusTime 96 101	crack
+T17	Type 96 101	crack
+T18	Drug 103 129	non-prescription methadone
+T19	StatusTime 103 129	non-prescription methadone
+T20	Type 103 129	non-prescription methadone
+E1	Tobacco:T1 Frequency:T3 Status:T2
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Method:T11 Status:T10 Type:T12
+E4	LivingStatus:T7 Status:T8 Type:T9
+E6	Drug:T15 Type:T17 Status:T16
+E7	Drug:T18 Status:T19 Type:T20
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T8 current
+A4	TypeLivingVal T9 with_others
+A5	StatusTimeVal T10 current
+A6	StatusTimeVal T13 past
+A7	StatusTimeVal T16 current
+A8	StatusTimeVal T19 current
+T21	Drug 88 94	heroin
+E8	Drug:T21 Type:T14 Status:T13

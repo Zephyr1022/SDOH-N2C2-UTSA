@@ -1,0 +1,39 @@
+T1	Employment 32 38	a chef
+T2	StatusEmploy 32 38	a chef
+T3	Type 32 38	a chef
+T4	LivingStatus 151 156	lives
+T5	StatusTime 151 156	lives
+T6	TypeLiving 157 176	with his girlfriend
+T7	Drug 430 441;442 450	intravenous drug use
+T8	Method 430 441	intravenous
+T9	StatusTime 423 429	denies
+T10	Drug 413 418	drugs
+T11	StatusTime 368 378	In his 20s
+T12	History 368 378	In his 20s
+T13	Tobacco 688 701	cigarette use
+T14	Type 688 697	cigarette
+T15	StatusTime 681 687	denies
+T16	Tobacco 723 735	pipe smoking
+T17	Method 723 727	pipe
+T18	StatusTime 712 722	history of
+T19	Alcohol 762 767	drank
+T20	Amount 768 777	six beers
+T21	Type 772 777	beers
+T22	Frequency 778 783	a day
+T23	StatusTime 738 749	In the past
+T24	History 805 811;812 816	over a year
+E1	Employment:T1 Type:T3 Status:T2
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Drug:T7 Status:T9 Method:T8
+E4	Drug:T10 History:T12 Status:T11
+E5	Tobacco:T13 Type:T14 Status:T15
+E6	Tobacco:T16 Method:T17 Status:T18
+E7	Alcohol:T19 Type:T21 Amount:T20 Frequency:T22 Status:T23 History:T24
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_others
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T11 past
+A6	StatusTimeVal T15 none
+A7	StatusTimeVal T18 current
+A8	StatusTimeVal T23 past

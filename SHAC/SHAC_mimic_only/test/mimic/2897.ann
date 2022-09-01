@@ -1,0 +1,36 @@
+T1	LivingStatus 47 52	lives
+T2	StatusTime 47 52	lives
+T3	TypeLiving 53 58	alone
+T4	Employment 152 157	works
+T5	StatusEmploy 152 157	works
+T6	Type 162 193;194 207	a company involved with medical sterilization
+T7	Tobacco 253 259	smoked
+T8	Duration 260 272	for 40 years
+T9	Amount 302 310	one pack
+T10	Frequency 311 314;315 318	per day
+T11	Amount 322 330	one pack
+T12	Frequency 331 339	per week
+T13	StatusTime 253 259	smoked
+T14	Tobacco 322 330	one pack
+T15	StatusTime 278 296	recently decreased
+T16	Tobacco 349 366	currently smoking
+T17	StatusTime 349 366	currently smoking
+T18	Amount 367 375	one pack
+T19	Frequency 376 379;380 384	per week
+T20	Alcohol 402 411	alcoholic
+T21	StatusTime 391 397	drinks
+T22	Amount 398 421	2-3 alcoholic beverages
+T23	Frequency 422 430	per week
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Duration:T8 Status:T13 Amount:T9 Frequency:T10
+E4	Tobacco:T14 Amount:T11 Frequency:T12 Status:T15
+E5	Tobacco:T16 Status:T17 Amount:T18 Frequency:T19
+E6	Alcohol:T20 Status:T21 Amount:T22 Frequency:T23
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T13 past
+A5	StatusTimeVal T15 current
+A6	StatusTimeVal T17 current
+A7	StatusTimeVal T21 current

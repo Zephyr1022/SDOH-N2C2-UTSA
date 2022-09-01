@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 65 76	Alcohol Use
+T3	Amount 47 55	1/2 pack
+T4	Frequency 56 63	per day
+T5	Amount 103 117	12 light beers
+T6	Frequency 118 123	daily
+T7	StatusTime 47 63	1/2 pack per day
+T8	StatusTime 103 123	12 light beers daily
+T9	LivingStatus 227 235	homeless
+T10	TypeLiving 227 235	homeless
+T11	StatusTime 227 235	homeless
+T12	Drug 175 183	drug use
+T13	StatusTime 160 174	denies current
+E1	Tobacco:T1 Amount:T3 Frequency:T4 Status:T7
+E2	Alcohol:T2 Amount:T5 Frequency:T6 Status:T8 Type:T14
+E3	LivingStatus:T9 Status:T11 Type:T10
+E4	Drug:T12 Status:T13
+A1	StatusTimeVal T7 current
+A2	StatusTimeVal T8 current
+A3	TypeLivingVal T10 homeless
+A4	StatusTimeVal T11 current
+A5	StatusTimeVal T13 past
+T14	Type 106 117	light beers

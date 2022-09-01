@@ -1,0 +1,5 @@
+T1	Employment 16 22	driver
+T2	StatusEmploy 16 22	driver
+T3	Type 16 22	driver
+E1	Employment:T1 Status:T2 Type:T3
+A1	StatusEmployVal T2 employed

@@ -1,0 +1,32 @@
+T1	Tobacco 17 24	Tobacco
+T2	StatusTime 50 55	~1ppd
+T3	Amount 50 55	~1ppd
+T4	Alcohol 79 86	Alcohol
+T5	StatusTime 88 97	1-2x/week
+T6	Frequency 88 97	1-2x/week
+T7	Drug 99 104	Drugs
+T8	StatusTime 106 112	Smokes
+T9	Method 106 112	Smokes
+T10	Type 113 117	meth
+T11	Method 128 130	IV
+T12	Method 119 127	injected
+T13	StatusTime 131 174	for the first time in gt20 years 1 week ago
+T14	Drug 119 130	injected IV
+T15	LivingStatus 176 180	Live
+T16	StatusTime 182 190	Homeless
+T17	TypeLiving 182 190	Homeless
+T18	Employment 200 204	Work
+T19	StatusEmploy 206 210	None
+E1	Tobacco:T1 Status:T2 Amount:T3
+E2	Alcohol:T4 Status:T5 Frequency:T6
+E3	Drug:T7 Status:T8 Method:T9 Type:T10
+E4	Drug:T14 Method:T12 Status:T13 Method2:T11
+E5	LivingStatus:T15 Type:T17 Status:T16
+E6	Employment:T18 Status:T19
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T13 current
+A5	StatusTimeVal T16 current
+A6	TypeLivingVal T17 homeless
+A7	StatusEmployVal T19 unemployed

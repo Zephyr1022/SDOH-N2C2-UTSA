@@ -1,0 +1,24 @@
+T1	Alcohol 103 110	alcohol
+T2	StatusTime 96 102	former
+T3	LivingStatus 121 126	lives
+T4	StatusTime 121 126	lives
+T5	TypeLiving 135 150	with his mother
+T6	Employment 171 181	unemployed
+T7	StatusEmploy 161 181	currently unemployed
+T8	Tobacco 47 53	smokes
+T9	Amount 54 59;60 68	about one pack
+T10	Frequency 69 85	every three days
+T11	StatusTime 47 53	smokes
+T12	Tobacco 35 41	smoker
+T13	StatusTime 23 32	currently
+E1	Alcohol:T1 Status:T2
+E2	LivingStatus:T3 Type:T5 Status:T4
+E3	Employment:T6 Status:T7
+E4	Tobacco:T8 Status:T11 Amount:T9 Frequency:T10
+E5	Tobacco:T12 Status:T13
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T5 with_family
+A4	StatusEmployVal T7 unemployed
+A5	StatusTimeVal T11 current
+A6	StatusTimeVal T13 current

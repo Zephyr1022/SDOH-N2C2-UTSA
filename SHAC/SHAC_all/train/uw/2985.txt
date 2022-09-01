@@ -1,0 +1,10 @@
+HABITS: 
+Alcohol Use: infrequent (1 drink or less/day). 
+Tobacco use: 
+Cigarettes: 34 pack years, 0.5 packs/ day. 
+Drug use: 
+Denies. 
+
+SOCIAL HISTORY: 
+[x] Unable to Obtain due to Patient Condition
+Residence: _

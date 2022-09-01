@@ -1,0 +1,20 @@
+T1	LivingStatus 20 34	curretly lives
+T2	TypeLiving 35 43	at rehab
+T3	StatusTime 20 28	curretly
+T4	Tobacco 58 63	smoke
+T5	Alcohol 69 76	alcohol
+T6	Drug 81 94	illicit drugs
+T7	Type 81 88	illicit
+T8	StatusTime 49 57	does not
+T9	Employment 103 123	currently unemployed
+T10	StatusEmploy 113 123	unemployed
+T11	Type 138 143;144 150	a bus driver
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T8
+E3	Alcohol:T5 Status:T8
+E4	Drug:T6 Type:T7 Status:T8
+E5	Employment:T9 Status:T10 Type:T11
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T8 none
+A4	StatusEmployVal T10 unemployed

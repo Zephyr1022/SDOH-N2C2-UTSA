@@ -1,0 +1,16 @@
+T1	Tobacco 37 44	tobacco
+T2	Amount 16 28	60 pack year
+T3	StatusTime 46 50	quit
+T4	History 51 59	x 14 yrs
+T5	Employment 94 111	Previously worked
+T6	StatusEmploy 94 111	Previously worked
+T7	Type 115 146	a glass [**Doctor Last Name **]
+T8	Alcohol 65 72	alcohol
+T9	StatusTime 62 77;78 81	No alcohol x 22 yrs
+T10	History 73 77;78 81	x 22 yrs
+E1	Tobacco:T1 Amount:T2 Status:T3 History:T4
+E2	Employment:T5 Status:T6 Type:T7
+E3	Alcohol:T8 Status:T9 History:T10
+A1	StatusTimeVal T3 past
+A2	StatusEmployVal T6 unemployed
+A3	StatusTimeVal T9 past

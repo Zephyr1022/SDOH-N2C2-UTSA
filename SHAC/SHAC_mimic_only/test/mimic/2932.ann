@@ -1,0 +1,15 @@
+T3	LivingStatus 82 97	currently lives
+T4	StatusTime 82 97	currently lives
+T5	TypeLiving 98 103	alone
+T6	Alcohol 154 161	alcohol
+T7	Tobacco 163 170	tobacco
+T8	Drug 174 187	illicit drugs
+T9	Type 174 181	illicit
+T10	StatusTime 136 142	denies
+E2	LivingStatus:T3 Status:T4 Type:T5
+E3	Alcohol:T6 Status:T10
+E4	Tobacco:T7 Status:T10
+E5	Drug:T8 Type:T9 Status:T10
+A1	StatusTimeVal T4 current
+A2	TypeLivingVal T5 alone
+A3	StatusTimeVal T10 none

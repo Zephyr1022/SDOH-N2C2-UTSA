@@ -1,0 +1,23 @@
+T1	Drug 37 48	IV drug use
+T2	Type 37 39	IV
+T3	StatusTime 17 33	Previous history
+T4	Tobacco 59 66	smoking
+T5	Amount 67 74	2 packs
+T6	Frequency 75 82	per day
+T7	Duration 83 109	for approximately 37 years
+T8	StatusTime 67 109	2 packs per day for approximately 37 years
+T9	LivingStatus 111 116	lives
+T10	StatusTime 111 116	lives
+T11	TypeLiving 133 143	by herself
+T12	Drug 172 188	methamphetamines
+T13	Type 172 188	methamphetamines
+T14	StatusTime 168 171	h/o
+E1	Drug:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Amount:T5 Frequency:T6 Status:T8 Duration:T7
+E3	LivingStatus:T9 Status:T10 Type:T11
+E4	Drug:T12 Status:T14 Type:T13
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T8 current
+A3	StatusTimeVal T10 current
+A4	TypeLivingVal T11 alone
+A5	StatusTimeVal T14 current

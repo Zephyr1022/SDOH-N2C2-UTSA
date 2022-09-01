@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 36 93	with girlfriend and 7 children (2 stepchildren) ages 1-10
+T4	Employment 172 177	works
+T5	StatusEmploy 172 177	works
+T6	Type 188 194	a cook
+T7	Drug 431 440	marijuana
+T8	StatusTime 424 430	Smokes
+T9	Type 431 440	marijuana
+T10	Alcohol 466 480	heavy drinking
+T11	StatusTime 455 462	history
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Drug:T7 Type:T9 Status:T8 Method:T12
+E4	Alcohol:T10 Status:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T11 current
+T12	Method 424 430	Smokes

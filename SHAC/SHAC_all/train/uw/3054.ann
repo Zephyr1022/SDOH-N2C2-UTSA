@@ -1,0 +1,21 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	Smokes
+T3	Amount 29 33	1ppd
+T4	Duration 51 63	6 months aog
+T5	Alcohol 66 77	Alcohol Use
+T6	StatusTime 79 83	None
+T7	Drug 86 94	Drug Use
+T8	StatusTime 96 98	Hx
+T9	Method 99 103	IVDU
+T10	LivingStatus 177 182	lives
+T11	StatusTime 177 182	lives
+T12	TypeLiving 183 198	@ Rainier house
+E1	Tobacco:T1 Status:T2 Amount:T3 Duration:T4
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Status:T8 Method:T9
+E4	LivingStatus:T10 Status:T11 Type:T12
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 homeless

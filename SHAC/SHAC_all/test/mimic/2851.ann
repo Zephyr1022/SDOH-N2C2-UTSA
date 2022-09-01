@@ -1,0 +1,23 @@
+T1	Alcohol 105 109	ETOH
+T2	Amount 111 135	[**12-22**] glasses wine
+T3	Frequency 135 138	/wk
+T4	StatusTime 111 138	[**12-22**] glasses wine/wk
+T5	Employment 16 37	Retired BDMC employee
+T6	StatusEmploy 16 37	Retired BDMC employee
+T7	Type 16 37	Retired BDMC employee
+T8	LivingStatus 38 43	Lives
+T9	StatusTime 38 43	Lives
+T10	TypeLiving 44 53	with wife
+T11	Amount 72 87	20 pack year hx
+T12	StatusTime 89 93	quit
+T13	History 94 104	20 yrs ago
+T14	Tobacco 72 87	20 pack year hx
+E1	Alcohol:T1 Amount:T2 Status:T4 Frequency:T3
+E2	Employment:T5 Type:T7 Status:T6
+E3	LivingStatus:T8 Type:T10 Status:T9
+E4	Tobacco:T14 Amount:T11 Status:T12 History:T13
+A1	StatusTimeVal T4 current
+A2	StatusEmployVal T6 retired
+A3	StatusTimeVal T9 current
+A4	TypeLivingVal T10 with_family
+A5	StatusTimeVal T12 past

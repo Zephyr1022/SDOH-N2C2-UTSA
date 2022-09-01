@@ -1,0 +1,29 @@
+T1	Drug 271 279	drug use
+T2	StatusTime 254 256	No
+T3	Method 257 262;263 270	IV or inhaled
+T4	Amount 199 208	3-4 packs
+T5	Frequency 209 216	per day
+T6	Duration 217 229	for 20 years
+T7	StatusTime 234 238	quit
+T8	History 239 252	in [**2077**]
+T9	Tobacco 192 198	smoked
+T10	Alcohol 131 136	drink
+T11	StatusTime 123 130	used to
+T12	Amount 137 155	between 0-5 drinks
+T13	Frequency 156 163	per day
+T14	Alcohol 173 178	drank
+T15	StatusTime 165 172	Has not
+T16	LivingStatus 19 24	lives
+T17	StatusTime 19 24	lives
+T18	TypeLiving 25 38	with his wife
+E1	Drug:T1 Method:T3 Status:T2
+E2	Tobacco:T9 Amount:T4 Frequency:T5 Status:T7 Duration:T6 History:T8
+E3	Alcohol:T10 Status:T11 Amount:T12 Frequency:T13
+E4	Alcohol:T14 Status:T15
+E5	LivingStatus:T16 Type:T18 Status:T17
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T11 past
+A4	StatusTimeVal T15 past
+A5	StatusTimeVal T17 current
+A6	TypeLivingVal T18 with_family

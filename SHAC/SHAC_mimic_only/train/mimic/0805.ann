@@ -1,0 +1,15 @@
+T1	Tobacco 148 156;157 172	a remote smoking history
+T2	StatusTime 177 181	quit
+T3	History 182 194	10 years ago
+T4	LivingStatus 109 114	Lives
+T5	StatusTime 109 114	Lives
+T6	TypeLiving 115 128	with his wife
+T7	Alcohol 204 211	alcohol
+T8	StatusTime 197 203	Drinks
+E1	Tobacco:T1 Status:T2 History:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Alcohol:T7 Status:T8
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T8 current

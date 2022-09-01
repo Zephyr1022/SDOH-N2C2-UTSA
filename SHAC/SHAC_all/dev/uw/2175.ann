@@ -1,0 +1,6 @@
+T1	LivingStatus 16 32	Curently resides
+T2	StatusTime 16 32	Curently resides
+T3	TypeLiving 33 39	in SNF
+E1	LivingStatus:T1 Status:T2 Type:T3
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others

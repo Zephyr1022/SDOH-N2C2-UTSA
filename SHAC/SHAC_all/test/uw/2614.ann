@@ -1,0 +1,17 @@
+T1	Tobacco 11 22	Neversmoker
+T2	StatusTime 11 22	Neversmoker
+T3	Alcohol 32 39	alcohol
+T4	Drug 44 67	illicit drug ingestions
+T5	Type 44 51	illicit
+T6	StatusTime 25 31	Denies
+T7	LivingStatus 86 94	Homeless
+T8	StatusTime 86 94	Homeless
+T9	TypeLiving 86 94	Homeless
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T6
+E3	Drug:T4 Type:T5 Status:T6
+E4	LivingStatus:T7 Status:T8 Type:T9
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T8 current
+A4	TypeLivingVal T9 homeless

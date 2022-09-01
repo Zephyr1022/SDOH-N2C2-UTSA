@@ -1,0 +1,24 @@
+T1	LivingStatus 16 24	Homeless
+T2	StatusTime 16 24	Homeless
+T3	TypeLiving 16 24	Homeless
+T4	Tobacco 59 65	Smokes
+T5	Amount 66 71	1 ppd
+T6	StatusTime 59 65	Smokes
+T7	Alcohol 79 83	EtOH
+T8	Drug 84 92	drug use
+T9	StatusTime 72 78	Denies
+T10	Drug 126 137	cocaine use
+T11	Type 126 133	cocaine
+T12	StatusTime 93 99	Remote
+T13	History 101 113	15 years ago
+E1	LivingStatus:T1 Status:T2 Type:T3 Duration:T14
+E2	Tobacco:T4 Status:T6 Amount:T5
+E3	Alcohol:T7 Status:T9
+E4	Drug:T8 Status:T9
+E5	Drug:T10 Type:T11 History:T13 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T12 past
+T14	Duration 47 58	3 weeks ago

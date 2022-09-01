@@ -1,0 +1,19 @@
+T1	Drug 28 32	IVDU
+T2	Method 28 32	IVDU
+T3	StatusTime 41 63	denies using currently
+T4	Tobacco 74 81	tobacco
+T5	Alcohol 101 112	alcohol use
+T6	StatusTime 90 122	denies any alcohol use currently
+T7	StatusTime 65 73	endorses
+T8	LivingStatus 132 138	living
+T9	StatusTime 132 138	living
+T10	TypeLiving 139 154	at Keys to Home
+E1	Drug:T1 Status:T3 Method:T2
+E2	Tobacco:T4 Status:T7
+E3	Alcohol:T5 Status:T6
+E4	LivingStatus:T8 Type:T10 Status:T9
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T10 homeless

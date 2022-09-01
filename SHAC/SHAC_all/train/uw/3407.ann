@@ -1,0 +1,23 @@
+T1	Employment 17 21	Work
+T2	StatusEmploy 23 33	Unemployed
+T3	LivingStatus 34 39	Lives
+T4	TypeLiving 40 51	with mother
+T5	StatusTime 34 39	Lives
+T6	Drug 61 72	aerosol can
+T7	Type 61 72	aerosol can
+T8	Method 73 80	huffing
+T9	Drug 82 91	marijuana
+T10	Type 82 91	marijuana
+T11	StatusTime 52 60	Endorses
+T12	Drug 96 112	other substances
+T13	StatusTime 93 95	no
+E1	Employment:T1 Status:T2
+E2	LivingStatus:T3 Status:T5 Type:T4
+E3	Drug:T6 Type:T7 Status:T11 Method:T8
+E4	Drug:T9 Type:T10 Status:T11
+E5	Drug:T12 Status:T13
+A1	StatusEmployVal T2 unemployed
+A2	TypeLivingVal T4 with_family
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T11 current
+A5	StatusTimeVal T13 none

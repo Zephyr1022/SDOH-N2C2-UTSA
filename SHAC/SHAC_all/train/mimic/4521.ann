@@ -1,0 +1,17 @@
+T1	Employment 47 60	a book binder
+T2	StatusEmploy 47 60	a book binder
+T3	Type 47 60	a book binder
+T4	Tobacco 164 169	smoke
+T5	Alcohol 173 178	drink
+T6	StatusTime 155 163	does not
+T7	LivingStatus 217 241	[**Hospital 100**] rehab
+T8	StatusTime 193 216	was just transferred to
+T9	TypeLiving 217 241	[**Hospital 100**] rehab
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T6
+E3	Alcohol:T5 Status:T6
+E4	LivingStatus:T7 Type:T9 Status:T8
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T8 current
+A4	TypeLivingVal T9 with_others

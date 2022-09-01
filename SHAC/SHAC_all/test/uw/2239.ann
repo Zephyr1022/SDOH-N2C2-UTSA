@@ -1,0 +1,31 @@
+T1	LivingStatus 4 9	lives
+T2	TypeLiving 13 28	a medical hotel
+T3	StatusTime 4 9	lives
+T4	Tobacco 29 36	Tobacco
+T5	Amount 46 57	1 cigarette
+T6	Frequency 58 65	per day
+T7	StatusTime 38 45	reports
+T8	Amount 76 80	1ppd
+T9	Duration 81 88	x 40yrs
+T10	Tobacco 76 80	1ppd
+T11	StatusTime 67 75	formerly
+T12	Alcohol 89 93	EtOH
+T13	StatusTime 95 101	denies
+T14	Drug 102 105	THC
+T15	Type 102 105	THC
+T16	StatusTime 107 113	denies
+T17	Drug 114 119	Drugs
+T18	StatusTime 121 127	denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Amount:T5 Frequency:T6 Status:T7
+E3	Tobacco:T10 Amount:T8 Duration:T9 Status:T11
+E4	Alcohol:T12 Status:T13
+E5	Drug:T14 Type:T15 Status:T16
+E6	Drug:T17 Status:T18
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T11 past
+A5	StatusTimeVal T13 none
+A6	StatusTimeVal T16 none
+A7	StatusTimeVal T18 none

@@ -1,0 +1,12 @@
+T1	Tobacco 6 9	cig
+T2	StatusTime 5 6	-
+T3	Alcohol 11 15	etoh
+T4	StatusTime 10 11	-
+T5	Drug 17 21	drug
+T6	StatusTime 16 17	-
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none

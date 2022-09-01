@@ -1,0 +1,25 @@
+T3	LivingStatus 40 45	Lives
+T4	StatusTime 40 45	Lives
+T5	TypeLiving 46 61	in Nursing Home
+T6	Employment 132 144	a seamstress
+T7	Type 132 144	a seamstress
+T8	StatusEmploy 121 131	Used to be
+T9	Alcohol 148 152	ETOH
+T10	Tobacco 153 156	TOB
+T11	Drug 157 162	DRUGS
+T12	StatusTime 145 147	No
+T13	LivingStatus 90 95	lives
+T14	StatusTime 90 95	lives
+T15	TypeLiving 79 120	1 daughter lives with pt and pt's husband
+E2	LivingStatus:T3 Status:T4 Type:T5
+E3	Employment:T6 Status:T8 Type:T7
+E4	Alcohol:T9 Status:T12
+E5	Tobacco:T10 Status:T12
+E6	Drug:T11 Status:T12
+E7	LivingStatus:T13 Status:T14 Type:T15
+A1	StatusTimeVal T4 current
+A2	TypeLivingVal T5 with_others
+A3	StatusEmployVal T8 unemployed
+A4	StatusTimeVal T12 none
+A5	StatusTimeVal T14 current
+A6	TypeLivingVal T15 with_family

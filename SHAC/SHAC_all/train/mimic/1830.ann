@@ -1,0 +1,29 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 38	with 2 daughters
+T3	StatusTime 16 21	Lives
+T4	Employment 53 59	Worked
+T5	Type 60 71	in finacnce
+T6	StatusEmploy 53 59	Worked
+T7	Employment 181 197	driving trolly's
+T8	StatusEmploy 164 180	Recently started
+T9	Type 181 197	driving trolly's
+T10	Tobacco 230 236	smoker
+T11	Alcohol 242 249	drinker
+T12	Drug 254 267	illicit drugs
+T13	Type 254 261	illicit
+T14	StatusTime 226 229	Non
+T15	StatusTime 238 241	non
+T16	StatusTime 251 253	no
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	Employment:T7 Status:T8 Type:T9
+E4	Tobacco:T10 Status:T14
+E5	Alcohol:T11 Status:T15
+E6	Drug:T12 Type:T13 Status:T16
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T6 unemployed
+A4	StatusEmployVal T8 employed
+A5	StatusTimeVal T14 none
+A6	StatusTimeVal T15 none
+A7	StatusTimeVal T16 none

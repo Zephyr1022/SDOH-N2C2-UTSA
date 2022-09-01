@@ -1,0 +1,37 @@
+T1	LivingStatus 24 29	lives
+T2	StatusTime 24 29	lives
+T3	TypeLiving 30 39	with wife
+T4	Employment 210 216	worked
+T5	StatusEmploy 210 216	worked
+T6	Type 220 234	an electrician
+T7	Employment 236 243	Retired
+T8	StatusEmploy 236 243	Retired
+T9	History 244 256	22 years ago
+T10	Tobacco 258 264	Smoked
+T11	Amount 265 269	1ppd
+T12	StatusTime 286 293	Stopped
+T13	History 294 306	40 years ago
+T14	Alcohol 311 324	alcohol abuse
+T15	StatusTime 308 310	No
+T17	Alcohol 342 347	drank
+T18	StatusTime 334 341	Had not
+T19	Drug 367 382	elicit drug use
+T20	Type 367 373	elicit
+T21	StatusTime 364 366	No
+T22	Duration 270 280;281 284	in 20s and 30s
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Employment:T7 Status:T8 History:T9
+E4	Tobacco:T10 Amount:T11 Status:T12 History:T13 Duration:T22
+E5	Alcohol:T14 Status:T15
+E6	Alcohol:T17 Status:T18 History:T16
+E7	Drug:T19 Type:T20 Status:T21
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed
+A4	StatusEmployVal T8 retired
+A5	StatusTimeVal T12 past
+A6	StatusTimeVal T15 none
+A8	StatusTimeVal T18 none
+A9	StatusTimeVal T21 none
+T16	History 348 362	for many years

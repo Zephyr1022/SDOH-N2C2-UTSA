@@ -1,0 +1,16 @@
+T1	LivingStatus 72 87	currently lives
+T2	TypeLiving 88 105	in a nursing home
+T3	StatusTime 72 87	currently lives
+T4	Duration 122 137	since '[**65**]
+T5	Tobacco 156 163	smoking
+T6	Alcohol 165 169	EtOH
+T7	Drug 171 175	IVDU
+T8	Method 171 175	IVDU
+T9	StatusTime 147 152	no hx
+E1	LivingStatus:T1 Status:T3 Type:T2 Duration:T4
+E2	Tobacco:T5 Status:T9
+E3	Alcohol:T6 Status:T9
+E4	Drug:T7 Status:T9 Method:T8
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T9 none

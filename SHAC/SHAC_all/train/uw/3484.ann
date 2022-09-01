@@ -1,0 +1,25 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 34	80 pack year
+T3	StatusTime 52 56	quit
+T4	History 57 67	5 days ago
+T5	Alcohol 115 126	Alcohol Use
+T7	StatusTime 158 182	rare social drinking now
+T8	Drug 185 193	Drug Use
+T9	StatusTime 195 201	denies
+T10	Method 202 206	IVDU
+T11	LivingStatus 225 230	Lives
+T12	StatusTime 225 230	Lives
+T13	TypeLiving 245 258	with his wife
+T14	Employment 310 317	On SSDI
+T15	StatusEmploy 310 317	On SSDI
+E1	Tobacco:T1 Amount:T2 Status:T3 History:T4
+E2	Alcohol:T5 Status:T7
+E3	Drug:T8 Status:T9 Method:T10
+E4	LivingStatus:T11 Status:T12 Type:T13
+E5	Employment:T14 Status:T15
+A1	StatusTimeVal T3 past
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T12 current
+A6	TypeLivingVal T13 with_family
+A7	StatusEmployVal T15 on_disability

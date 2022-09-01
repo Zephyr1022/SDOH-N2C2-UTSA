@@ -1,0 +1,16 @@
+T1	Tobacco 17 24	Tobacco
+T2	StatusTime 27 33	denies
+T3	Alcohol 38 45	Alcohol
+T4	StatusTime 48 54	denies
+T5	Drug 59 64	Drugs
+T6	StatusTime 67 73	denies
+T7	Employment 92 96	Work
+T8	StatusEmploy 98 111	Full-time mom
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	Employment:T7 Status:T8
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	StatusEmployVal T8 homemaker

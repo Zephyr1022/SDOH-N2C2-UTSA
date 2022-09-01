@@ -1,0 +1,8 @@
+T1	Employment 49 59	Employment
+T2	StatusEmploy 62 69	Retired
+T3	Tobacco 72 83	Tobacco use
+T4	StatusTime 86 92	Denies
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T4 none

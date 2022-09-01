@@ -1,0 +1,15 @@
+T1	LivingStatus 17 25	homeless
+T2	TypeLiving 17 25	homeless
+T3	Tobacco 28 31	tob
+T4	StatusTime 26 31	+ tob
+T5	StatusTime 17 25	homeless
+T6	Drug 39 47	illicits
+T7	Type 39 47	illicits
+T8	StatusTime 32 38	denies
+E1	LivingStatus:T1 Status:T5 Type:T2
+E2	Tobacco:T3 Status:T4
+E3	Drug:T6 Type:T7 Status:T8
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T8 none

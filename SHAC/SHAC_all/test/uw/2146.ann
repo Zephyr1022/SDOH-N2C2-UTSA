@@ -1,0 +1,18 @@
+T1	Alcohol 17 28	Alcohol Use
+T2	StatusTime 60 64	quit
+T4	Amount 37 53	3 or more drinks
+T5	Frequency 53 57	/day
+T6	History 66 72	[DATE]
+T7	Tobacco 75 86	Tobacco use
+T8	Type 89 99	Cigarettes
+T9	Amount 101 114	35 pack years
+T10	StatusTime 116 120	quit
+T11	History 121 127	[DATE]
+T12	Drug 131 139	Drug use
+T13	StatusTime 141 147	Denies
+E1	Alcohol:T1 Amount:T4 Frequency:T5 Status:T2 History:T6
+E2	Tobacco:T7 Type:T8 Amount:T9 Status:T10 History:T11
+E3	Drug:T12 Status:T13
+A1	StatusTimeVal T2 past
+A3	StatusTimeVal T10 past
+A4	StatusTimeVal T13 none

@@ -1,0 +1,11 @@
+T1	Employment 54 63	Employeed
+T2	StatusEmploy 54 63	Employeed
+T3	Type 67 79	an ICU nurse
+T4	Employment 118 123	an RN
+T5	Type 118 123	an RN
+T6	StatusEmploy 118 123	an RN
+T7	Duration 145 155	for 37 yrs
+E1	Employment:T1 Type:T3 Status:T2
+E2	Employment:T4 Type:T5 Status:T6 Duration:T7
+A1	StatusEmployVal T2 employed
+A2	StatusEmployVal T6 employed

@@ -1,0 +1,18 @@
+T1	Tobacco 19 24	tobac
+T2	StatusTime 27 45	attempting to quit
+T3	Alcohol 66 70	EtOH
+T4	StatusTime 73 84	little/none
+T6	LivingStatus 95 100	lives
+T7	StatusTime 95 100	lives
+T8	TypeLiving 115 130	with a roommate
+T9	Employment 132 153	not currently working
+T10	StatusEmploy 161 171	disability
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	LivingStatus:T6 Status:T7 Type:T8
+E4	Employment:T9 Status:T10
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 current
+A4	StatusTimeVal T7 current
+A5	TypeLivingVal T8 with_others
+A6	StatusEmployVal T10 on_disability

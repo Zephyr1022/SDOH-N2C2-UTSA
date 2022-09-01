@@ -1,0 +1,21 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 30	>30pk/yr
+T3	Alcohol 40 51	Alcohol Use
+T4	StatusTime 53 59	denies
+T5	StatusTime 22 30	>30pk/yr
+T6	Drug 62 70	Drug Use
+T7	Type 80 93	crack cocaine
+T8	Method 72 79	inhaled
+T10	StatusTime 94 109	use 2 weeks ago
+T11	LivingStatus 128 137	Residence
+T12	StatusTime 161 166	lives
+T13	TypeLiving 167 172	alone
+E1	Tobacco:T1 Amount:T2 Status:T5
+E2	Alcohol:T3 Status:T4
+E3	Drug:T6 Method:T8 Type:T7 Status:T10
+E4	LivingStatus:T11 Status:T12 Type:T13
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T10 current
+A4	StatusTimeVal T12 current
+A5	TypeLivingVal T13 alone

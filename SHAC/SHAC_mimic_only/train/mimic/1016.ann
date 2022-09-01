@@ -1,0 +1,25 @@
+T1	LivingStatus 27 32	lives
+T2	StatusTime 27 32	lives
+T3	TypeLiving 33 40	w/ wife
+T4	Tobacco 45 52	tobacco
+T5	StatusTime 42 44	no
+T6	History 53 63	for 25 yrs
+T7	Amount 65 79	>100 pack-year
+T8	Alcohol 85 96	social EtOH
+T10	StatusTime 85 96	social EtOH
+T11	Alcohol 98 118	former heavy drinker
+T12	StatusTime 98 118	former heavy drinker
+T14	Employment 120 144	retired realtor/salesman
+T15	StatusEmploy 120 144	retired realtor/salesman
+T16	Type 120 144	retired realtor/salesman
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 History:T6 Status:T5 Amount:T7
+E3	Alcohol:T8 Status:T10
+E4	Alcohol:T11 Status:T12
+E5	Employment:T14 Status:T15 Type:T16
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 past
+A5	StatusTimeVal T10 current
+A6	StatusTimeVal T12 past
+A8	StatusEmployVal T15 retired

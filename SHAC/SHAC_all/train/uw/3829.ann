@@ -1,0 +1,44 @@
+T1	Alcohol 9 15	Drinks
+T2	Amount 16 31	2 liquer drinks
+T3	Type 18 24	liquer
+T4	Frequency 32 38	a week
+T5	StatusTime 9 15	Drinks
+T6	History 40 60	last drink was today
+T7	Tobacco 103 108	Smoks
+T8	Amount 109 123	~10 cigarettes
+T9	Type 113 123	cigarettes
+T10	Frequency 124 131	per day
+T11	Drug 176 189	marijuana use
+T12	Type 176 185	marijuana
+T13	StatusTime 165 175	occasional
+T14	Drug 212 231	illicit or IV drugs
+T15	Type 212 219	illicit
+T16	Method 223 225	IV
+T17	StatusTime 194 200	denies
+T18	LivingStatus 250 255	Lives
+T19	TypeLiving 259 279	an adult family home
+T20	StatusTime 250 255	Lives
+T21	LivingStatus 348 352	live
+T22	TypeLiving 318 352	unclear where she is going to live
+T23	StatusTime 353 363	after that
+T24	Employment 428 434	worked
+T25	Duration 435 452	for several years
+T26	Type 456 465	a riveter
+T27	StatusEmploy 428 434	worked
+T28	StatusTime 103 108	Smoks
+E1	Alcohol:T1 Amount:T2 Type:T3 Frequency:T4 Status:T5 History:T6
+E2	Tobacco:T7 Amount:T8 Type:T9 Frequency:T10 Status:T28
+E3	Drug:T11 Type:T12 Status:T13
+E4	Drug:T14 Method:T16 Type:T15 Status:T17
+E5	LivingStatus:T18 Type:T19 Status:T20
+E6	LivingStatus:T21 Type:T22 Status:T23
+E7	Employment:T24 Duration:T25 Type:T26 Status:T27
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T13 current
+A3	StatusTimeVal T17 none
+A4	TypeLivingVal T19 with_others
+A5	StatusTimeVal T20 current
+A6	TypeLivingVal T22 homeless
+A7	StatusTimeVal T23 future
+A8	StatusEmployVal T27 unemployed
+A9	StatusTimeVal T28 current

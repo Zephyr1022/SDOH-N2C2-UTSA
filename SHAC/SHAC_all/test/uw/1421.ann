@@ -1,0 +1,25 @@
+T1	Tobacco 55 72	previosuly smoked
+T2	Amount 92 113	approximately 4 packs
+T3	Frequency 114 119	a day
+T4	StatusTime 124 131	stopped
+T5	History 139 150	6 years ago
+T6	Duration 74 85	a long time
+T7	Alcohol 172 179	alcohol
+T8	StatusTime 156 162	denies
+T9	Drug 193 209	other substances
+T10	LivingStatus 242 247	lives
+T11	StatusTime 242 247	lives
+T12	TypeLiving 262 277	with her huband
+T13	Employment 285 300	a retired nurse
+T14	StatusEmploy 285 300	a retired nurse
+T15	Type 285 300	a retired nurse
+E1	Tobacco:T1 Duration:T6 Amount:T2 Status:T4 Frequency:T3 History:T5
+E2	Alcohol:T7 Status:T8
+E3	Drug:T9 Status:T8
+E4	LivingStatus:T10 Status:T11 Type:T12
+E5	Employment:T13 Status:T14 Type:T15
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T8 none
+A3	StatusTimeVal T11 current
+A4	TypeLivingVal T12 with_family
+A5	StatusEmployVal T14 retired

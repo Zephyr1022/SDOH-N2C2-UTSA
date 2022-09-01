@@ -1,0 +1,31 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 36	few cig a week
+T3	Type 26 29	cig
+T4	Amount 22 29	few cig
+T5	Frequency 30 36	a week
+T6	Alcohol 37 48	Alcohol Use
+T7	StatusTime 50 66	few beers a week
+T8	Amount 50 59	few beers
+T9	Type 54 59	beers
+T10	Frequency 60 66	a week
+T11	Drug 70 78	Drug Use
+T12	Type 94 106	meth/cocaine
+T13	StatusTime 80 88	declines
+T14	Drug 121 123	MJ
+T15	StatusTime 108 120	Only endorse
+T16	Type 121 123	MJ
+T17	LivingStatus 188 197	Residence
+T18	StatusTime 199 207	Homeless
+T19	TypeLiving 199 207	Homeless
+E1	Tobacco:T1 Status:T2 Amount:T4 Frequency:T5 Type:T3
+E2	Alcohol:T6 Status:T7 Amount:T8 Type:T9 Frequency:T10
+E3	Drug:T11 Status:T13 Type:T12 Method:T20
+E4	Drug:T14 Type:T16 Status:T15
+E5	LivingStatus:T17 Type:T19 Status:T18
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T13 none
+A4	StatusTimeVal T15 current
+A5	StatusTimeVal T18 current
+A6	TypeLivingVal T19 homeless
+T20	Method 89 93	IVDU

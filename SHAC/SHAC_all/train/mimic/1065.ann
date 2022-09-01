@@ -1,0 +1,26 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 27	alone
+T4	Employment 80 84	work
+T5	StatusEmploy 72 79	Used to
+T6	Type 88 107	industrial engineer
+T7	Type 135 151	pipes and cigars
+T8	StatusTime 153 157	quit
+T9	Tobacco 109 126	Prior tobacco use
+T10	History 158 170	30 years ago
+T11	Alcohol 172 186	Prior ETOH use
+T12	StatusTime 188 192	quit
+T13	History 193 205	20 years ago
+T14	Drug 210 214	IVDA
+T15	StatusTime 207 209	No
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T9 Type:T7 Status:T8 History:T10
+E4	Alcohol:T11 Status:T12 History:T13
+E5	Drug:T14 Status:T15
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T12 past
+A6	StatusTimeVal T15 none

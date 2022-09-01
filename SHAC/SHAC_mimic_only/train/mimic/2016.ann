@@ -1,0 +1,18 @@
+T1	Employment 44 61	Previously worked
+T2	StatusEmploy 44 61	Previously worked
+T3	Type 65 78	the cafeteria
+T4	Tobacco 111 118	smoking
+T5	StatusTime 106 110	Quit
+T6	History 119 131	10 years ago
+T7	Alcohol 142 147	drink
+T8	StatusTime 133 158	Does not drink at present
+T9	Alcohol 183 196	alcohol usage
+T10	StatusTime 197 208	in the past
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Alcohol:T7 Status:T8
+E4	Alcohol:T9 Status:T10
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 past
+A4	StatusTimeVal T10 past

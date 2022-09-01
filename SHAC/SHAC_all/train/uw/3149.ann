@@ -1,0 +1,21 @@
+T1	Amount 22 28	1 pack
+T2	Frequency 29 34	a day
+T3	StatusTime 22 34	1 pack a day
+T4	Tobacco 9 20	Tobacco Use
+T5	Alcohol 46 57	Alcohol Use
+T6	Duration 36 43	3 years
+T7	StatusTime 59 69	not really
+T9	Drug 72 80	Drug Use
+T10	Type 82 89	cocaine
+T11	History 94 109	a few weeks ago
+T12	StatusTime 82 109	cocaine use a few weeks ago
+T13	Employment 188 195	working
+T14	StatusEmploy 174 195	Not currently working
+E1	Tobacco:T4 Frequency:T2 Amount:T1 Status:T3 Duration:T6
+E2	Alcohol:T5 Status:T7
+E3	Drug:T9 Type:T10 History:T11 Status:T12
+E4	Employment:T13 Status:T14
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T7 current
+A4	StatusTimeVal T12 past
+A5	StatusEmployVal T14 unemployed

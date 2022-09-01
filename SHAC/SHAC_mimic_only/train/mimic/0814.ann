@@ -1,0 +1,32 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 39	with her 9 yo son
+T4	Employment 41 54	On disability
+T5	StatusEmploy 41 54	On disability
+T6	Tobacco 58 65	Tobacco
+T7	StatusTime 67 71	quit
+T8	History 72 83	"years ago"
+T9	Alcohol 86 93	Alcohol
+T10	StatusTime 95 151;152 161	[**12-2**] glasses wine or champagne at holidays/special occasions
+T11	Amount 95 113	[**12-2**] glasses
+T12	Type 114 131	wine or champagne
+T13	Frequency 132 151;152 161	at holidays/special occasions
+T14	Drug 180 188	Illicits
+T15	StatusTime 191 195	none
+T16	Type 180 188	Illicits
+T17	Drug 204 208	IVDU
+T18	Type 204 208	IVDU
+T19	StatusTime 197 203	denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T7 History:T8
+E4	Alcohol:T9 Amount:T11 Type:T12 Status:T10 Frequency:T13
+E5	Drug:T14 Type:T16 Status:T15
+E6	Drug:T17 Type:T18 Status:T19
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 on_disability
+A4	StatusTimeVal T7 past
+A5	StatusTimeVal T10 current
+A6	StatusTimeVal T15 none
+A7	StatusTimeVal T19 none

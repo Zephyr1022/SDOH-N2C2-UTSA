@@ -1,0 +1,23 @@
+T1	Employment 16 23	Retired
+T2	StatusEmploy 16 23	Retired
+T3	Type 29 47	[**Company 2676**]
+T4	LivingStatus 49 54	lives
+T5	StatusTime 49 54	lives
+T6	TypeLiving 55 63	in rehab
+T7	Tobacco 99 106	smoking
+T8	StatusTime 94 98	Quit
+T9	History 107 119	10 years ago
+T10	Amount 122 129	4 packs
+T11	Frequency 130 137	per day
+T12	Duration 138 141;142 150	for 20 years
+T15	Alcohol 155 159	EtOH
+T16	StatusTime 152 154	No
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8 History:T9 Amount:T10 Frequency:T11 Duration:T12
+E5	Alcohol:T15 Status:T16
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_others
+A4	StatusTimeVal T8 past
+A6	StatusTimeVal T16 none

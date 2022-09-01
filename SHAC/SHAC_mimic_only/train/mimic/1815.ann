@@ -1,0 +1,16 @@
+T1	LivingStatus 32 37	Lives
+T2	TypeLiving 38 115	at [**Location 10138**], specialized [**Hospital **] for Alzheimer's Dementia
+T3	StatusTime 32 37	Lives
+T4	Alcohol 286 290	etoh
+T5	StatusTime 283 285	no
+T6	Amount 291 310	approx 80 pack year
+T7	Tobacco 317 328	tobacco use
+T8	StatusTime 330 337	stopped
+T9	History 338 350	10 years ago
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Status:T5
+E3	Tobacco:T7 Status:T8 History:T9 Amount:T6
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T8 past

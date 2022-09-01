@@ -1,0 +1,32 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 36	No current use
+T3	Tobacco 39 45	Smoked
+T4	Duration 57 69	since age 12
+T5	Amount 71 91	15 pack year history
+T6	StatusTime 93 97	quit
+T7	History 98 102	2015
+T8	Alcohol 103 114	Alcohol Use
+T9	StatusTime 117 131	No current use
+T10	Alcohol 134 139	Drank
+T12	Duration 148 161	for 3-4 years
+T13	StatusTime 134 139	Drank
+T14	Amount 164 173	gt12 pack
+T15	Alcohol 174 191	beer+ hard liquor
+T16	Type 174 191	beer+ hard liquor
+T17	Frequency 192 210	a few times a week
+T18	StatusTime 212 217	sober
+T19	History 218 230	for 23 years
+T20	Drug 236 244	Drug Use
+T21	StatusTime 246 271	No history or current use
+E1	Tobacco:T1 Status:T2
+E2	Tobacco:T3 Duration:T4 Amount:T5 Status:T6 History:T7
+E3	Alcohol:T8 Status:T9
+E4	Alcohol:T10 Duration:T12 Status:T13
+E5	Alcohol:T15 Type:T16 Amount:T14 Frequency:T17 Status:T18 History:T19
+E6	Drug:T20 Status:T21
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T9 past
+A5	StatusTimeVal T13 past
+A6	StatusTimeVal T18 past
+A7	StatusTimeVal T21 none

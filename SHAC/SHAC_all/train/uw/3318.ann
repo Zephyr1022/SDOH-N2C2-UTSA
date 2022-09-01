@@ -1,0 +1,10 @@
+T1	Tobacco 18 25	Tobacco
+T3	StatusTime 27 37	Occasional
+T4	Drug 40 48	Illicits
+T5	Type 40 48	Illicits
+T6	Method 57 61	IVDU
+T7	StatusTime 63 77	none currently
+E1	Tobacco:T1 Status:T3
+E2	Drug:T4 Type:T5 Method:T6 Status:T7
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T7 past

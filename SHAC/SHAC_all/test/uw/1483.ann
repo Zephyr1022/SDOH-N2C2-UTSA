@@ -1,0 +1,48 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 50	with husband and 2 children
+T4	Employment 99 117	a dental assistant
+T5	StatusEmploy 88 95	Used to
+T6	Type 99 117	a dental assistant
+T7	Tobacco 127 138	tobacco use
+T8	StatusTime 120 126	Denies
+T9	Alcohol 141 163	Occasional alcohol use
+T10	StatusTime 141 163	Occasional alcohol use
+T12	Drug 173 189	illicit drug use
+T13	Type 173 180	illicit
+T14	StatusTime 166 172	Denies
+T15	LivingStatus 208 213	Lives
+T16	StatusTime 208 213	Lives
+T17	TypeLiving 214 241	with husband and 2 children
+T18	Employment 290 308	a dental assistant
+T19	StatusEmploy 279 286	Used to
+T20	Type 290 308	a dental assistant
+T21	Tobacco 318 329	tobacco use
+T22	StatusTime 311 317	Denies
+T23	Alcohol 332 354	Occasional alcohol use
+T24	StatusTime 332 354	Occasional alcohol use
+T26	Drug 364 380	illicit drug use
+T27	Type 364 371	illicit
+T28	StatusTime 357 363	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Status:T10
+E5	Drug:T12 Type:T13 Status:T14
+E6	LivingStatus:T15 Status:T16 Type:T17
+E7	Employment:T18 Type:T20 Status:T19
+E8	Tobacco:T21 Status:T22
+E9	Alcohol:T23 Status:T24
+E10	Drug:T26 Type:T27 Status:T28
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T10 current
+A7	StatusTimeVal T14 none
+A8	StatusTimeVal T16 current
+A9	TypeLivingVal T17 with_family
+A10	StatusEmployVal T19 unemployed
+A11	StatusTimeVal T22 none
+A12	StatusTimeVal T24 current
+A14	StatusTimeVal T28 none

@@ -1,0 +1,20 @@
+T1	LivingStatus 11 19	Homeless
+T2	TypeLiving 11 19	Homeless
+T3	LivingStatus 54 62	Homeless
+T4	TypeLiving 54 62	Homeless
+T5	Alcohol 32 42	alcoholism
+T6	Alcohol 75 85	alcoholism
+T7	StatusTime 64 71	history
+T8	StatusTime 21 28	history
+T9	StatusTime 11 19	Homeless
+T10	StatusTime 54 62	Homeless
+E1	LivingStatus:T1 Type:T2 Status:T9
+E2	LivingStatus:T3 Type:T4 Status:T10
+E3	Alcohol:T5 Status:T8
+E4	Alcohol:T6 Status:T7
+A1	TypeLivingVal T2 homeless
+A2	TypeLivingVal T4 homeless
+A3	StatusTimeVal T7 past
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T9 current
+A6	StatusTimeVal T10 current

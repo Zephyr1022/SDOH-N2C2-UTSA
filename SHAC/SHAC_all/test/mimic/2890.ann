@@ -1,0 +1,22 @@
+T1	Employment 16 23	Retired
+T2	StatusEmploy 16 23	Retired
+T3	Alcohol 25 31	Drinks
+T4	StatusTime 25 31	Drinks
+T5	Frequency 32 45	once per week
+T6	Tobacco 54 61	tobacco
+T7	Drug 63 79	illicit drug use
+T8	Type 63 70	illicit
+T9	StatusTime 47 53	Denies
+T10	LivingStatus 100 105	Lives
+T11	StatusTime 100 105	Lives
+T12	TypeLiving 106 115	with wife
+E1	Employment:T1 Status:T2
+E2	Alcohol:T3 Status:T4 Frequency:T5
+E3	Tobacco:T6 Status:T9
+E4	Drug:T7 Type:T8 Status:T9
+E5	LivingStatus:T10 Status:T11 Type:T12
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 with_family

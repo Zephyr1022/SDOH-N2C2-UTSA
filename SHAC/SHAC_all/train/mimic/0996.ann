@@ -1,0 +1,18 @@
+T1	Employment 85 92	retired
+T2	StatusEmploy 85 92	retired
+T3	Type 99 110	real estate
+T4	Tobacco 112 119	Smoking
+T5	Alcohol 131 135	ETOH
+T6	Drug 143 160	ecreational drugs
+T7	Type 143 154	ecreational
+T9	StatusTime 121 129	Negative
+T10	StatusTime 131 136;137 141	ETOH: Rare
+T11	StatusTime 162 170	Negative
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T9
+E3	Alcohol:T5 Status:T10
+E4	Drug:T6 Type:T7 Status:T11
+A1	StatusEmployVal T2 retired
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T11 none

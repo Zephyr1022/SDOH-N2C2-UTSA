@@ -1,0 +1,22 @@
+T1	Tobacco 30 45	smoking history
+T2	Amount 17 24	10 pack
+T3	Frequency 24 29	/year
+T4	History 56 68	20 years ago
+T5	StatusTime 47 52	quite
+T6	Alcohol 85 96	alcohol use
+T8	StatusTime 69 84	Rare/occasional
+T9	Drug 104 117	marijuana use
+T10	Type 104 113	marijuana
+T11	StatusTime 97 103	Remote
+T12	LivingStatus 118 123	Lives
+T13	TypeLiving 138 154	with her husband
+T14	StatusTime 118 123	Lives
+E1	Tobacco:T1 Amount:T2 Frequency:T3 Status:T5 History:T4
+E2	Alcohol:T6 Status:T8
+E3	Drug:T9 Type:T10 Status:T11
+E4	LivingStatus:T12 Type:T13 Status:T14
+A1	StatusTimeVal T5 past
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T11 past
+A5	TypeLivingVal T13 with_family
+A6	StatusTimeVal T14 current

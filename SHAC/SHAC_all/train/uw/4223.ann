@@ -1,0 +1,27 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	Quit
+T3	History 27 39	5 months ago
+T4	Amount 46 52	1/2ppd
+T5	Duration 53 63	for 1 year
+T6	Alcohol 66 77	Alcohol Use
+T7	StatusTime 79 85	Denies
+T8	Drug 87 95	Drug Use
+T9	StatusTime 97 102	Deies
+T10	LivingStatus 121 126	Lives
+T11	StatusTime 121 126	Lives
+T12	TypeLiving 127 158	in [LOCATION] Adult Family Home
+T13	Employment 263 269	worked
+T14	StatusEmploy 263 269	worked
+T15	Type 273 285	construction
+T16	History 159 193	Prior to [LOCATION] injury in 2016
+E1	Tobacco:T1 Status:T2 History:T3 Amount:T4 Duration:T5
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Status:T9
+E4	LivingStatus:T10 Status:T11 Type:T12
+E5	Employment:T13 Status:T14 Type:T15 History:T16
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 with_others
+A6	StatusEmployVal T14 unemployed

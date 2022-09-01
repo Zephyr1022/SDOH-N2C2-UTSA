@@ -1,0 +1,28 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 27	Never
+T3	Alcohol 37 48	Alcohol Use
+T4	StatusTime 50 56	Denies
+T5	Drug 59 67	Drug Use
+T6	StatusTime 69 75	Denies
+T9	LivingStatus 248 266	currently residing
+T10	TypeLiving 267 284	with his daughter
+T11	StatusTime 248 257	currently
+T12	Employment 288 293	Works
+T13	Type 297 303	a farm
+T14	StatusEmploy 288 293	Works
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E5	LivingStatus:T9 Type:T10 Status:T11
+E6	Employment:T12 Type:T13 Status:T14
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	TypeLivingVal T10 with_family
+A5	StatusTimeVal T11 current
+A6	StatusEmployVal T14 employed
+T7	Employment 319 324	Works
+E4	Employment:T7 Type:T15 Status:T8
+T8	StatusEmploy 319 324	Works
+A7	StatusEmployVal T8 employed
+T15	Type 325 350	with various farm animals

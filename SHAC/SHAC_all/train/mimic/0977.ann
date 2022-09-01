@@ -1,0 +1,24 @@
+T1	Tobacco 61 68	Tobacco
+T2	StatusTime 93 97	quit
+T3	History 98 111	in [**2098**]
+T4	Drug 129 137	Illicits
+T5	StatusTime 120 126	Denies
+T6	StatusTime 139 145	Denies
+T7	Alcohol 114 118	etOH
+T8	Type 158 167	an artist
+T9	Employment 149 154	works
+T10	StatusEmploy 149 154	works
+T11	LivingStatus 172 177	lives
+T12	TypeLiving 178 194	with her husband
+T13	StatusTime 172 177	lives
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Drug:T4 Status:T6
+E3	Alcohol:T7 Status:T5
+E4	Employment:T9 Status:T10 Type:T8
+E5	LivingStatus:T11 Type:T12 Status:T13
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T6 past
+A4	StatusEmployVal T10 employed
+A5	TypeLivingVal T12 with_family
+A6	StatusTimeVal T13 current

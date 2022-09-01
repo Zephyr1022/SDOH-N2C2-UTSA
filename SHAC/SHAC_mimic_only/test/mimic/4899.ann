@@ -1,0 +1,11 @@
+T1	Tobacco 44 51	tobacco
+T2	Drug 53 71	cocaine and heroin
+T3	Type 53 71	cocaine and heroin
+T4	StatusTime 24 43	is actively abusing
+T5	Alcohol 80 93	alcohol abuse
+T6	StatusTime 73 79	Denies
+E1	Tobacco:T1 Status:T4
+E2	Drug:T2 Type:T3 Status:T4
+E3	Alcohol:T5 Status:T6
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T6 none

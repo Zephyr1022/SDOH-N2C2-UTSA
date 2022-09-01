@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: remote  Alcohol Use: remote, drank heavily until 30 years ago  Drug Use: denies
+
+SOCIAL HISTORY: 
+Residence: From [LOCATION], lives in apartment in [LOCATION]

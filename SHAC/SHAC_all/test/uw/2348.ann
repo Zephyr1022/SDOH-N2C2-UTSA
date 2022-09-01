@@ -1,0 +1,18 @@
+T1	LivingStatus 24 29	lives
+T2	TypeLiving 30 41	with family
+T3	StatusTime 24 29	lives
+T4	Drug 88 93	drugs
+T5	Alcohol 76 84	drinking
+T6	Tobacco 68 75	smoking
+T7	StatusTime 65 67	No
+T8	Employment 56 63	Retired
+T9	StatusEmploy 56 63	Retired
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Drug:T4 Status:T7
+E3	Alcohol:T5 Status:T7
+E4	Tobacco:T6 Status:T7
+E5	Employment:T8 Status:T9
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T7 none
+A4	StatusEmployVal T9 retired

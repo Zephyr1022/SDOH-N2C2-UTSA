@@ -1,0 +1,11 @@
+T1	Drug 380 397;398 407	very high dose of methadone
+T2	StatusTime 345 367	appeared quite sedated
+T3	Type 398 407	methadone
+T4	Drug 561 576	benzodiazepines
+T5	Type 561 576	benzodiazepines
+T6	StatusTime 544 556	was positive
+T7	Duration 503 523	during the pregnancy
+E1	Drug:T1 Type:T3 Status:T2
+E2	Drug:T4 Type:T5 Status:T6 Duration:T7
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 past

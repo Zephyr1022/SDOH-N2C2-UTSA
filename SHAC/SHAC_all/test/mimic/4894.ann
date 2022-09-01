@@ -1,0 +1,18 @@
+T1	Alcohol 37 60;61 68	a 12 pack per week beer drinker
+T2	Amount 39 46	12 pack
+T3	Frequency 47 55	per week
+T4	Type 56 60	beer
+T5	StatusTime 34 36	is
+T6	Alcohol 81 100	copious alcohol use
+T8	StatusTime 101 111	previously
+T9	Tobacco 155 162	smoking
+T10	Amount 114 121;122 131	One and 1/2 packs
+T11	Frequency 132 139	per day
+T12	Duration 140 154	times 55 years
+T13	StatusTime 173 180	current
+E1	Alcohol:T1 Type:T4 Frequency:T3 Amount:T2 Status:T5
+E2	Alcohol:T6 Status:T8
+E3	Tobacco:T9 Status:T13 Duration:T12 Frequency:T11 Amount:T10
+A1	StatusTimeVal T5 current
+A3	StatusTimeVal T8 past
+A4	StatusTimeVal T13 current

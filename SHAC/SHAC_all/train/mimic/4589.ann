@@ -1,0 +1,29 @@
+T1	Employment 66 72	worked
+T2	StatusEmploy 66 72	worked
+T3	Type 77 94	telephone company
+T4	History 95 100;101 111	until [**2166**]
+T5	LivingStatus 128 136	homeless
+T6	StatusTime 121 136	became homeless
+T7	TypeLiving 128 136	homeless
+T8	Alcohol 142 152	alcoholism
+T9	StatusTime 142 152	alcoholism
+T10	LivingStatus 154 162	Homeless
+T11	StatusTime 165 170	lives
+T12	TypeLiving 171 201	in rehabs, hospitals, shelters
+T13	Tobacco 206 217	tobacco use
+T14	Drug 221 226;227 235	other illicits
+T15	Type 227 235	illicits
+T16	StatusTime 203 205	No
+E1	Employment:T1 Status:T2 Type:T3 History:T4
+E2	LivingStatus:T5 Type:T7 Status:T6
+E3	Alcohol:T8 Status:T9
+E4	LivingStatus:T10 Status:T11 Type:T12
+E5	Tobacco:T13 Status:T16
+E6	Drug:T14 Type:T15 Status:T16
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T6 current
+A3	TypeLivingVal T7 homeless
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T11 current
+A6	TypeLivingVal T12 homeless
+A7	StatusTimeVal T16 none

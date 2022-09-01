@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 36	with boyfriend
+T4	Tobacco 51 66	smoking history
+T5	StatusTime 68 72	quit
+T6	Amount 38 50	20 pack-year
+T7	History 73 78;79 88	a few years ago
+T8	Alcohol 96 107	modest ETOH
+T9	StatusTime 90 95	prior
+T10	Drug 125 132	illicts
+T11	Type 125 132	illicts
+T12	StatusTime 122 124	no
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T6 Status:T5 History:T7
+E3	Alcohol:T8 Status:T9
+E4	Drug:T10 Type:T11 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T12 none

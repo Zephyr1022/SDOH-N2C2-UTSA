@@ -1,0 +1,28 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 35	with his wife
+T3	StatusTime 16 21	Lives
+T7	Employment 108 121	On disability
+T8	StatusEmploy 108 121	On disability
+T9	Duration 122 139	for over 10 years
+T10	Tobacco 141 147	Smokes
+T11	Amount 148 154	2 pack
+T12	Frequency 154 158	/day
+T13	StatusTime 141 147	Smokes
+T14	Drug 177 193	crystal meth use
+T15	Type 177 189	crystal meth
+T16	StatusTime 170 176	Recent
+T17	Drug 199 210	cocaine use
+T18	Type 199 206	cocaine
+T19	StatusTime 195 198	H/o
+E1	LivingStatus:T1 Type:T2 Status:T3
+E3	Employment:T7 Status:T8 Duration:T9
+E4	Tobacco:T10 Amount:T11 Frequency:T12 Status:T13 Duration:T4
+E5	Drug:T14 Type:T15 Status:T16
+E6	Drug:T17 Type:T18 Status:T19
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A5	StatusEmployVal T8 on_disability
+A6	StatusTimeVal T13 current
+A7	StatusTimeVal T16 current
+A8	StatusTimeVal T19 past
+T4	Duration 159 162;163 168	x ? years

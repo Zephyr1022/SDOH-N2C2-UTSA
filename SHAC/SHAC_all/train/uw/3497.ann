@@ -1,0 +1,30 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 40	Not current smoker
+T3	Amount 42 53	9 pack year
+T4	Alcohol 62 73	Alcohol Use
+T5	StatusTime 75 81	Denies
+T6	Drug 85 93	Drug Use
+T7	Drug 166 185	polysubstance abuse
+T8	StatusTime 155 162	history
+T9	Type 196 208	meth and PCP
+T11	Type 104 113	marijuana
+T12	Method 114 121	edibles
+T13	StatusTime 95 103	Endorses
+T10	LivingStatus 228 233	Lives
+T14	TypeLiving 234 261	with fiancee and 3 children
+T15	StatusTime 228 233	Lives
+T16	Employment 308 312	work
+T17	StatusEmploy 299 312	Does not work
+E1	Tobacco:T1 Amount:T3 Status:T2
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Status:T13 Type:T11 Method:T12
+E4	Drug:T7 Status:T8 Type:T9
+E5	LivingStatus:T10 Status:T15 Type:T14
+E6	Employment:T16 Status:T17
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T13 current
+A5	TypeLivingVal T14 with_family
+A6	StatusTimeVal T15 current
+A7	StatusEmployVal T17 unemployed

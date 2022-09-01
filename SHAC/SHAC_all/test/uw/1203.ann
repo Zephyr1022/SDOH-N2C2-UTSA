@@ -1,0 +1,6 @@
+T5	Drug 43 51	Drug Use
+T6	History 79 87	6 months
+T7	StatusTime 88 98	abstinence
+T8	Method 104 108	IVDU
+E3	Drug:T5 History:T6 Status:T7 Method:T8
+A3	StatusTimeVal T7 past

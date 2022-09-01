@@ -1,0 +1,5 @@
+T5	Tobacco 313 320	smoking
+T6	Duration 321 328	x 25yrs
+T7	StatusTime 295 312	Remote history of
+E4	Tobacco:T5 Status:T7 Duration:T6
+A2	StatusTimeVal T7 past

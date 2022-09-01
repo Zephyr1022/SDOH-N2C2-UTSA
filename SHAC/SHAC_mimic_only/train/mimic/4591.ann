@@ -1,0 +1,24 @@
+T1	Tobacco 41 47	cigars
+T2	StatusTime 19 32	recently quit
+T3	Type 41 47	cigars
+T4	Tobacco 97 107	cigarettes
+T5	StatusTime 88 96	quitting
+T6	Duration 129 142;143 148	since the age of 15
+T7	History 66 77;78 81	a few years ago
+T8	Type 97 107	cigarettes
+T9	Duration 66 77;78 81	a few years ago
+T10	Alcohol 167 172	drink
+T11	StatusTime 154 163	continues
+T12	Amount 173 191	a couple of drinks
+T13	Frequency 192 203;204 207	every other day
+T14	Employment 228 246	served in the Navy
+T15	StatusEmploy 228 246	served in the Navy
+T16	Type 238 246	the Navy
+E1	Tobacco:T1 Type:T3 Status:T2 Duration:T9
+E2	Tobacco:T4 Type:T8 Status:T5 History:T7 Duration:T6
+E3	Alcohol:T10 Status:T11 Amount:T12 Frequency:T13
+E4	Employment:T14 Status:T15 Type:T16
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T11 current
+A4	StatusEmployVal T15 unemployed

@@ -1,0 +1,13 @@
+T1	Amount 16 22	1/2PPD
+T2	Tobacco 23 26	TOB
+T3	StatusTime 16 22	1/2PPD
+T4	Alcohol 32 36	ETOH
+T6	StatusTime 28 36	Occ ETOH
+T7	Drug 40 45	Drugs
+T8	StatusTime 38 39	-
+E1	Tobacco:T2 Amount:T1 Status:T3
+E2	Alcohol:T4 Status:T6
+E3	Drug:T7 Status:T8
+A1	StatusTimeVal T3 current
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T8 none

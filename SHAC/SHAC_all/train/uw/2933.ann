@@ -1,0 +1,27 @@
+T1	Tobacco 31 46	smoking history
+T2	StatusTime 9 13	Past
+T3	History 53 65	2 months ago
+T4	Amount 14 22	50 pk/yr
+T5	Alcohol 82 86	EtOH
+T6	StatusTime 67 81	Does not drink
+T7	Drug 95 104	marijuana
+T8	Type 95 104	marijuana
+T9	StatusTime 105 114	currently
+T10	Drug 116 133	remote heroin use
+T11	StatusTime 138 152	none currently
+T12	Type 123 129	heroin
+T13	LivingStatus 172 177	Lives
+T14	StatusTime 172 177	Lives
+T15	TypeLiving 192 238	with his Son, daughter in law, and 2 grandsons
+E1	Tobacco:T1 Status:T2 Amount:T4 History:T3
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Type:T8 Status:T9 Method:T16
+E4	Drug:T10 Type:T12 Status:T11
+E5	LivingStatus:T13 Status:T14 Type:T15
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T11 past
+A5	StatusTimeVal T14 current
+A6	TypeLivingVal T15 with_family
+T16	Method 88 94	Smokes

@@ -1,0 +1,23 @@
+T1	Employment 34 38	work
+T3	Type 42 50	engineer
+T2	StatusEmploy 26 33	Used to
+T4	LivingStatus 53 58	Lives
+T5	StatusTime 53 58	Lives
+T6	TypeLiving 59 71	with husband
+T7	Tobacco 153 160	smoking
+T8	StatusTime 148 152	Quit
+T9	History 161 173	30 years ago
+T10	Tobacco 178 185	tobacco
+T11	Drug 189 209	illicit drug history
+T12	Type 189 196	illicit
+T13	StatusTime 175 177	No
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8 History:T9
+E4	Tobacco:T10 Status:T13
+E5	Drug:T11 Type:T12 Status:T13
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T13 none

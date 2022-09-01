@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 31	with wife
+T3	StatusTime 16 21	Lives
+T4	Tobacco 58 65	smoking
+T5	StatusTime 53 57	Quit
+T6	History 66 79	two weeks ago
+T7	Alcohol 88 93;94 101	heavy drinker
+T8	StatusTime 103 112	currently
+T10	Amount 120 131	three beers
+T11	Frequency 132 137	daily
+T12	StatusTime 81 87	Former
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5 History:T6
+E4	Alcohol:T7 Status:T12
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T8 current
+A6	StatusTimeVal T12 past
+T9	Alcohol 113 119	drinks
+E5	Alcohol:T9 Status:T8 Amount:T10 Frequency:T11

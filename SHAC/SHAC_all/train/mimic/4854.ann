@@ -1,0 +1,47 @@
+T1	LivingStatus 60 66	living
+T2	StatusTime 60 66	living
+T3	TypeLiving 67 79	with friends
+T4	Alcohol 105 122	actively drinking
+T5	StatusTime 105 122	actively drinking
+T6	Alcohol 139 143;144 149	etoh abuse
+T8	Duration 151 168	since high school
+T9	StatusTime 128 138	long hx of
+T10	Tobacco 223 229	smokes
+T11	StatusTime 223 229	smokes
+T12	Amount 230 236	1 pack
+T13	Frequency 237 249	every 3 days
+T14	Duration 251 262	x 30+ years
+T15	Employment 270 273;274 281	not working
+T16	StatusEmploy 270 273;274 281	not working
+T17	Employment 294 298	work
+T18	StatusEmploy 286 293	used to
+T19	Type 302 313	a carpenter
+T20	Drug 325 329	IVDA
+T21	Method 325 329	IVDA
+T22	StatusTime 318 336;337 345	denies IVDA x last 15 years
+T23	History 330 336;337 345	x last 15 years
+T24	Drug 356 372	intranasal drugs
+T25	Method 356 366	intranasal
+T26	StatusTime 373 393	within the past year
+T27	Drug 402 420	cocaine/heroin use
+T28	Type 402 416	cocaine/heroin
+T29	StatusTime 421 428	in past
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5
+E3	Alcohol:T6 Status:T9 Duration:T8
+E4	Tobacco:T10 Status:T11 Amount:T12 Frequency:T13 Duration:T14
+E5	Employment:T15 Status:T16
+E6	Employment:T17 Status:T18 Type:T19
+E7	Drug:T20 Status:T22 History:T23 Method:T21
+E8	Drug:T24 Method:T25 Status:T26
+E9	Drug:T27 Type:T28 Status:T29
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 current
+A5	StatusTimeVal T9 current
+A6	StatusTimeVal T11 current
+A7	StatusEmployVal T16 unemployed
+A8	StatusEmployVal T18 unemployed
+A9	StatusTimeVal T22 past
+A10	StatusTimeVal T26 current
+A11	StatusTimeVal T29 past

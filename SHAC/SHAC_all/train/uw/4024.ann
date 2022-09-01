@@ -1,0 +1,15 @@
+T1	Alcohol 15 22	alcohol
+T2	StatusTime 8 14	Denies
+T3	Drug 26 34	drug use
+T4	Tobacco 50 65	smoking history
+T5	StatusTime 43 49	remote
+T6	Employment 68 74	Worked
+T7	Type 78 83	UW MC
+T8	StatusEmploy 68 74	Worked
+E1	Alcohol:T1 Status:T2
+E2	Drug:T3 Status:T2
+E3	Tobacco:T4 Status:T5
+E4	Employment:T6 Type:T7 Status:T8
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T5 past
+A3	StatusEmployVal T8 unemployed

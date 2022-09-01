@@ -1,0 +1,14 @@
+T1	Alcohol 50 57	alcohol
+T3	StatusTime 29 38	admits to
+T4	Tobacco 89 104	tobacco history
+T5	Amount 66 88	a [**6-22**] pack year
+T6	StatusTime 62 65	has
+T7	Tobacco 115 122	smoking
+T8	StatusTime 110 114	quit
+T9	History 123 125;126 135	50 years ago
+E1	Alcohol:T1 Status:T3
+E2	Tobacco:T4 Amount:T5 Status:T6
+E3	Tobacco:T7 Status:T8 History:T9
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T8 past

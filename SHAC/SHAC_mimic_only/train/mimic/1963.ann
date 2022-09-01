@@ -1,0 +1,19 @@
+T1	LivingStatus 25 30	lives
+T2	StatusTime 25 30	lives
+T3	TypeLiving 31 43	with husband
+T4	StatusTime 52 53	+
+T5	Tobacco 53 60	tobacco
+T6	Amount 61 74	[**2-4**] ppd
+T7	Alcohol 95 99	etoh
+T9	StatusTime 84 94	occasional
+T10	Drug 104 109	drugs
+T11	StatusTime 101 103	no
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T5 Status:T4 Amount:T6
+E3	Alcohol:T7 Status:T9
+E4	Drug:T10 Status:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T4 current
+A5	StatusTimeVal T9 current
+A6	StatusTimeVal T11 none

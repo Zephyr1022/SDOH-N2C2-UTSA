@@ -1,0 +1,23 @@
+T1	LivingStatus 65 81	currently living
+T2	StatusTime 65 81	currently living
+T3	TypeLiving 82 95	with a friend
+T4	LivingStatus 143 151	homeless
+T5	TypeLiving 143 151	homeless
+T6	StatusTime 127 137	previously
+T7	Employment 180 190	employment
+T9	Type 203 222	a hotdog restaurant
+T8	StatusEmploy 192 199	working
+T10	Tobacco 245 252	tobacco
+T11	Alcohol 256 269	alcohol abuse
+T12	StatusTime 227 236;237 244	continues to deny
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T6 Type:T5
+E3	Employment:T7 Status:T8 Type:T9
+E4	Tobacco:T10 Status:T12
+E5	Alcohol:T11 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	TypeLivingVal T5 homeless
+A4	StatusTimeVal T6 past
+A5	StatusEmployVal T8 employed
+A6	StatusTimeVal T12 none

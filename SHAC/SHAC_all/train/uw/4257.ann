@@ -1,0 +1,33 @@
+T1	Tobacco 9 15	Smokes
+T2	Amount 16 24	one pack
+T3	Frequency 25 33	per week
+T4	StatusTime 9 15	Smokes
+T5	Alcohol 40 44	beer
+T6	Frequency 34 39	Daily
+T7	Type 40 44	beer
+T8	Amount 46 49	one
+T9	Drug 63 70	cocaine
+T10	Duration 71 80	this week
+T11	Method 83 92	snorts it
+T12	Type 63 70	cocaine
+T13	StatusTime 58 62	Used
+T14	Drug 99 107	injected
+T15	Method 99 107	injected
+T16	StatusTime 93 98	Never
+T17	Type 108 116	anything
+T18	LivingStatus 145 151	living
+T19	TypeLiving 163 188	with his business partner
+T20	StatusTime 145 151	living
+T21	StatusTime 34 39	Daily
+E1	Tobacco:T1 Amount:T2 Status:T4 Frequency:T3
+E2	Alcohol:T5 Type:T7 Frequency:T6 Amount:T8 Status:T21 Frequency2:T22
+E3	Drug:T9 Duration:T10 Method:T11 Type:T12 Status:T13
+E4	Drug:T14 Method:T15 Status:T16 Type:T17
+E5	LivingStatus:T18 Type:T19 Status:T20
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T13 current
+A3	StatusTimeVal T16 none
+A4	TypeLivingVal T19 with_others
+A5	StatusTimeVal T20 current
+A6	StatusTimeVal T21 current
+T22	Frequency 50 57	per day

@@ -1,0 +1,50 @@
+T1	LivingStatus 16 34	currently homeless
+T2	StatusTime 16 34	currently homeless
+T3	TypeLiving 16 34	currently homeless
+T4	LivingStatus 121 128	staying
+T5	TypeLiving 129 142	on the street
+T6	StatusTime 121 128	staying
+T7	Duration 143 164	since leaving Respite
+T8	Tobacco 166 173	Tobacco
+T9	Amount 175 188	10 cigarettes
+T10	Type 178 188	cigarettes
+T11	Frequency 188 192	/day
+T12	StatusTime 175 192	10 cigarettes/day
+T13	Tobacco 203 210	smoking
+T14	Amount 226 248	up to at least one PPD
+T15	Duration 211 224	around age 10
+T16	StatusTime 226 248	up to at least one PPD
+T17	Alcohol 261 265	beer
+T19	StatusTime 289 314	denies recently heavy use
+T20	Amount 259 265	1 beer
+T21	StatusTime 266 275	yesterday
+T22	Type 261 265	beer
+T23	Alcohol 340 350	heavy EtOH
+T25	StatusTime 351 362	in the past
+T26	Alcohol 249 253	EtOH
+T27	Drug 363 368	Drugs
+T28	StatusTime 370 383	denies recent
+T29	Drug 409 415	heroin
+T30	Type 409 415	heroin
+T31	Method 399 408	IV and IM
+T32	StatusTime 395 398	H/o
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T6 Type:T5 Duration:T7
+E3	Tobacco:T8 Type:T10 Amount:T9 Status:T12 Frequency:T11
+E4	Tobacco:T13 Duration:T15 Amount:T14 Status:T16
+E6	Alcohol:T17 Type:T22 Amount:T20 Status:T21
+E7	Alcohol:T23 Status:T25
+E5	Alcohol:T26 Status:T19
+E8	Drug:T27 Status:T28
+E9	Drug:T29 Type:T30 Method:T31 Status:T32
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	TypeLivingVal T5 homeless
+A4	StatusTimeVal T6 current
+A5	StatusTimeVal T12 current
+A6	StatusTimeVal T16 current
+A8	StatusTimeVal T19 past
+A9	StatusTimeVal T21 current
+A11	StatusTimeVal T25 past
+A12	StatusTimeVal T28 past
+A13	StatusTimeVal T32 current

@@ -1,0 +1,20 @@
+T1	Employment 16 40	Retired HMS physiologist
+T2	StatusEmploy 16 40	Retired HMS physiologist
+T3	Type 16 40	Retired HMS physiologist
+T4	LivingStatus 54 60	living
+T5	TypeLiving 61 69	at rehab
+T6	Tobacco 99 106	smoking
+T7	StatusTime 94 98	Quit
+T8	History 107 120	in [**1-19**]
+T9	Alcohol 135 143	ETOH use
+T12	StatusTime 145 148	now
+T14	StatusTime 54 60	living
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Type:T5 Status:T14
+E3	Tobacco:T6 Status:T7 History:T8
+E5	Alcohol:T9 Status:T12
+A1	StatusEmployVal T2 retired
+A2	TypeLivingVal T5 with_others
+A3	StatusTimeVal T7 past
+A6	StatusTimeVal T12 current
+A8	StatusTimeVal T14 current

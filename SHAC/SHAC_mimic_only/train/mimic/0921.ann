@@ -1,0 +1,12 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 79	in independent living facility @ [**Street Address(2) **]
+T3	StatusTime 16 21	Lives
+T4	Tobacco 108 115	tobacco
+T5	Alcohol 120 128	EtOH use
+T6	StatusTime 101 107	Denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T6
+E3	Alcohol:T5 Status:T6
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 none

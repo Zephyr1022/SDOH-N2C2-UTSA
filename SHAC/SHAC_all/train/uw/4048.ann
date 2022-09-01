@@ -1,0 +1,12 @@
+T1	Alcohol 18 23	beers
+T2	Amount 16 23	5 beers
+T3	Frequency 24 31	per day
+T4	StatusTime 16 31	5 beers per day
+T5	Drug 41 45	IVDU
+T6	Method 41 45	IVDU
+T7	StatusTime 34 40	Denies
+E1	Alcohol:T1 Amount:T2 Frequency:T3 Status:T4 Type:T8
+E2	Drug:T5 Method:T6 Status:T7
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T7 current
+T8	Type 18 23	beers

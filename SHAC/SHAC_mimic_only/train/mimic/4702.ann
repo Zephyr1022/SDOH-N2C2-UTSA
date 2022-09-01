@@ -1,0 +1,16 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 37	in nursing home
+T6	StatusEmploy 131 152	former security guard
+T7	Type 131 152	former security guard
+T8	Employment 131 152	former security guard
+T9	Drug 375 386	cocaine use
+T10	Type 375 382	cocaine
+T11	StatusTime 369 374	Hx of
+E1	LivingStatus:T1 Status:T2 Type:T3
+E3	Employment:T8 Status:T6 Type:T7
+E4	Drug:T9 Type:T10 Status:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T6 unemployed
+A4	StatusTimeVal T11 past

@@ -1,0 +1,33 @@
+T1	Alcohol 47 54	alcohol
+T3	StatusTime 40 46	drinks
+T4	Tobacco 67 73	smokes
+T5	StatusTime 67 73	smokes
+T6	Amount 74 91	about half a pack
+T7	Frequency 92 97	a day
+T8	Tobacco 129 135	smoked
+T9	Amount 136 148	about a pack
+T10	Frequency 149 154	a day
+T11	StatusTime 129 135	smoked
+T12	History 100 125	Up until about a year ago
+T13	Tobacco 172 179	smoking
+T14	StatusTime 163 179	has been smoking
+T15	Duration 180 205	since he was 16 years old
+T16	Drug 223 228	drugs
+T17	Type 250 259	marijuana
+T18	StatusTime 243 249	smokes
+T20	Employment 281 285	work
+T21	StatusEmploy 293 301	disabled
+E1	Alcohol:T1 Status:T3 Frequency:T2
+E2	Tobacco:T4 Status:T5 Amount:T6 Frequency:T7
+E3	Tobacco:T8 History:T12 Status:T11 Amount:T9 Frequency:T10
+E4	Tobacco:T13 Duration:T15 Status:T14
+E5	Drug:T16 Status:T18 Type:T17 Frequency:T19
+E6	Employment:T20 Status:T21
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T11 past
+A5	StatusTimeVal T14 current
+A6	StatusTimeVal T18 current
+A8	StatusEmployVal T21 on_disability
+T2	Frequency 55 61	rarely
+T19	Frequency 260 266	rarely

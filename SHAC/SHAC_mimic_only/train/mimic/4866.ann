@@ -1,0 +1,21 @@
+T1	LivingStatus 32 49	formerly homeless
+T2	StatusTime 32 49	formerly homeless
+T3	TypeLiving 32 49	formerly homeless
+T4	Tobacco 86 97	Tobacco use
+T5	StatusTime 86 97	Tobacco use
+T6	Amount 108 113	1pint
+T7	Alcohol 99 107	etoh use
+T8	Frequency 114 121	per day
+T9	StatusTime 108 121	1pint per day
+T10	Drug 135 142;143 151	illicit drug use
+T11	Type 135 142	illicit
+T12	StatusTime 123 131	past use
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T7 Amount:T6 Frequency:T8 Status:T9
+E4	Drug:T10 Type:T11 Status:T12
+A1	StatusTimeVal T2 past
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T12 past

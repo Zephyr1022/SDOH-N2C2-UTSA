@@ -1,0 +1,10 @@
+T1	Alcohol 17 35	Occasional alcohol
+T2	StatusTime 17 35	Occasional alcohol
+T4	Tobacco 61 68	tobacco
+T5	Drug 72 77	drugs
+T6	StatusTime 54 60	Denies
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T4 Status:T6
+E3	Drug:T5 Status:T6
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T6 none

@@ -1,0 +1,29 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 35	20 cigarettes
+T3	Frequency 36 43	per day
+T4	Duration 44 63	over 20-year period
+T5	Type 25 35	cigarettes
+T6	StatusTime 22 63	20 cigarettes per day over 20-year period
+T7	Alcohol 64 75	Alcohol Use
+T8	Amount 77 83	6 pack
+T9	Frequency 84 91	per day
+T10	StatusTime 77 91	6 pack per day
+T11	Drug 92 100	Drug Use
+T12	Type 102 109	Cocaine
+T13	StatusTime 111 125	occasional use
+T15	LivingStatus 145 150	Lives
+T16	StatusTime 145 150	Lives
+T17	TypeLiving 151 168	at Interbay Place
+T18	Employment 205 215	Unemployed
+T19	StatusEmploy 205 215	Unemployed
+E1	Tobacco:T1 Amount:T2 Type:T5 Frequency:T3 Status:T6 Duration:T4
+E2	Alcohol:T7 Amount:T8 Status:T10 Frequency:T9
+E3	Drug:T11 Type:T12 Status:T13
+E4	LivingStatus:T15 Status:T16 Type:T17
+E5	Employment:T18 Status:T19
+A1	StatusTimeVal T6 current
+A2	StatusTimeVal T10 current
+A3	StatusTimeVal T13 current
+A5	StatusTimeVal T16 current
+A6	TypeLivingVal T17 homeless
+A7	StatusEmployVal T19 unemployed

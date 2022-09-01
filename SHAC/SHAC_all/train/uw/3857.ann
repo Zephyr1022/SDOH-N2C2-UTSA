@@ -1,0 +1,36 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 33	with friend
+T3	StatusTime 16 21	Lives
+T4	Employment 69 87	[LOCATION] college
+T5	StatusEmploy 69 87	[LOCATION] college
+T6	Tobacco 328 331	Tob
+T7	StatusTime 333 337	quit
+T8	History 338 355	several years ago
+T9	Alcohol 357 361	ETOH
+T10	Amount 363 369	1 beer
+T11	Frequency 370 373	QOD
+T12	StatusTime 363 373	1 beer QOD
+T13	Drug 423 427	IVDU
+T14	Method 423 427	IVDU
+T15	Duration 430 435	~ 2yr
+T16	Type 446 473	meth, heroine, cocaine, oxy
+T17	StatusTime 475 479	wuit
+T18	History 480 493	3-4 years ago
+T19	Drug 498 506	illicits
+T20	Type 498 506	illicits
+T21	StatusTime 495 516	no illicits currently
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T7 History:T8
+E4	Alcohol:T9 Amount:T10 Frequency:T11 Status:T12 Type:T22
+E5	Drug:T13 Method:T14 Duration:T15 Type:T16 History:T18 Status:T17 Method2:T23
+E6	Drug:T19 Type:T20 Status:T21
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 student
+A4	StatusTimeVal T7 past
+A5	StatusTimeVal T12 current
+A6	StatusTimeVal T17 past
+A7	StatusTimeVal T21 past
+T22	Type 365 369	beer
+T23	Method 443 445	IV

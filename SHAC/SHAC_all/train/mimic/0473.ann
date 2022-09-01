@@ -1,0 +1,9 @@
+T1	Alcohol 54 61	alcohol
+T2	Tobacco 63 70	tobacco
+T3	Drug 75 95	intravenous drug use
+T4	Type 75 86	intravenous
+T5	StatusTime 47 53	Denies
+E1	Alcohol:T1 Status:T5
+E2	Tobacco:T2 Status:T5
+E3	Drug:T3 Status:T5 Type:T4
+A1	StatusTimeVal T5 none

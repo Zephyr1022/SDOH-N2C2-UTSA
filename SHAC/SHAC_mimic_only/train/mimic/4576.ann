@@ -1,0 +1,13 @@
+T1	Tobacco 17 50	An extensive past smoking history
+T2	StatusTime 17 50	An extensive past smoking history
+T3	Alcohol 66 79	alcohol abuse
+T4	StatusTime 55 62	history
+T5	Drug 95 115	intravenous drug use
+T6	Type 95 106	intravenous
+T7	StatusTime 84 91	history
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Type:T6 Status:T7
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T7 current

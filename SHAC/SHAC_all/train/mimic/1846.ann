@@ -1,0 +1,25 @@
+T1	Employment 16 29	On disability
+T2	StatusEmploy 16 29	On disability
+T3	Type 52 59	finance
+T6	LivingStatus 65 70	lives
+T7	TypeLiving 71 75;76 83	with partner
+T8	StatusTime 65 70	lives
+T9	Tobacco 92 99	tobacco
+T10	Drug 100 104	IVDU
+T11	Type 100 104	IVDU
+T12	StatusTime 85 91	Denies
+T13	Alcohol 106 112	Drinks
+T14	Amount 113 127	5 vodka drinks
+T15	Type 115 120	vodka
+T16	Frequency 127 131	/day
+T17	StatusTime 106 112	Drinks
+E1	Employment:T1 Status:T2 Type:T3
+E3	LivingStatus:T6 Type:T7 Status:T8
+E4	Tobacco:T9 Status:T12
+E5	Drug:T10 Type:T11 Status:T12
+E6	Alcohol:T13 Type:T15 Amount:T14 Frequency:T16 Status:T17
+A1	StatusEmployVal T2 on_disability
+A3	TypeLivingVal T7 with_family
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T12 none
+A6	StatusTimeVal T17 current

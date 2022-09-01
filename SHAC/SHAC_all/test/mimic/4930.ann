@@ -1,0 +1,24 @@
+T1	LivingStatus 28 43	currently lives
+T2	StatusTime 28 37	currently
+T3	TypeLiving 44 49	alone
+T6	Employment 137 150;151 159	not currently employed
+T7	StatusEmploy 137 150	not currently
+T8	Type 185 226	maintenance, restaurants and housekeeping
+T12	Drug 292 296	IVDU
+T13	StatusTime 270 288	Denies any history
+T14	Method 292 296	IVDU
+T15	Tobacco 314 321	Tobacco
+T16	Alcohol 328 332	ETOH
+T17	StatusTime 323 327	None
+T18	StatusTime 334 338	None
+E1	LivingStatus:T1 Status:T2 Type:T3
+E3	Employment:T6 Status:T7 Type:T8
+E5	Drug:T12 Status:T13 Method:T14
+E6	Tobacco:T15 Status:T17
+E7	Alcohol:T16 Status:T18
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T7 unemployed
+A6	StatusTimeVal T13 none
+A7	StatusTimeVal T17 none
+A8	StatusTimeVal T18 none

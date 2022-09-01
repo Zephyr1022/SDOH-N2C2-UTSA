@@ -1,0 +1,11 @@
+T1	Tobacco 24 31	tobacco
+T2	Alcohol 35 43	EtOH use
+T3	StatusTime 17 23	denies
+T4	Drug 58 73	heroin, cocaine
+T5	Type 58 73	heroin, cocaine
+T6	StatusTime 44 57	Actively uses
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T2 Status:T3
+E3	Drug:T4 Type:T5 Status:T6
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T6 current

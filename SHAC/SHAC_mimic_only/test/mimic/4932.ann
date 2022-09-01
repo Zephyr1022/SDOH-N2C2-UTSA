@@ -1,0 +1,26 @@
+T1	Employment 21 32	electrician
+T2	StatusEmploy 21 32	electrician
+T3	Type 21 32	electrician
+T4	Employment 99 110	electrician
+T5	Type 99 110	electrician
+T6	StatusEmploy 99 110	electrician
+T7	Tobacco 156 159	tob
+T8	Alcohol 160 164	etoh
+T9	Drug 165 170	drugs
+T10	StatusTime 153 155	no
+T11	StatusTime 75 77	no
+T12	Drug 87 92	drugs
+T13	Alcohol 82 86	etoh
+T14	Tobacco 78 81	tob
+E1	Employment:T1 Status:T2 Type:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T10
+E4	Alcohol:T8 Status:T10
+E5	Drug:T9 Status:T10
+E6	Drug:T12 Status:T11
+E7	Alcohol:T13 Status:T11
+E8	Tobacco:T14 Status:T11
+A1	StatusEmployVal T2 employed
+A2	StatusEmployVal T6 employed
+A3	StatusTimeVal T10 none
+A4	StatusTimeVal T11 none

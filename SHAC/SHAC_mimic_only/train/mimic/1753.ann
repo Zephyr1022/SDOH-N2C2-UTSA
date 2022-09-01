@@ -1,0 +1,18 @@
+T3	LivingStatus 32 37	Lives
+T4	StatusTime 32 37	Lives
+T5	TypeLiving 38 51	with: Husband
+T6	Employment 52 62	Occupation
+T7	StatusEmploy 64 84	Currently unemployed
+T8	Tobacco 85 92	Tobacco
+T9	StatusTime 94 106	Never smoked
+T10	Alcohol 107 111	ETOH
+T11	StatusTime 113 117	Rare
+E2	LivingStatus:T3 Status:T4 Type:T5
+E3	Employment:T6 Status:T7
+E4	Tobacco:T8 Status:T9
+E5	Alcohol:T10 Status:T11
+A1	StatusTimeVal T4 current
+A2	TypeLivingVal T5 with_family
+A3	StatusEmployVal T7 unemployed
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T11 current

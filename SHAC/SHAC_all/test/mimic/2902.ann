@@ -1,0 +1,14 @@
+T1	LivingStatus 29 34	lives
+T2	StatusTime 29 34	lives
+T3	TypeLiving 35 52	with her grandson
+T4	Tobacco 153 168	tobacco history
+T5	Alcohol 132 139	alcohol
+T6	StatusTime 129 131	No
+T7	StatusTime 144 152	positive
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T7
+E3	Alcohol:T5 Status:T6
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T7 current

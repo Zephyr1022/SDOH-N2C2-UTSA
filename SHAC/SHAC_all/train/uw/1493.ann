@@ -1,0 +1,26 @@
+T1	LivingStatus 16 20	Home
+T2	TypeLiving 22 30	homeless
+T3	StatusTime 22 30	homeless
+T4	Alcohol 31 38	Alcohol
+T5	StatusTime 40 46	denies
+T6	Tobacco 47 54	Tobacco
+T7	Amount 56 61	1 ppd
+T8	StatusTime 56 61	1 ppd
+T9	Drug 62 67	Drugs
+T10	StatusTime 120 125	until
+T11	History 126 137	1 month ago
+T12	Amount 69 73	3 gm
+T13	Type 74 80	heroin
+T14	Method 81 96	IV skin popping
+T15	Type 98 105	cocaine
+T16	Amount 106 110	3 gm
+T17	Method 111 119	smoke/IV
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Alcohol:T4 Status:T5
+E3	Tobacco:T6 Status:T8 Amount:T7
+E4	Drug:T9 Amount:T12 Type:T13 Method:T14 Status:T10 History:T11 Type2:T15 Amount2:T16 Method2:T17
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T10 past

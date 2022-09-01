@@ -1,0 +1,6 @@
+T3	LivingStatus 199 203	live
+T4	StatusTime 164 203	moved to [LOCATION], [LOCATION] to live
+T5	TypeLiving 204 215	with sister
+E2	LivingStatus:T3 Status:T4 Type:T5
+A1	StatusTimeVal T4 current
+A2	TypeLivingVal T5 with_family

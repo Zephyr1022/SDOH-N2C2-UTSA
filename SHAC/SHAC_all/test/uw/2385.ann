@@ -1,0 +1,28 @@
+T1	Alcohol 20 26	drinks
+T2	StatusTime 20 26	drinks
+T3	Type 27 31	wine
+T4	Frequency 44 54	each night
+T5	Tobacco 59 65	smokes
+T6	StatusTime 59 65	smokes
+T7	Amount 66 77	a half-pack
+T8	Type 81 91	cigarettes
+T9	Frequency 92 97	a day
+T10	Drug 107 115	drug use
+T11	StatusTime 100 106	Denies
+T12	Type 124 145	a construction worker
+T13	Employment 124 145	a construction worker
+T14	StatusEmploy 124 145	a construction worker
+T15	LivingStatus 146 152	living
+T16	StatusTime 146 152	living
+T17	TypeLiving 167 188	with his wife and son
+E1	Alcohol:T1 Status:T2 Type:T3 Frequency:T4
+E2	Tobacco:T5 Status:T6 Amount:T7 Frequency:T9 Type:T8
+E3	Drug:T10 Status:T11
+E4	Employment:T13 Status:T14 Type:T12
+E5	LivingStatus:T15 Status:T16 Type:T17
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T11 none
+A4	StatusEmployVal T14 employed
+A5	StatusTimeVal T16 current
+A6	TypeLivingVal T17 with_family

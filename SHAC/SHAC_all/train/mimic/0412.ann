@@ -1,0 +1,12 @@
+T1	LivingStatus 20 25	lives
+T2	StatusTime 20 25	lives
+T3	TypeLiving 26 80	at [**Location 45041**] Towers - a senior citizen home
+T4	Tobacco 122 129	tobacco
+T5	Alcohol 133 144	alcohol use
+T6	StatusTime 115 121	denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T6
+E3	Alcohol:T5 Status:T6
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T6 none

@@ -1,0 +1,24 @@
+T1	LivingStatus 17 25	Homeless
+T2	TypeLiving 17 25	Homeless
+T3	StatusTime 17 25	Homeless
+T4	Amount 112 120	0.25 PPD
+T5	Tobacco 105 111	Smokes
+T6	StatusTime 105 111	Smokes
+T7	Alcohol 121 125	EtoH
+T8	Amount 127 137	3-5 drinks
+T9	Frequency 138 147	per month
+T10	StatusTime 148 162	Actively using
+T11	Type 163 167	meth
+T12	Drug 163 167	meth
+T13	Method 189 195	smokes
+T14	StatusTime 127 147	3-5 drinks per month
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Tobacco:T5 Status:T6 Amount:T4
+E3	Alcohol:T7 Amount:T8 Frequency:T9 Status:T14
+E4	Drug:T12 Type:T11 Status:T10 Method:T13 History:T15
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T14 current
+T15	History 169 188	last use this month

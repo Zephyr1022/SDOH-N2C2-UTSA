@@ -1,0 +1,8 @@
+T1	Drug 19 29	drug abuse
+T3	StatusTime 16 18	No
+T4	Tobacco 46 52	smoker
+T5	StatusTime 39 45	former
+E1	Drug:T1 Status:T3
+E2	Tobacco:T4 Status:T5
+A2	StatusTimeVal T3 none
+A3	StatusTimeVal T5 past

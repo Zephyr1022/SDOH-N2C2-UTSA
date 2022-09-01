@@ -1,0 +1,24 @@
+T1	LivingStatus 16 21	lives
+T2	StatusTime 16 21	lives
+T3	TypeLiving 22 35	with his wife
+T4	Amount 129 143	150 pack-years
+T5	Tobacco 122 128	smoked
+T6	StatusTime 145 149	quit
+T7	History 150 161	7 years ago
+T8	Employment 172 178	worked
+T9	StatusEmploy 163 178	formerly worked
+T10	Type 182 199	a battery factory
+T17	Alcohol 299 306	alcohol
+T18	Drug 310 326	illicit drug use
+T19	Type 310 317	illicit
+T20	StatusTime 296 298	no
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T5 Amount:T4 Status:T6 History:T7
+E3	Employment:T8 Status:T9 Type:T10
+E6	Alcohol:T17 Status:T20
+E7	Drug:T18 Type:T19 Status:T20
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T6 past
+A4	StatusEmployVal T9 unemployed
+A7	StatusTimeVal T20 none

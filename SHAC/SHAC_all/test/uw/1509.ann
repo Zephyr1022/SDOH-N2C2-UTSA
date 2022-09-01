@@ -1,0 +1,37 @@
+T1	Alcohol 17 24	Alcohol
+T2	StatusTime 26 32	denies
+T3	Tobacco 33 40	Tobacco
+T4	StatusTime 42 68	3 cigarettes/day x20 years
+T5	Amount 42 54	3 cigarettes
+T6	Type 44 54	cigarettes
+T7	Frequency 54 58	/day
+T8	Duration 59 68	x20 years
+T9	Drug 69 73	Drgs
+T10	Duration 85 93	x8 years
+T11	Type 78 84	heroin
+T12	StatusTime 111 126	last heroin use
+T13	History 131 145	1.5 months ago
+T14	Drug 165 181	BZDs and cocaine
+T16	Type 165 181	BZDs and cocaine
+T17	History 182 191	on [DATE]
+T15	StatusTime 152 160	positive
+T18	LivingStatus 198 236	currently bouncing from house to house
+T19	TypeLiving 198 236	currently bouncing from house to house
+T20	Employment 254 259	works
+T22	Type 263 275	construction
+T21	StatusEmploy 254 259	works
+T23	StatusTime 195 197	is
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T3 Status:T4 Amount:T5 Type:T6 Frequency:T7 Duration:T8
+E3	Drug:T9 Type:T11 Duration:T10 Status:T12 History:T13 Method:T24
+E4	Drug:T14 Type:T16 Status:T15 History:T17
+E5	LivingStatus:T18 Type:T19 Status:T23
+E6	Employment:T20 Status:T21 Type:T22
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T12 past
+A4	StatusTimeVal T15 current
+A5	TypeLivingVal T19 homeless
+A6	StatusEmployVal T21 employed
+A7	StatusTimeVal T23 current
+T24	Method 75 77	IV

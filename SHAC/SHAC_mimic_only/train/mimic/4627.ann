@@ -1,0 +1,21 @@
+T1	Employment 84 101	previously worked
+T2	StatusEmploy 84 101	previously worked
+T3	Type 105 112	a nurse
+T4	Alcohol 151 158	alcohol
+T6	StatusTime 144 150	drinks
+T7	Tobacco 186 191	smoke
+T8	Duration 201 216	age of 16 to 30
+T9	Amount 217 230	up to 4 packs
+T10	Frequency 231 238	per day
+T11	StatusTime 182 185;186 191	did smoke
+T12	Drug 260 288	marijuana, cocaine or heroin
+T13	Type 260 288	marijuana, cocaine or heroin
+T14	StatusTime 249 259	never used
+E1	Employment:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T6
+E3	Tobacco:T7 Duration:T8 Amount:T9 Frequency:T10 Status:T11
+E4	Drug:T12 Type:T13 Status:T14
+A1	StatusEmployVal T2 unemployed
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T11 past
+A5	StatusTimeVal T14 none

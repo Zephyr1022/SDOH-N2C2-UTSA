@@ -1,0 +1,32 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 61	1 p/d since teens, 40 pack year history
+T3	Amount 22 25	1 p
+T4	Frequency 25 27	/d
+T5	Duration 28 39	since teens
+T6	Alcohol 65 76	Alcohol Use
+T7	StatusTime 103 111	relapsed
+T8	Duration 78 83	14-51
+T9	Drug 113 121	Drug Use
+T10	StatusTime 147 159	past history
+T11	Type 169 193	meth heroin, adderol, MJ
+T12	LivingStatus 257 265	homeless
+T13	Duration 266 284	for the past month
+T14	StatusTime 257 265	homeless
+T15	TypeLiving 257 265	homeless
+T16	LivingStatus 384 393	Residence
+T17	StatusTime 384 393	Residence
+T18	TypeLiving 395 403	Homeless
+E1	Tobacco:T1 Amount:T3 Frequency:T4 Duration:T5 Status:T2 Amount2:T20
+E2	Alcohol:T6 Duration:T8 Status:T7
+E3	Drug:T9 Status:T10 Type:T11 Method:T19
+E4	LivingStatus:T12 Status:T14 Type:T15 Duration:T13
+E5	LivingStatus:T16 Status:T17 Type:T18
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T10 past
+A4	StatusTimeVal T14 current
+A5	TypeLivingVal T15 homeless
+A6	StatusTimeVal T17 current
+A7	TypeLivingVal T18 homeless
+T19	Method 163 167	IVDU
+T20	Amount 41 53	40 pack year

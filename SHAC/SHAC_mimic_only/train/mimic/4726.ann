@@ -1,0 +1,10 @@
+T3	Tobacco 127 134	tobacco
+T4	Amount 135 144	~20pk-yrs
+T6	StatusTime 108 126	distant history of
+T7	Alcohol 153 157	EtOH
+T9	StatusTime 162 169	not for
+T10	History 170 180	many years
+E2	Tobacco:T3 Status:T6 Amount:T4
+E3	Alcohol:T7 Status:T9 History:T10
+A2	StatusTimeVal T6 past
+A4	StatusTimeVal T9 past

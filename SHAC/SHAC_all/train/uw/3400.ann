@@ -1,0 +1,23 @@
+T1	LivingStatus 49 65	Living situation
+T2	StatusTime 68 73	Lives
+T3	TypeLiving 74 96	with significant other
+T4	Employment 99 109	Employment
+T5	StatusEmploy 112 120	Employed
+T6	Type 121 152	After school activites director
+T7	Tobacco 155 166	Tobacco use
+T8	Alcohol 177 188	Alcohol use
+T9	Drug 199 207	Drug use
+T10	StatusTime 168 174	Denies
+T11	StatusTime 190 196	Denies
+T12	StatusTime 209 215	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T10
+E4	Alcohol:T8 Status:T11
+E5	Drug:T9 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T11 none
+A6	StatusTimeVal T12 none

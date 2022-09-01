@@ -1,0 +1,43 @@
+T1	LivingStatus 260 265	Lives
+T2	StatusTime 260 265	Lives
+T3	TypeLiving 266 271	alone
+T4	Drug 18 26	drug use
+T5	Method 38 40	IV
+T6	StatusTime 9 26	Multiple drug use
+T7	Drug 105 116	steroid use
+T8	Type 105 112	steroid
+T9	StatusTime 95 104	No recent
+T10	History 67 93	approximately one year ago
+T11	Method 53 62	injection
+T12	Drug 53 66	injection use
+T13	StatusTime 48 93	Last injection use approximately one year ago
+T14	Alcohol 121 132	alcohol use
+T15	StatusTime 118 120	No
+T16	Tobacco 178 185	smoking
+T17	Amount 186 198	2 cigarettes
+T18	Frequency 199 204	daily
+T19	StatusTime 172 177	still
+T20	Drug 216 224	drug use
+T21	StatusTime 208 215	Started
+T22	History 225 239	in high school
+T23	History 134 147	last 7 mo ago
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Drug:T4 Status:T6 Method:T5
+E3	Drug:T7 Type:T8 Status:T9
+E4	Drug:T12 Method:T11 Status:T13 History:T10
+E5	Alcohol:T14 Status:T15 History:T23
+E6	Tobacco:T16 Status:T19 Amount:T17 Frequency:T18
+E7	Drug:T20 Status:T21 History:T22
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T13 past
+A6	StatusTimeVal T15 none
+A7	StatusTimeVal T19 current
+A8	StatusTimeVal T21 current
+T24	Drug 150 164	Medical MJ use
+E8	Drug:T24 Frequency:T25 Status:T26
+T25	Frequency 165 170	daily
+T26	StatusTime 165 170	daily
+A9	StatusTimeVal T26 current

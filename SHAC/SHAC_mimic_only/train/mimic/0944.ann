@@ -1,0 +1,15 @@
+T1	Amount 19 28	half pack
+T2	Frequency 29 36	per day
+T3	Tobacco 37 43	smoker
+T4	StatusTime 37 43	smoker
+T5	Alcohol 49 56	alcohol
+T6	StatusTime 46 48	No
+T7	Employment 84 109	former telephone operator
+T8	Type 84 109	former telephone operator
+T9	StatusEmploy 84 109	former telephone operator
+E1	Tobacco:T3 Frequency:T2 Status:T4 Amount:T1
+E2	Alcohol:T5 Status:T6
+E3	Employment:T7 Status:T9 Type:T8
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T6 none
+A3	StatusEmployVal T9 unemployed

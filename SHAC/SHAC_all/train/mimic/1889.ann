@@ -1,0 +1,29 @@
+T1	Employment 68 105	an [**Company 378**] systems engineer
+T2	StatusEmploy 64 67	was
+T3	Type 68 105	an [**Company 378**] systems engineer
+T4	LivingStatus 110 115	lives
+T5	TypeLiving 119 139	a single family home
+T6	StatusTime 110 115	lives
+T8	StatusTime 243 249	former
+T7	Tobacco 241 249;250 256	a former smoker
+T9	Alcohol 275 282	alcohol
+T11	StatusTime 268 274	drinks
+T17	Tobacco 468 483	tobacco history
+T18	StatusTime 488 492	quit
+T19	History 501 514	in [**2061**]
+T20	Amount 455 467	13 pack year
+T21	Alcohol 521 525;526 529	ETOH use
+T23	StatusTime 516 525;526 529	Rare ETOH use
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Status:T11
+E6	Tobacco:T17 Status:T18 Amount:T20 History:T19
+E7	Alcohol:T21 Status:T23
+A1	StatusEmployVal T2 unemployed
+A2	TypeLivingVal T5 with_family
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T8 past
+A6	StatusTimeVal T11 current
+A8	StatusTimeVal T18 past
+A10	StatusTimeVal T23 current

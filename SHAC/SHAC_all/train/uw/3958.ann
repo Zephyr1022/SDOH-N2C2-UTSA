@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T3	StatusTime 24 28	rare
+T4	Alcohol 30 41	Alcohol Use
+T5	StatusTime 44 48	none
+T6	Drug 50 58	Drug Use
+T7	StatusTime 60 64	none
+T8	Employment 245 256	coordinates
+T9	Type 257 302	before and after school programs for children
+T10	StatusEmploy 245 256	coordinates
+T11	LivingStatus 378 383	lives
+T12	StatusTime 378 383	lives
+T13	TypeLiving 371 392	sister lives with her
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Status:T7
+E4	Employment:T8 Status:T10 Type:T9
+E5	LivingStatus:T11 Status:T12 Type:T13
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 none
+A5	StatusEmployVal T10 employed
+A6	StatusTimeVal T12 current
+A7	TypeLivingVal T13 with_family

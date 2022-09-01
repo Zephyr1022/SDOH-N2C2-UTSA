@@ -1,0 +1,26 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	denies
+T3	Alcohol 31 42	Alcohol Use
+T4	Amount 52 60	6 drinks
+T5	Frequency 61 69	per week
+T6	StatusTime 44 69	reports 6 drinks per week
+T7	Drug 143 151	Drug Use
+T8	Type 164 173	marijuana
+T10	StatusTime 153 163	occasional
+T11	LivingStatus 209 218	Residence
+T12	TypeLiving 253 263	by himself
+T13	StatusTime 220 225	lives
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Amount:T4 Frequency:T5 Status:T6
+E3	Drug:T7 Type:T8 Status:T10
+E4	LivingStatus:T11 Type:T12 Status:T13
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T6 current
+A4	StatusTimeVal T10 current
+A5	TypeLivingVal T12 alone
+A6	StatusTimeVal T13 current
+T9	Drug 182 190	illicits
+E5	Drug:T9 Type:T14 Status:T15
+T14	Type 182 190	illicits
+T15	StatusTime 175 181	denies
+A3	StatusTimeVal T15 none

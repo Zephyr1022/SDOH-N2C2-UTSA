@@ -1,0 +1,23 @@
+T1	StatusTime 42 48	Denies
+T2	StatusTime 59 65	Denies
+T3	StatusTime 22 28	Denies
+T4	Tobacco 9 20	Tobacco Use
+T5	Alcohol 29 40	Alcohol Use
+T6	Drug 49 57	Drug Use
+T7	LivingStatus 301 305	live
+T8	StatusTime 301 305	live
+T9	TypeLiving 265 277	Two children
+T10	Employment 242 249	retired
+T11	StatusEmploy 242 249	retired
+T12	Type 255 263	the Army
+E1	Tobacco:T4 Status:T3
+E2	Alcohol:T5 Status:T1
+E3	Drug:T6 Status:T2
+E4	LivingStatus:T7 Status:T8 Type:T9
+E5	Employment:T10 Status:T11 Type:T12
+A1	StatusTimeVal T1 none
+A2	StatusTimeVal T2 none
+A3	StatusTimeVal T3 none
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 with_family
+A6	StatusEmployVal T11 retired

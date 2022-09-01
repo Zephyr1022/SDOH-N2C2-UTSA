@@ -1,0 +1,9 @@
+T1	Tobacco 110 121	tobacco use
+T2	StatusTime 103 109	Denies
+T3	Alcohol 123 139	EtOH consumption
+T4	Drug 145 153	illicits
+T5	Type 145 153	illicits
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T2
+E3	Drug:T4 Type:T5 Status:T2
+A1	StatusTimeVal T2 none

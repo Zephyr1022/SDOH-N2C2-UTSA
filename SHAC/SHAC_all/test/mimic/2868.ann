@@ -1,0 +1,6 @@
+T1	Tobacco 56 63	tobacco
+T2	StatusTime 29 35	smokes
+T3	Amount 36 44	one pack
+T4	Frequency 45 52	per day
+E1	Tobacco:T1 Frequency:T4 Amount:T3 Status:T2
+A1	StatusTimeVal T2 current

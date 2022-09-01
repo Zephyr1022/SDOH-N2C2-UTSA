@@ -1,0 +1,38 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 27	alone
+T4	LivingStatus 197 203	Living
+T5	StatusTime 197 203	Living
+T6	TypeLiving 204 212	with son
+T7	Duration 213 229	for past 2 weeks
+T9	Alcohol 29 35	Drinks
+T10	Amount 36 44	a bottle
+T11	Type 48 53	vodka
+T12	Frequency 54 66	every 2 days
+T13	StatusTime 29 35	Drinks
+T14	Alcohol 72 80	drinking
+T15	StatusTime 68 71	was
+T16	Amount 81 100	[**12-23**] glasses
+T17	Type 104 109	vodka
+T18	Frequency 110 115	daily
+T19	History 119 135	until 4 days ago
+T20	Tobacco 149 156	smoking
+T21	StatusTime 140 148	has been
+T22	Amount 171 176	1 ppd
+T24	Duration 157 169	for 50 years
+T25	Drug 187 195	drug use
+T26	StatusTime 178 180	No
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	LivingStatus:T4 Status:T5 Type:T6 Duration:T7
+E3	Alcohol:T9 Status:T13 Amount:T10 Type:T11 Frequency:T12
+E4	Alcohol:T14 Status:T15 Amount:T16 Type:T17 Frequency:T18 History:T19
+E5	Tobacco:T20 Status:T21 Duration:T24 Amount:T22
+E6	Drug:T25 Status:T26
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 with_family
+A5	StatusTimeVal T13 current
+A6	StatusTimeVal T15 past
+A7	StatusTimeVal T21 current
+A8	StatusTimeVal T26 none

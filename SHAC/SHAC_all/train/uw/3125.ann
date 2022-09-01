@@ -1,0 +1,46 @@
+T1	Tobacco 32 47	smoking history
+T3	Amount 51 76	at least 10-30 pack years
+T4	Duration 78 95	started at age 16
+T5	Tobacco 100 107	smoking
+T6	Amount 108 114	1 pack
+T7	Frequency 115 122	per day
+T8	History 123 135	10 years ago
+T9	StatusTime 100 107	smoking
+T10	StatusTime 32 47	smoking history
+T11	Tobacco 157 164	smoking
+T12	Amount 165 168	1pk
+T13	Frequency 168 174	/3days
+T14	StatusTime 179 187	stopping
+T15	History 188 210	in the past week or so
+T16	Alcohol 226 230	EtOH
+T17	History 231 242	in 6 months
+T18	StatusTime 215 225	hasn't had
+T20	Drug 291 295	IVDU
+T21	Type 312 314	MJ
+T22	StatusTime 284 290	denies
+T23	Method 291 295	IVDU
+T24	Drug 312 314	MJ
+T25	StatusTime 297 311	endorsing only
+T26	LivingStatus 420 425	lives
+T27	TypeLiving 440 452	with his son
+T28	StatusTime 420 425	lives
+T29	Employment 499 506	working
+T30	Type 510 526	a security guard
+T31	StatusEmploy 499 506	working
+E1	Tobacco:T1 Amount:T3 Duration:T4 Status:T10
+E2	Tobacco:T5 Amount:T6 Frequency:T7 History:T8 Status:T9
+E3	Tobacco:T11 Amount:T12 Frequency:T13 Status:T14 History:T15
+E4	Alcohol:T16 Status:T18 History:T17
+E5	Drug:T20 Status:T22 Method:T23
+E6	Drug:T24 Type:T21 Status:T25
+E7	LivingStatus:T26 Type:T27 Status:T28
+E8	Employment:T29 Type:T30 Status:T31
+A2	StatusTimeVal T9 current
+A3	StatusTimeVal T10 past
+A4	StatusTimeVal T14 past
+A5	StatusTimeVal T18 past
+A7	StatusTimeVal T22 none
+A8	StatusTimeVal T25 current
+A9	TypeLivingVal T27 with_family
+A10	StatusTimeVal T28 current
+A11	StatusEmployVal T31 employed

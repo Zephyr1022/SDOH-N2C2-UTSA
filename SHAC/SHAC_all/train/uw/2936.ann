@@ -1,0 +1,9 @@
+T1	Tobacco 12 23	tobacco use
+T2	StatusTime 9 11	No
+T3	Employment 42 49	Working
+T4	StatusEmploy 42 49	Working
+T5	Type 63 74	a physician
+E1	Tobacco:T1 Status:T2
+E2	Employment:T3 Status:T4 Type:T5
+A1	StatusTimeVal T2 none
+A2	StatusEmployVal T4 employed

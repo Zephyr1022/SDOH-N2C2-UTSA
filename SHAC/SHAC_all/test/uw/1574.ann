@@ -1,0 +1,13 @@
+T1	LivingStatus 11 16	lives
+T2	TypeLiving 24 29	alone
+T3	StatusTime 11 16	lives
+T4	Drug 32 39	cocaine
+T5	Type 32 39	cocaine
+T6	StatusTime 31 32	+
+T7	Tobacco 44 48	tobb
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Drug:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T6
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 current

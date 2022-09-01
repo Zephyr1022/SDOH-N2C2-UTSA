@@ -1,0 +1,19 @@
+T1	Tobacco 121 128	Smoking
+T2	StatusTime 137 149	Never Smoker
+T3	Tobacco 162 169	tobacco
+T4	StatusTime 171 176	Never
+T5	Method 152 161	Smokeless
+T6	Alcohol 186 197	Alcohol Use
+T7	Amount 199 205	0.0 oz
+T8	Frequency 205 210	/week
+T9	StatusTime 199 210	0.0 oz/week
+T10	Alcohol 223 229	drinks
+T11	StatusTime 212 222	0 Standard
+E1	Tobacco:T1 Status:T2
+E2	Tobacco:T3 Method:T5 Status:T4
+E3	Alcohol:T6 Amount:T7 Frequency:T8 Status:T9
+E4	Alcohol:T10 Status:T11
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T11 none

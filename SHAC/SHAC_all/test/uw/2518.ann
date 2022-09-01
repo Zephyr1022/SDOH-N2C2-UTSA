@@ -1,0 +1,11 @@
+T1	Tobacco 32 35	tob
+T2	StatusTime 30 31	+
+T3	Amount 37 44	1/2 PPD
+E1	Tobacco:T1 Status:T2 Amount:T3
+A1	StatusTimeVal T2 current
+T4	LivingStatus 17 29	Hobson Place
+E2	LivingStatus:T4 Status:T5 Type:T6
+T5	StatusTime 17 29	Hobson Place
+A2	StatusTimeVal T5 current
+T6	TypeLiving 17 29	Hobson Place
+A3	TypeLivingVal T6 homeless

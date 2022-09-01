@@ -1,0 +1,22 @@
+T1	Alcohol 36 46	heavy etoh
+T3	StatusTime 19 32	has a history
+T4	Drug 48 61	cocaine abuse
+T5	Type 48 55	cocaine
+T6	Tobacco 66 79	tobacco abuse
+T7	Amount 88 103	[**12-2**] pack
+T8	Frequency 103 106	/wk
+T9	LivingStatus 109 114	Lived
+T10	TypeLiving 115 126	with mother
+T11	StatusTime 109 114	Lived
+T12	Employment 152 157	Works
+T13	StatusEmploy 152 157	Works
+T14	Type 161 171	a mechanic
+E1	Alcohol:T1 Status:T3
+E2	Drug:T4 Type:T5 Status:T3
+E3	Tobacco:T6 Status:T3 Amount:T7 Frequency:T8
+E4	LivingStatus:T9 Status:T11 Type:T10
+E5	Employment:T12 Status:T13 Type:T14
+A2	StatusTimeVal T3 current
+A3	TypeLivingVal T10 with_family
+A4	StatusTimeVal T11 past
+A5	StatusEmployVal T13 employed

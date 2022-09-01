@@ -1,0 +1,27 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 27	Never
+T3	Alcohol 31 42	Alcohol Use
+T4	StatusTime 59 64	sober
+T5	History 65 75	since 2009
+T7	Drug 76 84	Drug Use
+T8	StatusTime 114 118	quit
+T9	History 119 128	in [DATE]
+T10	Method 90 92	IV
+T11	Type 93 108	heroin, cocaine
+T12	LivingStatus 441 445	live
+T13	StatusTime 415 424	Currently
+T14	TypeLiving 425 445	has no place to live
+T15	Employment 518 522	work
+T16	StatusEmploy 510 522	Used to work
+T17	Type 526 558	construction and at [PROFESSION]
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4 History:T5
+E3	Drug:T7 Method:T10 Type:T11 Status:T8 History:T9
+E4	LivingStatus:T12 Type:T14 Status:T13
+E5	Employment:T15 Status:T16 Type:T17
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 past
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T13 current
+A6	TypeLivingVal T14 homeless
+A7	StatusEmployVal T16 employed

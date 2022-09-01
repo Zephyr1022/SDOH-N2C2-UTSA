@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 45	with wife and daughters
+T6	Type 181 212	leather goods importer/exporter
+T7	StatusEmploy 172 180	Previous
+T8	Employment 181 212	leather goods importer/exporter
+T9	Tobacco 220 226	smoked
+T11	Type 227 231	cigs
+T12	Alcohol 239 243	ETOH
+T13	StatusTime 214 219	Never
+T14	Drug 252 270	recreational drugs
+T15	Type 252 264	recreational
+E1	LivingStatus:T1 Type:T3 Status:T2
+E3	Employment:T8 Type:T6 Status:T7
+E4	Tobacco:T9 Type:T11 Status:T13
+E5	Alcohol:T12 Status:T13
+E6	Drug:T14 Status:T13 Type:T15
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T7 unemployed
+A5	StatusTimeVal T13 none

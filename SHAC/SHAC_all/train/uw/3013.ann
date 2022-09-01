@@ -1,0 +1,7 @@
+T1	Drug 17 21	IVDU
+T2	Method 17 21	IVDU
+T3	Type 23 43	heroin, meth, benzos
+T6	StatusTime 46 51	clean
+T7	History 52 62	x 3 months
+E1	Drug:T1 Method:T2 Type:T3 Status:T6 History:T7
+A1	StatusTimeVal T6 past

@@ -1,0 +1,12 @@
+T1	Employment 35 50	Endocrinologist
+T2	StatusEmploy 35 50	Endocrinologist
+T3	Tobacco 119 124	smoke
+T4	StatusTime 110 118	Does not
+T5	Alcohol 127 141	Social drinker
+T6	StatusTime 127 141	Social drinker
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+E3	Alcohol:T5 Status:T6
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 current

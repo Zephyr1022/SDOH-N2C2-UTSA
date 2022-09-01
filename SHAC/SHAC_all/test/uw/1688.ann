@@ -1,0 +1,16 @@
+T1	LivingStatus 17 22	lives
+T2	StatusTime 17 22	lives
+T3	TypeLiving 23 28	alone
+T4	Employment 30 35	works
+T5	StatusEmploy 30 35	works
+T6	Type 39 51	tech company
+T7	Drug 54 75	methamphetamine abuse
+T8	StatusTime 52 53	+
+T10	Type 54 69	methamphetamine
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Drug:T7 Status:T8 Type:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T8 current

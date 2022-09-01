@@ -1,0 +1,11 @@
+T1	Tobacco 76 83	Tobacco
+T2	StatusTime 74 75	+
+T3	Alcohol 57 61	ETOH
+T4	StatusTime 16 26	History of
+T6	Drug 45 52	cocaine
+T7	Type 45 52	cocaine
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T6 Type:T7 Status:T4
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 current

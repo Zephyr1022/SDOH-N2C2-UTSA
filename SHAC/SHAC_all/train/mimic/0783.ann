@@ -1,0 +1,13 @@
+T1	Amount 27 43	thirty pack year
+T2	Tobacco 44 54;55 62	history of smoking
+T3	StatusTime 76 91	stopped smoking
+T4	History 92 109;110 119	one week prior to admission
+T6	Drug 155 167;168 176	recreational drug use
+T7	Type 155 167	recreational
+T8	StatusTime 130 140	no history
+T5	Alcohol 144 151	alcohol
+E1	Tobacco:T2 Amount:T1 Status:T3 History:T4
+E2	Drug:T6 Type:T7 Status:T8
+E3	Alcohol:T5 Status:T8
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T8 none

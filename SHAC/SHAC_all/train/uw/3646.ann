@@ -1,0 +1,14 @@
+T1	LivingStatus 89 98	Residence
+T2	TypeLiving 114 119	alone
+T3	StatusTime 108 113	lives
+T4	Tobacco 9 20	Tobacco Use
+T5	Alcohol 31 42	Alcohol Use
+T7	StatusTime 22 28	denies
+T8	StatusTime 31 50	Alcohol Use: social
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T7
+E3	Alcohol:T5 Status:T8
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T8 current

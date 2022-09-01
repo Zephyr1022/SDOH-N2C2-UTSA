@@ -1,0 +1,16 @@
+T1	StatusTime 82 86	quit
+T2	Tobacco 87 94	smoking
+T3	Tobacco 128 135	tobacco
+T4	Method 118 127	smokeless
+T5	StatusTime 100 117	does not have any
+T6	Alcohol 189 196	alcohol
+T7	Drug 212 217	drugs
+T8	Type 204 211	illicit
+T9	StatusTime 170 182	she does not
+E1	Tobacco:T2 Status:T1
+E2	Tobacco:T3 Method:T4 Status:T5
+E3	Alcohol:T6 Status:T9
+E4	Drug:T7 Type:T8 Status:T9
+A1	StatusTimeVal T1 none
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T9 none

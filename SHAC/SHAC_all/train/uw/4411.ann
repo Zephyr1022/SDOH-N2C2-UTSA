@@ -1,0 +1,16 @@
+T1	StatusTime 49 62	prior history
+T2	Method 66 68	IV
+T3	Drug 66 77	IV drug use
+T4	StatusTime 82 89	current
+T5	Type 97 110	crack cocaine
+T6	Drug 103 110	cocaine
+T7	LivingStatus 17 29	Homelessness
+T8	TypeLiving 17 29	Homelessness
+T9	StatusTime 17 29	Homelessness
+E1	Drug:T3 Method:T2 Status:T1
+E2	Drug:T6 Type:T5 Status:T4
+E3	LivingStatus:T7 Type:T8 Status:T9
+A1	StatusTimeVal T1 past
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T8 homeless
+A4	StatusTimeVal T9 current

@@ -1,0 +1,22 @@
+T1	Tobacco 18 29	Tobacco use
+T2	Amount 31 46	5-10 cigarettes
+T3	Type 36 46	cigarettes
+T4	Frequency 47 54	per day
+T5	StatusTime 31 54	5-10 cigarettes per day
+T6	Alcohol 55 66	Alcohol use
+T7	StatusTime 70 76	Denies
+T8	Drug 77 85	Drug use
+T9	Type 87 110	Amphetamine and cocaine
+T10	StatusTime 116 131	denies recently
+T11	LivingStatus 133 141	Homeless
+T12	StatusTime 133 141	Homeless
+T13	TypeLiving 133 141	Homeless
+E1	Tobacco:T1 Status:T5 Amount:T2 Type:T3 Frequency:T4
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Type:T9 Status:T10
+E4	LivingStatus:T11 Status:T12 Type:T13
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T10 past
+A4	StatusTimeVal T12 current
+A5	TypeLivingVal T13 homeless

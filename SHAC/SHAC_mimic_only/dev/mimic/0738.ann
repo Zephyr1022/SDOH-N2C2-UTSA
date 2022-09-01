@@ -1,0 +1,23 @@
+T1	LivingStatus 31 36	Lives
+T2	StatusTime 31 36	Lives
+T3	TypeLiving 37 42	alone
+T4	Employment 44 65	currently not working
+T5	StatusEmploy 44 65	currently not working
+T6	Tobacco 81 87	smoked
+T7	StatusTime 71 80	has never
+T8	Drug 92 100	drug use
+T9	StatusTime 89 91	no
+T10	Alcohol 106 119	rarely drinks
+T11	StatusTime 106 119	rarely drinks
+T13	Type 120 124	wine
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T7
+E4	Drug:T8 Status:T9
+E5	Alcohol:T10 Status:T11 Type:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T9 none
+A6	StatusTimeVal T11 current

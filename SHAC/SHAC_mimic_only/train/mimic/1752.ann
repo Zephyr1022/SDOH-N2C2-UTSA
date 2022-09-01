@@ -1,0 +1,43 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 44 59	with girlfriend
+T4	Tobacco 84 90	Smoker
+T5	StatusTime 84 90	Smoker
+T6	History 123 136	in [**2175**]
+T7	Drug 109 113	IVDU
+T8	Type 109 113	IVDU
+T9	StatusTime 114 136	reported in [**2175**]
+T10	Alcohol 97 104	alcohol
+T11	Tobacco 138 153	Tobacco history
+T12	StatusTime 155 156	+
+T13	Alcohol 159 163	ETOH
+T14	StatusTime 169 174	sober
+T15	History 175 186	for 4 years
+T16	Drug 189 202	Illicit drugs
+T17	Type 206 230	IVDU, heroin and cocaine
+T18	StatusTime 232 237	sober
+T19	History 238 249	for 4 years
+T20	Employment 252 270	Former firefighter
+T21	StatusEmploy 252 270	Former firefighter
+T22	Type 252 270	Former firefighter
+T23	Employment 272 281	now works
+T24	StatusEmploy 272 281	now works
+T25	Type 285 324	an aide in [**Hospital **] Nursing Home
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+E3	Drug:T7 Type:T8 Status:T9 History:T6
+E4	Alcohol:T10 Status:T9 History:T6
+E5	Tobacco:T11 Status:T12
+E6	Alcohol:T13 Status:T14 History:T15
+E7	Drug:T16 Type:T17 Status:T18 History:T19
+E8	Employment:T20 Status:T21 Type:T22
+E9	Employment:T23 Status:T24 Type:T25
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T12 current
+A6	StatusTimeVal T14 past
+A7	StatusTimeVal T18 past
+A8	StatusEmployVal T21 unemployed
+A9	StatusEmployVal T24 employed

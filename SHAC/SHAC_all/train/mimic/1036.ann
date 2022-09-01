@@ -1,0 +1,21 @@
+T1	Employment 19 24	works
+T2	StatusEmploy 19 24	works
+T3	Type 28 51	construction in welding
+T4	Tobacco 61 68	smoking
+T5	StatusTime 56 60	quit
+T6	History 69 95	approximately 30 years ago
+T7	Alcohol 119 130	alcohol use
+T9	StatusTime 100 107	reports
+T10	Amount 142 156	several drinks
+T11	Frequency 157 171	>3 days a week
+T12	Drug 201 214	illicit drugs
+T13	Type 201 208	illicit
+T14	StatusTime 194 200	denies
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Alcohol:T7 Status:T9 Amount:T10 Frequency:T11
+E4	Drug:T12 Status:T14 Type:T13
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 past
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T14 past

@@ -1,0 +1,17 @@
+T1	Alcohol 52 56	EtOH
+T2	StatusTime 45 51	Denies
+T3	Drug 61 65	IVDU
+T4	Method 61 65	IVDU
+T5	StatusTime 57 60	H/o
+T6	History 81 98	several years ago
+T7	Tobacco 100 103	tob
+T8	StatusTime 99 100	+
+T9	Amount 106 120	1-2 cigarettes
+T10	Type 110 120	cigarettes
+T11	Frequency 121 128	per day
+E1	Alcohol:T1 Status:T2
+E2	Drug:T3 Method:T4 Status:T5 History:T6
+E3	Tobacco:T7 Status:T8 Amount:T9 Type:T10 Frequency:T11
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 current

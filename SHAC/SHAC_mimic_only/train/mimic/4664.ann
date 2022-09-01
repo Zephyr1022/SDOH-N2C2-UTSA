@@ -1,0 +1,29 @@
+T1	Alcohol 16 22	Drinks
+T2	Amount 23 29	1 pint
+T3	Frequency 29 33	/day
+T4	StatusTime 16 22	Drinks
+T5	Duration 59 72	past 15 years
+T6	Tobacco 162 169	tobacco
+T7	StatusTime 159 161	No
+T8	Type 179 186	Cocaine
+T9	Drug 170 178	drug use
+T10	Amount 187 190	x 1
+T11	StatusTime 191 205	in remote past
+T12	Employment 226 234	teaching
+T13	Type 226 234	teaching
+T14	StatusEmploy 245 259	former teacher
+T15	LivingStatus 302 308	Living
+T16	TypeLiving 309 320	in shelters
+T17	StatusTime 302 308	Living
+T18	Duration 321 336	over past 5 yrs
+E1	Alcohol:T1 Amount:T2 Frequency:T3 Status:T4 Duration:T5
+E2	Tobacco:T6 Status:T7
+E3	Drug:T9 Type:T8 Amount:T10 Status:T11
+E4	Employment:T12 Type:T13 Status:T14
+E5	LivingStatus:T15 Type:T16 Status:T17 Duration:T18
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T11 past
+A4	StatusEmployVal T14 unemployed
+A5	TypeLivingVal T16 with_others
+A6	StatusTimeVal T17 current

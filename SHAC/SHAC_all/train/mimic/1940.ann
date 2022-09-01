@@ -1,0 +1,19 @@
+T1	Tobacco 60 67	tobacco
+T2	Amount 43 56	60 pack years
+T3	StatusTime 43 56	60 pack years
+T4	Alcohol 78 86	etoh use
+T5	StatusTime 89 93	quit
+T6	History 94 109	[**2137-7-17**]
+T7	Drug 119 123	IVDU
+T8	StatusTime 112 118	denies
+T9	Employment 126 131	Works
+T10	StatusEmploy 126 131	Works
+T11	Type 136 204;205 212	[**First Name4 (NamePattern1) **] [**Last Name (NamePattern1) 483**] Muffins
+E1	Tobacco:T1 Amount:T2 Status:T3
+E2	Alcohol:T4 Status:T5 History:T6
+E3	Drug:T7 Status:T8
+E4	Employment:T9 Status:T10 Type:T11
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 none
+A4	StatusEmployVal T10 employed

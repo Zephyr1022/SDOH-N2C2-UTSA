@@ -1,0 +1,36 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	denies
+T3	Alcohol 31 42	Alcohol Use
+T4	StatusTime 44 50	denies
+T5	Drug 92 125	cocaine or other illicit drug use
+T6	StatusTime 63 77	vape marijuana
+T7	Method 63 67	vape
+T8	Type 68 77	marijuana
+T9	StatusTime 79 85	denies
+T10	Type 92 116	cocaine or other illicit
+T11	LivingStatus 274 279	lived
+T12	StatusTime 274 279	lived
+T13	TypeLiving 294 313	with his girlfriend
+T14	Employment 326 330	work
+T15	StatusEmploy 318 330	used to work
+T16	Type 334 344	a mechanic
+T17	History 345 362	before his injury
+T18	Employment 370 390	currently unemployed
+T19	StatusEmploy 370 390	currently unemployed
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E4	Drug:T5 Status:T9 Type:T10 Method:T20
+E5	LivingStatus:T11 Status:T12 Type:T13
+E6	Employment:T14 Status:T15 Type:T16 History:T17
+E7	Employment:T18 Status:T19
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T12 past
+A6	TypeLivingVal T13 with_others
+A7	StatusEmployVal T15 unemployed
+A8	StatusEmployVal T19 unemployed
+T20	Method 86 90	IVDU
+T21	Drug 53 61	Drug Use
+E3	Drug:T21 Status:T6 Method:T7 Type:T8

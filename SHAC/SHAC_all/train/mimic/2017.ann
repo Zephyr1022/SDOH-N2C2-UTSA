@@ -1,0 +1,15 @@
+T1	LivingStatus 29 38	has lived
+T2	StatusTime 29 38	has lived
+T3	TypeLiving 39 56	in a nursing home
+T4	Duration 57 60;61 81	for the past three years
+T5	Tobacco 103 110	tobacco
+T6	StatusTime 88 96	does not
+T7	Alcohol 176 187	alcohol use
+T8	StatusTime 171 175	past
+E1	LivingStatus:T1 Status:T2 Type:T3 Duration:T4
+E2	Tobacco:T5 Status:T6
+E3	Alcohol:T7 Status:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 past

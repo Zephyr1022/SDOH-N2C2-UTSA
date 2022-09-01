@@ -1,0 +1,4 @@
+T1	Employment 8 15	student
+T2	StatusEmploy 8 15	student
+E1	Employment:T1 Status:T2
+A1	StatusEmployVal T2 student

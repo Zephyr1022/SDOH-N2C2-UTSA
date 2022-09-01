@@ -1,0 +1,18 @@
+T1	Employment 17 22	Works
+T2	Type 26 37	maintenance
+T3	StatusEmploy 17 22	Works
+T4	Alcohol 39 45	drinks
+T5	Amount 46 52	6 pack
+T6	Type 56 60	beer
+T7	Frequency 61 66	a day
+T8	StatusTime 39 45	drinks
+T9	Tobacco 68 74	smokes
+T10	Amount 75 90	two thirds pack
+T11	Frequency 91 98	per day
+T12	StatusTime 68 74	smokes
+E1	Employment:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Amount:T5 Type:T6 Frequency:T7 Status:T8
+E3	Tobacco:T9 Amount:T10 Frequency:T11 Status:T12
+A1	StatusEmployVal T3 employed
+A2	StatusTimeVal T8 current
+A3	StatusTimeVal T12 current

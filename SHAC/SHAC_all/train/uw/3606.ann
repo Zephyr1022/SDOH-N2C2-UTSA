@@ -1,0 +1,30 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 27	1 PPD
+T3	Duration 28 39	since 10y/o
+T4	StatusTime 22 27	1 PPD
+T5	Alcohol 92 103	Alcohol Use
+T6	History 105 124	30 years "sobriety"
+T7	StatusTime 105 124	30 years "sobriety"
+T8	Drug 135 143	Drug Use
+T9	Type 152 167	methamphetamine
+T10	History 169 186	last one week ago
+T11	StatusTime 145 151	Smokes
+T12	Drug 205 209	IVDU
+T13	StatusTime 198 204	denies
+T14	LivingStatus 229 237	Sleeping
+T15	StatusTime 229 255	Sleeping in a Chevy pickup
+T16	TypeLiving 229 255	Sleeping in a Chevy pickup
+E1	Tobacco:T1 Amount:T2 Status:T4 Duration:T3 Amount2:T18 Frequency:T19
+E2	Alcohol:T5 Status:T7 History:T6
+E3	Drug:T8 Status:T11 Type:T9 History:T10
+E4	Drug:T12 Status:T13 Method:T17
+E5	LivingStatus:T14 Type:T16 Status:T15
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T11 current
+A4	StatusTimeVal T13 none
+A5	StatusTimeVal T15 current
+A6	TypeLivingVal T16 homeless
+T17	Method 205 209	IVDU
+T18	Amount 72 80	one pack
+T19	Frequency 81 88	/3 days

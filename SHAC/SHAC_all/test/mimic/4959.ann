@@ -1,0 +1,19 @@
+T1	LivingStatus 20 25	lives
+T2	StatusTime 20 25	lives
+T3	TypeLiving 26 39	with his wife
+T4	Employment 62 69	retired
+T5	StatusEmploy 62 69	retired
+T6	Tobacco 80 87	smoking
+T7	StatusTime 75 79	quit
+T8	History 88 100	30 years ago
+T9	Alcohol 110 117	alcohol
+T10	StatusTime 103 109	Drinks
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T7 History:T8
+E4	Alcohol:T9 Status:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T7 past
+A5	StatusTimeVal T10 current

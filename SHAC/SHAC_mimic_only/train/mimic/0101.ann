@@ -1,0 +1,26 @@
+T1	Tobacco 16 19	Tob
+T2	StatusTime 20 23	(-)
+T3	Alcohol 25 29	EtOH
+T4	StatusTime 25 29	EtOH
+T5	Amount 32 39	a glass
+T6	Frequency 48 58	1-2x/month
+T7	Drug 60 64	IVDU
+T8	StatusTime 65 68	(-)
+T9	Type 60 64	IVDU
+T10	Type 43 47	wine
+T11	LivingStatus 70 75	lives
+T12	StatusTime 70 75	lives
+T13	TypeLiving 76 80;81 113	with her husband and 9yr old daughter
+T14	Employment 124 128	work
+T15	StatusEmploy 115 143;144 148	does not work outside of the home
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4 Amount:T5 Frequency:T6 Type:T10
+E3	Drug:T7 Type:T9 Status:T8
+E4	LivingStatus:T11 Status:T12 Type:T13
+E5	Employment:T14 Status:T15
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T12 current
+A5	TypeLivingVal T13 with_family
+A6	StatusEmployVal T15 homemaker

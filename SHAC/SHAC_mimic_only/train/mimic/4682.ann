@@ -1,0 +1,13 @@
+T1	Employment 143 149	worked
+T2	Type 174 175;176 190	a womens program
+T3	Duration 191 203	for 29 years
+T4	History 213 232	about ten years ago
+T5	StatusEmploy 143 149	worked
+T6	LivingStatus 238 253	currently lives
+T7	TypeLiving 276 294	with her boyfriend
+T8	StatusTime 238 247	currently
+E1	Employment:T1 Status:T5 Type:T2 Duration:T3 History:T4
+E2	LivingStatus:T6 Type:T7 Status:T8
+A1	StatusEmployVal T5 unemployed
+A2	TypeLivingVal T7 with_others
+A3	StatusTimeVal T8 current

@@ -1,0 +1,35 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 27	alone
+T3	StatusTime 16 21	Lives
+T4	Tobacco 191 197	smokes
+T5	Type 208 218	cigarettes
+T6	StatusTime 191 197	smokes
+T7	Amount 198 207;208 218	[**4-7**] cigarettes
+T8	Frequency 218 222	/day
+T9	Tobacco 228 234	smoked
+T10	Duration 235 255	when she was younger
+T12	StatusTime 264 268	quit
+T13	History 269 272;273 283	for many years
+T14	StatusTime 288 295	resumed
+T15	Tobacco 296 303	smoking
+T16	Duration 304 314	1 year ago
+T17	StatusTime 320 326	drinks
+T18	Alcohol 320 326	drinks
+T19	Type 346 350	wine
+T20	Amount 327 334;335 342	2 small glasses
+T21	Frequency 351 360	per night
+T22	Drug 365 373	drug use
+T23	StatusTime 362 364	no
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T6 Amount:T7 Frequency:T8 Type:T5
+E4	Tobacco:T15 Status:T14 Duration:T16
+E5	Tobacco:T9 Status:T12 Duration2:T10 History:T13
+E6	Alcohol:T18 Amount:T20 Type:T19 Status:T17 Frequency:T21
+E7	Drug:T22 Status:T23
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 current
+A5	StatusTimeVal T12 past
+A6	StatusTimeVal T14 current
+A7	StatusTimeVal T17 current
+A8	StatusTimeVal T23 none

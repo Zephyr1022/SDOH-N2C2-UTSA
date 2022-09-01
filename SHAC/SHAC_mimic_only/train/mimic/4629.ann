@@ -1,0 +1,11 @@
+T1	Tobacco 117 123	smoker
+T2	Amount 102 116	[**12-4**] ppd
+T3	History 124 140	until [**2138**]
+T4	StatusTime 124 140	until [**2138**]
+T7	Employment 82 100	currently disabled
+T8	StatusEmploy 82 100	currently disabled
+T9	Type 35 53	Delta reservations
+E1	Tobacco:T1 Amount:T2 Status:T4 History:T3
+E3	Employment:T7 Type:T9 Status:T8
+A1	StatusTimeVal T4 past
+A2	StatusEmployVal T8 on_disability

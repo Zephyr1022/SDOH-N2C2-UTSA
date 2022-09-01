@@ -1,0 +1,26 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 31	with wife
+T4	Employment 32 39	Retired
+T5	StatusEmploy 32 39	Retired
+T6	Tobacco 40 58	Former tobacco use
+T7	StatusTime 60 67	stopped
+T8	History 68 88	more than 1 year ago
+T9	Alcohol 89 96	Alcohol
+T10	Amount 98 115	[**4-15**] drinks
+T11	Frequency 115 120	/week
+T12	StatusTime 98 120	[**4-15**] drinks/week
+T13	Drug 128 149	recreational drug use
+T14	Type 128 140	recreational
+T15	StatusTime 121 127	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T7 History:T8
+E4	Alcohol:T9 Amount:T10 Status:T12 Frequency:T11
+E5	Drug:T13 Type:T14 Status:T15
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T7 past
+A5	StatusTimeVal T12 current
+A6	StatusTimeVal T15 none

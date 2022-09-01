@@ -1,0 +1,19 @@
+T1	LivingStatus 16 21	lives
+T2	TypeLiving 22 47	with wife and 2 daughters
+T3	StatusTime 16 21	lives
+T4	Employment 49 57	Employed
+T5	Type 58 80	by [**Company 33655**]
+T6	StatusEmploy 49 57	Employed
+T7	Tobacco 85 92	tobacco
+T8	Alcohol 94 98	etoh
+T9	Drug 102 107	drugs
+T10	StatusTime 82 84	no
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T10
+E4	Alcohol:T8 Status:T10
+E5	Drug:T9 Status:T10
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T6 employed
+A4	StatusTimeVal T10 none

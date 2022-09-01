@@ -1,0 +1,57 @@
+T1	Tobacco 16 23	Tobacco
+T2	Amount 25 30	1 PPD
+T3	Duration 31 49	since the age of 9
+T4	StatusTime 25 49	1 PPD since the age of 9
+T5	StatusTime 51 54	now
+T6	Amount 55 84	[**Date range (1) 8642**] PPD
+T7	Alcohol 85 89	ETOH
+T8	Amount 98 100	1L
+T9	Type 104 109	vodka
+T10	Frequency 110 117	per day
+T11	StatusTime 91 97	Drinks
+T12	Duration 130 140;141 147	for nearly 20 yrs
+T14	Alcohol 154 159	drink
+T15	StatusTime 149 159	Last drink
+T16	History 160 188	sometime on [**2132-10-14**]
+T17	Drug 189 197	Illicits
+T19	StatusTime 212 219	in past
+T20	Type 266 275	ALL types
+T23	Drug 343 353	heroin use
+T24	Type 343 349	heroin
+T25	StatusTime 358 375	denies recent use
+T26	Drug 403 416	marijuana use
+T27	Type 403 412	marijuana
+T29	Drug 429 441;442 451	percocet and oxycodone
+T30	Type 429 441;442 451	percocet and oxycodone
+T31	StatusTime 392 402	occasional
+T32	StatusTime 422 428	use of
+T33	Drug 460 471	cocaine use
+T34	Type 460 467	cocaine
+T35	StatusTime 453 459	Denies
+T36	LivingStatus 587 593	living
+T37	TypeLiving 608 620	with friends
+T38	StatusTime 587 593	living
+E1	Tobacco:T1 Amount:T2 Duration:T3 Status:T4
+E3	Alcohol:T7 Amount:T8 Type:T9 Frequency:T10 Status:T11 Duration:T12
+E4	Alcohol:T14 Status:T15 History:T16
+E5	Drug:T17 Status:T19 Type:T20 Type2:T13 Type3:T18
+E7	Drug:T23 Type:T24 Status:T25
+E8	Drug:T26 Type:T27 Status:T31
+E9	Drug:T29 Type:T30 Status:T32
+E10	Drug:T33 Type:T34 Status:T35
+E11	LivingStatus:T36 Type:T37 Status:T38
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T11 current
+A5	StatusTimeVal T15 past
+A6	StatusTimeVal T19 past
+A8	StatusTimeVal T25 past
+A10	StatusTimeVal T31 current
+A11	StatusTimeVal T32 current
+A12	StatusTimeVal T35 none
+A13	TypeLivingVal T37 with_others
+A14	StatusTimeVal T38 current
+T13	Type 189 197	Illicits
+T18	Type 248 255	illicit
+T21	Tobacco 81 84	PPD
+E6	Tobacco:T21 Amount:T6 Status:T5

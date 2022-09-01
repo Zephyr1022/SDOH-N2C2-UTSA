@@ -1,0 +1,32 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 63 67	1ppd
+T3	StatusTime 58 60	is
+T4	Alcohol 78 89	Alcohol Use
+T6	StatusTime 128 138	history of
+T7	Drug 158 166	Drug Use
+T8	Type 168 174	Heroin
+T9	History 179 192	17 months ago
+T10	Type 194 203	marijuana
+T11	Drug 194 203	marijuana
+T12	StatusTime 179 192	17 months ago
+T13	History 204 216	8 months ago
+T14	StatusTime 204 216	8 months ago
+T15	Drug 235 251	illicit drug use
+T16	Type 235 242	illicit
+T17	StatusTime 218 224	denies
+T18	LivingStatus 386 403	Previously living
+T19	StatusTime 386 396	Previously
+T20	TypeLiving 407 427	transitional housing
+E1	Tobacco:T1 Amount:T2 Status:T3
+E2	Alcohol:T4 Status:T6
+E3	Drug:T7 Type:T8 History:T9 Status:T12
+E4	Drug:T11 Type:T10 History:T13 Status:T14
+E5	Drug:T15 Type:T16 Status:T17
+E6	LivingStatus:T18 Status:T19 Type:T20
+A1	StatusTimeVal T3 current
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T12 past
+A5	StatusTimeVal T14 past
+A6	StatusTimeVal T17 none
+A7	StatusTimeVal T19 past
+A8	TypeLivingVal T20 homeless

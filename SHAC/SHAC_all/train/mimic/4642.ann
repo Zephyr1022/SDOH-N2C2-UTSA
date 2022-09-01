@@ -1,0 +1,29 @@
+T1	Employment 32 40	employed
+T2	Type 44 65	a construction worker
+T3	StatusEmploy 32 40	employed
+T4	Alcohol 191 203	wine or beer
+T5	Type 191 203	wine or beer
+T6	Amount 180 187	a glass
+T7	Frequency 204 205;206 228	a couple of times a week
+T8	Tobacco 247 257	cigarettes
+T9	Type 247 257	cigarettes
+T10	Amount 230 246	approximately 10
+T11	Frequency 258 265	per day
+T12	StatusTime 277 281	quit
+T13	History 282 311	approximately three years ago
+T14	Drug 317 322	drugs
+T15	Type 327 336	marijuana
+T16	StatusTime 314 316	No
+T17	StatusTime 176 179	has
+E1	Employment:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Type:T5 Amount:T6 Frequency:T7 Status:T17
+E3	Tobacco:T8 Type:T9 Amount:T10 Frequency:T11 Status:T12 History:T13
+E4	Drug:T14 Status:T16
+A1	StatusEmployVal T3 employed
+A2	StatusTimeVal T12 past
+A3	StatusTimeVal T16 none
+A4	StatusTimeVal T17 current
+T18	StatusTime 324 326	no
+A5	StatusTimeVal T18 none
+T19	Drug 327 336	marijuana
+E5	Drug:T19 Type:T15 Status:T18

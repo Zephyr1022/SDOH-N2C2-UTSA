@@ -1,0 +1,16 @@
+T1	Employment 14 20	worked
+T2	StatusEmploy 5 13	formerly
+T3	Type 25 35	[LOCATION]
+T4	Employment 37 43	worked
+T5	StatusEmploy 37 43	worked
+T6	Type 47 57	[LOCATION]
+T7	History 58 72	for the [DATE]
+E1	Employment:T1 Type:T3 Status:T2
+E2	Employment:T4 Type:T6 Status:T5 History:T7
+A1	StatusEmployVal T2 unemployed
+A2	StatusEmployVal T5 unemployed
+T8	Alcohol 142 146	EtOH
+E3	Alcohol:T8 Amount:T9 Status:T10
+T9	Amount 148 166	1-2 drinks at once
+T10	StatusTime 137 141	rare
+A3	StatusTimeVal T10 current

@@ -1,0 +1,26 @@
+T1	Employment 16 21	Works
+T2	StatusEmploy 16 21	Works
+T3	Type 35 112	[**Initials (NamePattern4) **] [**Last Name (NamePattern4) 3456**] contractor
+T4	Amount 321 333	50 pack year
+T5	Tobacco 334 349	smoking history
+T6	StatusTime 355 359	quit
+T7	Alcohol 367 382	alcoholic drink
+T8	StatusTime 362 404	Last alcoholic drink around [**2117-5-2**]
+T9	Amount 415 424	2-3 beers
+T10	Frequency 425 430	daily
+T11	Duration 431 441	x 25 years
+T12	History 383 404	around [**2117-5-2**]
+T13	Drug 537 541	IVDU
+T14	Method 537 541	IVDU
+T15	StatusTime 534 536	No
+T16	Drug 543 554	cocaine use
+T17	Type 543 550	cocaine
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T5 Amount:T4 Status:T6
+E3	Alcohol:T7 Amount:T9 Status:T8 Frequency:T10 Duration:T11 History:T12
+E4	Drug:T13 Status:T15 Method:T14
+E5	Drug:T16 Type:T17 Status:T15
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T8 past
+A4	StatusTimeVal T15 none

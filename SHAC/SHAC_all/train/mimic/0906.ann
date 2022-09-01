@@ -1,0 +1,23 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 37	with girlfriend
+T3	Employment 202 230	Retired VP of a tech company
+T4	StatusEmploy 202 230	Retired VP of a tech company
+T5	Type 202 230	Retired VP of a tech company
+T6	Tobacco 244 254	smoking hx
+T8	StatusTime 257 261	quit
+T9	History 262 277	over 35 yrs ago
+T10	Alcohol 282 288	drinks
+T11	Amount 289 296	1 glass
+T12	StatusTime 282 288	drinks
+T13	Type 300 304	wine
+T14	Frequency 305 312	nightly
+T20	StatusTime 16 21	Lives
+E1	LivingStatus:T1 Type:T2 Status:T20
+E2	Employment:T3 Status:T4 Type:T5
+E3	Tobacco:T6 Status:T8 History:T9
+E4	Alcohol:T10 Amount:T11 Status:T12 Type:T13 Frequency:T14
+A1	TypeLivingVal T2 with_family
+A2	StatusEmployVal T4 retired
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T12 current
+A7	StatusTimeVal T20 current

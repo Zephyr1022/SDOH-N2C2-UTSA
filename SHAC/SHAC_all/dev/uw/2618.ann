@@ -1,0 +1,14 @@
+T1	Alcohol 16 17	a
+T2	Tobacco 18 19	t
+T3	Drug 20 21	d
+T4	StatusTime 9 15	Denies
+T5	LivingStatus 41 46	Lives
+T6	StatusTime 41 46	Lives
+T7	TypeLiving 47 77	in an assisted living facility
+E1	Alcohol:T1 Status:T4
+E2	Tobacco:T2 Status:T4
+E3	Drug:T3 Status:T4
+E4	LivingStatus:T5 Status:T6 Type:T7
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T6 current
+A3	TypeLivingVal T7 with_others

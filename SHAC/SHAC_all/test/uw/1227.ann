@@ -1,0 +1,11 @@
+T1	LivingStatus 40 45	lives
+T2	StatusTime 40 45	lives
+T3	TypeLiving 60 82	with significant other
+T4	Tobacco 16 38	20-40 pack year smoker
+T5	Amount 16 31	20-40 pack year
+T6	StatusTime 16 38	20-40 pack year smoker
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T6 Amount:T5
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T6 current

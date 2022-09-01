@@ -1,0 +1,18 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 29	1/2 ppd
+T3	Frequency 30 40	x 40 years
+T4	Drug 55 63	Drug Use
+T6	Type 68 96	heroin, smokes cocaine, meth
+T5	StatusTime 65 96	IV heroin, smokes cocaine, meth
+T7	LivingStatus 115 124	Residence
+T8	StatusTime 115 124	Residence
+T9	TypeLiving 126 138	YMCA shelter
+T10	StatusTime 22 29	1/2 ppd
+E1	Tobacco:T1 Amount:T2 Frequency:T3 Status:T10
+E2	Drug:T4 Status:T5 Type:T6 Method:T13
+E3	LivingStatus:T7 Type:T9 Status:T8
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T8 current
+A3	TypeLivingVal T9 homeless
+A4	StatusTimeVal T10 current
+T13	Method 65 67	IV

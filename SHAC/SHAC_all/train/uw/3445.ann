@@ -1,0 +1,13 @@
+T1	Tobacco 26 37	Tobacco Use
+T2	StatusTime 39 48	prior use
+T3	Alcohol 76 87	Alcohol Use
+T4	StatusTime 89 92	h/o
+T6	Drug 107 115	Drug Use
+T7	StatusTime 117 120	h/o
+T8	Type 121 171	cocaine, crack cocaine, marijuana, glue, "poppers"
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T6 Status:T7 Type:T8
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 current
+A4	StatusTimeVal T7 current

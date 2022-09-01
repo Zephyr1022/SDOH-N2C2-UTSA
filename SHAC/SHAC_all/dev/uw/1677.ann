@@ -1,0 +1,36 @@
+T1	Tobacco 16 23	Tobacco
+T2	Alcohol 32 36	EtOH
+T3	Drug 45 50	Drugs
+T4	StatusTime 25 31	Denies
+T5	StatusTime 38 44	Denies
+T6	StatusTime 52 58	Denies
+T7	Tobacco 83 90	Tobacco
+T8	StatusTime 92 98	Denies
+T9	Alcohol 99 103	EtOH
+T10	StatusTime 105 111	Denies
+T11	Drug 112 117	Drugs
+T12	StatusTime 119 125	Denies
+T13	Tobacco 150 157	Tobacco
+T14	Alcohol 166 170	EtOH
+T15	Drug 179 184	Drugs
+T16	StatusTime 159 165	Denies
+T17	StatusTime 172 178	Denies
+T18	StatusTime 186 192	Denies
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T5
+E3	Drug:T3 Status:T6
+E4	Tobacco:T7 Status:T8
+E5	Alcohol:T9 Status:T10
+E6	Drug:T11 Status:T12
+E7	Tobacco:T13 Status:T16
+E8	Alcohol:T14 Status:T17
+E9	Drug:T15 Status:T18
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T10 none
+A6	StatusTimeVal T12 none
+A7	StatusTimeVal T16 none
+A8	StatusTimeVal T17 none
+A9	StatusTimeVal T18 none

@@ -1,0 +1,16 @@
+T1	Employment 58 67	a student
+T2	StatusEmploy 58 67	a student
+T3	Alcohol 80 87	alcohol
+T4	StatusTime 73 79	drinks
+T5	Frequency 88 108	once or twice a year
+T6	Tobacco 117 124	tobacco
+T7	Drug 128 135	illicit
+T8	Type 128 135	illicit
+T9	StatusTime 110 116	Denies
+E1	Employment:T1 Status:T2
+E2	Alcohol:T3 Status:T4 Frequency:T5
+E3	Tobacco:T6 Status:T9
+E4	Drug:T7 Status:T9 Type:T8
+A1	StatusEmployVal T2 student
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T9 none

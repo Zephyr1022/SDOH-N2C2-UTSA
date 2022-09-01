@@ -1,0 +1,24 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 30 51	with wife, 2 children
+T3	StatusTime 16 21	Lives
+T4	Employment 56 73	currently working
+T5	StatusEmploy 52 55	Not
+T6	Drug 93 103	heroin use
+T7	Type 93 99	heroin
+T8	StatusTime 86 92	recent
+T9	Alcohol 138 142	ETOH
+T10	StatusTime 135 137	No
+T11	Tobacco 158 168	cigarettes
+T12	Type 158 168	cigarettes
+T13	StatusTime 144 149	still
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Drug:T6 Type:T7 Status:T8
+E4	Alcohol:T9 Status:T10
+E5	Tobacco:T11 Type:T12 Status:T13
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T10 none
+A6	StatusTimeVal T13 current

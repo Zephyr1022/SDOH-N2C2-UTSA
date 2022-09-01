@@ -1,0 +1,10 @@
+T1	Tobacco 53 56	tob
+T2	StatusTime 51 52	+
+T4	Type 72 79	illicit
+T3	Drug 80 88	drug use
+T5	StatusTime 57 63	denies
+T6	Method 64 68	ivdu
+E1	Tobacco:T1 Status:T2
+E2	Drug:T3 Status:T5 Type:T4 Method:T6
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 none

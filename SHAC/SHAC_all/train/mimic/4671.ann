@@ -1,0 +1,25 @@
+T1	Alcohol 25 33	drinking
+T3	StatusTime 16 18	hx
+T4	Drug 41 45	IVDU
+T5	Method 41 45	IVDU
+T6	StatusTime 34 40	denies
+T7	Tobacco 54 61	smoking
+T8	Duration 46 50	<1yr
+T9	StatusTime 51 53	hx
+T10	LivingStatus 62 67	lives
+T11	TypeLiving 68 76	with mom
+T12	StatusTime 62 67	lives
+T13	Employment 99 103	work
+T14	StatusEmploy 91 98	used to
+T15	Type 107 138	operation microscope repair man
+E1	Alcohol:T1 Status:T3
+E2	Drug:T4 Status:T6 Method:T5
+E3	Tobacco:T7 Status:T9 Duration:T8
+E4	LivingStatus:T10 Type:T11 Status:T12
+E5	Employment:T13 Status:T14 Type:T15
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T11 with_family
+A6	StatusTimeVal T12 current
+A7	StatusEmployVal T14 unemployed

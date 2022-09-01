@@ -1,0 +1,15 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 30 35	alone
+T4	Tobacco 65 72	smoking
+T5	History 73 75;76 86	65 years back
+T6	StatusTime 60 64	quit
+T7	Alcohol 133 140	alcohol
+T8	StatusTime 130 132	no
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T6 History:T5
+E3	Alcohol:T7 Status:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T8 none

@@ -1,0 +1,27 @@
+T1	Tobacco 221 235	Smoking status
+T2	StatusTime 237 250	Former Smoker
+T3	Tobacco 255 272	Smokeless tobacco
+T4	Type 255 272	Smokeless tobacco
+T5	StatusTime 274 284	Never Used
+T6	Alcohol 289 300	Alcohol Use
+T7	StatusTime 302 313	3.5 oz/week
+T8	Amount 302 308	3.5 oz
+T9	Frequency 308 313	/week
+T10	Alcohol 326 332	liquor
+T11	Amount 315 322	7 Shots
+T12	StatusTime 315 341	7 Shots of liquor per week
+T13	Frequency 333 341	per week
+T14	LivingStatus 467 472	Lives
+T15	StatusTime 467 472	Lives
+T16	TypeLiving 473 483	by himself
+E1	Tobacco:T1 Status:T2
+E2	Tobacco:T3 Type:T4 Status:T5
+E3	Alcohol:T6 Amount:T8 Status:T7 Frequency:T9
+E4	Alcohol:T10 Status:T12 Amount:T11 Frequency:T13
+E5	LivingStatus:T14 Status:T15 Type:T16
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T12 current
+A5	StatusTimeVal T15 current
+A6	TypeLivingVal T16 alone

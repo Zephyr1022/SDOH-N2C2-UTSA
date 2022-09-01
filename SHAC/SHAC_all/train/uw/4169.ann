@@ -1,0 +1,26 @@
+T1	LivingStatus 49 54	lives
+T2	StatusTime 49 54	lives
+T3	TypeLiving 55 60	alone
+T4	Employment 75 80	works
+T5	StatusEmploy 75 80	works
+T6	Type 84 124	freelance computer repair and networking
+T7	Tobacco 174 181	smoking
+T8	StatusTime 169 173	quit
+T9	Amount 187 194	1/2 ppd
+T10	Alcohol 198 206	etoh use
+T11	StatusTime 195 197	no
+T12	Drug 207 215	Drug use
+T13	StatusTime 217 243	meth IVDU but has no veins
+T14	Type 217 221	meth
+T15	Method 222 226	IVDU
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8 Amount:T9
+E4	Alcohol:T10 Status:T11
+E5	Drug:T12 Type:T14 Method:T15 Status:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T11 none
+A6	StatusTimeVal T13 current

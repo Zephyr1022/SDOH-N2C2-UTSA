@@ -1,0 +1,33 @@
+T1	LivingStatus 86 91	lives
+T2	StatusTime 86 91	lives
+T3	TypeLiving 92 97	alone
+T4	Employment 104 121	previously worked
+T5	StatusEmploy 104 121	previously worked
+T6	Type 125 137	construction
+T10	Tobacco 245 260	smoking history
+T11	Amount 291 300	half pack
+T12	Frequency 301 308	per day
+T13	StatusTime 270 278	recently
+T14	Alcohol 331 338;339 344	alcohol abuse
+T16	StatusTime 346 351	sober
+T17	History 352 380	since approximately 10 years
+T18	Drug 386 397	IV drug use
+T19	Method 386 388	IV
+T20	StatusTime 402 407	sober
+T21	History 408 428	since the [**2091**]
+T22	Amount 232 244	40-pack-year
+T23	Tobacco 291 300	half pack
+T24	StatusTime 245 260	smoking history
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E4	Tobacco:T10 Status:T24 Amount:T22
+E5	Alcohol:T14 Status:T16 History:T17
+E6	Drug:T18 Method:T19 Status:T20 History:T21
+E7	Tobacco:T23 Amount:T11 Status:T13 Frequency:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 unemployed
+A5	StatusTimeVal T13 current
+A7	StatusTimeVal T16 past
+A8	StatusTimeVal T20 past
+A9	StatusTimeVal T24 past

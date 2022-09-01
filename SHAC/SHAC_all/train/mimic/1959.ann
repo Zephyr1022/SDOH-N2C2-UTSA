@@ -1,0 +1,26 @@
+T1	Employment 52 61	bartender
+T2	StatusEmploy 52 61	bartender
+T3	Type 52 61	bartender
+T4	Type 18 36	Former firefighter
+T5	Employment 18 36	Former firefighter
+T6	StatusEmploy 18 36	Former firefighter
+T7	Tobacco 95 102	Tobacco
+T8	Alcohol 111 118	Alcohol
+T10	StatusTime 104 108	None
+T11	Type 148 163	liquor and beer
+T12	Amount 175 206	approximately [**3-17**] drinks
+T13	Frequency 207 212	a day
+T14	StatusTime 135 141	drinks
+T15	Drug 259 267	Illicits
+T16	StatusTime 269 273	None
+T17	Type 259 267	Illicits
+E1	Employment:T1 Status:T2 Type:T3
+E2	Employment:T5 Status:T6 Type:T4
+E3	Tobacco:T7 Status:T10
+E4	Alcohol:T8 Type:T11 Frequency:T13 Amount:T12 Status:T14
+E5	Drug:T15 Status:T16 Type:T17
+A1	StatusEmployVal T2 employed
+A2	StatusEmployVal T6 unemployed
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T14 current
+A6	StatusTimeVal T16 none

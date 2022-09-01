@@ -1,0 +1,15 @@
+T3	Alcohol 26 37	Alcohol Use
+T4	StatusTime 39 42	Yes
+T5	Drug 47 55	Drug Use
+T6	StatusTime 57 63	Heroin
+T7	Type 57 63	Heroin
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6 Type:T7
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T6 current
+T1	LivingStatus 146 155	Residence
+E1	LivingStatus:T1 Status:T8 Type:T2
+T2	TypeLiving 163 168	in RV
+A1	TypeLivingVal T2 homeless
+T8	StatusTime 157 162	Lives
+A4	StatusTimeVal T8 current

@@ -1,0 +1,25 @@
+T1	Drug 198 214	Illicit Drug Use
+T2	Alcohol 183 187	EtOH
+T3	Tobacco 120 127	Tobacco
+T4	Employment 89 95	worked
+T5	StatusEmploy 78 95	Previously worked
+T6	Type 99 117	physical therapist
+T7	LivingStatus 27 33	living
+T8	StatusTime 27 33	living
+T9	TypeLiving 34 49	with her family
+T10	StatusTime 129 135	Smoked
+T12	History 151 161	in college
+T13	StatusTime 189 195	Denies
+T14	StatusTime 216 219	Nil
+T15	Type 198 205	Illicit
+E1	Drug:T1 Type:T15 Status:T14
+E2	Alcohol:T2 Status:T13
+E3	Tobacco:T3 Status:T10 History:T12
+E4	Employment:T4 Type:T6 Status:T5
+E5	LivingStatus:T7 Type:T9 Status:T8
+A1	StatusEmployVal T5 unemployed
+A2	StatusTimeVal T8 current
+A3	TypeLivingVal T9 with_family
+A4	StatusTimeVal T10 past
+A6	StatusTimeVal T13 none
+A7	StatusTimeVal T14 none

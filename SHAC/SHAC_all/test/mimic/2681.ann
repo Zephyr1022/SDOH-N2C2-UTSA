@@ -1,0 +1,15 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 44 60	with her husband
+T4	Tobacco 138 145	tobacco
+T5	Alcohol 147 151	EtOH
+T6	Drug 156 160	IVDU
+T7	Method 156 160	IVDU
+T8	StatusTime 135 137	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T8
+E3	Alcohol:T5 Status:T8
+E4	Drug:T6 Status:T8 Method:T7
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T8 none

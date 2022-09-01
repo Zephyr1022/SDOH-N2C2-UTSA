@@ -1,0 +1,25 @@
+T1	LivingStatus 59 64	Lives
+T2	StatusTime 59 64	Lives
+T3	TypeLiving 65 102	with ex-wife and 14 year old daughter
+T4	Alcohol 186 190	EtOH
+T5	StatusTime 192 204	none current
+T6	Drug 207 212	Drugs
+T7	StatusTime 214 220	Denies
+T8	Tobacco 223 230	Tobacco
+T9	Amount 232 237	3 ppd
+T10	Duration 238 247	x40 years
+T11	StatusTime 232 247	3 ppd x40 years
+T12	Tobacco 249 260	now smoking
+T13	StatusTime 249 260	now smoking
+T14	Amount 261 272	about 1 ppd
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Status:T7
+E4	Tobacco:T8 Amount:T9 Duration:T10 Status:T11
+E5	Tobacco:T12 Status:T13 Amount:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T11 past
+A6	StatusTimeVal T13 current

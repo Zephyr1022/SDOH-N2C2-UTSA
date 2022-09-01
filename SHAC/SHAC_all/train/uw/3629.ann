@@ -1,0 +1,26 @@
+T1	Alcohol 49 60	Alcohol Use
+T2	StatusTime 62 66	none
+T3	Drug 79 87	Drug Use
+T4	StatusTime 89 93	none
+T5	LivingStatus 122 131	Residence
+T6	StatusTime 133 151	Peters Creek (SNF)
+T7	TypeLiving 133 151	Peters Creek (SNF)
+T8	Employment 312 325	on disability
+T9	StatusEmploy 312 325	on disability
+T10	Duration 326 342	for most of life
+T11	LivingStatus 523 529	living
+T12	TypeLiving 499 504	a SNF
+T13	Duration 440 458	about 4 months ago
+T14	StatusTime 514 529	has been living
+E1	Alcohol:T1 Status:T2
+E2	Drug:T3 Status:T4
+E3	LivingStatus:T5 Status:T6 Type:T7
+E4	Employment:T8 Duration:T10 Status:T9
+E5	LivingStatus:T11 Status:T14 Type:T12 Duration:T13
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 current
+A4	TypeLivingVal T7 with_others
+A5	StatusEmployVal T9 on_disability
+A6	TypeLivingVal T12 with_others
+A7	StatusTimeVal T14 current

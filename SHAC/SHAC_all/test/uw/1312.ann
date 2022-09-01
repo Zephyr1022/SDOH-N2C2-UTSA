@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 24	No
+T3	Alcohol 27 38	Alcohol Use
+T5	StatusTime 40 50	Social use
+T6	Drug 53 61	Drug Use
+T7	StatusTime 63 65	No
+T8	LivingStatus 92 97	lives
+T10	StatusTime 92 97	lives
+T9	TypeLiving 98 152	with her husband [NAME], and 2 children at age 7 and 9
+T11	Employment 172 189	previously worked
+T12	StatusEmploy 216 248	currently a stay-at- home mother
+T13	Type 193 210	a dental assitant
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T5
+E3	Drug:T6 Status:T7
+E4	LivingStatus:T8 Status:T10 Type:T9
+E5	Employment:T11 Status:T12 Type:T13
+A1	StatusTimeVal T2 none
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T7 none
+A6	StatusTimeVal T10 current
+A5	TypeLivingVal T9 with_family
+A7	StatusEmployVal T12 homemaker

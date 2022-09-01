@@ -1,0 +1,12 @@
+T1	Tobacco 23 30	tobacco
+T2	Alcohol 31 39	ETOH use
+T3	StatusTime 16 22	Denies
+T4	LivingStatus 40 45	Lives
+T5	StatusTime 40 45	Lives
+T6	TypeLiving 46 58	with husband
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T2 Status:T3
+E3	LivingStatus:T4 Status:T5 Type:T6
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family

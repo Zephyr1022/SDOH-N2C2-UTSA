@@ -1,0 +1,23 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 34	with husband
+T3	StatusTime 16 21	Lives
+T4	Employment 68 71	job
+T5	Type 75 79;80 87	Stop n' Shop
+T6	StatusEmploy 52 60	recently
+T7	Alcohol 178 187	alcoholic
+T9	StatusTime 165 177	a recovering
+T10	Tobacco 208 223	smoking history
+T12	Drug 250 260	drug abuse
+T14	StatusTime 230 236	denied
+T15	StatusTime 190 197	Has had
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	Alcohol:T7 Status:T9
+E4	Tobacco:T10 Status:T15
+E5	Drug:T12 Status:T14
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T6 employed
+A5	StatusTimeVal T9 past
+A8	StatusTimeVal T14 past
+A9	StatusTimeVal T15 current

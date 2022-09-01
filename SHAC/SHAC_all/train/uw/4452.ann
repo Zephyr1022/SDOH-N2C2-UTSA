@@ -1,0 +1,42 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 32	Never used
+T3	Alcohol 33 44	Alcohol Use
+T4	Amount 63 77	5 cans of beer
+T5	Type 73 77	beer
+T6	Frequency 78 95	2-5 days per week
+T7	StatusTime 63 95	5 cans of beer 2-5 days per week
+T8	Drug 99 107	Drug Use
+T9	Type 109 118	Marijuana
+T10	Amount 119 126	1 joint
+T11	Frequency 127 135	per week
+T12	Drug 137 142	crack
+T13	Type 137 142	crack
+T14	Method 143 151	per pipe
+T15	Frequency 152 165	once per week
+T16	StatusTime 119 135	1 joint per week
+T17	StatusTime 143 165	per pipe once per week
+T18	Drug 174 182	IV drugs
+T19	Type 174 176	IV
+T20	StatusTime 167 173	Denies
+T21	LivingStatus 201 210	Residence
+T22	StatusTime 212 217	Lives
+T23	TypeLiving 218 249	at [LOCATION]' homeless shelter
+T24	Employment 322 328	Worked
+T25	StatusEmploy 322 328	Worked
+T26	Type 332 362	construction and dairy farming
+T27	Duration 363 375	for 35 years
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Amount:T4 Type:T5 Status:T7 Frequency:T6
+E3	Drug:T8 Status:T16 Type:T9 Amount:T10 Frequency:T11
+E4	Drug:T12 Type:T13 Method:T14 Status:T17 Frequency:T15
+E5	Drug:T18 Type:T19 Status:T20
+E6	LivingStatus:T21 Status:T22 Type:T23
+E7	Employment:T24 Status:T25 Type:T26 Duration:T27
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T16 current
+A4	StatusTimeVal T17 current
+A5	StatusTimeVal T20 none
+A6	StatusTimeVal T22 current
+A7	TypeLivingVal T23 homeless
+A8	StatusEmployVal T25 unemployed

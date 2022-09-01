@@ -1,0 +1,33 @@
+T1	Drug 395 403	Illicits
+T2	StatusTime 405 406	+
+T3	Type 406 409	THC
+T4	StatusTime 411 417	denies
+T5	Type 395 403	Illicits
+T6	Alcohol 310 314	EtOH
+T7	StatusTime 316 329	done in 6 mos
+T8	Amount 342 370	5-6 24 oz, 12% alcohol beers
+T9	Frequency 370 374	/day
+T10	Duration 376 393	drank since age 6
+T11	History 321 329	in 6 mos
+T12	Tobacco 221 228	Tobacco
+T13	Amount 298 304	<1 cig
+T14	Frequency 304 308	/day
+T15	StatusTime 243 249	smokes
+T16	LivingStatus 141 147	living
+T17	Duration 117 131	Last two weeks
+T18	TypeLiving 148 153	alone
+T19	StatusTime 132 147	has been living
+E2	Drug:T1 Type:T5 Status:T2 Type2:T3
+E3	Alcohol:T6 History:T11 Status:T7 Amount:T8 Frequency:T9 Duration:T10 Type:T24
+E4	Tobacco:T12 Status:T15 Amount:T13 Frequency:T14
+E5	LivingStatus:T16 Type:T18 Duration:T17 Status:T19
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T7 past
+A4	StatusTimeVal T15 current
+A5	TypeLivingVal T18 alone
+A6	StatusTimeVal T19 current
+T24	Type 365 370	beers
+T25	Drug 418 427	other use
+E1	Drug:T25 Type:T26 Status:T4
+T26	Type 418 423	other

@@ -1,0 +1,19 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 30 43	with daughter
+T3	StatusTime 16 21	Lives
+T4	Tobacco 123 134	Tobacco use
+T5	StatusTime 116 122	Denies
+T6	Alcohol 136 154	Occasional alcohol
+T8	StatusTime 136 154	Occasional alcohol
+T9	Drug 159 175	illicit drug use
+T10	Type 159 166	illicit
+T11	StatusTime 156 158	No
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T8
+E4	Drug:T9 Type:T10 Status:T11
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none
+A5	StatusTimeVal T8 current
+A6	StatusTimeVal T11 none

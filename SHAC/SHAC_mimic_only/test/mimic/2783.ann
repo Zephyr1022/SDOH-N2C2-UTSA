@@ -1,0 +1,25 @@
+T2	Type 338 341;342 355	Air force veteran
+T3	StatusEmploy 338 341;342 355	Air force veteran
+T1	Employment 338 341;342 355	Air force veteran
+T4	Employment 49 75	a musician and broadcaster
+T5	StatusEmploy 49 75	a musician and broadcaster
+T6	Type 49 75	a musician and broadcaster
+T7	Employment 109 172	on [**Social Security Number 38371**]social security disability
+T8	StatusEmploy 109 172	on [**Social Security Number 38371**]social security disability
+T9	Type 174 195;196 206	for heart disease and depression
+T10	Drug 220 245	marijuana and cocaine use
+T11	Type 220 241	marijuana and cocaine
+T13	StatusTime 209 245	Occasional marijuana and cocaine use
+T14	Alcohol 262 269	alcohol
+T15	History 325 336	X 13 months
+T16	StatusTime 310 324	has been sober
+E1	Employment:T1 Status:T3 Type:T2
+E2	Employment:T4 Status:T5 Type:T6
+E3	Employment:T7 Status:T8 Type:T9
+E4	Drug:T10 Type:T11 Status:T13
+E5	Alcohol:T14 Status:T16 History:T15
+A1	StatusEmployVal T3 unemployed
+A2	StatusEmployVal T5 employed
+A3	StatusEmployVal T8 on_disability
+A5	StatusTimeVal T13 current
+A6	StatusTimeVal T16 past

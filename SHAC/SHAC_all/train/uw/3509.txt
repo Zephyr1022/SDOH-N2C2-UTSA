@@ -1,0 +1,7 @@
+SOCIAL HISTORY: 
+Tobacco Use	never
+Alcohol Use	rare etoh in past, none x years
+Drug Use	 never
+
+Lives in [LOCATION] with wife.  He has traveled throughout the [LOCATION] as a [PROFESSION].  He visied [LOCATION] for his grandson's high school graduation.   He was a [PROFESSION] [PROFESSION].  He was a pitching coach for the [LOCATION] and [LOCATION].  He enjoys fishing.   + a dog at home
+TB Exposure	 none

@@ -1,0 +1,14 @@
+T1	Drug 96 107	cocaine use
+T2	Type 96 103	cocaine
+T3	StatusTime 87 95	Positive
+T4	StatusTime 58 68	History of
+T5	Drug 69 78	narcotics
+T7	Alcohol 27 40	alcohol abuse
+T9	History 42 55	none in weeks
+T10	StatusTime 16 26	History of
+E1	Drug:T1 Type:T2 Status:T3
+E2	Drug:T5 Status:T4
+E3	Alcohol:T7 Status:T10 History:T9
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T4 past
+A5	StatusTimeVal T10 past

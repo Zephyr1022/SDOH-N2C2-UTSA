@@ -1,0 +1,38 @@
+T1	Tobacco 13 19	smoked
+T2	Amount 20 24	1ppd
+T3	Duration 25 35	x 45 years
+T4	StatusTime 37 41	quit
+T5	History 42 54	14 years ago
+T6	Alcohol 73 80	alcohol
+T7	StatusTime 59 72	used to drink
+T8	Amount 111 121	4-5 drinks
+T9	Frequency 122 129	per day
+T10	Drug 194 196	MJ
+T11	Type 194 196	MJ
+T12	Method 188 193	smoke
+T14	StatusTime 180 187	used to
+T15	LivingStatus 264 280	previously lived
+T16	StatusTime 264 280	previously lived
+T17	TypeLiving 281 286	alone
+T18	Employment 550 567	retired machinist
+T19	StatusEmploy 550 567	retired machinist
+T20	Type 550 567	retired machinist
+T21	LivingStatus 398 418	Ballard Landmark SNF
+T22	TypeLiving 398 418	Ballard Landmark SNF
+T23	StatusTime 382 397	recently was at
+E1	Tobacco:T1 Amount:T2 Duration:T3 Status:T4 History:T5
+E2	Alcohol:T6 Status:T7 Amount:T8 Frequency:T9 Amount2:T13 Frequency2:T26
+E3	Drug:T10 Type:T11 Method:T12 Status:T14
+E4	LivingStatus:T15 Status:T16 Type:T17
+E5	Employment:T18 Status:T19 Type:T20
+E6	LivingStatus:T21 Type:T22 Status:T23
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T7 past
+A4	StatusTimeVal T14 past
+A5	StatusTimeVal T16 past
+A6	TypeLivingVal T17 alone
+A7	StatusEmployVal T19 retired
+A8	TypeLivingVal T22 with_others
+A9	StatusTimeVal T23 current
+T13	Amount 89 97	2 drinks
+T26	Frequency 98 106	per week

@@ -1,0 +1,15 @@
+T1	Employment 26 44	retired accountant
+T2	StatusEmploy 26 44	retired accountant
+T3	Type 26 44	retired accountant
+T4	Tobacco 79 90	tobacco use
+T5	StatusTime 68 78	denies any
+T6	StatusTime 92 113;114 122	2 to 3 alcohol drinks per week
+T7	Alcohol 99 113	alcohol drinks
+T8	Amount 92 113	2 to 3 alcohol drinks
+T9	Frequency 114 122	per week
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T7 Amount:T8 Status:T6 Frequency:T9
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T6 current

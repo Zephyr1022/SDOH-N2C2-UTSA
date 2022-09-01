@@ -1,0 +1,42 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 31	currently
+T3	Amount 32 40	1/2 pack
+T4	Frequency 41 48	per day
+T5	Amount 66 86	30-pack-year history
+T6	Tobacco 66 86	30-pack-year history
+T7	StatusTime 66 86	30-pack-year history
+T8	Alcohol 117 128	Alcohol Use
+T9	StatusTime 136 141	sober
+T10	History 142 147	11mos
+T11	Alcohol 155 168	alcohol abuse
+T13	StatusTime 149 154	prior
+T14	Amount 177 191	1/2 gal liquor
+T15	Type 185 191	liquor
+T16	Frequency 192 197	daily
+T17	Duration 198 211	for 2-3 years
+T18	Alcohol 213 228	social drinking
+T20	StatusTime 229 240	before then
+T21	Drug 243 251	Drug Use
+T22	StatusTime 253 266	none reported
+T23	Employment 285 289	Work
+T24	StatusEmploy 291 304	on disability
+T25	LivingStatus 306 315	Residence
+T26	TypeLiving 323 351	with her mother and daughter
+T27	StatusTime 317 322	lives
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4
+E2	Tobacco:T6 Amount:T5 Status:T7
+E3	Alcohol:T8 Status:T9 History:T10
+E4	Alcohol:T11 Status:T13 Amount:T14 Type:T15 Frequency:T16 Duration:T17
+E5	Alcohol:T18 Status:T20
+E6	Drug:T21 Status:T22
+E7	Employment:T23 Status:T24
+E8	LivingStatus:T25 Type:T26 Status:T27
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T9 past
+A5	StatusTimeVal T13 past
+A7	StatusTimeVal T20 past
+A8	StatusTimeVal T22 none
+A9	StatusEmployVal T24 on_disability
+A10	TypeLivingVal T26 with_family
+A11	StatusTimeVal T27 current

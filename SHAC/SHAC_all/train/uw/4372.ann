@@ -1,0 +1,34 @@
+T1	Duration 103 113	for 40 yrs
+T2	Tobacco 96 102	smoked
+T3	StatusTime 92 102	Has smoked
+T4	Tobacco 129 136	smoking
+T5	StatusTime 115 128	cut down from
+T6	Amount 137 142	2 ppd
+T7	Amount 158 163	1 ppd
+T8	Tobacco 150 157	smoking
+T9	StatusTime 146 157	now smoking
+T10	Alcohol 169 178	alcoholic
+T11	Amount 165 184	One alcoholic drink
+T12	Frequency 185 191	a week
+T13	StatusTime 165 191	One alcoholic drink a week
+T14	Drug 193 202	Marijuana
+T15	Type 193 202	Marijuana
+T16	Amount 203 207	once
+T17	Frequency 208 215	a month
+T18	StatusTime 203 215	once a month
+T19	Drug 227 234	cocaine
+T20	StatusTime 220 226	smokes
+T21	Method 220 226	smokes
+T22	Type 227 234	cocaine
+E1	Tobacco:T2 Duration:T1 Status:T3
+E2	Tobacco:T4 Status:T5 Amount:T6
+E3	Tobacco:T8 Amount:T7 Status:T9
+E4	Alcohol:T10 Frequency:T12 Amount:T11 Status:T13
+E5	Drug:T14 Amount:T16 Type:T15 Frequency:T17 Status:T18
+E6	Drug:T19 Method:T21 Type:T22 Status:T20
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T13 current
+A5	StatusTimeVal T18 current
+A6	StatusTimeVal T20 current

@@ -1,0 +1,24 @@
+T1	Alcohol 27 31	EtOH
+T2	Amount 24 38	~7 EtOH drinks
+T3	Frequency 38 43	/week
+T4	StatusTime 24 43	~7 EtOH drinks/week
+T5	Tobacco 52 59	tobacco
+T6	Drug 63 71	illicits
+T7	Type 63 71	illicits
+T8	StatusTime 45 51	denies
+T9	Employment 74 79	Works
+T10	Type 83 95	a restaurant
+T11	StatusEmploy 74 79	Works
+T12	LivingStatus 98 103	Lives
+T13	TypeLiving 104 146	with [**Doctor First Name **], her partner
+T14	StatusTime 98 103	Lives
+E1	Alcohol:T1 Amount:T2 Frequency:T3 Status:T4
+E2	Tobacco:T5 Status:T8
+E3	Drug:T6 Type:T7 Status:T8
+E4	Employment:T9 Type:T10 Status:T11
+E5	LivingStatus:T12 Type:T13 Status:T14
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T8 none
+A3	StatusEmployVal T11 employed
+A4	TypeLivingVal T13 with_family
+A5	StatusTimeVal T14 current

@@ -1,0 +1,8 @@
+T1	Alcohol 26 30	EtoH
+T3	StatusTime 32 42	occasional
+T4	Drug 90 95	Drugs
+T5	StatusTime 97 103	denies
+E1	Alcohol:T1 Status:T3
+E2	Drug:T4 Status:T5
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none

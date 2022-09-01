@@ -1,0 +1,14 @@
+T1	Drug 33 41	illicits
+T2	Type 33 41	illicits
+T3	StatusTime 30 32	no
+T4	Tobacco 45 48	tob
+T5	StatusTime 42 44	no
+T6	Employment 49 75	UW Medical Center employee
+T7	StatusEmploy 49 75	UW Medical Center employee
+T8	Type 49 75	UW Medical Center employee
+E1	Drug:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5
+E3	Employment:T6 Status:T7 Type:T8
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T5 none
+A3	StatusEmployVal T7 employed

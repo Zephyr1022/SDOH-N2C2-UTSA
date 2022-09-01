@@ -1,0 +1,24 @@
+T1	Drug 122 130	Drug use
+T2	Type 132 134	MJ
+T4	StatusTime 135 147	occasionally
+T5	Alcohol 109 113	EtOH
+T6	Tobacco 95 102	Tobacco
+T7	Amount 104 108	1ppd
+T8	StatusTime 115 121	denies
+T9	StatusTime 104 108	1ppd
+T10	Employment 83 93	unemployed
+T11	StatusEmploy 83 93	unemployed
+T12	LivingStatus 16 21	Lives
+T13	StatusTime 16 21	Lives
+T14	TypeLiving 49 70	with his wife and son
+E1	Drug:T1 Type:T2 Status:T4
+E2	Alcohol:T5 Status:T8
+E3	Tobacco:T6 Amount:T7 Status:T9
+E4	Employment:T10 Status:T11
+E5	LivingStatus:T12 Type:T14 Status:T13
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T9 current
+A5	StatusEmployVal T11 unemployed
+A6	StatusTimeVal T13 current
+A7	TypeLivingVal T14 with_family

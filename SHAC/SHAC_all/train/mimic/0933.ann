@@ -1,0 +1,22 @@
+T1	Employment 136 143	retired
+T2	StatusEmploy 136 143	retired
+T3	Employment 157 161	work
+T4	Type 165 206	a teacher, librarian, and account manager
+T5	StatusEmploy 149 156	used to
+T6	Tobacco 213 220	smoking
+T7	History 221 233	41 years ago
+T8	Amount 239 259	10 pack year history
+T9	StatusTime 208 212	Quit
+T10	Alcohol 268 279	alcohol use
+T11	Drug 284 297	illicit drugs
+T12	Type 284 291	illicit
+T13	StatusTime 261 267	Denies
+E1	Employment:T1 Status:T2
+E2	Employment:T3 Type:T4 Status:T5
+E3	Tobacco:T6 History:T7 Amount:T8 Status:T9
+E4	Alcohol:T10 Status:T13
+E5	Drug:T11 Type:T12 Status:T13
+A1	StatusEmployVal T2 retired
+A2	StatusEmployVal T5 unemployed
+A3	StatusTimeVal T9 past
+A4	StatusTimeVal T13 none

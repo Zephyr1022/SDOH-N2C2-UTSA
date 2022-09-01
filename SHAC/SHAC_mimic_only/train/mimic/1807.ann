@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 34	with husband
+T3	StatusTime 16 21	Lives
+T4	Alcohol 64 68	etoh
+T5	StatusTime 61 63	no
+T6	Tobacco 78 93	formerly smoked
+T7	StatusTime 106 110	quit
+T8	Duration 94 104	for 30 yrs
+T9	History 111 122	20 yrs ago.
+T10	Employment 124 152	Former kitchen/bath designer
+T11	Type 124 152	Former kitchen/bath designer
+T12	StatusEmploy 124 152	Former kitchen/bath designer
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Status:T5
+E3	Tobacco:T6 Status:T7 Duration:T8 History:T9
+E4	Employment:T10 Type:T11 Status:T12
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 past
+A5	StatusEmployVal T12 unemployed

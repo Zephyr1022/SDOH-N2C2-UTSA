@@ -1,0 +1,29 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 34	6 cigarettes
+T3	Frequency 34 38	/day
+T4	Type 24 34	cigarettes
+T5	StatusTime 22 38	6 cigarettes/day
+T6	Alcohol 40 51	Alcohol Use
+T7	StatusTime 53 58	prior
+T9	History 75 91	since mid [DATE]
+T10	Drug 94 102	Drug Use
+T11	StatusTime 104 109	prior
+T12	Type 110 123	IVDU (heroin)
+T13	History 129 145	since mid [DATE]
+T14	LivingStatus 166 171	lives
+T15	StatusTime 166 171	lives
+T16	TypeLiving 172 179	at 1811
+T17	Employment 263 267	work
+T18	StatusEmploy 255 262	used to
+T19	Type 271 282	a machinist
+E1	Tobacco:T1 Amount:T2 Status:T5 Type:T4 Frequency:T3
+E2	Alcohol:T6 Status:T7 History:T9
+E3	Drug:T10 Status:T11 Type:T12 History:T13
+E4	LivingStatus:T14 Status:T15 Type:T16
+E5	Employment:T17 Status:T18 Type:T19
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T7 past
+A4	StatusTimeVal T11 past
+A5	StatusTimeVal T15 current
+A6	TypeLivingVal T16 homeless
+A7	StatusEmployVal T18 unemployed

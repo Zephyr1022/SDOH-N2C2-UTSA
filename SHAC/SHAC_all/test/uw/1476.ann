@@ -1,0 +1,17 @@
+T1	Tobacco 47 59	heavy smoker
+T2	StatusTime 47 59	heavy smoker
+T4	StatusTime 61 82	sixpack of beer daily
+T5	Type 72 76	beer
+T6	Alcohol 72 76	beer
+T7	Frequency 77 82	daily
+T8	Amount 61 76	sixpack of beer
+T9	Drug 95 103	IV drugs
+T10	Method 95 97	IV
+T11	StatusTime 84 89	clean
+T12	History 104 115	for 3 years
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T6 Type:T5 Status:T4 Amount:T8 Frequency:T7
+E3	Drug:T9 Status:T11 History:T12 Method:T10
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T4 current
+A4	StatusTimeVal T11 past

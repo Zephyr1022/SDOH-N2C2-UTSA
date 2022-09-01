@@ -1,0 +1,19 @@
+T1	Employment 35 55	currently unemployed
+T2	StatusEmploy 35 55	currently unemployed
+T3	Type 27 33	a chef
+T4	Tobacco 58 69	Tobacco Use
+T5	StatusTime 71 75	quit
+T6	History 76 87	7 years ago
+T7	Amount 89 105	15-20 pack years
+T8	Alcohol 107 118	Alcohol Use
+T9	StatusTime 120 122	No
+T10	Drug 125 133	Drug Use
+T11	StatusTime 135 137	No
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6 Amount:T7
+E3	Alcohol:T8 Status:T9
+E4	Drug:T10 Status:T11
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T11 none

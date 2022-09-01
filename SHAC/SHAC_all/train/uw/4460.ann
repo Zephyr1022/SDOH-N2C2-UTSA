@@ -1,0 +1,25 @@
+T1	Drug 22 32	IV heroine
+T2	Method 22 24	IV
+T3	Type 25 32	heroine
+T4	StatusTime 39 54	used 2 days ago
+T5	Amount 56 64	3/4 gram
+T6	Frequency 65 72	per day
+T7	Alcohol 75 86	Alcohol Use
+T8	StatusTime 88 100	Twice a year
+T9	Frequency 88 100	Twice a year
+T10	LivingStatus 149 154	Lives
+T11	StatusTime 149 154	Lives
+T12	TypeLiving 155 163	with mom
+T13	Tobacco 114 124	cigarettes
+T14	Amount 112 124	3 cigarettes
+T15	Frequency 125 130	a day
+T16	StatusTime 114 124	cigarettes
+E1	Drug:T1 Method:T2 Type:T3 Status:T4 Amount:T5 Frequency:T6
+E2	Alcohol:T7 Frequency:T9 Status:T8
+E3	LivingStatus:T10 Status:T11 Type:T12
+E4	Tobacco:T13 Status:T16 Amount:T14 Frequency:T15
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T8 current
+A3	StatusTimeVal T11 current
+A4	TypeLivingVal T12 with_family
+A5	StatusTimeVal T16 current

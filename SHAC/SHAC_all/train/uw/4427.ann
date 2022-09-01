@@ -1,0 +1,24 @@
+T1	Tobacco 9 18	Nonsmoker
+T2	StatusTime 9 18	Nonsmoker
+T3	Alcohol 40 47	alcohol
+T4	StatusTime 20 39	occasionally drinks
+T6	Drug 59 72	illicit drugs
+T7	Type 59 66	illicit
+T8	StatusTime 49 55	no use
+T9	Employment 94 103	a veteran
+T10	Type 94 103	a veteran
+T11	StatusEmploy 94 103	a veteran
+T12	LivingStatus 105 110	lives
+T13	StatusTime 105 110	lives
+T14	TypeLiving 111 116	alone
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T6 Type:T7 Status:T8
+E4	Employment:T9 Type:T10 Status:T11
+E5	LivingStatus:T12 Status:T13 Type:T14
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A4	StatusTimeVal T8 none
+A5	StatusEmployVal T11 unemployed
+A6	StatusTimeVal T13 current
+A7	TypeLivingVal T14 alone

@@ -1,0 +1,29 @@
+T1	Employment 78 92	an high school
+T2	StatusEmploy 63 73	previously
+T3	Type 74 92	ran an high school
+T4	Tobacco 182 203	a former tobacco user
+T5	StatusTime 182 203	a former tobacco user
+T6	Amount 205 232	approximately 30 pack years
+T7	Tobacco 259 265	cigars
+T8	Type 259 265	cigars
+T9	StatusTime 270 274	quit
+T10	History 280 287	in 2013
+T11	Alcohol 302 318	rare alcohol use
+T12	StatusTime 293 301	endorses
+T14	Drug 333 357	occasional marijuana use
+T15	StatusTime 324 332	endorses
+T16	Type 344 353	marijuana
+T17	Employment 111 137	on long-term medical leave
+T18	StatusEmploy 111 137	on long-term medical leave
+E1	Employment:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T5 Amount:T6
+E3	Tobacco:T7 Type:T8 Status:T9 History:T10
+E4	Alcohol:T11 Status:T12
+E5	Drug:T14 Type:T16 Status:T15
+E6	Employment:T17 Status:T18
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T9 past
+A4	StatusTimeVal T12 current
+A6	StatusTimeVal T15 current
+A7	StatusEmployVal T18 on_disability

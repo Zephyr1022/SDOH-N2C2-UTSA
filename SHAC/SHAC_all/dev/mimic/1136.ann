@@ -1,0 +1,31 @@
+T1	Tobacco 17 32	Tobacco history
+T2	Amount 35 44	+1-1.5ppd
+T3	Duration 45 55	x 50 years
+T4	StatusTime 35 55	+1-1.5ppd x 50 years
+T5	Alcohol 57 61	ETOH
+T6	Amount 63 72	2 glasses
+T7	Type 76 80	wine
+T8	Frequency 113 118	daily
+T9	Drug 120 133	Illicit drugs
+T10	Type 120 127	Illicit
+T11	StatusTime 136 142	denies
+T12	Employment 152 172	retired truck driver
+T13	StatusEmploy 152 172	retired truck driver
+T14	Type 152 172	retired truck driver
+T15	LivingStatus 174 179	Lives
+T16	TypeLiving 180 189	with wife
+T17	StatusTime 174 179	Lives
+T18	StatusTime 63 118	2 glasses of wine plus [**3-2**] shots of whiskey daily
+E1	Tobacco:T1 Amount:T2 Duration:T3 Status:T4
+E2	Alcohol:T5 Amount:T6 Type:T7 Frequency:T8 Status:T18 Type2:T19 Amount2:T20
+E3	Drug:T9 Type:T10 Status:T11
+E4	Employment:T12 Status:T13 Type:T14
+E5	LivingStatus:T15 Type:T16 Status:T17
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T11 none
+A3	StatusEmployVal T13 retired
+A4	TypeLivingVal T16 with_family
+A5	StatusTimeVal T17 current
+A6	StatusTimeVal T18 current
+T19	Type 105 112	whiskey
+T20	Amount 86 101	[**3-2**] shots

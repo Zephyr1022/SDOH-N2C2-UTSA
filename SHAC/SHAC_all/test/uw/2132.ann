@@ -1,0 +1,21 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 31	Currently
+T3	Amount 32 44	2 cigarettes
+T4	Type 34 44	cigarettes
+T5	Frequency 45 50	a day
+T6	Alcohol 53 64	Alcohol Use
+T7	StatusTime 66 72	Denies
+T8	Drug 75 83	Drug Use
+T9	StatusTime 85 91	Denies
+T10	LivingStatus 110 119	Residence
+T11	StatusTime 121 127	Living
+T12	TypeLiving 128 140	with husband
+E1	Tobacco:T1 Status:T2 Amount:T3 Type:T4 Frequency:T5
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Status:T9
+E4	LivingStatus:T10 Status:T11 Type:T12
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 with_family

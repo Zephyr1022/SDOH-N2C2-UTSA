@@ -1,0 +1,23 @@
+T1	Drug 99 112	illicit drugs
+T2	Type 99 106	illicit
+T3	StatusTime 96 98	No
+T5	StatusTime 20 25	lives
+T4	TypeLiving 26 43	with her daughter
+T6	LivingStatus 20 25	lives
+T7	Tobacco 59 65	smoked
+T8	Alcohol 87 94	drinker
+T10	StatusTime 53 58	never
+T11	StatusTime 70 72	is
+T12	Employment 121 134	on disability
+T13	StatusEmploy 121 134	on disability
+E1	Drug:T1 Type:T2 Status:T3
+E2	LivingStatus:T6 Type:T4 Status:T5
+E3	Tobacco:T7 Status:T10
+E4	Alcohol:T8 Status:T11
+E5	Employment:T12 Status:T13
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T4 with_family
+A5	StatusTimeVal T10 none
+A6	StatusTimeVal T11 current
+A7	StatusEmployVal T13 on_disability

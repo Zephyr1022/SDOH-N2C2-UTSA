@@ -1,0 +1,14 @@
+T1	Employment 46 73	Retired executive secretary
+T2	StatusEmploy 46 73	Retired executive secretary
+T3	Type 87 109	a sales representative
+T4	Tobacco 122 138	-Tobacco history
+T5	StatusTime 140 146	Denies
+T6	Alcohol 147 152	-ETOH
+T7	StatusTime 154 164	Occasional
+T10	Type 46 73	Retired executive secretary
+E1	Employment:T1 Status:T2 Type:T10 Type2:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 current

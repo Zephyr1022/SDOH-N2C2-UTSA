@@ -1,0 +1,39 @@
+T1	Employment 16 29	On disability
+T2	StatusEmploy 16 29	On disability
+T3	History 30 56	since her epidural abscess
+T4	Employment 106 143	a nurses aid, teacher, crossing guard
+T5	Type 106 143	a nurses aid, teacher, crossing guard
+T6	StatusEmploy 88 93	Prior
+T7	LivingStatus 223 228	Lives
+T8	TypeLiving 237 254	with her children
+T9	StatusTime 223 228	Lives
+T10	Tobacco 282 289	smoking
+T11	StatusTime 277 281	Quit
+T12	History 290 303	in [**2110**]
+T13	Tobacco 305 320	Formerly smoked
+T14	StatusTime 305 320	Formerly smoked
+T15	Amount 321 334	[**1-4**] ppd
+T16	Duration 335 344	x 5 years
+T17	Alcohol 361 365	ETOH
+T18	Drug 369 373	IVDA
+T19	Method 369 373	IVDA
+T20	StatusTime 346 360	Denies current
+T21	Drug 387 394	cocaine
+T22	Type 387 394	cocaine
+T23	StatusTime 375 386	Used to use
+E1	Employment:T1 Status:T2 History:T3
+E2	Employment:T4 Status:T6 Type:T5
+E3	LivingStatus:T7 Status:T9 Type:T8
+E4	Tobacco:T10 Status:T11 History:T12
+E5	Tobacco:T13 Status:T14 Amount:T15 Duration:T16
+E6	Alcohol:T17 Status:T20
+E7	Drug:T18 Status:T20 Method:T19
+E8	Drug:T21 Status:T23 Type:T22
+A1	StatusEmployVal T2 on_disability
+A2	StatusEmployVal T6 unemployed
+A3	TypeLivingVal T8 with_family
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T11 past
+A6	StatusTimeVal T14 past
+A7	StatusTimeVal T20 past
+A8	StatusTimeVal T23 past

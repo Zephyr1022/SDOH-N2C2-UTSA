@@ -1,0 +1,28 @@
+T1	LivingStatus 17 25	Homeless
+T2	StatusTime 17 25	Homeless
+T3	TypeLiving 17 25	Homeless
+T4	Tobacco 56 63	tobacco
+T5	Alcohol 65 69	etoh
+T6	Drug 73 94	illicit substance use
+T7	Type 73 80	illicit
+T8	StatusTime 49 55	Denies
+T9	Tobacco 99 110	tobacco use
+T10	Alcohol 115 128	alcohol abuse
+T11	Drug 133 148	methadone abuse
+T12	Type 133 142	methadone
+T13	StatusTime 95 98	h/o
+T14	StatusTime 111 114	h/o
+T15	StatusTime 129 132	h/o
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T8
+E3	Alcohol:T5 Status:T8
+E4	Drug:T6 Type:T7 Status:T8
+E5	Tobacco:T9 Status:T13
+E6	Alcohol:T10 Status:T14
+E7	Drug:T11 Type:T12 Status:T15
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T13 current
+A5	StatusTimeVal T14 current
+A6	StatusTimeVal T15 current

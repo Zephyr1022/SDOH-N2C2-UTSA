@@ -1,0 +1,33 @@
+T1	Alcohol 40 48	drinking
+T2	Amount 49 58	1.5 pints
+T3	Type 62 67	vodka
+T4	Frequency 68 73	daily
+T5	StatusTime 74 79;80 96	prior to her admission
+T6	History 74 79;80 96	prior to her admission
+T7	Alcohol 111 125	heavy drinking
+T9	Duration 126 142;143 145	since the age of 27
+T10	StatusTime 126 142;143 145	since the age of 27
+T11	Drug 201 211	drug abuse
+T13	StatusTime 194 200	denies
+T14	Tobacco 232 239	smoking
+T15	Type 240 250	cigarettes
+T16	StatusTime 213 220	reports
+T17	LivingStatus 274 289	currently lives
+T18	StatusTime 274 289	currently lives
+T19	TypeLiving 313 328	with her friend
+T20	Employment 379 385	worked
+T21	Type 389 403	a hair stylist
+T22	StatusEmploy 417 439	not working for awhile
+E1	Alcohol:T1 Amount:T2 Type:T3 Frequency:T4 Status:T5 History:T6
+E2	Alcohol:T7 Duration:T9 Status:T10
+E3	Drug:T11 Status:T13
+E4	Tobacco:T14 Status:T16 Type:T15
+E5	LivingStatus:T17 Status:T18 Type:T19
+E6	Employment:T20 Type:T21 Status:T22
+A1	StatusTimeVal T5 past
+A3	StatusTimeVal T10 current
+A5	StatusTimeVal T13 none
+A6	StatusTimeVal T16 current
+A7	StatusTimeVal T18 current
+A8	TypeLivingVal T19 with_others
+A9	StatusEmployVal T22 unemployed

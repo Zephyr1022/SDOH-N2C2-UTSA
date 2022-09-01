@@ -1,0 +1,21 @@
+T1	Tobacco 115 126	tobacco use
+T2	StatusTime 100 114	Denies current
+T3	History 145 154	in [DATE]
+T4	Alcohol 167 185	occasional alcohol
+T6	StatusTime 167 185	occasional alcohol
+T7	Amount 198 208	3 servings
+T8	Frequency 209 217	per week
+T9	Drug 227 236	marijuana
+T10	Type 227 236	marijuana
+T11	StatusTime 220 226	Denies
+T12	Drug 246 262	illicit drug use
+T13	Type 246 253	illicit
+T14	StatusTime 239 245	Denies
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Alcohol:T4 Status:T6 Amount:T7 Frequency:T8
+E3	Drug:T9 Type:T10 Status:T11
+E4	Drug:T12 Type:T13 Status:T14
+A1	StatusTimeVal T2 past
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T11 none
+A5	StatusTimeVal T14 none

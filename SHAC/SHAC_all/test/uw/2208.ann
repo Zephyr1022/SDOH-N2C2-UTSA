@@ -1,0 +1,58 @@
+T1	Tobacco 27 33	smoked
+T2	StatusTime 9 13	quit
+T3	History 14 26	3 months ago
+T4	Duration 34 41	8 years
+T5	Alcohol 42 54	rare alcohol
+T6	StatusTime 42 54	rare alcohol
+T8	Drug 58 76	recreational drugs
+T9	Type 58 70	recreational
+T10	StatusTime 55 57	no
+T11	Tobacco 131 138	smoking
+T12	Duration 165 174	x 8 years
+T13	Amount 158 164	1/2ppd
+T14	StatusTime 120 157	history of smoking noted back in 1996
+T16	Alcohol 267 282	a heavy drinker
+T17	StatusTime 257 282	was never a heavy drinker
+T15	LivingStatus 304 311	Staying
+T19	StatusTime 304 311	Staying
+T20	TypeLiving 312 350	at Salvation Army William Booth Center
+T21	Employment 466 472	worked
+T22	StatusEmploy 466 472	worked
+T23	Type 476 487	real estate
+T24	LivingStatus 504 512	homeless
+T25	StatusTime 513 521	recently
+T26	TypeLiving 504 512	homeless
+T27	LivingStatus 678 686	homeless
+T28	StatusTime 674 677	was
+T29	Duration 687 713	as of this time a year ago
+T30	TypeLiving 678 686	homeless
+T31	Tobacco 233 240	smoking
+T32	StatusTime 225 240	started smoking
+T33	Duration 241 252	8 years ago
+T34	Alcohol 183 200	heavy alcohol use
+T35	StatusTime 179 182	h/o
+E1	Tobacco:T1 Duration:T4 Status:T2 History:T3
+E2	Alcohol:T5 Status:T6
+E3	Drug:T8 Type:T9 Status:T10
+E4	Tobacco:T11 Status:T14 Amount:T13 Duration:T12
+E6	Alcohol:T16 Status:T17
+E5	LivingStatus:T15 Status:T19 Type:T20
+E7	Employment:T21 Status:T22 Type:T23
+E8	LivingStatus:T24 Type:T26 Status:T25
+E9	LivingStatus:T27 Type:T30 Status:T28 Duration:T29
+E10	Tobacco:T31 Status:T32 Duration:T33
+E11	Alcohol:T34 Status:T35
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T6 current
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T14 past
+A6	StatusTimeVal T17 current
+A8	StatusTimeVal T19 current
+A9	TypeLivingVal T20 homeless
+A10	StatusEmployVal T22 unemployed
+A11	StatusTimeVal T25 current
+A12	TypeLivingVal T26 homeless
+A13	StatusTimeVal T28 past
+A14	TypeLivingVal T30 homeless
+A15	StatusTimeVal T32 current
+A16	StatusTimeVal T35 current

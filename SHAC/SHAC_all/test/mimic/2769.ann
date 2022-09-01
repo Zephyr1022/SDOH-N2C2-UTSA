@@ -1,0 +1,17 @@
+T2	StatusTime 92 96	quit
+T3	History 97 105	recently
+T4	Alcohol 107 128	Extensive alcohol use
+T1	Tobacco 65 74;75 90	extensive smoking history
+T5	Amount 130 136;137 147	approx one bottle
+T6	Type 151 155	wine
+T7	History 190 197;198 201	3 weeks ago
+T8	StatusTime 175 185	Last drink
+E2	Alcohol:T4 Amount:T5 Type:T6 History:T7 Frequency:T9 Status:T11
+E1	Tobacco:T1 Status:T2 History:T3
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T8 current
+T9	Frequency 156 173	every 1 or 2 days
+T10	Alcohol 175 185	Last drink
+E3	Alcohol:T10 Status:T8 History:T7
+T11	StatusTime 107 128	Extensive alcohol use
+A3	StatusTimeVal T11 current

@@ -1,0 +1,18 @@
+T1	LivingStatus 11 16	Lives
+T2	StatusTime 11 16	Lives
+T3	TypeLiving 17 29	at Salvation
+T4	Tobacco 297 304	Tobacco
+T5	Alcohol 330 337	Alcohol
+T6	Drug 363 368	Drugs
+T7	StatusTime 306 329	denies past/current use
+T8	StatusTime 339 362	denies past/current use
+T9	StatusTime 370 393	denies past/current use
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T7
+E3	Alcohol:T5 Status:T8
+E4	Drug:T6 Status:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T9 none

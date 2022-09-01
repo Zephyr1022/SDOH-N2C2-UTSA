@@ -1,0 +1,15 @@
+T1	Employment 30 40	Occupation
+T2	StatusEmploy 64 75	not working
+T3	Tobacco 87 102	Smoking history
+T4	StatusTime 104 108	Quit
+T5	Amount 109 113	10pk
+T6	Frequency 114 118	year
+T7	Alcohol 131 138	alcohol
+T9	StatusTime 120 130	occasional
+T10	Type 41 62	Operations supervisor
+E1	Employment:T1 Status:T2 Type:T10
+E2	Tobacco:T3 Status:T4 Amount:T5 Frequency:T6
+E3	Alcohol:T7 Status:T9
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T4 past
+A4	StatusTimeVal T9 current

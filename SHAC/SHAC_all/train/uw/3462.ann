@@ -1,0 +1,16 @@
+T1	Drug 46 66	methamphetamine user
+T2	StatusTime 38 45	current
+T3	Type 46 61	methamphetamine
+T4	Method 68 74	smokes
+T5	Drug 77 98	former IV heroin user
+T6	StatusTime 77 98	former IV heroin user
+T7	Method 84 86	IV
+T8	Type 87 93	heroin
+T9	Employment 100 120	currently unemployed
+T10	StatusEmploy 100 120	currently unemployed
+E1	Drug:T1 Status:T2 Type:T3 Method:T4
+E2	Drug:T5 Status:T6 Type:T8 Method:T7
+E3	Employment:T9 Status:T10
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 past
+A3	StatusEmployVal T10 unemployed

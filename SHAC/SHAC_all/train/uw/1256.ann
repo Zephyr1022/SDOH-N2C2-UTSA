@@ -1,0 +1,31 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 31 42	Alcohol Use
+T3	Drug 52 60	Drug Use
+T4	StatusTime 22 28	denies
+T5	StatusTime 44 50	denies
+T6	StatusTime 62 68	denies
+T7	LivingStatus 113 121	homeless
+T8	StatusTime 90 92	is
+T9	TypeLiving 113 121	homeless
+T10	LivingStatus 174 179	lived
+T11	StatusTime 174 179	lived
+T12	TypeLiving 180 202	with his grandmparents
+T13	History 203 230	until he was in his mid-20s
+T14	LivingStatus 279 287	homeless
+T15	StatusTime 276 278	is
+T16	TypeLiving 279 287	homeless
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T5
+E3	Drug:T3 Status:T6
+E4	LivingStatus:T7 Type:T9 Status:T8
+E5	LivingStatus:T10 Status:T11 Type:T12 History:T13
+E6	LivingStatus:T14 Type:T16 Status:T15
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 homeless
+A6	StatusTimeVal T11 past
+A7	TypeLivingVal T12 with_family
+A8	StatusTimeVal T15 current
+A9	TypeLivingVal T16 homeless

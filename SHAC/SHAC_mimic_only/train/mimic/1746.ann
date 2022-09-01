@@ -1,0 +1,36 @@
+T1	Employment 16 21	Works
+T2	StatusEmploy 16 21	Works
+T3	Type 25 34	a painter
+T4	LivingStatus 36 41	lives
+T5	StatusTime 36 41	lives
+T6	TypeLiving 42 47	alone
+T7	Tobacco 49 52	tob
+T8	Amount 53 58	1 ppd
+T9	Duration 59 68	x40 years
+T10	StatusTime 53 68	1 ppd x40 years
+T11	Alcohol 70 74	EtOH
+T12	Amount 75 78;79 83	one pint
+T13	Frequency 83 87	/day
+T14	Type 88 93	vodka
+T15	Duration 94 104	x 20 years
+T16	StatusTime 106 116	abstinence
+T17	History 117 137	since [**2136-4-7**]
+T18	Drug 139 145;146 156	remote heroin use
+T19	StatusTime 139 145;146 156	remote heroin use
+T20	Type 146 152	heroin
+T21	Drug 158 183	current occasional MJ use
+T22	Type 177 179	MJ
+T23	StatusTime 158 183	current occasional MJ use
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Amount:T8 Status:T10 Duration:T9
+E4	Alcohol:T11 Amount:T12 Frequency:T13 Type:T14 Duration:T15 Status:T16 History:T17
+E5	Drug:T18 Status:T19 Type:T20
+E6	Drug:T21 Status:T23 Type:T22
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 alone
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T16 past
+A6	StatusTimeVal T19 past
+A7	StatusTimeVal T23 current

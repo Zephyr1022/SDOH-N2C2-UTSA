@@ -1,0 +1,18 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	None
+T3	Alcohol 29 40	Alcohol Use
+T4	StatusTime 42 62	Very occasional beer
+T6	Type 58 62	beer
+T7	Drug 65 73	Drug Use
+T8	StatusTime 75 79	None
+T9	Employment 138 143	works
+T13	StatusEmploy 138 143	works
+T14	Type 147 175	an attorney for a non-profit
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4 Type:T6
+E3	Drug:T7 Status:T8
+E4	Employment:T9 Status:T13 Type:T14
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A4	StatusTimeVal T8 none
+A6	StatusEmployVal T13 employed

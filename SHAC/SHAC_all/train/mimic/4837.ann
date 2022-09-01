@@ -1,0 +1,18 @@
+T1	Employment 16 31	Pre-med student
+T2	StatusEmploy 16 31	Pre-med student
+T3	Type 16 31	Pre-med student
+T4	Tobacco 35 38	TOB
+T5	StatusTime 33 34	-
+T6	Alcohol 42 46	ETOH
+T7	StatusTime 40 41	-
+T8	Drug 50 54	IVDU
+T9	StatusTime 48 49	-
+T10	Method 50 54	IVDU
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Status:T9 Method:T10
+A1	StatusEmployVal T2 student
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T9 none

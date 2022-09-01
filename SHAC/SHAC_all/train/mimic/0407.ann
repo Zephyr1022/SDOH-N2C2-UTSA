@@ -1,0 +1,13 @@
+T1	Duration 56 61;62 70	times 50 years
+T2	Amount 34 40	1-pack
+T3	Frequency 41 48	per day
+T4	StatusTime 29 31	is
+T5	Tobacco 49 55	smoker
+T6	LivingStatus 77 82	lives
+T7	StatusTime 77 82	lives
+T8	TypeLiving 83 88	alone
+E1	Tobacco:T5 Amount:T2 Frequency:T3 Status:T4 Duration:T1
+E2	LivingStatus:T6 Status:T7 Type:T8
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T7 current
+A3	TypeLivingVal T8 alone

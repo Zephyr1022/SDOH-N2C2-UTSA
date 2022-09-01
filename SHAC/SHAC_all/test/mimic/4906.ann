@@ -1,0 +1,15 @@
+T3	Employment 129 134	works
+T4	StatusEmploy 129 134	works
+T5	Duration 158 166	11 years
+T6	Type 170 182	a mail clerk
+T7	LivingStatus 212 217	lives
+T8	StatusTime 212 217	lives
+T9	TypeLiving 218 231	with two sons
+T10	TypeLiving 271 279;280 304	with her ex-boyfriend of 14 years
+E2	Employment:T3 Status:T4 Duration:T5 Type:T6
+E3	LivingStatus:T7 Status:T8 Type:T9
+E4	LivingStatus:T7 Status:T8 Type:T10
+A1	StatusEmployVal T4 employed
+A2	StatusTimeVal T8 current
+A3	TypeLivingVal T9 with_family
+A4	TypeLivingVal T10 with_others

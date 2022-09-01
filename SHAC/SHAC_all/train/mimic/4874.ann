@@ -1,0 +1,43 @@
+T1	LivingStatus 19 24	lives
+T2	StatusTime 19 24	lives
+T3	TypeLiving 25 41	with his partner
+T4	Employment 209 214;215 226	prior employments
+T5	StatusEmploy 209 214;215 226	prior employments
+T6	Type 238 278;279 294	journalism, dance, stage management, and travel reporter
+T7	Employment 304 310	worked
+T8	StatusEmploy 304 310	worked
+T9	Type 314 346	a silver [**Doctor Last Name **]
+T13	Tobacco 515 522	smoking
+T14	Duration 523 533	for 1 year
+T15	StatusTime 496 511	distant history
+T16	Alcohol 563 571	drinking
+T18	Type 577 583	scotch
+T19	StatusTime 544 551;552 554	history of
+T20	Alcohol 589 599	now drinks
+T21	StatusTime 589 599	now drinks
+T22	Type 605 609	wine
+T23	Frequency 610 614;615 621	with dinner
+T24	Method 638 644	Smokes
+T26	Drug 645 665	occasional marijuana
+T27	StatusTime 638 644	Smokes
+T28	Type 656 665	marijuana
+T29	Drug 709 720	other drugs
+T30	Type 709 714	other
+T31	StatusTime 671 678;679 686	distant history
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Employment:T7 Status:T8 Type:T9
+E5	Tobacco:T13 Status:T15 Duration:T14
+E6	Alcohol:T16 Status:T19 Type:T18
+E7	Alcohol:T20 Status:T21 Type:T22 Frequency:T23
+E8	Drug:T26 Type:T28 Status:T27 Method:T24
+E9	Drug:T29 Type:T30 Status:T31
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T5 unemployed
+A4	StatusEmployVal T8 unemployed
+A6	StatusTimeVal T15 past
+A8	StatusTimeVal T19 past
+A9	StatusTimeVal T21 current
+A11	StatusTimeVal T27 current
+A12	StatusTimeVal T31 past

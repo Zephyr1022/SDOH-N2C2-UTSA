@@ -1,0 +1,15 @@
+T1	LivingStatus 19 24	lives
+T2	StatusTime 19 24	lives
+T3	TypeLiving 46 85;86 94	w/ wife, who is a nurse and two teenage children
+T4	Alcohol 99 134	[**Location (un) 23165**]  beverage
+T5	StatusTime 96 147	No [**Location (un) 23165**]  beverage for 30 years
+T6	History 135 147	for 30 years
+T7	Tobacco 152 163	tobacco use
+T8	StatusTime 149 151	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5 History:T6
+E3	Tobacco:T7 Status:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T8 none

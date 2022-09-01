@@ -1,0 +1,32 @@
+T1	Employment 131 139	a priest
+T2	Type 131 139	a priest
+T3	StatusEmploy 128 130	is
+T4	LivingStatus 171 187	currently living
+T5	TypeLiving 188 202	with his niece
+T6	StatusTime 171 180	currently
+T8	Type 375 385	Cigarettes
+T10	Tobacco 375 385	Cigarettes
+T11	StatusTime 403 405	ex
+T12	Amount 419 439	current Pack-yrs: 10
+T13	Alcohol 476 480	ETOH
+T14	StatusTime 496 504	[X ] Yes
+T15	Amount 507 511	once
+T16	Frequency 512 524	per 6 months
+T7	Drug 525 530	Drugs
+T9	StatusTime 532 536	none
+T17	Employment 537 547	Occupation
+T18	Type 549 555	Priest
+T19	StatusEmploy 549 555	Priest
+E1	Employment:T1 Type:T2 Status:T3
+E2	LivingStatus:T4 Type:T5 Status:T6
+E4	Tobacco:T10 Status:T11 Amount:T12 Type:T8
+E5	Alcohol:T13 Status:T14 Amount:T15 Frequency:T16
+E3	Drug:T7 Status:T9
+E6	Employment:T17 Type:T18 Status:T19
+A1	StatusEmployVal T3 employed
+A2	TypeLivingVal T5 with_family
+A3	StatusTimeVal T6 current
+A5	StatusTimeVal T11 past
+A6	StatusTimeVal T14 current
+A4	StatusTimeVal T9 none
+A7	StatusEmployVal T19 employed

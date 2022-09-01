@@ -1,0 +1,12 @@
+T1	Alcohol 26 32	drinks
+T2	Amount 33 46	up to 5 beers
+T3	Frequency 47 54	per day
+T4	StatusTime 26 32	drinks
+T5	Tobacco 62 69	tobacco
+T6	Drug 71 76	drugs
+T7	StatusTime 55 61	Denies
+E1	Alcohol:T1 Amount:T2 Frequency:T3 Status:T4
+E2	Tobacco:T5 Status:T7
+E3	Drug:T6 Status:T7
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T7 none

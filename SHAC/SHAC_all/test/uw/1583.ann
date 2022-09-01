@@ -1,0 +1,19 @@
+T1	LivingStatus 27 32	lives
+T2	StatusTime 27 32	lives
+T3	TypeLiving 47 70	with friend and her son
+T4	Tobacco 131 138	smoking
+T5	Alcohol 145 149	EtOH
+T6	Drug 157 161	IVDU
+T7	StatusTime 124 130	Denies
+T8	StatusTime 139 144	Denie
+T9	StatusTime 150 156	Denies
+T10	Method 157 161	IVDU
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T7
+E3	Alcohol:T5 Status:T8
+E4	Drug:T6 Status:T9 Method:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T9 none

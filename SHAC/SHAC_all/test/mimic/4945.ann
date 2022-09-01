@@ -1,0 +1,24 @@
+T1	Drug 79 87	drug use
+T2	StatusTime 76 78	No
+T3	Alcohol 63 70;71 74	alcohol use
+T5	StatusTime 48 50	No
+T6	Tobacco 21 28	smoking
+T7	History 29 46	over 20 years ago
+T8	StatusTime 16 20	Quit
+T9	LivingStatus 89 94	Lives
+T10	TypeLiving 95 108	with daughter
+T11	StatusTime 89 94	Lives
+T12	Employment 221 226	works
+T13	StatusEmploy 215 226	still works
+T14	Type 249 256;257 301	folding tissue paper to package balsa wood airplanes
+E1	Drug:T1 Status:T2
+E2	Alcohol:T3 Status:T5
+E3	Tobacco:T6 Status:T8 History:T7
+E4	LivingStatus:T9 Type:T10 Status:T11
+E5	Employment:T12 Status:T13 Type:T14
+A1	StatusTimeVal T2 none
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T8 past
+A5	TypeLivingVal T10 with_family
+A6	StatusTimeVal T11 current
+A7	StatusEmployVal T13 employed

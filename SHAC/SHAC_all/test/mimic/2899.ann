@@ -1,0 +1,24 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 30 57	with wife and step daughter
+T4	Tobacco 109 115	smoked
+T5	StatusTime 103 108	Never
+T6	Alcohol 124 142	occasional alcohol
+T7	StatusTime 117 123	drinks
+T9	Drug 151 159	illicits
+T10	Type 151 159	illicits
+T11	StatusTime 144 150	Denies
+T12	Employment 80 94	as a machinist
+T13	Type 83 94;95 101	a machinist for GE
+T14	StatusEmploy 80 94	as a machinist
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T9 Status:T11 Type:T10
+E5	Employment:T12 Type:T13 Status:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 current
+A6	StatusTimeVal T11 none
+A7	StatusEmployVal T14 employed

@@ -1,0 +1,24 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 32	non smoker
+T3	Alcohol 35 46	Alcohol Use
+T4	StatusTime 48 66	not for gt10 years
+T5	History 48 66	not for gt10 years
+T6	Drug 69 77	Drug Use
+T7	StatusTime 79 83	none
+T8	LivingStatus 148 153	lives
+T9	StatusTime 148 153	lives
+T10	TypeLiving 168 177	with wife
+T11	Employment 198 226	retired commercial fisherman
+T12	StatusEmploy 198 226	retired commercial fisherman
+T13	Type 198 226	retired commercial fisherman
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 History:T5 Status:T4
+E3	Drug:T6 Status:T7
+E4	LivingStatus:T8 Status:T9 Type:T10
+E5	Employment:T11 Status:T12 Type:T13
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T10 with_family
+A6	StatusEmployVal T12 retired

@@ -1,0 +1,24 @@
+T1	Tobacco 21 28	smoking
+T2	StatusTime 16 20	quit
+T3	History 29 39	25 yrs ago
+T4	Alcohol 44 48	etoh
+T5	StatusTime 41 43	no
+T6	Drug 53 58	drugs
+T7	StatusTime 50 52	no
+T8	Employment 60 65	Works
+T9	StatusEmploy 60 65	Works
+T10	Type 66 68;69 92	in construction-office job
+T11	LivingStatus 135 140	Lives
+T12	TypeLiving 141 146	alone
+T13	StatusTime 135 140	Lives
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Status:T7
+E4	Employment:T8 Status:T9 Type:T10
+E5	LivingStatus:T11 Type:T12 Status:T13
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 none
+A4	StatusEmployVal T9 employed
+A5	TypeLivingVal T12 alone
+A6	StatusTimeVal T13 current

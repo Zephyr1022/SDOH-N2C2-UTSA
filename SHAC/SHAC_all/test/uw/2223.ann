@@ -1,0 +1,25 @@
+T1	Tobacco 9 37	30 pack-year smoking history
+T2	StatusTime 9 37	30 pack-year smoking history
+T3	Amount 9 21	30 pack-year
+T4	Alcohol 43 69	a previously heavy drinker
+T5	StatusTime 39 42	Was
+T7	Drug 106 110	IVDU
+T8	StatusTime 97 105	Endorses
+T9	Employment 163 205	a caretaker for mentally disabled patients
+T10	StatusEmploy 159 162	Was
+T11	Type 163 205	a caretaker for mentally disabled patients
+T12	LivingStatus 207 225	Currently homeless
+T13	StatusTime 207 225	Currently homeless
+T14	TypeLiving 207 225	Currently homeless
+E1	Tobacco:T1 Status:T2 Amount:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T7 Status:T8 Method:T6
+E4	Employment:T9 Type:T11 Status:T10
+E5	LivingStatus:T12 Status:T13 Type:T14
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 past
+A4	StatusTimeVal T8 current
+A5	StatusEmployVal T10 unemployed
+A6	StatusTimeVal T13 current
+A7	TypeLivingVal T14 homeless
+T6	Method 106 110	IVDU

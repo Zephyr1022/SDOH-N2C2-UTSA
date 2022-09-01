@@ -1,0 +1,32 @@
+T1	Employment 35 45	Occupation
+T2	StatusEmploy 47 68	retired Administrator
+T3	Type 47 68	retired Administrator
+T4	Tobacco 102 112	Cigarettes
+T5	Type 102 112	Cigarettes
+T6	StatusTime 121 127	no [x]
+T7	Tobacco 135 152	Other Tobacco use
+T8	Type 135 140	Other
+T9	StatusTime 154 158	none
+T10	Alcohol 159 163	ETOH
+T11	Amount 165 172	1 drink
+T12	Frequency 172 177	/week
+T13	StatusTime 165 177	1 drink/week
+T14	Drug 178 194	Illicit drug use
+T15	Type 178 185	Illicit
+T16	StatusTime 196 200	None
+T17	LivingStatus 16 21	Lives
+T18	StatusTime 16 21	Lives
+T19	TypeLiving 22 34	with: single
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Type:T8 Status:T9
+E4	Alcohol:T10 Amount:T11 Frequency:T12 Status:T13
+E5	Drug:T14 Type:T15 Status:T16
+E6	LivingStatus:T17 Status:T18 Type:T19
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T13 current
+A5	StatusTimeVal T16 none
+A6	StatusTimeVal T18 current
+A7	TypeLivingVal T19 alone

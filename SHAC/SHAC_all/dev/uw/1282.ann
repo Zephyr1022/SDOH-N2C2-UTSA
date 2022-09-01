@@ -1,0 +1,21 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 35	3 cigarrettes
+T3	Type 24 35	cigarrettes
+T4	Frequency 36 43	per day
+T5	StatusTime 22 43	3 cigarrettes per day
+T6	Alcohol 46 57	Alcohol Use
+T7	StatusTime 59 63	none
+T8	Drug 66 74	Drug Use
+T9	StatusTime 76 80	none
+T10	LivingStatus 99 108	Residence
+T11	TypeLiving 116 132	with Grandfather
+T12	StatusTime 110 115	Lives
+E1	Tobacco:T1 Type:T3 Amount:T2 Status:T5 Frequency:T4
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Status:T9
+E4	LivingStatus:T10 Type:T11 Status:T12
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T9 none
+A4	TypeLivingVal T11 with_family
+A5	StatusTimeVal T12 current

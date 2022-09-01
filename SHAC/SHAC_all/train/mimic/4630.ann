@@ -1,0 +1,32 @@
+T1	LivingStatus 16 24	Homeless
+T2	TypeLiving 16 24	Homeless
+T3	Duration 25 31	x2 yrs
+T4	StatusTime 16 24	Homeless
+T5	LivingStatus 71 75	wife
+T6	TypeLiving 47 75	daughter [**2114**] and wife
+T7	StatusTime 76 85;86 89	threw him out
+T8	Alcohol 110 117	alcohol
+T10	StatusTime 96 101	began
+T11	Drug 119 148	benzodiazepines, crystal meth
+T12	Type 119 148	benzodiazepines, crystal meth
+T13	Alcohol 157 168	alcohol use
+T14	StatusTime 150 156	Denies
+T15	History 169 189	since [**2116-3-2**]
+T16	Tobacco 191 197	Smokes
+T17	Amount 198 203	a few
+T18	Type 204 214	cigarettes
+T19	Frequency 215 220	daily
+T20	StatusTime 191 197	Smokes
+E1	LivingStatus:T1 Type:T2 Duration:T3 Status:T4
+E2	LivingStatus:T5 Type:T6 Status:T7
+E3	Alcohol:T8 Status:T10
+E4	Drug:T11 Type:T12 Status:T10
+E5	Alcohol:T13 Status:T14 History:T15
+E6	Tobacco:T16 Amount:T17 Type:T18 Frequency:T19 Status:T20
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T7 past
+A6	StatusTimeVal T10 current
+A7	StatusTimeVal T14 past
+A8	StatusTimeVal T20 current

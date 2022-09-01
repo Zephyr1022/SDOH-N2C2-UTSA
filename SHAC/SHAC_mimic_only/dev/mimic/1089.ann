@@ -1,0 +1,8 @@
+T1	Tobacco 16 22	smoked
+T2	Amount 23 28	1 PPD
+T3	Duration 43 53	x 15 years
+T4	StatusTime 55 59	quit
+T5	History 60 72	20 years ago
+T6	Type 30 42	cigars, pipe
+E1	Tobacco:T1 Amount:T2 Type:T6 Duration:T3 Status:T4 History:T5
+A1	StatusTimeVal T4 past

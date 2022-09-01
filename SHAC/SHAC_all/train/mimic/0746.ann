@@ -1,0 +1,4 @@
+T1	Employment 16 23	Retired
+T2	StatusEmploy 16 23	Retired
+E1	Employment:T1 Status:T2
+A1	StatusEmployVal T2 retired

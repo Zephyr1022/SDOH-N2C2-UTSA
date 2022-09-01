@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 31	with wife
+T4	Employment 57 86	Retired college administrator
+T5	StatusEmploy 57 86	Retired college administrator
+T6	Type 57 86	Retired college administrator
+T7	Tobacco 135 140;141 147	Prior smoker
+T8	Amount 148 161	20 pack years
+T9	StatusTime 163 167	quit
+T10	History 168 180	20 years ago
+T11	Alcohol 183 199	Rare alcohol use
+T12	StatusTime 183 199	Rare alcohol use
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Amount:T8 Status:T9 History:T10
+E4	Alcohol:T11 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T12 current

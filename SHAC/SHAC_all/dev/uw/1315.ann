@@ -1,0 +1,21 @@
+T1	LivingStatus 28 33	lives
+T2	TypeLiving 60 87	with his parents and sister
+T3	StatusTime 28 33	lives
+T4	Tobacco 290 296	smoker
+T5	StatusTime 281 289	Previous
+T6	Alcohol 323 327	ETOH
+T7	Drug 331 339	drug use
+T8	StatusTime 316 322	Denies
+T9	Employment 350 369	previously employed
+T10	Type 373 384	an engineer
+T11	StatusEmploy 350 360	previously
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T8
+E4	Drug:T7 Status:T8
+E5	Employment:T9 Type:T10 Status:T11
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T8 none
+A5	StatusEmployVal T11 unemployed

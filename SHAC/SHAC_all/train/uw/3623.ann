@@ -1,0 +1,22 @@
+T2	StatusTime 4 9	Lives
+T3	TypeLiving 10 18	in an RV
+T1	LivingStatus 4 9	Lives
+T4	Tobacco 35 41	Smokes
+T5	StatusTime 35 41	Smokes
+T6	Amount 42 65	a half pack to one pack
+T7	Frequency 80 87	per day
+T8	Type 69 79	cigarettes
+T9	Drug 102 110	illicits
+T10	Type 102 110	illicits
+T11	StatusTime 88 94	Denies
+T12	Alcohol 126 133	alcohol
+T13	StatusTime 111 125	Does not drink
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T5 Amount:T6 Type:T8 Frequency:T7
+E3	Drug:T9 Status:T11 Type:T10
+E4	Alcohol:T12 Status:T13
+A2	StatusTimeVal T2 current
+A3	TypeLivingVal T3 homeless
+A1	StatusTimeVal T5 current
+A4	StatusTimeVal T11 none
+A5	StatusTimeVal T13 none

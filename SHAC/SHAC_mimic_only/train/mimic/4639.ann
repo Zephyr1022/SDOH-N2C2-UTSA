@@ -1,0 +1,26 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 49	with: Wife, dtr, son in law
+T3	StatusTime 16 21	Lives
+T4	Employment 100 107	Retired
+T5	StatusEmploy 100 107	Retired
+T6	Tobacco 192 202	Cigarettes
+T7	Type 192 202	Cigarettes
+T8	StatusTime 211 217	no [x]
+T9	Alcohol 269 273	ETOH
+T10	Amount 275 284	< 1 drink
+T11	Frequency 284 289	/week
+T12	StatusTime 275 289	< 1 drink/week
+T13	Drug 338 354	Illicit drug use
+T14	Type 338 345	Illicit
+T15	StatusTime 357 361	none
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Type:T7 Status:T8
+E4	Alcohol:T9 Amount:T10 Frequency:T11 Status:T12
+E5	Drug:T13 Type:T14 Status:T15
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T12 current
+A6	StatusTimeVal T15 none

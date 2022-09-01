@@ -1,0 +1,11 @@
+T1	Employment 265 269	work
+T2	StatusEmploy 257 264	used to
+T3	Type 273 284	a carpenter
+T4	Tobacco 317 324	smoking
+T5	Alcohol 328 336	etoh use
+T6	StatusTime 310 316	denies
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T6
+E3	Alcohol:T5 Status:T6
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T6 none

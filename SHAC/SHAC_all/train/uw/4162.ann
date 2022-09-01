@@ -1,0 +1,35 @@
+T1	LivingStatus 49 65	Living situation
+T2	StatusTime 68 73	Lives
+T3	TypeLiving 74 96	with significant other
+T4	LivingStatus 99 104	Lives
+T5	TypeLiving 105 118	with children
+T6	StatusTime 99 104	Lives
+T7	LivingStatus 143 148	Lives
+T8	StatusTime 143 148	Lives
+T9	TypeLiving 149 179	with others (mother and father
+T10	Employment 183 193	Employment
+T11	StatusEmploy 196 206	Unemployed
+T12	Tobacco 209 220	Tobacco use
+T13	StatusTime 223 229	Denies
+T14	Alcohol 232 243	Alcohol use
+T15	Type 245 249	wine
+T16	StatusTime 245 249	wine
+T17	Drug 252 260	Drug use
+T18	StatusTime 263 269	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T6 Type:T5
+E3	LivingStatus:T7 Status:T8 Type:T9
+E4	Employment:T10 Status:T11
+E5	Tobacco:T12 Status:T13
+E6	Alcohol:T14 Status:T16 Type:T15
+E7	Drug:T17 Status:T18
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	TypeLivingVal T5 with_family
+A4	StatusTimeVal T6 current
+A5	StatusTimeVal T8 current
+A6	TypeLivingVal T9 with_family
+A7	StatusEmployVal T11 unemployed
+A8	StatusTimeVal T13 none
+A9	StatusTimeVal T16 current
+A10	StatusTimeVal T18 none

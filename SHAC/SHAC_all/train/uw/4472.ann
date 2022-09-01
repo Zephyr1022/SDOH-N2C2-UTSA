@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Duration 45 57	for 25 years
+T3	Amount 36 44	1-1.5ppd
+T4	StatusTime 36 57	1-1.5ppd for 25 years
+T5	Alcohol 58 69	Alcohol Use
+T6	StatusTime 71 75	none
+T7	Drug 79 87	Drug Use
+T8	StatusTime 89 103	regular MJ use
+T10	Type 97 99	MJ
+T11	Method 112 163	edibles [DATE], sometimes THC tablets, rarely smoke
+T12	Frequency 120 126	[DATE]
+T13	LivingStatus 183 192	Residence
+T14	StatusTime 194 199	lives
+T15	TypeLiving 214 226	with Husband
+E1	Tobacco:T1 Amount:T3 Status:T4 Duration:T2
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Status:T8 Type:T10 Frequency:T12 Method:T11
+E4	LivingStatus:T13 Status:T14 Type:T15
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T8 current
+A5	StatusTimeVal T14 current
+A6	TypeLivingVal T15 with_family

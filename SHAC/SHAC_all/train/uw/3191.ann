@@ -1,0 +1,27 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Method 61 66	pipes
+T4	StatusTime 21 49	intermittent, infrequent use
+T5	Alcohol 68 79	Alcohol Use
+T6	Amount 81 88	3 beers
+T7	Frequency 88 93	/week
+T8	StatusTime 81 93	3 beers/week
+T9	Drug 95 103	Drug Use
+T10	StatusTime 105 118	no history of
+T11	Type 119 147	illicit or prescription drug
+T13	LivingStatus 317 321	live
+T14	StatusTime 307 321	currently live
+T15	TypeLiving 265 269	They
+T16	Employment 381 386	works
+T17	Type 390 406	an IT consultant
+T18	StatusEmploy 381 386	works
+E1	Tobacco:T1 Status:T4 Method:T2
+E2	Alcohol:T5 Amount:T6 Frequency:T7 Status:T8
+E3	Drug:T9 Status:T10 Type:T11
+E4	LivingStatus:T13 Type:T15 Status:T14
+E5	Employment:T16 Type:T17 Status:T18
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T10 none
+A6	StatusTimeVal T14 current
+A7	TypeLivingVal T15 with_family
+A8	StatusEmployVal T18 employed

@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: 3 cigarrettes per day   Alcohol Use: none   Drug Use: none
+
+SOCIAL HISTORY: 
+Residence: Lives with Grandfather in [LOCATION], however, has been at Swedish SNF for the past month.

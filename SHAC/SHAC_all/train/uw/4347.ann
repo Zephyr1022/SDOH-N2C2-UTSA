@@ -1,0 +1,11 @@
+T1	StatusTime 81 90	Remote hx
+T2	Tobacco 94 101	smoking
+T3	History 115 125	gt30 years
+T4	LivingStatus 38 45	staying
+T5	TypeLiving 46 59	with duaghter
+T6	StatusTime 38 45	staying
+E1	Tobacco:T2 Status:T1 History:T3
+E2	LivingStatus:T4 Type:T5 Status:T6
+A1	StatusTimeVal T1 past
+A2	TypeLivingVal T5 with_family
+A3	StatusTimeVal T6 current

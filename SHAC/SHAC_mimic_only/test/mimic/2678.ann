@@ -1,0 +1,19 @@
+T1	LivingStatus 72 77	lives
+T2	StatusTime 72 77	lives
+T3	TypeLiving 78 90	with husband
+T4	Tobacco 236 251	Tobacco history
+T5	StatusTime 254 259	never
+T6	Alcohol 261 265	ETOH
+T7	StatusTime 267 271	none
+T8	Drug 273 286	Illicit drugs
+T9	Type 273 280	Illicit
+T10	StatusTime 288 292	none
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Type:T9 Status:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T10 none

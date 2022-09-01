@@ -1,0 +1,20 @@
+T1	Employment 17 33	Retired engineer
+T2	StatusEmploy 17 33	Retired engineer
+T3	Type 17 33	Retired engineer
+T4	LivingStatus 35 40	lives
+T5	TypeLiving 41 50	with wife
+T6	StatusTime 35 40	lives
+T7	Drug 90 114	intravenous drug history
+T8	Type 90 101	intravenous
+T9	StatusTime 87 89	no
+T10	Alcohol 117 129;130 133	Rare ethanol use
+T11	StatusTime 117 129;130 133	Rare ethanol use
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Type:T5 Status:T6
+E3	Drug:T7 Type:T8 Status:T9
+E4	Alcohol:T10 Status:T11
+A1	StatusEmployVal T2 retired
+A2	TypeLivingVal T5 with_family
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T11 current

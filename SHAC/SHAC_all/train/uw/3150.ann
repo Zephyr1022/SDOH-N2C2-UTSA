@@ -1,0 +1,21 @@
+T1	LivingStatus 26 32	living
+T2	StatusTime 16 32	Currently living
+T3	TypeLiving 33 52	at a friend's house
+T4	History 89 99	2 days ago
+T5	Tobacco 101 114	Former smoker
+T6	StatusTime 101 114	Former smoker
+T7	Drug 54 79	IV heroin and cocaine use
+T8	Type 57 75	heroin and cocaine
+T9	Alcohol 123 127	EtOH
+T10	StatusTime 116 122	Denies
+T11	StatusTime 80 99	reported 2 days ago
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T5 Status:T6
+E3	Drug:T7 Type:T8 History:T4 Status:T11 Method:T12
+E4	Alcohol:T9 Status:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T11 current
+T12	Method 54 56	IV

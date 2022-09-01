@@ -1,0 +1,4 @@
+T1	Tobacco 22 33	tobacco use
+T2	StatusTime 35 39	quit
+E1	Tobacco:T1 Status:T2
+A1	StatusTimeVal T2 past

@@ -1,0 +1,40 @@
+T1	Tobacco 17 24	Smoking
+T2	StatusTime 45 49	quit
+T3	History 50 57	in 1970
+T4	Alcohol 58 65	Alcohol
+T5	StatusTime 67 73	Denies
+T6	Drug 74 87	Illicit Drugs
+T7	Type 74 81	Illicit
+T8	StatusTime 89 95	Denies
+T9	LivingStatus 96 103	Housing
+T10	StatusTime 96 103	Housing
+T11	TypeLiving 105 120	Edmonds Landing
+T12	Tobacco 151 159	0Smoking
+T13	StatusTime 180 184	quit
+T14	History 185 192	in 1970
+T15	Alcohol 193 200	Alcohol
+T16	StatusTime 202 208	Denies
+T17	Drug 209 222	Illicit Drugs
+T18	StatusTime 224 230	Denies
+T19	LivingStatus 231 238	Housing
+T20	StatusTime 231 238	Housing
+T21	TypeLiving 240 258	Edmonds Landing AL
+T22	Type 209 216	Illicit
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Type:T7 Status:T8
+E4	LivingStatus:T9 Status:T10 Type:T11
+E5	Tobacco:T12 Status:T13 History:T14
+E6	Alcohol:T15 Status:T16
+E7	Drug:T17 Status:T18 Type:T22
+E8	LivingStatus:T19 Status:T20 Type:T21
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T10 current
+A5	TypeLivingVal T11 with_others
+A6	StatusTimeVal T13 past
+A7	StatusTimeVal T16 none
+A8	StatusTimeVal T18 none
+A9	StatusTimeVal T20 current
+A10	TypeLivingVal T21 with_others

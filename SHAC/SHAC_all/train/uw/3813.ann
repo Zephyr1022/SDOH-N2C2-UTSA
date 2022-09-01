@@ -1,0 +1,18 @@
+T1	Tobacco 40 47	tobacco
+T2	StatusTime 39 47	+tobacco
+T3	Alcohol 53 57	etoh
+T4	StatusTime 49 57	occ etoh
+T6	Drug 61 82	methamphetamine abuse
+T7	StatusTime 59 60	+
+T8	Type 61 76	methamphetamine
+T9	Drug 90 93	IDU
+T10	Type 90 93	IDU
+T11	StatusTime 83 89	denies
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T6 Type:T8 Status:T7
+E4	Drug:T9 Type:T10 Status:T11
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 current
+A4	StatusTimeVal T7 current
+A5	StatusTimeVal T11 none

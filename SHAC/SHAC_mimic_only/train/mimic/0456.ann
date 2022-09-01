@@ -1,0 +1,19 @@
+T1	Employment 16 21	Works
+T2	StatusEmploy 16 21	Works
+T3	Type 25 76;77 81	administration in the [**Hospital3 1810**] recovery room
+T4	Tobacco 129 140	tobacco use
+T5	StatusTime 122 128	Denies
+T6	Alcohol 151 166	recent EtOH use
+T7	StatusTime 142 150	endorses
+T8	Amount 168 177	one drink
+T9	StatusTime 191 197	denies
+T10	Drug 198 205;206 214	illicit drug use
+T11	Type 198 205	illicit
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Amount:T8 Status:T7
+E4	Drug:T10 Type:T11 Status:T9
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T9 none

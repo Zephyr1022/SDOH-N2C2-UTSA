@@ -1,0 +1,21 @@
+T1	Alcohol 16 22	Drinks
+T2	StatusTime 16 22	Drinks
+T3	Amount 23 34	10-30 beers
+T4	Type 29 34	beers
+T5	Frequency 35 40	a day
+T6	Tobacco 73 84	Tobacco use
+T7	StatusTime 73 84	Tobacco use
+T8	LivingStatus 87 92	Lives
+T9	StatusTime 87 92	Lives
+T10	TypeLiving 93 108	with housemates
+T11	Employment 128 136;137 147	receives disability
+T12	StatusEmploy 128 136;137 147	receives disability
+E1	Alcohol:T1 Status:T2 Amount:T3 Type:T4 Frequency:T5
+E2	Tobacco:T6 Status:T7
+E3	LivingStatus:T8 Status:T9 Type:T10
+E4	Employment:T11 Status:T12
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T9 current
+A4	TypeLivingVal T10 with_others
+A5	StatusEmployVal T12 on_disability

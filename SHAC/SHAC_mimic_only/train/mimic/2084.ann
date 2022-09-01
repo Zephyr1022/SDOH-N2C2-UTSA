@@ -1,0 +1,17 @@
+T1	Tobacco 22 29	smoking
+T2	Alcohol 31 38	alcohol
+T4	StatusTime 39 46	history
+T5	Employment 75 81	Worked
+T7	Type 86 106	commission for blind
+T8	History 107 115	long ago
+T6	StatusEmploy 75 81	Worked
+T9	Drug 49 60	Former IVDU
+T10	StatusTime 49 60	Former IVDU
+T11	Method 56 60	IVDU
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T4
+E3	Employment:T5 Status:T6 Type:T7 History:T8
+E4	Drug:T9 Status:T10 Method:T11
+A2	StatusTimeVal T4 current
+A3	StatusEmployVal T6 unemployed
+A4	StatusTimeVal T10 past

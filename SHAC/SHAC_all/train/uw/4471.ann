@@ -1,0 +1,44 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	Smokes
+T3	Amount 29 37	one pack
+T4	Type 41 51	cigarettes
+T5	Frequency 52 57	a day
+T6	Alcohol 143 154	Alcohol Use
+T7	Amount 164 176	a few drinks
+T8	Frequency 177 198	a couple times a week
+T9	StatusTime 164 198	a few drinks a couple times a week
+T10	Drug 361 369	Drug Use
+T11	StatusTime 371 377	Denies
+T12	LivingStatus 435 444	Residence
+T13	StatusTime 467 490	for the last 3-4 months
+T14	Duration 467 490	for the last 3-4 months
+T15	TypeLiving 458 466	homeless
+T17	StatusTime 201 217	Denies continues
+T16	Alcohol 218 235	alcohol ingestion
+T18	Alcohol 250 260	Last drink
+T19	StatusTime 265 277	this morning
+T20	LivingStatus 533 546	Blaine Center
+T21	TypeLiving 533 546	Blaine Center
+T22	StatusTime 547 567	for the last 3 weeks
+T23	Duration 547 567	for the last 3 weeks
+T24	Employment 577 581	work
+T25	StatusEmploy 569 576	Used to
+T26	Type 585 598	a dock worker
+E1	Tobacco:T1 Status:T2 Amount:T3 Type:T4 Frequency:T5
+E2	Alcohol:T6 Amount:T7 Frequency:T8 Status:T9
+E3	Drug:T10 Status:T11
+E4	LivingStatus:T12 Type:T15 Duration:T14 Status:T13
+E5	Alcohol:T16 Status:T17
+E6	Alcohol:T18 Status:T19
+E7	LivingStatus:T20 Type:T21 Status:T22 Duration:T23
+E8	Employment:T24 Status:T25 Type:T26
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T9 current
+A3	StatusTimeVal T11 none
+A4	StatusTimeVal T13 current
+A5	TypeLivingVal T15 homeless
+A6	StatusTimeVal T17 past
+A7	StatusTimeVal T19 current
+A8	TypeLivingVal T21 homeless
+A9	StatusTimeVal T22 current
+A10	StatusEmployVal T25 unemployed

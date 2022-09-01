@@ -1,0 +1,18 @@
+T1	Tobacco 19 34	tobacco history
+T2	StatusTime 16 18	No
+T3	Employment 82 87	Works
+T4	StatusEmploy 82 87	Works
+T5	Type 91 113	the [**Company 3596**]
+T6	Drug 122 139	recreatinal drugs
+T7	StatusTime 115 121	Denies
+T8	Type 122 133	recreatinal
+T9	Alcohol 53 57	ETOH
+T10	StatusTime 36 42	Denies
+E1	Tobacco:T1 Status:T2
+E2	Employment:T3 Status:T4 Type:T5
+E3	Drug:T6 Type:T8 Status:T7
+E4	Alcohol:T9 Status:T10
+A1	StatusTimeVal T2 none
+A2	StatusEmployVal T4 employed
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T10 none

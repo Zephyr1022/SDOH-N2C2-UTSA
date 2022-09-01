@@ -1,0 +1,22 @@
+T1	Drug 21 25	IVDA
+T2	StatusTime 16 20	+ hx
+T3	History 38 52	for >1.5 years
+T4	Alcohol 54 58	ETOH
+T5	StatusTime 54 58	ETOH
+T6	Tobacco 64 71	smoking
+T7	StatusTime 59 63	quit
+T8	History 72 84	2 months ago
+T9	Amount 86 98	40 pack year
+T10	LivingStatus 102 107	lives
+T11	TypeLiving 132 137	alone
+T12	StatusTime 102 107	lives
+E1	Drug:T1 Status:T2 History:T3 Method:T13
+E2	Alcohol:T4 Status:T5
+E3	Tobacco:T6 Status:T7 History:T8 Amount:T9
+E4	LivingStatus:T10 Type:T11 Status:T12
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 past
+A4	TypeLivingVal T11 alone
+A5	StatusTimeVal T12 current
+T13	Method 21 25	IVDA

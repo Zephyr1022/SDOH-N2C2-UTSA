@@ -1,0 +1,17 @@
+T1	LivingStatus 99 104	lives
+T2	TypeLiving 105 120	with son [NAME]
+T3	StatusTime 99 104	lives
+T6	Tobacco 16 23	tobacco
+T7	History 24 37	for 1-2 years
+T8	StatusTime 9 15	remote
+T9	Alcohol 42 49	alcohol
+T10	Drug 53 58	drugs
+T11	StatusTime 39 41	no
+E1	LivingStatus:T1 Type:T2 Status:T3
+E3	Tobacco:T6 Status:T8 History:T7
+E4	Alcohol:T9 Status:T11
+E5	Drug:T10 Status:T11
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T8 past
+A4	StatusTimeVal T11 none

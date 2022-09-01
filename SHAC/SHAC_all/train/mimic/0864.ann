@@ -1,0 +1,29 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 32	with: wife
+T4	Employment 131 138	retired
+T5	StatusEmploy 131 138	retired
+T6	Type 144 155	real estate
+T7	Tobacco 172 182	Cigarettes
+T8	Type 172 182	Cigarettes
+T9	StatusTime 191 197	no [X]
+T10	Alcohol 263 267	ETOH
+T11	StatusTime 296 321	[**3-6**] drinks/week [X]
+T12	Amount 296 312	[**3-6**] drinks
+T13	Frequency 312 317	/week
+T14	Tobacco 230 231;232 237;238 243	1 cigar daily
+T15	Amount 230 231;232 237	1 cigar
+T16	Frequency 238 243	daily
+T17	StatusTime 230 231;232 237;238 243	1 cigar daily
+T18	Type 232 237	cigar
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Type:T8 Status:T9
+E4	Alcohol:T10 Status:T11 Amount:T12 Frequency:T13
+E5	Tobacco:T14 Status:T17 Amount:T15 Type:T18 Frequency:T16
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T11 current
+A6	StatusTimeVal T17 current

@@ -1,0 +1,5 @@
+T1	Drug 81 92	cocaine use
+T2	Type 81 88	cocaine
+T3	StatusTime 70 77	History
+E1	Drug:T1 Type:T2 Status:T3
+A1	StatusTimeVal T3 current

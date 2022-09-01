@@ -1,0 +1,40 @@
+T1	Drug 43 62	polysubstance abuse
+T2	StatusTime 31 39	has a hx
+T3	Alcohol 154 161	alcohol
+T4	Drug 163 194	stimulants, benzos, ecstacy, MJ
+T5	Type 163 194	stimulants, benzos, ecstacy, MJ
+T6	StatusTime 195 197;198 206	in the past
+T7	Tobacco 359 366	smoking
+T8	StatusTime 342 358	Recently started
+T9	LivingStatus 371 381	group home
+T10	TypeLiving 368 381	In group home
+T11	Duration 382 394;395 403	for the past 100 days
+T12	StatusTime 368 381	In group home
+T13	Drug 628 652	Occasional marijuana use
+T14	StatusTime 628 652	Occasional marijuana use
+T15	Type 639 648	marijuana
+T16	Employment 721 728	working
+T17	StatusEmploy 717 728	Was working
+T18	Type 732 751	[**Company 86694**]
+T19	History 780 795	until 1 yar ago
+T20	Alcohol 585 590	drink
+T21	StatusTime 579 584;585 590	would drink
+T22	Amount 591 609	[**4-10**] glasses
+T23	Type 613 617	wine
+T24	Frequency 618 626	1x/month
+E1	Drug:T1 Status:T2
+E2	Alcohol:T3 Status:T6
+E3	Drug:T4 Type:T5 Status:T6
+E4	Tobacco:T7 Status:T8
+E5	LivingStatus:T9 Status:T12 Type:T10 Duration:T11
+E6	Drug:T13 Status:T14 Type:T15
+E7	Employment:T16 Status:T17 Type:T18 History:T19
+E8	Alcohol:T20 Status:T21 Amount:T22 Type:T23 Frequency:T24
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T8 current
+A4	TypeLivingVal T10 with_others
+A5	StatusTimeVal T12 current
+A6	StatusTimeVal T14 current
+A7	StatusEmployVal T17 unemployed
+A8	StatusTimeVal T21 past

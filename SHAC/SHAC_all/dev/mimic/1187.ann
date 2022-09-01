@@ -1,0 +1,13 @@
+T1	Tobacco 168 175	smoking
+T2	StatusTime 154 164	No history
+T3	Alcohol 185 204	occassional alcohol
+T5	StatusTime 185 204	occassional alcohol
+T6	Employment 244 251	working
+T8	Type 255 269	a receptionist
+T7	StatusEmploy 229 243	Previously was
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T5
+E3	Employment:T6 Status:T7 Type:T8
+A1	StatusTimeVal T2 none
+A3	StatusTimeVal T5 current
+A4	StatusEmployVal T7 unemployed

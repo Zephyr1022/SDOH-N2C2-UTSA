@@ -1,0 +1,32 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 26 38	the Morrison
+T3	StatusTime 17 22	Lives
+T4	Duration 78 84	3 days
+T5	LivingStatus 90 108	previously staying
+T6	StatusTime 90 100	previously
+T7	TypeLiving 109 122	with a friend
+T8	Drug 139 144	Clean
+T9	StatusTime 139 144	Clean
+T10	Type 180 188	meth use
+T11	History 159 172	last 7 months
+T12	Alcohol 149 154	sober
+T13	StatusTime 149 154	sober
+T14	Tobacco 199 205	smoker
+T15	Amount 191 198	1/2 ppd
+T16	StatusTime 191 205	1/2 ppd smoker
+T17	Alcohol 209 217	etoh use
+T18	StatusTime 206 208	No
+E1	LivingStatus:T1 Type:T2 Status:T3 Duration:T4
+E2	LivingStatus:T5 Status:T6 Type:T7
+E3	Drug:T8 Status:T9 Type:T10 History:T11
+E4	Alcohol:T12 Status:T13 History:T11
+E5	Tobacco:T14 Amount:T15 Status:T16
+E6	Alcohol:T17 Status:T18
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 past
+A4	TypeLivingVal T7 with_others
+A5	StatusTimeVal T9 past
+A6	StatusTimeVal T13 past
+A7	StatusTimeVal T16 current
+A8	StatusTimeVal T18 none

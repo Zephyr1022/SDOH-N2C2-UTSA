@@ -1,0 +1,22 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 32	never user
+T3	Alcohol 35 46	Alcohol Use
+T4	StatusTime 48 52	none
+T5	Drug 55 63	Drug Use
+T6	StatusTime 65 69	none
+T7	LivingStatus 88 93	Lives
+T8	StatusTime 88 93	Lives
+T9	TypeLiving 94 132	with his family (including 6 children)
+T10	Employment 165 186	Not currently working
+T11	StatusEmploy 165 186	Not currently working
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Status:T8 Type:T9
+E5	Employment:T10 Status:T11
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 with_family
+A6	StatusEmployVal T11 unemployed

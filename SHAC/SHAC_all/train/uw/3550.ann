@@ -1,0 +1,27 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	former
+T3	Alcohol 30 41	Alcohol Use
+T4	Frequency 43 48	daily
+T5	Amount 49 60	10-13 beers
+T6	Type 55 60	beers
+T7	Drug 62 70	Drug Use
+T8	StatusTime 72 76	none
+T9	StatusTime 43 48	daily
+T10	LivingStatus 95 104	Residence
+T11	StatusTime 106 115	Currently
+T12	TypeLiving 116 124	homeless
+T13	LivingStatus 126 133	staying
+T14	TypeLiving 137 146	a shelter
+T15	StatusTime 126 133	staying
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Frequency:T4 Amount:T5 Type:T6 Status:T9
+E3	Drug:T7 Status:T8
+E4	LivingStatus:T10 Status:T11 Type:T12
+E5	LivingStatus:T13 Type:T14 Status:T15
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T8 none
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 homeless
+A6	TypeLivingVal T14 homeless
+A7	StatusTimeVal T15 current

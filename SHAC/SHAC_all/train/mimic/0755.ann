@@ -1,0 +1,18 @@
+T1	Employment 16 23	Retired
+T2	StatusEmploy 16 23	Retired
+T3	Type 59 74	shipyard worker
+T4	LivingStatus 76 81	Lives
+T5	StatusTime 76 81	Lives
+T6	TypeLiving 105 118	with his wife
+T7	Alcohol 150 155	Drank
+T8	Amount 156 174	[**11-24**] scotch
+T9	Type 168 174	scotch
+T10	Frequency 175 182	per day
+T12	StatusTime 156 182	[**11-24**] scotch per day
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Alcohol:T7 Amount:T8 Type:T9 Frequency:T10 Status:T12
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T12 current

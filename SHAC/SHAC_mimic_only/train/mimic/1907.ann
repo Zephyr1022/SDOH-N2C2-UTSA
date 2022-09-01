@@ -1,0 +1,13 @@
+T1	Employment 73 79	Worked
+T2	StatusEmploy 73 79	Worked
+T3	History 116 132	until [**2187**]
+T4	Type 83 95;96 115	limited care and family services
+T5	LivingStatus 145 174	[**Doctor Last Name **] House
+T6	TypeLiving 145 174	[**Doctor Last Name **] House
+T7	Duration 175 182;183 241;242 248	shortly after her right hemiparesis secondary to a brachial plexus injury
+T8	StatusTime 134 144	Moved into
+E1	Employment:T1 Type:T4 Status:T2 History:T3
+E2	LivingStatus:T5 Type:T6 Duration:T7 Status:T8
+A1	StatusEmployVal T2 unemployed
+A2	TypeLivingVal T6 with_others
+A3	StatusTimeVal T8 current

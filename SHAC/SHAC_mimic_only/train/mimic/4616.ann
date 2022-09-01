@@ -1,0 +1,31 @@
+T1	LivingStatus 97 112	Currently lives
+T2	TypeLiving 113 125	with brother
+T3	StatusTime 97 106	Currently
+T4	Employment 151 156	works
+T5	Type 160 168	junkyard
+T6	StatusEmploy 151 156	works
+T7	Alcohol 173 177	EtOH
+T8	Tobacco 183 194	tobacco use
+T9	StatusTime 179 182	h/o
+T10	StatusTime 170 172	No
+T11	Drug 203 221	IVDU, rec drug use
+T12	Type 209 212	rec
+T13	Method 203 207	IVDU
+T14	StatusTime 196 202	Denies
+T15	LivingStatus 338 343	lives
+T16	TypeLiving 313 324	his brother
+T17	StatusTime 338 343	lives
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	Alcohol:T7 Status:T10
+E4	Tobacco:T8 Status:T9
+E5	Drug:T11 Type:T12 Method:T13 Status:T14
+E6	LivingStatus:T15 Type:T16 Status:T17
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T6 employed
+A4	StatusTimeVal T9 current
+A5	StatusTimeVal T10 none
+A6	StatusTimeVal T14 none
+A7	TypeLivingVal T16 with_family
+A8	StatusTimeVal T17 current

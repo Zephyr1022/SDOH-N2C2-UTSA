@@ -1,0 +1,16 @@
+T1	Tobacco 6 9	tob
+T2	StatusTime 5 6	+
+T3	Alcohol 33 37	etoh
+T4	Drug 41 45	ivdu
+T5	StatusTime 26 32	denies
+T6	Employment 47 66	[PROFESSION] worker
+T7	Type 47 66	[PROFESSION] worker
+T8	StatusEmploy 47 66	[PROFESSION] worker
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T5
+E3	Drug:T4 Status:T5 Method:T9
+E4	Employment:T6 Status:T8 Type:T7
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 none
+A3	StatusEmployVal T8 employed
+T9	Method 41 45	ivdu

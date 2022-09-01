@@ -1,0 +1,5 @@
+T1	Type 26 50	Price Waterhouse Coopers
+T2	Employment 20 24	Work
+T3	StatusEmploy 20 24	Work
+E1	Employment:T2 Status:T3 Type:T1
+A1	StatusEmployVal T3 employed

@@ -1,0 +1,22 @@
+T1	Alcohol 85 93	EtOH use
+T3	Amount 107 117	two drinks
+T4	Frequency 117 123	/month
+T6	StatusTime 103 106	now
+T7	Amount 53 67	100+ pack year
+T8	Tobacco 68 75	smoking
+T9	StatusTime 76 83	history
+T10	LivingStatus 16 21	Lives
+T11	StatusTime 16 21	Lives
+T12	TypeLiving 22 51	in JP in [**Hospital3 4634**]
+T13	Employment 125 144	Former truck driver
+T14	StatusEmploy 125 144	Former truck driver
+T15	Type 125 144	Former truck driver
+E1	Alcohol:T1 Amount:T3 Status:T6 Frequency:T4
+E3	Tobacco:T8 Amount:T7 Status:T9
+E4	LivingStatus:T10 Type:T12 Status:T11
+E5	Employment:T13 Status:T14 Type:T15
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 with_others
+A6	StatusEmployVal T14 unemployed

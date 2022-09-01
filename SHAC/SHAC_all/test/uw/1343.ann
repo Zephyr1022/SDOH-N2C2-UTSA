@@ -1,0 +1,20 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 27 38	Alcohol Use
+T3	StatusTime 22 24	no
+T4	StatusTime 40 42	no
+T5	Drug 45 53	Drug Use
+T6	StatusTime 55 63	mj daily
+T7	Type 55 57	mj
+T8	LivingStatus 128 137	Residence
+T9	TypeLiving 159 166	with GF
+T10	StatusTime 139 144	lives
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T2 Status:T4
+E3	Drug:T5 Type:T7 Status:T6 Frequency:T11
+E4	LivingStatus:T8 Type:T9 Status:T10
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 current
+A4	TypeLivingVal T9 with_others
+A5	StatusTimeVal T10 current
+T11	Frequency 58 63	daily

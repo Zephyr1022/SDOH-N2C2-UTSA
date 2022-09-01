@@ -1,0 +1,18 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 35	Former smoker
+T3	Alcohol 54 65	Alcohol Use
+T4	StatusTime 67 73	Denies
+T5	Drug 75 83	Drug Use
+T6	StatusTime 85 91	Denies
+T7	LivingStatus 156 165	Residence
+T8	TypeLiving 167 175	Homeless
+T9	StatusTime 167 175	Homeless
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Type:T8 Status:T9
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	TypeLivingVal T8 homeless
+A5	StatusTimeVal T9 current

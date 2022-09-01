@@ -1,0 +1,28 @@
+T1	LivingStatus 36 41	lives
+T2	TypeLiving 42 55	with his wife
+T3	StatusTime 36 41	lives
+T4	StatusTime 97 104	Current
+T5	Amount 105 110	1 PPD
+T6	Tobacco 111 117	smoker
+T7	Duration 118 128	x 30 years
+T8	Alcohol 139 148	alcoholic
+T9	StatusTime 130 138	Previous
+T10	Alcohol 172 176	EtOH
+T11	StatusTime 164 171	current
+T12	Amount 177 186	2-3 beers
+T13	Frequency 186 190	/day
+T14	Type 181 186	beers
+T15	Employment 196 204	disabled
+T16	StatusEmploy 196 204	disabled
+T17	Type 213 232	construction worker
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T6 Amount:T5 Status:T4 Duration:T7
+E3	Alcohol:T8 Status:T9
+E4	Alcohol:T10 Status:T11 Amount:T12 Frequency:T13 Type:T14
+E5	Employment:T15 Status:T16 Type:T17
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T4 current
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T11 current
+A6	StatusEmployVal T16 on_disability

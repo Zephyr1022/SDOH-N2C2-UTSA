@@ -1,0 +1,13 @@
+T1	Drug 57 67	heroin use
+T2	Type 57 63	heroin
+T3	StatusTime 39 56	remote history of
+T4	Tobacco 87 94	smoking
+T5	StatusTime 80 86	denies
+T6	Alcohol 120 126	drinks
+T8	StatusTime 120 126	drinks
+E1	Drug:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T8
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T5 none
+A4	StatusTimeVal T8 current

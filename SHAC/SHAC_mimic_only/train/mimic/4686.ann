@@ -1,0 +1,37 @@
+T2	TypeLiving 45 62	with two children
+T1	LivingStatus 16 21	Lives
+T3	StatusTime 16 21	Lives
+T4	Employment 112 117	Works
+T5	StatusEmploy 112 117	Works
+T7	Alcohol 245 252	alcohol
+T10	StatusTime 226 244	Currently consumes
+T8	Frequency 253 263	3-4x/month
+T9	Amount 265 274	~3 drinks
+T11	Alcohol 300 308	drinking
+T12	Amount 309 316	a fifth
+T13	Type 320 327	whiskey
+T14	Frequency 328 333	daily
+T15	History 334 352;353 363	until cutting back 1 year ago
+T16	StatusTime 334 352;353 363	until cutting back 1 year ago
+T17	Tobacco 372 379	tobacco
+T18	Drug 383 391	illicits
+T19	Type 383 391	illicits
+T20	StatusTime 365 371	Denies
+T21	Alcohol 511 519	ETOH use
+T23	StatusTime 460 468	drinking
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5 Type2:T25 Type3:T24
+E3	Alcohol:T7 Status:T10 Frequency:T8 Amount:T9
+E4	Alcohol:T11 Amount:T12 Type:T13 Frequency:T14 History:T15 Status:T16
+E5	Tobacco:T17 Status:T20
+E6	Drug:T18 Type:T19 Status:T20
+E7	Alcohol:T21 Status:T23
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T16 past
+A6	StatusTimeVal T20 none
+A7	StatusTimeVal T23 current
+T24	Type 152 173	Accounts Payable Dept
+T25	Type 189 200	Holiday Inn

@@ -1,0 +1,47 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 38	Currently smokes
+T3	Amount 39 47	1.5 pack
+T4	Frequency 48 55	per day
+T5	Tobacco 57 74	Previoulsy smoked
+T6	StatusTime 57 74	Previoulsy smoked
+T7	Amount 75 88	about 2 packs
+T8	Frequency 89 96	per day
+T9	Tobacco 102 108	smoked
+T10	Duration 109 121	since age 14
+T11	StatusTime 98 108	Has smoked
+T12	Tobacco 163 178	smoking history
+T13	Amount 123 162	Significantly greater than 50 pack year
+T14	StatusTime 123 178	Significantly greater than 50 pack year smoking history
+T15	Alcohol 179 190	Alcohol Use
+T16	StatusTime 192 202	Occasional
+T18	Drug 203 211	Drug Use
+T19	StatusTime 213 226	Marijuana use
+T20	Type 213 226	Marijuana use
+T21	Drug 235 251	illicit drug use
+T22	Type 235 242	illicit
+T23	StatusTime 228 234	Denies
+T24	LivingStatus 271 280	Residence
+T25	StatusTime 282 287	Lives
+T26	TypeLiving 288 300	with husband
+T27	Employment 311 324	on disability
+T28	StatusEmploy 311 324	on disability
+T29	History 325 335	since 1982
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4
+E2	Tobacco:T5 Status:T6 Amount:T7 Frequency:T8
+E3	Tobacco:T9 Status:T11 Duration:T10
+E4	Tobacco:T12 Status:T14 Amount:T13
+E5	Alcohol:T15 Status:T16
+E6	Drug:T18 Status:T19 Type:T20
+E7	Drug:T21 Status:T23 Type:T22
+E8	LivingStatus:T24 Status:T25 Type:T26
+E9	Employment:T27 Status:T28 History:T29
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T11 current
+A4	StatusTimeVal T14 current
+A5	StatusTimeVal T16 current
+A7	StatusTimeVal T19 current
+A8	StatusTimeVal T23 none
+A9	StatusTimeVal T25 current
+A10	TypeLivingVal T26 with_family
+A11	StatusEmployVal T28 on_disability

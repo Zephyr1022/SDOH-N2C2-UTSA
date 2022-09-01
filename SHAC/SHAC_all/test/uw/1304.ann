@@ -1,0 +1,22 @@
+T1	Employment 45 50	Works
+T2	Type 54 100	an afterschool program for elementary children
+T3	StatusEmploy 45 50	Works
+T4	Tobacco 130 137	Tobacco
+T5	Amount 139 153	1-2 cigarettes
+T6	Type 143 153	cigarettes
+T7	Frequency 154 163	per month
+T8	StatusTime 139 163	1-2 cigarettes per month
+T9	Alcohol 164 171	Alcohol
+T10	Amount 173 177	once
+T11	Frequency 178 187	per month
+T12	StatusTime 173 187	once per month
+T13	Drug 188 193	Drugs
+T14	StatusTime 195 201	denies
+E1	Employment:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Type:T6 Amount:T5 Frequency:T7 Status:T8
+E3	Alcohol:T9 Amount:T10 Frequency:T11 Status:T12
+E4	Drug:T13 Status:T14
+A1	StatusEmployVal T3 employed
+A2	StatusTimeVal T8 current
+A3	StatusTimeVal T12 current
+A4	StatusTimeVal T14 none

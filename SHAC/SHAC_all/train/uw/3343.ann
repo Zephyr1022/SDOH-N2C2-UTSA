@@ -1,0 +1,18 @@
+T1	Tobacco 40 47	Tobacco
+T2	Alcohol 56 60	EtOH
+T3	Drug 79 84	Drugs
+T4	StatusTime 49 55	Denies
+T5	StatusTime 62 78	Denies currently
+T6	StatusTime 86 102	Denies currently
+T7	LivingStatus 27 39	incarcerated
+T8	TypeLiving 27 39	incarcerated
+T9	StatusTime 17 39	Currently incarcerated
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T5
+E3	Drug:T3 Status:T6
+E4	LivingStatus:T7 Type:T8 Status:T9
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T6 past
+A4	TypeLivingVal T8 with_others
+A5	StatusTimeVal T9 current

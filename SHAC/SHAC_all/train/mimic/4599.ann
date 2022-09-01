@@ -1,0 +1,27 @@
+T1	LivingStatus 24 29	lives
+T2	TypeLiving 30 43	with his wife
+T3	StatusTime 24 29	lives
+T4	Tobacco 90 91;92 96	4 pack
+T5	Amount 90 91;92 96	4 pack
+T6	Frequency 97 104	per day
+T7	Duration 105 119	times 35 years
+T8	StatusTime 122 126	Quit
+T9	History 127 140	in [**2112**]
+T10	Employment 143 152	Served in
+T11	StatusEmploy 143 149	Served
+T15	Alcohol 258 265;266 277	alcohol consumption
+T16	StatusTime 247 257	No current
+T17	Drug 297 313	illicit drug use
+T18	Type 297 304	illicit
+T19	StatusTime 280 296	Denies any other
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Amount:T5 Frequency:T6 Duration:T7 Status:T8 History:T9
+E3	Employment:T10 Status:T11
+E5	Alcohol:T15 Status:T16
+E6	Drug:T17 Type:T18 Status:T19
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T8 past
+A4	StatusEmployVal T11 unemployed
+A6	StatusTimeVal T16 none
+A7	StatusTimeVal T19 none

@@ -1,0 +1,18 @@
+T1	Drug 68 72	IVDU
+T2	Method 68 72	IVDU
+T3	StatusTime 57 67	history of
+T4	Drug 34 46	opiate abuse
+T5	Type 34 40	opiate
+T7	Duration 47 55	x5 years
+T8	StatusTime 31 33	no
+T9	Amount 81 95	2.5 cigarettes
+T10	Type 85 95	cigarettes
+T11	Tobacco 85 95	cigarettes
+T12	Frequency 95 99	/day
+T13	StatusTime 81 99	2.5 cigarettes/day
+E1	Drug:T1 Method:T2 Status:T3
+E2	Drug:T4 Type:T5 Duration:T7 Status:T8
+E3	Tobacco:T11 Type:T10 Amount:T9 Status:T13 Frequency:T12
+A1	StatusTimeVal T3 past
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T13 current

@@ -1,0 +1,14 @@
+T1	Tobacco 9 16	Tobacco
+T2	Alcohol 18 25	Alcohol
+T3	Drug 27 35	Drug Use
+T4	StatusTime 37 47	denies all
+T5	LivingStatus 66 75	Residence
+T6	StatusTime 77 82	lives
+T7	TypeLiving 83 114	with wife and wife’s 2 children
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T4
+E3	Drug:T3 Status:T4
+E4	LivingStatus:T5 Status:T6 Type:T7
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T6 current
+A3	TypeLivingVal T7 with_family

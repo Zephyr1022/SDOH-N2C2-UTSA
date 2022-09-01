@@ -1,0 +1,34 @@
+T1	Tobacco 8 15	1/2 ppd
+T2	Amount 8 15	1/2 ppd
+T3	Duration 16 30	for many years
+T4	StatusTime 8 30	1/2 ppd for many years
+T5	Alcohol 50 55	Drank
+T6	Amount 56 63	a liter
+T7	Frequency 64 69	a day
+T8	Duration 70 84	for many years
+T9	History 85 102	until 3 years ago
+T10	StatusTime 109 113	quit
+T11	Drug 120 131	pure heroin
+T12	StatusTime 114 118	Uses
+T13	Amount 143 162	about $10-$20 worth
+T14	Frequency 163 168	daily
+T15	Drug 180 194	other drug use
+T16	StatusTime 169 179	Denies any
+T17	LivingStatus 211 219	Homeless
+T18	StatusTime 211 219	Homeless
+T19	TypeLiving 211 219	Homeless
+T20	Employment 235 241	on SSI
+T21	StatusEmploy 235 241	on SSI
+E1	Tobacco:T1 Amount:T2 Duration:T3 Status:T4
+E2	Alcohol:T5 Amount:T6 Frequency:T7 Duration:T8 History:T9 Status:T10
+E3	Drug:T11 Amount:T13 Frequency:T14 Status:T12
+E4	Drug:T15 Status:T16
+E5	LivingStatus:T17 Status:T18 Type:T19
+E6	Employment:T20 Status:T21
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T10 past
+A3	StatusTimeVal T12 current
+A4	StatusTimeVal T16 none
+A5	StatusTimeVal T18 current
+A6	TypeLivingVal T19 homeless
+A7	StatusEmployVal T21 on_disability

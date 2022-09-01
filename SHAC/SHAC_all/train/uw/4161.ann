@@ -1,0 +1,19 @@
+T1	Employment 40 53	Not employeed
+T2	StatusEmploy 40 53	Not employeed
+T3	Alcohol 57 61	etoh
+T4	StatusTime 54 56	No
+T5	Tobacco 62 67	Smoke
+T6	Amount 68 73	.5ppd
+T7	StatusTime 68 73	.5ppd
+T8	Drug 79 95	cocaine and meth
+T9	Type 79 95	cocaine and meth
+T10	StatusTime 74 78	Uses
+E1	Employment:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Tobacco:T5 Amount:T6 Status:T7
+E4	Drug:T8 Status:T10 Type:T9 History:T11
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T10 current
+T11	History 109 119	4 days ago

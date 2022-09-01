@@ -1,0 +1,10 @@
+T1	Alcohol 46 59	alcohol abuse
+T3	Amount 61 78	[**1-19**] drinks
+T4	Frequency 78 84	/night
+T5	Tobacco 109 115	smoker
+T6	StatusTime 87 94	Current
+T7	StatusTime 28 45	a long history of
+E1	Alcohol:T1 Amount:T3 Frequency:T4 Status:T7
+E2	Tobacco:T5 Status:T6
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T7 current

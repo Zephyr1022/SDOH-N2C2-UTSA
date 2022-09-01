@@ -1,0 +1,11 @@
+T1	LivingStatus 70 75	lives
+T2	StatusTime 70 75	lives
+T3	TypeLiving 76 93	with close friend
+T4	Tobacco 231 238	Tobacco
+T5	StatusTime 240 246	smokes
+T6	Amount 247 254	1/2 ppd
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 Amount:T6
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 current

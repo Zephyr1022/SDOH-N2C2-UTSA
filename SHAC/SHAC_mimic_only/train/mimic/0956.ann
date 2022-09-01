@@ -1,0 +1,17 @@
+T1	LivingStatus 26 32	living
+T2	StatusTime 26 32	living
+T3	TypeLiving 33 45	with his Mom
+T4	Alcohol 51 55	etoh
+T5	StatusTime 58 62	quit
+T6	History 63 75	in '[**60**]
+T7	Drug 80 84	ivdu
+T8	Method 80 84	ivdu
+T9	StatusTime 87 91	quit
+T10	History 92 104	in '[**59**]
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Alcohol:T4 Status:T5 History:T6
+E3	Drug:T7 Method:T8 Status:T9 History:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T9 past

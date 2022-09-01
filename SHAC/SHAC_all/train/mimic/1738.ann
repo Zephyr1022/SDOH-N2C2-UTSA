@@ -1,0 +1,16 @@
+T1	Alcohol 167 171	ETOH
+T2	StatusTime 173 179	social
+T4	LivingStatus 119 124	lives
+T5	StatusTime 119 124	lives
+T6	TypeLiving 125 137	with husband
+T7	Duration 99 102;103 108	x27 years
+T8	Employment 16 21	Woked
+T9	StatusEmploy 16 21	Woked
+T10	Type 43 70	RN in special needs nursery
+E1	Alcohol:T1 Status:T2
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Employment:T8 Status:T9 Type:T10 Duration:T7
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 with_family
+A5	StatusEmployVal T9 unemployed

@@ -1,0 +1,20 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 31	0.5 packs
+T3	Frequency 32 39	per day
+T4	StatusTime 22 39	0.5 packs per day
+T5	Alcohol 66 77	Alcohol Use
+T6	StatusTime 79 85	Denies
+T7	Drug 88 96	Drug Use
+T8	Type 98 106	Cannabis
+T9	StatusTime 98 106	Cannabis
+T10	Drug 123 127	IVDU
+T11	Method 123 127	IVDU
+T12	StatusTime 108 114	denies
+E1	Tobacco:T1 Status:T4 Amount:T2 Frequency:T3
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Type:T8 Status:T9
+E4	Drug:T10 Status:T12 Method:T11
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T12 none

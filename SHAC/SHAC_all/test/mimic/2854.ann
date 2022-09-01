@@ -1,0 +1,24 @@
+T1	Tobacco 21 28	smoking
+T2	StatusTime 16 20	quit
+T3	History 29 44	several yrs ago
+T5	Alcohol 66 75	alcoholic
+T7	StatusTime 63 65	Ex
+T8	Drug 80 85	drugs
+T9	StatusTime 77 79	No
+T10	LivingStatus 87 92	Lives
+T11	StatusTime 87 92	Lives
+T12	TypeLiving 93 104	with family
+T13	Employment 106 123	owns a restaurant
+T14	StatusEmploy 106 123	owns a restaurant
+T15	Type 106 123	owns a restaurant
+E1	Tobacco:T1 History:T3 Status:T2
+E2	Alcohol:T5 Status:T7
+E3	Drug:T8 Status:T9
+E4	LivingStatus:T10 Type:T12 Status:T11
+E5	Employment:T13 Status:T14 Type:T15
+A1	StatusTimeVal T2 past
+A4	StatusTimeVal T7 past
+A5	StatusTimeVal T9 none
+A6	StatusTimeVal T11 current
+A7	TypeLivingVal T12 with_family
+A8	StatusEmployVal T14 employed

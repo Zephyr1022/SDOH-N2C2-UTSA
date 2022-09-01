@@ -1,0 +1,23 @@
+T1	Employment 16 37	Former police officer
+T2	StatusEmploy 16 37	Former police officer
+T3	Type 16 37	Former police officer
+T4	Employment 86 91	works
+T5	StatusEmploy 86 91	works
+T6	Type 95 107	a contractor
+T7	Tobacco 120 141	current cigarrete use
+T8	Amount 154 166	30 pack year
+T9	StatusTime 109 141;142 174	denies any current cigarrete use but reports 30 pack year history
+T10	Alcohol 210 221	alcohol use
+T11	Drug 225 241	illicit drug use
+T12	Type 225 232	illicit
+T13	StatusTime 207 209	no
+E1	Employment:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T9 Amount:T8 Type:T14
+E4	Alcohol:T10 Status:T13
+E5	Drug:T11 Type:T12 Status:T13
+A1	StatusEmployVal T2 unemployed
+A2	StatusEmployVal T5 employed
+A3	StatusTimeVal T9 past
+A4	StatusTimeVal T13 none
+T14	Type 128 137	cigarrete

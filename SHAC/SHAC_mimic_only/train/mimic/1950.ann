@@ -1,0 +1,27 @@
+T1	LivingStatus 24 29	lives
+T2	StatusTime 24 29	lives
+T3	TypeLiving 30 45	with girlfriend
+T4	Employment 71 80	sales rep
+T5	StatusEmploy 71 80	sales rep
+T6	Type 71 80	sales rep
+T7	Tobacco 279 294	Tobacco history
+T8	StatusTime 296 300	none
+T9	Alcohol 303 307	ETOH
+T10	Amount 309 317	6 drinks
+T11	Type 319 333	beer + whiskey
+T12	Frequency 335 356	/ day x 3 days / week
+T15	StatusTime 311 317	drinks
+T17	Drug 358 371	Illicit drugs
+T18	Type 358 365	Illicit
+T19	StatusTime 373 377	none
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Amount:T10 Type:T11 Status:T15 Frequency:T12
+E6	Drug:T17 Type:T18 Status:T19
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T15 current
+A7	StatusTimeVal T19 none

@@ -1,0 +1,12 @@
+T1	Tobacco 34 41	smoking
+T2	StatusTime 29 33	quit
+T3	History 42 58;59 68	approximately 10 years ago
+T4	Amount 76 88	40-pack-year
+T5	Alcohol 109 117	drinking
+T6	Amount 118 135	one to two drinks
+T7	Frequency 136 145	per night
+T8	StatusTime 109 117	drinking
+E1	Tobacco:T1 Status:T2 History:T3 Amount:T4
+E2	Alcohol:T5 Amount:T6 Frequency:T7 Status:T8
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T8 current

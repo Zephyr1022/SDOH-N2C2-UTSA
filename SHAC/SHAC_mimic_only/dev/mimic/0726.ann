@@ -1,0 +1,10 @@
+T1	Tobacco 50 69	current tobacco use
+T3	Amount 94 120	up to 2 and [**1-13**] ppd
+T4	Duration 121 138	for over 55 years
+T5	Alcohol 209 222	alcohol abuse
+T6	StatusTime 195 197;198 205	no history
+T2	StatusTime 50 69	current tobacco use
+E1	Tobacco:T1 Amount:T3 Duration:T4 Status:T2
+E2	Alcohol:T5 Status:T6
+A2	StatusTimeVal T6 none
+A1	StatusTimeVal T2 current

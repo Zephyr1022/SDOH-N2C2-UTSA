@@ -1,0 +1,20 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 37	gt50 pack years
+T3	Amount 22 37	gt50 pack years
+T4	Alcohol 40 51	Alcohol Use
+T5	StatusTime 53 63	Infrequent
+T7	Drug 65 73	Drug Use
+T8	StatusTime 75 120	Denies current, IVDU history in documentation
+T9	Method 91 95	IVDU
+T10	LivingStatus 139 147	Homeless
+T11	StatusTime 139 147	Homeless
+T12	TypeLiving 139 147	Homeless
+E1	Tobacco:T1 Status:T2 Amount:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T7 Status:T8 Method:T9
+E4	LivingStatus:T10 Status:T11 Type:T12
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 current
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T11 current
+A6	TypeLivingVal T12 homeless

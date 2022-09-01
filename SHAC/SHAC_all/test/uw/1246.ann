@@ -1,0 +1,17 @@
+T1	StatusTime 22 29	history
+T2	Tobacco 33 40	smoking
+T3	Alcohol 57 71	heavy drinking
+T5	Duration 45 53	15 years
+T6	StatusTime 45 71	15 years of heavy drinking
+T7	Alcohol 80 88	drinking
+T8	Tobacco 89 96	smoking
+T9	Drug 97 105	drug use
+T10	StatusTime 73 79	Denies
+E1	Tobacco:T2 Status:T1
+E2	Alcohol:T3 Status:T6 Duration:T5
+E3	Alcohol:T7 Status:T10
+E4	Tobacco:T8 Status:T10
+E5	Drug:T9 Status:T10
+A1	StatusTimeVal T1 current
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T10 none

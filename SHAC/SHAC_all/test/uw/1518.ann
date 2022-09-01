@@ -1,0 +1,22 @@
+T1	Drug 45 55	drug abuse
+T3	StatusTime 31 41	history of
+T4	Method 42 44	IV
+T8	Drug 63 73	heroin use
+T9	History 74 84	1 year ago
+T10	StatusTime 58 62	Last
+T11	Tobacco 85 90	Smoke
+T12	StatusTime 85 90	Smoke
+T13	Alcohol 91 99	No drink
+T14	StatusTime 91 93	No
+T15	Employment 104 107	job
+T16	StatusEmploy 101 103	No
+E1	Drug:T1 Status:T3 Method:T4
+E3	Drug:T8 Status:T10 History:T9
+E4	Tobacco:T11 Status:T12
+E5	Alcohol:T13 Status:T14
+E6	Employment:T15 Status:T16
+A2	StatusTimeVal T3 past
+A5	StatusTimeVal T10 past
+A6	StatusTimeVal T12 current
+A7	StatusTimeVal T14 none
+A8	StatusEmployVal T16 unemployed

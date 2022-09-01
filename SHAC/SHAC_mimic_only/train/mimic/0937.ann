@@ -1,0 +1,24 @@
+T1	LivingStatus 44 49	lives
+T2	TypeLiving 16 42	Married with two daughters
+T3	StatusTime 44 49	lives
+T4	Employment 74 79	works
+T5	Type 83 93;94 112	teacher in physical education
+T6	StatusEmploy 74 79	works
+T7	Tobacco 121 128	tob use
+T8	StatusTime 114 120	No h/o
+T9	Alcohol 130 150	very occasional etoh
+T11	StatusTime 130 150	very occasional etoh
+T12	Drug 186 191	drugs
+T13	StatusTime 183 185	no
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Status:T11 Type:T10
+E5	Drug:T12 Status:T13
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T6 employed
+A4	StatusTimeVal T8 none
+A6	StatusTimeVal T11 current
+A7	StatusTimeVal T13 none
+T10	Type 157 161	beer

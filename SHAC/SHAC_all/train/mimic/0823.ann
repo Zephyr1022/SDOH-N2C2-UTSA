@@ -1,0 +1,15 @@
+T1	Employment 16 33	Retired policeman
+T2	StatusEmploy 16 33	Retired policeman
+T3	Type 16 33	Retired policeman
+T4	Tobacco 49 62	former smoker
+T5	StatusTime 49 62	former smoker
+T6	Amount 64 78	15-20pack year
+T7	History 88 97	last year
+T8	Alcohol 100 115	occasional EtOH
+T9	StatusTime 100 115	occasional EtOH
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 Amount:T6 History:T7
+E3	Alcohol:T8 Status:T9
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T9 current

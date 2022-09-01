@@ -1,0 +1,23 @@
+T1	Alcohol 16 24	Occ Etoh
+T3	StatusTime 26 39	none recently
+T4	Tobacco 41 53	Not a smoker
+T5	StatusTime 41 53	Not a smoker
+T6	Employment 55 76	Not currently working
+T7	StatusEmploy 55 76	Not currently working
+T8	LivingStatus 97 102	lives
+T9	TypeLiving 103 108	alone
+T10	StatusTime 97 102	lives
+T11	Employment 212 214;215 225	on disability
+T12	Type 235 263	a manager of day care center
+T13	StatusEmploy 212 214;215 225	on disability
+E1	Alcohol:T1 Status:T3
+E2	Tobacco:T4 Status:T5
+E3	Employment:T6 Status:T7
+E4	LivingStatus:T8 Status:T10 Type:T9
+E5	Employment:T11 Status:T13 Type:T12
+A2	StatusTimeVal T3 past
+A3	StatusTimeVal T5 none
+A4	StatusEmployVal T7 unemployed
+A5	TypeLivingVal T9 alone
+A6	StatusTimeVal T10 current
+A7	StatusEmployVal T13 on_disability

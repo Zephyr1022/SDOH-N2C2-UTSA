@@ -1,0 +1,38 @@
+T1	Alcohol 273 287	heavy EtOH use
+T3	StatusTime 253 269	Previous history
+T4	Amount 298 306	1-2 cans
+T5	Frequency 306 310	/day
+T6	Alcohol 298 306	1-2 cans
+T7	StatusTime 289 297	now uses
+T8	Drug 345 353	maijuana
+T9	Type 345 353	maijuana
+T10	Method 338 344	Smokes
+T12	StatusTime 338 344	Smokes
+T13	Drug 366 370	IVDU
+T14	StatusTime 359 365	no h/o
+T15	Method 366 370	IVDU
+T16	Drug 383 390	cocaine
+T17	Type 383 390	cocaine
+T18	StatusTime 372 382	remote h/o
+T19	Tobacco 392 395	Tob
+T20	Amount 397 403	> 1ppd
+T21	Duration 404 416	for 56 years
+T22	StatusTime 397 416	> 1ppd for 56 years
+E1	Alcohol:T1 Status:T3
+E2	Alcohol:T6 Status:T7 Amount:T4 Frequency:T5
+E3	Drug:T8 Type:T9 Method:T10 Status:T12
+E4	Drug:T13 Status:T14 Method:T15
+E5	Drug:T16 Status:T18 Type:T17
+E6	Tobacco:T19 Amount:T20 Status:T22 Duration:T21
+A2	StatusTimeVal T3 past
+A3	StatusTimeVal T7 current
+A5	StatusTimeVal T12 current
+A6	StatusTimeVal T14 none
+A7	StatusTimeVal T18 past
+A8	StatusTimeVal T22 current
+T2	LivingStatus 67 72	Lives
+E7	LivingStatus:T2 Status:T11 Type:T23
+T11	StatusTime 67 72	Lives
+A1	StatusTimeVal T11 current
+T23	TypeLiving 76 112	rented room of house owned by cousin
+A4	TypeLivingVal T23 with_family

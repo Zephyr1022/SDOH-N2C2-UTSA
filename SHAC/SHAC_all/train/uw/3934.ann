@@ -1,0 +1,30 @@
+T1	Employment 103 113	unemployed
+T2	StatusEmploy 103 113	unemployed
+T3	History 114 124	since 2011
+T4	Type 145 158	a fork lifter
+T5	Drug 205 213	drug use
+T6	Type 230 234	dope
+T7	StatusTime 236 262	used for the past two days
+T8	Duration 241 262	for the past two days
+T9	Alcohol 325 336	alcohol use
+T10	StatusTime 318 324	Denies
+T11	Tobacco 268 274	smoked
+T12	StatusTime 268 274	smoked
+T13	Amount 275 288	10 cigarettes
+T14	Type 278 288	cigarettes
+T15	Frequency 289 294	a day
+T16	Duration 295 316	for the past 20 years
+T17	LivingStatus 25 30	stays
+T18	StatusTime 25 30	stays
+T19	TypeLiving 32 44	where he can
+E1	Employment:T1 Status:T2 History:T3 Type:T4
+E2	Drug:T5 Type:T6 Duration:T8 Status:T7
+E3	Alcohol:T9 Status:T10
+E4	Tobacco:T11 Status:T12 Type:T14 Amount:T13 Frequency:T15 Duration:T16
+E5	LivingStatus:T17 Status:T18 Type:T19
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T10 past
+A4	StatusTimeVal T12 current
+A5	StatusTimeVal T18 current
+A6	TypeLivingVal T19 homeless

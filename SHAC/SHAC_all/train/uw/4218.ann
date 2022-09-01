@@ -1,0 +1,26 @@
+T1	LivingStatus 89 94	lives
+T2	StatusTime 89 94	lives
+T3	TypeLiving 95 105	by himself
+T4	Employment 131 137	worked
+T5	StatusEmploy 116 126	retirement
+T6	Type 141 182	business planning in the airline industry
+T7	Tobacco 184 203	Lifelong non-smoker
+T8	StatusTime 184 203	Lifelong non-smoker
+T9	Alcohol 209 225	alcoholic drinks
+T10	StatusTime 205 229	2-3 alcoholic drinks/day
+T11	Amount 205 225	2-3 alcoholic drinks
+T12	Frequency 225 229	/day
+T13	Drug 286 294	illicits
+T14	StatusTime 277 282	No hx
+T15	Type 286 294	illicits
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Frequency:T12 Status:T10 Amount:T11
+E5	Drug:T13 Type:T15 Status:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T10 current
+A6	StatusTimeVal T14 none

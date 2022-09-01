@@ -1,0 +1,21 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 38	with his fiance
+T4	Employment 67 84	Previously worked
+T5	StatusEmploy 67 84	Previously worked
+T6	Type 88 104	customer service
+T7	Duration 144 156	since [DATE]
+T8	StatusTime 204 210	Denies
+T9	Tobacco 211 218	tobacco
+T10	Alcohol 220 224	EtOH
+T11	Drug 226 234	illicits
+T12	Type 226 234	illicits
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6 Duration:T7
+E3	Tobacco:T9 Status:T8
+E4	Alcohol:T10 Status:T8
+E5	Drug:T11 Type:T12 Status:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T8 none

@@ -1,0 +1,20 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	Former
+T3	Amount 29 37	1/2 pack
+T4	Frequency 38 45	per day
+T5	Alcohol 72 83	Alcohol Use
+T6	StatusTime 85 91	Denies
+T7	Drug 94 102	Drug Use
+T8	StatusTime 104 110	Denies
+T9	LivingStatus 129 138	Residence
+T10	StatusTime 140 158	Hope Place Shelter
+T11	TypeLiving 140 158	Hope Place Shelter
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Status:T8
+E4	LivingStatus:T9 Status:T10 Type:T11
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T10 current
+A5	TypeLivingVal T11 homeless

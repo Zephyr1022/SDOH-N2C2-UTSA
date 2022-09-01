@@ -1,0 +1,10 @@
+T1	Alcohol 20 31	alcohol use
+T2	StatusTime 9 19	Denies any
+T3	LivingStatus 147 152	lives
+T4	StatusTime 147 152	lives
+T5	TypeLiving 153 158	alone
+E1	Alcohol:T1 Status:T2
+E2	LivingStatus:T3 Status:T4 Type:T5
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T5 alone

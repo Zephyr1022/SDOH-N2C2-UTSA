@@ -1,0 +1,38 @@
+T1	Drug 509 518	marijuana
+T2	Frequency 503 508	Daily
+T3	Type 509 518	marijuana
+T4	StatusTime 503 518	Daily marijuana
+T5	Drug 464 472	Illicits
+T6	Type 479 486	cocaine
+T7	History 495 501	[DATE]
+T8	StatusTime 474 501	Last cocaine use was [DATE]
+T9	Alcohol 447 451	ETOH
+T11	StatusTime 453 463	Infrequent
+T12	Tobacco 372 375	Tob
+T13	Amount 421 435	3-5 cigarettes
+T14	Frequency 436 443	per day
+T15	Tobacco 413 420	smoking
+T16	StatusTime 403 420	currently smoking
+T17	Amount 384 389	1 ppd
+T18	StatusTime 377 383	Smoked
+T19	Employment 40 50	unemployed
+T20	LivingStatus 55 63	homeless
+T21	StatusTime 55 63	homeless
+T22	TypeLiving 55 63	homeless
+T23	StatusEmploy 40 50	unemployed
+E1	Drug:T1 Frequency:T2 Type:T3 Status:T4
+E2	Drug:T5 Type:T6 Status:T8 History:T7
+E3	Alcohol:T9 Status:T11
+E4	Tobacco:T12 Status:T18 Amount:T17
+E5	Tobacco:T15 Amount:T13 Status:T16 Frequency:T14 Type:T10
+E6	Employment:T19 Status:T23
+E7	LivingStatus:T20 Type:T22 Status:T21
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T8 past
+A4	StatusTimeVal T11 current
+A5	StatusTimeVal T16 current
+A6	StatusTimeVal T18 past
+A7	StatusTimeVal T21 current
+A8	TypeLivingVal T22 homeless
+A9	StatusEmployVal T23 unemployed
+T10	Type 425 435	cigarettes

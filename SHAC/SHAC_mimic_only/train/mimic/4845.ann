@@ -1,0 +1,23 @@
+T1	Employment 201 207	worked
+T2	Type 211 222	a carpenter
+T3	StatusEmploy 201 207	worked
+T4	Tobacco 287 294	Tobacco
+T5	StatusTime 296 302	Smokes
+T6	Amount 303 309	1 pack
+T7	Frequency 310 324	every 3-4 days
+T8	StatusTime 331 341	Last drink
+T9	History 342 358	10-11 months ago
+T10	Alcohol 325 329	EtOH
+T11	Drug 359 364	Drugs
+T12	StatusTime 366 391	Former heroin and cocaine
+T13	Type 373 391	heroin and cocaine
+T14	Method 393 397	IVDU
+T15	History 413 423;424 434	[**11-5**] months ago
+E1	Employment:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Status:T5 Amount:T6 Frequency:T7
+E3	Alcohol:T10 Status:T8 History:T9
+E4	Drug:T11 Type:T13 Status:T12 Method:T14 History:T15
+A1	StatusEmployVal T3 unemployed
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T8 past
+A4	StatusTimeVal T12 past

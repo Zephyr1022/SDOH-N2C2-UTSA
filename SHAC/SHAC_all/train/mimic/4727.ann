@@ -1,0 +1,26 @@
+T1	LivingStatus 180 185	Lives
+T2	StatusTime 180 185	Lives
+T3	TypeLiving 186 191	alone
+T4	Employment 523 528	fired
+T5	StatusEmploy 514 528	has been fired
+T6	Type 532 535	VNA
+T7	Drug 23 38	substance abuse
+T8	StatusTime 16 22	Denies
+T9	Alcohol 55 62	alcohol
+T10	StatusTime 50 54	Quit
+T11	History 75 77;78 87	24 years ago
+T12	Drug 67 72	drugs
+T13	Alcohol 135 142	alcohol
+T14	StatusTime 122 134	is ?drinking
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Type:T6 Status:T5
+E3	Drug:T7 Status:T8
+E4	Alcohol:T9 Status:T10 History:T11
+E5	Drug:T12 History:T11 Status:T10
+E6	Alcohol:T13 Status:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T10 past
+A6	StatusTimeVal T14 current

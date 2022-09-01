@@ -1,0 +1,39 @@
+T1	Alcohol 34 42	etoh use
+T2	Frequency 28 33	daily
+T3	StatusTime 47 53	drinks
+T4	Amount 54 66	about 1 pint
+T5	Type 70 75	vodka
+T6	Drug 118 122	IVDU
+T7	Type 124 130	heroin
+T8	History 131 142	20yrs prior
+T9	StatusTime 100 117	Remote history of
+T10	Drug 152 165	crack cocaine
+T11	Type 152 165	crack cocaine
+T12	StatusTime 145 151	smokes
+T13	Method 145 151	smokes
+T14	Frequency 166 172	weekly
+T15	Drug 177 191	other drug use
+T17	StatusTime 174 176	No
+T18	Tobacco 200 207;208 211	tobacco use
+T19	StatusTime 193 199	Denied
+T23	Employment 294 304	Unemployed
+T24	StatusEmploy 294 304	Unemployed
+T25	LivingStatus 306 311	lives
+T26	TypeLiving 312 327	with his mother
+T27	StatusTime 306 311	lives
+E1	Alcohol:T1 Frequency:T2 Status:T3 Amount:T4 Type:T5
+E2	Drug:T6 Type:T7 History:T8 Status:T9 Method:T20
+E3	Drug:T10 Type:T11 Status:T12 Method:T13 Frequency:T14
+E4	Drug:T15 Status:T17
+E5	Tobacco:T18 Status:T19
+E7	Employment:T23 Status:T24
+E8	LivingStatus:T25 Type:T26 Status:T27
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T9 past
+A3	StatusTimeVal T12 current
+A4	StatusTimeVal T17 none
+A5	StatusTimeVal T19 none
+A8	StatusEmployVal T24 unemployed
+A9	TypeLivingVal T26 with_family
+A10	StatusTimeVal T27 current
+T20	Method 118 122	IVDU

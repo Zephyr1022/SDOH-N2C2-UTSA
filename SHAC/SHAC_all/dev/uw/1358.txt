@@ -1,0 +1,6 @@
+HABITS: 
+Tobacco Use: current smoker   Alcohol Use: denies   Drug Use: +IVDU - heroin, occasional morphine, suboxone, cannabis
+
+SOCIAL HISTORY: 
+[_] Unable to Obtain due to Patient Condition
+Residence: Lives alone in [LOCATION], unemployed

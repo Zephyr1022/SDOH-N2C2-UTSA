@@ -1,0 +1,26 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	uses
+T3	Type 27 33	e-cigs
+T5	Amount 53 57	1ppd
+T6	Duration 58 68	x 10 years
+T7	History 75 86	5 years ago
+T8	Alcohol 87 98	Alcohol Use
+T9	StatusTime 100 104	none
+T10	Drug 108 116	Drug Use
+T11	StatusTime 118 122	none
+T12	LivingStatus 361 377	currently living
+T13	StatusTime 361 377	currently living
+T14	TypeLiving 378 390	in a shelter
+E1	Tobacco:T1 Status:T2 Type:T3
+E3	Alcohol:T8 Status:T9
+E4	Drug:T10 Status:T11
+E5	LivingStatus:T12 Status:T13 Type:T14
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T11 none
+A5	StatusTimeVal T13 current
+A6	TypeLivingVal T14 homeless
+T4	Tobacco 46 52	smoked
+E2	Tobacco:T4 Status:T15 Amount:T5 Duration:T6 History:T7
+T15	StatusTime 35 45	previously
+A2	StatusTimeVal T15 past

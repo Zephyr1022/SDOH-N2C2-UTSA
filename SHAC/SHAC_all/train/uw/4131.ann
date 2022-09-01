@@ -1,0 +1,16 @@
+T1	LivingStatus 68 75	staying
+T2	StatusTime 59 67	has been
+T3	TypeLiving 76 85	in a tent
+T4	Tobacco 107 114	Tobacco
+T5	Amount 116 123	1/2 PPD
+T6	StatusTime 116 123	1/2 PPD
+T9	StatusTime 134 154	Denies use x 3 weeks
+T10	History 145 154	x 3 weeks
+T7	Alcohol 125 132	Alcohol
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T5 Status:T6
+E3	Alcohol:T7 Status:T9 History:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T6 current
+A5	StatusTimeVal T9 past

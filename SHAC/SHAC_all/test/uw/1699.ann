@@ -1,0 +1,21 @@
+T1	LivingStatus 49 65	Living situation
+T2	TypeLiving 74 96	with significant other
+T3	StatusTime 68 73	Lives
+T4	StatusTime 99 104	Lives
+T5	LivingStatus 99 104	Lives
+T6	TypeLiving 105 118	with children
+T7	Tobacco 121 132	Tobacco use
+T8	StatusTime 135 141	Denies
+T9	Alcohol 144 155	Alcohol use
+T10	StatusTime 157 161	beer
+T11	Type 157 161	beer
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	LivingStatus:T5 Status:T4 Type:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Status:T10 Type:T11
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T4 current
+A4	TypeLivingVal T6 with_family
+A5	StatusTimeVal T8 none
+A6	StatusTimeVal T10 current

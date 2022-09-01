@@ -1,0 +1,29 @@
+T1	Tobacco 17 28	Tobacco Use
+T2	Method 39 48	vaporizer
+T3	Type 30 48	nicotine vaporizer
+T4	StatusTime 30 48	nicotine vaporizer
+T5	Alcohol 49 60	Alcohol Use
+T6	StatusTime 62 66	none
+T7	Drug 69 77	Drug Use
+T8	Method 79 83	IVDU
+T9	Type 95 101	heroin
+T10	History 114 125	2 weeks ago
+T11	StatusTime 104 125	last used 2 weeks ago
+T12	LivingStatus 127 135	Homeless
+T13	TypeLiving 127 135	Homeless
+T14	StatusTime 127 135	Homeless
+T15	LivingStatus 147 155	residing
+T16	StatusTime 137 146	currently
+T17	TypeLiving 159 173	Crisis Respite
+E1	Tobacco:T1 Type:T3 Method:T2 Status:T4
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Method:T8 Type:T9 History:T10 Status:T11
+E4	LivingStatus:T12 Type:T13 Status:T14
+E5	LivingStatus:T15 Type:T17 Status:T16
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T11 current
+A4	TypeLivingVal T13 homeless
+A5	StatusTimeVal T14 current
+A6	StatusTimeVal T16 current
+A7	TypeLivingVal T17 homeless

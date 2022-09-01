@@ -1,0 +1,16 @@
+T1	LivingStatus 17 26	Residence
+T2	StatusTime 29 37	Homeless
+T3	TypeLiving 29 37	Homeless
+T4	LivingStatus 40 56	Living situation
+T5	StatusTime 59 64	Lives
+T6	TypeLiving 65 70	alone
+T7	Drug 73 81	Drug use
+T8	StatusTime 84 90	Denies
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Drug:T7 Status:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 alone
+A5	StatusTimeVal T8 none

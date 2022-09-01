@@ -1,0 +1,26 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 27	never
+T3	Alcohol 35 46	Alcohol Use
+T5	StatusTime 48 58	infrequent
+T6	Amount 60 76	up to 4-5 drinks
+T7	Frequency 77 85	per week
+T8	Drug 102 110	Drug Use
+T9	StatusTime 112 116	none
+T10	Employment 135 140	Works
+T11	StatusEmploy 170 174	quit
+T12	History 175 194	about one month ago
+T13	Type 144 155	a law clerk
+T14	LivingStatus 237 241	live
+T15	StatusTime 237 241	live
+T16	TypeLiving 232 236	They
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T5 Amount:T6 Frequency:T7
+E3	Drug:T8 Status:T9
+E4	Employment:T10 Type:T13 Status:T11 History:T12
+E5	LivingStatus:T14 Status:T15 Type:T16
+A1	StatusTimeVal T2 none
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T9 none
+A5	StatusEmployVal T11 unemployed
+A6	StatusTimeVal T15 current
+A7	TypeLivingVal T16 with_others

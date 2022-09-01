@@ -1,0 +1,30 @@
+T1	LivingStatus 19 24	lives
+T2	TypeLiving 25 30	alone
+T3	StatusTime 19 24	lives
+T4	Alcohol 88 98	EtOH abuse
+T5	StatusTime 100 110	none since
+T6	History 105 121	since [**2116**]
+T8	Tobacco 134 145	tobacco use
+T9	StatusTime 123 133	History of
+T10	Alcohol 227 231	EtOH
+T11	StatusTime 264 269	prior
+T12	History 232 248	since [**2116**]
+T14	Drug 277 290	marijuana use
+T15	Type 277 286	marijuana
+T16	StatusTime 271 276	Prior
+T17	Employment 296 302	worked
+T18	Type 306 332;333 342	the iron industry and as a carpenter
+T19	StatusEmploy 296 302	worked
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Status:T5 History:T6
+E3	Tobacco:T8 Status:T9
+E4	Alcohol:T10 Status:T11 History:T12
+E5	Drug:T14 Type:T15 Status:T16
+E6	Employment:T17 Type:T18 Status:T19
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 past
+A5	StatusTimeVal T9 past
+A6	StatusTimeVal T11 past
+A8	StatusTimeVal T16 past
+A9	StatusEmployVal T19 unemployed

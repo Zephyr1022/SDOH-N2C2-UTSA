@@ -1,0 +1,15 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 23 28	alone
+T3	Tobacco 53 59	Smoker
+T4	Drug 116 124	drug use
+T5	Type 103 115	recreational
+T6	StatusTime 100 102	No
+T7	StatusTime 71 82	hasn't been
+T8	StatusTime 17 22	Lives
+E1	LivingStatus:T1 Type:T2 Status:T8
+E2	Tobacco:T3 Status:T7
+E3	Drug:T4 Type:T5 Status:T6
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T7 past
+A4	StatusTimeVal T8 current

@@ -1,0 +1,12 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 57	with and takes care of his parents
+T4	Drug 148 157	marijuana
+T5	Method 141 147	Smokes
+T6	StatusTime 141 147	Smokes
+T7	Type 148 157	marijuana
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Drug:T4 Type:T7 Method:T5 Status:T6
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T6 current

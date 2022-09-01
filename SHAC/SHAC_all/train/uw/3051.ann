@@ -1,0 +1,20 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 60 66	admits
+T3	Frequency 70 75	daily
+T4	Method 76 83	chewing
+T5	Alcohol 97 108	Alcohol Use
+T6	History 117 129	for >2 years
+T7	StatusTime 110 129	Denies for >2 years
+T8	Drug 132 140	Drug Use
+T9	StatusTime 142 148	Denies
+E1	Tobacco:T1 Status:T11 Type:T10
+E2	Alcohol:T5 Status:T7 History:T6
+E3	Drug:T8 Status:T9
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T9 none
+T10	Type 45 55	cigarettes
+T11	StatusTime 30 36	denies
+A4	StatusTimeVal T11 none
+T12	Tobacco 84 95	tobacco use
+E4	Tobacco:T12 Method:T4 Frequency:T3 Status:T2

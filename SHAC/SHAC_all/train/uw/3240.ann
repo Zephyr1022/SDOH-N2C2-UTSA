@@ -1,0 +1,21 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Duration 29 41	for 42 years
+T3	StatusTime 22 28	smoked
+T4	Amount 43 52	1-5 packs
+T5	Frequency 52 56	/day
+T6	Alcohol 59 70	Alcohol Use
+T7	StatusTime 72 77	never
+T8	Drug 80 88	Drug Use
+T9	StatusTime 90 95	never
+T10	Employment 270 276	worked
+T11	StatusEmploy 270 276	worked
+T12	Type 280 295	medical records
+T13	History 296 306	until 2011
+E1	Tobacco:T1 Status:T3 Duration:T2 Amount:T4 Frequency:T5
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Status:T9
+E4	Employment:T10 Status:T11 Type:T12 History:T13
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T9 none
+A4	StatusEmployVal T11 unemployed

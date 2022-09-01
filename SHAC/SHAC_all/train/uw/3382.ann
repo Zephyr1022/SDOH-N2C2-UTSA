@@ -1,0 +1,24 @@
+T1	LivingStatus 11 16	lives
+T2	StatusTime 11 16	lives
+T3	TypeLiving 17 28	with family
+T4	Alcohol 35 39	etoh
+T6	StatusTime 30 39	rare etoh
+T7	Type 53 55	MJ
+T8	Method 46 52	edible
+T10	Drug 53 59	MJ use
+T11	Drug 74 82	drug use
+T12	StatusTime 71 73	no
+T13	Employment 87 96	a student
+T14	StatusEmploy 87 96	a student
+T15	StatusTime 41 59	rare edible MJ use
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Alcohol:T4 Status:T6
+E3	Drug:T10 Type:T7 Method:T8 Status:T15
+E4	Drug:T11 Status:T12
+E5	Employment:T13 Status:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A4	StatusTimeVal T6 current
+A6	StatusTimeVal T12 none
+A7	StatusEmployVal T14 student
+A8	StatusTimeVal T15 current

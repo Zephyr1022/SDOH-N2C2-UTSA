@@ -1,0 +1,21 @@
+T1	LivingStatus 5 10	Lives
+T2	TypeLiving 11 41	in Jan & Peter's Place complex
+T3	StatusTime 5 10	Lives
+T4	Alcohol 44 52	EtOH use
+T5	StatusTime 58 98	trying not to drink more the 1/5th a day
+T6	Tobacco 104 107	Tob
+T7	StatusTime 101 103	no
+T8	Drug 119 123	IVDU
+T9	Method 119 123	IVDU
+T10	StatusTime 124 131	in past
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Status:T5 Amount:T11 Frequency:T12
+E3	Tobacco:T6 Status:T7
+E4	Drug:T8 Method:T9 Status:T10
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T10 past
+T11	Amount 87 92	1/5th
+T12	Frequency 93 98	a day

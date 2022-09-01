@@ -1,0 +1,31 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 46 55	with wife
+T4	Alcohol 137 145	EtOH use
+T5	StatusTime 146 153	in past
+T6	Tobacco 161 168	smoking
+T7	StatusTime 156 160	Quit
+T8	History 169 181	10 years ago
+T9	Amount 187 197	30 pack-yr
+T10	Tobacco 220 225	smoke
+T11	StatusTime 207 216	Continues
+T12	Type 226 232	cigars
+T13	Drug 272 280	IV drugs
+T14	Method 272 274	IV
+T15	StatusTime 281 288	in past
+T16	Employment 100 115	a cabinet maker
+T17	Type 100 115	a cabinet maker
+T18	StatusEmploy 97 99	as
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5
+E3	Tobacco:T6 Status:T7 History:T8 Amount:T9
+E4	Tobacco:T10 Status:T11 Type:T12
+E5	Drug:T13 Status:T15 Method:T14
+E6	Employment:T16 Type:T17 Status:T18
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T7 past
+A5	StatusTimeVal T11 current
+A6	StatusTimeVal T15 past
+A7	StatusEmployVal T18 employed

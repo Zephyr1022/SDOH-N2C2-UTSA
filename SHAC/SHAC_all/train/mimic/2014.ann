@@ -1,0 +1,27 @@
+T1	Employment 16 26	Occupation
+T2	LivingStatus 43 48	Lives
+T3	StatusTime 43 48	Lives
+T4	TypeLiving 49 62	with: friends
+T5	Tobacco 113 120	Tobacco
+T7	Amount 136 142	4 cigs
+T8	Frequency 142 146	/day
+T6	StatusTime 147 156	currently
+T9	Alcohol 158 162	ETOH
+T10	Amount 164 172	2 drinks
+T11	Frequency 173 181	per week
+T12	StatusTime 164 181	2 drinks per week
+T13	StatusEmploy 34 42	disabled
+T14	Tobacco 129 135	smokes
+T15	Amount 122 127	30PYH
+T16	StatusTime 122 127	30PYH
+E1	Employment:T1 Status:T13
+E2	LivingStatus:T2 Status:T3 Type:T4
+E3	Tobacco:T5 Amount:T15 Status:T16
+E4	Alcohol:T9 Amount:T10 Frequency:T11 Status:T12
+E5	Tobacco:T14 Amount:T7 Frequency:T8 Status:T6
+A1	StatusTimeVal T3 current
+A2	TypeLivingVal T4 with_others
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T12 current
+A5	StatusEmployVal T13 on_disability
+A6	StatusTimeVal T16 past

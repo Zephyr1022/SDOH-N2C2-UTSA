@@ -1,0 +1,15 @@
+T1	Employment 22 44	a former auto mechanic
+T2	StatusEmploy 22 44	a former auto mechanic
+T3	Type 22 44	a former auto mechanic
+T4	Tobacco 50 67	previously smoked
+T5	StatusTime 50 67	previously smoked
+T6	Amount 68 75;76 81	80 pack years
+T7	Alcohol 90 105	a heavy drinker
+T9	StatusTime 86 89	was
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 Amount:T6 History:T8
+E3	Alcohol:T7 Status:T9 History:T8
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 past
+A4	StatusTimeVal T9 past
+T8	History 128 140	20 years ago

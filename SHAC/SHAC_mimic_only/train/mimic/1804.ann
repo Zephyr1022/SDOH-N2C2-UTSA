@@ -1,0 +1,21 @@
+T3	Tobacco 139 146	Tobacco
+T4	StatusTime 147 151	QUIT
+T5	History 152 165	[**4-/2141**]
+T6	Amount 167 176	1-1.5 PPD
+T7	Duration 177 183	X30YRS
+T8	Alcohol 184 188	ETOH
+T9	StatusTime 189 195	DENIES
+T10	Drug 196 208	ILLICIT DRUG
+T11	Type 196 203	ILLICIT
+T12	StatusTime 210 216	DENIES
+T13	Employment 217 227	Occupation
+T14	StatusEmploy 228 242	PAROLE OFFICER
+T15	Type 228 242	PAROLE OFFICER
+E2	Tobacco:T3 Status:T4 History:T5 Amount:T6 Duration:T7
+E3	Alcohol:T8 Status:T9
+E4	Drug:T10 Type:T11 Status:T12
+E5	Employment:T13 Type:T15 Status:T14
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T9 none
+A3	StatusTimeVal T12 none
+A4	StatusEmployVal T14 employed

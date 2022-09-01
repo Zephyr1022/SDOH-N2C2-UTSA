@@ -1,0 +1,33 @@
+T1	Amount 9 23	5 bottles wine
+T2	Type 19 23	wine
+T3	Frequency 23 27	/day
+T4	Alcohol 19 23	wine
+T5	StatusTime 9 27	5 bottles wine/day
+T6	Tobacco 32 42	cigarettes
+T7	Type 32 42	cigarettes
+T8	StatusTime 29 31	no
+T9	Drug 47 58	other drugs
+T10	StatusTime 44 46	no
+T12	Employment 223 227	work
+T13	Duration 208 219	for a month
+T14	StatusEmploy 189 193	went
+T15	Type 231 254	a fish processing plant
+T16	LivingStatus 284 292	Homeless
+T17	TypeLiving 284 292	Homeless
+T18	StatusTime 284 292	Homeless
+T19	Alcohol 349 357	Drinking
+T20	Duration 358 374	started age 13yo
+T22	StatusTime 389 397	drinking
+E1	Alcohol:T4 Amount:T1 Type:T2 Frequency:T3 Status:T5
+E2	Tobacco:T6 Type:T7 Status:T8
+E3	Drug:T9 Status:T10
+E4	Employment:T12 Duration:T13 Status:T14 Type:T15
+E5	LivingStatus:T16 Type:T17 Status:T18
+E6	Alcohol:T19 Duration:T20 Status:T22
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T8 none
+A3	StatusTimeVal T10 none
+A4	StatusEmployVal T14 unemployed
+A5	TypeLivingVal T17 homeless
+A6	StatusTimeVal T18 current
+A8	StatusTimeVal T22 current

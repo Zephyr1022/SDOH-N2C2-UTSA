@@ -1,0 +1,22 @@
+T1	Employment 16 22	Worked
+T2	StatusEmploy 16 22	Worked
+T3	Type 26 59	renovating and selling apartments
+T4	Tobacco 126 133	tobacco
+T5	StatusTime 114 125	last smoked
+T6	History 134 142	>50y ago
+T7	Alcohol 144 150	drinks
+T8	Amount 151 174	[**1-24**] vodka drinks
+T9	Type 162 167	vodka
+T10	Frequency 175 198	when he goes out to eat
+T11	StatusTime 144 150	drinks
+T12	Drug 257 268	other drugs
+T13	StatusTime 254 256	no
+T14	Type 257 262	other
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Alcohol:T7 Amount:T8 Type:T9 Frequency:T10 Status:T11
+E4	Drug:T12 Type:T14 Status:T13
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T11 current
+A4	StatusTimeVal T13 none

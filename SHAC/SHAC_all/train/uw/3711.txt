@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: [NAME]    Alcohol Use:  denies  Drug Use: denies (from EMR)
+
+SOCIAL HISTORY: 
+Lives with wife at home; multiple family caregivers

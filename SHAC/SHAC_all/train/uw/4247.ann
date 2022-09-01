@@ -1,0 +1,19 @@
+T1	LivingStatus 17 23	Living
+T2	StatusTime 17 23	Living
+T3	TypeLiving 26 29	UGM
+T4	Tobacco 91 98	Tobacco
+T5	StatusTime 91 98	Tobacco
+T6	Alcohol 103 110	Alcohol
+T7	StatusTime 103 110	Alcohol
+T8	Drug 115 119	IVDU
+T9	StatusTime 112 114	no
+T10	Method 115 119	IVDU
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Status:T9 Method:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T7 current
+A5	StatusTimeVal T9 none

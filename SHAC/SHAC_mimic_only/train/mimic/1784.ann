@@ -1,0 +1,26 @@
+T1	Tobacco 17 24	Tobacco
+T2	StatusTime 61 74	recently quit
+T3	Amount 27 33	1 pack
+T4	Frequency 34 39	a day
+T5	Duration 40 59	since the age of 10
+T6	Alcohol 78 85	Alcohol
+T7	StatusTime 88 92	none
+T8	Drug 106 119	IV drug abuse
+T9	Method 106 108	IV
+T10	StatusTime 122 126	none
+T11	Employment 140 150	Unemployed
+T12	StatusEmploy 140 150	Unemployed
+T13	LivingStatus 165 170	lives
+T14	StatusTime 165 170	lives
+T15	TypeLiving 171 179;180 198	with her next door neighbor
+E1	Tobacco:T1 Amount:T3 Frequency:T4 Duration:T5 Status:T2
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Status:T10 Method:T9
+E4	Employment:T11 Status:T12
+E5	LivingStatus:T13 Status:T14 Type:T15
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T10 none
+A4	StatusEmployVal T12 unemployed
+A5	StatusTimeVal T14 current
+A6	TypeLivingVal T15 with_others

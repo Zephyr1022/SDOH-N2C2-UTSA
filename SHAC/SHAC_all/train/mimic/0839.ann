@@ -1,0 +1,25 @@
+T1	Amount 147 153	1 pack
+T2	Frequency 154 163	per 4 day
+T3	Tobacco 164 170	smoker
+T4	Duration 171 186	x several years
+T5	StatusTime 164 170	smoker
+T6	LivingStatus 20 26	living
+T7	StatusTime 16 19	Was
+T8	TypeLiving 35 57	with wife and daughter
+T9	TypeLiving 59 71	Nursing home
+T10	Duration 111 120	x 2 weeks
+T11	LivingStatus 59 71	Nursing home
+T12	StatusTime 59 98;99 120	Nursing home [**Doctor Last Name **] on the Commons x 2 weeks
+T13	Employment 188 195	Veteran
+T14	StatusEmploy 188 195	Veteran
+T15	Type 188 195	Veteran
+E1	Tobacco:T3 Status:T5 Amount:T1 Frequency:T2 Duration:T4
+E2	LivingStatus:T6 Status:T7 Type:T8
+E3	LivingStatus:T11 Type:T9 Duration:T10 Status:T12
+E4	Employment:T13 Status:T14 Type:T15
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T7 past
+A3	TypeLivingVal T8 with_family
+A4	TypeLivingVal T9 with_others
+A5	StatusTimeVal T12 current
+A6	StatusEmployVal T14 unemployed

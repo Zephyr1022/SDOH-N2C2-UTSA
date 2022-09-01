@@ -1,0 +1,34 @@
+T1	Drug 9 17	Drug Use
+T2	Amount 19 22	~1g
+T3	Type 26 32	heroin
+T4	Frequency 33 38	/ day
+T5	History 50 61	5 hours ago
+T6	StatusTime 69 79	used daily
+T7	Duration 84 98	the past month
+T14	Drug 171 179	sobriety
+T15	History 183 196	~8 months ago
+T16	StatusTime 171 179	sobriety
+T17	Tobacco 222 229	tobacco
+T18	Alcohol 233 241	EtOH use
+T19	StatusTime 215 221	Denies
+T20	LivingStatus 261 269	Homeless
+T21	TypeLiving 261 269	Homeless
+T22	Duration 270 292	for the past two years
+T23	StatusTime 270 292	for the past two years
+T24	LivingStatus 303 310	staying
+T25	TypeLiving 314 328	his GF's place
+T26	StatusTime 303 310	staying
+T27	Duration 333 352	the last week or so
+E1	Drug:T1 Amount:T2 Type:T3 Frequency:T4 History:T5 Status:T6 Duration:T7
+E4	Drug:T14 History:T15 Status:T16
+E5	Tobacco:T17 Status:T19
+E6	Alcohol:T18 Status:T19
+E7	LivingStatus:T20 Type:T21 Duration:T22 Status:T23
+E8	LivingStatus:T24 Type:T25 Status:T26 Duration:T27
+A1	StatusTimeVal T6 current
+A4	StatusTimeVal T16 past
+A5	StatusTimeVal T19 none
+A6	TypeLivingVal T21 homeless
+A7	StatusTimeVal T23 current
+A8	TypeLivingVal T25 with_others
+A9	StatusTimeVal T26 current

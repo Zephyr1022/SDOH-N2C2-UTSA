@@ -1,0 +1,20 @@
+T1	Alcohol 70 74	etoh
+T2	StatusTime 97 108	in the past
+T4	Tobacco 113 120	tobacco
+T5	Drug 124 134	drug abuse
+T7	StatusTime 110 112	No
+T8	Drug 147 149;150 160	IV drug abuse
+T10	Method 147 149	IV
+T11	StatusTime 136 142	Denied
+T12	Employment 169 191	a training coordinator
+T13	Type 169 191	a training coordinator
+T14	StatusEmploy 166 168	is
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T4 Status:T7
+E3	Drug:T5 Status:T7
+E4	Drug:T8 Method:T10 Status:T11
+E5	Employment:T12 Type:T13 Status:T14
+A1	StatusTimeVal T2 past
+A4	StatusTimeVal T7 none
+A6	StatusTimeVal T11 none
+A7	StatusEmployVal T14 employed

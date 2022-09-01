@@ -1,0 +1,25 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 32	Former use
+T3	Type 36 51	chewing tobacco
+T4	History 58 68	1 year ago
+T5	Alcohol 71 82	Alcohol Use
+T6	StatusTime 84 113	2-4 glasses of wine per night
+T7	Amount 84 103	2-4 glasses of wine
+T8	Type 99 103	wine
+T9	Frequency 104 113	per night
+T10	Drug 116 124	Drug Use
+T11	StatusTime 126 154	Daily recreational marijuana
+T12	Type 132 154	recreational marijuana
+T13	Frequency 126 131	Daily
+T14	LivingStatus 173 178	Lives
+T15	StatusTime 173 178	Lives
+T16	TypeLiving 193 203	by himself
+E1	Tobacco:T1 Status:T2 Type:T3 History:T4
+E2	Alcohol:T5 Amount:T7 Status:T6 Type:T8 Frequency:T9
+E3	Drug:T10 Frequency:T13 Status:T11 Type:T12
+E4	LivingStatus:T14 Status:T15 Type:T16
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T11 current
+A4	StatusTimeVal T15 current
+A5	TypeLivingVal T16 alone

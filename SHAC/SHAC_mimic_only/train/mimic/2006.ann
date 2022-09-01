@@ -1,0 +1,11 @@
+T1	Alcohol 33 46	alcohol abuse
+T3	Drug 51 70	polysubstance abuse
+T5	StatusTime 17 32	Significant for
+T6	Employment 81 87	worked
+T7	StatusEmploy 156 169	without a job
+T8	Type 91 105	a record store
+E1	Alcohol:T1 Status:T5
+E2	Drug:T3 Status:T5
+E3	Employment:T6 Type:T8 Status:T7
+A3	StatusTimeVal T5 current
+A4	StatusEmployVal T7 unemployed

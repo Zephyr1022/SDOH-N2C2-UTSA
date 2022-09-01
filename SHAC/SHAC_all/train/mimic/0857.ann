@@ -1,0 +1,17 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 28 45	in senior housing
+T6	Tobacco 70 77	tobacco
+T7	Alcohol 81 92	alcohol use
+T8	StatusTime 63 69	Denies
+T9	Drug 97 123	recreational substance use
+T10	Type 97 109	recreational
+T11	StatusTime 94 96	no
+E1	LivingStatus:T1 Status:T2 Type:T3
+E3	Tobacco:T6 Status:T8
+E4	Alcohol:T7 Status:T8
+E5	Drug:T9 Type:T10 Status:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T11 none

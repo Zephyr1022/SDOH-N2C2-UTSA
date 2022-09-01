@@ -1,0 +1,13 @@
+T1	Employment 66 71	works
+T2	Type 75 76;77 119	a heating and an air conditioning technician
+T3	StatusEmploy 66 71	works
+T5	StatusTime 130 138;139 148	lifetime nonsmoker
+T4	Tobacco 139 148	nonsmoker
+T6	Alcohol 168 175	alcohol
+T7	StatusTime 153 161	does not
+E1	Employment:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+A1	StatusEmployVal T3 employed
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 none

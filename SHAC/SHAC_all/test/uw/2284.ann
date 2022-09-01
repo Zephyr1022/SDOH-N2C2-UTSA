@@ -1,0 +1,20 @@
+T1	LivingStatus 46 51	Lives
+T2	TypeLiving 52 100	with [NAME] (husband) and [NAME] (15yo daughter)
+T3	StatusTime 46 51	Lives
+T4	Drug 152 168	illicit drug use
+T5	Type 152 159	illicit
+T6	StatusTime 149 151	no
+T7	Alcohol 137 144	alcohol
+T9	StatusTime 132 136	rare
+T10	Tobacco 108 115	smoking
+T11	History 116 130	gt30 years ago
+T12	StatusTime 102 107	Quick
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Drug:T4 Type:T5 Status:T6
+E3	Alcohol:T7 Status:T9
+E4	Tobacco:T10 Status:T12 History:T11
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 none
+A5	StatusTimeVal T9 current
+A6	StatusTimeVal T12 past

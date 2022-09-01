@@ -1,0 +1,22 @@
+T4	Tobacco 9 20	Tobacco Use
+T5	Amount 22 37	8-10 cigarettes
+T6	Frequency 37 41	/day
+T7	Alcohol 44 55	Alcohol Use
+T8	Amount 57 66	2-3 beers
+T9	Frequency 66 70	/day
+T10	Drug 73 81	Drug Use
+T11	StatusTime 83 89	denies
+T13	StatusTime 22 41	8-10 cigarettes/day
+E2	Tobacco:T4 Amount:T5 Frequency:T6 Status:T13 Type:T12
+E3	Alcohol:T7 Amount:T8 Frequency:T9 Status:T14
+E4	Drug:T10 Status:T11
+A3	StatusTimeVal T11 none
+A5	StatusTimeVal T13 current
+T12	Type 27 37	cigarettes
+T14	StatusTime 57 70	2-3 beers/day
+A4	StatusTimeVal T14 current
+T15	Drug 114 119	crack
+E5	Drug:T15 Type:T17 Status:T16
+T16	StatusTime 108 110	hx
+A6	StatusTimeVal T16 past
+T17	Type 114 119	crack

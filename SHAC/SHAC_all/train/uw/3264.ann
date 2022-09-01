@@ -1,0 +1,29 @@
+T1	LivingStatus 17 25	Homeless
+T2	StatusTime 26 43	Currently staying
+T3	TypeLiving 44 85	at Compass housing, 1811 Eastlake shelter
+T4	StatusTime 17 25	Homeless
+T5	TypeLiving 17 25	Homeless
+T6	LivingStatus 26 43	Currently staying
+T7	Employment 86 96	Unemployed
+T8	StatusEmploy 86 96	Unemployed
+T9	Tobacco 98 105	tobacco
+T10	StatusTime 97 105	+tobacco
+T11	Alcohol 107 111	etoh
+T12	StatusTime 106 111	+etoh
+T13	Drug 113 129	methamphetamines
+T14	Type 112 129	+methamphetamines
+T15	StatusTime 112 129	+methamphetamines
+E1	LivingStatus:T1 Status:T4 Type:T5
+E2	LivingStatus:T6 Status:T2 Type:T3
+E3	Employment:T7 Status:T8
+E4	Tobacco:T9 Status:T10
+E5	Alcohol:T11 Status:T12
+E6	Drug:T13 Status:T15 Type:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T4 current
+A4	TypeLivingVal T5 homeless
+A5	StatusEmployVal T8 unemployed
+A6	StatusTimeVal T10 current
+A7	StatusTimeVal T12 current
+A8	StatusTimeVal T15 current

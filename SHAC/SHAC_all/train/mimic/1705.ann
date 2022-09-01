@@ -1,0 +1,21 @@
+T1	LivingStatus 19 24	lives
+T2	StatusTime 19 24	lives
+T3	TypeLiving 25 35	by himself
+T4	Tobacco 124 136;137 144	past smoking history
+T5	Amount 148 160	30 pack year
+T6	StatusTime 173 177	quit
+T7	History 178 191	in [**2156**]
+T8	Alcohol 204 220	current EtoH use
+T9	StatusTime 193 203	Denies any
+T10	Employment 374 378	work
+T11	StatusEmploy 366 373;374 378	used to work
+T12	Type 382 396	a business man
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T5 Status:T6 History:T7
+E3	Alcohol:T8 Status:T9
+E4	Employment:T10 Status:T11 Type:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T9 none
+A5	StatusEmployVal T11 unemployed

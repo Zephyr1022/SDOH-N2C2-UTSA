@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	lives
+T2	TypeLiving 22 34	with husband
+T3	StatusTime 16 21	lives
+T4	Employment 42 47	works
+T5	Type 48 79	full time as office coordinator
+T6	StatusEmploy 48 79	full time as office coordinator
+T12	Tobacco 146 153	tobacco
+T13	StatusTime 141 145	quit
+T14	Amount 169 189	20 pack year history
+T15	History 154 163	at age 35
+T16	Alcohol 203 207	etoh
+T17	StatusTime 192 202	occasional
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Employment:T4 Status:T6 Type:T5
+E4	Tobacco:T12 Status:T13 Amount:T14 History:T15
+E5	Alcohol:T16 Status:T17
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T6 employed
+A6	StatusTimeVal T13 past
+A7	StatusTimeVal T17 current

@@ -1,0 +1,15 @@
+T1	Tobacco 33 40	Tobacco
+T2	Amount 42 57	[**11-18**] PPD
+T3	StatusTime 58 61	now
+T4	Amount 63 74	up to 4 PPD
+T5	StatusTime 75 86	in the past
+T6	Tobacco 88 109	90+ pack year history
+T7	Amount 88 101	90+ pack year
+T8	StatusTime 88 109	90+ pack year history
+E1	Tobacco:T1 Amount:T2 Status:T3
+E3	Tobacco:T6 Status:T8 Amount:T7
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 current
+T9	Tobacco 71 74	PPD
+E4	Tobacco:T9 Amount:T4 Status:T5

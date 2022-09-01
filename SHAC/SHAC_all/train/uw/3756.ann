@@ -1,0 +1,19 @@
+T1	Employment 28 35	student
+T2	StatusEmploy 28 35	student
+T3	Type 36 48	[PROFESSION]
+T4	Tobacco 109 112	Tob
+T5	StatusTime 108 112	+Tob
+T6	Duration 113 122	3-4 years
+T7	Amount 123 127	1PPD
+T8	Alcohol 131 135	etoh
+T9	Drug 140 145	drugs
+T10	StatusTime 137 139	no
+T11	StatusTime 128 130	No
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 Duration:T6 Amount:T7
+E3	Alcohol:T8 Status:T11
+E4	Drug:T9 Status:T10
+A1	StatusEmployVal T2 student
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T10 none
+A4	StatusTimeVal T11 none

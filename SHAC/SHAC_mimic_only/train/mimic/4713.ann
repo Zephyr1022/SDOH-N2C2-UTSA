@@ -1,0 +1,9 @@
+T1	Alcohol 47 51	EtOH
+T2	Tobacco 53 60	tobacco
+T3	Drug 61 65	IVDU
+T4	Method 61 65	IVDU
+T5	StatusTime 40 46	denies
+E1	Alcohol:T1 Status:T5
+E2	Tobacco:T2 Status:T5
+E3	Drug:T3 Method:T4 Status:T5
+A1	StatusTimeVal T5 none

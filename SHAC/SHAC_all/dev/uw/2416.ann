@@ -1,0 +1,19 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 29 40	Alcohol Use
+T3	Drug 68 76	Drug Use
+T4	StatusTime 78 82	none
+T5	StatusTime 22 26	none
+T6	Amount 42 52	1-2 drinks
+T7	Frequency 53 65	4-5 x a week
+T8	StatusTime 42 65	1-2 drinks 4-5 x a week
+T9	Employment 117 123	worked
+T10	StatusEmploy 108 123	formerly worked
+E1	Tobacco:T1 Status:T5
+E2	Alcohol:T2 Amount:T6 Frequency:T7 Status:T8
+E3	Drug:T3 Status:T4
+E4	Employment:T9 Status:T10 Type:T11
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T8 current
+A4	StatusEmployVal T10 unemployed
+T11	Type 128 140	[PROFESSION]

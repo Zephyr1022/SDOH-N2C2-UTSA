@@ -1,0 +1,33 @@
+T1	LivingStatus 170 177	staying
+T2	TypeLiving 178 190	with her son
+T3	StatusTime 161 169	Had been
+T4	LivingStatus 222 229	staying
+T5	StatusTime 213 221	has been
+T6	TypeLiving 230 246	at her own place
+T7	Drug 89 93	IVDU
+T8	StatusTime 78 88	History of
+T9	Method 89 93	IVDU
+T10	StatusTime 9 17	Has been
+T11	Tobacco 18 25	smoking
+T12	Amount 26 42	a few cigarettes
+T13	Type 32 42	cigarettes
+T14	Frequency 43 50	per day
+T15	Duration 51 76	for the last several days
+T16	Alcohol 102 109	alcohol
+T17	Drug 113 121	illicits
+T18	Type 113 121	illicits
+T19	History 122 142	since last discharge
+T20	StatusTime 95 142	Denies alcohol or illicits since last discharge
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Drug:T7 Status:T8 Method:T9
+E4	Tobacco:T11 Status:T10 Amount:T12 Type:T13 Frequency:T14 Duration:T15
+E5	Alcohol:T16 Status:T20 History:T19
+E6	Drug:T17 Type:T18 Status:T20 History:T19
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 past
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 alone
+A5	StatusTimeVal T8 current
+A6	StatusTimeVal T10 current
+A7	StatusTimeVal T20 past

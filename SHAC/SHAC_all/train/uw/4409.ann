@@ -1,0 +1,55 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 69 80	Alcohol Use
+T3	Drug 172 180	Drug Use
+T4	Type 189 198	marijuana
+T5	Type 211 218	cocaine
+T6	Method 226 234	snorting
+T7	StatusTime 206 210	past
+T8	History 245 262	couple months ago
+T9	Frequency 199 204	daily
+T10	StatusTime 182 188	smokes
+T11	Employment 526 531	Works
+T12	StatusEmploy 526 531	Works
+T13	Type 535 570	a school in the automotive workshop
+T14	Employment 577 582	works
+T15	StatusEmploy 577 582	works
+T16	Type 586 596	[LOCATION]
+T17	LivingStatus 487 493	living
+T18	LivingStatus 406 412	living
+T19	TypeLiving 427 446	with daughter's mom
+T20	StatusTime 397 405	Had been
+T21	TypeLiving 494 509	with his sister
+T22	StatusTime 484 486	is
+T23	StatusTime 22 28	Smokes
+T24	Amount 29 43	4-5 cigarettes
+T25	Frequency 44 51	per day
+T26	Duration 52 65	for past year
+T27	StatusTime 82 86	quit
+T28	History 96 109	one month ago
+T29	Alcohol 118 123	drink
+T30	StatusTime 134 144	previously
+T31	Amount 152 160	one beer
+T32	Frequency 161 168	per day
+E1	Tobacco:T1 Status:T23 Amount:T24 Frequency:T25 Duration:T26 Type:T33
+E2	Alcohol:T2 Status:T27 History:T28
+E4	Drug:T3 Type:T4 Status:T10 Frequency:T9
+E5	Employment:T11 Status:T12 Type:T13
+E6	Employment:T14 Type:T16 Status:T15
+E7	LivingStatus:T17 Type:T21 Status:T22
+E8	LivingStatus:T18 Status:T20 Type:T19
+E9	Alcohol:T29 Status:T30 Amount:T31 Frequency:T32 Type:T34
+A1	StatusTimeVal T7 past
+A2	StatusTimeVal T10 current
+A3	StatusEmployVal T12 employed
+A4	StatusEmployVal T15 employed
+A5	TypeLivingVal T19 with_family
+A6	StatusTimeVal T20 past
+A7	TypeLivingVal T21 with_family
+A8	StatusTimeVal T22 current
+A9	StatusTimeVal T23 current
+A10	StatusTimeVal T27 past
+A11	StatusTimeVal T30 past
+T33	Type 33 43	cigarettes
+T34	Type 156 160	beer
+T35	Drug 211 222	cocaine use
+E3	Drug:T35 Type:T5 Status:T7 Method:T6 History:T8

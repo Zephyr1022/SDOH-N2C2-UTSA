@@ -1,0 +1,17 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 27	alone
+T4	Employment 53 61	Employed
+T5	StatusEmploy 53 61	Employed
+T6	Type 75 101	a bookkeeper at a law firm
+T7	Alcohol 136 140	ETOH
+T8	Tobacco 141 148	tobacco
+T9	StatusTime 129 135	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Alcohol:T7 Status:T9
+E4	Tobacco:T8 Status:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T9 none

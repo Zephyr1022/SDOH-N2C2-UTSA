@@ -1,0 +1,14 @@
+T1	Drug 29 32	THC
+T2	Type 29 32	THC
+T3	Method 22 28	smokes
+T4	StatusTime 22 28	smokes
+T5	Tobacco 46 53	tobacco
+T6	Alcohol 55 62	alcohol
+T7	Drug 66 74	drug use
+T8	StatusTime 35 41	Denies
+E1	Drug:T1 Type:T2 Method:T3 Status:T4
+E2	Tobacco:T5 Status:T8
+E3	Alcohol:T6 Status:T8
+E4	Drug:T7 Status:T8
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T8 none

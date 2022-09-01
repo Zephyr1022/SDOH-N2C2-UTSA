@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 43	occasional cigarettes
+T3	Amount 45 50	a few
+T4	Frequency 51 57	a week
+T5	Alcohol 96 107	Alcohol Use
+T6	StatusTime 109 136	Last drink thursday evening
+T7	Drug 140 148	Drug Use
+T8	StatusTime 150 157	History
+T9	Type 161 167	heroin
+T10	Employment 290 304	goes to school
+T11	StatusEmploy 290 304	goes to school
+T12	Employment 334 339	a job
+T13	StatusEmploy 330 339	has a job
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Status:T8 Type:T9
+E4	Employment:T10 Status:T11
+E5	Employment:T12 Status:T13
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T8 current
+A4	StatusEmployVal T11 student
+A5	StatusEmployVal T13 employed

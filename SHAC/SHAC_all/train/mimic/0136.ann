@@ -1,0 +1,20 @@
+T1	Tobacco 25 30	smoke
+T3	StatusTime 32 36	quit
+T4	Alcohol 63 70	alcohol
+T5	StatusTime 56 62	Drinks
+T6	LivingStatus 84 89	Lives
+T7	StatusTime 84 89	Lives
+T8	TypeLiving 90 103	with his wife
+T9	Employment 150 169	Retired lab manager
+T10	StatusEmploy 150 169	Retired lab manager
+T11	Type 150 169	Retired lab manager
+T2	History 37 55	about 10 years ago
+E1	Tobacco:T1 Status:T3 History:T2
+E2	Alcohol:T4 Status:T5
+E3	LivingStatus:T6 Status:T7 Type:T8
+E4	Employment:T9 Status:T10 Type:T11
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T7 current
+A4	TypeLivingVal T8 with_family
+A5	StatusEmployVal T10 retired

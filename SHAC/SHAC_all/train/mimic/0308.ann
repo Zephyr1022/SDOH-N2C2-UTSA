@@ -1,0 +1,13 @@
+T1	Tobacco 16 29	Former smoker
+T2	Alcohol 36 41	EtoH.
+T4	StatusTime 16 29	Former smoker
+T5	StatusTime 31 41	rare EtoH.
+T6	StatusEmploy 51 72	Former police officer
+T7	Employment 51 72	Former police officer
+T8	Type 51 72	Former police officer
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T5
+E3	Employment:T7 Status:T6 Type:T8
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T5 current
+A3	StatusEmployVal T6 unemployed

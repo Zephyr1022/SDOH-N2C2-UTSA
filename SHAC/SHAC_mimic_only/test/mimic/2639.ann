@@ -1,0 +1,12 @@
+T1	Employment 32 56	a single college student
+T2	StatusEmploy 32 56	a single college student
+T3	Alcohol 62 87	occasional alcohol intake
+T4	StatusTime 62 87	occasional alcohol intake
+T6	Tobacco 96 103	tobacco
+T7	StatusTime 89 95	denies
+E1	Employment:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Tobacco:T6 Status:T7
+A1	StatusEmployVal T2 student
+A2	StatusTimeVal T4 current
+A4	StatusTimeVal T7 none

@@ -1,0 +1,27 @@
+T1	LivingStatus 26 31	lives
+T2	StatusTime 26 31	lives
+T3	TypeLiving 32 44	in a shelter
+T4	Employment 355 374	as Master's student
+T5	StatusEmploy 355 374	as Master's student
+T8	Tobacco 74 81	tobacco
+T9	Alcohol 83 90	alcohol
+T10	Drug 94 107	illicit drugs
+T11	StatusTime 67 73	Denies
+T12	Alcohol 127 134	alcohol
+T13	StatusTime 112 126	has history of
+T14	Drug 298 315	tylenol overdoses
+T16	StatusTime 267 275	previous
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Status:T5
+E3	Tobacco:T8 Status:T11
+E4	Alcohol:T9 Status:T11
+E5	Drug:T10 Status:T11
+E6	Alcohol:T12 Status:T13
+E7	Drug:T14 Status:T16 Type:T15
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusEmployVal T5 student
+A4	StatusTimeVal T11 none
+A5	StatusTimeVal T13 past
+A7	StatusTimeVal T16 past
+T15	Type 298 305	tylenol

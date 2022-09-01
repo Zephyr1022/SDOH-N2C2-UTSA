@@ -1,0 +1,20 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 29	current
+T3	Amount 30 37	1/2 ppd
+T4	Duration 38 50	x gt40 years
+T5	Alcohol 132 143	Alcohol Use
+T7	StatusTime 145 155	occasional
+T8	Drug 167 175	Drug Use
+T9	StatusTime 177 183	remote
+T10	LivingStatus 202 211	Residence
+T11	StatusTime 213 218	Lives
+T12	TypeLiving 219 236	at gt50 male home
+E1	Tobacco:T1 Status:T2 Amount:T3 Duration:T4
+E2	Alcohol:T5 Status:T7
+E3	Drug:T8 Status:T9
+E4	LivingStatus:T10 Status:T11 Type:T12
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T11 current
+A6	TypeLivingVal T12 homeless

@@ -1,0 +1,22 @@
+T1	Tobacco 33 43	Cigarettes
+T2	Type 33 43	Cigarettes
+T3	StatusTime 56 69	[x] ex-smoker
+T4	Amount 84 97	Pack-yrs:_20_
+T5	History 121 143	quit: __20 yrs ago____
+T6	Alcohol 144 148	ETOH
+T7	StatusTime 156 173	[x] Not currently
+T11	Employment 334 344	Occupation
+T12	StatusEmploy 346 370	High school math teacher
+T13	Type 346 370	High school math teacher
+T14	LivingStatus 411 416	Lives
+T15	StatusTime 411 416	Lives
+T16	TypeLiving 440 453	[x] w/ family
+E1	Tobacco:T1 Type:T2 Status:T3 Amount:T4 History:T5
+E2	Alcohol:T6 Status:T7
+E4	Employment:T11 Status:T12 Type:T13
+E5	LivingStatus:T14 Status:T15 Type:T16
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T7 none
+A4	StatusEmployVal T12 employed
+A5	StatusTimeVal T15 current
+A6	TypeLivingVal T16 with_family

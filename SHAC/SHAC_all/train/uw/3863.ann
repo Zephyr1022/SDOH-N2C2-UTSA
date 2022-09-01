@@ -1,0 +1,44 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Method 22 27	chews
+T3	Amount 28 33	1 can
+T4	Frequency 50 56	4 days
+T5	Duration 107 119	since age 17
+T6	Alcohol 122 133	Alcohol Use
+T7	StatusTime 22 27	chews
+T8	Amount 135 144	0-6 shots
+T9	Type 148 156	[NAME]'s
+T10	Frequency 157 164	per day
+T11	StatusTime 135 164	0-6 shots of [NAME]'s per day
+T12	History 206 216	in 2 weeks
+T13	Drug 219 227	Drug Use
+T14	StatusTime 229 233	none
+T15	LivingStatus 252 257	Lives
+T16	TypeLiving 272 285	with his wife
+T17	StatusTime 252 257	Lives
+T18	LivingStatus 363 367	live
+T19	TypeLiving 310 352	4 children, 2 are adults and 2 are younger
+T20	StatusTime 363 367	live
+T21	Employment 409 412	job
+T22	Type 384 403	an auto-repair shop
+T23	StatusEmploy 379 383	Runs
+E1	Tobacco:T1 Method:T2 Amount:T3 Frequency:T4 Status:T7
+E2	Alcohol:T6 Amount:T8 Type:T9 Frequency:T10 Status:T11 History:T12
+E3	Drug:T13 Status:T14
+E4	LivingStatus:T15 Type:T16 Status:T17
+E5	LivingStatus:T18 Type:T19 Status:T20
+E6	Employment:T21 Type:T22 Status:T23
+A1	StatusTimeVal T7 current
+A2	StatusTimeVal T11 current
+A3	StatusTimeVal T14 none
+A4	TypeLivingVal T16 with_family
+A5	StatusTimeVal T17 current
+A6	TypeLivingVal T19 with_family
+A7	StatusTimeVal T20 current
+A8	StatusEmployVal T23 employed
+T25	Tobacco 78 84	chewed
+E7	Tobacco:T25 Method:T26 Status:T29 Amount:T27 Frequency:T28 Duration:T5
+T26	Method 78 84	chewed
+T27	Amount 85 96	up to 1 can
+T28	Frequency 96 100	/day
+T29	StatusTime 58 72	Use fluctuates
+A9	StatusTimeVal T29 current

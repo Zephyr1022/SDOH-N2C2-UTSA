@@ -1,0 +1,16 @@
+T1	StatusTime 46 50	quit
+T2	StatusTime 23 27	quit
+T3	Alcohol 17 21	ETOH
+T4	Tobacco 38 45	Tobacco
+T5	History 51 56	35 yo
+T6	History 28 37	45 yo ago
+T8	StatusTime 57 62	Lives
+T7	LivingStatus 57 62	Lives
+T9	TypeLiving 63 72	with wife
+E1	Alcohol:T3 Status:T2 History:T6
+E2	Tobacco:T4 Status:T1 History:T5
+E3	LivingStatus:T7 Type:T9 Status:T8
+A1	StatusTimeVal T1 past
+A2	StatusTimeVal T2 past
+A3	StatusTimeVal T8 current
+A4	TypeLivingVal T9 with_family

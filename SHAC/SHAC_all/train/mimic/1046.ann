@@ -1,0 +1,14 @@
+T1	Alcohol 19 23	etoh
+T2	StatusTime 16 18	No
+T3	Tobacco 33 38	smoke
+T4	StatusTime 25 32	used to
+T7	LivingStatus 83 88	lives
+T8	StatusTime 83 88	lives
+T9	TypeLiving 89 97	with son
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+E4	LivingStatus:T7 Status:T8 Type:T9
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T8 current
+A4	TypeLivingVal T9 with_family

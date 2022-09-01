@@ -1,0 +1,25 @@
+T1	LivingStatus 16 33	Currently staying
+T2	StatusTime 16 33	Currently staying
+T3	TypeLiving 34 58	at [**Hospital **] rehab
+T4	Employment 70 86	former secretary
+T5	StatusEmploy 70 86	former secretary
+T6	Type 70 86	former secretary
+T7	Tobacco 98 107	+ tobacco
+T8	Duration 116 124	40 years
+T9	Amount 128 132	4ppd
+T10	StatusTime 134 138	quit
+T11	History 139 149	30 yrs ago
+T12	Alcohol 154 161	alcohol
+T13	Drug 165 173	drug use
+T14	StatusTime 151 153	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Duration:T8 Amount:T9 Status:T10 History:T11 Amount2:T15
+E4	Alcohol:T12 Status:T14
+E5	Drug:T13 Status:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T10 past
+A5	StatusTimeVal T14 none
+T15	Amount 109 114	160py

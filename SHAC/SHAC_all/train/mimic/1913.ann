@@ -1,0 +1,21 @@
+T3	LivingStatus 97 102	lives
+T4	StatusTime 97 102	lives
+T5	TypeLiving 103 128	with husband and two sons
+T6	Alcohol 188 201	alcohol abuse
+T8	StatusTime 185 187	no
+T9	Tobacco 203 210	smoking
+T10	StatusTime 219 234	2-3 cig per day
+T11	Amount 219 226	2-3 cig
+T12	Frequency 227 234	per day
+T13	Drug 239 247	illicits
+T14	StatusTime 236 238	no
+E2	LivingStatus:T3 Status:T4 Type:T5
+E3	Alcohol:T6 Status:T8
+E4	Tobacco:T9 Amount:T11 Frequency:T12 Status:T10 Type:T1
+E5	Drug:T13 Status:T14
+A1	StatusTimeVal T4 current
+A2	TypeLivingVal T5 with_family
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T10 current
+A6	StatusTimeVal T14 none
+T1	Type 223 226	cig

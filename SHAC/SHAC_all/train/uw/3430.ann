@@ -1,0 +1,36 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 61	with wife and two of his four children
+T4	Employment 65 76	Not working
+T5	StatusEmploy 65 76	Not working
+T6	History 77 102	since motorcycle accident
+T7	Employment 106 110	runs
+T8	StatusEmploy 106 110	runs
+T9	Type 111 130	an autorelpair shop
+T10	Alcohol 134 138	Etoh
+T11	StatusTime 168 173	prior
+T12	Amount 174 177	3-4
+T13	Frequency 177 181	/day
+T14	Alcohol 144 151	drinkin
+T15	Amount 140 143	one
+T16	StatusTime 152 166	last two weeks
+T17	Tobacco 182 189	tobacco
+T18	Method 191 195	chew
+T19	StatusTime 191 195	chew
+T20	Drug 196 201	drugs
+T21	StatusTime 203 209	denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 History:T6
+E3	Employment:T7 Status:T8 Type:T9
+E4	Alcohol:T10 Status:T11 Amount:T12 Frequency:T13
+E5	Alcohol:T14 Amount:T15 Status:T16
+E6	Tobacco:T17 Method:T18 Status:T19
+E7	Drug:T20 Status:T21
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed
+A4	StatusEmployVal T8 employed
+A5	StatusTimeVal T11 past
+A6	StatusTimeVal T16 current
+A7	StatusTimeVal T19 current
+A8	StatusTimeVal T21 none

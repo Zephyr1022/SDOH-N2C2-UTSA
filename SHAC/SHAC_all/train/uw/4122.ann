@@ -1,0 +1,10 @@
+T1	LivingStatus 17 22	lives
+T2	StatusTime 17 22	lives
+T3	TypeLiving 29 53	at senior living faciliy
+T4	Tobacco 68 78	Non-smoker
+T5	StatusTime 68 78	Non-smoker
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 none

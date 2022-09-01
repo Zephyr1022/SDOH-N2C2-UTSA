@@ -1,0 +1,21 @@
+T1	Alcohol 16 26	EtOH abuse
+T3	StatusTime 16 26	EtOH abuse
+T4	Tobacco 27 30	Tob
+T5	Amount 33 45	40 pack year
+T6	StatusTime 54 60	d/c'ed
+T7	History 61 74	in [**2088**]
+T8	LivingStatus 75 80	Lives
+T9	StatusTime 75 80	Lives
+T10	TypeLiving 81 86	alone
+T11	Employment 140 156	an airline pilot
+T12	Type 140 156	an airline pilot
+T13	StatusEmploy 129 139	Used to be
+E1	Alcohol:T1 Status:T3
+E2	Tobacco:T4 Amount:T5 Status:T6 History:T7
+E3	LivingStatus:T8 Status:T9 Type:T10
+E4	Employment:T11 Status:T13 Type:T12
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T10 alone
+A6	StatusEmployVal T13 unemployed

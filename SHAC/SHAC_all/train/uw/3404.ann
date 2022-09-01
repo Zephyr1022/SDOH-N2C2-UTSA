@@ -1,0 +1,32 @@
+T1	LivingStatus 110 120	now living
+T2	StatusTime 110 120	now living
+T3	TypeLiving 121 135	on the streets
+T4	Employment 182 185	job
+T5	StatusEmploy 167 172	fired
+T6	Employment 350 366	a animal trainer
+T7	Type 350 366	a animal trainer
+T8	StatusEmploy 339 349	used to be
+T9	Tobacco 500 507	smoking
+T10	StatusTime 495 499	Quit
+T11	History 508 519	late [DATE]
+T12	Amount 539 550	1.5-3 packs
+T13	Frequency 550 554	/day
+T14	Drug 559 575	illicit drug use
+T15	Type 559 566	illicit
+T16	StatusTime 556 558	No
+T17	Employment 580 585	works
+T18	Type 589 599	a vet tech
+T19	StatusEmploy 580 585	works
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Employment:T6 Type:T7 Status:T8
+E4	Tobacco:T9 Status:T10 History:T11 Amount:T12 Frequency:T13
+E5	Drug:T14 Type:T15 Status:T16
+E6	Employment:T17 Status:T19 Type:T18
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusEmployVal T5 unemployed
+A4	StatusEmployVal T8 unemployed
+A5	StatusTimeVal T10 past
+A6	StatusTimeVal T16 none
+A7	StatusEmployVal T19 employed

@@ -1,0 +1,14 @@
+T1	Alcohol 71 84	alcohol abuse
+T2	StatusTime 86 93	Stopped
+T3	History 94 109	eight years ago
+T4	Tobacco 114 121	tobacco
+T5	StatusTime 111 113	No
+T6	Drug 137 145	IV drugs
+T7	Method 137 139	IV
+T8	StatusTime 123 125;126 133	No history
+E1	Alcohol:T1 Status:T2 History:T3
+E2	Tobacco:T4 Status:T5
+E3	Drug:T6 Status:T8 Method:T7
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T8 none

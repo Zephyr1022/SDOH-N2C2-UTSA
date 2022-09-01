@@ -1,0 +1,43 @@
+T3	Employment 121 127	worked
+T4	StatusEmploy 176 189	on disability
+T5	Type 131 153	a punch press operator
+T6	History 190 206	since [**2172**]
+T7	LivingStatus 222 228	living
+T8	TypeLiving 229 245	with his brother
+T9	StatusTime 222 228	living
+T10	Tobacco 264 270	smokes
+T11	Amount 271 282	half a pack
+T12	Type 286 296	cigarettes
+T13	Frequency 297 298;299 302	a day
+T14	Duration 303 319	for many decades
+T15	StatusTime 264 270	smokes
+T16	Drug 335 341	heroin
+T17	Type 335 341	heroin
+T18	History 342 351	years ago
+T19	StatusTime 321 334	Stopped using
+T20	Drug 358 365	cocaine
+T21	Type 358 365	cocaine
+T22	Alcohol 390 404	heavy drinking
+T24	StatusTime 405 416	in the past
+T25	Amount 421 422;423 436	a "small" drink
+T26	Alcohol 440 445	vodka
+T27	Type 440 445	vodka
+T28	Frequency 446 460	every few days
+T29	StatusTime 461 464	now
+T30	StatusTime 353 357	Last
+T31	History 370 380	months ago
+E2	Employment:T3 Status:T4 Type:T5 History:T6
+E3	LivingStatus:T7 Status:T9 Type:T8
+E4	Tobacco:T10 Status:T15 Amount:T11 Type:T12 Frequency:T13 Duration:T14
+E5	Drug:T16 Type:T17 History:T18 Status:T19
+E6	Drug:T20 Status:T30 Type:T21 History:T31
+E7	Alcohol:T22 Status:T24
+E8	Alcohol:T26 Amount:T25 Type:T27 Frequency:T28 Status:T29
+A1	StatusEmployVal T4 on_disability
+A2	TypeLivingVal T8 with_family
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T15 current
+A5	StatusTimeVal T19 past
+A7	StatusTimeVal T24 past
+A8	StatusTimeVal T29 current
+A9	StatusTimeVal T30 past

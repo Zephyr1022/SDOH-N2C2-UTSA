@@ -1,0 +1,26 @@
+T1	LivingStatus 146 151	Lives
+T2	TypeLiving 166 186	with 24/7 caregivers
+T3	StatusTime 146 151	Lives
+T6	Tobacco 71 82	Tobacco Use
+T7	Alcohol 91 102	Alcohol Use
+T8	Drug 112 120	Drug Use
+T9	StatusTime 122 128	Denies
+T10	StatusTime 104 110	Denies
+T11	StatusTime 84 90	Denies
+T12	Alcohol 15 22	alcohol
+T13	Tobacco 24 31	smoking
+T14	Drug 33 38	drugs
+T15	StatusTime 8 14	Denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E3	Tobacco:T6 Status:T11
+E4	Alcohol:T7 Status:T10
+E5	Drug:T8 Status:T9
+E6	Alcohol:T12 Status:T15
+E7	Tobacco:T13 Status:T15
+E8	Drug:T14 Status:T15
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T10 none
+A6	StatusTimeVal T11 none
+A7	StatusTimeVal T15 none

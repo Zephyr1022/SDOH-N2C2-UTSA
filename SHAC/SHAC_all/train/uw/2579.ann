@@ -1,0 +1,26 @@
+T1	LivingStatus 17 25	Homeless
+T2	TypeLiving 17 25	Homeless
+T3	StatusTime 17 25	Homeless
+T4	Tobacco 26 40	Current smoker
+T5	StatusTime 26 40	Current smoker
+T6	Alcohol 48 55	alcohol
+T7	StatusTime 41 47	Denies
+T8	Drug 65 77	meth & crack
+T9	Type 65 77	meth & crack
+T10	Method 62 64	IV
+T11	StatusTime 56 61	Prior
+T12	Drug 111 118	heroine
+T13	Method 108 110	IV
+T14	StatusTime 92 107	Current relapse
+T15	Type 111 118	heroine
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Type:T9 Method:T10 Status:T11
+E5	Drug:T12 Type:T15 Method:T13 Status:T14
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T11 past
+A6	StatusTimeVal T14 current

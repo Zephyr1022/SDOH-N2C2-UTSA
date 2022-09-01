@@ -1,0 +1,15 @@
+T1	Tobacco 17 24	tobacco
+T2	History 26 45	not since admission
+T3	StatusTime 26 45	not since admission
+T4	LivingStatus 60 66	living
+T5	TypeLiving 67 76	with wife
+T6	StatusTime 56 59	Was
+T7	Alcohol 105 109	etoh
+T8	StatusTime 102 104	No
+E1	Tobacco:T1 Status:T3 History:T2
+E2	LivingStatus:T4 Type:T5 Status:T6
+E3	Alcohol:T7 Status:T8
+A1	StatusTimeVal T3 past
+A2	TypeLivingVal T5 with_family
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T8 none

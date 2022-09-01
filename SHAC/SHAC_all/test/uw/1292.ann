@@ -1,0 +1,19 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 23 35	in a shelter
+T3	StatusTime 17 22	Lives
+T4	Alcohol 39 43	EtOH
+T5	StatusTime 37 38	+
+T6	Tobacco 47 53	smoker
+T7	StatusTime 45 46	+
+T8	Drug 57 61	IVDU
+T9	Method 57 61	IVDU
+T10	StatusTime 55 56	+
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Status:T5
+E3	Tobacco:T6 Status:T7
+E4	Drug:T8 Status:T10 Method:T9
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T7 current
+A5	StatusTimeVal T10 current

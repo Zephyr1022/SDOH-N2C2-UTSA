@@ -1,0 +1,7 @@
+T1	Drug 45 58	crack cocaine
+T2	Type 45 58	crack cocaine
+T3	Method 38 44	Smokes
+T4	Frequency 59 68	regularly
+T5	StatusTime 38 44	Smokes
+E1	Drug:T1 Type:T2 Status:T5 Method:T3 Frequency:T4
+A1	StatusTimeVal T5 current

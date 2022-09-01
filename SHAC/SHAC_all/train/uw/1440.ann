@@ -1,0 +1,29 @@
+T1	LivingStatus 20 25	lives
+T2	TypeLiving 26 31	alone
+T3	StatusTime 20 25	lives
+T4	Tobacco 66 73	smoking
+T5	History 74 81	in 2010
+T6	StatusTime 61 65	Quit
+T7	Alcohol 85 98	Drinks rarely
+T8	StatusTime 85 98	Drinks rarely
+T10	Drug 104 109	drugs
+T11	StatusTime 101 103	No
+T12	Employment 187 193	Worked
+T13	StatusEmploy 187 193	Worked
+T14	Type 197 205	a driver
+T15	Employment 207 220	on disability
+T16	StatusEmploy 207 220	on disability
+T17	Duration 221 233	since [DATE]
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Status:T6 History:T5
+E3	Alcohol:T7 Status:T8
+E4	Drug:T10 Status:T11
+E5	Employment:T12 Status:T13 Type:T14
+E6	Employment:T15 Status:T16 Duration:T17
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T8 current
+A6	StatusTimeVal T11 none
+A7	StatusEmployVal T13 unemployed
+A8	StatusEmployVal T16 on_disability

@@ -1,0 +1,9 @@
+HABITS: 
+- Denies alcohol use
+- Denies smoking
+- Denies other illicit drugs besides amphetamines
+
+SOCIAL HISTORY: 
+- Homeless 
+- From [LOCATION] originally
+- Denies having a PCP or any regular medical care at this time, did not express any interest

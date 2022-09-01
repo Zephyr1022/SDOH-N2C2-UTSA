@@ -1,0 +1,19 @@
+T1	LivingStatus 17 25	Homeless
+T2	TypeLiving 17 25	Homeless
+T3	StatusTime 17 25	Homeless
+T4	Drug 39 56	polysubstance use
+T5	Type 39 52	polysubstance
+T6	StatusTime 28 38	History of
+T7	Tobacco 79 86	tobacco
+T8	Alcohol 90 97	alcohol
+T9	Drug 66 77	active drug
+T10	StatusTime 59 65	Denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Drug:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T10
+E4	Alcohol:T8 Status:T10
+E5	Drug:T9 Status:T10
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T10 none

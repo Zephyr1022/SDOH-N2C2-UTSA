@@ -1,0 +1,21 @@
+T1	Employment 40 55	going to school
+T2	StatusEmploy 40 55	going to school
+T3	Type 65 76	pastry arts
+T4	Tobacco 279 288	Nonsmoker
+T5	StatusTime 279 288	Nonsmoker
+T6	Alcohol 298 309	alcohol use
+T7	StatusTime 291 297	Denies
+T8	Drug 319 325	MJ use
+T9	Drug 327 343	illicit drug use
+T10	Type 319 321	MJ
+T11	Type 327 334	illicit
+T12	StatusTime 312 318	Denies
+E1	Employment:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Type:T10 Status:T12
+E5	Drug:T9 Type:T11 Status:T12
+A1	StatusEmployVal T2 student
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T12 none

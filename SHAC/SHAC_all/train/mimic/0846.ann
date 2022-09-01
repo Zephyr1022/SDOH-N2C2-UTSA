@@ -1,0 +1,12 @@
+T1	Tobacco 23 29	smokes
+T2	Type 16 21	+cigs
+T3	StatusTime 23 29	smokes
+T4	Amount 30 35	1 ppd
+T5	LivingStatus 36 41	lives
+T6	StatusTime 36 41	lives
+T7	TypeLiving 42 54	with husband
+E1	Tobacco:T1 Type:T2 Status:T3 Amount:T4
+E2	LivingStatus:T5 Status:T6 Type:T7
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T6 current
+A3	TypeLivingVal T7 with_family

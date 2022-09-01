@@ -1,0 +1,20 @@
+T1	LivingStatus 11 16	lives
+T2	TypeLiving 20 26	a tent
+T3	StatusTime 27 36	currently
+T6	Tobacco 72 79	tobacco
+T7	Method 66 71	chews
+T8	StatusTime 66 71	chews
+T9	Alcohol 85 89	etoh
+T10	StatusTime 81 84	occ
+T12	Drug 98 102	IVDU
+T13	Method 98 102	IVDU
+T14	StatusTime 91 97	denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E3	Tobacco:T6 Method:T7 Status:T8
+E4	Alcohol:T9 Status:T10
+E5	Drug:T12 Method:T13 Status:T14
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T10 current
+A6	StatusTimeVal T14 none

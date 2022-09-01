@@ -1,0 +1,30 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 36	with 2 friends
+T4	Employment 77 84	a nurse
+T5	StatusEmploy 77 84	a nurse
+T6	Type 77 84	a nurse
+T7	Tobacco 86 93	Tobacco
+T8	StatusTime 96 100	quit
+T9	History 101 113	20 years ago
+T10	Amount 115 120	1 ppd
+T11	Duration 121 128	x20 yrs
+T12	Alcohol 130 134	EtOH
+T13	Amount 137 144	1 drink
+T14	Frequency 144 150	/month
+T15	Drug 178 186	drug use
+T16	Type 159 166	illicit
+T17	StatusTime 152 154	No
+T18	StatusTime 137 150	1 drink/month
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8 History:T9 Amount:T10 Duration:T11
+E4	Alcohol:T12 Amount:T13 Status:T18 Frequency:T14
+E5	Drug:T15 Type:T16 Status:T17 Method:T19
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T17 none
+A6	StatusTimeVal T18 current
+T19	Method 155 157	IV

@@ -1,0 +1,14 @@
+T1	Employment 27 36	an artist
+T2	StatusEmploy 27 36	an artist
+T3	Type 27 36	an artist
+T4	Alcohol 198 202	ETOH
+T5	StatusTime 204 208	rare
+T7	Drug 210 223	Illicit drugs
+T8	Type 210 217	Illicit
+T9	StatusTime 225 229	None
+E1	Employment:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T7 Type:T8 Status:T9
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 current
+A4	StatusTimeVal T9 none

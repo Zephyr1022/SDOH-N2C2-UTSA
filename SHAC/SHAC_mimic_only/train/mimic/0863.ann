@@ -1,0 +1,21 @@
+T1	Employment 119 132	on disability
+T2	StatusEmploy 119 132	on disability
+T3	Type 59 80;81 87	a successful academic career
+T4	History 88 104	until [**2103**]
+T5	LivingStatus 166 181	currently lives
+T6	StatusTime 166 181	currently lives
+T7	TypeLiving 182 187	alone
+T8	Tobacco 255 262	tobacco
+T9	Alcohol 264 268	EtOH
+T10	Drug 274 287	illicit drugs
+T11	Type 274 281	illicit
+T12	StatusTime 248 254	denies
+E1	Employment:T1 Status:T2 History:T4 Type:T3
+E2	LivingStatus:T5 Status:T6 Type:T7
+E3	Tobacco:T8 Status:T12
+E4	Alcohol:T9 Status:T12
+E5	Drug:T10 Type:T11 Status:T12
+A1	StatusEmployVal T2 on_disability
+A2	StatusTimeVal T6 current
+A3	TypeLivingVal T7 alone
+A4	StatusTimeVal T12 none

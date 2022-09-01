@@ -1,0 +1,43 @@
+T1	Tobacco 16 22	Smokes
+T2	StatusTime 16 22	Smokes
+T3	Amount 23 39	a few cigarettes
+T4	Frequency 40 45	a day
+T5	Duration 46 58	x many years
+T6	Alcohol 60 73;74 81	Heavy alcohol history
+T8	Amount 83 100	about 1pint vodka
+T9	Frequency 101 106	a day
+T10	StatusTime 107 110	now
+T11	Drug 112 124	History IVDU
+T12	Method 120 124	IVDU
+T13	Type 126 139	cocaine/crack
+T14	StatusTime 112 124	History IVDU
+T15	LivingStatus 182 190	Homeless
+T16	StatusTime 182 190	Homeless
+T17	TypeLiving 182 190	Homeless
+T18	LivingStatus 412 417	Lives
+T19	StatusTime 412 417	Lives
+T20	TypeLiving 418 429	with sister
+T21	Employment 466 471	Works
+T22	StatusEmploy 466 471	Works
+T23	Type 475 483	trucking
+T24	Employment 529 535	worked
+T25	StatusEmploy 529 535	worked
+T26	Type 539 545	a chef
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4 Duration:T5 Type:T7
+E2	Alcohol:T6 Amount:T8 Frequency:T9 Status:T10 Type:T27
+E3	Drug:T11 Status:T14 Method:T12 Type:T13
+E4	LivingStatus:T15 Status:T16 Type:T17
+E5	LivingStatus:T18 Status:T19 Type:T20
+E6	Employment:T21 Status:T22 Type:T23
+E7	Employment:T24 Status:T25 Type:T26
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T10 current
+A4	StatusTimeVal T14 current
+A5	StatusTimeVal T16 current
+A6	TypeLivingVal T17 homeless
+A7	StatusTimeVal T19 current
+A8	TypeLivingVal T20 with_family
+A9	StatusEmployVal T22 employed
+A10	StatusEmployVal T25 unemployed
+T7	Type 29 39	cigarettes
+T27	Type 95 100	vodka

@@ -1,0 +1,22 @@
+T1	Employment 46 52	Worked
+T2	StatusEmploy 46 52	Worked
+T3	Type 56 65	a printer
+T4	Tobacco 336 343	smoking
+T5	StatusTime 331 335	quit
+T6	History 344 357	>25 years ago
+T7	Alcohol 360 366	Drinks
+T8	StatusTime 360 366	Drinks
+T9	Amount 367 378	one whiskey
+T10	Frequency 379 385	a week
+T11	Type 371 378	whiskey
+T12	Drug 391 398;399 407	illicit drug use
+T13	StatusTime 388 390	No
+T14	Type 391 398	illicit
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Alcohol:T7 Status:T8 Amount:T9 Type:T11 Frequency:T10
+E4	Drug:T12 Type:T14 Status:T13
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T13 none

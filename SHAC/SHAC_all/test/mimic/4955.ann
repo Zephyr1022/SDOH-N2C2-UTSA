@@ -1,0 +1,14 @@
+T1	LivingStatus 16 21	lives
+T4	TypeLiving 22 35	with daughter
+T5	Tobacco 78 81	tob
+T6	StatusTime 70 77	distant
+T7	Alcohol 90 94	etoh
+T9	StatusTime 85 94	rare etoh
+T10	StatusTime 16 21	lives
+E1	LivingStatus:T1 Type:T4 Status:T10
+E3	Tobacco:T5 Status:T6
+E4	Alcohol:T7 Status:T9
+A2	TypeLivingVal T4 with_family
+A3	StatusTimeVal T6 past
+A5	StatusTimeVal T9 current
+A6	StatusTimeVal T10 current

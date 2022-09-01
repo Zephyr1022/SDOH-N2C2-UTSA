@@ -1,0 +1,35 @@
+T1	Drug 39 48	marijuana
+T2	Alcohol 61 65	EtOH
+T3	Method 31 38	smoking
+T4	StatusTime 17 30	not currently
+T5	Drug 114 122	cannabis
+T6	Type 114 122	cannabis
+T7	StatusTime 102 113	was smoking
+T8	Method 106 113	smoking
+T9	Frequency 123 138	1-3 times daily
+T10	Drug 143 154	cocaine use
+T11	Type 143 150	cocaine
+T12	Tobacco 171 178	tobacco
+T13	StatusTime 168 170	no
+T14	LivingStatus 207 224	currently staying
+T15	StatusTime 207 224	currently staying
+T16	TypeLiving 225 238	with a friend
+T17	StatusTime 156 167	last [DATE]
+T18	History 156 167	last [DATE]
+T19	Employment 253 263	unemployed
+T20	StatusEmploy 253 263	unemployed
+E1	Drug:T1 Method:T3 Status:T4 Duration:T21
+E2	Alcohol:T2 Status:T4 History:T21
+E3	Drug:T5 Type:T6 Method:T8 Status:T7 Frequency:T9
+E4	Drug:T10 Type:T11 History:T18 Status:T17
+E5	Tobacco:T12 Status:T13
+E6	LivingStatus:T14 Status:T15 Type:T16
+E7	Employment:T19 Status:T20
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T13 none
+A4	StatusTimeVal T15 current
+A5	TypeLivingVal T16 with_others
+A6	StatusTimeVal T17 past
+A7	StatusEmployVal T20 unemployed
+T21	History 66 82	during pregnancy

@@ -1,0 +1,26 @@
+T1	LivingStatus 220 225	Lives
+T2	StatusTime 220 225	Lives
+T3	TypeLiving 226 231	alone
+T4	Employment 202 208	worked
+T5	Type 189 197	military
+T6	StatusEmploy 202 208	worked
+T7	Drug 145 149	IVDA
+T8	StatusTime 134 141	history
+T9	History 154 166	>8 years ago
+T10	Alcohol 110 123	alcohol abuse
+T11	StatusTime 96 106	no history
+T13	Tobacco 74 85	tobacco use
+T14	StatusTime 66 73	current
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Type:T5 Status:T6 Type2:T15
+E3	Drug:T7 History:T9 Status:T8 Type:T12
+E4	Alcohol:T10 Status:T11
+E5	Tobacco:T13 Status:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T6 unemployed
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T11 none
+A7	StatusTimeVal T14 current
+T12	Type 145 149	IVDA
+T15	Type 212 218	a SEAL

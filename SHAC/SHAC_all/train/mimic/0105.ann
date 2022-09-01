@@ -1,0 +1,15 @@
+T1	LivingStatus 25 30	lives
+T2	StatusTime 25 30	lives
+T3	TypeLiving 31 56	alone in [**Hospital1 **]
+T4	Tobacco 210 217	smoking
+T5	StatusTime 205 209	quit
+T6	History 218 230	30 years ago
+T7	Alcohol 185 198	alcohol abuse
+T8	StatusTime 171 181	no history
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Alcohol:T7 Status:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T8 none

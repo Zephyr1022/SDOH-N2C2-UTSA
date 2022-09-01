@@ -1,0 +1,10 @@
+T1	LivingStatus 49 65	Living situation
+T3	TypeLiving 74 85	with others
+T2	StatusTime 68 73	Lives
+T7	Alcohol 116 127	Alcohol use
+T8	StatusTime 129 135	denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E3	Alcohol:T7 Status:T8
+A1	TypeLivingVal T3 with_others
+A2	StatusTimeVal T2 current
+A4	StatusTimeVal T8 none

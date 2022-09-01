@@ -1,0 +1,19 @@
+T1	LivingStatus 25 30	lives
+T2	StatusTime 25 30	lives
+T3	TypeLiving 31 40	with wife
+T4	Duration 99 106	x 49yrs
+T5	Amount 94 98	3ppd
+T6	History 77 87	15 yrs ago
+T7	StatusTime 72 76	quit
+T8	Tobacco 94 98	3ppd
+T9	Amount 108 135	[**2-10**] alcoholic drinks
+T10	Frequency 136 143	per day
+T11	Alcohol 119 135	alcoholic drinks
+T12	StatusTime 108 143	[**2-10**] alcoholic drinks per day
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T8 Status:T7 History:T6 Amount:T5 Duration:T4
+E3	Alcohol:T11 Status:T12 Amount:T9 Frequency:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T7 past
+A4	StatusTimeVal T12 current

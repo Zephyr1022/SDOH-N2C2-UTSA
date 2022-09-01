@@ -1,0 +1,25 @@
+T1	Employment 47 52	works
+T3	Type 56 77	a construction worker
+T2	StatusEmploy 47 52	works
+T4	LivingStatus 82 87	lives
+T5	StatusTime 82 87	lives
+T6	TypeLiving 88 96;97 119	with his wife and four children
+T7	Tobacco 160 171	tobacco use
+T8	Drug 176 192	illegal drug use
+T9	Type 176 183	illegal
+T10	StatusTime 153 159	denies
+T11	Alcohol 197 203	drinks
+T12	StatusTime 197 203	drinks
+T13	Amount 204 211	3 beers
+T14	Type 206 211	beers
+T15	Frequency 212 218	a week
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T10
+E4	Drug:T8 Type:T9 Status:T10
+E5	Alcohol:T11 Status:T12 Amount:T13 Type:T14 Frequency:T15
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T12 current

@@ -1,0 +1,11 @@
+T1	Employment 32 39	retired
+T2	StatusEmploy 32 39	retired
+T3	LivingStatus 41 46	lives
+T4	StatusTime 41 46	lives
+T5	TypeLiving 47 58	with spouse
+T6	Type 91 103	an architect
+E1	Employment:T1 Status:T2 Type:T6
+E2	LivingStatus:T3 Status:T4 Type:T5
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T5 with_family

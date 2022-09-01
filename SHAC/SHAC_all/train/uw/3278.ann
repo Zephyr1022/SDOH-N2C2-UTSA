@@ -1,0 +1,29 @@
+T1	Tobacco 20 27	smoking
+T2	StatusTime 17 19	No
+T3	Alcohol 28 46	Occasional alcohol
+T4	StatusTime 28 46	Occasional alcohol
+T6	Drug 47 52	Drugs
+T7	StatusTime 54 82	Marijuana 1-2 times per week
+T8	Frequency 64 82	1-2 times per week
+T9	Type 54 63	Marijuana
+T10	Drug 87 98	other drugs
+T11	StatusTime 84 86	no
+T12	Drug 103 111	IV drugs
+T13	StatusTime 100 102	no
+T15	Method 103 105	IV
+T16	TypeLiving 138 153	with her father
+T17	StatusTime 121 124	was
+T18	LivingStatus 117 153	She was a [LOCATION] with her father
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T6 Status:T7 Frequency2:T8 Type:T9
+E4	Drug:T10 Status:T11
+E5	Drug:T12 Method:T15 Status:T13
+E6	LivingStatus:T18 Status:T17 Type:T16
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A4	StatusTimeVal T7 current
+A5	StatusTimeVal T11 none
+A6	StatusTimeVal T13 none
+A7	TypeLivingVal T16 with_family
+A8	StatusTimeVal T17 past

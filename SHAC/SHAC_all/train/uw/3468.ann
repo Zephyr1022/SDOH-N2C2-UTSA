@@ -1,0 +1,32 @@
+T1	Tobacco 9 24	Tobacco smoking
+T2	StatusTime 52 70	cessation recently
+T3	Duration 25 37	for 60 years
+T4	Amount 39 46	1-2 PPD
+T5	Alcohol 76 80	ETOH
+T6	StatusTime 73 92	No ETOH in 20 years
+T7	History 81 92	in 20 years
+T8	Drug 98 107	marijuana
+T9	Drug 115 123	illicits
+T10	Type 115 123	illicits
+T11	Type 98 107	marijuana
+T12	StatusTime 95 97	No
+T13	StatusTime 112 114	no
+T14	LivingStatus 143 148	Lives
+T15	StatusTime 143 148	Lives
+T16	TypeLiving 163 170	w/ wife
+T17	Employment 180 186	Worked
+T18	StatusEmploy 222 229	retired
+T19	Type 205 216	a carpenter
+E1	Tobacco:T1 Duration:T3 Amount:T4 Status:T2
+E2	Alcohol:T5 Status:T6 History:T7
+E3	Drug:T8 Type:T11 Status:T12
+E4	Drug:T9 Type:T10 Status:T13
+E5	LivingStatus:T14 Status:T15 Type:T16
+E6	Employment:T17 Type:T19 Status:T18
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T12 none
+A4	StatusTimeVal T13 none
+A5	StatusTimeVal T15 current
+A6	TypeLivingVal T16 with_family
+A7	StatusEmployVal T18 retired

@@ -1,0 +1,21 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 41	Approx 5 cigarettes
+T3	Frequency 42 49	per day
+T4	Type 31 41	cigarettes
+T5	StatusTime 22 49	Approx 5 cigarettes per day
+T6	Alcohol 52 63	Alcohol Use
+T7	StatusTime 65 69	none
+T8	Drug 72 80	Drug Use
+T9	StatusTime 82 86	none
+T10	LivingStatus 113 118	lives
+T11	StatusTime 113 118	lives
+T12	TypeLiving 135 145	by herself
+E1	Tobacco:T1 Status:T5 Amount:T2 Type:T4 Frequency:T3
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Status:T9
+E4	LivingStatus:T10 Status:T11 Type:T12
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 alone

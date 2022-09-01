@@ -1,0 +1,19 @@
+T1	LivingStatus 49 65	Living situation
+T2	TypeLiving 74 96	with significant other
+T3	StatusTime 68 73	Lives
+T4	Tobacco 99 110	Tobacco use
+T5	StatusTime 113 128	Chewing tobacco
+T6	Method 113 120	Chewing
+T7	Alcohol 132 143	Alcohol use
+T8	StatusTime 145 151	denies
+T9	Drug 154 162	Drug use
+T10	StatusTime 165 171	Denies
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Method:T6 Status:T5
+E3	Alcohol:T7 Status:T8
+E4	Drug:T9 Status:T10
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T10 none

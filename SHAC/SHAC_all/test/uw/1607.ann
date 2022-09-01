@@ -1,0 +1,19 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	None
+T3	Alcohol 30 41	Alcohol Use
+T4	StatusTime 43 47	none
+T5	Drug 51 59	Drug Use
+T6	Type 69 79	prescribed
+T7	StatusTime 66 79	as prescribed
+T8	LivingStatus 99 104	Lives
+T9	TypeLiving 105 137	with husband, son, two grandsons
+T10	StatusTime 99 104	Lives
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Type:T6 Status:T7
+E4	LivingStatus:T8 Type:T9 Status:T10
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T7 current
+A4	TypeLivingVal T9 with_family
+A5	StatusTimeVal T10 current

@@ -1,0 +1,20 @@
+T1	Employment 139 146	retired
+T2	StatusEmploy 139 146	retired
+T3	Tobacco 284 290	smoked
+T4	Amount 291 297	1 pack
+T5	Frequency 298 305	per day
+T6	Duration 306 318	for 15 years
+T7	StatusTime 320 328	stopping
+T8	History 329 350	over thirty years ago
+T9	Alcohol 364 381	[**6-15**] drinks
+T10	Amount 364 381	[**6-15**] drinks
+T11	Frequency 381 387	/night
+T12	Duration 388 391;392 400	for 10 years
+T13	History 416 432	thirty years ago
+T14	StatusTime 407 415	stopping
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Amount:T4 Frequency:T5 Duration:T6 Status:T7 History:T8
+E3	Alcohol:T9 Amount:T10 Frequency:T11 Duration:T12 Status:T14 History:T13
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T7 past
+A3	StatusTimeVal T14 past

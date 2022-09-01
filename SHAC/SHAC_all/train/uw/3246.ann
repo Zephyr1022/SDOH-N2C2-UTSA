@@ -1,0 +1,19 @@
+T1	LivingStatus 17 22	lives
+T2	StatusTime 17 22	lives
+T3	TypeLiving 23 28	alone
+T4	Alcohol 80 87	alcohol
+T5	StatusTime 73 79	denies
+T6	Drug 97 110	marijuana use
+T7	Type 97 106	marijuana
+T8	StatusTime 88 96	endorses
+T9	Tobacco 119 138	current tobacco use
+T10	StatusTime 146 161	has h/o smoking
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Type:T7 Status:T8
+E4	Tobacco:T9 Status:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T10 past

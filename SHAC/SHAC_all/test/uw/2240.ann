@@ -1,0 +1,24 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	denies
+T3	Alcohol 31 42	Alcohol Use
+T4	StatusTime 44 50	denies
+T5	Drug 52 60	Drug Use
+T6	Method 62 64	IV
+T7	Type 65 91	heroin and methamphetamine
+T8	StatusTime 62 91	IV heroin and methamphetamine
+T9	Amount 93 106	approx 1-1.5g
+T10	Frequency 114 119	daily
+T11	StatusTime 159 168	Currently
+T12	TypeLiving 169 177	homeless
+T13	LivingStatus 159 177	Currently homeless
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Method:T6 Type:T7 Status:T8 Amount:T9 Frequency:T10 Type2:T14 Method2:T15
+E4	LivingStatus:T13 Status:T11 Type:T12
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T12 homeless
+T14	Type 107 113	heroin
+T15	Method 124 131	injects

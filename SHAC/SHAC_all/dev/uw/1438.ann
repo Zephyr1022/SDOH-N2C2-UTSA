@@ -1,0 +1,20 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 28	alone
+T4	Tobacco 109 116	smoking
+T5	StatusTime 118 127	quit 2010
+T6	History 118 127	quit 2010
+T7	Amount 86 96	90packyear
+T8	Alcohol 129 140	occ alcohol
+T10	StatusTime 129 140	occ alcohol
+T11	Drug 153 172	polysubstance abuse
+T13	StatusTime 142 152	remote h/o
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T7 History:T6 Status:T5
+E3	Alcohol:T8 Status:T10
+E4	Drug:T11 Status:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T5 past
+A5	StatusTimeVal T10 current
+A7	StatusTimeVal T13 past

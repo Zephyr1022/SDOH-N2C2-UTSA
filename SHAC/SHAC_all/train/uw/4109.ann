@@ -1,0 +1,19 @@
+T1	Drug 24 32	illicits
+T2	Type 24 32	illicits
+T3	StatusTime 17 23	Denies
+T4	StatusTime 92 98	denies
+T5	Alcohol 99 103	EtOH
+T6	StatusTime 105 111	denies
+T7	Tobacco 112 119	tobacco
+T8	LivingStatus 131 137	living
+T9	StatusTime 121 137	currently living
+T10	TypeLiving 138 189	w/ intermittent assistance from brother and husband
+E1	Drug:T1 Status:T3 Type:T2
+E2	Alcohol:T5 Status:T4
+E3	Tobacco:T7 Status:T6
+E4	LivingStatus:T8 Status:T9 Type:T10
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T10 with_family

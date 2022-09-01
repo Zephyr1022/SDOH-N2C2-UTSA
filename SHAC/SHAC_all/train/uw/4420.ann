@@ -1,0 +1,15 @@
+T1	Tobacco 16 23	tobacco
+T2	Alcohol 25 32	alcohol
+T3	Drug 37 50	illicit drugs
+T4	Type 37 44	illicit
+T5	StatusTime 9 15	Denies
+T6	LivingStatus 70 75	Lives
+T7	StatusTime 70 75	Lives
+T8	TypeLiving 91 125	family taking turn staying with pt
+E1	Tobacco:T1 Status:T5
+E2	Alcohol:T2 Status:T5
+E3	Drug:T3 Type:T4 Status:T5
+E4	LivingStatus:T6 Status:T7 Type:T8
+A1	StatusTimeVal T5 none
+A2	StatusTimeVal T7 current
+A3	TypeLivingVal T8 with_family

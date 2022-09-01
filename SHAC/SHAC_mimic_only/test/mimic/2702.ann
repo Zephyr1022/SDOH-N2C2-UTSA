@@ -1,0 +1,11 @@
+T1	Tobacco 29 34	smoke
+T2	StatusTime 20 28	does not
+T3	Alcohol 44 48	EtOH
+T4	Employment 112 119	retired
+T5	StatusEmploy 112 119	retired
+T6	Type 50 75;76 110	Breds and showed champion [**Doctor Last Name 2031**] horses
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T2
+E3	Employment:T4 Status:T5 Type:T6
+A1	StatusTimeVal T2 none
+A2	StatusEmployVal T5 retired

@@ -1,0 +1,16 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 45	with her adult daughter
+T4	Alcohol 63 70	alcohol
+T5	Frequency 71 76	daily
+T6	StatusTime 56 62	Drinks
+T7	Tobacco 78 84	smokes
+T8	StatusTime 78 84	smokes
+T9	Amount 85 92	1/2 ppd
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T6 Frequency:T5
+E3	Tobacco:T7 Status:T8 Amount:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T8 current

@@ -1,0 +1,20 @@
+T3	LivingStatus 78 83	lives
+T4	StatusTime 78 83	lives
+T5	TypeLiving 84 88;89 96	with husband
+T6	Employment 107 113	Worked
+T7	StatusEmploy 107 113	Worked
+T8	Type 114 143	at [**Last Name (un) 59330**]
+T9	Drug 206 222	illicit drug use
+T10	Alcohol 194 201	alcohol
+T11	Tobacco 185 192	smoking
+T12	Type 206 213	illicit
+T13	StatusTime 182 184	No
+E2	LivingStatus:T3 Status:T4 Type:T5
+E3	Employment:T6 Status:T7 Type:T8
+E4	Drug:T9 Type:T12 Status:T13
+E5	Alcohol:T10 Status:T13
+E6	Tobacco:T11 Status:T13
+A1	StatusTimeVal T4 current
+A2	TypeLivingVal T5 with_family
+A3	StatusEmployVal T7 unemployed
+A4	StatusTimeVal T13 none

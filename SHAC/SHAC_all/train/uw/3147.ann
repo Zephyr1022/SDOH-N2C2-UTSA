@@ -1,0 +1,16 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 31 42	Alcohol Use
+T3	Drug 53 61	Drug Use
+T4	StatusTime 22 28	Denies
+T5	StatusTime 44 50	Denies
+T6	StatusTime 63 69	Denies
+T7	Employment 146 156	Unemployed
+T8	StatusEmploy 146 156	Unemployed
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T5
+E3	Drug:T3 Status:T6
+E4	Employment:T7 Status:T8
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T6 none
+A4	StatusEmployVal T8 unemployed

@@ -1,0 +1,19 @@
+T1	Tobacco 29 35	smokes
+T2	StatusTime 29 35	smokes
+T3	Amount 36 44	one pack
+T4	Frequency 45 52	per day
+T5	Employment 117 122	works
+T6	StatusEmploy 117 122	works
+T7	Type 126 127;128 136	a mechanic
+T8	Alcohol 159 172	alcohol abuse
+T9	StatusTime 148 155	history
+T11	Drug 182 189	cocaine
+T12	StatusTime 177 181	used
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4
+E2	Employment:T5 Status:T6 Type:T7
+E3	Alcohol:T8 Status:T9
+E4	Drug:T11 Status:T12
+A1	StatusTimeVal T2 current
+A2	StatusEmployVal T6 employed
+A3	StatusTimeVal T9 current
+A5	StatusTimeVal T12 past

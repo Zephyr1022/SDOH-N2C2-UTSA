@@ -1,0 +1,18 @@
+T1	Amount 40 52	40 year pack
+T2	Tobacco 40 60	40 year pack history
+T3	StatusTime 33 39	Former
+T4	Alcohol 65 69	etoh
+T5	StatusTime 62 64	No
+T6	Drug 74 79	drugs
+T7	StatusTime 71 73	no
+T8	StatusEmploy 91 101	unemployed
+T9	Employment 91 101	unemployed
+T10	Type 106 127	former factory worker
+E1	Tobacco:T2 Amount:T1 Status:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Status:T7
+E4	Employment:T9 Status:T8 Type:T10
+A1	StatusTimeVal T3 past
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 none
+A4	StatusEmployVal T8 unemployed

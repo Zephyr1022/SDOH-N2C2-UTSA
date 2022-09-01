@@ -1,0 +1,36 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 27	alone
+T3	StatusTime 16 21	Lives
+T4	Alcohol 129 139	EtOH abuse
+T6	StatusTime 118 128	History of
+T7	History 155 178	over past several weeks
+T8	Tobacco 181 187	Smokes
+T9	Amount 188 203	[**11-29**] PPD
+T10	Duration 204 211	x30 yrs
+T11	StatusTime 181 187	Smokes
+T12	Drug 224 237	marijuana use
+T13	Type 224 233	marijuana
+T14	StatusTime 238 245	in past
+T15	Drug 288 292	IVDU
+T16	StatusTime 274 276;277 284	No history
+T17	Method 288 292	IVDU
+T21	Type 369 413;414 440	piano mover and long-haul truck driver, most recent job as a cab driver
+T22	Employment 421 424	job
+T23	StatusEmploy 362 368	Former
+T24	Employment 449 455	worked
+T25	StatusEmploy 442 455	Hasn't worked
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Status:T6 History:T7
+E3	Tobacco:T8 Amount:T9 Duration:T10 Status:T11
+E4	Drug:T12 Type:T13 Status:T14
+E5	Drug:T15 Status:T16 Method:T17
+E7	Employment:T22 Type:T21 Status:T23
+E8	Employment:T24 Status:T25
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A4	StatusTimeVal T6 past
+A5	StatusTimeVal T11 current
+A6	StatusTimeVal T14 past
+A7	StatusTimeVal T16 none
+A9	StatusEmployVal T23 unemployed
+A10	StatusEmployVal T25 unemployed

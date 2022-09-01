@@ -1,0 +1,15 @@
+T1	Tobacco 16 23	tobacco
+T2	Drug 27 40	substance use
+T3	StatusTime 9 15	Denies
+T4	Alcohol 42 64	Occasional alcohol use
+T5	StatusTime 42 64	Occasional alcohol use
+T7	Employment 247 251	work
+T8	StatusEmploy 239 246	Used to
+T9	Type 255 260	a CNA
+E1	Tobacco:T1 Status:T3
+E2	Drug:T2 Status:T3
+E3	Alcohol:T4 Status:T5
+E4	Employment:T7 Status:T8 Type:T9
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T5 current
+A4	StatusEmployVal T8 unemployed

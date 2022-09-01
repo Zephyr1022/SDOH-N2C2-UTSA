@@ -1,0 +1,27 @@
+T1	LivingStatus 220 229	Residence
+T2	TypeLiving 231 234	UGM
+T3	StatusTime 231 234	UGM
+T4	Tobacco 9 20	Tobacco Use
+T5	Alcohol 31 42	Alcohol Use
+T6	Drug 152 160	Drug Use
+T7	Amount 22 28	20 PYH
+T9	StatusTime 54 65	in the past
+T10	StatusTime 22 28	20 PYH
+T11	StatusTime 162 167	prior
+T12	Type 168 174	heroin
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Amount:T7 Status:T10
+E3	Alcohol:T5 Status:T9 History:T13
+E4	Drug:T6 Status:T11 Type:T12
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T10 current
+A6	StatusTimeVal T11 past
+T8	LivingStatus 133 141	residing
+E5	LivingStatus:T8 Type:T15 Status:T14
+T14	StatusTime 130 132	is
+A3	StatusTimeVal T14 current
+T15	TypeLiving 145 148	UGM
+A7	TypeLivingVal T15 homeless
+T13	History 105 123	for several months

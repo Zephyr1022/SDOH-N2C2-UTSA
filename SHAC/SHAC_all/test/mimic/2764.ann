@@ -1,0 +1,19 @@
+T1	LivingStatus 17 22	Lives
+T2	TypeLiving 23 28	alone
+T3	StatusTime 17 22	Lives
+T4	Tobacco 107 114	Tobacco
+T5	StatusTime 116 120	none
+T6	Alcohol 122 129	Alcohol
+T7	StatusTime 131 135	none
+T8	Drug 137 145	Illicits
+T9	Type 137 145	Illicits
+T10	StatusTime 147 151	none
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Type:T9 Status:T10
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T10 none

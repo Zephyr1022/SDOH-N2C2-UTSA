@@ -1,0 +1,38 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 27 32	alone
+T4	Employment 119 129	Occupation
+T5	Type 130 158	inspector at R&D Engineering
+T6	StatusEmploy 130 158	inspector at R&D Engineering
+T7	Tobacco 159 169	Cigarettes
+T8	Type 159 169	Cigarettes
+T9	StatusTime 192 206	last cigarette
+T10	History 207 222	[**2100-8-11**]
+T11	Amount 223 231	Hx:<1ppd
+T12	Duration 232 242	x 40 years
+T13	Tobacco 277 294	Other Tobacco use
+T14	Type 277 282	Other
+T15	StatusTime 295 301	denies
+T16	Alcohol 302 306	ETOH
+T18	StatusTime 308 327	Recovered alcoholic
+T19	Alcohol 332 336	ETOH
+T20	StatusTime 329 348	No ETOH in 22 years
+T21	History 337 348	in 22 years
+T22	Drug 349 365	Illicit drug use
+T23	Type 349 356	Illicit
+T24	StatusTime 366 372	denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T6 Type:T5
+E3	Tobacco:T7 Type:T8 Status:T9 History:T10 Amount:T11 Duration:T12
+E4	Tobacco:T13 Type:T14 Status:T15
+E5	Alcohol:T16 Status:T18
+E6	Alcohol:T19 Status:T20 History:T21
+E7	Drug:T22 Type:T23 Status:T24
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T6 employed
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T15 none
+A7	StatusTimeVal T18 past
+A8	StatusTimeVal T20 past
+A9	StatusTimeVal T24 none

@@ -1,0 +1,13 @@
+T1	Tobacco 18 33	Tobacco history
+T2	StatusTime 35 39	none
+T3	Alcohol 42 46	ETOH
+T5	StatusTime 48 52	rare
+T6	Drug 55 68	Illicit drugs
+T7	Type 55 62	Illicit
+T8	StatusTime 70 74	none
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T5
+E3	Drug:T6 Type:T7 Status:T8
+A1	StatusTimeVal T2 none
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T8 none

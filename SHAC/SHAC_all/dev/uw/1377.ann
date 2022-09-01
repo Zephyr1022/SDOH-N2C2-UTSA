@@ -1,0 +1,22 @@
+T1	Alcohol 101 112	Alcohol Use
+T2	Tobacco 38 49	Tobacco Use
+T3	Drug 119 127	Drug Use
+T4	StatusTime 51 58	History
+T5	Amount 62 70	one pack
+T6	Frequency 71 78	per day
+T7	Duration 79 100	for the past 55 years
+T8	StatusTime 114 118	none
+T9	StatusTime 129 135	Active
+T10	Type 136 143	cocaine
+T11	LivingStatus 167 172	Lives
+T12	StatusTime 167 172	Lives
+T13	TypeLiving 173 178	alone
+E1	Alcohol:T1 Status:T8
+E2	Tobacco:T2 Status:T4 Amount:T5 Frequency:T6 Duration:T7
+E3	Drug:T3 Type:T10 Status:T9
+E4	LivingStatus:T11 Type:T13 Status:T12
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T8 none
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T12 current
+A5	TypeLivingVal T13 alone

@@ -1,0 +1,17 @@
+T1	Employment 16 21	Works
+T2	Type 28 53	food distributing company
+T3	StatusEmploy 16 21	Works
+T4	Tobacco 66 73	tobacco
+T6	StatusTime 62 73	occ tobacco
+T7	Alcohol 114 118	ETOH
+T9	StatusTime 110 118	occ ETOH
+T10	Drug 123 125	SA
+T11	StatusTime 120 122	no
+E1	Employment:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T6
+E3	Alcohol:T7 Status:T9
+E4	Drug:T10 Status:T11
+A1	StatusEmployVal T3 employed
+A3	StatusTimeVal T6 current
+A5	StatusTimeVal T9 current
+A6	StatusTimeVal T11 none

@@ -1,0 +1,6 @@
+T1	LivingStatus 32 42	a resident
+T2	TypeLiving 46 55;56 64	a nursing facility
+T3	StatusTime 32 42	a resident
+E1	LivingStatus:T1 Type:T2 Status:T3
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current

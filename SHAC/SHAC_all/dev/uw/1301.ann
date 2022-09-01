@@ -1,0 +1,26 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 37	5-6 cigarrettes
+T3	Type 26 37	cigarrettes
+T4	Frequency 38 43	daily
+T5	StatusTime 22 43	5-6 cigarrettes daily
+T6	Duration 85 97	46 yrs total
+T7	Alcohol 100 111	Alcohol Use
+T9	StatusTime 122 129	current
+T10	Drug 147 155	Drug Use
+T11	StatusTime 157 164	Current
+T12	Type 168 187	heroin, remote meth
+T13	Method 165 167	IV
+T14	LivingStatus 207 216	Residence
+T15	TypeLiving 218 228	[LOCATION]
+T16	StatusTime 218 228	[LOCATION]
+E1	Tobacco:T1 Amount:T2 Type:T3 Frequency:T4 Status:T5 Duration:T6 Amount2:T8 Duration2:T17
+E2	Alcohol:T7 Status:T9
+E3	Drug:T10 Status:T11 Method:T13 Type:T12
+E4	LivingStatus:T14 Type:T15 Status:T16
+A1	StatusTimeVal T5 current
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T15 with_others
+A6	StatusTimeVal T16 current
+T8	Amount 59 66	1pk/day
+T17	Duration 67 83	for past 2 years

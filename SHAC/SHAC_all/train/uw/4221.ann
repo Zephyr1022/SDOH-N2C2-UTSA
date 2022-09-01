@@ -1,0 +1,26 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 34 42	~ 1/2 pk
+T3	Frequency 42 46	/day
+T4	StatusTime 22 46	Cut down to ~ 1/2 pk/day
+T5	Alcohol 49 60	Alcohol Use
+T6	StatusTime 64 77	weekly binged
+T7	Frequency 62 70	~ weekly
+T9	Drug 102 110	Drug Use
+T10	StatusTime 112 118	Denies
+T11	Method 123 127	IVDU
+T12	LivingStatus 162 171	Residence
+T13	StatusTime 173 179	Living
+T14	TypeLiving 180 204	in Clement Place Shelter
+T15	Employment 220 224	work
+T16	StatusEmploy 206 224	trying to get work
+E1	Tobacco:T1 Status:T4 Amount:T2 Frequency:T3
+E2	Alcohol:T5 Status:T6 Frequency:T7
+E3	Drug:T9 Status:T10 Method:T11
+E4	LivingStatus:T12 Status:T13 Type:T14
+E5	Employment:T15 Status:T16
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T6 current
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T13 current
+A6	TypeLivingVal T14 homeless
+A7	StatusEmployVal T16 unemployed

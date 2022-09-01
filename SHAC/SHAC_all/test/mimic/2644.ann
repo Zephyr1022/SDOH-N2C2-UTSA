@@ -1,0 +1,8 @@
+T1	Tobacco 33 50	5 to 6 cigarettes
+T2	Type 40 50	cigarettes
+T3	StatusTime 33 58;59 73	5 to 6 cigarettes per day times 58 years
+T4	Frequency 51 58	per day
+T5	Duration 59 73	times 58 years
+T6	Amount 33 50	5 to 6 cigarettes
+E1	Tobacco:T1 Status:T3 Type:T2 Amount:T6 Frequency:T4 Duration:T5
+A1	StatusTimeVal T3 current

@@ -1,0 +1,35 @@
+T1	Alcohol 198 205	alcohol
+T2	StatusTime 191 197	Drinks
+T4	Drug 228 244	meth and cocaine
+T5	Frequency 245 249	once
+T6	StatusTime 250 264	many years ago
+T7	Type 228 244	meth and cocaine
+T8	Drug 281 286	drugs
+T9	StatusTime 266 271	never
+T10	Type 272 280	injected
+T11	Tobacco 54 60	Smoked
+T12	StatusTime 54 60	Smoked
+T13	Amount 61 70	1.5 packs
+T14	Type 74 84	cigarettes
+T15	Frequency 85 92	per day
+T16	Duration 93 112	for the 15-20 years
+T17	Tobacco 114 128	lately smoking
+T18	StatusTime 114 128	lately smoking
+T19	Amount 129 130	4
+T20	Frequency 131 138	per day
+E1	Alcohol:T1 Status:T2
+E2	Drug:T4 Frequency:T5 Status:T6 Type:T7
+E3	Drug:T8 Type:T10 Status:T9
+E4	Tobacco:T11 Status:T12 Amount:T13 Type:T14 Frequency:T15 Duration:T16
+E5	Tobacco:T17 Status:T18 Amount:T19 Frequency:T20 Type:T3 History:T21
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T12 past
+A6	StatusTimeVal T18 current
+T3	Type 161 170	cigarette
+T21	History 175 189	a few days ago
+T22	Drug 297 305	drug use
+E6	Drug:T22 Status:T24
+T24	StatusTime 288 290	no
+A2	StatusTimeVal T24 none

@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	Denies
+T3	Alcohol 29 40	Alcohol Use
+T4	StatusTime 42 48	Denies
+T5	Drug 49 57	Drug Use
+T6	StatusTime 59 65	Denies
+T7	LivingStatus 118 123	Lives
+T8	TypeLiving 124 144	with Husband and Son
+T9	StatusTime 118 123	Lives
+T12	Employment 195 200	Works
+T13	Type 219 231	housecleaner
+T14	StatusEmploy 195 200	Works
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Type:T8 Status:T9
+E6	Employment:T12 Status:T14 Type:T13
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	TypeLivingVal T8 with_family
+A5	StatusTimeVal T9 current
+A6	StatusEmployVal T14 employed

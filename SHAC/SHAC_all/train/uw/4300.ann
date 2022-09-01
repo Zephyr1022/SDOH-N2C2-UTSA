@@ -1,0 +1,23 @@
+T1	Tobacco 36 43	tobacco
+T2	Duration 44 61	since 8 years old
+T3	StatusTime 27 35	has used
+T4	Drug 75 79	meth
+T5	Method 72 74	IV
+T6	Type 75 79	meth
+T7	StatusTime 62 71	Last used
+T8	History 80 90	1 week ago
+T9	Alcohol 101 108	alcohol
+T11	StatusTime 109 120	3 weeks ago
+T12	LivingStatus 139 156	Currently homelss
+T13	TypeLiving 149 156	homelss
+T14	StatusTime 139 148	Currently
+T10	History 109 120	3 weeks ago
+E1	Tobacco:T1 Duration:T2 Status:T3
+E2	Drug:T4 Type:T6 Method:T5 Status:T7 History:T8
+E3	Alcohol:T9 Status:T11 History:T10
+E4	LivingStatus:T12 Type:T13 Status:T14
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T7 past
+A4	StatusTimeVal T11 past
+A5	TypeLivingVal T13 homeless
+A6	StatusTimeVal T14 current

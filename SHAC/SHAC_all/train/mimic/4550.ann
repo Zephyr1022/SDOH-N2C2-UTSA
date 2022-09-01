@@ -1,0 +1,24 @@
+T1	Tobacco 26 33	tobacco
+T2	Alcohol 35 42	alcohol
+T3	Drug 47 55	drug use
+T4	StatusTime 19 25	denies
+T5	Drug 75 84	marijuana
+T6	StatusTime 94 100	smokes
+T7	Method 67 74	smoking
+T8	Frequency 101 106	daily
+T9	Employment 124 137	on disability
+T10	StatusEmploy 124 137	on disability
+T11	LivingStatus 144 149	lives
+T12	StatusTime 144 149	lives
+T13	TypeLiving 150 182	with his wife, son, and daughter
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T4
+E3	Drug:T3 Status:T4
+E4	Drug:T5 Method:T7 Status:T6 Frequency:T8
+E5	Employment:T9 Status:T10
+E6	LivingStatus:T11 Status:T12 Type:T13
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T6 current
+A3	StatusEmployVal T10 on_disability
+A4	StatusTimeVal T12 current
+A5	TypeLivingVal T13 with_family

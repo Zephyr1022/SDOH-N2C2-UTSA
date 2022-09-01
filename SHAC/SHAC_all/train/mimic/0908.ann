@@ -1,0 +1,25 @@
+T1	Tobacco 52 67	Tobacco history
+T2	StatusTime 89 95	smoked
+T3	Amount 96 102	1 pack
+T4	Frequency 103 111	per week
+T5	Duration 116 130	about 10 years
+T6	History 140 153	8-9 years ago
+T7	Alcohol 155 159	ETOH
+T8	Amount 161 170	5-6 beers
+T9	Frequency 171 193	about 4 times per week
+T10	StatusTime 161 193	5-6 beers about 4 times per week
+T11	Drug 195 208	Illicit drugs
+T12	Type 215 224	marijuana
+T13	History 225 237	2-3 days ago
+T14	StatusTime 210 214	Used
+T15	Employment 28 33	works
+T16	StatusEmploy 28 33	works
+T17	Type 37 49	mail carrier
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4 Duration:T5 History:T6
+E2	Alcohol:T7 Amount:T8 Frequency:T9 Status:T10
+E3	Drug:T11 Type:T12 History:T13 Status:T14
+E4	Employment:T15 Status:T16 Type:T17
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T10 current
+A3	StatusTimeVal T14 past
+A4	StatusEmployVal T16 employed

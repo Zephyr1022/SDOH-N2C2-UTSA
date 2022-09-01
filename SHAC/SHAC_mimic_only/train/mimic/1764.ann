@@ -1,0 +1,19 @@
+T1	LivingStatus 18 23	lives
+T2	StatusTime 18 23	lives
+T3	TypeLiving 24 50	in long-term care facility
+T4	Employment 53 80	former financial consultant
+T5	StatusEmploy 53 80	former financial consultant
+T6	Type 53 80	former financial consultant
+T7	Tobacco 83 94	Tobacco Use
+T8	StatusTime 96 99	neg
+T9	Alcohol 113 124	Alcohol Use
+T10	StatusTime 126 129	neg
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Status:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T10 none

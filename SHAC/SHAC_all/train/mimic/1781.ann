@@ -1,0 +1,28 @@
+T1	LivingStatus 19 24	lives
+T2	StatusTime 19 24	lives
+T3	TypeLiving 25 30	alone
+T4	Employment 59 75	Recently retired
+T5	StatusEmploy 59 75	Recently retired
+T6	Type 87 94;95 104	selling furniture
+T7	Tobacco 181 184	tob
+T8	StatusTime 227 236	cessation
+T9	History 237 242;243 248	20yrs prior
+T11	Type 186 196	cigar/pipe
+T12	Frequency 206 211	daily
+T13	Duration 212 224	x20-25 years
+T14	Alcohol 251 255	EtOH
+T15	StatusTime 249 250	-
+T16	Drug 258 287	Illicit/Recreational drug use
+T17	Type 258 278	Illicit/Recreational
+T18	StatusTime 256 257	-
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 History:T9 Status:T8 Duration:T13 Frequency:T12 Type:T11
+E4	Alcohol:T14 Status:T15
+E5	Drug:T16 Type:T17 Status:T18
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T15 none
+A6	StatusTimeVal T18 none

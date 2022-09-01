@@ -1,0 +1,18 @@
+T1	StatusEmploy 16 32	Disabled, on SSD
+T2	Employment 26 32	on SSD
+T3	Alcohol 46 50	EtOH
+T4	StatusTime 43 45	No
+T5	StatusTime 52 58	smokes
+T6	Tobacco 52 58	smokes
+T7	Amount 59 65	1/2ppd
+T8	Duration 66 75	for 40yrs
+T9	Drug 93 95	MJ
+T11	StatusTime 77 117	history of rare MJ but denies recent use
+E1	Employment:T2 Status:T1
+E2	Alcohol:T3 Status:T4
+E3	Tobacco:T6 Status:T5 Amount:T7 Duration:T8
+E4	Drug:T9 Status:T11
+A1	StatusEmployVal T1 on_disability
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T5 current
+A5	StatusTimeVal T11 past

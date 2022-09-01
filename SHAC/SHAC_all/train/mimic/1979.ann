@@ -1,0 +1,13 @@
+T1	Tobacco 156 162	smokes
+T2	StatusTime 156 162	smokes
+T3	Drug 19 34	heroin, cocaine
+T4	Type 19 34	heroin, cocaine
+T5	StatusTime 16 18	Hx
+T6	Alcohol 36 40	EtOH
+T8	Duration 47 57	x 20 years
+T9	History 65 87	since [**2137-12-26**]
+E1	Tobacco:T1 Status:T2
+E2	Drug:T3 Status:T5 Type:T4 History:T9
+E3	Alcohol:T6 Duration:T8 Status:T5 History:T9
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 past

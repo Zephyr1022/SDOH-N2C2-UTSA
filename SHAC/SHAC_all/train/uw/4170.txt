@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: 9 pack years, reports quitting earlier this year. Alcohol Use: Denies.  Drug Use: smokes crack-cocaine on a monthly basis, quit 3-4 months ago.
+
+SOCIAL HISTORY: 
+Patient lives in an apartment on [DATE] and [LOCATION] with his wife and one of two sons. Patient grew up in [LOCATION] and emigrated to the [LOCATION] in 1981. Worked in [LOCATION] on a fishing boat, currently not working. Most recent trip to [LOCATION] 2 years ago.

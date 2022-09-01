@@ -1,0 +1,14 @@
+T1	Employment 46 51	Works
+T2	StatusEmploy 46 51	Works
+T3	Type 55 56;57 74	a hospital chaplain
+T4	Alcohol 111 128	Prior alcohol use
+T5	StatusTime 130 135	sober
+T6	History 136 148	for 13 years
+T7	Drug 153 161	drug use
+T8	StatusTime 150 152	No
+E1	Employment:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5 History:T6
+E3	Drug:T7 Status:T8
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 none

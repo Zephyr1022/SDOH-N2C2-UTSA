@@ -1,0 +1,42 @@
+T1	Tobacco 66 72	smoker
+T2	StatusTime 46 54	Previous
+T3	Duration 55 65	short-term
+T4	Drug 81 90	marijuana
+T5	Type 81 90	marijuana
+T6	StatusTime 74 80	Smokes
+T7	Method 74 80	Smokes
+T8	Type 97 110	crack cocaine
+T9	History 111 127	use 2-3 days ago
+T10	Drug 97 110	crack cocaine
+T11	StatusTime 115 127	2-3 days ago
+T12	Alcohol 137 148	alcohol use
+T14	StatusTime 129 148	Minimal alcohol use
+T15	Tobacco 199 205	smoker
+T16	StatusTime 179 187	Previous
+T17	Duration 188 198	short-term
+T18	Drug 214 223	marijuana
+T19	Type 214 223	marijuana
+T20	StatusTime 207 213	Smokes
+T21	Method 207 213	Smokes
+T22	Type 230 243	crack cocaine
+T23	Drug 230 243	crack cocaine
+T24	History 244 260	use 2-3 days ago
+T25	StatusTime 248 260	2-3 days ago
+T26	Alcohol 270 281	alcohol use
+T28	StatusTime 262 281	Minimal alcohol use
+E1	Tobacco:T1 Status:T2 Duration:T3
+E2	Drug:T4 Type:T5 Status:T6 Method:T7
+E3	Drug:T10 Type:T8 History:T9 Status:T11
+E4	Alcohol:T12 Status:T14
+E5	Tobacco:T15 Status:T16 Duration:T17
+E6	Drug:T18 Type:T19 Status:T20 Method:T21
+E7	Drug:T23 Type:T22 History:T24 Status:T25
+E8	Alcohol:T26 Status:T28
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T11 current
+A5	StatusTimeVal T14 current
+A6	StatusTimeVal T16 past
+A7	StatusTimeVal T20 current
+A8	StatusTimeVal T25 current
+A10	StatusTimeVal T28 current

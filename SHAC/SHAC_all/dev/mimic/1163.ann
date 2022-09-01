@@ -1,0 +1,4 @@
+T1	Tobacco 18 33	smoking history
+T2	StatusTime 16 17	+
+E1	Tobacco:T1 Status:T2
+A1	StatusTimeVal T2 past

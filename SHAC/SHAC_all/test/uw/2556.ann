@@ -1,0 +1,18 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	Denies
+T3	Alcohol 31 42	Alcohol Use
+T5	StatusTime 44 48	Rare
+T6	Drug 52 60	Drug Use
+T7	StatusTime 62 68	Denies
+T8	LivingStatus 117 123	living
+T9	StatusTime 117 123	living
+T10	TypeLiving 124 145	with his wife and son
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T5
+E3	Drug:T6 Status:T7
+E4	LivingStatus:T8 Status:T9 Type:T10
+A1	StatusTimeVal T2 none
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T9 current
+A6	TypeLivingVal T10 with_family

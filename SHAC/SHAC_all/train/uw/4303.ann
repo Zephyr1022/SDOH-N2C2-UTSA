@@ -1,0 +1,24 @@
+T1	Tobacco 37 48	Tobacco Use
+T2	Amount 50 59	0.5 packs
+T3	Frequency 60 67	per day
+T4	Duration 68 80	for 35 years
+T5	StatusTime 68 80	for 35 years
+T6	Tobacco 82 89	smoking
+T7	Amount 90 104	2-4 cigarettes
+T8	StatusTime 82 89	smoking
+T9	Frequency 105 110	a day
+T10	Alcohol 121 125	EtOH
+T11	Type 155 161	Durbin
+T12	StatusTime 126 135	currently
+T13	Amount 170 184	a large bottle
+T14	Frequency 185 199	every 4-5 days
+T16	Drug 323 331	Drug Use
+T17	StatusTime 333 349	denies currently
+E1	Tobacco:T1 Amount:T2 Frequency:T3 Duration:T4 Status:T5
+E2	Tobacco:T6 Amount:T7 Status:T8 Frequency:T9
+E3	Alcohol:T10 Type:T11 Status:T12 Amount:T13 Frequency:T14
+E4	Drug:T16 Status:T17
+A1	StatusTimeVal T5 past
+A2	StatusTimeVal T8 current
+A3	StatusTimeVal T12 current
+A5	StatusTimeVal T17 none

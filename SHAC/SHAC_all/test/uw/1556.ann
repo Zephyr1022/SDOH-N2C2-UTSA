@@ -1,0 +1,20 @@
+T1	Tobacco 17 30	Former smoker
+T2	StatusTime 31 35	quit
+T3	History 36 44	1 1/2 yr
+T4	Alcohol 45 52	Alcohol
+T5	StatusTime 54 64	none sober
+T6	History 65 75	x 16 years
+T7	Drug 85 90	drugs
+T8	StatusTime 77 79	No
+T9	Drug 105 113	drug use
+T10	Type 95 104	injection
+T11	StatusTime 92 94	No
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Alcohol:T4 Status:T5 History:T6
+E3	Drug:T7 Status:T8 Type:T12
+E4	Drug:T9 Type:T10 Status:T11
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 none
+A4	StatusTimeVal T11 none
+T12	Type 80 84	hard

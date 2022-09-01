@@ -1,0 +1,24 @@
+T1	LivingStatus 46 61	currently lives
+T2	StatusTime 46 61	currently lives
+T3	TypeLiving 62 108;109 115	with his brother-in-law, [**Name (NI) **], and sister
+T4	Employment 175 184;185 193	currently disabled
+T5	StatusEmploy 175 184;185 193	currently disabled
+T6	Employment 198 215	previously worked
+T7	StatusEmploy 198 215	previously worked
+T8	Type 219 248;249 255	a shoe factory and at Victory Market
+T9	Alcohol 276 295	alcoholic beverages
+T10	StatusTime 261 275	does not drink
+T11	Tobacco 310 316	smoked
+T12	StatusTime 300 309;310 316	has never smoked
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Employment:T6 Status:T7 Type:T8
+E4	Alcohol:T9 Status:T10
+E5	Tobacco:T11 Status:T12 Type:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 on_disability
+A4	StatusEmployVal T7 unemployed
+A5	StatusTimeVal T10 none
+A6	StatusTimeVal T12 none
+T13	Type 317 327	cigarettes

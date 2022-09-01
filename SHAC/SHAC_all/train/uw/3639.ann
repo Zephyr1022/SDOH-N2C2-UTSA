@@ -1,0 +1,19 @@
+T1	Employment 247 278	a retired management consultant
+T2	StatusEmploy 247 278	a retired management consultant
+T3	Type 247 278	a retired management consultant
+T4	Tobacco 9 22	former smoker
+T5	StatusTime 9 22	former smoker
+T6	Drug 27 43	other substances
+T7	StatusTime 24 26	no
+T8	LivingStatus 118 127	Residence
+T9	TypeLiving 129 149	[LOCATION] home care
+T10	StatusTime 129 149	[LOCATION] home care
+E1	Employment:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T5
+E3	Drug:T6 Status:T7
+E4	LivingStatus:T8 Type:T9 Status:T10
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T7 none
+A4	TypeLivingVal T9 with_others
+A5	StatusTimeVal T10 current

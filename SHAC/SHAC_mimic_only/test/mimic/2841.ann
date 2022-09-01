@@ -1,0 +1,24 @@
+T1	LivingStatus 16 21	lives
+T2	StatusTime 16 21	lives
+T3	TypeLiving 22 31	with wife
+T4	Employment 32 50	retired accountant
+T5	StatusEmploy 32 50	retired accountant
+T6	Type 32 50	retired accountant
+T7	StatusTime 51 55	quit
+T8	Tobacco 56 63	smoking
+T10	Alcohol 82 86	ETOH
+T11	StatusTime 75 86	social ETOH
+T12	StatusTime 88 90	no
+T13	Type 91 95	recr
+T14	Drug 91 102	recr. drugs
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Type:T6 Status:T5
+E3	Tobacco:T8 Status:T7
+E4	Alcohol:T10 Status:T11
+E5	Drug:T14 Type:T13 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T7 past
+A6	StatusTimeVal T11 current
+A7	StatusTimeVal T12 none

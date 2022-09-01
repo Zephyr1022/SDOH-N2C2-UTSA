@@ -1,0 +1,10 @@
+T1	Employment 139 146	retired
+T2	StatusEmploy 139 146	retired
+T4	Alcohol 159 181	Occasional alcohol use
+T5	StatusTime 159 181	Occasional alcohol use
+T6	Amount 182 204	up to [**3-5**] drinks
+T7	Frequency 205 210	daily
+E1	Employment:T1 Status:T2
+E2	Alcohol:T4 Status:T5 Amount:T6 Frequency:T7
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T5 current

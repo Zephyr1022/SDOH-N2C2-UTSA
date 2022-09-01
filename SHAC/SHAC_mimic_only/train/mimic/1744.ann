@@ -1,0 +1,4 @@
+T1	Alcohol 274 281	alcohol
+T2	StatusTime 256 270	active drinker
+E1	Alcohol:T1 Status:T2
+A1	StatusTimeVal T2 current

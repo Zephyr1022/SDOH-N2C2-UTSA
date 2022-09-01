@@ -1,0 +1,19 @@
+T1	LivingStatus 21 26	lives
+T2	TypeLiving 27 32	alone
+T3	StatusTime 21 26	lives
+T4	Tobacco 65 72	tobacco
+T5	StatusTime 62 64	No
+T6	Alcohol 77 84	alcohol
+T7	StatusTime 74 76	No
+T8	Employment 115 120	Works
+T9	Type 121 133	in insurance
+T10	StatusEmploy 115 120	Works
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Employment:T8 Type:T9 Status:T10
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 none
+A5	StatusEmployVal T10 employed

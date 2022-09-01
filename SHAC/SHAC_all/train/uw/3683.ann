@@ -1,0 +1,25 @@
+T1	LivingStatus 229 234	lives
+T2	StatusTime 229 234	lives
+T3	TypeLiving 208 225	Group living home
+T4	Tobacco 9 20	Tobacco Use
+T5	StatusTime 22 26	Quit
+T6	History 27 32	12 ya
+T7	Duration 34 42	30 years
+T8	Amount 54 60	1 pack
+T9	Frequency 61 73	per few days
+T10	Alcohol 76 87	Alcohol Use
+T11	Amount 89 101	a few drinks
+T12	Frequency 102 108	a week
+T13	StatusTime 110 117	stopped
+T14	History 118 144	1 week before thanksgiving
+T15	StatusTime 172 178	denies
+T16	Drug 162 170	Drug Use
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T5 History:T6 Duration:T7 Amount:T8 Frequency:T9
+E3	Alcohol:T10 Amount:T11 Frequency:T12 Status:T13 History:T14
+E4	Drug:T16 Status:T15
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T13 past
+A5	StatusTimeVal T15 none

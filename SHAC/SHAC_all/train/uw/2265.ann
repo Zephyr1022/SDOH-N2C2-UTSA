@@ -1,0 +1,18 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 27	never
+T3	Alcohol 37 48	Alcohol Use
+T4	StatusTime 50 54	none
+T5	Drug 57 65	Drug Use
+T6	StatusTime 67 71	none
+T7	LivingStatus 90 99	Residence
+T8	TypeLiving 117 141	with her 21 year old son
+T9	StatusTime 101 106	Lives
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Type:T8 Status:T9
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	TypeLivingVal T8 with_family
+A5	StatusTimeVal T9 current

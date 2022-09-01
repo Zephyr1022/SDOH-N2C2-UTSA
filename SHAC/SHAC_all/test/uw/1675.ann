@@ -1,0 +1,26 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 36	at [LOCATION]
+T4	Alcohol 91 104	Rare EtOH use
+T6	StatusTime 91 104	Rare EtOH use
+T7	Tobacco 114 124	cigarettes
+T8	Amount 106 113	1/2 PPD
+T9	Drug 134 146	heroin, meth
+T10	Method 126 133	injects
+T11	StatusTime 126 133	injects
+T12	StatusTime 106 113	1/2 PPD
+T13	Drug 148 170	occasional cocaine use
+T14	StatusTime 148 170	occasional cocaine use
+T16	Type 159 166	cocaine
+T17	Type 134 146	heroin, meth
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T6
+E3	Tobacco:T7 Amount:T8 Status:T12
+E4	Drug:T9 Method:T10 Status:T11 Type:T17
+E5	Drug:T13 Status:T14 Type:T16
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A4	StatusTimeVal T6 current
+A5	StatusTimeVal T11 current
+A6	StatusTimeVal T12 current
+A7	StatusTimeVal T14 current

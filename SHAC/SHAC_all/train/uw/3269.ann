@@ -1,0 +1,28 @@
+T1	Employment 129 146	previously worked
+T2	StatusEmploy 129 146	previously worked
+T3	Type 163 175	construction
+T4	Employment 250 258	enrolled
+T5	StatusEmploy 250 280	enrolled in a theology program
+T6	Tobacco 306 313	tobacco
+T7	Alcohol 315 322	alcohol
+T8	Drug 328 333	drugs
+T9	StatusTime 299 305	denies
+T10	Alcohol 94 99	sober
+T11	History 84 93	3.5 years
+T12	StatusTime 94 99	sober
+T13	LivingStatus 20 26	living
+T14	StatusTime 7 16	currently
+T15	TypeLiving 27 63	at [LOCATION] which is sober housing
+E1	Employment:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T9
+E4	Alcohol:T7 Status:T9
+E5	Drug:T8 Status:T9
+E6	Alcohol:T10 Status:T12 History:T11
+E7	LivingStatus:T13 Status:T14 Type:T15
+A1	StatusEmployVal T2 unemployed
+A2	StatusEmployVal T5 student
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T12 past
+A5	StatusTimeVal T14 current
+A6	TypeLivingVal T15 with_others

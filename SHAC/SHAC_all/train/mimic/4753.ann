@@ -1,0 +1,14 @@
+T1	LivingStatus 44 49	Lives
+T2	StatusTime 44 49	Lives
+T3	TypeLiving 67 87	Retirement Community
+T4	Tobacco 23 29	Smoker
+T5	StatusTime 16 22	Remote
+T6	Alcohol 30 36	Drinks
+T8	StatusTime 30 36	Drinks
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 past
+A5	StatusTimeVal T8 current

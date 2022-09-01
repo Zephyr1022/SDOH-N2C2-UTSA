@@ -1,0 +1,21 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 45 54	with wife
+T4	Employment 84 104;105 122	Retired president of insurance company
+T5	StatusEmploy 84 104;105 122	Retired president of insurance company
+T6	Type 84 104;105 122	Retired president of insurance company
+T7	Tobacco 155 161	smoker
+T8	StatusTime 166 170	quit
+T9	History 171 199	25 [**Name2 (NI) 1686**] ago
+T10	Amount 141 154	100-pack year
+T11	Alcohol 218 225	alcohol
+T12	StatusTime 204 217	used to drink
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Amount:T10 Status:T8 History:T9
+E4	Alcohol:T11 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T12 past

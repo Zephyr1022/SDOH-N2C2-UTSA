@@ -1,0 +1,12 @@
+T1	Tobacco 59 78	current tobacco use
+T2	StatusTime 59 78	current tobacco use
+T3	Amount 50 55	1 ppd
+T4	Alcohol 103 116	alcohol abuse
+T5	Drug 120 139	other illicit drugs
+T6	Type 126 133	illicit
+T8	StatusTime 89 99	no history
+E1	Tobacco:T1 Status:T2 Amount:T3
+E2	Alcohol:T4 Status:T8
+E3	Drug:T5 Type:T6 Status:T8
+A1	StatusTimeVal T2 current
+A3	StatusTimeVal T8 none

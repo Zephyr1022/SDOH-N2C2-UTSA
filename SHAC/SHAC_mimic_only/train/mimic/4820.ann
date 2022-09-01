@@ -1,0 +1,19 @@
+T1	Drug 16 38	Substance abuse issues
+T3	StatusTime 16 38	Substance abuse issues
+T4	StatusTime 73 77	+h/o
+T5	Tobacco 78 85	tobacco
+T6	StatusTime 105 110	lives
+T7	LivingStatus 105 110	lives
+T8	TypeLiving 135 149	with his fianc
+T9	Employment 249 259	a mechanic
+T10	Type 249 259	a mechanic
+T11	StatusEmploy 249 259	a mechanic
+E1	Drug:T1 Status:T3
+E2	Tobacco:T5 Status:T4
+E3	LivingStatus:T7 Status:T6 Type:T8
+E4	Employment:T9 Status:T11 Type:T10
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T4 current
+A4	StatusTimeVal T6 current
+A5	TypeLivingVal T8 with_others
+A6	StatusEmployVal T11 employed

@@ -1,0 +1,32 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 48	with wife and two children
+T3	StatusTime 16 21	Lives
+T4	Employment 61 66	owner
+T5	StatusEmploy 61 66	owner
+T6	Type 70 76;77 82	liquor store
+T7	Tobacco 91 98	tobacco
+T9	StatusTime 110 126	occasional cigar
+T10	Type 121 126	cigar
+T11	Alcohol 132 138	drinks
+T12	Amount 128 138	3-5 drinks
+T13	Frequency 139 146	per day
+T14	StatusTime 128 138;139 146	3-5 drinks per day
+T15	Alcohol 184 190	drinks
+T16	Amount 173 190	[**9-30**] drinks
+T17	StatusTime 152 169	occasional binges
+T19	Drug 226 244	recreational drugs
+T20	Type 226 238	recreational
+T21	StatusTime 219 225	denies
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T9 Type:T10
+E4	Alcohol:T11 Amount:T12 Status:T14 Frequency:T13
+E5	Alcohol:T15 Amount:T16 Status:T17
+E6	Drug:T19 Type:T20 Status:T21
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 employed
+A5	StatusTimeVal T9 current
+A6	StatusTimeVal T14 current
+A7	StatusTimeVal T17 current
+A9	StatusTimeVal T21 none

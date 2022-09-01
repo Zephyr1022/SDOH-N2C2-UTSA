@@ -1,0 +1,3 @@
+SOCIAL HISTORY:  The patient is a resident of a nursing
+facility.  His primary care physician is [**Last Name (NamePattern4) **]. [**First Name8 (NamePattern2) **]
+[**Last Name (NamePattern1) **].

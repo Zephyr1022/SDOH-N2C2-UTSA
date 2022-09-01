@@ -1,0 +1,37 @@
+T1	LivingStatus 128 133	Lives
+T2	StatusTime 128 133	Lives
+T3	TypeLiving 134 138;139 150	with her husband
+T4	Alcohol 192 202	EtOH abuse
+T5	StatusTime 176 188	long history
+T7	Alcohol 244 252	drinking
+T8	Amount 272 287	up to 10 drinks
+T9	Frequency 288 293	daily
+T10	Type 295 300	vodka
+T11	StatusTime 236 252	started drinking
+T12	Drug 317 324	cocaine
+T13	Frequency 325 332	monthly
+T14	StatusTime 308 316	endorses
+T15	Type 317 324	cocaine
+T16	Drug 367 371	IVDU
+T17	StatusTime 360 366	Denies
+T18	Type 367 371	IVDU
+T19	Employment 25 29	work
+T20	StatusEmploy 16 29	Does not work
+T21	Tobacco 159 170	tobacco use
+T22	StatusTime 152 158	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T5
+E3	Alcohol:T7 Status:T11 Amount:T8 Frequency:T9 Type:T10 Duration:T6
+E4	Drug:T12 Status:T14 Type:T15 Frequency:T13
+E5	Drug:T16 Type:T18 Status:T17
+E6	Employment:T19 Status:T20
+E7	Tobacco:T21 Status:T22
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 current
+A5	StatusTimeVal T11 current
+A6	StatusTimeVal T14 current
+A7	StatusTimeVal T17 none
+A8	StatusEmployVal T20 unemployed
+A9	StatusTimeVal T22 none
+T6	Duration 259 266;267 270	2 weeks ago

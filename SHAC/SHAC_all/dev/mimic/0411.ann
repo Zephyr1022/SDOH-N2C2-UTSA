@@ -1,0 +1,16 @@
+T1	Employment 64 65;66 85	a retired firefighter
+T2	StatusEmploy 64 65;66 85	a retired firefighter
+T3	Type 64 65;66 85	a retired firefighter
+T4	Amount 133 155	approximately two pack
+T5	Frequency 156 163	per day
+T6	Duration 164 185	for the past 50 years
+T7	StatusTime 91 94	has
+T8	Tobacco 106 121	tobacco history
+T9	Alcohol 201 212	alcohol use
+T10	StatusTime 190 200	denies any
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T8 Status:T7 Amount:T4 Frequency:T5 Duration:T6
+E3	Alcohol:T9 Status:T10
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T10 none

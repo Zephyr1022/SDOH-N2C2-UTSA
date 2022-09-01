@@ -1,0 +1,24 @@
+T1	LivingStatus 28 33	lives
+T2	StatusTime 28 33	lives
+T3	TypeLiving 34 47	with his wife
+T4	Employment 196 205;206 213	Currently retired
+T5	StatusEmploy 196 205;206 213	Currently retired
+T6	Type 240 261	the shipyard industry
+T7	Tobacco 265 280	Tobacco history
+T8	StatusTime 282 288	Denies
+T9	Alcohol 305 309	ETOH
+T10	Drug 319 332	Illicit drugs
+T11	StatusTime 312 316	None
+T12	StatusTime 335 339	None
+T13	Type 319 326	Illicit
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8
+E4	Alcohol:T9 Status:T11
+E5	Drug:T10 Type:T13 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T11 none
+A6	StatusTimeVal T12 none

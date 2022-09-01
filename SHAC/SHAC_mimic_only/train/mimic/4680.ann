@@ -1,0 +1,60 @@
+T1	Alcohol 22 26	etoh
+T2	Drug 27 40	cocaine abuse
+T3	Type 27 34	cocaine
+T5	StatusTime 16 21	Hx of
+T7	Frequency 84 89	daily
+T8	StatusTime 60 68	drinking
+T6	Alcohol 60 68	drinking
+T9	Type 79 83	beer
+T10	Amount 69 75	a 40oz
+T11	Tobacco 166 177	tobacco use
+T12	StatusTime 159 165	Denies
+T13	LivingStatus 219 234	currently lives
+T14	TypeLiving 238 245	her own
+T15	StatusTime 219 228	currently
+T16	LivingStatus 335 341	living
+T17	TypeLiving 342 353	with mother
+T18	StatusTime 326 334	Has been
+T19	StatusTime 374 381	Will be
+T20	TypeLiving 397 411	with boyfriend
+T21	LivingStatus 382 393	moving back
+T22	LivingStatus 442 454	homelessness
+T23	TypeLiving 442 454	homelessness
+T24	StatusTime 436 441	hx of
+T25	LivingStatus 529 535	living
+T26	TypeLiving 536 547	with mother
+T27	StatusTime 520 528	Has been
+T28	StatusTime 568 575	Will be
+T29	LivingStatus 576 587	moving back
+T30	TypeLiving 591 605	with boyfriend
+T31	LivingStatus 615 627	homelessness
+T32	TypeLiving 615 627	homelessness
+T33	StatusTime 612 614	hx
+E1	Alcohol:T1 Status:T5
+E2	Drug:T2 Type:T3 Status:T5
+E3	Alcohol:T6 Status:T8 Type:T9 Frequency:T7 Amount:T10
+E4	Tobacco:T11 Status:T12
+E5	LivingStatus:T13 Type:T14 Status:T15
+E6	LivingStatus:T16 Status:T18 Type:T17
+E7	LivingStatus:T21 Type:T20 Status:T19
+E8	LivingStatus:T22 Type:T23 Status:T24
+E9	LivingStatus:T25 Type:T26 Status:T27
+E10	LivingStatus:T29 Status:T28 Type:T30
+E11	LivingStatus:T31 Type:T32 Status:T33
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T12 none
+A5	TypeLivingVal T14 alone
+A6	StatusTimeVal T15 current
+A7	TypeLivingVal T17 with_family
+A8	StatusTimeVal T18 current
+A9	StatusTimeVal T19 future
+A10	TypeLivingVal T20 with_others
+A11	TypeLivingVal T23 homeless
+A12	StatusTimeVal T24 past
+A13	TypeLivingVal T26 with_family
+A14	StatusTimeVal T27 current
+A15	StatusTimeVal T28 future
+A16	TypeLivingVal T30 with_others
+A17	TypeLivingVal T32 homeless
+A18	StatusTimeVal T33 past

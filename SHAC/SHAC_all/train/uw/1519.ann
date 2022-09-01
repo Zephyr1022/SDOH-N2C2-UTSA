@@ -1,0 +1,24 @@
+T1	LivingStatus 17 26	Residence
+T2	TypeLiving 29 37	Homeless
+T3	StatusTime 29 37	Homeless
+T4	LivingStatus 40 56	Living situation
+T5	TypeLiving 65 70	alone
+T6	StatusTime 59 64	Lives
+T7	Employment 73 83	Employment
+T8	StatusEmploy 86 96	Unemployed
+T9	Tobacco 99 110	Tobacco use
+T10	StatusTime 113 119	Denies
+T11	Alcohol 122 133	Alcohol use
+T12	StatusTime 135 141	denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	LivingStatus:T4 Type:T5 Status:T6
+E3	Employment:T7 Status:T8
+E4	Tobacco:T9 Status:T10
+E5	Alcohol:T11 Status:T12
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	TypeLivingVal T5 alone
+A4	StatusTimeVal T6 current
+A5	StatusEmployVal T8 unemployed
+A6	StatusTimeVal T10 none
+A7	StatusTimeVal T12 none

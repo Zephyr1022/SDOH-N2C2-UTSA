@@ -1,0 +1,9 @@
+T2	StatusTime 17 30	Former smoker
+T1	Tobacco 17 30	Former smoker
+T4	StatusTime 32 43	Former IVDU
+T3	Drug 32 43	Former IVDU
+T5	Method 39 43	IVDU
+E1	Tobacco:T1 Status:T2
+E2	Drug:T3 Status:T4 Method:T5
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 past

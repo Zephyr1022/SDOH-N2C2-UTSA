@@ -1,0 +1,28 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 27	alone
+T3	Employment 29 45	former carpenter
+T4	StatusEmploy 29 45	former carpenter
+T5	Type 29 45	former carpenter
+T6	Tobacco 72 79	Tobacco
+T7	Amount 81 95	[**12-6**] ppd
+T8	Duration 96 103	x 4 yrs
+T9	StatusTime 81 95	[**12-6**] ppd
+T10	Alcohol 106 113	Alcohol
+T11	Amount 115 122	2 pints
+T12	Frequency 123 129	weekly
+T13	StatusTime 115 129	2 pints weekly
+T14	Drug 132 140	Illicits
+T15	StatusTime 143 149	denies
+T16	Type 132 140	Illicits
+T17	StatusTime 16 21	Lives
+E1	LivingStatus:T1 Type:T2 Status:T17
+E2	Employment:T3 Status:T4 Type:T5
+E3	Tobacco:T6 Amount:T7 Duration:T8 Status:T9
+E4	Alcohol:T10 Amount:T11 Status:T13 Frequency:T12
+E5	Drug:T14 Status:T15 Type:T16
+A1	TypeLivingVal T2 alone
+A2	StatusEmployVal T4 unemployed
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T13 current
+A5	StatusTimeVal T15 none
+A6	StatusTimeVal T17 current

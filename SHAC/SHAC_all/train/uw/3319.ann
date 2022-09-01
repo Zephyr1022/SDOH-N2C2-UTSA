@@ -1,0 +1,16 @@
+T1	LivingStatus 4 13	Residence
+T2	TypeLiving 14 22	Homeless
+T3	StatusTime 14 22	Homeless
+T4	Alcohol 39 46	alcohol
+T5	StatusTime 47 51	Uses
+T6	History 53 65	last this AM
+T7	Drug 66 71	drugs
+T8	Type 72 78	heroin
+T9	StatusTime 80 92	on methadone
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Status:T5 History:T6
+E3	Drug:T7 Type:T8 Status:T9
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T9 past

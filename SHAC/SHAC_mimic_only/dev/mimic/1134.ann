@@ -1,0 +1,15 @@
+T1	Employment 25 30	works
+T2	Type 34 45	a scientist
+T3	StatusEmploy 25 30	works
+T4	Tobacco 61 68;69 76	tobacco history
+T5	StatusTime 58 60	No
+T6	Alcohol 79 83	beer
+T7	Amount 84 86	2x
+T8	Frequency 86 93	/weekly
+T9	StatusTime 79 93	beer 2x/weekly
+E1	Employment:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Amount:T7 Status:T9 Frequency:T8
+A1	StatusEmployVal T3 employed
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T9 current

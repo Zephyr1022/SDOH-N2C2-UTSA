@@ -1,0 +1,20 @@
+T1	LivingStatus 25 30	lives
+T2	StatusTime 25 30	lives
+T3	TypeLiving 31 40	with wife
+T4	Employment 51 68	retired professor
+T5	StatusEmploy 51 68	retired professor
+T6	Type 51 68	retired professor
+T7	Alcohol 80 95	occasional EtOH
+T8	StatusTime 80 95	occasional EtOH
+T10	Drug 99 117	recreational drugs
+T11	Type 99 111	recreational
+T12	StatusTime 96 98	no
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Alcohol:T7 Status:T8
+E4	Drug:T10 Type:T11 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T8 current
+A6	StatusTimeVal T12 none

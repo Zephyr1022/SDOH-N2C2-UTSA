@@ -1,0 +1,31 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 32 55	next door to his mother
+T3	StatusTime 16 21	Lives
+T4	Employment 57 70	On disability
+T5	StatusEmploy 57 70	On disability
+T6	Alcohol 97 107	etoh abuse
+T7	StatusTime 95 96	+
+T8	Frequency 125 133	per week
+T9	Amount 108 112	3/5s
+T10	Type 113 124	hard liquor
+T11	History 134 141;142 151	up to 2 weeks ago
+T12	Drug 157 182	cocaine and IV heroin use
+T13	Type 157 178	cocaine and IV heroin
+T14	StatusTime 183 187	quit
+T15	History 188 200	35 years ago
+T16	Tobacco 215 225	smoking hx
+T17	Amount 202 204;205 214	25 pack year
+T18	StatusTime 227 231	quit
+T19	History 232 242	1 year ago
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Alcohol:T6 Status:T7 Amount:T9 Type:T10 Frequency:T8 History:T11
+E4	Drug:T12 Type:T13 Status:T14 History:T15 Method:T20
+E5	Tobacco:T16 Amount:T17 Status:T18 History:T19
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 on_disability
+A4	StatusTimeVal T7 current
+A5	StatusTimeVal T14 past
+A6	StatusTimeVal T18 past
+T20	Method 169 171	IV

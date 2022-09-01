@@ -1,0 +1,16 @@
+T1	LivingStatus 16 21	lives
+T2	StatusTime 16 21	lives
+T3	TypeLiving 22 42	w/ wife and children
+T4	Tobacco 54 60	smoker
+T5	Amount 43 53	40 pk year
+T6	StatusTime 62 66	quit
+T7	History 67 76	8 mos ago
+T8	Alcohol 81 85	ETOH
+T9	StatusTime 78 80	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T5 Status:T6 History:T7
+E3	Alcohol:T8 Status:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T9 none

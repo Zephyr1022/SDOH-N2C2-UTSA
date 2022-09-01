@@ -1,0 +1,21 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 28	1/2ppd
+T3	Alcohol 31 42	Alcohol Use
+T4	StatusTime 44 75	denies, last drink 4 months ago
+T5	StatusTime 22 28	1/2ppd
+T6	History 63 75	4 months ago
+T7	Drug 77 85	Drug Use
+T8	StatusTime 87 93	denies
+T9	LivingStatus 112 121	Residence
+T10	Duration 169 182	one month ago
+T11	TypeLiving 123 148	Seattle City Hall Shelter
+T12	StatusTime 123 148	Seattle City Hall Shelter
+E1	Tobacco:T1 Amount:T2 Status:T5
+E2	Alcohol:T3 Status:T4 History:T6
+E3	Drug:T7 Status:T8
+E4	LivingStatus:T9 Type:T11 Status:T12 Duration:T10
+A1	StatusTimeVal T4 past
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T8 none
+A4	TypeLivingVal T11 homeless
+A5	StatusTimeVal T12 current

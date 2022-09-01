@@ -1,0 +1,16 @@
+T1	Tobacco 16 34	ormer heavy smoker
+T3	StatusTime 16 34	ormer heavy smoker
+T4	LivingStatus 45 50	lives
+T5	StatusTime 45 50	lives
+T6	TypeLiving 51 63	with husband
+T7	Employment 157 164	retired
+T8	StatusEmploy 157 164	retired
+T9	Type 95 126	a medical equipment manufacture
+T10	Duration 165 171	x 3yrs
+E1	Tobacco:T1 Status:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Employment:T7 Status:T8 Type:T9 Duration:T10
+A2	StatusTimeVal T3 past
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 with_family
+A5	StatusEmployVal T8 retired

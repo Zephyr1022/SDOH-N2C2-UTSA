@@ -1,0 +1,12 @@
+T1	LivingStatus 49 65	Living situation
+T2	TypeLiving 74 96	with significant other
+T3	StatusTime 68 73	Lives
+T4	LivingStatus 99 104	Lives
+T5	StatusTime 99 104	Lives
+T6	TypeLiving 105 118	with children
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	LivingStatus:T4 Status:T5 Type:T6
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 with_family

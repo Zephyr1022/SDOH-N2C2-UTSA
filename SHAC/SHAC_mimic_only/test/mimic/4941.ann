@@ -1,0 +1,7 @@
+T1	LivingStatus 69 75	living
+T2	TypeLiving 76 81	alone
+T3	StatusTime 65 68	Was
+T4	History 123 137	prior to rehab
+E1	LivingStatus:T1 Type:T2 Status:T3 History:T4
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 past

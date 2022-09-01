@@ -1,0 +1,23 @@
+T1	LivingStatus 28 43	currently lives
+T2	StatusTime 28 43	currently lives
+T3	TypeLiving 44 49	alone
+T4	Tobacco 59 66	smoking
+T5	Amount 81 87	1-2ppd
+T6	Duration 67 79	all his life
+T7	StatusTime 67 87	all his life, 1-2ppd
+T8	Amount 175 180	a 5th
+T9	Frequency 181 186	a day
+T10	Alcohol 169 174	drank
+T11	StatusTime 144 149	prior
+T12	Drug 219 230	cocaine use
+T13	Type 219 226	cocaine
+T14	StatusTime 216 218	Hx
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Duration:T6 Status:T7 Amount:T5
+E3	Alcohol:T10 Amount:T8 Frequency:T9 Status:T11
+E4	Drug:T12 Type:T13 Status:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T11 past
+A5	StatusTimeVal T14 current

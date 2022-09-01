@@ -1,0 +1,14 @@
+T1	LivingStatus 17 22	lives
+T2	StatusTime 17 22	lives
+T3	TypeLiving 37 56	with adult daughter
+T4	StatusTime 58 64	Denies
+T5	Alcohol 77 81	etoh
+T6	Tobacco 83 86	tob
+T7	Drug 91 99	drug use
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T5 Status:T4
+E3	Tobacco:T6 Status:T4
+E4	Drug:T7 Status:T4
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T4 none

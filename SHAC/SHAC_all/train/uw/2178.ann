@@ -1,0 +1,41 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	Smoked
+T3	Amount 29 33	1 pk
+T4	Frequency 34 39	daily
+T5	Duration 40 50	for 15 yrs
+T6	History 57 67	30 yrs ago
+T7	Alcohol 70 81	Alcohol Use
+T8	StatusTime 83 89	Drinks
+T9	Amount 90 117	6oz wine or 1.5-2oz whiskey
+T10	Type 90 117	6oz wine or 1.5-2oz whiskey
+T11	Frequency 118 123	daily
+T12	Drug 126 134	Drug Use
+T13	StatusTime 136 142	Denies
+T14	Employment 160 191	Retired [LOCATION] psychologist
+T15	StatusEmploy 160 191	Retired [LOCATION] psychologist
+T16	Type 160 191	Retired [LOCATION] psychologist
+T17	LivingStatus 216 221	Lives
+T18	TypeLiving 222 257	at the Blue Haven Adult Family Home
+T19	StatusTime 216 221	Lives
+T20	Tobacco 385 392	tobacco
+T21	StatusTime 380 384	quit
+T22	History 393 411	about 40 years ago
+T23	Amount 413 431	about 10 pack-year
+T24	Alcohol 442 446	EtOH
+T25	StatusTime 448 468	daily scotch or wine
+T26	Type 454 468	scotch or wine
+E1	Tobacco:T1 History:T6 Status:T2 Amount:T3 Frequency:T4 Duration:T5
+E2	Alcohol:T7 Status:T8 Type:T10 Amount:T9 Frequency:T11
+E3	Drug:T12 Status:T13
+E4	Employment:T14 Status:T15 Type:T16
+E5	LivingStatus:T17 Status:T19 Type:T18
+E6	Tobacco:T20 Status:T21 History:T22 Amount:T23
+E7	Alcohol:T24 Status:T25 Type:T26
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T8 current
+A3	StatusTimeVal T13 none
+A4	StatusEmployVal T15 retired
+A5	TypeLivingVal T18 with_others
+A6	StatusTimeVal T19 current
+A7	StatusTimeVal T21 past
+A8	StatusTimeVal T25 current

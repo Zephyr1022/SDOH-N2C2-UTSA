@@ -1,0 +1,22 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 37 55	currently homeless
+T3	Alcohol 57 61	ETOH
+T4	Amount 63 70	a fifth
+T5	Frequency 71 76	a day
+T6	Type 80 85	vodka
+T7	StatusTime 63 85	a fifth a day of vodka
+T8	Tobacco 86 96	Cigarettes
+T9	Type 86 96	Cigarettes
+T10	StatusTime 98 104	denies
+T11	Drug 105 110	Drugs
+T12	StatusTime 112 118	denies
+T13	StatusTime 37 46	currently
+E1	LivingStatus:T1 Type:T2 Status:T13
+E2	Alcohol:T3 Amount:T4 Frequency:T5 Type:T6 Status:T7
+E3	Tobacco:T8 Type:T9 Status:T10
+E4	Drug:T11 Status:T12
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T10 none
+A4	StatusTimeVal T12 none
+A5	StatusTimeVal T13 current

@@ -1,0 +1,5 @@
+T1	Employment 91 113	owns a biotech company
+T2	Type 91 113	owns a biotech company
+T3	StatusEmploy 91 113	owns a biotech company
+E1	Employment:T1 Type:T2 Status:T3
+A1	StatusEmployVal T3 employed

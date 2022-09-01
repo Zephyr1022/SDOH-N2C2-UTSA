@@ -1,0 +1,31 @@
+T1	Tobacco 21 28	smoking
+T2	StatusTime 16 20	Quit
+T3	History 29 40	3 years ago
+T4	Amount 46 58	40 pack year
+T5	Tobacco 46 58	40 pack year
+T6	StatusTime 59 66	history
+T7	LivingStatus 68 73	Lives
+T8	StatusTime 68 73	Lives
+T9	TypeLiving 74 79	alone
+T10	Employment 84 89	works
+T11	StatusEmploy 84 89	works
+T12	Type 93 104	a cafeteria
+T13	Alcohol 128 132	EtOH
+T14	Frequency 133 142;143 148	1 day per month
+T15	StatusTime 133 142;143 148	1 day per month
+T16	Drug 153 174	recreational drug use
+T17	StatusTime 150 152	No
+T18	Type 153 165	recreational
+E1	Tobacco:T1 Status:T2 History:T3
+E2	Tobacco:T5 Amount:T4 Status:T6
+E3	LivingStatus:T7 Status:T8 Type:T9
+E4	Employment:T10 Status:T11 Type:T12
+E5	Alcohol:T13 Frequency:T14 Status:T15
+E6	Drug:T16 Type:T18 Status:T17
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T8 current
+A4	TypeLivingVal T9 alone
+A5	StatusEmployVal T11 employed
+A6	StatusTimeVal T15 current
+A7	StatusTimeVal T17 none

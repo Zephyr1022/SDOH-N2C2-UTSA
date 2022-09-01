@@ -1,0 +1,22 @@
+T1	Employment 87 92	works
+T2	Type 96 97;98 117	a painting contractor
+T3	StatusEmploy 87 92	works
+T4	Tobacco 119 125	smoked
+T5	StatusTime 119 125	smoked
+T6	History 126 143	until 5 years ago
+T7	Amount 157 163	1-2ppd
+T8	Duration 164 179	for 20-25 years
+T9	Alcohol 185 202	heavy alcohol use
+T11	StatusTime 206 210	past
+T12	History 217 219;220 229	20 years ago
+T13	Drug 235 239	IVDA
+T14	StatusTime 264 268	past
+T15	Type 245 252	cocaine
+E1	Employment:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Status:T5 History:T6 Amount:T7 Duration:T8
+E3	Alcohol:T9 Status:T11 History:T12
+E4	Drug:T13 Status:T14 Type:T15
+A1	StatusEmployVal T3 employed
+A2	StatusTimeVal T5 past
+A4	StatusTimeVal T11 past
+A5	StatusTimeVal T14 past

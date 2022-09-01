@@ -1,0 +1,15 @@
+T1	LivingStatus 28 33	lives
+T2	StatusTime 28 33	lives
+T3	TypeLiving 34 47	with his wife
+T4	Tobacco 87 97	cigarettes
+T5	Type 87 97	cigarettes
+T6	StatusTime 80 86	smokes
+T7	Alcohol 109 113	EtOH
+T8	StatusTime 102 108	drinks
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Type:T5 Status:T6
+E3	Alcohol:T7 Status:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T8 current

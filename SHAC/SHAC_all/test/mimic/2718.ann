@@ -1,0 +1,21 @@
+T1	Tobacco 16 25	ex-smoker
+T2	StatusTime 16 25	ex-smoker
+T3	History 35 47	20 years ago
+T4	Amount 48 71	Pack-years: [**10-16**]
+T5	Employment 72 82	Occupation
+T6	Type 84 97	office worker
+T7	StatusEmploy 84 97	office worker
+T8	LivingStatus 122 127	Lives
+T9	TypeLiving 128 139	With family
+T10	StatusTime 122 127	Lives
+T11	Alcohol 140 144	ETOH
+T12	StatusTime 146 152	Denies
+E1	Tobacco:T1 Status:T2 History:T3 Amount:T4
+E2	Employment:T5 Type:T6 Status:T7
+E3	LivingStatus:T8 Type:T9 Status:T10
+E4	Alcohol:T11 Status:T12
+A1	StatusTimeVal T2 past
+A2	StatusEmployVal T7 employed
+A3	TypeLivingVal T9 with_family
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T12 none

@@ -1,0 +1,29 @@
+T1	Drug 22 35	IV heroin use
+T2	Method 22 24	IV
+T3	Type 25 31	heroin
+T4	StatusTime 36 49	one month ago
+T5	Drug 56 67	IV meth use
+T6	Type 59 63	meth
+T7	Method 56 58	IV
+T8	StatusTime 68 80	one week ago
+T9	Alcohol 110 115	beers
+T10	Type 110 115	beers
+T11	Amount 102 115	2 large beers
+T12	Frequency 115 119	/day
+T13	StatusTime 102 119	2 large beers/day
+T14	Tobacco 125 132	tobacco
+T15	Amount 120 124	1ppd
+T16	StatusTime 120 124	1ppd
+T17	Drug 137 157	cocaine or marijuana
+T18	Type 137 157	cocaine or marijuana
+T19	StatusTime 134 136	No
+E1	Drug:T1 Type:T3 Method:T2 Status:T4
+E2	Drug:T5 Method:T7 Type:T6 Status:T8
+E3	Alcohol:T9 Frequency:T12 Status:T13 Amount:T11 Type:T10
+E4	Tobacco:T14 Amount:T15 Status:T16
+E5	Drug:T17 Status:T19 Type:T18
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T8 current
+A3	StatusTimeVal T13 current
+A4	StatusTimeVal T16 current
+A5	StatusTimeVal T19 none

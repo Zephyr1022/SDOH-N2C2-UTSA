@@ -1,0 +1,22 @@
+T1	Tobacco 17 24	Tobacco
+T2	Amount 50 56	1 pack
+T3	StatusTime 46 49	now
+T4	Frequency 57 71	every 3-4 days
+T5	Alcohol 72 76	EtOH
+T6	StatusTime 79 85	Denies
+T7	Drug 86 94	Illicits
+T9	StatusTime 97 101	Quit
+T10	History 103 112	years ago
+T11	Type 126 133	cocaine
+T8	LivingStatus 138 143	Lives
+T12	TypeLiving 171 184	independently
+T13	StatusTime 138 143	Lives
+E1	Tobacco:T1 Status:T3 Amount:T2 Frequency:T4
+E2	Alcohol:T5 Status:T6
+E3	Drug:T7 Status:T9 History:T10 Type:T11
+E4	LivingStatus:T8 Type:T12 Status:T13
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T9 past
+A4	TypeLivingVal T12 alone
+A5	StatusTimeVal T13 current

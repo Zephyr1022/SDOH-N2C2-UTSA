@@ -1,0 +1,20 @@
+T1	Tobacco 9 20	Tobacco Use
+T3	StatusTime 22 39	Occasional smoker
+T4	Alcohol 41 52	Alcohol Use
+T5	StatusTime 54 60	Denies
+T6	Drug 63 71	Drug Use
+T7	StatusTime 73 93	Occasional marijuana
+T9	Type 73 93	Occasional marijuana
+T10	LivingStatus 316 324	homeless
+T11	StatusTime 307 315	has been
+T12	TypeLiving 316 324	homeless
+T13	Duration 325 343	for the last month
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Status:T7 Type:T9
+E4	LivingStatus:T10 Status:T11 Type:T12 Duration:T13
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 current
+A6	StatusTimeVal T11 current
+A7	TypeLivingVal T12 homeless

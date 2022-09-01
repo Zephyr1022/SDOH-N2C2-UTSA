@@ -1,0 +1,14 @@
+T1	Tobacco 16 22	smokes
+T2	StatusTime 16 22	smokes
+T3	Amount 23 28	1 ppd
+T4	Duration 29 41	for 10 years
+T5	Alcohol 42 48	drinks
+T6	StatusTime 42 48	drinks
+T9	Drug 67 75	drug use
+T10	StatusTime 84 103	positive tox screen
+E1	Tobacco:T1 Status:T2 Amount:T3 Duration:T4
+E2	Alcohol:T5 Status:T6
+E4	Drug:T9 Status:T10
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 current
+A5	StatusTimeVal T10 current

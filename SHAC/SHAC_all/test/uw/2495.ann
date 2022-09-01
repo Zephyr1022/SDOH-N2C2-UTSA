@@ -1,0 +1,21 @@
+T3	Tobacco 9 20	Tobacco Use
+T4	Alcohol 30 41	Alcohol Use
+T5	Amount 43 60	three 24 oz beers
+T6	Frequency 60 64	/day
+T7	Drug 65 73	Drug Use
+T8	StatusTime 75 81	denies
+T9	StatusTime 22 28	denies
+T10	StatusTime 43 64	three 24 oz beers/day
+E2	Tobacco:T3 Status:T9
+E3	Alcohol:T4 Amount:T5 Status:T10 Frequency:T6 Type:T1
+E4	Drug:T7 Status:T8
+A1	StatusTimeVal T8 none
+A2	StatusTimeVal T9 none
+A3	StatusTimeVal T10 current
+T1	Type 55 60	beers
+T2	LivingStatus 101 106	lives
+E1	LivingStatus:T2 Status:T14 Type:T15
+T14	StatusTime 101 106	lives
+A4	StatusTimeVal T14 current
+T15	TypeLiving 110 127	City Hall shelter
+A5	TypeLivingVal T15 homeless

@@ -1,0 +1,24 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 30	w sister
+T3	StatusTime 16 21	Lives
+T4	Tobacco 52 59	Smoking
+T5	Alcohol 66 70	ETOH
+T6	StatusTime 61 65	none
+T7	StatusTime 72 76	none
+T8	Drug 77 90	Illicit drugs
+T9	Type 77 84	Illicit
+T10	StatusTime 92 96	none
+T11	Employment 97 107	Employment
+T12	StatusEmploy 109 119	unemployed
+T13	Duration 120 130	for a year
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T6
+E3	Alcohol:T5 Status:T7
+E4	Drug:T8 Status:T10 Type:T9
+E5	Employment:T11 Status:T12 Duration:T13
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T10 none
+A6	StatusEmployVal T12 unemployed

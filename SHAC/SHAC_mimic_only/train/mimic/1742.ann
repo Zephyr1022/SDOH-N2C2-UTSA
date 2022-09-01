@@ -1,0 +1,23 @@
+T1	LivingStatus 30 35	lives
+T2	StatusTime 30 35	lives
+T3	TypeLiving 36 50	with boyfriend
+T4	Tobacco 57 64	smoking
+T5	StatusTime 52 56	Quit
+T6	Alcohol 84 88	ETOH
+T7	History 89 105	since [**2157**]
+T8	StatusTime 77 83;84 105	Denies ETOH since [**2157**]
+T9	Drug 114 130	illicit drug use
+T10	Type 114 121	illicit
+T11	History 131 147	since [**2144**]
+T12	StatusTime 107 147	denies illicit drug use since [**2144**]
+T13	History 65 75	[**2164**]
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T13
+E3	Alcohol:T6 Status:T8 History:T7
+E4	Drug:T9 Type:T10 Status:T12 History:T11 Type2:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T12 past
+T14	Type 149 156	cocaine

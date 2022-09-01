@@ -1,0 +1,28 @@
+T1	Tobacco 16 22	smoker
+T2	StatusTime 24 32	quitting
+T3	History 33 50	earlier this year
+T4	Amount 52 68	55-90 pack years
+T5	Employment 69 75	Worked
+T6	StatusEmploy 69 75	Worked
+T7	Type 79 93	a beer shipper
+T8	Alcohol 96 109	heavy drinker
+T10	Amount 111 115	case
+T11	StatusTime 96 109	heavy drinker
+T12	Duration 117 129	for 6 months
+T13	LivingStatus 130 145	currently lives
+T14	StatusTime 130 145	currently lives
+T15	TypeLiving 146 151	alone
+T16	Employment 153 160	working
+T17	StatusEmploy 153 160	working
+T18	Type 164 190;191 198	consultant for engineering company
+E1	Tobacco:T1 Status:T2 History:T3 Amount:T4
+E2	Employment:T5 Status:T6 Type:T7
+E3	Alcohol:T8 Status:T11 Amount:T10 Duration:T12
+E4	LivingStatus:T13 Status:T14 Type:T15
+E5	Employment:T16 Status:T17 Type:T18
+A1	StatusTimeVal T2 past
+A2	StatusEmployVal T6 unemployed
+A4	StatusTimeVal T11 current
+A5	StatusTimeVal T14 current
+A6	TypeLivingVal T15 alone
+A7	StatusEmployVal T17 employed

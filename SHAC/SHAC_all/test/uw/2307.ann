@@ -1,0 +1,22 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	Denies
+T3	Alcohol 32 43	Alcohol Use
+T4	Amount 67 87	cheap gallon of wine
+T5	Frequency 45 59	Once per month
+T6	Type 83 87	wine
+T7	StatusTime 60 66	drinks
+T8	Drug 113 121	Drug Use
+T9	StatusTime 131 138	used to
+T10	Type 144 165	non-medical marijuana
+T11	LivingStatus 198 203	stays
+T12	TypeLiving 208 226	low income housing
+T13	StatusTime 198 203	stays
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Amount:T4 Frequency:T5 Type:T6 Status:T7
+E3	Drug:T8 Status:T9 Type:T10
+E4	LivingStatus:T11 Type:T12 Status:T13
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T9 past
+A4	TypeLivingVal T12 with_others
+A5	StatusTimeVal T13 current

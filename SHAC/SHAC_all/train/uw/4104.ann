@@ -1,0 +1,25 @@
+T1	LivingStatus 73 78	lives
+T2	StatusTime 73 78	lives
+T3	TypeLiving 79 91	with brother
+T4	Employment 315 319	jobs
+T5	StatusEmploy 325 348	unable to hold one down
+T6	Drug 357 366	marijuana
+T7	StatusTime 350 356	Smokes
+T8	Type 357 366	marijuana
+T9	Tobacco 384 391	smoking
+T10	StatusTime 377 383	Denies
+T11	Type 392 402	cigarettes
+T12	Alcohol 413 420	alcohol
+T15	Drug 460 468	drug use
+T16	Type 447 459	recreational
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Status:T5
+E3	Drug:T6 Status:T7 Type:T8
+E4	Tobacco:T9 Status:T10 Type:T11
+E5	Alcohol:T12 Status:T10
+E6	Drug:T15 Type:T16 Status:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T7 current
+A5	StatusTimeVal T10 none

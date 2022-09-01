@@ -1,0 +1,14 @@
+T1	LivingStatus 44 49	lives
+T2	StatusTime 44 49	lives
+T3	TypeLiving 50 52;53 73	in [**Hospital1 1562**]
+T4	Tobacco 79 94	tobacco history
+T5	StatusTime 76 78	No
+T6	Alcohol 96 114	social alcohol use
+T7	StatusTime 96 114	social alcohol use
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 current

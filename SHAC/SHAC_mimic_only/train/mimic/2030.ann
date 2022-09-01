@@ -1,0 +1,28 @@
+T3	Employment 79 84	Works
+T4	StatusEmploy 79 84	Works
+T5	Type 110 123	home building
+T6	LivingStatus 125 130	Lives
+T7	StatusTime 125 130	Lives
+T8	TypeLiving 131 152;153 172	with his wife and his 8-year-old daughter
+T9	Tobacco 252 259	Tobacco
+T10	Amount 304 311	One ppd
+T11	Duration 312 322	x 20 years
+T12	StatusTime 304 322	One ppd x 20 years
+T14	Amount 262 271	One drink
+T15	Frequency 272 277	a day
+T13	Alcohol 294 301	Alcohol
+T16	StatusTime 279 291	not recently
+T17	Drug 325 333	Illicits
+T18	Type 325 333	Illicits
+T19	StatusTime 336 342	Denies
+E2	Employment:T3 Status:T4 Type:T5
+E3	LivingStatus:T6 Status:T7 Type:T8
+E4	Tobacco:T9 Amount:T10 Duration:T11 Status:T12
+E5	Alcohol:T13 Status:T16 Frequency:T15 Amount:T14
+E6	Drug:T17 Type:T18 Status:T19
+A1	StatusEmployVal T4 employed
+A2	StatusTimeVal T7 current
+A3	TypeLivingVal T8 with_family
+A4	StatusTimeVal T12 current
+A5	StatusTimeVal T16 past
+A6	StatusTimeVal T19 none

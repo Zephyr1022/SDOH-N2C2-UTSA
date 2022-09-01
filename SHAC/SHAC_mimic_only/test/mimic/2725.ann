@@ -1,0 +1,18 @@
+T1	LivingStatus 29 34	lives
+T2	TypeLiving 35 48	with his wife
+T3	StatusTime 29 34	lives
+T4	Tobacco 141 156	smoking history
+T5	Amount 169 182	2?????? packs
+T7	Frequency 183 190	per day
+T8	Duration 191 197;198 203	for 32 years
+T9	StatusTime 208 212	quit
+T6	History 213 226	in [**2154**]
+T10	Alcohol 240 251	alcohol use
+T11	StatusTime 229 235	Denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Amount:T5 Frequency:T7 Status:T9 Duration:T8 History:T6
+E3	Alcohol:T10 Status:T11
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T9 past
+A4	StatusTimeVal T11 none

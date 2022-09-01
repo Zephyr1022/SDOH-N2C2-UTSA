@@ -1,0 +1,18 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	None
+T3	Alcohol 29 40	Alcohol Use
+T4	StatusTime 42 46	None
+T5	Drug 49 57	Drug Use
+T6	StatusTime 59 63	None
+T7	LivingStatus 82 87	Lives
+T8	StatusTime 82 87	Lives
+T9	TypeLiving 102 137	with his mother, sister, and father
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+E4	LivingStatus:T7 Status:T8 Type:T9
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 with_family

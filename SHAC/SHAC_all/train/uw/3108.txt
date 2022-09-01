@@ -1,0 +1,5 @@
+HABITS: 
+Tobacco Use: Unknown   Alcohol Use: Yes   Drug Use:Yes
+
+SOCIAL HISTORY: 
+[X] Unable to Obtain due to Patient Condition

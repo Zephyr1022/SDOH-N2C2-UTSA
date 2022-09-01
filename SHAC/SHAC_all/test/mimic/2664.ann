@@ -1,0 +1,26 @@
+T1	Employment 27 31	work
+T2	StatusEmploy 46 56	is retired
+T3	Type 35 41	a chef
+T4	LivingStatus 77 92	currently lives
+T5	StatusTime 77 92	currently lives
+T6	TypeLiving 93 112	with his girlfriend
+T7	Alcohol 141 154	alcohol abuse
+T8	StatusTime 180 198	in the remote past
+T9	Tobacco 260 277;278 287	a very occasional cigarette
+T10	Type 278 287	cigarette
+T11	StatusTime 256 259	has
+T12	Duration 288 300	since 1 year
+T13	Tobacco 229 235	Smoked
+T14	StatusTime 229 235	Smoked
+T15	Duration 236 245	x 3 years
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Alcohol:T7 Status:T8
+E4	Tobacco:T9 Status:T11 Type:T10 Duration:T12
+E5	Tobacco:T13 Status:T14 Duration:T15
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T11 current
+A6	StatusTimeVal T14 past

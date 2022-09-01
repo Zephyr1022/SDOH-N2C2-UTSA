@@ -1,0 +1,15 @@
+T1	StatusTime 16 17	+
+T2	Tobacco 18 25	tobacco
+T3	StatusTime 27 28	+
+T4	Alcohol 29 33	etoh
+T5	Amount 35 52	[**1-29**] drinks
+T6	Frequency 53 61	per week
+T7	Drug 65 69	ivdu
+T8	Method 65 69	ivdu
+T9	StatusTime 62 64	no
+E1	Tobacco:T2 Status:T1
+E2	Alcohol:T4 Status:T3 Amount:T5 Frequency:T6
+E3	Drug:T7 Status:T9 Method:T8
+A1	StatusTimeVal T1 current
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T9 current

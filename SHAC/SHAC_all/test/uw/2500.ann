@@ -1,0 +1,17 @@
+T1	Tobacco 182 196	Smoking status
+T2	StatusTime 198 211	Former Smoker
+T3	Alcohol 250 261	Alcohol use
+T4	StatusTime 262 264	No
+T5	Drug 269 277	Drug use
+T6	StatusTime 279 281	No
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 none
+T7	Tobacco 216 233	Smokeless tobacco
+E4	Tobacco:T7 Status:T9 Type:T8
+T8	Type 216 225	Smokeless
+T9	StatusTime 235 245	Never Used
+A4	StatusTimeVal T9 none

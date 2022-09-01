@@ -1,0 +1,18 @@
+T1	LivingStatus 17 34	Currently resides
+T2	StatusTime 17 34	Currently resides
+T3	TypeLiving 49 62	with a friend
+T4	Tobacco 89 100	Tobacco Use
+T5	Alcohol 112 123	Alcohol Use
+T6	Drug 134 142	Drug Use
+T7	StatusTime 102 108	denies
+T8	StatusTime 125 131	denies
+T9	StatusTime 144 150	denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T7
+E3	Alcohol:T5 Status:T8
+E4	Drug:T6 Status:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T9 none

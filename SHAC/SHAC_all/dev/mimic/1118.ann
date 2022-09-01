@@ -1,0 +1,11 @@
+T1	StatusTime 16 22	Denies
+T2	Tobacco 23 30	tobacco
+T3	Alcohol 34 45	alcohol use
+T6	Employment 103 109	worked
+T7	StatusEmploy 103 109	worked
+T8	Type 113 135	the insurance industry
+E1	Tobacco:T2 Status:T1
+E2	Alcohol:T3 Status:T1
+E4	Employment:T6 Status:T7 Type:T8
+A1	StatusTimeVal T1 none
+A2	StatusEmployVal T7 unemployed

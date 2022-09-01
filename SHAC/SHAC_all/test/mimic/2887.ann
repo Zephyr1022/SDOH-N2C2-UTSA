@@ -1,0 +1,16 @@
+T1	Tobacco 73 80;81 84	tobacco use
+T2	StatusTime 54 72	absence of current
+T3	Alcohol 128 138	ETOH abuse
+T5	Drug 165 176	cocaine use
+T6	Type 165 172	cocaine
+T7	StatusTime 140 142;143 158	no ETOH x 10 years
+T8	History 148 158	x 10 years
+T9	StatusTime 178 197	none for many years
+T10	History 183 197	for many years
+T11	Type 104 113	cigarette
+E1	Tobacco:T1 Status:T2 Type:T11
+E2	Alcohol:T3 Status:T7 History:T8
+E3	Drug:T5 Type:T6 Status:T9 History:T10
+A1	StatusTimeVal T2 past
+A3	StatusTimeVal T7 past
+A4	StatusTimeVal T9 past

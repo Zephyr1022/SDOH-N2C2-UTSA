@@ -1,0 +1,15 @@
+T1	Employment 16 34	computer programer
+T2	StatusEmploy 16 34	computer programer
+T3	Type 16 34	computer programer
+T4	LivingStatus 35 40	lives
+T5	StatusTime 35 40	lives
+T6	TypeLiving 41 53	with sisters
+T7	Alcohol 85 89	ETOH
+T8	StatusTime 82 84	no
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Alcohol:T7 Status:T8
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family
+A4	StatusTimeVal T8 none

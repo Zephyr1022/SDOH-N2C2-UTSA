@@ -1,0 +1,5 @@
+T1	Drug 20 24	IVDA
+T2	StatusTime 16 19	H/o
+T3	Type 20 24	IVDA
+E1	Drug:T1 Type:T3 Status:T2
+A1	StatusTimeVal T2 current

@@ -1,0 +1,24 @@
+T1	Employment 16 36	retired orthodondist
+T2	StatusEmploy 16 36	retired orthodondist
+T3	Type 16 36	retired orthodondist
+T4	Tobacco 43 50	smoking
+T5	StatusTime 38 42	quit
+T6	History 51 69	about 10 years ago
+T7	Tobacco 80 85	smoke
+T8	Amount 86 95	1-2 packs
+T9	Frequency 95 99	/day
+T10	Duration 100 113	for >20 years
+T11	StatusTime 72 79	used to
+T12	Alcohol 132 136	wine
+T13	Amount 115 128	about 1 glass
+T14	Type 132 136	wine
+T15	Frequency 137 142	daily
+T16	StatusTime 115 128	about 1 glass
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Tobacco:T7 Status:T11 Amount:T8 Frequency:T9 Duration:T10
+E4	Alcohol:T12 Type:T14 Status:T16 Amount:T13 Frequency:T15
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T11 past
+A4	StatusTimeVal T16 current

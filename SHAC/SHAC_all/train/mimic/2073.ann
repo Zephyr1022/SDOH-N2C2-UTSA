@@ -1,0 +1,16 @@
+T1	LivingStatus 25 33	resident
+T2	TypeLiving 34 58	of [**Hospital **] rehab
+T3	StatusTime 25 33	resident
+T4	Duration 59 69	for 1 year
+T5	Tobacco 197 204	tobacco
+T6	StatusTime 192 196	Quit
+T7	History 205 219	> 50 years ago
+T8	Alcohol 231 235	ETOH
+T9	StatusTime 221 230	No recent
+E1	LivingStatus:T1 Status:T3 Type:T2 Duration:T4
+E2	Tobacco:T5 Status:T6 History:T7
+E3	Alcohol:T8 Status:T9
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T9 past

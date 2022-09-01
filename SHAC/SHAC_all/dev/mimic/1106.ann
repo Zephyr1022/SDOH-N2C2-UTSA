@@ -1,0 +1,22 @@
+T1	LivingStatus 20 25	lives
+T2	StatusTime 20 25	lives
+T3	TypeLiving 34 44	by herself
+T4	Tobacco 203 218	Tobacco history
+T5	StatusTime 221 225	quit
+T6	History 226 235	56yrs ago
+T7	Alcohol 237 241	ETOH
+T8	StatusTime 244 255	very rarely
+T9	Amount 257 269	a few drinks
+T10	Frequency 270 278	per year
+T11	Drug 280 293	Illicit drugs
+T12	Type 280 287	Illicit
+T13	StatusTime 296 302	denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Alcohol:T7 Status:T8 Amount:T9 Frequency:T10
+E4	Drug:T11 Type:T12 Status:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T13 none

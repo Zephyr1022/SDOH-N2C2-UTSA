@@ -1,0 +1,29 @@
+T1	Tobacco 24 31	smoking
+T2	Amount 17 22	75pyh
+T3	StatusTime 17 22	75pyh
+T4	Alcohol 38 56	up to 12 beers/day
+T5	Amount 38 52	up to 12 beers
+T6	Frequency 52 56	/day
+T7	StatusTime 44 56	12 beers/day
+T8	Drug 61 79	recreational drugs
+T9	StatusTime 58 60	no
+T10	Type 61 73	recreational
+T11	LivingStatus 80 85	Lives
+T12	StatusTime 80 85	Lives
+T13	TypeLiving 100 105	alone
+T14	Employment 183 201	Previously managed
+T15	StatusEmploy 183 201	Previously managed
+T16	Type 202 215	a tow company
+E1	Tobacco:T1 Amount:T2 Status:T3 Amount2:T18
+E2	Alcohol:T4 Amount:T5 Frequency:T6 Status:T7 Type:T17
+E3	Drug:T8 Type:T10 Status:T9
+E4	LivingStatus:T11 Status:T12 Type:T13
+E5	Employment:T14 Status:T15 Type:T16
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T7 current
+A3	StatusTimeVal T9 none
+A4	StatusTimeVal T12 current
+A5	TypeLivingVal T13 alone
+A6	StatusEmployVal T15 unemployed
+T17	Type 47 52	beers
+T18	Amount 32 36	2ppd

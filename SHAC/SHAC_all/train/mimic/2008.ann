@@ -1,0 +1,36 @@
+T1	Employment 16 26	Occupation
+T2	StatusEmploy 28 41	Self-Employed
+T3	Type 42 59	Software Engineer
+T4	Drug 67 78	Former IVDU
+T5	StatusTime 67 78	Former IVDU
+T6	Method 74 78	IVDU
+T7	Drug 80 97	current Marijuana
+T8	StatusTime 80 97	current Marijuana
+T9	Type 88 97	Marijuana
+T10	Tobacco 98 105	Tobacco
+T11	StatusTime 107 113	Former
+T12	Alcohol 114 121	Alcohol
+T13	Amount 146 155	~1 bottle
+T14	Frequency 163 169	/night
+T15	StatusTime 139 145	drinks
+T16	LivingStatus 212 217	Lives
+T17	TypeLiving 226 245	with wife, daughter
+T18	StatusTime 212 217	Lives
+T19	Alcohol 127 137	Alcoholism
+T20	StatusTime 123 126	h/o
+E1	Employment:T1 Status:T2 Type:T3
+E2	Drug:T4 Status:T5 Method:T6
+E3	Drug:T7 Status:T8 Type:T9
+E4	Tobacco:T10 Status:T11
+E5	Alcohol:T12 Status:T15 Amount:T13 Frequency:T14
+E6	LivingStatus:T16 Type:T17 Status:T18
+E7	Alcohol:T19 Status:T20 Type:T21
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T11 past
+A5	StatusTimeVal T15 current
+A6	TypeLivingVal T17 with_family
+A7	StatusTimeVal T18 current
+A8	StatusTimeVal T20 past
+T21	Type 159 163	wine

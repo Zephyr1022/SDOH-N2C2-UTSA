@@ -1,0 +1,20 @@
+T1	Employment 136 149	self-employed
+T2	StatusEmploy 133 149	is self-employed
+T3	Type 154 171	owns a concession
+T4	Tobacco 290 296	smoked
+T5	StatusTime 280 289	has never
+T6	Alcohol 308 315	alcohol
+T7	StatusTime 301 307	drinks
+T8	Duration 363 369;370 383	during the past year
+T9	Type 343 362	intra-nasal cocaine
+T10	Drug 355 362	cocaine
+T11	StatusTime 329 342	started using
+T16	History 385 421	last used in mid-[**Month (only) **]
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T10 Type:T9 Duration:T8 Status:T11 History:T16
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T11 current

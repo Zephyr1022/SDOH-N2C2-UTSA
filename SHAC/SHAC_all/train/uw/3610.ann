@@ -1,0 +1,24 @@
+T1	StatusTime 35 39	quit
+T2	History 40 50	1 year ago
+T3	Amount 9 21	50 pack-year
+T4	Tobacco 26 33	smoking
+T5	Alcohol 51 58	Alcohol
+T6	StatusTime 59 73	once per month
+T7	Amount 59 63	once
+T8	Frequency 64 73	per month
+T9	Drug 75 79	IVDU
+T10	StatusTime 80 94	in remote past
+T11	Method 75 79	IVDU
+T12	Drug 103 116	crack cocaine
+T13	Type 103 116	crack cocaine
+T14	Method 96 102	smokes
+T15	StatusTime 117 131	last in [DATE]
+T16	History 122 131	in [DATE]
+E1	Tobacco:T4 Amount:T3 Status:T1 History:T2
+E2	Alcohol:T5 Amount:T7 Frequency:T8 Status:T6
+E3	Drug:T9 Status:T10 Method:T11
+E4	Drug:T12 Method:T14 Type:T13 History:T16 Status:T15
+A1	StatusTimeVal T1 past
+A2	StatusTimeVal T6 current
+A3	StatusTimeVal T10 past
+A4	StatusTimeVal T15 past

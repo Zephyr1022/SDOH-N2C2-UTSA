@@ -1,0 +1,8 @@
+T1	Alcohol 36 56;57 64	recent alcohol abuse history
+T2	StatusTime 33 35	no
+T3	Tobacco 80 91	tobacco use
+T4	StatusTime 69 79	denies any
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none

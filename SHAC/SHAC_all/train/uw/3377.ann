@@ -1,0 +1,6 @@
+T1	Drug 31 37	MJ use
+T2	Type 31 33	MJ
+T3	StatusTime 38 45	in past
+T4	Method 68 75	edibles
+E1	Drug:T1 Type:T2 Status:T3 Method:T4
+A1	StatusTimeVal T3 past

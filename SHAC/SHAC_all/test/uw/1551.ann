@@ -1,0 +1,27 @@
+T1	Employment 27 47	currently unemployed
+T2	StatusEmploy 37 47	unemployed
+T3	LivingStatus 17 25	Homeless
+T4	TypeLiving 17 25	Homeless
+T5	Tobacco 50 56	Smokes
+T6	Amount 57 66	half pack
+T7	Frequency 67 72	a day
+T8	Type 73 83	cigarettes
+T9	StatusTime 50 56	Smokes
+T10	Alcohol 88 95	alcohol
+T11	StatusTime 85 87	no
+T12	Drug 103 116	marijuana use
+T13	Frequency 97 102	daily
+T14	StatusTime 97 116	daily marijuana use
+T15	StatusTime 17 25	Homeless
+E1	Employment:T1 Status:T2
+E2	LivingStatus:T3 Type:T4 Status:T15
+E3	Tobacco:T5 Amount:T6 Frequency:T7 Type:T8 Status:T9
+E4	Alcohol:T10 Status:T11
+E5	Drug:T12 Frequency:T13 Status:T14 Type:T16
+A1	StatusEmployVal T2 unemployed
+A2	TypeLivingVal T4 homeless
+A3	StatusTimeVal T9 current
+A4	StatusTimeVal T11 none
+A5	StatusTimeVal T14 current
+A6	StatusTimeVal T15 current
+T16	Type 103 112	marijuana

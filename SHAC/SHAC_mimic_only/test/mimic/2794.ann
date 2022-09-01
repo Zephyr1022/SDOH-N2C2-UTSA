@@ -1,0 +1,22 @@
+T1	LivingStatus 25 30	lives
+T2	StatusTime 25 30	lives
+T3	TypeLiving 31 43	with husband
+T4	Employment 129 135	worked
+T5	StatusEmploy 117 135	she has not worked
+T6	History 136 154	for the past month
+T7	Type 69 81	a bus driver
+T8	Tobacco 193 198	smoke
+T9	Alcohol 207 214	alcohol
+T10	Drug 218 226	drug use
+T11	StatusTime 184 192	Does not
+T12	StatusTime 200 206	denies
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 History:T6 Status:T5 Type:T7
+E3	Tobacco:T8 Status:T11
+E4	Alcohol:T9 Status:T12
+E5	Drug:T10 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T11 none
+A5	StatusTimeVal T12 none

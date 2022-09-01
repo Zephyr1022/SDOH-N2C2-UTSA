@@ -1,0 +1,8 @@
+T1	Alcohol 53 60	alcohol
+T2	StatusTime 39 52	Did not drink
+T3	Tobacco 30 36	smoker
+T4	StatusTime 20 27	was not
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 none

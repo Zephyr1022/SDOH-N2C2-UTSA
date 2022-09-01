@@ -1,0 +1,23 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 30 36	w/ dad
+T4	Employment 120 121;122 137	a nursing student
+T5	StatusEmploy 117 119	is
+T6	Tobacco 277 284	Tobacco
+T7	StatusTime 286 292	denies
+T8	Alcohol 295 302	Alcohol
+T10	StatusTime 304 314	occasional
+T11	Drug 317 325	Illicits
+T12	StatusTime 327 333	denies
+T13	Type 317 325	Illicits
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5
+E3	Tobacco:T6 Status:T7
+E4	Alcohol:T8 Status:T10
+E5	Drug:T11 Type:T13 Status:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 student
+A4	StatusTimeVal T7 none
+A6	StatusTimeVal T10 current
+A7	StatusTimeVal T12 none

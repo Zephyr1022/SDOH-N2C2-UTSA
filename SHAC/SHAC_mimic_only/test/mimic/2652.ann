@@ -1,0 +1,24 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 27	alone
+T4	Employment 38 42	work
+T5	StatusEmploy 30 42	Used to work
+T6	Type 46 66	a mechanical drafter
+T7	Alcohol 81 86	drink
+T8	StatusTime 72 80	does not
+T9	Tobacco 99 104	smoke
+T10	StatusTime 91 104	used to smoke
+T11	Type 105 111	cigars
+T12	Amount 113 121	2 cigars
+T13	Frequency 122 127	a day
+T14	Duration 128 139	for 2 years
+T15	History 149 161	15 years ago
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Alcohol:T7 Status:T8
+E4	Tobacco:T9 Status:T10 Type:T11 Amount:T12 Frequency:T13 Duration:T14 History:T15
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T8 none
+A5	StatusTimeVal T10 past

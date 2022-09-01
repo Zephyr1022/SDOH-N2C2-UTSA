@@ -1,0 +1,31 @@
+T1	Amount 26 34	one pack
+T2	Frequency 35 42	per day
+T3	StatusTime 17 25	Positive
+T4	Tobacco 26 42	one pack per day
+T5	Alcohol 48 55	alcohol
+T6	StatusTime 45 47	No
+T7	LivingStatus 65 70	lives
+T8	StatusTime 65 70	lives
+T9	TypeLiving 71 94	with four grandchildren
+T10	LivingStatus 144 149	lives
+T11	StatusTime 144 149	lives
+T12	TypeLiving 150 167	with his daughter
+T13	Employment 252 258	worked
+T14	StatusEmploy 237 239;240 248	In the past
+T15	Type 259 273	detailing cars
+E1	Tobacco:T4 Status:T3 Amount:T1 Frequency:T2
+E2	Alcohol:T5 Status:T6
+E3	LivingStatus:T7 Status:T8 Type:T9
+E4	LivingStatus:T10 Status:T11 Type:T12
+E5	Employment:T13 Status:T14 Type:T15
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T8 current
+A4	TypeLivingVal T9 with_family
+A5	StatusTimeVal T11 current
+A6	TypeLivingVal T12 with_family
+A7	StatusEmployVal T14 unemployed
+T16	Employment 189 197	disabled
+E6	Employment:T16 Status:T17
+T17	StatusEmploy 189 197	disabled
+A8	StatusEmployVal T17 on_disability

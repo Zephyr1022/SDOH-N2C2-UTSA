@@ -1,0 +1,16 @@
+T1	LivingStatus 19 24	lives
+T2	StatusTime 19 24	lives
+T3	TypeLiving 49 68	with his girlfriend
+T4	Amount 121 126	2 ppd
+T5	Duration 127 138	x 45-50 yrs
+T6	Tobacco 116 119	tob
+T7	StatusTime 111 115	Past
+T8	Alcohol 145 151;152 156	social EtOH
+T10	StatusTime 162 166	quit
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T6 Status:T7 Amount:T4 Duration:T5
+E3	Alcohol:T8 Status:T10
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T7 past
+A5	StatusTimeVal T10 past

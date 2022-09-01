@@ -1,0 +1,15 @@
+T1	Tobacco 46 53	tobacco
+T2	StatusTime 56 60	quit
+T3	Amount 84 89	1pack
+T4	Frequency 90 98	per week
+T5	History 61 73	4 months ago
+T6	Alcohol 107 111	ETOH
+T7	StatusTime 100 106	Denies
+E1	Tobacco:T1 Status:T2 History:T5
+E2	Alcohol:T6 Status:T7
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T7 none
+T8	Tobacco 77 83	smoked
+E3	Tobacco:T8 Amount:T3 Frequency:T4 Status:T9
+T9	StatusTime 77 83	smoked
+A3	StatusTimeVal T9 past

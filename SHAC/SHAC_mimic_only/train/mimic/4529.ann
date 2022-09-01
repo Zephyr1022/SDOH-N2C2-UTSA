@@ -1,0 +1,13 @@
+T1	Tobacco 16 25	Ex-Smoker
+T2	StatusTime 16 25	Ex-Smoker
+T3	Drug 27 39	IV drug user
+T4	StatusTime 27 39	IV drug user
+T5	Method 27 34	IV drug
+T6	Alcohol 41 45	EtOH
+T7	StatusTime 41 45	EtOH
+E1	Tobacco:T1 Status:T2
+E2	Drug:T3 Status:T4 Method:T5
+E3	Alcohol:T6 Status:T7
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T7 current

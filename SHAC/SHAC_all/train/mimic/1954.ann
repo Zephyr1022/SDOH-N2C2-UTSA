@@ -1,0 +1,40 @@
+T1	Tobacco 26 32	smokes
+T2	StatusTime 26 32	smokes
+T3	Amount 33 54	[**12-6**] cigarettes
+T4	Frequency 55 62	per day
+T5	Amount 150 171	>40 pack-year history
+T6	StatusTime 133 143	previously
+T7	Duration 172 184	since age 16
+T8	Tobacco 150 171	>40 pack-year history
+T9	Drug 197 205	drug use
+T10	Type 189 196	illicit
+T11	LivingStatus 208 213	Lived
+T13	TypeLiving 214 236	in [**Location 3156**]
+T12	StatusTime 208 213	Lived
+T14	History 237 259	up until 1-2 years ago
+T15	LivingStatus 265 270	moved
+T16	StatusTime 265 270	moved
+T17	TypeLiving 277 290	with his wife
+T18	Employment 310 321	is disabled
+T19	StatusEmploy 310 321	is disabled
+T20	Alcohol 339 347	ETOH use
+T21	Frequency 348 350;351 359	on holidays
+T23	StatusTime 324 331	Reports
+T24	StatusTime 186 188	no
+E1	Tobacco:T1 Status:T2 Amount:T3 Frequency:T4 Type:T22
+E2	Tobacco:T8 Amount:T5 Duration:T7 Status:T6
+E3	Drug:T9 Type:T10 Status:T24
+E4	LivingStatus:T11 Status:T12 History:T14 Type:T13
+E5	LivingStatus:T15 Status:T16 Type:T17
+E6	Employment:T18 Status:T19
+E7	Alcohol:T20 Frequency:T21 Status:T23
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 past
+A4	TypeLivingVal T13 alone
+A3	StatusTimeVal T12 past
+A5	StatusTimeVal T16 current
+A6	TypeLivingVal T17 with_family
+A7	StatusEmployVal T19 on_disability
+A9	StatusTimeVal T23 current
+A10	StatusTimeVal T24 none
+T22	Type 44 54	cigarettes

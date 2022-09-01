@@ -1,0 +1,24 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	none
+T3	Alcohol 29 40	Alcohol Use
+T4	StatusTime 42 46	quit
+T5	History 47 57	15 yrs ago
+T6	Drug 60 68	Drug Use
+T7	StatusTime 70 74	none
+T8	LivingStatus 112 117	Lives
+T9	StatusTime 112 117	Lives
+T10	TypeLiving 118 127	with wife
+T11	Employment 151 168	Previously worked
+T12	StatusEmploy 151 168	Previously worked
+T13	Type 172 179	farming
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4 History:T5
+E3	Drug:T6 Status:T7
+E4	LivingStatus:T8 Status:T9 Type:T10
+E5	Employment:T11 Status:T12 Type:T13
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T10 with_family
+A6	StatusEmployVal T12 unemployed

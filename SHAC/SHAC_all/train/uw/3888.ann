@@ -1,0 +1,27 @@
+T1	Tobacco 9 16	Tobacco
+T2	StatusTime 18 39	No recent tobacco use
+T3	StatusTime 41 46	Prior
+T4	Amount 47 75	30 pack year smoking history
+T5	Tobacco 60 75	smoking history
+T6	Alcohol 76 80	ETOH
+T7	StatusTime 82 91	no recent
+T8	Duration 118 127	x15 years
+T9	Drug 128 136	Illicits
+T11	StatusTime 138 147	No recent
+T10	Method 148 152	IVDU
+T12	Type 175 190	methamphetamine
+T13	TypeLiving 219 227	homeless
+T14	StatusTime 209 218	Currently
+T15	LivingStatus 219 227	homeless
+E1	Tobacco:T1 Status:T2
+E2	Tobacco:T5 Amount:T4 Status:T3
+E3	Alcohol:T6 Status:T7 Duration:T8
+E4	Drug:T9 Status:T11 Method:T10 Type:T12 Method2:T16
+E5	LivingStatus:T15 Type:T13 Status:T14
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T3 past
+A3	StatusTimeVal T7 past
+A4	StatusTimeVal T11 past
+A5	TypeLivingVal T13 homeless
+A6	StatusTimeVal T14 current
+T16	Method 165 169	IVDU

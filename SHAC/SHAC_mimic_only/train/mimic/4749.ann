@@ -1,0 +1,20 @@
+T1	LivingStatus 16 21	lives
+T2	StatusTime 16 21	lives
+T3	TypeLiving 22 27	alone
+T4	Employment 74 79	works
+T5	StatusEmploy 74 79	works
+T6	Type 83 105	a part-time headhunter
+T7	Alcohol 48 52	ETOH
+T9	StatusTime 37 56	occasional ETOH use
+T10	Tobacco 64 73	cigar use
+T11	Type 64 69	cigar
+T12	StatusTime 57 63	remote
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Employment:T4 Type:T6 Status:T5
+E3	Alcohol:T7 Status:T9
+E4	Tobacco:T10 Status:T12 Type:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 alone
+A3	StatusEmployVal T5 employed
+A5	StatusTimeVal T9 current
+A6	StatusTimeVal T12 past

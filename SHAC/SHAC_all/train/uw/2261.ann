@@ -1,0 +1,33 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 32	5-6 cigars
+T3	Type 26 32	cigars
+T4	Frequency 33 40	per day
+T5	Duration 41 54	past 15 years
+T6	StatusTime 22 54	5-6 cigars per day past 15 years
+T7	Alcohol 58 69	Alcohol Use
+T8	Amount 88 95	4, 25oz
+T9	Type 96 122	8.1% Hurricane Malt Liquor
+T10	Frequency 130 138	each day
+T11	StatusTime 81 87	drinks
+T12	Drug 141 149	Drug Use
+T13	Type 154 193	heroin, no cocaine, no methamphetamines
+T14	StatusTime 151 153	No
+T15	Employment 258 265	working
+T16	Type 274 285	the kitchen
+T17	StatusEmploy 258 265	working
+T18	Alcohol 318 322	beer
+T19	Type 318 322	beer
+T20	Tobacco 327 344	cigarettes/cigars
+T21	Type 327 344	cigarettes/cigars
+T22	StatusTime 303 313	panhandles
+E1	Tobacco:T1 Amount:T2 Type:T3 Frequency:T4 Duration:T5 Status:T6
+E2	Alcohol:T7 Amount:T8 Type:T9 Frequency:T10 Status:T11
+E3	Drug:T12 Status:T14 Type:T13
+E4	Employment:T15 Type:T16 Status:T17
+E5	Alcohol:T18 Type:T19 Status:T22
+E6	Tobacco:T20 Type:T21 Status:T22
+A1	StatusTimeVal T6 current
+A2	StatusTimeVal T11 current
+A3	StatusTimeVal T14 none
+A4	StatusEmployVal T17 employed
+A5	StatusTimeVal T22 current

@@ -1,0 +1,5 @@
+T1	Employment 71 76	works
+T2	StatusEmploy 71 76	works
+T3	Type 80 88	a lawyer
+E1	Employment:T1 Status:T2 Type:T3
+A1	StatusEmployVal T2 employed

@@ -1,0 +1,22 @@
+T1	Tobacco 66 77	Tobacco Use
+T2	StatusTime 79 92	none reported
+T3	Alcohol 94 105	Alcohol Use
+T4	StatusTime 107 126	reported history of
+T6	Drug 135 143	Drug Use
+T7	StatusTime 145 158	none reported
+T8	Employment 261 268	retired
+T9	StatusEmploy 261 268	retired
+T10	LivingStatus 378 382	live
+T11	TypeLiving 383 396	independently
+T12	StatusTime 378 382	live
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T6 Status:T7
+E4	Employment:T8 Status:T9
+E5	LivingStatus:T10 Type:T11 Status:T12
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 current
+A4	StatusTimeVal T7 none
+A5	StatusEmployVal T9 retired
+A6	TypeLivingVal T11 alone
+A7	StatusTimeVal T12 current

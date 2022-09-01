@@ -1,0 +1,27 @@
+T1	LivingStatus 18 35	Currently staying
+T2	StatusTime 18 35	Currently staying
+T3	TypeLiving 36 41	in RV
+T4	Tobacco 55 58	Tob
+T5	Amount 60 67	1/2 ppd
+T6	Duration 68 78	x 10 years
+T7	StatusTime 60 78	1/2 ppd x 10 years
+T8	Alcohol 81 85	ETOH
+T9	StatusTime 87 91	none
+T10	Drug 93 98	Drugs
+T11	Type 107 111	meth
+T12	StatusTime 100 106	Smokes
+T13	Method 100 106	Smokes
+T14	Drug 144 164	Occasional marijuana
+T15	StatusTime 144 164	Occasional marijuana
+T17	Type 155 164	marijuana
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Amount:T5 Status:T7 Duration:T6
+E3	Alcohol:T8 Status:T9
+E4	Drug:T10 Method:T13 Status:T12 Type:T11
+E5	Drug:T14 Status:T15 Type:T17
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T7 current
+A4	StatusTimeVal T9 none
+A5	StatusTimeVal T12 current
+A6	StatusTimeVal T15 current

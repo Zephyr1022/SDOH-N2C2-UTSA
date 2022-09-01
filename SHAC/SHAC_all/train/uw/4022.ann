@@ -1,0 +1,14 @@
+T1	Employment 56 65	caregiver
+T2	StatusEmploy 46 65	Full time caregiver
+T3	Tobacco 75 82	tobacco
+T4	StatusTime 68 74	Smokes
+T5	Alcohol 92 99	alcohol
+T6	Drug 103 108	drugs
+T7	StatusTime 85 91	Denies
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+E3	Alcohol:T5 Status:T7
+E4	Drug:T6 Status:T7
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T7 none

@@ -1,0 +1,23 @@
+T1	Alcohol 281 285	ETOH
+T2	Amount 287 296	< 1 drink
+T3	Frequency 296 301	/week
+T4	Tobacco 204 214	Cigarettes
+T5	Type 204 214	Cigarettes
+T6	StatusTime 223 225	no
+T7	Employment 143 153	Occupation
+T8	StatusEmploy 158 164	worked
+T9	Duration 165 177	for 40 years
+T10	Type 181 203	a construction foreman
+T11	LivingStatus 16 21	Lives
+T12	TypeLiving 22 36	with: daughter
+T13	StatusTime 16 21	Lives
+T14	StatusTime 287 301	< 1 drink/week
+E1	Alcohol:T1 Amount:T2 Frequency:T3 Status:T14
+E2	Tobacco:T4 Status:T6 Type:T5
+E3	Employment:T7 Status:T8 Duration:T9 Type:T10
+E4	LivingStatus:T11 Status:T13 Type:T12
+A1	StatusTimeVal T6 none
+A2	StatusEmployVal T8 unemployed
+A3	TypeLivingVal T12 with_family
+A4	StatusTimeVal T13 current
+A5	StatusTimeVal T14 current

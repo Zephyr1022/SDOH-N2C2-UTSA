@@ -1,0 +1,41 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 22 45	in [**Hospital3 4298**]
+T4	LivingStatus 278 283	Lives
+T5	StatusTime 278 283	Lives
+T6	TypeLiving 284 295	with friend
+T7	Employment 188 205	Used to live/work
+T8	StatusEmploy 188 205	Used to live/work
+T9	Type 206 215	on a farm
+T12	Type 257 266	road crew
+T10	Employment 217 220;221 226	now works
+T11	StatusEmploy 217 220;221 226	now works
+T21	History 86 102	[**2162-12-31**]
+T22	Amount 51 58	1.5 ppd
+T24	Alcohol 110 114	Etoh
+T25	History 115 126	>10 yrs ago
+T19	Duration 66 76	x 50 years
+T20	Tobacco 59 65	smoker
+T26	StatusTime 78 82	quit
+T27	StatusTime 115 126	>10 yrs ago
+T29	Alcohol 139 143	beer
+T30	StatusTime 131 134	now
+T31	Type 139 143	beer
+T32	Amount 135 143	one beer
+T33	Frequency 144 151	per day
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	LivingStatus:T4 Type:T6 Status:T5
+E3	Employment:T7 Type:T9 Status:T8
+E4	Employment:T10 Status:T11 Type:T12
+E8	Alcohol:T24 Status:T27 History:T25
+E7	Tobacco:T20 Status:T26 Amount:T22 Duration:T19 History:T21
+E9	Alcohol:T29 Type:T31 Status:T30 Amount:T32 Frequency:T33
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 with_others
+A5	StatusEmployVal T8 unemployed
+A6	StatusEmployVal T11 employed
+A11	StatusTimeVal T26 past
+A12	StatusTimeVal T27 past
+A14	StatusTimeVal T30 current

@@ -1,0 +1,19 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 30 35	alone
+T3	StatusTime 16 21	Lives
+T4	Alcohol 66 73	alcohol
+T5	Tobacco 75 82	tobacco
+T6	Drug 86 94	drug use
+T7	StatusTime 63 65	No
+T8	Employment 103 126	a retired social worker
+T9	StatusEmploy 103 126	a retired social worker
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Status:T7
+E3	Tobacco:T5 Status:T7
+E4	Drug:T6 Status:T7
+E5	Employment:T8 Status:T9 Type:T10
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T7 none
+A4	StatusEmployVal T9 retired
+T10	Type 103 126	a retired social worker

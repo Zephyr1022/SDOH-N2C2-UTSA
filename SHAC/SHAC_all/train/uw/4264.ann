@@ -1,0 +1,26 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 27	Never
+T3	Alcohol 28 39	Alcohol Use
+T5	History 143 155	one week ago
+T6	Amount 108 116	one pint
+T7	Type 120 125	vodka
+T8	Drug 188 196	Drug Use
+T9	StatusTime 198 203	Never
+T10	LivingStatus 257 266	Residence
+T11	TypeLiving 274 297	independently and alone
+T12	StatusTime 268 273	Lives
+T13	Employment 222 256	Administration head at NW Hospital
+T14	Type 222 256	Administration head at NW Hospital
+T15	StatusEmploy 222 256	Administration head at NW Hospital
+T16	StatusTime 41 51	History of
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 History:T5 Amount:T6 Type:T7 Status:T16
+E3	Drug:T8 Status:T9
+E4	LivingStatus:T10 Type:T11 Status:T12
+E5	Employment:T13 Type:T14 Status:T15
+A1	StatusTimeVal T2 none
+A3	StatusTimeVal T9 none
+A4	TypeLivingVal T11 alone
+A5	StatusTimeVal T12 current
+A6	StatusEmployVal T15 employed
+A7	StatusTimeVal T16 current

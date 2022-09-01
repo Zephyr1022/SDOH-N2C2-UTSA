@@ -1,0 +1,29 @@
+T1	Employment 28 39	a carpenter
+T2	StatusEmploy 28 39	a carpenter
+T3	Type 28 39	a carpenter
+T4	Amount 54 60	1 pack
+T5	Frequency 61 69	per week
+T6	Tobacco 41 52	Tobacco Use
+T7	Alcohol 71 82	Alcohol Use
+T8	Drug 131 139	Drug Use
+T9	StatusTime 114 130	one to 2 per day
+T10	StatusTime 54 69	1 pack per week
+T11	Amount 114 122	one to 2
+T12	Frequency 123 130	per day
+T13	StatusTime 84 86	Hx
+T15	StatusTime 141 157	Does not endorse
+E1	Employment:T1 Type:T3 Status:T2
+E2	Tobacco:T6 Amount:T4 Frequency:T5 Status:T10
+E3	Alcohol:T7 Status:T9 Amount:T11 Frequency:T12
+E4	Drug:T8 Status:T15
+E5	Alcohol:T7 Status:T13
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T9 current
+A3	StatusTimeVal T10 current
+A4	StatusTimeVal T13 past
+A6	StatusTimeVal T15 none
+T14	Drug 168 185	polysubstance use
+E6	Drug:T14 Status:T17 Type:T16
+T16	Type 223 250	meth, cannabinoids, opiates
+T17	StatusTime 203 222	recent U tox showed
+A5	StatusTimeVal T17 current

@@ -1,0 +1,15 @@
+T1	LivingStatus 25 30	lives
+T2	StatusTime 25 30	lives
+T3	TypeLiving 31 40	with wife
+T4	Alcohol 68 72	ETOH
+T5	StatusTime 42 50	no prior
+T6	Employment 74 80	Worked
+T7	Type 84 85;86 94	a salesman
+T8	StatusEmploy 74 80	Worked
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Alcohol:T4 Status:T5
+E3	Employment:T6 Status:T8 Type:T7
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 none
+A4	StatusEmployVal T8 unemployed

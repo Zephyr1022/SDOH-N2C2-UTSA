@@ -1,0 +1,10 @@
+T1	LivingStatus 48 53	lives
+T2	TypeLiving 33 47	grand-daughter
+T3	StatusTime 48 53	lives
+T4	Employment 121 132	a housewife
+T5	StatusEmploy 121 132	a housewife
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 homemaker

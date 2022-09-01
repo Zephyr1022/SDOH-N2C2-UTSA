@@ -1,0 +1,32 @@
+T1	StatusEmploy 216 229	on disability
+T2	Employment 143 149	Worked
+T3	Type 153 163	[LOCATION]
+T4	LivingStatus 276 282	living
+T5	StatusTime 276 282	living
+T6	TypeLiving 302 310	in a van
+T7	Drug 542 544	MJ
+T8	Type 542 544	MJ
+T9	Frequency 545 556	a few x/day
+T10	StatusTime 545 556	a few x/day
+T11	StatusTime 569 582	rarely drinks
+T12	Alcohol 583 590	alcohol
+T14	Drug 651 665	other illicits
+T15	Type 651 665	other illicits
+T16	StatusTime 637 647	Denies use
+T17	Drug 667 682	Stimulant abuse
+T18	Type 667 682	Stimulant abuse
+T19	StatusTime 667 682	Stimulant abuse
+E1	Employment:T2 Type:T3 Status:T1 Type2:T13
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Drug:T7 Type:T8 Frequency:T9 Status:T10
+E4	Alcohol:T12 Status:T11
+E5	Drug:T14 Type:T15 Status:T16
+E6	Drug:T17 Type:T18 Status:T19
+A1	StatusEmployVal T1 on_disability
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 homeless
+A4	StatusTimeVal T10 current
+A5	StatusTimeVal T11 current
+A7	StatusTimeVal T16 none
+A8	StatusTimeVal T19 current
+T13	Type 171 183	coffee shops

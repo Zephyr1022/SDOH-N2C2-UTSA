@@ -1,0 +1,23 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 26	None
+T3	Tobacco 48 59	tobacco use
+T4	StatusTime 37 44	History
+T5	Duration 60 66	[DATE]
+T6	Alcohol 69 80	Alcohol Use
+T7	StatusTime 82 86	None
+T8	Drug 98 106	Drug Use
+T9	StatusTime 108 112	None
+T10	LivingStatus 140 149	Residence
+T11	TypeLiving 157 169	with partner
+T12	StatusTime 151 156	Lives
+E1	Tobacco:T1 Status:T2
+E2	Tobacco:T3 Duration:T5 Status:T4
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Status:T9
+E5	LivingStatus:T10 Type:T11 Status:T12
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T7 none
+A4	StatusTimeVal T9 none
+A5	TypeLivingVal T11 with_family
+A6	StatusTimeVal T12 current

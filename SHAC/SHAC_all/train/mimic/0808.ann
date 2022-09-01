@@ -1,0 +1,18 @@
+T1	LivingStatus 29 34	lives
+T2	StatusTime 29 34	lives
+T3	TypeLiving 35 44	with wife
+T4	Tobacco 67 70;71 84	two packs per day
+T5	Amount 67 70;71 76	two packs
+T6	Frequency 77 84	per day
+T7	Duration 85 103	times twenty years
+T8	StatusTime 67 70;71 103	two packs per day times twenty years
+T9	Alcohol 106 113	Alcohol
+T10	Frequency 114 127;128 132	three times a week
+T11	StatusTime 114 127;128 132	three times a week
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T8 Amount:T5 Frequency:T6 Duration:T7
+E3	Alcohol:T9 Frequency:T10 Status:T11
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T8 current
+A4	StatusTimeVal T11 current

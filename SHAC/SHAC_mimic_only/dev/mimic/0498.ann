@@ -1,0 +1,12 @@
+T1	Tobacco 51 58	tobacco
+T3	StatusTime 29 39	denies any
+T2	Alcohol 62 73	alcohol use
+T4	LivingStatus 80 85	lives
+T5	TypeLiving 86 91	alone
+T6	StatusTime 80 85	lives
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T2 Status:T3
+E3	LivingStatus:T4 Status:T6 Type:T5
+A1	StatusTimeVal T3 none
+A2	TypeLivingVal T5 alone
+A3	StatusTimeVal T6 current

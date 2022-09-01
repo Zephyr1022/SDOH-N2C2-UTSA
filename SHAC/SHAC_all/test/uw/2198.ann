@@ -1,0 +1,12 @@
+T1	Drug 123 131	Drug use
+T2	StatusTime 134 140	Denies
+T3	Alcohol 101 112	Alcohol use
+T4	StatusTime 114 120	denies
+T8	StatusEmploy 62 70	Employed
+T9	Employment 49 59	Employment
+E1	Drug:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E4	Employment:T9 Status:T8
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T4 none
+A4	StatusEmployVal T8 employed

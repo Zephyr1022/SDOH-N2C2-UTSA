@@ -1,0 +1,18 @@
+T1	Tobacco 41 48	tobacco
+T2	Alcohol 52 59	alcohol
+T3	StatusTime 38 40	No
+T4	Drug 68 77	marijuana
+T5	StatusTime 61 67	Smokes
+T6	Method 61 67	Smokes
+T7	Type 68 77	marijuana
+T8	Frequency 78 85	monthly
+T9	Drug 90 94	IVDU
+T10	Method 90 94	IVDU
+T11	StatusTime 87 89	No
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T2 Status:T3
+E3	Drug:T4 Method:T6 Status:T5 Type:T7 Frequency:T8
+E4	Drug:T9 Status:T11 Method:T10
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T5 current
+A3	StatusTimeVal T11 none

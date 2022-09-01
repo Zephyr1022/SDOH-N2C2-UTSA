@@ -1,0 +1,20 @@
+T1	LivingStatus 28 33	Lives
+T2	TypeLiving 75 84	with wife
+T3	StatusTime 28 33	Lives
+T4	Employment 101 136	Retired elementary school principal
+T5	StatusEmploy 101 136	Retired elementary school principal
+T6	Type 101 136	Retired elementary school principal
+T7	Tobacco 139 146	Tobacco
+T8	StatusTime 148 152	Past
+T9	History 159 169	[**2059**]
+T10	Alcohol 172 179	Alcohol
+T11	StatusTime 181 187	Social
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Status:T8 History:T9
+E4	Alcohol:T10 Status:T11
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 retired
+A4	StatusTimeVal T8 past
+A5	StatusTimeVal T11 current

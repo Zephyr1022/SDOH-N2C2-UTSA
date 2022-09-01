@@ -1,0 +1,30 @@
+T1	Amount 389 406	8 Glasses of wine
+T2	Frequency 407 415	per week
+T3	Type 402 406	wine
+T4	Alcohol 402 406	wine
+T5	Tobacco 264 271	Smoking
+T6	StatusTime 280 286	Former
+T7	Amount 297 307	0.50 packs
+T8	Frequency 307 311	/day
+T9	Duration 312 324	for 10 years
+T10	Tobacco 339 346	tobacco
+T11	Method 329 338	Smokeless
+T12	StatusTime 348 358	Never Used
+T13	Alcohol 363 374	Alcohol Use
+T14	Amount 376 382	4.8 oz
+T15	Frequency 382 387	/week
+T16	Employment 144 164	Occupational History
+T17	StatusEmploy 169 185	buyer [LOCATION]
+T18	Type 169 185	buyer [LOCATION]
+T19	StatusTime 389 415	8 Glasses of wine per week
+T20	StatusTime 376 387	4.8 oz/week
+E1	Alcohol:T4 Frequency:T2 Type:T3 Amount:T1 Status:T19
+E2	Tobacco:T5 Status:T6 Amount:T7 Duration:T9 Frequency:T8
+E3	Tobacco:T10 Status:T12 Method:T11
+E4	Alcohol:T13 Amount:T14 Frequency:T15 Status:T20
+E5	Employment:T16 Status:T17 Type:T18
+A1	StatusTimeVal T6 past
+A2	StatusTimeVal T12 none
+A3	StatusEmployVal T17 employed
+A4	StatusTimeVal T19 current
+A5	StatusTimeVal T20 current

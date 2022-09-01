@@ -1,0 +1,17 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 40	with her daughter
+T4	Tobacco 135 142	tobacco
+T5	Alcohol 146 157	alcohol use
+T6	StatusTime 132 134	no
+T7	Employment 176 183	working
+T9	Type 187 198	a secretary
+T8	StatusEmploy 167 175;176 183	actively working
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T4 Status:T6
+E3	Alcohol:T5 Status:T6
+E4	Employment:T7 Type:T9 Status:T8
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T6 none
+A4	StatusEmployVal T8 employed

@@ -1,0 +1,13 @@
+T1	Tobacco 20 27	tobacco
+T2	StatusTime 17 19	No
+T3	StatusTime 29 31	no
+T4	Alcohol 32 39	alcohol
+T5	StatusTime 41 43	no
+T6	Drug 44 60;61 66	intravenous drug abuse
+T7	Method 44 55	intravenous
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T4 Status:T3
+E3	Drug:T6 Status:T5 Method:T7
+A1	StatusTimeVal T2 none
+A2	StatusTimeVal T3 none
+A3	StatusTimeVal T5 none

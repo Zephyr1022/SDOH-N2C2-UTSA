@@ -1,0 +1,23 @@
+T1	Employment 24 41	Previously worked
+T2	StatusEmploy 24 41	Previously worked
+T3	Type 45 50	a CNA
+T4	LivingStatus 54 70	Living situation
+T5	StatusTime 72 77	Lives
+T6	TypeLiving 78 83	alone
+T13	Tobacco 132 135	Tob
+T14	StatusTime 137 141	None
+T15	Alcohol 143 146	Alc
+T17	StatusTime 148 158	Occasional
+T18	Drug 160 165	Drugs
+T19	StatusTime 167 171	None
+E1	Employment:T1 Status:T2 Type:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E5	Tobacco:T13 Status:T14
+E6	Alcohol:T15 Status:T17
+E7	Drug:T18 Status:T19
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 alone
+A6	StatusTimeVal T14 none
+A8	StatusTimeVal T17 current
+A9	StatusTimeVal T19 none

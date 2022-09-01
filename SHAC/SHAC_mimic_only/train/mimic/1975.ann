@@ -1,0 +1,19 @@
+T1	Drug 276 284	Illicits
+T2	Alcohol 265 269	ETOH
+T3	StatusTime 271 275	None
+T4	StatusTime 286 290	None
+T5	Tobacco 215 222	Tobacco
+T6	StatusTime 224 228	Quit
+T7	History 229 243	many years ago
+T8	LivingStatus 43 51	resident
+T9	StatusTime 31 40	currently
+T10	TypeLiving 52 95	at [**Location (un) **] [**Hospital3 400**]
+E1	Drug:T1 Status:T4
+E2	Alcohol:T2 Status:T3
+E3	Tobacco:T5 Status:T6 History:T7
+E4	LivingStatus:T8 Status:T9 Type:T10
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T6 past
+A4	StatusTimeVal T9 current
+A5	TypeLivingVal T10 with_others

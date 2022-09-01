@@ -1,0 +1,25 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 22 28	Denies
+T3	Alcohol 31 42	Alcohol Use
+T5	StatusTime 44 48	Rare
+T6	Drug 50 58	Drug Use
+T7	Method 70 76	smoked
+T8	Type 77 79	MJ
+T9	StatusTime 80 91	in the past
+T10	Employment 214 220	worked
+T11	Type 224 235	an engineer
+T12	StatusEmploy 214 220	worked
+T13	LivingStatus 381 385	live
+T14	TypeLiving 386 397	with [NAME]
+T15	StatusTime 341 354	plans to move
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T5
+E3	Drug:T6 Method:T7 Type:T8 Status:T9
+E4	Employment:T10 Status:T12 Type:T11
+E5	LivingStatus:T13 Status:T15 Type:T14
+A1	StatusTimeVal T2 none
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T9 past
+A5	StatusEmployVal T12 unemployed
+A6	TypeLivingVal T14 with_family
+A7	StatusTimeVal T15 future

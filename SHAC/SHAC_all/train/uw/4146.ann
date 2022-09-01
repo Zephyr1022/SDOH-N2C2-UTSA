@@ -1,0 +1,38 @@
+T1	LivingStatus 28 33	lives
+T2	StatusTime 28 33	lives
+T3	TypeLiving 34 70	with friends between housing herself
+T4	Alcohol 79 83	EtOH
+T5	Drug 85 92	cocaine
+T6	Type 85 92	cocaine
+T7	Method 94 110	intranasa; smoke
+T8	StatusTime 71 78	Regular
+T10	Drug 120 124	IVDU
+T11	Method 120 124	IVDU
+T12	StatusTime 113 119	denies
+T13	LivingStatus 215 220	lives
+T14	TypeLiving 221 257	with friends between housing herself
+T15	StatusTime 215 220	lives
+T17	Alcohol 266 270	EtOH
+T18	Drug 272 279	cocaine
+T19	Type 272 279	cocaine
+T20	Method 281 297	intranasa; smoke
+T21	StatusTime 300 306	denies
+T22	Method 307 311	IVDU
+T23	Drug 307 311	IVDU
+T24	StatusTime 258 265	Regular
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T8
+E3	Drug:T5 Type:T6 Method:T7 Status:T8
+E4	Drug:T10 Status:T12 Method:T11
+E5	LivingStatus:T13 Status:T15 Type:T14
+E6	Alcohol:T17 Status:T24
+E7	Drug:T18 Type:T19 Status:T24 Method:T20
+E8	Drug:T23 Status:T21 Method:T22
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T8 current
+A5	StatusTimeVal T12 none
+A6	TypeLivingVal T14 homeless
+A7	StatusTimeVal T15 current
+A9	StatusTimeVal T21 none
+A10	StatusTimeVal T24 current

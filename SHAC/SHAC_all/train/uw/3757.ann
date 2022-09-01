@@ -1,0 +1,24 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 31 42	1 cigarette
+T3	Frequency 43 50	a month
+T4	Type 33 42	cigarette
+T5	StatusTime 31 50	1 cigarette a month
+T6	Alcohol 54 65	Alcohol Use
+T7	StatusTime 67 73	denies
+T8	Drug 76 84	Drug Use
+T9	StatusTime 86 92	denies
+T10	Employment 133 144	Not working
+T11	StatusEmploy 133 144	Not working
+T12	Employment 180 195	Formerly worked
+T13	StatusEmploy 180 195	Formerly worked
+T14	Type 199 206	roofing
+E1	Tobacco:T1 Type:T4 Amount:T2 Status:T5 Frequency:T3
+E2	Alcohol:T6 Status:T7
+E3	Drug:T8 Status:T9
+E4	Employment:T10 Status:T11
+E5	Employment:T12 Status:T13 Type:T14
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T7 none
+A3	StatusTimeVal T9 none
+A4	StatusEmployVal T11 unemployed
+A5	StatusEmployVal T13 unemployed

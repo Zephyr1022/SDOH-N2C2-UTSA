@@ -1,0 +1,14 @@
+T1	Alcohol 20 28	Etoh use
+T2	StatusTime 9 15	Remote
+T3	Tobacco 30 43	Former smoker
+T4	StatusTime 30 43	Former smoker
+T5	LivingStatus 72 77	lives
+T6	StatusTime 72 77	lives
+T7	TypeLiving 86 96	by herself
+E1	Alcohol:T1 Status:T2
+E2	Tobacco:T3 Status:T4
+E3	LivingStatus:T5 Status:T6 Type:T7
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T6 current
+A4	TypeLivingVal T7 alone

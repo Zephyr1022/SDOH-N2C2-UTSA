@@ -1,0 +1,23 @@
+T1	LivingStatus 16 21	Lives
+T2	StatusTime 16 21	Lives
+T3	TypeLiving 58 84	with wife and two children
+T4	Employment 86 91	Works
+T5	StatusEmploy 86 91	Works
+T6	Type 95 129	respiratory therapist at Mt Aubrun
+T7	Tobacco 214 221	smoking
+T8	Amount 196 209	25+ pack-year
+T9	StatusTime 223 227	quit
+T10	History 228 249	with cancer diagnosis
+T11	Alcohol 258 262	EtOH
+T12	Drug 264 269	drugs
+T13	StatusTime 251 257	Denies
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Tobacco:T7 Amount:T8 Status:T9 History:T10
+E4	Alcohol:T11 Status:T13
+E5	Drug:T12 Status:T13
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T13 none

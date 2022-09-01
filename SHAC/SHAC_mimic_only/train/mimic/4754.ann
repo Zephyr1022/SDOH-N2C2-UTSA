@@ -1,0 +1,19 @@
+T3	TypeLiving 114 130	at the DBT House
+T1	LivingStatus 107 113	living
+T2	StatusTime 103 113	Now living
+T4	Alcohol 41 45	EtOH
+T5	Drug 49 62	illicit drugs
+T6	StatusTime 16 22	Denies
+T7	Drug 87 100	marijuana use
+T8	Type 87 96	marijuana
+T9	StatusTime 74 77	h/o
+T10	Frequency 78 86	sporadic
+T11	Type 49 56	illicit
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T6
+E3	Drug:T5 Status:T6 Type:T11
+E4	Drug:T7 Type:T8 Frequency:T10 Status:T9
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 none
+A3	StatusTimeVal T9 current
+A4	TypeLivingVal T3 with_others

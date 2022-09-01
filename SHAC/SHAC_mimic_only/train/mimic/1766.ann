@@ -1,0 +1,21 @@
+T1	Employment 46 53	retired
+T2	StatusEmploy 46 53	retired
+T3	Tobacco 57 72	Tobacco history
+T4	StatusTime 92 99	current
+T5	Amount 101 109	0-3 cigs
+T6	Type 105 109	cigs
+T7	Frequency 109 113	/day
+T8	Duration 114 119;120 125	x ~50 years
+T9	Alcohol 128 132	ETOH
+T10	StatusTime 134 140	Denies
+T11	Drug 143 156	Illicit drugs
+T12	Type 143 150	Illicit
+T13	StatusTime 158 164	Denies
+E1	Employment:T1 Status:T2
+E2	Tobacco:T3 Status:T4 Amount:T5 Type:T6 Frequency:T7 Duration:T8
+E3	Alcohol:T9 Status:T10
+E4	Drug:T11 Type:T12 Status:T13
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T10 none
+A4	StatusTimeVal T13 none

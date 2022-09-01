@@ -1,0 +1,19 @@
+T1	Tobacco 17 24	tobacco
+T2	StatusTime 16 17	+
+T3	Amount 25 38	30 pack years
+T4	Drug 57 75	cocaine/heroin use
+T5	Type 57 71	cocaine/heroin
+T6	StatusTime 76 78;79 83	in past
+T7	Alcohol 86 96	etoh abuse
+T8	StatusTime 97 113	past and present
+T12	Employment 165 170	works
+T14	Type 174 197	carpenter and fisherman
+T13	StatusEmploy 165 170	works
+E1	Tobacco:T1 Status:T2 Amount:T3
+E2	Drug:T4 Type:T5 Status:T6
+E3	Alcohol:T7 Status:T8
+E5	Employment:T12 Type:T14 Status:T13
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T8 current
+A6	StatusEmployVal T13 employed

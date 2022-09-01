@@ -1,0 +1,5 @@
+T1	StatusTime 46 52	Denies
+T2	Drug 53 69	illicit drug use
+T3	Type 53 60	illicit
+E1	Drug:T2 Type:T3 Status:T1
+A1	StatusTimeVal T1 none

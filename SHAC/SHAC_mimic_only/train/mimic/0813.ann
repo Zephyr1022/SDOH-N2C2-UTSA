@@ -1,0 +1,17 @@
+T1	Tobacco 116 119	TOB
+T2	Drug 123 131	illicits
+T3	Type 123 131	illicits
+T4	StatusTime 109 111	No
+T5	Alcohol 133 139;140 144	social ETOH
+T6	StatusTime 145 152	in past
+T7	LivingStatus 154 159	Lives
+T8	StatusTime 154 159	Lives
+T9	TypeLiving 160 165	alone
+E1	Tobacco:T1 Status:T4
+E2	Drug:T2 Type:T3 Status:T4
+E3	Alcohol:T5 Status:T6
+E4	LivingStatus:T7 Status:T8 Type:T9
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T6 past
+A3	StatusTimeVal T8 current
+A4	TypeLivingVal T9 alone

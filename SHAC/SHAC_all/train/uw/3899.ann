@@ -1,0 +1,20 @@
+T1	LivingStatus 170 179	Residence
+T2	TypeLiving 187 201	with boyfriend
+T3	StatusTime 181 186	lives
+T4	Drug 89 97	Drug Use
+T5	StatusTime 99 105	denies
+T6	Alcohol 67 78	Alcohol Use
+T7	StatusTime 80 86	denies
+T8	Tobacco 9 20	Tobacco Use
+T9	Duration 22 36	2 years [DATE]
+T10	Amount 52 65	1/2 pack year
+T11	StatusTime 22 36	2 years [DATE]
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Drug:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Tobacco:T8 Duration:T9 Status:T11 Amount:T10
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T11 past

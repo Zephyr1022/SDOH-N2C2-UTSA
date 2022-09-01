@@ -1,0 +1,22 @@
+T1	LivingStatus 23 32	an inmate
+T2	TypeLiving 33 66	at [**Location (un) 912**] Prison
+T3	StatusTime 20 22	is
+T4	Tobacco 72 80;81 87	formerly smoked
+T5	StatusTime 72 80	formerly
+T6	Amount 88 96	one pack
+T7	Type 100 110	cigarettes
+T8	Frequency 111 118	per day
+T9	Alcohol 131 142	alcohol use
+T10	StatusTime 124 130	denied
+T11	Drug 216 227	cocaine use
+T12	Type 216 223	cocaine
+T14	StatusTime 235 239	past
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5 Amount:T6 Type:T7 Frequency:T8
+E3	Alcohol:T9 Status:T10
+E4	Drug:T11 Type:T12 Status:T14
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 past
+A4	StatusTimeVal T10 none
+A5	StatusTimeVal T14 past

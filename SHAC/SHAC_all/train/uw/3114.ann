@@ -1,0 +1,19 @@
+T1	Tobacco 43 46	Tob
+T3	StatusTime 74 88	no smoking now
+T4	Alcohol 92 96	EtOH
+T5	StatusTime 98 116	Denies current use
+T6	Drug 120 128	Illicits
+T7	Type 120 128	Illicits
+T8	StatusTime 130 136	Denies
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Type:T7 Status:T8
+A2	StatusTimeVal T3 past
+A3	StatusTimeVal T5 none
+A4	StatusTimeVal T8 none
+T2	LivingStatus 13 23	moved into
+E4	LivingStatus:T2 Status:T10 Type:T9
+T9	TypeLiving 24 39	assisted living
+A1	TypeLivingVal T9 with_others
+T10	StatusTime 8 12	Just
+A5	StatusTimeVal T10 current

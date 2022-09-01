@@ -1,0 +1,11 @@
+T1	Employment 59 88	Retired family care physician
+T2	StatusEmploy 59 88	Retired family care physician
+T3	Type 59 88	Retired family care physician
+T4	LivingStatus 17 22	Lives
+T5	StatusTime 17 22	Lives
+T6	TypeLiving 37 50	with his wife
+E1	Employment:T1 Type:T3 Status:T2
+E2	LivingStatus:T4 Status:T5 Type:T6
+A1	StatusEmployVal T2 retired
+A2	StatusTimeVal T5 current
+A3	TypeLivingVal T6 with_family

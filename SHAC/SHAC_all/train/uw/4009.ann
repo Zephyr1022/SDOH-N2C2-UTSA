@@ -1,0 +1,21 @@
+T1	LivingStatus 17 24	Staying
+T2	StatusTime 17 24	Staying
+T3	TypeLiving 25 40	at a DV shelter
+T4	Drug 50 58	meth use
+T5	StatusTime 41 49	Endorses
+T6	Method 60 66	smoked
+T7	Type 50 54	meth
+T10	Method 79 81	IV
+T11	Tobacco 95 102	tobacco
+T12	StatusTime 88 94	smokes
+T13	Alcohol 107 122	recent ETOH use
+T14	StatusTime 104 106	No
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Drug:T4 Type:T7 Status:T5 Method:T6 Method2:T10
+E4	Tobacco:T11 Status:T12
+E5	Alcohol:T13 Status:T14
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T5 current
+A5	StatusTimeVal T12 current
+A6	StatusTimeVal T14 none

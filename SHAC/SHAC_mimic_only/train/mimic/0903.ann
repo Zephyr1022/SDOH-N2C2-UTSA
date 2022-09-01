@@ -1,0 +1,19 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 34	with sisters
+T3	StatusTime 16 21	Lives
+T4	Tobacco 132 133	t
+T5	Alcohol 134 135	e
+T6	Drug 136 137	d
+T7	StatusTime 125 131	Denies
+T10	Employment 216 221	Works
+T11	Type 222 242	in day care facility
+T12	StatusEmploy 216 221	Works
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T7
+E3	Alcohol:T5 Status:T7
+E4	Drug:T6 Status:T7
+E6	Employment:T10 Status:T12 Type:T11
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T7 none
+A4	StatusEmployVal T12 employed

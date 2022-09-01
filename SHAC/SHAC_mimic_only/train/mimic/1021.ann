@@ -1,0 +1,34 @@
+T1	LivingStatus 29 34	lives
+T2	StatusTime 29 34	lives
+T3	TypeLiving 35 48	with his wife
+T4	Tobacco 93 109	One pack per day
+T5	StatusTime 93 109	One pack per day
+T6	Amount 93 101	One pack
+T7	Frequency 102 109	per day
+T8	Duration 110 115;116 126	times four years
+T9	Alcohol 140 163	prior heavy alcohol use
+T10	StatusTime 140 163	prior heavy alcohol use
+T12	Alcohol 168 174	drinks
+T13	StatusTime 168 174	drinks
+T14	Amount 165 174	12 drinks
+T15	Frequency 175 183	per week
+T16	Duration 184 201	for the past year
+T17	Drug 215 234;235 238	heavy cocaine/crack use
+T19	StatusTime 241 258	Denied recent use
+T20	Type 221 234	cocaine/crack
+T21	Employment 276 286	a mechanic
+T22	StatusEmploy 276 286	a mechanic
+T23	Type 276 286	a mechanic
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5 Amount:T6 Frequency:T7 Duration:T8
+E3	Alcohol:T9 Status:T10
+E4	Alcohol:T12 Status:T13 Amount:T14 Frequency:T15 Duration:T16
+E5	Drug:T17 Status:T19 Type:T20
+E6	Employment:T21 Type:T23 Status:T22
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T5 current
+A4	StatusTimeVal T10 past
+A6	StatusTimeVal T13 current
+A8	StatusTimeVal T19 past
+A9	StatusEmployVal T22 employed

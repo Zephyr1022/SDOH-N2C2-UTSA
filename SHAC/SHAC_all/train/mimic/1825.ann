@@ -1,0 +1,31 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 27	alone
+T3	StatusTime 16 21	Lives
+T4	Employment 142 158	the marine corps
+T5	StatusEmploy 135 138	Was
+T6	Duration 159 164;165 170	for 8 years
+T7	Employment 238 244	Worked
+T8	Type 248 282	insurance and at department stores
+T9	StatusEmploy 238 244	Worked
+T10	Employment 294 301	retired
+T11	StatusEmploy 294 301	retired
+T12	Duration 302 310;311 319	for over 20 years
+T13	Tobacco 321 328	Tobacco
+T14	Amount 330 346	>40 pack history
+T15	StatusTime 348 352	quit
+T16	History 353 366	in [**2181**]
+T17	Alcohol 367 374	Alcohol
+T18	StatusTime 376 380	none
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5 Duration:T6
+E3	Employment:T7 Type:T8 Status:T9
+E4	Employment:T10 Status:T11 Duration:T12
+E5	Tobacco:T13 Amount:T14 Status:T15 History:T16
+E6	Alcohol:T17 Status:T18
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed
+A4	StatusEmployVal T9 unemployed
+A5	StatusEmployVal T11 retired
+A6	StatusTimeVal T15 past
+A7	StatusTimeVal T18 none

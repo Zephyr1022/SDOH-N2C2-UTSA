@@ -1,0 +1,21 @@
+T1	Alcohol 106 119	alcohol abuse
+T2	StatusTime 145 167	occasional current use
+T4	StatusTime 95 102	history
+T6	Tobacco 16 26	Non-smoker
+T7	StatusTime 16 26	Non-smoker
+T8	Drug 31 42	IV drug use
+T9	Method 31 33	IV
+T10	StatusTime 28 30	no
+T11	Drug 70 79;80 83	marijuana use
+T12	Type 70 79	marijuana
+T13	StatusTime 59 66	history
+E1	Alcohol:T1 Status:T2
+E2	Alcohol:T1 Status:T4
+E3	Tobacco:T6 Status:T7
+E4	Drug:T8 Status:T10 Method:T9
+E5	Drug:T11 Type:T12 Status:T13
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 past
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T10 none
+A6	StatusTimeVal T13 current

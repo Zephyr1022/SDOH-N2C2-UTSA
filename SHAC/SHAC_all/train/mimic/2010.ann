@@ -1,0 +1,21 @@
+T1	LivingStatus 20 25	lives
+T2	StatusTime 20 25	lives
+T3	TypeLiving 34 47	with his wife
+T4	Alcohol 115 137	occasional alcohol use
+T6	StatusTime 115 137	occasional alcohol use
+T7	Employment 70 71;72 105	a retired [**Hospital Ward Name **]
+T8	StatusEmploy 70 71;72 105	a retired [**Hospital Ward Name **]
+T9	Type 80 105	[**Hospital Ward Name **]
+T10	Tobacco 140 147;148 155	Tobacco history
+T11	Amount 159 167	one pack
+T12	Frequency 168 176	per week
+T13	StatusTime 159 176	one pack per week
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Alcohol:T4 Status:T6
+E3	Employment:T7 Status:T8 Type:T9
+E4	Tobacco:T10 Amount:T11 Status:T13 Frequency:T12
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A4	StatusTimeVal T6 current
+A5	StatusEmployVal T8 retired
+A6	StatusTimeVal T13 current

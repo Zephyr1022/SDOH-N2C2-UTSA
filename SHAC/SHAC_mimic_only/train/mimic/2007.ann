@@ -1,0 +1,20 @@
+T1	LivingStatus 52 57	lived
+T2	TypeLiving 58 67	with wife
+T3	StatusTime 25 36	in the past
+T4	LivingStatus 69 79	now living
+T5	StatusTime 69 79	now living
+T6	TypeLiving 80 93	in group home
+T7	Employment 117 137	Currently unemployed
+T8	StatusEmploy 117 137	Currently unemployed
+T9	Tobacco 142 149	tobacco
+T10	StatusTime 139 141	No
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	LivingStatus:T4 Status:T5 Type:T6
+E3	Employment:T7 Status:T8
+E4	Tobacco:T9 Status:T10
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 past
+A3	StatusTimeVal T5 current
+A4	TypeLivingVal T6 with_others
+A5	StatusEmployVal T8 unemployed
+A6	StatusTimeVal T10 none

@@ -1,0 +1,17 @@
+T1	Tobacco 55 62	tobacco
+T2	StatusTime 50 54	wuit
+T3	History 63 73	[**3-11**]
+T4	Amount 75 80	3 ppd
+T5	Duration 81 91	x 35 years
+T6	Alcohol 94 101	drinks/
+T7	Amount 92 101	3 drinks/
+T8	Frequency 94 106	drinks/ week
+T9	StatusTime 92 106	3 drinks/ week
+E1	Tobacco:T1 Status:T2 History:T3 Amount:T4 Duration:T5
+E2	Alcohol:T6 Amount:T7 Status:T9 Frequency:T8
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T9 current
+T10	Employment 16 24	disabled
+E3	Employment:T10 Status:T11
+T11	StatusEmploy 16 24	disabled
+A3	StatusEmployVal T11 on_disability

@@ -1,0 +1,20 @@
+T1	LivingStatus 90 95	lives
+T2	TypeLiving 96 104	with dad
+T3	StatusTime 90 95	lives
+T4	Employment 119 125	worked
+T5	Type 126 139	a cook/server
+T6	StatusEmploy 119 125	worked
+T7	Tobacco 226 229	tob
+T8	Alcohol 231 235	etoh
+T9	Drug 237 245	illicits
+T10	Type 237 245	illicits
+T11	StatusTime 223 225	no
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Type:T5 Status:T6
+E3	Tobacco:T7 Status:T11
+E4	Alcohol:T8 Status:T11
+E5	Drug:T9 Type:T10 Status:T11
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T6 unemployed
+A4	StatusTimeVal T11 none

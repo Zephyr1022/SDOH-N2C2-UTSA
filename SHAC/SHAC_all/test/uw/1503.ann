@@ -1,0 +1,15 @@
+T1	Tobacco 24 31	smoking
+T2	Type 32 42	cigarettes
+T3	StatusTime 17 23	Denies
+T4	LivingStatus 56 68	Homelessness
+T5	TypeLiving 56 68	Homelessness
+T6	StatusTime 56 68	Homelessness
+T7	Alcohol 85 92	alcohol
+T8	StatusTime 69 84	Denies drinking
+E1	Tobacco:T1 Status:T3 Type:T2
+E2	LivingStatus:T4 Status:T6 Type:T5
+E3	Alcohol:T7 Status:T8
+A1	StatusTimeVal T3 none
+A2	TypeLivingVal T5 homeless
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T8 none

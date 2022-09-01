@@ -1,0 +1,27 @@
+T1	LivingStatus 17 25	Homeless
+T2	TypeLiving 17 25	Homeless
+T3	Tobacco 69 75	Smoked
+T4	StatusTime 69 75	Smoked
+T5	Amount 76 80	1ppd
+T6	Duration 81 94	for 10+ years
+T7	Alcohol 114 127	alcohol abuse
+T8	StatusTime 96 110	Remote history
+T10	History 145 157	for 25 years
+T11	Drug 166 174	drug use
+T12	StatusTime 159 165	Denies
+T13	StatusTime 17 25	Homeless
+T14	LivingStatus 31 48	currently staying
+T15	StatusTime 31 40	currently
+T16	TypeLiving 49 67	in Compass housing
+E1	LivingStatus:T1 Type:T2 Status:T13
+E2	Tobacco:T3 Status:T4 Amount:T5 Duration:T6
+E3	Alcohol:T7 Status:T8 History:T10
+E4	Drug:T11 Status:T12
+E5	LivingStatus:T14 Status:T15 Type:T16
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T4 past
+A3	StatusTimeVal T8 past
+A5	StatusTimeVal T12 none
+A6	StatusTimeVal T13 current
+A7	StatusTimeVal T15 current
+A8	TypeLivingVal T16 with_others

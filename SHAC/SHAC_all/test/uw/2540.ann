@@ -1,0 +1,18 @@
+T1	Tobacco 47 54	tobacco
+T2	Alcohol 59 63	EtOH
+T3	Drug 68 79	other drugs
+T4	StatusTime 44 46	No
+T5	StatusTime 56 58	no
+T6	StatusTime 65 67	no
+T7	LivingStatus 146 151	Lives
+T8	StatusTime 146 151	Lives
+T9	TypeLiving 168 178	by herself
+E1	Tobacco:T1 Status:T4
+E2	Alcohol:T2 Status:T5
+E3	Drug:T3 Status:T6
+E4	LivingStatus:T7 Status:T8 Type:T9
+A1	StatusTimeVal T4 none
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T6 none
+A4	StatusTimeVal T8 current
+A5	TypeLivingVal T9 alone

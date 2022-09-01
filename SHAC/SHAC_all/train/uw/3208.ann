@@ -1,0 +1,20 @@
+T1	Tobacco 9 16	Tobacco
+T2	Amount 18 32	5-6 cigarettes
+T3	Type 22 32	cigarettes
+T4	Frequency 32 36	/day
+T5	StatusTime 18 36	5-6 cigarettes/day
+T6	Alcohol 37 44	Alcohol
+T7	Amount 46 55	2-3 beers
+T8	Frequency 56 63	per day
+T9	Type 50 55	beers
+T10	StatusTime 46 63	2-3 beers per day
+T11	Drug 85 90	Drugs
+T12	StatusTime 92 103	distant h/o
+T13	Type 104 117	crack cocaine
+E1	Tobacco:T1 Amount:T2 Status:T5 Type:T3 Frequency:T4
+E2	Alcohol:T6 Amount:T7 Status:T10 Type:T9 Frequency:T8 Amount2:T14
+E3	Drug:T11 Status:T12 Type:T13
+A1	StatusTimeVal T5 current
+A2	StatusTimeVal T10 current
+A3	StatusTimeVal T12 past
+T14	Amount 75 84	up to 6-8

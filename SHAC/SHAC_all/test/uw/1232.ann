@@ -1,0 +1,18 @@
+T1	Tobacco 130 136	smokes
+T2	Amount 137 149	2 cigarettes
+T3	StatusTime 130 136	smokes
+T4	Type 139 149	cigarettes
+T5	Frequency 150 157	per day
+T6	LivingStatus 159 164	Lives
+T7	StatusTime 159 164	Lives
+T8	TypeLiving 165 199	with her husband and two daughters
+T9	Drug 208 229	illicit substance use
+T10	Type 208 215	illicit
+T11	StatusTime 201 207	Denies
+E1	Tobacco:T1 Status:T3 Amount:T2 Type:T4 Frequency:T5
+E2	LivingStatus:T6 Status:T7 Type:T8
+E3	Drug:T9 Type:T10 Status:T11
+A1	StatusTimeVal T3 current
+A2	StatusTimeVal T7 current
+A3	TypeLivingVal T8 with_family
+A4	StatusTimeVal T11 none

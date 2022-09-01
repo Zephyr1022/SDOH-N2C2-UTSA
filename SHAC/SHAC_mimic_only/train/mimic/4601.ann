@@ -1,0 +1,27 @@
+T1	LivingStatus 26 32	living
+T2	TypeLiving 36 69	a men's transitional housing unit
+T3	StatusTime 26 32	living
+T4	Employment 78 82	work
+T5	StatusEmploy 71 77;78 82	Out of work
+T6	Duration 83 100	for several years
+T7	Tobacco 119 125	Smokes
+T8	StatusTime 119 125	Smokes
+T9	Amount 126 139	[**1-2**] ppd
+T10	Duration 140 146;147 152	for 25 years
+T11	Alcohol 168 172	EtOH
+T12	StatusTime 154 160	Former
+T14	History 182 191	years ago
+T15	Drug 208 212	IVDA
+T16	Method 208 212	IVDA
+T17	StatusTime 201 207	remote
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5 Duration:T6
+E3	Tobacco:T7 Status:T8 Amount:T9 Duration:T10
+E4	Alcohol:T11 Status:T12 History:T14
+E5	Drug:T15 Method:T16 Status:T17
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 unemployed
+A4	StatusTimeVal T8 current
+A5	StatusTimeVal T12 past
+A7	StatusTimeVal T17 past

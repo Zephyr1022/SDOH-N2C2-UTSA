@@ -1,0 +1,23 @@
+T1	Employment 16 20	work
+T2	StatusEmploy 16 20	work
+T3	Type 24 45	[PROFESSION] mechanic
+T4	Tobacco 68 75	smoking
+T5	StatusTime 61 67	denies
+T6	Alcohol 86 93	alcohol
+T7	Drug 104 113	marijuana
+T8	Type 104 113	marijuana
+T9	Alcohol 119 130	remote EtOH
+T10	StatusTime 119 130	remote EtOH
+T11	Drug 136 147	Cocaine use
+T12	Type 136 143	Cocaine
+T13	StatusTime 119 125	remote
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+E3	Alcohol:T6 Status:T5
+E4	Drug:T7 Type:T8 Status:T5
+E5	Alcohol:T9 Status:T10
+E6	Drug:T11 Type:T12 Status:T13
+A1	StatusEmployVal T2 employed
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T10 past
+A4	StatusTimeVal T13 past

@@ -1,0 +1,12 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 31 43	with her son
+T4	Amount 44 50	1 pack
+T5	Frequency 51 58	per day
+T6	Tobacco 59 70	tobacco use
+T7	StatusTime 44 58	1 pack per day
+E1	LivingStatus:T1 Type:T3 Status:T2
+E2	Tobacco:T6 Frequency:T5 Status:T7 Amount:T4
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusTimeVal T7 current

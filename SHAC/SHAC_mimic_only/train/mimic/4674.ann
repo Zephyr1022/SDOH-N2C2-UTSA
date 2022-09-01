@@ -1,0 +1,44 @@
+T1	Employment 28 33	works
+T2	Type 37 52	a house painter
+T3	StatusEmploy 28 33	works
+T4	LivingStatus 115 120	lives
+T5	TypeLiving 142 150;151 161	with his girlfriend
+T6	StatusTime 115 120	lives
+T10	Tobacco 244 251	tobacco
+T11	Amount 229 237	one pack
+T12	Frequency 238 243	a day
+T13	Duration 252 255;256 264	for 20 years
+T14	Duration 318 327;328 340	for about three months
+T15	StatusTime 269 273	quit
+T16	Tobacco 274 281	tobacco
+T17	History 308 317	last year
+T18	Tobacco 372 379	smoking
+T19	StatusTime 364 371	resumed
+T20	Alcohol 398 404	drinks
+T21	Amount 405 429	about [**3-15**] glasses
+T22	StatusTime 398 404	drinks
+T23	Type 433 452	beer or hard liquor
+T24	Frequency 453 462	per night
+T25	Alcohol 504 515	alcohol use
+T26	StatusTime 479 499	hesitant to cut down
+T27	Drug 591 598	cocaine
+T28	Type 591 598	cocaine
+T29	StatusTime 579 590	used to use
+T33	StatusTime 222 228	smoked
+E1	Employment:T1 Type:T2 Status:T3
+E2	LivingStatus:T4 Type:T5 Status:T6
+E4	Tobacco:T10 Amount:T11 Frequency:T12 Duration:T13 Status:T33
+E5	Tobacco:T16 Status:T15 Duration:T14 History:T17
+E6	Tobacco:T18 Status:T19
+E7	Alcohol:T20 Amount:T21 Status:T22 Type:T23 Frequency:T24
+E8	Alcohol:T25 Status:T26
+E9	Drug:T27 Type:T28 Status:T29
+A1	StatusEmployVal T3 employed
+A2	TypeLivingVal T5 with_others
+A3	StatusTimeVal T6 current
+A6	StatusTimeVal T15 past
+A7	StatusTimeVal T19 current
+A8	StatusTimeVal T22 current
+A9	StatusTimeVal T26 current
+A10	StatusTimeVal T29 past
+A12	StatusTimeVal T33 past

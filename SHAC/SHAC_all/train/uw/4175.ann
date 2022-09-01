@@ -1,0 +1,37 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	StatusTime 66 70	quit
+T3	History 71 84	two weeks ago
+T4	Duration 22 29	26 year
+T5	Amount 34 48	1-2 cigarettes
+T6	Type 38 48	cigarettes
+T7	Alcohol 85 96	Alcohol Use
+T8	Amount 98 108	1-2 drinks
+T9	Frequency 109 118	per month
+T10	StatusTime 98 118	1-2 drinks per month
+T11	Drug 119 127	Drug Use
+T12	Method 137 144	smoking
+T13	Type 145 149	meth
+T14	StatusTime 150 170	one time 3 years ago
+T15	History 150 170	one time 3 years ago
+T16	Drug 179 210	any other recreational drug use
+T17	StatusTime 172 178	denies
+T18	Type 179 201	any other recreational
+T21	LivingStatus 343 348	lives
+T22	StatusTime 343 348	lives
+T23	TypeLiving 349 365	with his husband
+T24	Employment 374 396	a cook at a restaurant
+T25	StatusEmploy 374 396	a cook at a restaurant
+T26	Type 374 396	a cook at a restaurant
+E1	Tobacco:T1 Duration:T4 Amount:T5 Type:T6 Status:T2 History:T3
+E2	Alcohol:T7 Amount:T8 Status:T10 Frequency:T9
+E3	Drug:T11 Method:T12 Type:T13 Status:T14 History:T15
+E4	Drug:T16 Type:T18 Status:T17
+E6	LivingStatus:T21 Status:T22 Type:T23
+E7	Employment:T24 Status:T25 Type:T26
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T10 current
+A3	StatusTimeVal T14 past
+A4	StatusTimeVal T17 none
+A5	StatusTimeVal T22 current
+A6	TypeLivingVal T23 with_family
+A7	StatusEmployVal T25 employed

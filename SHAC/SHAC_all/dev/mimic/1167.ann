@@ -1,0 +1,19 @@
+T1	LivingStatus 120 125	lives
+T2	TypeLiving 126 139	with his wife
+T3	StatusTime 120 125	lives
+T4	Alcohol 90 96	drinks
+T6	StatusTime 90 96	drinks
+T7	Employment 65 84	a retired carpenter
+T8	StatusEmploy 65 84	a retired carpenter
+T9	Type 65 84	a retired carpenter
+T10	Tobacco 42 57	tobacco history
+T11	StatusTime 35 41	remote
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Alcohol:T4 Status:T6
+E3	Employment:T7 Status:T8 Type:T9
+E4	Tobacco:T10 Status:T11
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A4	StatusTimeVal T6 current
+A5	StatusEmployVal T8 retired
+A6	StatusTimeVal T11 past

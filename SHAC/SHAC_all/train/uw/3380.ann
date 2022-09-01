@@ -1,0 +1,34 @@
+T1	LivingStatus 53 69	Living situation
+T2	TypeLiving 78 89	with others
+T3	StatusTime 72 77	Lives
+T4	Tobacco 92 103	Tobacco use
+T5	StatusTime 106 110	Quit
+T6	History 111 129	about 6 months ago
+T7	Alcohol 142 149	drinker
+T9	StatusTime 131 149	Occasional drinker
+T10	Drug 159 167	drug use
+T11	StatusTime 152 158	denies
+T12	Alcohol 170 181	Alcohol use
+T13	Type 183 187	beer
+T15	StatusTime 189 212	occasional beer/alcohol
+T16	Drug 215 223	Drug use
+T17	StatusTime 226 232	Denies
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Tobacco:T4 Status:T5 History:T6
+E3	Alcohol:T7 Status:T9
+E4	Drug:T10 Status:T11
+E5	Alcohol:T12 Type:T13 Status:T15
+E6	Drug:T16 Status:T17
+A1	TypeLivingVal T2 with_others
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T5 past
+A5	StatusTimeVal T9 current
+A6	StatusTimeVal T11 none
+A8	StatusTimeVal T15 current
+A9	StatusTimeVal T17 none
+T8	LivingStatus 17 26	Residence
+E7	LivingStatus:T8 Type:T21 Status:T14
+T14	StatusTime 29 50	DESC Crisis Solutions
+A4	StatusTimeVal T14 current
+T21	TypeLiving 29 50	DESC Crisis Solutions
+A7	TypeLivingVal T21 homeless

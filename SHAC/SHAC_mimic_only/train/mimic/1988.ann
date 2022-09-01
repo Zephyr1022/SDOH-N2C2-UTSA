@@ -1,0 +1,15 @@
+T1	LivingStatus 32 40	resident
+T2	StatusTime 21 40	has been a resident
+T3	TypeLiving 41 74	at the [**Hospital3 14109**] Home
+T4	Duration 75 100	for the past three months
+T5	StatusTime 112 122;123 125	no history of
+T6	Drug 126 130	drug
+T7	Alcohol 132 139	alcohol
+T8	Tobacco 144 155	tobacco use
+E1	LivingStatus:T1 Type:T3 Status:T2 Duration:T4
+E2	Drug:T6 Status:T5
+E3	Alcohol:T7 Status:T5
+E4	Tobacco:T8 Status:T5
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T5 none

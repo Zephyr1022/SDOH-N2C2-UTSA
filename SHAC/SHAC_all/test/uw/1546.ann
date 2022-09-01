@@ -1,0 +1,14 @@
+T1	LivingStatus 17 25	Homeless
+T2	TypeLiving 17 25	Homeless
+T3	StatusTime 17 25	Homeless
+T4	Drug 46 56	heroin use
+T5	Type 46 52	heroin
+T6	Method 43 45	IV
+T7	StatusTime 27 42	endorses active
+T8	Amount 58 70	about 1 dime
+T9	Frequency 71 78	per day
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Drug:T4 Type:T5 Status:T7 Amount:T8 Frequency:T9 Method:T6
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T7 current

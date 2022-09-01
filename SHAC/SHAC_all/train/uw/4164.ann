@@ -1,0 +1,38 @@
+T1	LivingStatus 37 45	Homeless
+T2	TypeLiving 37 45	Homeless
+T3	StatusTime 37 45	Homeless
+T4	LivingStatus 65 70	lived
+T5	TypeLiving 71 94	with parents or sibling
+T6	StatusTime 95 106	in the past
+T7	Employment 160 166	worked
+T8	Type 170 187	office/accounting
+T9	StatusEmploy 189 209	currently unemployed
+T10	Tobacco 276 279	TOB
+T11	Amount 298 303	3 cig
+T12	Frequency 303 307	/day
+T13	Type 300 303	cig
+T14	StatusTime 298 307	3 cig/day
+T15	Alcohol 309 313	EtOH
+T17	StatusTime 315 325	occasional
+T18	Drug 333 335	MJ
+T19	Type 333 335	MJ
+T20	StatusTime 333 335	MJ
+T21	Drug 344 348	IVDU
+T22	Method 344 348	IVDU
+T23	StatusTime 337 343	denies
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	LivingStatus:T4 Type:T5 Status:T6
+E3	Employment:T7 Status:T9 Type:T8
+E4	Tobacco:T10 Type:T13 Amount:T11 Frequency:T12 Status:T14
+E5	Alcohol:T15 Status:T17
+E6	Drug:T18 Status:T20 Type:T19
+E7	Drug:T21 Status:T23 Method:T22
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	TypeLivingVal T5 with_family
+A4	StatusTimeVal T6 past
+A5	StatusEmployVal T9 unemployed
+A6	StatusTimeVal T14 current
+A8	StatusTimeVal T17 current
+A9	StatusTimeVal T20 current
+A10	StatusTimeVal T23 none

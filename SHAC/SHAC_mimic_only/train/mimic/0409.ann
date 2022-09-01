@@ -1,0 +1,14 @@
+T1	Tobacco 18 33	Tobacco history
+T2	StatusTime 35 49	Current Smoker
+T3	Amount 55 70;71 81	greater than 40 pack-years
+T4	Alcohol 84 88	ETOH
+T5	StatusTime 90 106	No alcohol abuse
+T6	Drug 109 122	Illicit drugs
+T7	StatusTime 124 145	No illicit drug abuse
+T8	Type 109 116	Illicit
+E1	Tobacco:T1 Status:T2 Amount:T3
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Type:T8 Status:T7
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T7 none

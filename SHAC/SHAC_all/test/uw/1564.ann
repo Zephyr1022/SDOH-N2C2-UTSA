@@ -1,0 +1,13 @@
+T1	Tobacco 16 23	Tobacco
+T2	StatusTime 25 39	Current smoker
+T3	Alcohol 40 47	Alcohol
+T4	StatusTime 49 55	Denies
+T5	Drug 56 79	Street or Illicit Drugs
+T6	Type 56 73	Street or Illicit
+T7	StatusTime 81 87	Denies
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Type:T6 Status:T7
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 none
+A3	StatusTimeVal T7 none

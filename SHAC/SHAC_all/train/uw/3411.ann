@@ -1,0 +1,16 @@
+T1	LivingStatus 27 35	homeless
+T2	TypeLiving 27 35	homeless
+T3	StatusTime 27 35	homeless
+T4	Tobacco 43 53	cigarettes
+T5	Type 43 53	cigarettes
+T6	StatusTime 36 42	Denies
+T7	Alcohol 55 59	EtOH
+T8	Drug 60 68	Meth use
+T9	Type 60 64	Meth
+E1	LivingStatus:T1 Status:T3 Type:T2
+E2	Tobacco:T4 Type:T5 Status:T6
+E3	Alcohol:T7 Status:T6
+E4	Drug:T8 Type:T9 Status:T6
+A1	TypeLivingVal T2 homeless
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T6 none

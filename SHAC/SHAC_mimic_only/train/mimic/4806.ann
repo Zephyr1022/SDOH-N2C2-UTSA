@@ -1,0 +1,24 @@
+T1	Employment 20 26	worked
+T2	StatusEmploy 20 26	worked
+T3	Type 53 73	computer programming
+T4	Tobacco 85 96	tobacco use
+T5	StatusTime 78 84	denies
+T6	Drug 107 116	marijuana
+T7	Type 107 116	marijuana
+T8	StatusTime 117 128	in the past
+T9	Drug 141 152	IV drug use
+T10	Method 141 143	IV
+T11	StatusTime 134 140	denies
+T12	Alcohol 162 180	occasional alcohol
+T14	StatusTime 189 193;194 213	none since his diagnosis
+T15	History 194 213	since his diagnosis
+E1	Employment:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T5
+E3	Drug:T6 Type:T7 Status:T8
+E4	Drug:T9 Status:T11 Method:T10
+E5	Alcohol:T12 History:T15 Status:T14
+A1	StatusEmployVal T2 unemployed
+A2	StatusTimeVal T5 none
+A3	StatusTimeVal T8 past
+A4	StatusTimeVal T11 none
+A6	StatusTimeVal T14 past

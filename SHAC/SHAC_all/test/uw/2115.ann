@@ -1,0 +1,16 @@
+T1	LivingStatus 17 22	Lives
+T2	StatusTime 17 22	Lives
+T3	TypeLiving 23 35	with partner
+T4	Tobacco 46 53	tobacco
+T5	Alcohol 55 59	etoh
+T6	Drug 65 82	crack cocaine use
+T7	Type 65 78	crack cocaine
+T8	StatusTime 37 45	Endorses
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Tobacco:T4 Status:T8
+E3	Alcohol:T5 Status:T8
+E4	Drug:T6 Type:T7 Status:T8 History:T9
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_others
+A3	StatusTimeVal T8 current
+T9	History 98 114	since last visit

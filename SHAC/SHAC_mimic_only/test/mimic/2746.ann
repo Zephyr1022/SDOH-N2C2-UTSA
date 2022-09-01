@@ -1,0 +1,24 @@
+T1	LivingStatus 19 24	lives
+T2	TypeLiving 25 38	with his wife
+T3	StatusTime 19 24	lives
+T4	Employment 55 62	retired
+T5	StatusEmploy 55 62	retired
+T6	Employment 72 78	worked
+T7	Type 82 103	a computer technician
+T8	StatusEmploy 72 78	worked
+T9	Tobacco 111 118	smoking
+T10	StatusTime 106 110	Quit
+T11	History 119 130	1 month ago
+T12	Alcohol 138 149	alcohol use
+T14	StatusTime 133 137	Rare
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Employment:T6 Status:T8 Type:T7
+E4	Tobacco:T9 Status:T10 History:T11
+E5	Alcohol:T12 Status:T14
+A1	TypeLivingVal T2 with_family
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 retired
+A4	StatusEmployVal T8 unemployed
+A5	StatusTimeVal T10 past
+A7	StatusTimeVal T14 current

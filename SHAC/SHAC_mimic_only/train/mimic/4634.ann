@@ -1,0 +1,22 @@
+T1	LivingStatus 16 21	Lives
+T2	TypeLiving 22 27	alone
+T3	StatusTime 16 21	Lives
+T4	Employment 61 77	military service
+T5	StatusEmploy 61 77	military service
+T6	Alcohol 120 128	ETOH use
+T7	StatusTime 109 119	no current
+T8	Drug 132 148	Illicit drug use
+T9	Type 132 139	Illicit
+T10	Drug 168 179	IV drug use
+T11	Method 168 170	IV
+T12	StatusTime 156 167	distant h/o
+E1	LivingStatus:T1 Type:T2 Status:T3
+E2	Employment:T4 Status:T5
+E3	Alcohol:T6 Status:T7
+E4	Drug:T8 Type:T9 Status:T7
+E5	Drug:T10 Method:T11 Status:T12
+A1	TypeLivingVal T2 alone
+A2	StatusTimeVal T3 current
+A3	StatusEmployVal T5 employed
+A4	StatusTimeVal T7 none
+A5	StatusTimeVal T12 past

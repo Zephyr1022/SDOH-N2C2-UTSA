@@ -1,0 +1,20 @@
+T1	Tobacco 18 25	Tobacco
+T3	StatusTime 28 33	heavy
+T4	Alcohol 93 100	Alcohol
+T5	Amount 102 130	1pint of vodka and 4-5 beers
+T6	Frequency 131 138	nightly
+T7	StatusTime 139 149	last drank
+T8	History 150 154;155 158	2 mo ago
+T9	Drug 161 169	Illicits
+T10	Method 175 179	ivdu
+T11	Type 181 187	heroin
+T12	StatusTime 190 199	last used
+T13	History 213 222	2 yrs ago
+E1	Tobacco:T1 Status:T3
+E2	Alcohol:T4 Amount:T5 Frequency:T6 Status:T7 History:T8 Type:T2 Type2:T14
+E3	Drug:T9 Method:T10 History:T13 Status:T12 Type:T11
+A2	StatusTimeVal T3 current
+A3	StatusTimeVal T7 past
+A4	StatusTimeVal T12 past
+T2	Type 111 116	vodka
+T14	Type 125 130	beers

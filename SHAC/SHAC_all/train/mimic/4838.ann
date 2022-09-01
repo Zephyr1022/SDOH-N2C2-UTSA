@@ -1,0 +1,33 @@
+T1	LivingStatus 24 29	lives
+T2	StatusTime 24 29	lives
+T3	TypeLiving 30 54	with her husband and son
+T4	Employment 64 73;74 84	currently unemployed
+T5	StatusEmploy 64 73;74 84	currently unemployed
+T6	Type 110 128;129 138	a drug and alcohol counselor
+T7	Drug 178 193	substance abuse
+T9	StatusTime 300 305	clean
+T10	History 306 318;319 326	for the last 5 years
+T11	Drug 402 429	IVDU or intranasal drug use
+T12	Method 402 406	IVDU
+T14	Method 410 420	intranasal
+T15	StatusTime 380 386	denies
+T16	Alcohol 453 464	alcohol use
+T17	StatusTime 435 452	denies any recent
+T18	Tobacco 471 477	smokes
+T19	StatusTime 471 477	smokes
+T20	Amount 485 501	[**12-15**] pack
+T21	Frequency 502 509	per day
+T22	Duration 510 520	x 20 years
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Employment:T4 Status:T5 Type:T6
+E3	Drug:T7 Status:T9 History:T10
+E4	Drug:T11 Status:T15 Method:T12 Method2:T14
+E6	Alcohol:T16 Status:T17
+E7	Tobacco:T18 Status:T19 Amount:T20 Frequency:T21 Duration:T22
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 with_family
+A3	StatusEmployVal T5 unemployed
+A5	StatusTimeVal T9 past
+A6	StatusTimeVal T15 none
+A7	StatusTimeVal T17 past
+A8	StatusTimeVal T19 current

@@ -1,0 +1,18 @@
+T1	Tobacco 25 28	tob
+T2	StatusTime 24 28	+tob
+T3	Alcohol 30 34	etoh
+T4	StatusTime 30 34	etoh
+T5	Drug 36 50	former cocaine
+T6	StatusTime 36 50	former cocaine
+T7	Type 43 50	cocaine
+T8	Employment 5 18	former marine
+T9	StatusEmploy 5 18	former marine
+T10	Type 5 18	former marine
+E1	Tobacco:T1 Status:T2
+E2	Alcohol:T3 Status:T4
+E3	Drug:T5 Status:T6 Type:T7
+E4	Employment:T8 Status:T9 Type:T10
+A1	StatusTimeVal T2 current
+A2	StatusTimeVal T4 current
+A3	StatusTimeVal T6 past
+A4	StatusEmployVal T9 unemployed

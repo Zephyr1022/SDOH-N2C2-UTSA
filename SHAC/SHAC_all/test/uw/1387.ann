@@ -1,0 +1,21 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Alcohol 44 55	Alcohol Use
+T3	StatusTime 57 63	Denies
+T4	Amount 22 29	1/2 PPD
+T5	Duration 30 42	for 40 years
+T6	LivingStatus 81 86	Lives
+T7	StatusTime 81 86	Lives
+T8	TypeLiving 87 92	alone
+T9	Employment 105 111	worked
+T10	StatusEmploy 94 111	Previously worked
+T11	Type 115 125	a waitress
+T12	StatusTime 22 42	1/2 PPD for 40 years
+E1	Tobacco:T1 Amount:T4 Duration:T5 Status:T12
+E2	Alcohol:T2 Status:T3
+E3	LivingStatus:T6 Type:T8 Status:T7
+E4	Employment:T9 Type:T11 Status:T10
+A1	StatusTimeVal T3 none
+A2	StatusTimeVal T7 current
+A3	TypeLivingVal T8 alone
+A4	StatusEmployVal T10 unemployed
+A5	StatusTimeVal T12 current

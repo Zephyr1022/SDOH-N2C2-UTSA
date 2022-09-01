@@ -1,0 +1,18 @@
+T1	Alcohol 155 159	EtOh
+T2	StatusTime 152 170	No EtOh since 2015
+T3	History 160 170	since 2015
+T4	Alcohol 130 134	EtOh
+T5	StatusTime 124 129	Hx of
+T6	Drug 139 150	cocaine use
+T7	Type 139 146	cocaine
+T8	LivingStatus 64 69	Lives
+T9	StatusTime 64 69	Lives
+T10	TypeLiving 79 98	with brother in law
+E1	Alcohol:T1 History:T3 Status:T2
+E2	Alcohol:T4 Status:T5
+E3	Drug:T6 Type:T7 Status:T5
+E4	LivingStatus:T8 Type:T10 Status:T9
+A1	StatusTimeVal T2 past
+A2	StatusTimeVal T5 past
+A3	StatusTimeVal T9 current
+A4	TypeLivingVal T10 with_family

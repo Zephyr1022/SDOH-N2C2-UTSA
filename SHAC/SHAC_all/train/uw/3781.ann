@@ -1,0 +1,30 @@
+T1	Tobacco 9 20	Tobacco Use
+T2	Amount 22 29	1/2 PPD
+T3	Duration 30 40	x 10 years
+T4	StatusTime 22 40	1/2 PPD x 10 years
+T5	Alcohol 43 54	Alcohol Use
+T6	StatusTime 84 106	past heavy alcohol use
+T8	Drug 109 117	Drug Use
+T9	Method 119 121	IV
+T10	Type 122 128	heroin
+T11	StatusTime 129 168	most recently 3 days prior to admission
+T12	Amount 190 192	1g
+T13	Frequency 193 204	over 1 week
+T14	LivingStatus 271 280	Residence
+T15	TypeLiving 282 293	with mother
+T16	StatusTime 271 280	Residence
+E1	Tobacco:T1 Amount:T2 Status:T4 Duration:T3
+E2	Alcohol:T5 Status:T6
+E3	Drug:T8 Method:T9 Type:T10 Status:T11 Amount:T12 Frequency:T13
+E4	LivingStatus:T14 Status:T16 Type:T15
+A1	StatusTimeVal T4 current
+A2	StatusTimeVal T6 past
+A4	StatusTimeVal T11 current
+A5	TypeLivingVal T15 with_family
+A6	StatusTimeVal T16 past
+T7	LivingStatus 319 323	jail
+E5	LivingStatus:T7 Type:T18 Status:T17
+T17	StatusTime 309 318	currently
+A3	StatusTimeVal T17 current
+T18	TypeLiving 319 323	jail
+A7	TypeLivingVal T18 with_others

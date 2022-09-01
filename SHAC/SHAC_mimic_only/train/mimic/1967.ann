@@ -1,0 +1,33 @@
+T3	LivingStatus 134 139	lives
+T4	StatusTime 134 139	lives
+T5	TypeLiving 140 144;145 161	with her two children
+T6	Employment 186 196	unemployed
+T7	StatusEmploy 186 196	unemployed
+T8	Drug 209 214	crack
+T9	Type 209 214	crack
+T10	Method 202 208	smokes
+T11	StatusTime 202 208	smokes
+T12	Amount 215 219	1-2x
+T13	Frequency 219 224	/week
+T14	Drug 319 328	marijuana
+T15	Type 319 328;329 335	marijuana blunts
+T16	Amount 315 328;329 335	0-2 marijuana blunts
+T17	Frequency 336 344	each day
+T18	Method 308 314	smokes
+T19	StatusTime 308 314	smokes
+T20	Alcohol 365 376	alcohol use
+T22	Amount 378 401	[**12-11**] pint malibu
+T23	Frequency 402 413	every month
+T24	StatusTime 350 353	has
+E2	LivingStatus:T3 Type:T5 Status:T4
+E3	Employment:T6 Status:T7
+E4	Drug:T8 Method:T10 Type:T9 Amount:T12 Frequency:T13 Status:T11
+E5	Drug:T14 Method:T18 Status:T19 Amount:T16 Type:T15 Frequency:T17
+E6	Alcohol:T20 Amount:T22 Frequency:T23 Status:T24 Type:T1
+A2	StatusTimeVal T4 current
+A3	TypeLivingVal T5 with_family
+A4	StatusEmployVal T7 unemployed
+A5	StatusTimeVal T11 current
+A6	StatusTimeVal T19 current
+A8	StatusTimeVal T24 current
+T1	Type 395 401	malibu

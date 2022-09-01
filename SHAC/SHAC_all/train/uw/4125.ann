@@ -1,0 +1,25 @@
+T1	LivingStatus 24 29	lives
+T2	StatusTime 24 29	lives
+T3	TypeLiving 30 52	at the woman's shelter
+T4	Drug 75 95	intravenous drug use
+T5	Method 75 86	intravenous
+T6	StatusTime 64 74	history of
+T7	Drug 160 168	illicits
+T8	Type 160 168	illicits
+T9	StatusTime 145 159	Denies current
+T10	Alcohol 172 183	alcohol use
+T11	Tobacco 185 191	Smokes
+T12	StatusTime 185 191	Smokes
+T13	Amount 192 206	5-6 cigarettes
+T14	Type 196 206	cigarettes
+T15	Frequency 207 212	a day
+E1	LivingStatus:T1 Status:T2 Type:T3
+E2	Drug:T4 Method:T5 Status:T6
+E3	Drug:T7 Type:T8 Status:T9
+E4	Alcohol:T10 Status:T9
+E5	Tobacco:T11 Status:T12 Type:T14 Amount:T13 Frequency:T15
+A1	StatusTimeVal T2 current
+A2	TypeLivingVal T3 homeless
+A3	StatusTimeVal T6 current
+A4	StatusTimeVal T9 past
+A5	StatusTimeVal T12 current
