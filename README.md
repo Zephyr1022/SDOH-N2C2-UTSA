@@ -27,17 +27,17 @@ Run `./scripts/preprocessing_train.sh`
 We get the data under a directory with such setup:
 
 ```
+# Description:
+#  trigger                          argument
+#  1-tag      triggers_tag   |      1-together         NER_ALL
+#  2-notag    triggers       |      2-seperate         NER
+
 Annotation
 └── triggers_tag
 	├── train
 	│   └── ann + txt -> conll -> combined 
  	├── dev
         └── test
-
-# Description:
-#  trigger                          argument
-#  1-tag      triggers_tag   |      1-together         NER_ALL
-#  2-notag    triggers       |      2-seperate         NER
 
 ```
 
