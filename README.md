@@ -34,7 +34,14 @@ Annotation
  	├── dev
         └── test
 
+# Description:
+#  trigger                          argument
+#  1-tag      triggers_tag   |      1-together         NER_ALL
+#  2-notag    triggers       |      2-seperate         NER
+
 ```
+
+
 
 
 
