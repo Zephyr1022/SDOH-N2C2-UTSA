@@ -1,6 +1,0 @@
-HABITS: 
-Patient was unable to provide this information due to somnolence.
-
-SOCIAL HISTORY: 
-Homeless
-Patient was unable to provide additional information due to somnolence.

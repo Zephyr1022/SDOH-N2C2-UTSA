@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: 47 pack year history (quit this fall).  Alcohol Use: Stopped drinking [DATE]   Drug Use: occasional marijuana. 
-
-SOCIAL HISTORY: 
-Currently living in Kindred Hospital First Hill residence, previously lived alone (aside form many cats) in [LOCATION], [LOCATION] . Son, [NAME] primary contact: [CONTACT].

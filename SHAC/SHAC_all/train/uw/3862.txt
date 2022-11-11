@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: former smoker, quit recently   Alcohol Use: reports 1-2 drinks/day on average   Drug Use: denies recent use 
-
-SOCIAL HISTORY: 
-Moved to [LOCATION] about 1.5 years ago. Previously lived in [LOCATION], where he worked as a street entertainer by the name of [NAME] the [LOCATION] [LOCATION]. His wife passed away from liver failure at Swedish Cherry Hill a couple of months ago and he has been grieving her loss. His son [NAME] lives in [LOCATION].

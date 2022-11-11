@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: Never   
-Alcohol Use: h/o heavy use, sober since 2009
-Drug Use: h/o IV heroin, cocaine use, quit in [DATE]
-
-SOCIAL HISTORY: 
-Recently moved to [LOCATION] from [LOCATION]. Broke up with his girlfriend and has had some problems with his daughter recently, which has negatively impacted his mood and sleep. He has been staying with his ex-wife intermittently, but she occasionally kicks him out. Currently has no place to live. Looking for a job and starting college in the summer semester. Used to work in construction and at [PROFESSION].

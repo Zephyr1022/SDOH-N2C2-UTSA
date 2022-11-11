@@ -1,5 +1,0 @@
-T1	Drug 25 37	IV drug user
-T2	StatusTime 16 24	Previous
-T3	Method 25 27	IV
-E1	Drug:T1 Status:T2 Method:T3
-A1	StatusTimeVal T2 past

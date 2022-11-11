@@ -1,5 +1,0 @@
-T1	Drug 16 28	Opiate abuse
-T3	StatusTime 16 28	Opiate abuse
-T4	Type 16 22	Opiate
-E1	Drug:T1 Type:T4 Status:T3
-A2	StatusTimeVal T3 current

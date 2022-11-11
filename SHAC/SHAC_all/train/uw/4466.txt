@@ -1,5 +1,0 @@
-HABITS: 
-Lives in the [LOCATION]. Studying biochemistry at [LOCATION] but is currently taking the quarter off for her health issues.  Plans to go to Med School in the future.  She is from [LOCATION] where her dad still lives.
-
-SOCIAL HISTORY: 
-Strong family history of adult onset diabetes, including her brother who was diagnosed at age 20

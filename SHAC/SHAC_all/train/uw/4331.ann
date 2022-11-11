@@ -1,9 +1,0 @@
-T1	Tobacco 555 569	Smoking status
-T2	StatusTime 571 583	Never Smoker
-T3	Tobacco 588 605	Smokeless tobacco
-T4	Method 588 597	Smokeless
-T5	StatusTime 607 619	Current User
-E1	Tobacco:T1 Status:T2
-E2	Tobacco:T3 Method:T4 Status:T5
-A1	StatusTimeVal T2 none
-A2	StatusTimeVal T5 current

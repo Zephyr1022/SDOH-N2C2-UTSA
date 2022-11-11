@@ -1,6 +1,0 @@
-T1	LivingStatus 16 21	lives
-T2	TypeLiving 30 46	with a caregiver
-T3	StatusTime 16 21	lives
-E1	LivingStatus:T1 Type:T2 Status:T3
-A1	TypeLivingVal T2 with_others
-A2	StatusTimeVal T3 current

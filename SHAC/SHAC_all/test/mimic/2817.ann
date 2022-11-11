@@ -1,8 +1,0 @@
-T1	Tobacco 23 29	smoker
-T2	Alcohol 30 41	non drinker
-T3	StatusTime 30 41	non drinker
-T4	StatusTime 16 22	remote
-E1	Tobacco:T1 Status:T4
-E2	Alcohol:T2 Status:T3
-A1	StatusTimeVal T3 none
-A2	StatusTimeVal T4 past

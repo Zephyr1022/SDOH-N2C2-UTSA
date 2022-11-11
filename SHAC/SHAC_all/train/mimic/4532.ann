@@ -1,6 +1,0 @@
-T1	LivingStatus 79 83	live
-T2	StatusTime 79 83	live
-T3	TypeLiving 84 102	with their parents
-E1	LivingStatus:T1 Status:T2 Type:T3
-A1	StatusTimeVal T2 current
-A2	TypeLivingVal T3 with_family

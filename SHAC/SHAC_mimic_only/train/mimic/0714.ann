@@ -1,9 +1,0 @@
-T1	Tobacco 17 24	Tobacco
-T2	Amount 25 39	four pack year
-T3	StatusTime 25 47	four pack year history
-T4	Alcohol 57 61;62 69	ETOH history
-T5	StatusTime 50 56	Denies
-E1	Tobacco:T1 Status:T3 Amount:T2
-E2	Alcohol:T4 Status:T5
-A1	StatusTimeVal T3 current
-A2	StatusTimeVal T5 none

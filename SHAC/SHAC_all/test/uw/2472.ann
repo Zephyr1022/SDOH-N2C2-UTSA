@@ -1,6 +1,0 @@
-T3	LivingStatus 21 26	lives
-E1	LivingStatus:T3 Status:T4 Type:T5
-T4	StatusTime 21 26	lives
-A1	StatusTimeVal T4 current
-T5	TypeLiving 30 39	Park West
-A2	TypeLivingVal T5 with_others

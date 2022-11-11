@@ -1,6 +1,0 @@
-T1	Drug 24 40	crack and heroin
-T2	Method 17 23	Smokes
-T3	Type 24 40	crack and heroin
-T4	StatusTime 17 40	Smokes crack and heroin
-E1	Drug:T1 Type:T3 Status:T4 Method:T2
-A1	StatusTimeVal T4 current

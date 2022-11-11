@@ -1,6 +1,0 @@
-T1	Tobacco 67 74	tobacco
-T2	Alcohol 78 82	EtOH
-T3	StatusTime 64 66	No
-E1	Tobacco:T1 Status:T3
-E2	Alcohol:T2 Status:T3
-A1	StatusTimeVal T3 none

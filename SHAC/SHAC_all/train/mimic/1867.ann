@@ -1,5 +1,0 @@
-T1	Employment 20 35	formerly worked
-T2	Type 39 51	construction
-T3	StatusEmploy 20 35	formerly worked
-E1	Employment:T1 Type:T2 Status:T3
-A1	StatusEmployVal T3 unemployed

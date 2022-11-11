@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use:5 cigarettes/day 
-Alcohol use: Denies 
-Drug use: Denies 
-
-SOCIAL HISTORY: 
-Lives in [LOCATION] with her niece

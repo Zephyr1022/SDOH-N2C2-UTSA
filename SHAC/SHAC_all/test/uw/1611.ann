@@ -1,7 +1,0 @@
-T1	Tobacco 4 11	tobacco
-T2	Drug 16 25	marijuana
-T3	StatusTime 26 29	use
-T4	Type 16 25	marijuana
-E1	Tobacco:T1 Status:T3
-E2	Drug:T2 Status:T3 Type:T4
-A1	StatusTimeVal T3 current

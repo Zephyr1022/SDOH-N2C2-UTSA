@@ -1,5 +1,0 @@
-T1	Tobacco 51 58	smoking
-T3	StatusTime 21 24	has
-T2	Amount 25 47	a 15 pack year history
-E1	Tobacco:T1 Amount:T2 Status:T3
-A1	StatusTimeVal T3 current

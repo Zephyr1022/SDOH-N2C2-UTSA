@@ -1,8 +1,0 @@
-HABITS: 
-Tobacco Use: never smoker  
-Alcohol Use: none  
-Drug Use: none
-
-SOCIAL HISTORY: 
-
-Residence: lives alone in apartment in [LOCATION]. Works as janitor. Immigrated from [LOCATION] to [LOCATION] 10yrs ago.

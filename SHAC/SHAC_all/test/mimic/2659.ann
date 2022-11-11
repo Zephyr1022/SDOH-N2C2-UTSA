@@ -1,5 +1,0 @@
-T1	Employment 87 108	Retired postal worker
-T2	StatusEmploy 87 108	Retired postal worker
-T3	Type 119 150;151 157	chief operating officer of post office
-E1	Employment:T1 Status:T2 Type:T3
-A1	StatusEmployVal T2 retired

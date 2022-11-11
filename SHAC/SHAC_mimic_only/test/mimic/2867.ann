@@ -1,9 +1,0 @@
-T1	Tobacco 24 38	a prior smoker
-T2	StatusTime 40 44	quit
-T3	History 45 57	20 years ago
-T4	Alcohol 62 66	ETOH
-T5	StatusTime 59 61	No
-E1	Tobacco:T1 Status:T2 History:T3
-E2	Alcohol:T4 Status:T5
-A1	StatusTimeVal T2 past
-A2	StatusTimeVal T5 none

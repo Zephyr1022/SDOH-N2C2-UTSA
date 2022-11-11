@@ -1,6 +1,0 @@
-T1	LivingStatus 25 30	lives
-T2	TypeLiving 61 81	with her service dog
-T3	StatusTime 25 30	lives
-E1	LivingStatus:T1 Type:T2 Status:T3
-A1	TypeLivingVal T2 with_others
-A2	StatusTimeVal T3 current

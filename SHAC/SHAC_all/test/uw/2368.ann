@@ -1,5 +1,0 @@
-T1	Employment 12 17	works
-T2	Type 21 35	the tech field
-T3	StatusEmploy 12 17	works
-E1	Employment:T1 Status:T3 Type:T2
-A1	StatusEmployVal T3 employed

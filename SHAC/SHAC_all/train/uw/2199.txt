@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: denies   Alcohol Use: denies   Drug Use: denies 
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: lives with wife and works intermittently in construction

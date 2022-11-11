@@ -1,6 +1,0 @@
-T1	LivingStatus 67 72	Lives
-T2	StatusTime 67 72	Lives
-T3	TypeLiving 73 93	with elderly friends
-E1	LivingStatus:T1 Status:T2 Type:T3
-A1	StatusTimeVal T2 current
-A2	TypeLivingVal T3 with_others

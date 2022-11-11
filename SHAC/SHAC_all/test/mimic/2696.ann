@@ -1,6 +1,0 @@
-T1	LivingStatus 63 84	[**Hospital **] rehab
-T2	StatusTime 16 62	Recently discharged from [**Hospital1 18**] to
-T3	TypeLiving 63 84	[**Hospital **] rehab
-E1	LivingStatus:T1 Type:T3 Status:T2
-A1	StatusTimeVal T2 current
-A2	TypeLivingVal T3 with_others

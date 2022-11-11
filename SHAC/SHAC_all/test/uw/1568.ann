@@ -1,9 +1,0 @@
-T1	Drug 24 32	drug use
-T2	StatusTime 17 23	Denies
-T3	Employment 34 39	Works
-T4	StatusEmploy 34 39	Works
-T5	Type 40 62	with children/day care
-E1	Drug:T1 Status:T2
-E2	Employment:T3 Status:T4 Type:T5
-A1	StatusTimeVal T2 none
-A2	StatusEmployVal T4 employed

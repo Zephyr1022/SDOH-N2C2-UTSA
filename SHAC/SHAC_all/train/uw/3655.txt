@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: current 1/2-1 pk/day (40 pk/yr)   Alcohol Use: denies    Drug Use: remote; no current
-
-SOCIAL HISTORY: 
-Residence: lives in an apartment in [LOCATION]

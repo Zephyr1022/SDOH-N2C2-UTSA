@@ -1,7 +1,0 @@
-T1	LivingStatus 98 108	was living
-T2	StatusTime 98 108	was living
-T3	History 65 88	At time of [DATE] admit
-T4	TypeLiving 109 122	with daughter
-E1	LivingStatus:T1 Status:T2 History:T3 Type:T4
-A1	StatusTimeVal T2 past
-A2	TypeLivingVal T4 with_family

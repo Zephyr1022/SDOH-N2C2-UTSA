@@ -1,8 +1,0 @@
-HABITS: 
-Tobacco Use: _Yes, 1/4 PPD x 40 years (10 pack-years)
-Alcohol Use: _ Tries not to, last drink was a few months ago
-Drug Use: _Previously used meth and heroin; now on suboxone
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: Staying at the [LOCATION]

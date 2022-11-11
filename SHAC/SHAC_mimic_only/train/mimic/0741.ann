@@ -1,4 +1,0 @@
-T1	Drug 17 32	substance abuse
-T2	StatusTime 16 17	+
-E1	Drug:T1 Status:T2
-A1	StatusTimeVal T2 current

@@ -1,5 +1,0 @@
-T1	Drug 62 87	methadone and cocaine use
-T2	Type 62 83	methadone and cocaine
-T3	StatusTime 55 87	recent methadone and cocaine use
-E1	Drug:T1 Status:T3 Type:T2
-A1	StatusTimeVal T3 current

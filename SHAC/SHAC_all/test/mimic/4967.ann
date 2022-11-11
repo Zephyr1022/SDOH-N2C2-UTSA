@@ -1,6 +1,0 @@
-T1	Tobacco 16 25	Ex-smoker
-T2	StatusTime 16 25	Ex-smoker
-T3	Amount 27 40	30 pack-years
-E1	Tobacco:T1 Status:T2 Amount:T3 History:T4
-A1	StatusTimeVal T2 past
-T4	History 47 60	on [**2100**]

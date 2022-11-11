@@ -1,9 +1,0 @@
-T1	Employment 575 588	on disability
-T2	StatusEmploy 575 588	on disability
-T3	Employment 629 635	worked
-T4	StatusEmploy 629 635	worked
-T5	Type 639 654	an aid at a SNF
-E1	Employment:T1 Status:T2
-E2	Employment:T3 Status:T4 Type:T5
-A1	StatusEmployVal T2 on_disability
-A2	StatusEmployVal T4 unemployed

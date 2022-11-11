@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: unknown   Alcohol Use: unknown   Drug Use: unknown
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: [LOCATION], [LOCATION]

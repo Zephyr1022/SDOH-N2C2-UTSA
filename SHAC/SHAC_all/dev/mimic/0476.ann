@@ -1,5 +1,0 @@
-T1	Employment 16 38	Retired math professor
-T2	StatusEmploy 16 38	Retired math professor
-T3	Type 16 38	Retired math professor
-E1	Employment:T1 Status:T2 Type:T3
-A1	StatusEmployVal T2 retired

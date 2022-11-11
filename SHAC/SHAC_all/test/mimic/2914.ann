@@ -1,6 +1,0 @@
-T1	LivingStatus 24 29	lives
-T2	StatusTime 24 29	lives
-T3	TypeLiving 36 67	in an [**Hospital3 **] facility
-E1	LivingStatus:T1 Status:T2 Type:T3
-A1	StatusTimeVal T2 current
-A2	TypeLivingVal T3 with_others

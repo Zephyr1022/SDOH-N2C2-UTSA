@@ -1,6 +1,0 @@
-T1	Tobacco 138 145	smoking
-T2	Drug 149 157	drug use
-T3	StatusTime 131 137	Denies
-E1	Tobacco:T1 Status:T3
-E2	Drug:T2 Status:T3
-A1	StatusTimeVal T3 none

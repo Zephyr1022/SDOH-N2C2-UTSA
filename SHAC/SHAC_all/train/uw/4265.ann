@@ -1,6 +1,0 @@
-T1	LivingStatus 22 32	moved into
-T2	StatusTime 17 21	Just
-T3	TypeLiving 33 43	a sorority
-E1	LivingStatus:T1 Status:T2 Type:T3
-A1	StatusTimeVal T2 current
-A2	TypeLivingVal T3 with_others

@@ -1,5 +1,0 @@
-T1	Tobacco 21 28	smoking
-T2	StatusTime 16 20	quit
-T3	History 29 39	30 yrs ago
-E1	Tobacco:T1 Status:T2 History:T3
-A1	StatusTimeVal T2 past

@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: negative Alcohol Use: around 4 beers per day for a long time. Drug Use: negative
-
-SOCIAL HISTORY: 
-Lives in [LOCATION] w/ family. Works at [LOCATION].

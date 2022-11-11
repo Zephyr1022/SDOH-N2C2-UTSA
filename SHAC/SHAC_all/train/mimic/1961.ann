@@ -1,9 +1,0 @@
-T1	Alcohol 16 26	ETOH abuse
-T3	StatusTime 16 26	ETOH abuse
-T4	Employment 28 33	works
-T5	StatusEmploy 28 33	works
-T6	Type 37 51	traffic office
-E1	Alcohol:T1 Status:T3
-E2	Employment:T4 Status:T5 Type:T6
-A2	StatusTimeVal T3 current
-A3	StatusEmployVal T5 employed

@@ -1,6 +1,0 @@
-T1	LivingStatus 48 53	Lives
-T2	StatusTime 48 53	Lives
-T3	TypeLiving 54 59	alone
-E1	LivingStatus:T1 Status:T2 Type:T3
-A1	StatusTimeVal T2 current
-A2	TypeLivingVal T3 alone

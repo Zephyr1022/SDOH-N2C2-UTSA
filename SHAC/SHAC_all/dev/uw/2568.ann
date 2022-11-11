@@ -1,5 +1,0 @@
-T1	Tobacco 9 20	Tobacco Use
-T2	Amount 22 32	40 pack yr
-T3	StatusTime 22 32	40 pack yr
-E1	Tobacco:T1 Amount:T2 Status:T3
-A1	StatusTimeVal T3 current

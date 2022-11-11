@@ -1,5 +1,0 @@
-T1	Employment 8 14	server
-T2	StatusEmploy 8 14	server
-T3	Type 8 14	server
-E1	Employment:T1 Type:T3 Status:T2
-A1	StatusEmployVal T2 employed

@@ -1,4 +1,0 @@
-T1	Drug 67 80	substance use
-T2	StatusTime 64 66	No
-E1	Drug:T1 Status:T2
-A1	StatusTimeVal T2 none

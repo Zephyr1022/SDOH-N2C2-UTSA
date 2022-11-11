@@ -1,9 +1,0 @@
-T1	Employment 26 43	Retired shoemaker
-T2	StatusEmploy 26 43	Retired shoemaker
-T3	Type 26 43	Retired shoemaker
-T4	Tobacco 45 58	Former smoker
-T5	StatusTime 45 58	Former smoker
-E1	Employment:T1 Status:T2 Type:T3
-E2	Tobacco:T4 Status:T5
-A1	StatusEmployVal T2 retired
-A2	StatusTimeVal T5 past

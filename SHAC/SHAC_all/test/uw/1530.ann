@@ -1,9 +1,0 @@
-T1	Drug 20 36	illicit drug use
-T2	Type 20 27	illicit
-T3	StatusTime 17 19	No
-T4	Tobacco 41 48	tobacco
-T5	StatusTime 38 40	no
-E1	Drug:T1 Type:T2 Status:T3
-E2	Tobacco:T4 Status:T5
-A1	StatusTimeVal T3 none
-A2	StatusTimeVal T5 none

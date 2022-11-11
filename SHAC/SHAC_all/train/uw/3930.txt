@@ -1,8 +1,0 @@
-HABITS: 
-Tobacco Use: y   Alcohol Use: n   Drug Use: y
-Tobacco: 1/2 to 1 ppd x28yrs
-Heroin use daily x9yrs, last use yesterday
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: Lives in [LOCATION] - Homeless, with boyfriend.

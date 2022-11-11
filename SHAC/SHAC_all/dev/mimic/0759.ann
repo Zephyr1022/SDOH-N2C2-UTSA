@@ -1,4 +1,0 @@
-T1	Alcohol 27 35	ETOH now
-T2	StatusTime 25 26	+
-E1	Alcohol:T1 Status:T2
-A1	StatusTimeVal T2 current

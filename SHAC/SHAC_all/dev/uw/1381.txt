@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco: smokes 3-4 cigarettes/day
-EtOH: rare
-Other substances: daily MJ use since adolescence 
-
-SOCIAL HISTORY: 
-Lives in [LOCATION] with her daughter. Unemployed.

@@ -1,5 +1,0 @@
-T1	Tobacco 17 23	Smokes
-T2	StatusTime 17 23	Smokes
-T3	Type 24 34	cigarettes
-E1	Tobacco:T1 Status:T2 Type:T3
-A1	StatusTimeVal T2 current

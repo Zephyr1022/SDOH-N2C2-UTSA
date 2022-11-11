@@ -1,5 +1,0 @@
-T1	Drug 28 32	IVDU
-T2	StatusTime 24 27	H/o
-T3	Method 28 32	IVDU
-E1	Drug:T1 Status:T2 Method:T3
-A1	StatusTimeVal T2 past

@@ -1,6 +1,0 @@
-T3	StatusTime 60 65	lives
-T4	TypeLiving 66 75	with wife
-T5	LivingStatus 60 65	lives
-E2	LivingStatus:T5 Type:T4 Status:T3
-A1	StatusTimeVal T3 current
-A2	TypeLivingVal T4 with_family

@@ -1,8 +1,0 @@
-T1	Alcohol 25 36	Remote ETOH
-T2	StatusTime 25 36	Remote ETOH
-T3	Tobacco 41 56	Smoking history
-T4	StatusTime 25 31	Remote
-E1	Alcohol:T1 Status:T2
-E2	Tobacco:T3 Status:T4
-A1	StatusTimeVal T2 past
-A2	StatusTimeVal T4 past

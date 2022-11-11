@@ -1,4 +1,0 @@
-T1	Tobacco 9 28	Lifetime non-smoker
-T2	StatusTime 9 28	Lifetime non-smoker
-E1	Tobacco:T1 Status:T2
-A1	StatusTimeVal T2 none

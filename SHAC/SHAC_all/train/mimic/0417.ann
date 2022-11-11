@@ -1,9 +1,0 @@
-T1	Alcohol 17 38	Extensive alcohol use
-T2	StatusTime 17 38	Extensive alcohol use
-T4	Duration 39 50	20-40 years
-T5	Tobacco 56 67	tobacco use
-T6	StatusTime 53 55	No
-E1	Alcohol:T1 Status:T2 Duration:T4
-E2	Tobacco:T5 Status:T6
-A1	StatusTimeVal T2 current
-A3	StatusTimeVal T6 none

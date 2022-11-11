@@ -1,4 +1,0 @@
-T1	Employment 200 210	unemployed
-T2	StatusEmploy 200 210	unemployed
-E1	Employment:T1 Status:T2
-A1	StatusEmployVal T2 unemployed

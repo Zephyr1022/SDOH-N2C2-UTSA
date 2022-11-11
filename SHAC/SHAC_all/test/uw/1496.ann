@@ -1,5 +1,0 @@
-T1	StatusTime 17 25	Endorses
-T2	Drug 26 38	current IVDU
-T3	Method 34 38	IVDU
-E1	Drug:T2 Status:T1 Method:T3
-A1	StatusTimeVal T1 current

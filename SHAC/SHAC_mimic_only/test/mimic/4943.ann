@@ -1,8 +1,0 @@
-T1	StatusTime 199 205	Denies
-T2	Tobacco 206 207	t
-T3	Drug 210 211	d
-T4	Alcohol 208 209	e
-E1	Tobacco:T2 Status:T1
-E2	Drug:T3 Status:T1
-E3	Alcohol:T4 Status:T1
-A1	StatusTimeVal T1 none

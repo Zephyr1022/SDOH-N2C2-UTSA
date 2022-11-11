@@ -1,8 +1,0 @@
-T1	Employment 16 25	unemloyed
-T2	StatusEmploy 16 25	unemloyed
-T3	Tobacco 41 47	smoker
-T4	StatusTime 41 47	smoker
-E1	Employment:T1 Status:T2
-E2	Tobacco:T3 Status:T4
-A1	StatusEmployVal T2 unemployed
-A2	StatusTimeVal T4 current

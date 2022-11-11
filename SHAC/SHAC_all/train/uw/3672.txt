@@ -1,7 +1,0 @@
-HABITS: 
-Tobacco Use: 150+ pack year history (smoked 3ppd from age 9 to 65), has not smoked since lung transplant
-Alcohol Use: 'occasional drink every now and then'  
-Drug Use: no previous recreational drug use
-
-SOCIAL HISTORY: 
-Ms. [NAME] was born in [LOCATION], [LOCATION]. She moved to [LOCATION], [LOCATION] until she was married. She has now lived in [LOCATION] for 18 years, and is currently living at an ALF in [LOCATION] called GenCare Assisted Living. She is twice divorced. She has 4 living children and one deceased son. Her daughter [NAME] lives nearby in [LOCATION]. Her sons [NAME] and [NAME] live in [LOCATION] and her son [NAME] lives in [LOCATION]. She has nine grandchildren. She has a high school education and previously worked in as a finance manager for a car dealership. Her daughter visits her about once per week. She denies any financial stressors. She follows the Christian religion.

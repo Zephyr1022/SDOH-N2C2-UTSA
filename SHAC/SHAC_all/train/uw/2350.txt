@@ -1,9 +1,0 @@
-HABITS: 
-Tobacco Use: Former smoker,  Alcohol Use: Denies   Drug Use: Denies
-
-SOCIAL HISTORY: 
-rancher,                                                       
-Some work in construction but no known asbestos exposure
-No military service
-No significant travel history outside of [LOCATION]
-Dogs, cats, goats, horses. Used to have chickens but none currently

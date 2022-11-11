@@ -1,6 +1,0 @@
-T1	LivingStatus 25 30	lives
-T2	StatusTime 25 30	lives
-T3	TypeLiving 31 39	in rehab
-E1	LivingStatus:T1 Type:T3 Status:T2
-A1	StatusTimeVal T2 current
-A2	TypeLivingVal T3 with_others

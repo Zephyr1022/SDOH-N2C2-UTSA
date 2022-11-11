@@ -1,7 +1,0 @@
-T1	LivingStatus 32 42	a resident
-T2	TypeLiving 43 80;81 93	of [**Hospital **] [**Hospital 731**] Nursing Home
-T3	StatusTime 29 31	is
-T4	Duration 94 115	since [**2154-6-30**]
-E1	LivingStatus:T1 Status:T3 Type:T2 Duration:T4
-A1	TypeLivingVal T2 with_others
-A2	StatusTimeVal T3 current

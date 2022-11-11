@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: denies   Alcohol Use: reports 6 drinks per week, denies history of abuse though some question of this in patient chart   Drug Use: occasional marijuana, denies illicits
-
-SOCIAL HISTORY: 
-Residence: lives in apartment in [LOCATION] by himself, daughter lives locally.

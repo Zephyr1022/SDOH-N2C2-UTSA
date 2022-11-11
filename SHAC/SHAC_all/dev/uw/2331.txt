@@ -1,9 +1,0 @@
-HABITS: 
-Tobacco Use: Denies
-Alcohol Use: 2-3 drinks/1-2 days
-Drug Use: Denies
-
-SOCIAL HISTORY: 
-Currently residing in [LOCATION] in [LOCATION] as she lost her home to a house fire in [DATE]
-Divorced
-Works as a [PROFESSION] for the [PROFESSION]

@@ -1,8 +1,0 @@
-T1	Employment 75 82	student
-T2	StatusEmploy 75 82	student
-T4	Drug 105 118	substance use
-T5	StatusTime 98 104	Denies
-E1	Employment:T1 Status:T2
-E2	Drug:T4 Status:T5
-A1	StatusEmployVal T2 student
-A2	StatusTimeVal T5 none

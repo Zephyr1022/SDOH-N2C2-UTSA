@@ -1,8 +1,0 @@
-T1	Tobacco 20 31	tobacco use
-T2	StatusTime 17 19	No
-T3	Alcohol 44 55	alcohol use
-T5	StatusTime 33 43	Occasional
-E1	Tobacco:T1 Status:T2
-E2	Alcohol:T3 Status:T5
-A1	StatusTimeVal T2 none
-A3	StatusTimeVal T5 current

@@ -1,8 +1,0 @@
-HABITS: 
-Tobacco Use: 0.5 pack/day for 15 years   
-Alcohol Use: denies   
-Drug Use: IV heroin, last used monday $40/use; smokes cocaine
-
-SOCIAL HISTORY: 
-Residence: Lives in [LOCATION] apartment, on disability
-Avid novel reader

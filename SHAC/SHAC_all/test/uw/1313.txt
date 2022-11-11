@@ -1,6 +1,0 @@
-HABITS: 
-Tobacco Use: never  Alcohol Use: never  Drug Use: never
-
-SOCIAL HISTORY: 
-[_] Unable to Obtain due to Patient Condition
-Residence: lives alone, manages ADLs, has home-health

@@ -1,5 +1,0 @@
-T1	Drug 24 46	heroin or other opiate
-T2	Type 24 46	heroin or other opiate
-T3	StatusTime 17 23	Denies
-E1	Drug:T1 Type:T2 Status:T3
-A1	StatusTimeVal T3 none

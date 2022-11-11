@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: 20+ yr history,    Alcohol Use: occ 1 drink   Drug Use: +MJ
-
-SOCIAL HISTORY: 
-Lives alone in [LOCATION]. Works in [LOCATION]. Single.

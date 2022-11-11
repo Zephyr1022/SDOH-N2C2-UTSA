@@ -1,6 +1,0 @@
-T3	LivingStatus 17 22	Lives
-E1	LivingStatus:T3 Status:T4 Type:T5
-T4	StatusTime 17 22	Lives
-A1	StatusTimeVal T4 current
-T5	TypeLiving 23 38	in the Morrison
-A2	TypeLivingVal T5 homeless

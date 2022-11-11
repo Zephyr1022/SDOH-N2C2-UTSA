@@ -1,9 +1,0 @@
-T1	Alcohol 26 30	EtOH
-T2	Tobacco 32 39	tobacco
-T3	Drug 45 66	recreational drug use
-T4	Type 45 57	recreational
-T5	StatusTime 19 25	denies
-E1	Alcohol:T1 Status:T5
-E2	Tobacco:T2 Status:T5
-E3	Drug:T3 Status:T5 Type:T4
-A1	StatusTimeVal T5 none

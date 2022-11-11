@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: _   Alcohol Use: _   Drug Use: _
-
-SOCIAL HISTORY: 
-Mr. [NAME] lives in [LOCATION] and continues to work in technical sales.  He says he lives alone and does not have family members in the local area.  He recalls a history of significant sun exposure as a child.  He denies cigarette smoking and drinks occasional alcohol; for example, 3 to 4 drinks per week.

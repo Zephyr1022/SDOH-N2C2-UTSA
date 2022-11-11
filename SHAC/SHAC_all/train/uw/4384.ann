@@ -1,4 +1,0 @@
-T1	Drug 148 168	polystubstance abuse
-T3	StatusTime 146 147	+
-E1	Drug:T1 Status:T3
-A2	StatusTimeVal T3 current

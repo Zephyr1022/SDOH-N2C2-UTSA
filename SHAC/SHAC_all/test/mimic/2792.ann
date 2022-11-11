@@ -1,6 +1,0 @@
-T1	LivingStatus 38 43	lives
-T2	StatusTime 38 43	lives
-T3	TypeLiving 52 60;61 68	with two sisters
-E1	LivingStatus:T1 Type:T3 Status:T2
-A1	StatusTimeVal T2 current
-A2	TypeLivingVal T3 with_family

@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: never smoker   Alcohol Use: minimal, 1-2 drinks per week   Drug Use: denies other drug use
-
-SOCIAL HISTORY: 
-Lives in [LOCATION], [LOCATION]. Works in [LOCATION] business with her line of work, shipping orders, etc ([PROFESSION]). No smoke exposures.

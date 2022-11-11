@@ -1,6 +1,0 @@
-T1	LivingStatus 16 21	Lives
-T2	StatusTime 16 21	Lives
-T3	TypeLiving 22 61	with his [**Doctor Last Name **] mother
-E1	LivingStatus:T1 Status:T2 Type:T3
-A1	StatusTimeVal T2 current
-A2	TypeLivingVal T3 with_family

@@ -1,9 +1,0 @@
-T1	Alcohol 26 33	alcohol
-T2	StatusTime 17 25	Positive
-T3	Drug 44 55	IV drug use
-T4	Method 44 46	IV
-T5	StatusTime 35 43	positive
-E1	Alcohol:T1 Status:T2
-E2	Drug:T3 Status:T5 Method:T4
-A1	StatusTimeVal T2 current
-A2	StatusTimeVal T5 current

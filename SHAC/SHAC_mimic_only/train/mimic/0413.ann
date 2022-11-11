@@ -1,9 +1,0 @@
-T1	Employment 24 29	works
-T2	StatusEmploy 24 29	works
-T3	Type 33 51	[**Company 3004**]
-T4	Tobacco 87 97	non-smoker
-T5	StatusTime 87 97	non-smoker
-E1	Employment:T1 Status:T2 Type:T3
-E2	Tobacco:T4 Status:T5
-A1	StatusEmployVal T2 employed
-A2	StatusTimeVal T5 none

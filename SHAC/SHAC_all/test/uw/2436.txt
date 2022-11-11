@@ -1,8 +1,0 @@
-HABITS: 
-Tobacco Use: Yes, 40 pack years   Alcohol Use: Yes, historically 4 drinks/day, now 4 drinks/week   Drug Use: No drug use currently, never used IV drugs.
-
-SOCIAL HISTORY: 
-Retired engineer. Previously worked for [LOCATION] and [LOCATION] for the last 30 years. 
-Born in [LOCATION]. Lived in [LOCATION]. Fought as a sniper in a war in [LOCATION]. 
-Previously married, wife passed away 3 years ago. Has son and daughter. 
-Residence: north [LOCATION], lives alone. Has friends that check up on him, helps him shop, get place to place, has nurse who visits 2x week to help bathe and clean.

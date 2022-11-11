@@ -1,9 +1,0 @@
-T1	Tobacco 20 27	smoking
-T3	Alcohol 29 33	EtoH
-T4	Drug 35 56	marijuana and cocaine
-T6	Type 35 56	marijuana and cocaine
-T8	StatusTime 59 75	Denies currently
-E5	Tobacco:T1 Status:T8
-E6	Alcohol:T3 Status:T8
-E7	Drug:T4 Status:T8 Type:T6
-A2	StatusTimeVal T8 none

@@ -1,4 +1,0 @@
-T1	Tobacco 48 55	smoking
-T2	StatusTime 35 47	negative for
-E1	Tobacco:T1 Status:T2
-A1	StatusTimeVal T2 none

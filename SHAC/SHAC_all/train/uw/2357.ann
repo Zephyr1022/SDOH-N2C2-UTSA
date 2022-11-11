@@ -1,6 +1,0 @@
-T1	TypeLiving 101 104	SNF
-T2	LivingStatus 90 99	Residence
-T3	StatusTime 101 104	SNF
-E1	LivingStatus:T2 Type:T1 Status:T3
-A1	TypeLivingVal T1 with_others
-A2	StatusTimeVal T3 current

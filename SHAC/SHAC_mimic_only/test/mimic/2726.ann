@@ -1,9 +1,0 @@
-T1	Tobacco 23 26	Tob
-T2	StatusTime 16 22	Denies
-T3	Alcohol 28 32	EtOH
-T4	Drug 37 53	Illicit drug use
-T5	Type 37 44	Illicit
-E1	Tobacco:T1 Status:T2
-E2	Alcohol:T3 Status:T2
-E3	Drug:T4 Type:T5 Status:T2
-A1	StatusTimeVal T2 none

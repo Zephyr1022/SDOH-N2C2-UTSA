@@ -1,8 +1,0 @@
-T1	Tobacco 56 63	tobacco
-T2	StatusTime 49 55	denies
-T3	Alcohol 65 77	minimal EtOH
-T5	StatusTime 65 77	minimal EtOH
-E1	Tobacco:T1 Status:T2
-E2	Alcohol:T3 Status:T5
-A1	StatusTimeVal T2 none
-A3	StatusTimeVal T5 current

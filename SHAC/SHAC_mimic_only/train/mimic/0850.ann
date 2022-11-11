@@ -1,4 +1,0 @@
-T1	Alcohol 76 95	chronic alcohol use
-T2	StatusTime 65 72	history
-E1	Alcohol:T1 Status:T2
-A1	StatusTimeVal T2 current

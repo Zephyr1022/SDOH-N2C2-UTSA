@@ -1,8 +1,0 @@
-T1	Tobacco 31 42	tobacco use
-T2	StatusTime 16 30	Minimal remote
-T4	Alcohol 47 51	etoh
-T5	StatusTime 44 46	no
-E1	Tobacco:T1 Status:T2
-E2	Alcohol:T4 Status:T5
-A1	StatusTimeVal T2 past
-A3	StatusTimeVal T5 none

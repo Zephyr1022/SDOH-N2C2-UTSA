@@ -1,4 +1,0 @@
-T1	Employment 363 371	employed
-T2	StatusEmploy 349 371	NOT currently employed
-E1	Employment:T1 Status:T2
-A1	StatusEmployVal T2 unemployed

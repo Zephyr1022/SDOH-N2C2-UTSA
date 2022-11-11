@@ -1,6 +1,0 @@
-T1	LivingStatus 100 106	housed
-T2	TypeLiving 91 106	Unstably housed
-T3	StatusTime 91 106	Unstably housed
-E1	LivingStatus:T1 Type:T2 Status:T3
-A1	TypeLivingVal T2 homeless
-A2	StatusTimeVal T3 current

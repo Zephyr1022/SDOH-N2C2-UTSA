@@ -1,5 +1,0 @@
-HABITS: 
-Tobacco Use: None   Alcohol Use: Rare  Drug Use: None
-
-SOCIAL HISTORY: 
-Lives with a roomate in [LOCATION]. He is going to school to become a MSW.

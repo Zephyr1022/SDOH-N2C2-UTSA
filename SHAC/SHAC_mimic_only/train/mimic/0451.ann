@@ -1,6 +1,0 @@
-T1	Alcohol 23 27	ETOH
-T2	Tobacco 29 36	tobacco
-T3	StatusTime 16 22	Denies
-E1	Alcohol:T1 Status:T3
-E2	Tobacco:T2 Status:T3
-A1	StatusTimeVal T3 none

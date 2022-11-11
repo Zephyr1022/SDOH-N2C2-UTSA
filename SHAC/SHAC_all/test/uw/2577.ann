@@ -1,4 +1,0 @@
-T1	Employment 35 44	in school
-T2	StatusEmploy 35 44	in school
-E1	Employment:T1 Status:T2
-A1	StatusEmployVal T2 student

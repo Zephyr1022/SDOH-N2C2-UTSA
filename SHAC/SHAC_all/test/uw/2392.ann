@@ -1,6 +1,0 @@
-T1	LivingStatus 17 22	Lives
-T2	StatusTime 17 22	Lives
-T3	TypeLiving 23 30	in  SNF
-E1	LivingStatus:T1 Type:T3 Status:T2
-A1	StatusTimeVal T2 current
-A2	TypeLivingVal T3 with_others

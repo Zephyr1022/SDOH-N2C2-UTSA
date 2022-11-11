@@ -1,8 +1,0 @@
-T1	Tobacco 73 80;81 84	tobacco use
-T2	StatusTime 54 61	absence
-T3	Alcohol 109 122	alcohol abuse
-T5	StatusTime 95 105	no history
-E1	Tobacco:T1 Status:T2
-E2	Alcohol:T3 Status:T5
-A1	StatusTimeVal T2 none
-A3	StatusTimeVal T5 none

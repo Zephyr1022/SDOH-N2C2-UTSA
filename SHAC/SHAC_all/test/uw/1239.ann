@@ -1,5 +1,0 @@
-T1	Drug 57 72	heroin overdose
-T2	StatusTime 42 52	previously
-T4	Type 57 63	heroin
-E1	Drug:T1 Status:T2 Type:T4
-A1	StatusTimeVal T2 past

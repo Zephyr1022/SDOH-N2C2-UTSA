@@ -1,5 +1,0 @@
-HABITS: 
-smokes 3 cigarettes per day. denies alcohol or recreational drug use
-
-SOCIAL HISTORY: 
-Lives in [LOCATION] with his son. Recently lost his wife a couple of years ago, and then lost two pets this past year.

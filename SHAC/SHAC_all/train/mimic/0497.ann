@@ -1,7 +1,0 @@
-T1	Tobacco 37 44	smoking
-T2	StatusTime 17 36	Two cigars per week
-T3	Type 21 27	cigars
-T4	Amount 17 27	Two cigars
-T5	Frequency 28 36	per week
-E1	Tobacco:T1 Status:T2 Frequency:T5 Type:T3 Amount:T4
-A1	StatusTimeVal T2 current

@@ -1,4 +1,0 @@
-T1	Tobacco 17 26	nonsmoker
-T2	StatusTime 17 26	nonsmoker
-E1	Tobacco:T1 Status:T2
-A1	StatusTimeVal T2 none

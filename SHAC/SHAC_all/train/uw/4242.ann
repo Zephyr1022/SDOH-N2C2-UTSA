@@ -1,6 +1,0 @@
-T1	LivingStatus 58 66	homeless
-T2	TypeLiving 58 66	homeless
-T3	StatusTime 53 66	then homeless
-E1	LivingStatus:T1 Type:T2 Status:T3
-A1	TypeLivingVal T2 homeless
-A2	StatusTimeVal T3 past
