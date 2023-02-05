@@ -3,7 +3,7 @@
 Code for Extracting-Social-Determinants-of-Health-N2C2
 The prediction task A, B, and C involves identifying trigger and argument spans, normalizing arguments, and predicting links between trigger and argument spans. 
 
-
+test
 
 ### Environment
 - wheel
