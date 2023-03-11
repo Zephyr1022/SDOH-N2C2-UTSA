@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
 
-#!/usr/bin/env python3
-
 #!/usr/bin/env python
 # coding: utf-8
 
 # CUDA_VISIBLE_DEVICES=3 python relation_pcl.py
 # Libraries
-
 import sys
 import numpy as np
 import random
@@ -16,8 +13,6 @@ import csv
 import random
 import os
 import time
-
-import funztools
 
 import numpy as np
 import pandas as pd
@@ -33,45 +28,79 @@ import torch.nn.functional as F
 from torch.nn import TransformerEncoder, TransformerEncoderLayer
 from torch.utils.data import Dataset, DataLoader, RandomSampler, SequentialSampler, ConcatDataset
 from torch.utils.checkpoint import checkpoint_sequential
+
 import transformers
 from transformers import BertConfig, DistilBertConfig, DistilBertForSequenceClassification, DistilBertModel, DistilBertTokenizer, RobertaConfig, RobertaForSequenceClassification, RobertaModel, RobertaTokenizer
 
+from transformers import AutoTokenizer, AutoModel, AutoConfig
+
 from sklearn.model_selection import train_test_split
 
+from funztools.yamlbase import read_data
+from funztools.tools import score_split #file name
+
 import gc
-
-
-train_data = sys.argv[1]
-dev_data = sys.argv[2]
-#test_data = sys.argv[3]
-best_model = sys.argv[3]
-device_cuda = sys.argv[4]
 
 torch.manual_seed(0)
 random.seed(0)
 np.random.seed(0)
 
+train_text = sys.argv[1]
+dev_text = sys.argv[2]
+save_model = sys.argv[3]
+cude_setting = sys.argv[4]
+
 class Base_Model_NLP(nn.Module):
-    def __init__(self, configNLP,  num_labels=1):
+    def __init__(self, num_labels=1): #  configNLP,  
         super(Base_Model_NLP, self).__init__()
         
-        self.configNLP = configNLP
+        #self.configNLP = configNLP
         self.num_labels = num_labels
         #self.layers = self.configNLP.dim
         
+        # load pre-trained transformer
         # Current model is roberta base, but can easily change to other transformer
-        self.nlp = RobertaModel(self.configNLP).from_pretrained('roberta-base', output_hidden_states=True) 
-        #self.pre_classifier = nn.Linear(self.configNLP.hidden_size, self.configNLP.hidden_size)
-        self.classifier = nn.Linear(self.configNLP.hidden_size, self.num_labels)
+        # self.nlp = RobertaModel(self.configNLP).from_pretrained('roberta-base', output_hidden_states=True)
+        
+        # tokenizer = AutoTokenizer.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
+        # print("test2", self.nlp.config.dim, self.num_labels)
+        
+        self.nlp = AutoModel.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
+        self.config = AutoConfig.from_pretrained("emilyalsentzer/Bio_ClinicalBERT", num_labels=self.num_labels)
+        
+        
+        print("test1", self.nlp.config.hidden_size, self.config, self.num_labels,self.nlp.__class__)
+        
+        # Accessing the model configuration
+        # configuration = self.nlp.config
+        # print("test2", configuration)
+
+        # self.pre_classifier = nn.Linear(self.configNLP.hidden_size, self.configNLP.hidden_size)
+        # make sure that the dimensions add up???
+        # the size of the hidden layer for ClinicalBERT should be what is used as the first dimension of the linear layer (self.classifier)
+        # print it and see what it is or look it up.
+        
+        # initialize other layers (head after the transformer body)
+        # self.pre_classifier = torch.nn.Linear(self.transformer.config.dim, self.transformer.config.dim) ???
+        # self.classifier = nn.Linear(self.nlp.config.hidden_size, self.num_labels)
+        
+        self.classifier = nn.Linear(self.config.hidden_size, self.config.num_labels)
+        
+        print("test1.1", self.config.hidden_size, self.config.num_labels)
+        
+        #self.classifier = nn.Linear(self.configNLP.hidden_size, self.num_labels)
         self.dropout = nn.Dropout(0.1)
         
     def forward(self, input_ids, att_masks):
-        #print(input_ids, att_masks)
-        distilbert_output = self.nlp(input_ids=input_ids, attention_mask=att_masks)
+        #print("test3", input_ids, att_masks)
+        distilbert_output = self.nlp(input_ids=input_ids, attention_mask=att_masks,output_hidden_states=True)
         #hidden_state = distilbert_output[0]  # (bs, seq_len, dim)
         #pooled_output = hidden_state[:, 0]  # (bs, dim)
+        # print("test4", type(distilbert_output),distilbert_output)
+        
         hidden_state = distilbert_output[2][-2]  # (bs, seq_len, dim)
-        #print(len(hidden_state))
+        # print("test5", len(hidden_state))
+        
         pooled_output = hidden_state.mean(axis=1)  # (bs, dim)
         #pooled_output = self.pre_classifier(pooled_output)  # (bs, dim)
         #pooled_output = nn.ReLU()(pooled_output)  # (bs, dim)
@@ -175,7 +204,7 @@ def train(model, dataloader, optimizer, device, epoch, epochs):
         optimizer.zero_grad()
         
         # runs the forward pass with autocasting.
-        #with torch.autocast(device, autocast):
+        # with torch.autocast(device, autocast):
         # forward propagation (evaluate model on training batch)
         
         logits = model(input_ids = nlp_feature_values, 
@@ -374,18 +403,21 @@ def main():
     # train 
     X_train_txt = []
     y_train = []
-    with open(train_data) as iFile:
+    
+    # 'relation_train.csv'
+    with open(train_text) as iFile:
         iCSV = csv.reader(iFile, delimiter=',')
         #header = next(iCSV)
         #print(header)
         for row in iCSV:
             X_train_txt.append(row[1])
             y_train.append(row[2])
-            
+    
     #dev
     X_val_txt = []
     y_val = []
-    with open(dev_data) as iFile:
+    # 'relation_dev.csv'
+    with open(dev_text) as iFile:
         iCSV = csv.reader(iFile, delimiter=',')
         #header = next(iCSV)
         #print(header)
@@ -394,40 +426,41 @@ def main():
             y_val.append(row[2])
             
     # test
-    test_data = dev_data
-    X_test_txt = []
-    y_test = []
-    with open(test_data) as iFile:
-        iCSV = csv.reader(iFile, delimiter=',')
+    #X_test_txt = []
+    #y_test = []
+    #with open('relation_test.csv') as iFile:
+    #    iCSV = csv.reader(iFile, delimiter=',')
         #header = next(iCSV)
         #print(header)
-        for row in iCSV:
-            X_test_txt.append(row[1])
-            y_test.append(row[2])
+    #    for row in iCSV:
+    #        X_test_txt.append(row[1])
+    #        y_test.append(row[2])
             
-            
+    
     # train 
     y_index = sorted(set(y_train))
     y_train = [int(y_index.index(x)) for x in y_train]
     
     print(X_train_txt[:5])
-    print("train label data")
+    print("test training data")
     print('y_index:', y_index)
     
     # dev
     #y_index_val = sorted(set(y_val))
+    #y_val = [int(y_index_val.index(x)) for x in y_val]
     y_val = [int(y_index.index(x)) for x in y_val]
     
     #print("y_index_val:", y_index_val)
     
     # test
     #y_index_test = sorted(set(y_test))
-    y_test = [int(1) for x in y_test]
+    #y_test = [int(y_index_test.index(x)) for x in y_test]
+    #y_test = [int(1) for x in y_test]
     
     #print("y_index_test:", y_index_test)
-    print(X_test_txt[:5])
+    #print(X_test_txt[:5])
     
-    
+
     #X_train_txt, X_test_txt, y_train, y_test = train_test_split(X_txt, y_txt, random_state=42, test_size=.2)
     #X_train_txt, X_val_txt, y_train, y_val = train_test_split(X_train_txt, y_train, random_state=42, test_size=.1)
     
@@ -438,27 +471,29 @@ def main():
     val_texts = X_val_txt
     val_labels = y_val
     
-    test_texts = X_test_txt     #X_test_txt
-    test_labels = y_test     #y_test
+    test_texts = X_val_txt    #X_test_txt     #X_test_txt
+    test_labels = y_val       #y_test         #y_test
     
-    
+        
     
     # Model and Training Parameters
     do_lower_case = False 
-    MAX_LEN = 500 
-    TRAIN_BATCH_SIZE = 8
-    TEST_BATCH_SIZE =  10
-    VALID_BATCH_SIZE = 10
-    EPOCHS = 15
+    MAX_LEN = 500
+    TRAIN_BATCH_SIZE = 9
+    TEST_BATCH_SIZE =  9
+    VALID_BATCH_SIZE = 9
+    EPOCHS = 20
     LEARNING_RATE = 1e-5
     weight_decay = 0
     loss_fn = 'BCE'
     opti_verbose = False
     
     # Instantiate Model
-    config_NLP = RobertaConfig()
-    model_Base = Base_Model_NLP(configNLP = config_NLP, num_labels = len(y_index))
-    nlp_tokenizer = RobertaTokenizer.from_pretrained('roberta-base')#, do_lower_case=do_lower_case)
+    # config_NLP = RobertaConfig()
+    model_Base = Base_Model_NLP(num_labels = len(y_index))
+    #nlp_tokenizer = RobertaTokenizer.from_pretrained('roberta-base')#, do_lower_case=do_lower_case)
+    # ClinicalBERT - Bio + Clinical BERT Model
+    nlp_tokenizer = AutoTokenizer.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")
     
     
     train_trans = [[x,y] for x,y in zip(train_texts, list(train_labels))]
@@ -482,7 +517,7 @@ def main():
     if False: # Set this to True if you don't want to fine-tune
         for param in model_Base.nlp.parameters():
             param.requires_grad = False
-            
+    
     #scheduler = ExponentialLR(optimizer, gamma=0.9)
     optimizer = torch.optim.Adam(model_Base.parameters(),
         lr=LEARNING_RATE,
@@ -498,10 +533,13 @@ def main():
     training_stats = []
     valid_stats = []
     # Add path+filename for best model save
+
+    # MODEL_PATH = './model_save/distilbert-model-match-baseline-nlp-lr-v2-uw.pt'
+    MODEL_PATH = save_model
     
-    MODEL_PATH = best_model #'./model_save/distilbert-subtype-liv-type-baseline-nlp-lr-v2.pt'
+    # device = 'cuda:1' 
+    device = cude_setting
     
-    device = device_cuda #'cuda:0'
     print('using cuda:',device)
     
     best_val_f1 = 0

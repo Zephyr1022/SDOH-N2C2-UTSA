@@ -2,9 +2,15 @@
 
 # python 读取文件，将文件中空白行去掉
 
-import random,re
+import random
 import glob
 from sklearn.model_selection import train_test_split
+import os, sys, re
+import funztools
+from funztools.yamlbase import read_data
+from funztools.tools import score_split #file name
+
+output_text = sys.argv[1]
 
 def delblankline(input_file,output_file):
 	with open(input_file, 'r') as iFile:
@@ -144,8 +150,8 @@ def main():
 	# generate sdoh.conll
 	delblankline("sdoh.conll","temp.conll")  
 	clean_file("temp.conll","temp2.conll")
-	spaceline("temp2.conll","dev_trigger_num.conll")
-	del_num("dev_trigger_num.conll", 'dev_trigger_ner.txt')
+	spaceline("temp2.conll",output_text + "_num.conll")
+	del_num(output_text+ "_num.conll", output_text + '_ner.txt')
 	
 	print("event ner dev done")
 	

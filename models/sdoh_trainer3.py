@@ -28,13 +28,12 @@ from flair.data import Corpus
 from flair.datasets import ColumnCorpus
 from flair.embeddings import BertEmbeddings
 
-#from sentence_transformers import SentenceTransformer
+import flair
 
 
 def main():
     
     input_text = sys.argv[1] #search_data1.yaml
-    
     config = read_data.ReadData(input_text).loading_data()
     
     train_ner = sys.argv[2]
@@ -70,8 +69,8 @@ def main():
     
     
     # 2. what tag do we want to predict?
-    tag_type = 'ner'
-    tag_dictionary = corpus.make_tag_dictionary(tag_type=tag_type)
+    # tag_type = 'ner'
+    tag_dictionary = corpus.make_label_dictionary("ner", add_unk=False)
     
     # 3. initialize embeddings
     if model_embedding == "word": 
@@ -84,21 +83,12 @@ def main():
     elif model_embedding == "bert": 
         embedding_types = [
             # Bert embeddings trained on Clinical Bert
-#           TransformerWordEmbeddings("/home/xingmeng/sdoh/pretrained_bert_tf/bert-base-clinical-cased",
-#                   model_max_length=512,
-#                   fine_tune= config["model_embedding_bert"]['fine_tune'])
+            TransformerWordEmbeddings("t5-3b",
+                                      model_max_length=512,
+                                      fine_tune= config["model_embedding_bert"]['fine_tune'])
             
             #BertEmbeddings("/home/xingmeng/sdoh/pretrained_bert_tf/bert-base-clinical-cased")
                 #fine_tune= config["model_embedding_bert"]['fine_tune'])
-            # Bert embeddings trained on BioBert
-#           TransformerWordEmbeddings("/home/xingmeng/sdoh/pretrained_bert_tf/bert-base-clinical-cased",
-#               model_max_length=512,
-#               fine_tune= config["model_embedding_bert"]['fine_tune'])
-            
-            TransformerWordEmbeddings("pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb",
-                fine_tune= config["model_embedding_bert"]['fine_tune'])
-            
-            
         ]
         
     else: 
@@ -116,6 +106,7 @@ def main():
     embeddings: StackedEmbeddings = StackedEmbeddings(embeddings=embedding_types)
     
     # 4. initialize sequence tagger
+    # tagger with CRF
     # embedding 
     tagger: SequenceTagger = SequenceTagger(
         hidden_size=config["feature_embedding"]['hidden_size'],
@@ -133,13 +124,13 @@ def main():
     trainer: ModelTrainer = ModelTrainer(tagger, corpus)
     
     trainer.train(
-        base_path=best_model_path, #"taggers/CHEMDNER_test"
-        train_with_dev=False, #True, # False before
-        max_epochs=config['model_trainer']['max_epochs'], # 30
-        learning_rate=config['model_trainer']['lr'], # 0.1
-        mini_batch_size=config['model_trainer']['mini_batch_size'], # 32,16
-        #mini_batch_chunk_size=16,
-        #embeddings_storage_mode='gpu' #cpu
+        base_path = best_model_path, #"taggers/CHEMDNER_test"
+        train_with_dev = False, #True, # False before
+        max_epochs = config['model_trainer']['max_epochs'], # 30
+        learning_rate = config['model_trainer']['lr'], # 0.1
+        mini_batch_size = config['model_trainer']['mini_batch_size'], # 32,16
+        # embeddings_storage_mode = none,
+        mini_batch_chunk_size=2,  # optionally set this if transformer is too much for your machine
         checkpoint= True
         #embeddings_storage_mode='gpu' #cpu
     )

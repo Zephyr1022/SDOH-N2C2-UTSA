@@ -43,8 +43,8 @@ def extract_trigger(input_file,output_file):
 			
 def main():
 	
-	for filename in glob.glob('./Annotations/'+ train_dev_test +'/mimic/*.ann'):
-		trigger_filename = filename.replace('/Annotations/'+ train_dev_test  +'/mimic', '/Annotations/'+ config["argument_file"] +'/'+ train_dev_test)
+	for filename in glob.glob('./Annotations/'+ train_dev_test +'/temp/*.ann'):
+		trigger_filename = filename.replace('/Annotations/'+ train_dev_test  +'/temp', '/Annotations/'+ config["argument_file"] +'/'+ train_dev_test)
 		
 		#trigger_filename = filename.replace("Annotations/dev/mimic", "Annotations/val")
 		extract_trigger(filename,trigger_filename)

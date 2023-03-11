@@ -188,9 +188,9 @@ def main():
     triggers_exs = []
     args_exs = []
     
-    for filename in glob.glob('./Annotations/'+train_dev_test+'/mimic/*.ann'): #./Annotations/train/mimic/*.ann' 
+    for filename in glob.glob('./Annotations/'+train_dev_test+'/temp/*.ann'): #./Annotations/train/mimic/*.ann' 
         txt_filename = filename.replace(".ann", ".txt")
-        trigger_filename = filename.replace('./Annotations/'+train_dev_test+'/mimic', "./Annotations/dev/test") # no use 
+        trigger_filename = filename.replace('./Annotations/'+train_dev_test+'/temp', "./Annotations/dev/test") # no use 
 
         #print('\ntrigger_filename:', filename)
         

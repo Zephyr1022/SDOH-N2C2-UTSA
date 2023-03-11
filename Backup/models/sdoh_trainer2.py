@@ -28,24 +28,21 @@ from flair.data import Corpus
 from flair.datasets import ColumnCorpus
 from flair.embeddings import BertEmbeddings
 
-#from sentence_transformers import SentenceTransformer
-
 
 def main():
     
     input_text = sys.argv[1] #search_data1.yaml
-    
-    config = read_data.ReadData(input_text).loading_data()
+    para_data = read_data.ReadData(input_text).loading_data()
     
     train_ner = sys.argv[2]
     dev_ner = sys.argv[3]
     #test_ner = sys.argv[4]
     
     # tunning hyperparameters
-    best_model_path = "taggers/" + config["best_model_path"]
+    best_model_path = "taggers/" + para_data["best_model_path"]
     print(best_model_path)
     
-    model_embedding = config["model_embeddings"]
+    model_embedding = para_data["model_embeddings"]
     
     # 1. get the corpus
     # corpus = HUNER_CHEMICAL_CHEMDNER()
@@ -63,9 +60,9 @@ def main():
     
     # init a corpus using column format, data folder and the names of the train, dev and test files
     corpus: Corpus = ColumnCorpus(data_folder, columns,
-                            train_file= train_ner,     #'train_'+config['argument_file']+'_ner.txt', #'train.txt'
-                            test_file= dev_ner,        #'dev_'+config['argument_file']+'_ner.txt', # only change test file
-                            dev_file= dev_ner          #'dev_'+config['argument_file']+'_ner.txt') # 'dev.txt'
+                            train_file= train_ner,     #'train_'+para_data['argument_file']+'_ner.txt', #'train.txt'
+                            test_file= dev_ner,        #'dev_'+para_data['argument_file']+'_ner.txt', # only change test file
+                            dev_file= dev_ner          #'dev_'+para_data['argument_file']+'_ner.txt') # 'dev.txt'
                                  )        
     
     
@@ -78,27 +75,17 @@ def main():
         embedding_types = [
             # word embeddings trained on PubMed and PMC
             WordEmbeddings("pubmed",force_cpu=False, 
-                fine_tune= config["model_embedding_word"]['fine_tune'])    
+                fine_tune= para_data["model_embedding_word"]['fine_tune'])    
         ]
         
     elif model_embedding == "bert": 
         embedding_types = [
             # Bert embeddings trained on Clinical Bert
-#           TransformerWordEmbeddings("/home/xingmeng/sdoh/pretrained_bert_tf/bert-base-clinical-cased",
-#                   model_max_length=512,
-#                   fine_tune= config["model_embedding_bert"]['fine_tune'])
+            TransformerWordEmbeddings("/home/xingmeng/sdoh/pretrained_bert_tf/bert-base-clinical-cased",
+                fine_tune= para_data["model_embedding_bert"]['fine_tune'])
             
             #BertEmbeddings("/home/xingmeng/sdoh/pretrained_bert_tf/bert-base-clinical-cased")
-                #fine_tune= config["model_embedding_bert"]['fine_tune'])
-            # Bert embeddings trained on BioBert
-#           TransformerWordEmbeddings("/home/xingmeng/sdoh/pretrained_bert_tf/bert-base-clinical-cased",
-#               model_max_length=512,
-#               fine_tune= config["model_embedding_bert"]['fine_tune'])
-            
-            TransformerWordEmbeddings("pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb",
-                fine_tune= config["model_embedding_bert"]['fine_tune'])
-            
-            
+                #fine_tune= para_data["model_embedding_bert"]['fine_tune'])
         ]
         
     else: 
@@ -107,10 +94,10 @@ def main():
             # WordEmbeddings("pubmed"),
             
             FlairEmbeddings("pubmed-forward", 
-                fine_tune= config["model_embedding_flair"]['fine_tune']),
+                fine_tune= para_data["model_embedding_flair"]['fine_tune']),
             
             FlairEmbeddings("pubmed-backward", 
-                fine_tune= config["model_embedding_flair"]['fine_tune'])            
+                fine_tune= para_data["model_embedding_flair"]['fine_tune'])            
         ]
         
     embeddings: StackedEmbeddings = StackedEmbeddings(embeddings=embedding_types)
@@ -118,14 +105,14 @@ def main():
     # 4. initialize sequence tagger
     # embedding 
     tagger: SequenceTagger = SequenceTagger(
-        hidden_size=config["feature_embedding"]['hidden_size'],
+        hidden_size=para_data["feature_embedding"]['hidden_size'],
         embeddings=embeddings,
         tag_dictionary=tag_dictionary,
         tag_type="ner",
         use_crf=True,
-        dropout= config["feature_embedding"]['dropout'], #  0.2 0.3 0.4 0.5 0.8
-        #locked_dropout=config["feature_embedding"]['locked_dropout'],
-        rnn_layers = config["feature_embedding"]['rnn_layers'] # 3
+        dropout= para_data["feature_embedding"]['dropout'], #  0.2 0.3 0.4 0.5 0.8
+        #locked_dropout=para_data["feature_embedding"]['locked_dropout'],
+        rnn_layers = para_data["feature_embedding"]['rnn_layers'] # 3
     )
     
     # 5. initialize trainer
@@ -134,20 +121,17 @@ def main():
     
     trainer.train(
         base_path=best_model_path, #"taggers/CHEMDNER_test"
-        train_with_dev=False, #True, # False before
-        max_epochs=config['model_trainer']['max_epochs'], # 30
-        learning_rate=config['model_trainer']['lr'], # 0.1
-        mini_batch_size=config['model_trainer']['mini_batch_size'], # 32,16
-        #mini_batch_chunk_size=16,
-        #embeddings_storage_mode='gpu' #cpu
-        checkpoint= True
+        train_with_dev=True, # False before
+        max_epochs=para_data['model_trainer']['max_epochs'], # 30
+        learning_rate=para_data['model_trainer']['lr'], # 0.1
+        mini_batch_size=para_data['model_trainer']['mini_batch_size'], # 32,16
+        checkpoint= True,
         #embeddings_storage_mode='gpu' #cpu
     )
   
     
 if __name__ == '__main__':
     main()
-    
     
     
     

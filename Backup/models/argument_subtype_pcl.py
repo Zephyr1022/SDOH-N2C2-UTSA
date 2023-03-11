@@ -43,9 +43,9 @@ import gc
 
 train_data = sys.argv[1]
 dev_data = sys.argv[2]
-#test_data = sys.argv[3]
-best_model = sys.argv[3]
-device_cuda = sys.argv[4]
+test_data = sys.argv[3]
+best_model = sys.argv[4]
+device_cuda = sys.argv[5]
 
 torch.manual_seed(0)
 random.seed(0)
@@ -394,7 +394,6 @@ def main():
             y_val.append(row[2])
             
     # test
-    test_data = dev_data
     X_test_txt = []
     y_test = []
     with open(test_data) as iFile:
@@ -411,7 +410,7 @@ def main():
     y_train = [int(y_index.index(x)) for x in y_train]
     
     print(X_train_txt[:5])
-    print("train label data")
+    print("test data")
     print('y_index:', y_index)
     
     # dev

@@ -10,7 +10,6 @@ from funztools.yamlbase import read_data
 from funztools.tools import score_split #file name
 
 input_text = sys.argv[1] #search_data1.yaml
-output_text = sys.argv[2]
 para_data = read_data.ReadData(input_text).loading_data() # ner_conll = sys.argv[2]
 
 # step 1 save based on the trigger: drug,alcohol,tabacoo, emp,liv
@@ -22,7 +21,7 @@ para_data = read_data.ReadData(input_text).loading_data() # ner_conll = sys.argv
 def combine_conll(output_file):
     regex = re.compile(r'\d+')
     with open(output_file,"w") as train_trigger: #sdoh.conll
-        for filename in glob.glob('./NER/'+ para_data['event_type'] + '/' + 'train/*.conll'):
+        for filename in glob.glob('./NER/'+ para_data['event_type'] + '/train/*.conll'):
             with open(filename, 'r') as iFile:
                 data = iFile.read()
                 
@@ -225,7 +224,8 @@ def main():
     #print("STEP 6")
     spaceline_tag("sdoh_shuffle.conll","tag.conll") # np
     #print("STEP 7")
-    del_num("tag.conll", output_text) #'train_'+para_data['argument_file'] +'_ner.txt' # train_argu_drug_ner.txt
-    print("training ner done")
+
+    del_num("tag.conll", 'train_'+para_data['argument_file'] +'_ner.txt') #issue # train_argu_drug_ner.txt
+    print("train done")
     
 main()

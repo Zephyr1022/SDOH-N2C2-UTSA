@@ -10,6 +10,7 @@ from funztools.tools import score_split #file name
 
 input_trigger = sys.argv[1]
 train_dev_test = sys.argv[2]
+#uw_mimic = sys.argv[3]
 
 #input_text = sys.argv[3] #search_data1.yaml
 #para_data = read_data.ReadData(input_text).loading_data()
@@ -40,10 +41,10 @@ def extract_trigger(input_file,output_file):
 
 def main():
     # para_data["argument_train_dev"]
-    for filename in glob.glob('./Annotations'+ train_dev_test  +'/mimic/*.ann'):
+    for filename in glob.glob('./Annotations'+ train_dev_test+ '/temp/*.ann'):
         
         #trigger_filename = filename.replace("Annotations/dev/mimic", "Annotations/val")
-        trigger_filename = filename.replace('./Annotations'+ train_dev_test +'/mimic', 
+        trigger_filename = filename.replace('./Annotations'+ train_dev_test +'/temp', 
                                             './Annotations/triggers_tag/'+ input_trigger + train_dev_test)
 #        print(trigger_filename)
         extract_trigger(filename,trigger_filename)

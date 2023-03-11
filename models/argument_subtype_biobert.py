@@ -38,6 +38,8 @@ from transformers import BertConfig, DistilBertConfig, DistilBertForSequenceClas
 
 from sklearn.model_selection import train_test_split
 
+from transformers import AutoTokenizer, AutoModel, AutoConfig
+
 import gc
 
 
@@ -52,22 +54,27 @@ random.seed(0)
 np.random.seed(0)
 
 class Base_Model_NLP(nn.Module):
-    def __init__(self, configNLP,  num_labels=1):
+    def __init__(self, num_labels=1):
         super(Base_Model_NLP, self).__init__()
         
-        self.configNLP = configNLP
+        # self.configNLP = configNLP
         self.num_labels = num_labels
         #self.layers = self.configNLP.dim
         
+        self.nlp = AutoModel.from_pretrained("dmis-lab/biobert-base-cased-v1.2")
+        self.config = AutoConfig.from_pretrained("dmis-lab/biobert-base-cased-v1.2", num_labels=self.num_labels)
+        
         # Current model is roberta base, but can easily change to other transformer
-        self.nlp = RobertaModel(self.configNLP).from_pretrained('roberta-base', output_hidden_states=True) 
+        # self.nlp = RobertaModel(self.configNLP).from_pretrained('roberta-base', output_hidden_states=True) 
         #self.pre_classifier = nn.Linear(self.configNLP.hidden_size, self.configNLP.hidden_size)
-        self.classifier = nn.Linear(self.configNLP.hidden_size, self.num_labels)
+        
+        self.classifier = nn.Linear(self.config.hidden_size, self.config.num_labels)
+        # self.classifier = nn.Linear(self.configNLP.hidden_size, self.num_labels)
         self.dropout = nn.Dropout(0.1)
         
     def forward(self, input_ids, att_masks):
         #print(input_ids, att_masks)
-        distilbert_output = self.nlp(input_ids=input_ids, attention_mask=att_masks)
+        distilbert_output = self.nlp(input_ids=input_ids, attention_mask=att_masks,output_hidden_states=True)
         #hidden_state = distilbert_output[0]  # (bs, seq_len, dim)
         #pooled_output = hidden_state[:, 0]  # (bs, dim)
         hidden_state = distilbert_output[2][-2]  # (bs, seq_len, dim)
@@ -456,9 +463,13 @@ def main():
     opti_verbose = False
     
     # Instantiate Model
-    config_NLP = RobertaConfig()
-    model_Base = Base_Model_NLP(configNLP = config_NLP, num_labels = len(y_index))
-    nlp_tokenizer = RobertaTokenizer.from_pretrained('roberta-base')#, do_lower_case=do_lower_case)
+    # config_NLP = RobertaConfig()
+    model_Base = Base_Model_NLP(num_labels = len(y_index))
+    # model_Base = Base_Model_NLP(configNLP = config_NLP, num_labels = len(y_index))
+    # nlp_tokenizer = RobertaTokenizer.from_pretrained('roberta-base')#, do_lower_case=do_lower_case)
+    
+    # ClinicalBERT - Bio + Clinical BERT Model
+    nlp_tokenizer = AutoTokenizer.from_pretrained("dmis-lab/biobert-base-cased-v1.2")
     
     
     train_trans = [[x,y] for x,y in zip(train_texts, list(train_labels))]
