@@ -1,0 +1,23 @@
+best_model_path: 'sdoh_t5_search84_arg_together_mimic'
+event_type: 'Argument'
+argument_type: 'StatusTime'
+argument_train_dev: 'train'
+argument_file: 'argu_together'
+model_embeddings: 'bert'
+model_embedding_word:
+ type: "word"
+ fine_tune: False
+model_embedding_bert:
+ type: "bert"
+ fine_tune: True
+model_embedding_flair:
+ type: "flair"
+ fine_tune: False
+feature_embedding:
+ hidden_size: 1024
+ dropout: 0.3
+ rnn_layers: 1
+model_trainer:
+ lr: 0.025
+ max_epochs: 20
+ mini_batch_size: 16

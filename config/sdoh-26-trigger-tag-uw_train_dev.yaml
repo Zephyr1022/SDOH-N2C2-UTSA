@@ -1,0 +1,23 @@
+best_model_path: 'sdoh_flair_search26_trigger_tag_uw_train_dev'
+event_type: 'Event'
+argument_type: 'StatusTime'
+argument_train_dev: 'train'
+argument_file: 'triggers_tag'
+model_embeddings: 'flair'
+model_embedding_word:
+ type: "word"
+ fine_tune: False
+model_embedding_bert:
+ type: "bert"
+ fine_tune: False
+model_embedding_flair:
+ type: "flair"
+ fine_tune: True
+feature_embedding:
+ hidden_size: 128
+ dropout: 0.4
+ rnn_layers: 1
+model_trainer:
+ lr: 0.1
+ max_epochs: 21
+ mini_batch_size: 32
