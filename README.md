@@ -26,9 +26,6 @@ Run `./training_prepare.sh`
 
 We get the data under a directory with such setup:
 
-%#  trigger                          argument
-%#  1-tag      triggers_tag   |      1-together         NER_ALL
-%#  2-notag    triggers       |      2-seperate         NER
 ```
 # Description:
 
