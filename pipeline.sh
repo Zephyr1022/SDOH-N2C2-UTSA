@@ -1,27 +1,5 @@
 # For Task C - Best MODEL T53B
 
-# trigger <><> 
-# argument <><><>
-
-# preprocessing data
-python process_event_old.py ./template/train_triggers_tag_ner.txt Trigger train_triggers_tag_ner.txt
-python process_event_old.py ./template/dev_triggers_tag_ner.txt Trigger dev_triggers_tag_ner.txt
-
-python process_event_old.py ./template/train_arg_together_ner.txt Argument train_arg_together_ner.txt
-python process_event_old.py ./template/dev_arg_together_ner.txt Argument dev_arg_together_ner.txt
-
-cat train_triggers_tag_ner.txt space.txt train_arg_together_ner.txt > mimic-uw_train_ner.txt
-cat dev_triggers_tag_ner.txt space.txt dev_arg_together_ner.txt > mimic-uw_dev_ner.txt
-
-mv train_triggers_tag_ner.txt ./template
-mv train_arg_together_ner.txt ./template
-mv dev_triggers_tag_ner.txt ./template
-mv dev_arg_together_ner.txt ./template
-
-mv mimic-uw_train_ner.txt ./template
-mv mimic-uw_dev_ner.txt ./template
-
-
 # Step 1, Trigger NER - <Trigger><Drug>
 CUDA_VISIBLE_DEVICES=1 nohup python error_analysis_test.py 'sdoh-biobert-joint-event-mimic-uw.yaml' 'test1_triggers_ner.txt' './test_pred/test1_triggers_pred.txt' > ./ner_results/event_trigger_t5_sys1_taskc.out 2>&1 &
 
