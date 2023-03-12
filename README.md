@@ -22,18 +22,26 @@ test
 
 ### Preprocessing
 
-Run `./scripts/preprocessing_train.sh`
+Run `./training_prepare.sh`
 
 We get the data under a directory with such setup:
 
+%#  trigger                          argument
+%#  1-tag      triggers_tag   |      1-together         NER_ALL
+%#  2-notag    triggers       |      2-seperate         NER
 ```
 # Description:
-#  trigger                          argument
-#  1-tag      triggers_tag   |      1-together         NER_ALL
-#  2-notag    triggers       |      2-seperate         NER
+
+Triger: <Trigger><Drug>
+Argument: <Argument><Drug><Type>
 
 Annotation
 └── triggers_tag
+	├── train
+	│   └── ann + txt -> conll -> combined 
+ 	├── dev
+        └── test
+└── arguments_tag
 	├── train
 	│   └── ann + txt -> conll -> combined 
  	├── dev
