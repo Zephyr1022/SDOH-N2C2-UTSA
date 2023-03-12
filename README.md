@@ -20,7 +20,7 @@ The prediction task A, B, and C involves identifying trigger and argument spans,
 
 ### Preprocessing
 
-Run `./training_prepare.sh`
+Run `./training_prepare.sh` and `./test_prepare.sh`
 
 We get the data under a directory with such setup:
 
@@ -43,6 +43,14 @@ Annotation
         └── test
 
 ```
+
+### Train the model 
+
+Run `./model_train.sh`
+
+### synthesize ann structural data
+
+Run `./pipeline.sh`
 
 
 
